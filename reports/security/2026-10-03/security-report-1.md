@@ -1,9 +1,9 @@
 # Security Report
 
-Run : 1
+Run : 3
 Branch : main
-Commit : 308682d129d567b4d156657601c0c7da628df192
-Date : Thu Oct  1 02:14:13 UTC 2026
+Commit : 10fe10ba429cd84d3030f14d426805285a886498
+Date : Sat Oct  3 02:16:23 UTC 2026
 
 Fuzzing
 
@@ -36,12 +36,12 @@ THE LAST SIGNAL - RED TEAM FILE INTEGRITY TEST V2
 
 === RED TEAM CLONE ===
 Repository : https://github.com/Juan520dlc/The-last-signal-.git
-SHA        : 308682d129d567b4d156657601c0c7da628df192
-[CMD] git clone --no-tags --filter=blob:none https://github.com/Juan520dlc/The-last-signal-.git /tmp/security_red_team_31os308w/repository
-[CMD] git fetch --depth=1 origin 308682d129d567b4d156657601c0c7da628df192
-[CMD] git checkout --detach 308682d129d567b4d156657601c0c7da628df192
+SHA        : 10fe10ba429cd84d3030f14d426805285a886498
+[CMD] git clone --no-tags --filter=blob:none https://github.com/Juan520dlc/The-last-signal-.git /tmp/security_red_team_ksmjncyi/repository
+[CMD] git fetch --depth=1 origin 10fe10ba429cd84d3030f14d426805285a886498
+[CMD] git checkout --detach 10fe10ba429cd84d3030f14d426805285a886498
 [CMD] git rev-parse HEAD
-[PASS] Exact commit verified: 308682d129d567b4d156657601c0c7da628df192
+[PASS] Exact commit verified: 10fe10ba429cd84d3030f14d426805285a886498
 
 === CREATING SECURITY LAB ===
 [PASS] Laboratory created.
@@ -138,7 +138,6 @@ Git integrity: FAIL
 === FILESYSTEM SECURITY SCAN ===
 [WARN] World-executable script: server_rust/vendor/sqlx/gen-changelog.sh
 [WARN] World-executable script: server_rust/vendor/crc-catalog/generate_tests.sh
-[WARN] World-executable script: server_rust/vendor/libc/etc/libc-util.py
 [WARN] World-executable script: server_rust/vendor/unicode-normalization/scripts/unicode.py
 [WARN] World-executable script: server_rust/vendor/redox_syscall/src/scheme/generate.sh
 [WARN] World-executable script: server_rust/vendor/sqlx/examples/x.py
@@ -148,7 +147,7 @@ Git integrity: FAIL
 [WARN] World-executable script: server_rust/vendor/sqlx/tests/mssql/entrypoint.sh
 [WARN] World-executable script: server_rust/vendor/sqlx/tests/mssql/configure-db.sh
 
-Files/objects inspected: 10419
+Files/objects inspected: 10497
 [PASS] No dangerous filesystem permissions detected.
 
 ## Git Security Test
@@ -156,7 +155,7 @@ Files/objects inspected: 10419
 [INFO] Working tree contains changes.
 [FAIL] Sensitive file tracked by Git: server_rust/vendor/sqlx/tests/.env
 [INFO] core.filemode=true
-[INFO] HEAD=79773cc4ea03ad0dfa42ea94ff39538e7a95796e
+[INFO] HEAD=c4323dc32f9fc407188e909343574e4227a13168
 [INFO] Scanning Git history for obvious secrets...
 [FAIL] Potential secret detected in Git history.
 [FAIL] 2 Git security issue(s) detected.
@@ -170,7 +169,7 @@ Files/objects inspected: 10419
 [FAIL] tests/security/test_sql_injection.py:456 - Potential dynamically constructed SQL query
 [FAIL] server_rust/vendor/unicode-properties/scripts/unicode.py:43 - os.system() command execution
 
-Python files inspected: 73
+Python files inspected: 72
 [FAIL] 6 Python security finding(s) detected.
 
 ## Rust Security Test
@@ -354,28 +353,45 @@ Python files inspected: 73
 [WARN] server_rust/vendor/wasm-bindgen/build.rs:29 - Potential unwrap
 [WARN] server_rust/vendor/serde_json/build.rs:10 - Potential unwrap
 [WARN] server_rust/vendor/serde_json/build.rs:11 - Potential unwrap
-[WARN] server_rust/vendor/libc/build.rs:118 - Potential unwrap
-[WARN] server_rust/vendor/libc/build.rs:243 - Potential expect
-[WARN] server_rust/vendor/libc/build.rs:245 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:246 - Command execution
-[WARN] server_rust/vendor/libc/build.rs:248 - Command execution
-[WARN] server_rust/vendor/libc/build.rs:248 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:249 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:251 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:254 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:256 - Command execution
-[WARN] server_rust/vendor/libc/build.rs:259 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:261 - Shell invocation
-[WARN] server_rust/vendor/libc/build.rs:261 - Potential expect
-[WARN] server_rust/vendor/libc/build.rs:319 - Command execution
-[WARN] server_rust/vendor/libc/build.rs:344 - Command execution
+[WARN] server_rust/vendor/libc/build.rs:196 - Potential unwrap
+[WARN] server_rust/vendor/libc/build.rs:370 - Potential expect
+[WARN] server_rust/vendor/libc/build.rs:372 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:373 - Command execution
+[WARN] server_rust/vendor/libc/build.rs:375 - Command execution
+[WARN] server_rust/vendor/libc/build.rs:375 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:376 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:378 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:381 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:383 - Command execution
+[WARN] server_rust/vendor/libc/build.rs:386 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:388 - Shell invocation
+[WARN] server_rust/vendor/libc/build.rs:388 - Potential expect
+[WARN] server_rust/vendor/libc/build.rs:533 - Command execution
+[WARN] server_rust/vendor/libc/build.rs:560 - Command execution
 [WARN] server_rust/vendor/libc/tests/const_fn.rs:2 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/helenos.rs:54 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/types.rs:38 - Potential unwrap
-[WARN] server_rust/vendor/libc/src/types.rs:121 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/macros.rs:409 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/macros.rs:415 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/macros.rs:483 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/macros.rs:484 - Potential unwrap
+[WARN] server_rust/vendor/libc/src/types.rs:123 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:421 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:520 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:997 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1005 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1013 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1019 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1042 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1093 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1094 - Potential unwrap
+[WARN] server_rust/vendor/libc/src/macros.rs:1276 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1277 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1282 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1283 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1288 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1289 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1435 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1442 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1474 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1488 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/macros.rs:1564 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/psp.rs:18 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/psp.rs:26 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/psp.rs:29 - unsafe block/function
@@ -398,38 +414,38 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/psp.rs:3478 - Shell invocation
 [WARN] server_rust/vendor/libc/src/hermit.rs:470 - Shell invocation
 [WARN] server_rust/vendor/libc/src/hermit.rs:552 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:88 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:89 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:2973 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:2980 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:2986 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:2993 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:2997 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3001 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3008 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3015 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3021 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3025 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3029 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3039 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3047 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3051 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3055 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3093 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3094 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3124 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3129 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3133 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3303 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3471 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3740 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3744 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3745 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3773 - Shell invocation
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3979 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3980 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3981 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:4005 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:133 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:134 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3130 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3139 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3148 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3157 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3161 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3165 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3171 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3178 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3188 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3192 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3196 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3206 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3214 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3218 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3222 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3258 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3259 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3289 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3294 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3298 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3467 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3635 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3908 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3912 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3913 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:3941 - Shell invocation
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:4147 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:4148 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:4149 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/fuchsia/mod.rs:4173 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/vxworks/mod.rs:10 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/vxworks/mod.rs:11 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/vxworks/mod.rs:109 - unsafe block/function
@@ -443,131 +459,132 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/vxworks/mod.rs:652 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/vxworks/mod.rs:664 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/vxworks/mod.rs:670 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1464 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1468 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1480 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1488 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1492 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1496 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1874 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1875 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1876 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2007 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2136 - Shell invocation
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2440 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2447 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:55 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:56 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:66 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:67 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:549 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:551 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:622 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:628 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:637 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:805 - Shell invocation
-[WARN] server_rust/vendor/libc/src/wasi/mod.rs:1048 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/solid/mod.rs:525 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/solid/mod.rs:536 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/solid/mod.rs:550 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/solid/mod.rs:588 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/solid/mod.rs:606 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/solid/mod.rs:612 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1466 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1470 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1482 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1490 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1494 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1498 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1904 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1905 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:1906 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2037 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2166 - Shell invocation
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2443 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/vxworks/mod.rs:2450 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:59 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:60 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:70 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:71 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:554 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:556 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:676 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:685 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:697 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:865 - Shell invocation
+[WARN] server_rust/vendor/libc/src/wasi/mod.rs:1121 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/solid/mod.rs:535 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/solid/mod.rs:546 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/solid/mod.rs:560 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/solid/mod.rs:598 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/solid/mod.rs:616 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/solid/mod.rs:622 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/teeos/mod.rs:1033 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/teeos/mod.rs:1334 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/windows/mod.rs:311 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/windows/mod.rs:317 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/windows/mod.rs:313 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/windows/mod.rs:319 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/mod.rs:46 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/mod.rs:47 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/mod.rs:644 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/mod.rs:651 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/mod.rs:973 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/mod.rs:1331 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/mod.rs:2125 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:819 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:826 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:832 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:839 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:933 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:934 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:935 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1050 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1054 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1058 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1062 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1066 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3382 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3390 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3394 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3398 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3402 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3417 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3423 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3427 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3433 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3439 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3445 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3454 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3458 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3462 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3466 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3470 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3477 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3483 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3490 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3938 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3939 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3940 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4325 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4470 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4502 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4506 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4549 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4550 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:472 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:480 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:487 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:493 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:500 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:522 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:523 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:742 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:743 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:744 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1441 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1477 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1483 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1487 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1493 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1499 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1505 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1514 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1518 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1522 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1526 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1530 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1534 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1538 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1542 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1546 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1550 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1554 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1558 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1562 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1729 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1830 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1766 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/mod.rs:701 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/mod.rs:708 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/mod.rs:1037 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/mod.rs:1399 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/mod.rs:2194 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:892 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:895 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:904 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:913 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:922 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:1017 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:1018 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/newlib/mod.rs:1019 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1126 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1130 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1134 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1138 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:1142 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3521 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3529 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3533 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3537 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3541 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3556 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3562 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3566 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3572 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3578 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3584 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3593 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3597 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3601 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3605 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3609 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3618 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3627 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3636 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3658 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3662 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3705 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:3706 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4182 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4183 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4184 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4583 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/hurd/mod.rs:4756 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:521 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:529 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:538 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:547 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:556 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:576 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:577 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:798 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:799 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/mod.rs:800 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1436 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1472 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1478 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1482 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1488 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1494 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1500 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1509 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1513 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1517 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1521 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1525 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1529 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1533 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1537 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1541 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1545 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1549 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1553 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1557 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1722 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux_l4re_shared.rs:1823 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1774 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1778 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1782 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1786 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1793 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1799 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1806 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1813 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1817 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1860 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1861 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1790 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1794 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1803 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1812 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1821 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1826 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1830 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1873 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/mod.rs:1874 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/solarish/compat.rs:12 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/solarish/compat.rs:37 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/solarish/compat.rs:46 - unsafe block/function
@@ -595,125 +612,139 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2237 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2251 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2255 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2262 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2268 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2275 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2264 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2273 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2282 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2286 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2549 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2755 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2756 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2757 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2872 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:3019 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:3023 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:3027 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1114 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1117 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1120 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1125 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1132 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1138 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1145 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1278 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1279 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1280 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2287 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2291 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2554 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2760 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2761 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2762 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:2877 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:3024 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:3028 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/solarish/mod.rs:3032 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:390 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:394 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:398 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:402 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:406 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:410 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:414 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1231 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1235 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1238 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1241 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1246 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1255 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1264 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1273 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1404 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1405 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/redox/mod.rs:1406 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:527 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:540 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:553 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:557 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:561 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1682 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1688 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1694 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1700 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1704 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1710 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1719 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1723 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1731 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1739 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1749 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1684 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1687 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1696 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1705 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1714 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1718 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1724 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1733 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1737 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1745 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1753 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1757 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1761 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1765 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1773 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1783 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2022 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2085 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2086 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2087 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:351 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:355 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:359 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:363 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:367 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:376 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:386 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:336 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:561 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:571 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2461 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2469 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2484 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2488 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2492 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2496 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2500 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2507 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2514 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2596 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2597 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2598 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2699 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2801 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3024 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3042 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3099 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3217 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3284 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3322 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1763 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1767 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1771 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1775 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1779 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1787 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:1797 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2034 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2097 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2098 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/cygwin/mod.rs:2099 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:272 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:276 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:280 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:284 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:288 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:310 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:319 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:322 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:327 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:387 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/powerpc64.rs:397 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:339 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:566 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:576 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2466 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2474 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2490 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2494 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2498 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2502 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2506 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2515 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2524 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2607 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2608 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2609 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2695 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:2785 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3015 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3033 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3083 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3206 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3270 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/aix/mod.rs:3309 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:146 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:157 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:949 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:956 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:991 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:997 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1008 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1009 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1026 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1030 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1035 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1053 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1062 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1071 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1080 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:550 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2263 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2271 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2281 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2285 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2289 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2293 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2300 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2306 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2313 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2317 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2324 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2335 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2342 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2689 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2690 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2691 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2851 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2882 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2944 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2953 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2962 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2971 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2980 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2989 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1081 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1088 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1123 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1129 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1140 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1141 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1158 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1162 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1167 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1185 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1194 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1203 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/neutrino.rs:1212 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:287 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:568 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2333 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2341 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2351 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2355 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2359 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2363 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2372 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2381 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2390 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2394 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2401 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2412 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2419 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2766 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2767 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2768 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2928 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:2959 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:3021 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:3030 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:3039 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:3048 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:3057 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/nto/mod.rs:3066 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/haiku/native.rs:484 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/haiku/native.rs:503 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/haiku/native.rs:1290 - unsafe block/function
@@ -736,70 +767,68 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:92 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:96 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:100 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1389 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1397 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1394 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1401 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1405 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1409 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1424 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1431 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1437 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1444 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1728 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1729 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1730 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1777 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1788 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1799 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1806 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1413 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1417 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1421 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1436 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1445 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1454 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1463 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1745 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1746 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1747 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1794 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1805 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1816 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/haiku/mod.rs:1823 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/nto/arch/x86_64.rs:101 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/nto/arch/x86_64.rs:111 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:190 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:616 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:698 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3468 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3478 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3484 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3488 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3495 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3502 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3508 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3517 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3521 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3525 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3529 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3867 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3875 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3959 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3970 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:192 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3440 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3454 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3464 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3470 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3474 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3480 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3486 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3492 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3501 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3505 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3509 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3513 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3855 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3863 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3947 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3958 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3973 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3977 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3981 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3985 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3989 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3993 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:3997 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:4001 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/mod.rs:4005 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:261 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:456 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:521 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:1031 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:1049 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:1088 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:1137 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3379 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3383 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3387 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3391 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3395 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:262 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:457 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:522 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:1033 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:1083 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3353 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3357 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3361 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3365 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3369 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3373 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3377 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3381 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3385 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3394 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3399 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3403 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3407 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3411 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3420 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3425 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3430 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3514 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3516 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3594 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3404 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3488 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3490 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/mod.rs:3571 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/lfs64.rs:7 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/lfs64.rs:12 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/lfs64.rs:17 - unsafe block/function
@@ -830,31 +859,18 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/lfs64.rs:202 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/lfs64.rs:207 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/lfs64.rs:212 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1266 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1279 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1283 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1290 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1297 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1303 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:139 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:150 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:190 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:194 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:198 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:202 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:206 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:210 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:434 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:445 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:494 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:498 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:502 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:506 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:510 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:514 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:531 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:543 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:1012 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1302 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1305 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1318 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1322 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1328 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1334 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/emscripten/mod.rs:1340 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/uclibc/mod.rs:267 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:456 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:468 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:870 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/mod.rs:920 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/lfs64.rs:5 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/lfs64.rs:10 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/lfs64.rs:20 - unsafe block/function
@@ -888,73 +904,70 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/lfs64.rs:230 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/lfs64.rs:235 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/lfs64.rs:240 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:56 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:67 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:107 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:111 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:115 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:119 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:123 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:127 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/b64/riscv64/mod.rs:153 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/gnu/b32/riscv32/mod.rs:120 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/linux/musl/mod.rs:681 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/arm.rs:63 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/arm.rs:69 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/arm.rs:486 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b64/mod.rs:186 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b64/x86_64/mod.rs:172 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b64/x86_64/mod.rs:178 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b64/mod.rs:192 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b64/x86_64/mod.rs:173 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b64/x86_64/mod.rs:179 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/x86/mod.rs:64 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/x86/mod.rs:70 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/x86/mod.rs:557 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:308 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:319 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:359 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:363 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:367 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:371 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:375 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:379 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/mod.rs:794 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/linux_like/android/b32/x86/mod.rs:554 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:314 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:325 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:365 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:369 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:373 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:377 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:381 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:385 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/linux_like/l4re/uclibc/mod.rs:483 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/mod.rs:798 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:66 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:70 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:74 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:78 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:82 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:1724 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:704 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:718 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:732 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1694 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1698 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1714 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1718 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1722 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1739 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1745 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1764 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1765 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1766 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1767 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1776 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1783 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1792 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1821 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/mod.rs:1721 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:779 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:794 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:809 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1846 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1852 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1853 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1859 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1880 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4335 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4349 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4353 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4357 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4361 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4483 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4493 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4682 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:5210 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:5216 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1872 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1882 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1901 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1905 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1921 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1925 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1929 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1946 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1952 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1971 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1972 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1973 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1974 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1983 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1990 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:1999 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:2028 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:2053 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:2059 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:2060 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:2067 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:2090 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4473 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4584 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4598 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4602 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4606 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4610 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4722 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4732 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:4930 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:5449 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/mod.rs:5456 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:16 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:18 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:20 - unsafe block/function
@@ -962,74 +975,76 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:28 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:30 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:36 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:39 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:47 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:56 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:63 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:40 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:48 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:58 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:65 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:67 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/apple/b64/x86_64/mod.rs:69 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:480 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1238 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1242 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1246 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1258 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1262 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1266 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1237 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1244 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1248 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1252 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1264 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1268 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1272 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1278 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1360 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1392 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1396 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1801 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1807 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1831 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1843 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1865 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1866 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1867 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1868 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1869 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1870 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1871 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1872 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1873 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1874 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1875 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1876 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1877 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1878 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1277 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1282 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1362 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1394 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/dragonfly/mod.rs:1398 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1815 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1821 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1845 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1857 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1879 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1880 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1881 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1882 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1883 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1884 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1885 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1886 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1887 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1888 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1889 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1890 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1891 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1892 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1898 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1904 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1913 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1919 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1893 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1899 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1905 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1906 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1912 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1918 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1927 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:1933 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4425 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4428 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4432 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4436 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4449 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4453 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4457 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4461 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4465 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4469 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4473 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4486 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4490 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4470 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4474 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4478 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4482 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4488 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4494 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4498 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4502 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4507 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4511 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4500 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4510 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4515 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4519 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4525 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4531 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4537 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4548 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4553 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4557 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4736 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4773 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4775 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4777 - Shell invocation
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4940 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4971 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4696 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4733 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4735 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4737 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4900 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/mod.rs:4931 - Shell invocation
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/freebsd11/mod.rs:324 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/x86_64/mod.rs:156 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/freebsdlike/freebsd/freebsd12/mod.rs:362 - unsafe block/function
@@ -1047,13 +1062,14 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:855 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:890 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:908 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1851 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1855 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1859 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1861 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1864 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1868 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1872 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:2012 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:2039 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:2046 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:1885 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:2023 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:2050 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/openbsd/mod.rs:2057 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/aarch64.rs:44 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/aarch64.rs:56 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/riscv64.rs:28 - unsafe block/function
@@ -1067,21 +1083,69 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:119 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:813 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:818 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1818 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1822 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1826 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1839 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1846 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1826 - Shell invocation
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1829 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1833 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1837 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1850 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1855 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1859 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2162 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2275 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2342 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2343 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1857 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1861 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1866 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:1870 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2172 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2285 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2352 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/unix/bsd/netbsdlike/netbsd/mod.rs:2353 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/qurt/errno.rs:148 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/qurt/errno.rs:152 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/qurt/fcntl.rs:50 - Shell invocation
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:105 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:106 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:110 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:111 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:115 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:116 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:120 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:121 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:125 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:126 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:130 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:131 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:135 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:136 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:140 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:141 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:145 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:146 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:150 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:151 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:155 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:156 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:160 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:161 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:165 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:166 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:170 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:171 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:175 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:176 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:180 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:181 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:185 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:188 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:192 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:193 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:197 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:198 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:202 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/musl/signal.rs:203 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/fibril.rs:23 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/inet/tcp.rs:11 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/inet/tcp.rs:12 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/inet/tcp.rs:13 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/inet/tcp.rs:14 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/inet/tcp.rs:15 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/helenos/inet/tcp.rs:19 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/nto/net/bpf.rs:43 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/nto/net/bpf.rs:47 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/nto/net/bpf.rs:51 - unsafe block/function
@@ -1099,7 +1163,89 @@ Python files inspected: 73
 [WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/sctp.rs:65 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/sctp.rs:69 - unsafe block/function
 [WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/sctp.rs:73 - unsafe block/function
-[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/netlink.rs:133 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/can.rs:112 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/netlink.rs:87 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/netlink.rs:93 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/netlink.rs:100 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/netlink.rs:106 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/linux_uapi/linux/netlink.rs:174 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/sigaction.rs:15 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:140 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:141 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:145 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:146 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:150 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:151 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:155 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:156 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:160 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:161 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:165 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:166 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:170 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:171 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:175 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:176 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:180 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:183 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:187 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:188 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:192 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:193 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:198 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:199 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:203 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:204 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:208 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:209 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:213 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:214 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:218 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:219 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:223 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:224 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:228 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:229 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:233 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:234 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:238 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:239 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:243 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs:244 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:117 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:118 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:122 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:123 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:127 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:128 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:132 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:133 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:137 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:138 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:142 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:143 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:147 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:148 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:152 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:153 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:157 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:160 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:164 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:165 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:169 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:170 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:180 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:181 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:185 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:186 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:190 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:191 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:195 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:196 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:200 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:201 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:205 - unsafe block/function
+[WARN] server_rust/vendor/libc/src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs:206 - unsafe block/function
 [WARN] server_rust/vendor/futures-intrusive/examples/cancellation.rs:273 - Potential unwrap
 [WARN] server_rust/vendor/futures-intrusive/examples/cancellation.rs:291 - Potential unwrap
 [WARN] server_rust/vendor/futures-intrusive/examples/philosophers.rs:157 - Potential unwrap
@@ -28538,366 +28684,407 @@ Python files inspected: 73
 [WARN] server_rust/vendor/cc/src/utilities.rs:91 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/utilities.rs:93 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/utilities.rs:99 - unsafe block/function
-[WARN] server_rust/vendor/cc/src/utilities.rs:115 - unsafe block/function
-[WARN] server_rust/vendor/cc/src/utilities.rs:116 - unsafe block/function
-[WARN] server_rust/vendor/cc/src/utilities.rs:127 - unsafe block/function
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:247 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:248 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:249 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:253 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:264 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:276 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:397 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:403 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:406 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:411 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:412 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:416 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:417 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:418 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:427 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:434 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:450 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:456 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:462 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:467 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:472 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:473 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:479 - Shell invocation
+[WARN] server_rust/vendor/cc/src/utilities.rs:125 - unsafe block/function
+[WARN] server_rust/vendor/cc/src/utilities.rs:126 - unsafe block/function
+[WARN] server_rust/vendor/cc/src/utilities.rs:137 - unsafe block/function
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:99 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:109 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:116 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:119 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:128 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:195 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:220 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:260 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:273 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:304 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:305 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:309 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:310 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:318 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:319 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:320 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:324 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:328 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:337 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:348 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:468 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:474 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:477 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:482 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:483 - Shell invocation
 [WARN] server_rust/vendor/cc/src/command_helpers.rs:487 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:488 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:489 - Shell invocation
 [WARN] server_rust/vendor/cc/src/command_helpers.rs:498 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:515 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:516 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:526 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:528 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:529 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:505 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:510 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:517 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:524 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:530 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:537 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:543 - Shell invocation
 [WARN] server_rust/vendor/cc/src/command_helpers.rs:544 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:549 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:564 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:570 - Shell invocation
-[WARN] server_rust/vendor/cc/src/command_helpers.rs:572 - Shell invocation
-[WARN] server_rust/vendor/cc/src/flags.rs:433 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1561 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1599 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1654 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1655 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1657 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1674 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1677 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1680 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1687 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1693 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1695 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1696 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:550 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:558 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:561 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:568 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:584 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:585 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:595 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:597 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:598 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:613 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:618 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:633 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:639 - Shell invocation
+[WARN] server_rust/vendor/cc/src/command_helpers.rs:641 - Shell invocation
+[WARN] server_rust/vendor/cc/src/flags.rs:439 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:1649 - Potential unwrap
 [WARN] server_rust/vendor/cc/src/lib.rs:1703 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1815 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1833 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1893 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:1996 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:1997 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2011 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2018 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2032 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2035 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2038 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2041 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2044 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2047 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2058 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2071 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2079 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2081 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2088 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2089 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2104 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2119 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2177 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2198 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2199 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2201 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2207 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2213 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1768 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1769 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1771 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1788 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1791 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1794 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1801 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1807 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1809 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1810 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:1817 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:1919 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:1937 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:1997 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:2181 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2182 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2196 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2203 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2217 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2220 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2221 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2224 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2225 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2235 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2236 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2239 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2240 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2244 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2245 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2250 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2251 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2257 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2262 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2267 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2270 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2275 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2279 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2282 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2287 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2223 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2226 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2229 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2232 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2243 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2256 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2264 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2266 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2273 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2274 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2289 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2295 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2298 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2319 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2322 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2327 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2334 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2336 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2351 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2355 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2357 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2364 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2365 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2367 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2370 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2376 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2384 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2304 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2362 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2385 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2399 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2405 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2386 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2388 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2394 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2400 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2404 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2407 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2408 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2411 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2412 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2419 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2440 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2448 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2450 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2452 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2459 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2461 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2464 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2467 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2472 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2422 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2423 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2426 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2427 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2431 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2432 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2437 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2438 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2444 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2449 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2454 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2457 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2462 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2466 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2469 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2474 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2476 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2478 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2479 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2481 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2484 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2489 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2491 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2493 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2515 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2525 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2528 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2530 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:2531 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2534 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2538 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2541 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2548 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2550 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2551 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2559 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2590 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2597 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2482 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2485 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2506 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2509 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2514 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2522 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2524 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2539 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2543 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2545 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2552 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2553 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2555 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2558 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2564 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2572 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2573 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2587 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2593 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2600 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2618 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2621 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2623 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2635 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2641 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2648 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2657 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2661 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2607 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2628 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2636 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2638 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2640 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2647 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2649 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2652 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2655 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2660 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2662 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2668 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2664 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2666 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2667 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2669 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2674 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2676 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2680 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2684 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2685 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2686 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2690 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2691 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2692 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2697 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2698 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2700 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2702 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2708 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2672 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2677 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2679 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2681 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2703 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2713 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2716 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2718 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:2719 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2722 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2731 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2735 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2742 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2746 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2750 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2752 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2757 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2761 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2763 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2771 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2774 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2783 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2726 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2729 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2736 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2738 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2739 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2747 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2778 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2785 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2789 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2796 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2799 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2788 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2806 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2808 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2820 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2821 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2809 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2811 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2823 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2824 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2828 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2829 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2831 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2832 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2835 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2844 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2836 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2845 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2863 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2867 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2871 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2849 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2850 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2856 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2857 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2862 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2864 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2868 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2872 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2873 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2874 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2878 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2881 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2884 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2894 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2904 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2911 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2914 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2953 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2955 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2963 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:2978 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2879 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2880 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2885 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2886 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2888 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2890 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2896 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2901 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2910 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2919 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2923 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2930 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2934 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2938 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2940 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2945 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2949 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2951 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2959 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2962 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2971 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2973 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2977 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:2984 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3001 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2987 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2994 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:2996 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3008 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3009 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3011 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3012 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:3016 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3017 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3019 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3020 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:3023 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3029 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3044 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3046 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3047 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3049 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3053 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3057 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3061 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3064 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3032 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3033 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3051 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3055 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3059 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3062 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:3066 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3068 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3071 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3076 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3081 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3083 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3089 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3092 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3198 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3206 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3208 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3213 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3215 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3216 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3240 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3247 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3250 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3254 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3260 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3069 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3072 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3082 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3093 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3102 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3108 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3147 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3149 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3157 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3172 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3178 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3195 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3211 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3218 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3224 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3239 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3241 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3242 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3244 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3248 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3252 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3256 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3259 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:3261 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3262 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3263 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3266 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:3271 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3276 - Shell invocation
 [WARN] server_rust/vendor/cc/src/lib.rs:3278 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3280 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3281 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3292 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3294 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3299 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3307 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3308 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3309 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3318 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3347 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3348 - Command execution
-[WARN] server_rust/vendor/cc/src/lib.rs:3348 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3350 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3352 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3437 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3569 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:3570 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:3580 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:3717 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/lib.rs:3808 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3812 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3816 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3818 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3824 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3856 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3858 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3860 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3865 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3882 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3883 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3884 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3890 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3892 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3893 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3896 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3908 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3926 - Command execution
-[WARN] server_rust/vendor/cc/src/lib.rs:3936 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3952 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3953 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3954 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3955 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3966 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3969 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3971 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3974 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3976 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3984 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:3987 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4002 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4017 - Command execution
-[WARN] server_rust/vendor/cc/src/lib.rs:4029 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4033 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4038 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4476 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4482 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4521 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4544 - Potential expect
-[WARN] server_rust/vendor/cc/src/lib.rs:4554 - Potential expect
-[WARN] server_rust/vendor/cc/src/lib.rs:4565 - Potential expect
-[WARN] server_rust/vendor/cc/src/lib.rs:4574 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4600 - Potential expect
-[WARN] server_rust/vendor/cc/src/lib.rs:4681 - Potential expect
-[WARN] server_rust/vendor/cc/src/lib.rs:4740 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4923 - Command execution
-[WARN] server_rust/vendor/cc/src/lib.rs:4939 - Shell invocation
-[WARN] server_rust/vendor/cc/src/lib.rs:4943 - Command execution
-[WARN] server_rust/vendor/cc/src/lib.rs:4945 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:134 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:162 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:227 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/tool.rs:242 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:242 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:243 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3284 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3287 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3396 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3404 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3406 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3411 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3413 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3414 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3438 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3445 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3448 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3452 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3458 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3459 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3460 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3469 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3476 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3478 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3479 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3490 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3492 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3497 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3505 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3506 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3507 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3516 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3545 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3546 - Command execution
+[WARN] server_rust/vendor/cc/src/lib.rs:3546 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3547 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3548 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3633 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:3766 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:3767 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:3777 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:3913 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/lib.rs:4011 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4015 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4019 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4021 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4027 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4059 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4061 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4063 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4068 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4085 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4086 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4087 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4093 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4095 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4096 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4099 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4111 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4129 - Command execution
+[WARN] server_rust/vendor/cc/src/lib.rs:4139 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4155 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4156 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4157 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4158 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4169 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4172 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4174 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4177 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4179 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4187 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4190 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4205 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4220 - Command execution
+[WARN] server_rust/vendor/cc/src/lib.rs:4220 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4221 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4222 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4234 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4238 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4243 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4679 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4685 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4724 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4747 - Potential expect
+[WARN] server_rust/vendor/cc/src/lib.rs:4757 - Potential expect
+[WARN] server_rust/vendor/cc/src/lib.rs:4768 - Potential expect
+[WARN] server_rust/vendor/cc/src/lib.rs:4777 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:4803 - Potential expect
+[WARN] server_rust/vendor/cc/src/lib.rs:4884 - Potential expect
+[WARN] server_rust/vendor/cc/src/lib.rs:4943 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:5204 - Command execution
+[WARN] server_rust/vendor/cc/src/lib.rs:5204 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:5205 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:5206 - Shell invocation
+[WARN] server_rust/vendor/cc/src/lib.rs:5242 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:44 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:45 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:46 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:91 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:92 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:93 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:126 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:127 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:134 - Command execution
+[WARN] server_rust/vendor/cc/src/build_env.rs:134 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:135 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:137 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:139 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:153 - Command execution
+[WARN] server_rust/vendor/cc/src/build_env.rs:153 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:154 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:156 - Shell invocation
+[WARN] server_rust/vendor/cc/src/build_env.rs:164 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/tool.rs:147 - Command execution
+[WARN] server_rust/vendor/cc/src/tool.rs:175 - Command execution
+[WARN] server_rust/vendor/cc/src/tool.rs:239 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/tool.rs:253 - Command execution
+[WARN] server_rust/vendor/cc/src/tool.rs:253 - Shell invocation
 [WARN] server_rust/vendor/cc/src/tool.rs:254 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:261 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:273 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:297 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/tool.rs:265 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:272 - Command execution
+[WARN] server_rust/vendor/cc/src/tool.rs:281 - Shell invocation
 [WARN] server_rust/vendor/cc/src/tool.rs:304 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/tool.rs:372 - Potential unwrap
-[WARN] server_rust/vendor/cc/src/tool.rs:411 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:413 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:413 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:414 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:415 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:417 - Command execution
-[WARN] server_rust/vendor/cc/src/tool.rs:419 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:421 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:311 - Potential unwrap
+[WARN] server_rust/vendor/cc/src/tool.rs:380 - Potential unwrap
 [WARN] server_rust/vendor/cc/src/tool.rs:424 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:426 - Command execution
+[WARN] server_rust/vendor/cc/src/tool.rs:426 - Shell invocation
 [WARN] server_rust/vendor/cc/src/tool.rs:427 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:544 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:550 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:563 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:428 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:430 - Command execution
+[WARN] server_rust/vendor/cc/src/tool.rs:432 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:433 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:435 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:438 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:441 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:558 - Shell invocation
 [WARN] server_rust/vendor/cc/src/tool.rs:564 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:569 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:572 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:576 - Shell invocation
-[WARN] server_rust/vendor/cc/src/tool.rs:580 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:577 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:578 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:583 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:586 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:590 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:594 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:648 - Shell invocation
+[WARN] server_rust/vendor/cc/src/tool.rs:649 - Shell invocation
 [WARN] server_rust/vendor/cc/src/parallel/stderr.rs:14 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/parallel/stderr.rs:31 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/parallel/stderr.rs:62 - unsafe block/function
@@ -28905,14 +29092,17 @@ Python files inspected: 73
 [WARN] server_rust/vendor/cc/src/parallel/stderr.rs:91 - Potential unwrap
 [WARN] server_rust/vendor/cc/src/parallel/job_token.rs:41 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/parallel/job_token.rs:105 - unsafe block/function
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:36 - Shell invocation
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:54 - Shell invocation
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:63 - Shell invocation
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:116 - Shell invocation
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:117 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:35 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:40 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:44 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:51 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:56 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:61 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:113 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:114 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:154 - Shell invocation
 [WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:156 - Shell invocation
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:158 - Shell invocation
-[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:163 - Shell invocation
+[WARN] server_rust/vendor/cc/src/parallel/command_runner.rs:161 - Shell invocation
 [WARN] server_rust/vendor/cc/src/parallel/async_executor.rs:62 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/parallel/async_executor.rs:63 - unsafe block/function
 [WARN] server_rust/vendor/cc/src/parallel/async_executor.rs:67 - unsafe block/function
@@ -35793,21 +35983,25 @@ Python files inspected: 73
 [WARN] server_rust/vendor/uuid/src/rng.rs:278 - Potential expect
 [WARN] server_rust/vendor/uuid/src/timestamp.rs:390 - Potential expect
 [WARN] server_rust/vendor/uuid/src/timestamp.rs:404 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/timestamp.rs:1333 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/timestamp.rs:1349 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:335 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:336 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:337 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/timestamp.rs:1355 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/timestamp.rs:1371 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/parser.rs:338 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:355 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:339 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:340 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:341 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/parser.rs:359 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:620 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:629 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:638 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:647 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:656 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:665 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/parser.rs:674 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:363 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:369 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:373 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:597 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:599 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:640 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:649 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:658 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:667 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:676 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:685 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/parser.rs:694 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/non_nil.rs:88 - unsafe block/function
 [WARN] server_rust/vendor/uuid/src/non_nil.rs:89 - unsafe block/function
 [WARN] server_rust/vendor/uuid/src/non_nil.rs:150 - Potential unwrap
@@ -35831,7 +36025,7 @@ Python files inspected: 73
 [WARN] server_rust/vendor/uuid/src/fmt.rs:1329 - unsafe block/function
 [WARN] server_rust/vendor/uuid/src/error.rs:80 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/error.rs:85 - Potential unwrap
-[WARN] server_rust/vendor/uuid/src/error.rs:96 - Potential unwrap
+[WARN] server_rust/vendor/uuid/src/error.rs:97 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/lib.rs:652 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/lib.rs:693 - Potential unwrap
 [WARN] server_rust/vendor/uuid/src/lib.rs:1017 - Potential unwrap
@@ -41152,8 +41346,8 @@ Python files inspected: 73
 [WARN] server_rust/vendor/nu-ansi-term/src/style.rs:662 - Potential unwrap
 [WARN] server_rust/vendor/unicode-properties/src/tables.rs:2822 - Potential unwrap
 
-Rust files inspected: 5058
-[WARN] 40976 Rust security review point(s) detected.
+Rust files inspected: 5114
+[WARN] 41171 Rust security review point(s) detected.
 
 ## Web Security Test
 === WEB SECURITY SCAN ===
@@ -41220,7 +41414,7 @@ Target: http://127.0.0.1:5000
    [1m[94m|[0m     [1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
 
 [1m[33mwarning[0m: `the-last-signal-server` (bin "the-last-signal-server") generated 3 warnings (run `cargo fix --bin "the-last-signal-server" -p the-last-signal-server` to apply 3 suggestions)
-[1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 0.09s
+[1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
 [1m[92m     Running[0m `target/debug/the-last-signal-server`
 ⚠️ La base SQLite est corrompue. Suppression et recréation...
 Error: "Clé Fernet invalide"
@@ -41229,7 +41423,7 @@ Error: "Clé Fernet invalide"
 
 # Security report
 
-**Run:** 1
+**Run:** 3
 
 ## Tests
 
@@ -41253,7 +41447,7 @@ Error: "Clé Fernet invalide"
 [main]	INFO	cli exclude tests: None
 [main]	INFO	running on Python 3.14.7
 Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Run started:2026-10-01 02:16:38.321400+00:00
+Run started:2026-10-03 02:18:17.785269+00:00
 
 Test results:
 >> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
@@ -41561,46 +41755,6 @@ Test results:
 43	
 44	        cursor.execute(f'SELECT * FROM "{table}"')
 45	
-
---------------------------------------------------
->> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
-   Severity: Low   Confidence: High
-   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess
-   Location: ./server_rust/vendor/libc/etc/libc-util.py:13:0
-12	import re
-13	import subprocess as sp
-14	import sys
-
---------------------------------------------------
->> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
-   Severity: Low   Confidence: High
-   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
-   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html
-   Location: ./server_rust/vendor/libc/etc/libc-util.py:590:8
-589	        """Ensure pattern matching is applied consistently"""
-590	        assert self.name != ""
-591	        return re.search(pat, self.name) is not None
-
---------------------------------------------------
->> Issue: [B603:subprocess_without_shell_equals_true] subprocess call - check for execution of untrusted input.
-   Severity: Low   Confidence: High
-   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html
-   Location: ./server_rust/vendor/libc/etc/libc-util.py:1075:11
-1074	        xtrace(args, env=kw.get("env"))
-1075	    return sp.check_output(args, encoding="utf8", text=True, **kw)
-1076	
-
---------------------------------------------------
->> Issue: [B603:subprocess_without_shell_equals_true] subprocess call - check for execution of untrusted input.
-   Severity: Low   Confidence: High
-   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html
-   Location: ./server_rust/vendor/libc/etc/libc-util.py:1081:11
-1080	        xtrace(args, env=kw.get("env"))
-1081	    return sp.run(args, check=True, text=True, **kw)
-1082	
 
 --------------------------------------------------
 >> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
@@ -43543,41 +43697,28 @@ Test results:
 --------------------------------------------------
 
 Code scanned:
-	Total lines of code: 10480
+	Total lines of code: 9605
 	Total lines skipped (#nosec): 0
 	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
 
 Run metrics:
 	Total issues (by severity):
 		Undefined: 0
-		Low: 203
+		Low: 199
 		Medium: 9
 		High: 1
 	Total issues (by confidence):
 		Undefined: 0
 		Low: 1
 		Medium: 12
-		High: 200
+		High: 196
 Files skipped (0):
 
 ## pip-audit
-Found 14 known vulnerabilities in 2 packages
-Name  Version ID              Fix Versions
------ ------- --------------- ------------
-nltk  3.10.3  PYSEC-2026-3740
-pyjwt 2.13.0  CVE-2026-102274 2.14.0
-pyjwt 2.13.0  CVE-2026-101917 2.14.0
-pyjwt 2.13.0  CVE-2026-102273 2.14.0
-pyjwt 2.13.0  CVE-2026-102269 2.14.0
-pyjwt 2.13.0  CVE-2026-102267 2.14.0
-pyjwt 2.13.0  CVE-2026-102268 2.14.0
-pyjwt 2.13.0  CVE-2026-102272 2.14.0
-pyjwt 2.13.0  CVE-2026-102271 2.14.0
-pyjwt 2.13.0  CVE-2026-102265 2.14.0
-pyjwt 2.13.0  CVE-2026-102266 2.14.0
-pyjwt 2.13.0  CVE-2026-102270 2.14.0
-pyjwt 2.13.0  CVE-2026-101918 2.15.0
-pyjwt 2.13.0  CVE-2026-103001
+Found 1 known vulnerability in 1 package
+Name Version ID              Fix Versions
+---- ------- --------------- ------------
+nltk 3.10.3  PYSEC-2026-3740
 
 ## Safety
 /opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages/safety/auth/main.py:5: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
@@ -43623,8 +43764,8 @@ It will be compatible before version 2.0.0.
   -> /opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages
 
   Using [1mopen-source vulnerability database[0m
-[1m  Found and scanned 140 packages[0m
-  Timestamp [1m2026-10-01 02:16:43[0m
+[1m  Found and scanned 142 packages[0m
+  Timestamp [1m2026-10-03 02:18:23[0m
 [1m  1[0m[1m vulnerability reported[0m
 [1m  0[0m[1m vulnerabilities ignored[0m
 
@@ -43672,7 +43813,7 @@ It will be compatible before version 2.0.0.
 
 ## cargo-audit
 [0m[0m[1m[32m    Fetching[0m advisory database from `https://github.com/RustSec/advisory-db.git`
-[0m[0m[1m[32m      Loaded[0m 1277 security advisories (from /home/runner/.cargo/advisory-db)
+[0m[0m[1m[32m      Loaded[0m 1288 security advisories (from /home/runner/.cargo/advisory-db)
 [0m[0m[1m[32m    Updating[0m crates.io index
 [0m[0m[1m[32m    Scanning[0m Cargo.lock for vulnerabilities (189 crate dependencies)
 
@@ -43773,7 +43914,7 @@ It will be compatible before version 2.0.0.
  • Targets scanned: 110
  • Parsed lines: ~100.0%
  • Scan skipped: 
-   ◦ Files matching .semgrepignore patterns: 8117
+   ◦ Files matching .semgrepignore patterns: 8167
  • Scan was limited to files tracked by git
  • For a detailed list of skipped files and lines, run semgrep with the --verbose flag
 Ran 294 rules on 110 files: 6 findings.
@@ -43786,17 +43927,18 @@ Ran 294 rules on 110 files: 6 findings.
     ○ ░
     ░    gitleaks
 
-[90m2:52AM[0m [32mINF[0m [1m5831 commits scanned.[0m
-[90m2:52AM[0m [32mINF[0m [1mscanned ~87353343501 bytes (87.35 GB) in 35m49s[0m
-[90m2:52AM[0m [32mINF[0m [1mno leaks found[0m
+[90m3:02AM[0m [32mINF[0m [1m8862 commits scanned.[0m
+[90m3:02AM[0m [32mINF[0m [1mscanned ~131055280490 bytes (131.06 GB) in 44m5s[0m
+[90m3:02AM[0m [32mINF[0m [1mno leaks found[0m
 
 ## Python Licenses
  Name                                      Version    License                                            
  Authlib                                   1.8.0      BSD License                                        
  CacheControl                              0.14.4     Apache-2.0                                         
  Jinja2                                    3.1.6      BSD License                                        
- MarkupSafe                                3.0.3      BSD-3-Clause                                       
- PyJWT                                     2.13.0     MIT                                                
+ Markdown                                  3.11       BSD-3-Clause                                       
+ MarkupSafe                                3.0.4      BSD-3-Clause                                       
+ PyJWT                                     2.15.1     MIT                                                
  PySide6                                   6.11.2     LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only      
  PySide6_Addons                            6.11.2     LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only      
  PySide6_Essentials                        6.11.2     LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only      
@@ -43880,6 +44022,7 @@ Ran 294 rules on 110 files: 6 findings.
  protobuf                                  6.33.6     3-Clause BSD License                               
  py                                        1.11.0     MIT License                                        
  py-serializable                           2.1.0      Apache Software License                            
+ pybullet                                  3.2.7      zlib/libpng License                                
  pycodestyle                               2.15.0     MIT                                                
  pycparser                                 3.0        BSD-3-Clause                                       
  pydantic                                  2.13.5     MIT                                                
@@ -43890,7 +44033,7 @@ Ran 294 rules on 110 files: 6 findings.
  pyparsing                                 3.3.3      MIT                                                
  pytest                                    9.1.1      MIT                                                
  pytest-cov                                7.1.0      MIT                                                
- python-dotenv                             1.2.3      BSD-3-Clause                                       
+ python-dotenv                             1.2.4      BSD-3-Clause                                       
  python-multipart                          0.0.32     Apache-2.0                                         
  pytokens                                  0.4.1      MIT License                                        
  radon                                     6.0.1      MIT License                                        
@@ -43904,7 +44047,7 @@ Ran 294 rules on 110 files: 6 findings.
  safety                                    3.8.1      MIT                                                
  safety-schemas                            0.0.16     MIT License                                        
  semantic-version                          2.10.0     BSD License                                        
- semgrep                                   1.178.0    LGPL-2.1-or-later                                  
+ semgrep                                   1.179.0    LGPL-2.1-or-later                                  
  shellingham                               1.5.4      ISC License (ISCL)                                 
  shiboken6                                 6.11.2     LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only      
  six                                       1.17.0     MIT License                                        
@@ -43930,7 +44073,7 @@ Ran 294 rules on 110 files: 6 findings.
  zipp                                      4.1.0      MIT                                                
 
 ## Cargo Deny
-2026-10-01 02:52:45 [[33mWARN[0m] unable to find a config path, falling back to default config[0m
+2026-10-03 03:02:40 [[33mWARN[0m] unable to find a config path, falling back to default config[0m
 [0m[1m[38;5;9merror[rejected][0m[1m: failed to satisfy license requirements[0m
    [0m[36m┌─[0m /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/adler2/Cargo.toml:38:12
    [0m[36m│[0m
@@ -44339,7 +44482,7 @@ Ran 294 rules on 110 files: 6 findings.
    [0m[36m├[0m Apache-2.0 - Apache License 2.0:
    [0m[36m├[0m   - OSI approved
    [0m[36m├[0m   - FSF Free/Libre
-   [0m[36m├[0m cc v1.5.1
+   [0m[36m├[0m cc v1.6.0
      ├── (build) iana-time-zone-haiku v0.1.2
      │   └── iana-time-zone v0.1.65
      │       └── chrono v0.4.45
@@ -44389,7 +44532,7 @@ Ran 294 rules on 110 files: 6 findings.
      │   ├── phc v0.6.1
      │   │   └── password-hash v0.6.1 (*)
      │   ├── rand v0.10.3 (*)
-     │   └── uuid v1.26.1
+     │   └── uuid v1.27.0
      │       ├── sqlx-core v0.9.0
      │       │   ├── sqlx v0.9.0
      │       │   │   └── the-last-signal-server v0.1.0 (*)
@@ -45029,7 +45172,7 @@ Ran 294 rules on 110 files: 6 findings.
    [0m[36m├[0m   - OSI approved
    [0m[36m├[0m   - FSF Free/Libre
    [0m[36m├[0m find-msvc-tools v0.1.14
-     └── cc v1.5.1
+     └── cc v1.6.0
          ├── (build) iana-time-zone-haiku v0.1.2
          │   └── iana-time-zone v0.1.65
          │       └── chrono v0.4.45
@@ -45546,7 +45689,7 @@ Ran 294 rules on 110 files: 6 findings.
      │   └── password-hash v0.6.1 (*)
      ├── rand v0.10.3
      │   └── the-last-signal-server v0.1.0 (*)
-     └── uuid v1.26.1
+     └── uuid v1.27.0
          ├── sqlx-core v0.9.0
          │   ├── sqlx v0.9.0
          │   │   └── the-last-signal-server v0.1.0 (*)
@@ -46095,9 +46238,9 @@ Ran 294 rules on 110 files: 6 findings.
                  └── the-last-signal-server v0.1.0
 
 [0m[1m[38;5;9merror[rejected][0m[1m: failed to satisfy license requirements[0m
-   [0m[36m┌─[0m /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/libc/Cargo.toml:43:12
+   [0m[36m┌─[0m /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/libc/Cargo.toml:46:12
    [0m[36m│[0m
-[0m[36m43[0m [0m[36m│[0m license = "[0m[31mMIT[0m OR [0m[31mApache-2.0[0m"
+[0m[36m46[0m [0m[36m│[0m license = "[0m[31mMIT[0m OR [0m[31mApache-2.0[0m"
    [0m[36m│[0m            [0m[31m━━━[0m[36m────[0m[31m━━━━━━━━━━[0m
    [0m[36m│[0m            [0m[31m│[0m      [0m[31m│[0m
    [0m[36m│[0m            [0m[31m│[0m      [0m[31mrejected: license is not explicitly allowed[0m
@@ -46109,7 +46252,7 @@ Ran 294 rules on 110 files: 6 findings.
    [0m[36m├[0m Apache-2.0 - Apache License 2.0:
    [0m[36m├[0m   - OSI approved
    [0m[36m├[0m   - FSF Free/Libre
-   [0m[36m├[0m libc v0.2.189
+   [0m[36m├[0m libc v0.2.190
      ├── android_system_properties v0.1.6
      │   └── iana-time-zone v0.1.65
      │       └── chrono v0.4.45
@@ -46145,7 +46288,7 @@ Ran 294 rules on 110 files: 6 findings.
      │   ├── phc v0.6.1
      │   │   └── password-hash v0.6.1 (*)
      │   ├── rand v0.10.3 (*)
-     │   └── uuid v1.26.1
+     │   └── uuid v1.27.0
      │       ├── sqlx-core v0.9.0 (*)
      │       ├── sqlx-sqlite v0.9.0 (*)
      │       └── the-last-signal-server v0.1.0 (*)
@@ -47123,7 +47266,7 @@ Ran 294 rules on 110 files: 6 findings.
          │   └── password-hash v0.6.1 (*)
          ├── rand v0.10.3
          │   └── the-last-signal-server v0.1.0 (*)
-         └── uuid v1.26.1
+         └── uuid v1.27.0
              ├── sqlx-core v0.9.0
              │   ├── sqlx v0.9.0
              │   │   └── the-last-signal-server v0.1.0 (*)
@@ -47181,7 +47324,7 @@ Ran 294 rules on 110 files: 6 findings.
      │   ├── phc v0.6.1
      │   │   └── password-hash v0.6.1 (*)
      │   ├── rand v0.10.3 (*)
-     │   └── uuid v1.26.1
+     │   └── uuid v1.27.0
      │       ├── sqlx-core v0.9.0
      │       │   ├── sqlx v0.9.0
      │       │   │   └── the-last-signal-server v0.1.0 (*)
@@ -47539,7 +47682,7 @@ Ran 294 rules on 110 files: 6 findings.
    [0m[36m├[0m   - OSI approved
    [0m[36m├[0m   - FSF Free/Libre
    [0m[36m├[0m shlex v2.0.1
-     └── cc v1.5.1
+     └── cc v1.6.0
          ├── (build) iana-time-zone-haiku v0.1.2
          │   └── iana-time-zone v0.1.65
          │       └── chrono v0.4.45
@@ -48628,7 +48771,7 @@ Ran 294 rules on 110 files: 6 findings.
    [0m[36m├[0m MIT - MIT License:
    [0m[36m├[0m   - OSI approved
    [0m[36m├[0m   - FSF Free/Libre
-   [0m[36m├[0m uuid v1.26.1
+   [0m[36m├[0m uuid v1.27.0
      ├── sqlx-core v0.9.0
      │   ├── sqlx v0.9.0
      │   │   └── the-last-signal-server v0.1.0
@@ -49481,11 +49624,11 @@ boltons                                  21.0.0  26.2.0 wheel
 click                                    8.4.2   8.5.0  wheel
 cryptography                             50.0.1  50.0.2 wheel
 exceptiongroup                           1.2.2   1.3.1  wheel
-filelock                                 3.32.7  4.0.7  wheel
+filelock                                 3.32.7  4.0.9  wheel
 importlib_metadata                       8.7.1   9.0.1  wheel
 jsonschema                               4.25.1  4.26.0 wheel
 mando                                    0.7.1   0.8.2  wheel
-mcp                                      1.29.0  2.2.0  wheel
+mcp                                      1.29.0  2.3.0  wheel
 opentelemetry-api                        1.37.0  1.45.0 wheel
 opentelemetry-exporter-otlp-proto-common 1.37.0  1.45.0 wheel
 opentelemetry-exporter-otlp-proto-http   1.37.0  1.45.0 wheel
@@ -49494,8 +49637,7 @@ opentelemetry-sdk                        1.37.0  1.45.0 wheel
 peewee                                   3.19.0  4.5.2  wheel
 protobuf                                 6.33.6  7.36.2 wheel
 pydantic_core                            2.46.5  2.49.0 wheel
-PyJWT                                    2.13.0  2.15.1 wheel
-pylint                                   4.0.9   4.1.1  wheel
+pylint                                   4.0.9   4.1.2  wheel
 safety-schemas                           0.0.16  0.0.21 wheel
 typer                                    0.25.1  0.27.2 wheel
 wcmatch                                  8.5.2   11.0.1 wheel
@@ -49508,8 +49650,8 @@ wrapt                                    1.17.3  2.5.0  wheel
 | Level | Count |
 |-------|------:|
 | Critical | 0 |
-| High | 206 |
+| High | 202 |
 | Medium | 19 |
-| Low | 527 |
+| Low | 523 |
 
 ## Score : 0/100
