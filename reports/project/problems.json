@@ -15230,43 +15230,37 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:30 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:31 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:49 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:51 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:59 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:70 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:82 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:80 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:96 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:103 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:114 titre très long (86 caractères).",
-        "module": "titles"
-    },
-    {
-        "file": "server_rust/vendor/cc/CHANGELOG.md",
-        "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:128 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:117 titre très long (86 caractères).",
         "module": "titles"
     },
     {
@@ -15278,67 +15272,61 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:142 titre très long (86 caractères).",
-        "module": "titles"
-    },
-    {
-        "file": "server_rust/vendor/cc/CHANGELOG.md",
-        "severity": "warning",
         "message": "server_rust/vendor/cc/CHANGELOG.md:149 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:165 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:156 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:171 titre très long (87 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:163 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:177 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:170 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:186 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:186 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:194 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:192 titre très long (87 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:200 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:198 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:208 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:207 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:214 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:215 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:223 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:221 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15356,37 +15344,37 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:246 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:244 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:252 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:250 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:259 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:256 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:266 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:267 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:274 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:273 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:281 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:280 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15398,31 +15386,31 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:296 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:295 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:303 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:302 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:310 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:308 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:319 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:317 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:325 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:324 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15434,13 +15422,13 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:337 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:340 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:344 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:346 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15458,79 +15446,79 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:368 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:365 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:378 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:373 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:387 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:379 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:398 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:389 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:404 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:399 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:412 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:408 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:423 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:419 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:437 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:425 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:448 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:433 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:457 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:444 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:470 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:458 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:479 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:469 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:485 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:478 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15542,7 +15530,7 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:498 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:500 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15554,85 +15542,85 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:514 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:512 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:520 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:519 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:526 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:527 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:532 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:535 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:538 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:541 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:544 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:547 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:551 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:553 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:557 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:559 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:566 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:565 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:577 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:572 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:592 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:578 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:600 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:587 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:608 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:598 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:614 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:613 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15644,25 +15632,31 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:631 titre très long (88 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:629 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:639 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:635 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:647 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:642 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:658 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:652 titre très long (88 caractères).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:660 titre très long (86 caractères).",
         "module": "titles"
     },
     {
@@ -15674,19 +15668,13 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:674 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:679 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:680 titre très long (86 caractères).",
-        "module": "titles"
-    },
-    {
-        "file": "server_rust/vendor/cc/CHANGELOG.md",
-        "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:687 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:689 titre très long (86 caractères).",
         "module": "titles"
     },
     {
@@ -15698,31 +15686,31 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:709 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:701 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:715 titre très long (87 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:708 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:726 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:716 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:733 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:730 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:739 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:736 titre très long (87 caractères).",
         "module": "titles"
     },
     {
@@ -15734,109 +15722,103 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:753 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:754 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:759 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:760 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:766 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:768 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:772 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:774 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:778 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:780 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:784 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:787 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:790 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:793 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:797 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:799 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:803 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:805 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:809 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:811 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:817 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:818 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:823 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:824 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:829 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:830 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:835 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:838 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:841 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:844 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:847 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:850 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:852 titre très long (89 caractères).",
-        "module": "titles"
-    },
-    {
-        "file": "server_rust/vendor/cc/CHANGELOG.md",
-        "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:857 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:856 titre très long (89 caractères).",
         "module": "titles"
     },
     {
@@ -15848,133 +15830,157 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:867 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:868 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:872 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:873 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:877 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:878 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:882 titre très long (89 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:883 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:888 titre très long (88 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:888 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:893 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:893 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:898 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:898 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:903 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:903 titre très long (89 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:908 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:909 titre très long (88 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:913 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:914 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:918 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:919 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:923 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:924 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:931 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:929 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:936 titre très long (86 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:934 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:941 titre très long (88 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:939 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:946 titre très long (92 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:944 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:955 titre très long (92 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:952 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:964 titre très long (92 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:957 titre très long (86 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:969 titre très long (92 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:962 titre très long (88 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:974 titre très long (92 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:967 titre très long (92 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:980 titre très long (92 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:976 titre très long (92 caractères).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:985 titre très long (91 caractères).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:985 titre très long (92 caractères).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:990 titre très long (92 caractères).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:995 titre très long (92 caractères).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:1001 titre très long (92 caractères).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:1006 titre très long (91 caractères).",
         "module": "titles"
     },
     {
@@ -27932,19 +27938,19 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:32 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:33 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
@@ -27962,97 +27968,97 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:53 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:61 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:82 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
@@ -28064,115 +28070,115 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:167 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:173 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:188 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:194 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:223 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:246 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:248 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:252 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:254 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:261 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:262 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:268 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:275 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:283 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28184,31 +28190,31 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:298 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:305 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:312 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:321 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:327 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:326 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28220,13 +28226,13 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:339 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:342 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:346 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28244,97 +28250,97 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:367 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:380 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:381 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:400 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:406 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:401 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:414 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:410 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:425 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:421 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:427 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:439 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:435 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:443 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:446 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:450 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:451 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:459 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:460 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:464 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:472 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:481 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:487 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:484 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28346,7 +28352,7 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:500 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:502 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28358,91 +28364,91 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:516 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:522 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:528 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:529 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:534 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:537 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:540 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:543 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:546 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:549 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:553 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:555 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:561 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:568 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:567 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:579 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:574 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:583 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:580 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:594 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:589 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:602 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:600 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:610 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:604 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:616 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28454,25 +28460,31 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:633 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:631 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:641 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:637 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:649 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:660 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:654 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:662 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28484,19 +28496,13 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:676 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:681 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:682 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
-        "module": "titles"
-    },
-    {
-        "file": "server_rust/vendor/cc/CHANGELOG.md",
-        "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:689 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:691 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28508,37 +28514,37 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:711 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:703 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:717 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:710 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:721 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:718 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:728 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:732 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:735 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:738 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:741 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:742 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28550,109 +28556,103 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:755 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:756 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:761 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:762 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:768 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:770 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:774 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:776 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:780 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:782 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:786 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:789 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:792 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:795 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:799 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:801 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:805 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:807 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:813 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:819 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:820 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:825 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:826 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:831 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:837 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:840 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:843 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:846 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:849 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:852 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:854 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
-        "module": "titles"
-    },
-    {
-        "file": "server_rust/vendor/cc/CHANGELOG.md",
-        "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:859 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:858 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28664,25 +28664,25 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:869 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:870 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:874 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:875 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:879 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:880 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:884 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:885 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -28712,85 +28712,109 @@
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:910 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:915 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:916 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:920 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:921 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:925 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:926 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:931 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:938 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:936 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:943 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:941 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:948 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:946 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:957 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:954 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:966 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:959 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:964 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:976 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:969 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
-        "message": "server_rust/vendor/cc/CHANGELOG.md:982 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:978 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/cc/CHANGELOG.md",
         "severity": "warning",
         "message": "server_rust/vendor/cc/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:992 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:997 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
+        "module": "titles"
+    },
+    {
+        "file": "server_rust/vendor/cc/CHANGELOG.md",
+        "severity": "warning",
+        "message": "server_rust/vendor/cc/CHANGELOG.md:1008 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).",
         "module": "titles"
     },
     {
@@ -366461,7 +366485,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 15,
+        "line": 18,
         "severity": "warning",
         "message": "Struct 'JoinOsStrs' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -366469,7 +366493,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 24,
+        "line": 27,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366477,7 +366501,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 38,
+        "line": 41,
         "severity": "warning",
         "message": "Struct 'OptionOsStrDisplay' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -366485,7 +366509,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 44,
+        "line": 47,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366493,7 +366517,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 55,
+        "line": 58,
         "severity": "warning",
         "message": "Struct 'OnceLock' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -366501,7 +366525,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 62,
+        "line": 65,
         "severity": "warning",
         "message": "Function 'default' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366509,7 +366533,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 77,
+        "line": 80,
         "severity": "warning",
         "message": "Function 'is_initialized' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366517,7 +366541,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 90,
+        "line": 93,
         "severity": "warning",
         "message": "Function 'get_or_init' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366525,7 +366549,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 97,
+        "line": 100,
         "severity": "warning",
         "message": "Function 'get' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366533,7 +366557,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 106,
+        "line": 109,
         "severity": "warning",
         "message": "Function 'from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366541,7 +366565,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 114,
+        "line": 117,
         "severity": "warning",
         "message": "Function 'clone' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366549,7 +366573,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 124,
+        "line": 127,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366557,7 +366581,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 142,
+        "line": 145,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366565,7 +366589,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 158,
+        "line": 161,
         "severity": "warning",
         "message": "Function 'cargo_env_var_os' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366573,7 +366597,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 162,
+        "line": 165,
         "severity": "warning",
         "message": "Function 'cargo_env_var' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366581,7 +366605,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 183,
+        "line": 186,
         "severity": "warning",
         "message": "Function 'contains_ignore_ascii_case' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366589,17 +366613,9 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 184,
+        "line": 187,
         "severity": "warning",
         "message": "Function 'starts_with_ignore_ascii_case' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 185,
-        "severity": "warning",
-        "message": "Function 'ends_with_ignore_ascii_case' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -366607,13 +366623,21 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
         "line": 188,
         "severity": "warning",
+        "message": "Function 'ends_with_ignore_ascii_case' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
+        "line": 191,
+        "severity": "warning",
         "message": "Impl 'IgnoreAsciiCase for str ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 189,
+        "line": 192,
         "severity": "warning",
         "message": "Function 'contains_ignore_ascii_case' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366621,7 +366645,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 197,
+        "line": 200,
         "severity": "warning",
         "message": "Function 'starts_with_ignore_ascii_case' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366629,7 +366653,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 203,
+        "line": 206,
         "severity": "warning",
         "message": "Function 'ends_with_ignore_ascii_case' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366637,7 +366661,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 214,
+        "line": 217,
         "severity": "warning",
         "message": "Struct 'HashRecorder' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -366645,7 +366669,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 216,
+        "line": 219,
         "severity": "warning",
         "message": "Impl 'HashRecorder ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -366653,7 +366677,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 217,
+        "line": 220,
         "severity": "warning",
         "message": "Function 'into_bytes' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366661,7 +366685,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 222,
+        "line": 225,
         "severity": "warning",
         "message": "Impl 'Hasher for HashRecorder ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -366669,7 +366693,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 223,
+        "line": 226,
         "severity": "warning",
         "message": "Function 'write' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366677,7 +366701,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 227,
+        "line": 230,
         "severity": "warning",
         "message": "Function 'finish' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366685,7 +366709,23 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 233,
+        "line": 236,
+        "severity": "warning",
+        "message": "Function 'cell_modify' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
+        "line": 248,
+        "severity": "warning",
+        "message": "Function 'cell_push' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
+        "line": 253,
         "severity": "warning",
         "message": "Mod 'tests' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -366693,7 +366733,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/utilities.rs",
-        "line": 237,
+        "line": 257,
         "severity": "warning",
         "message": "Function 'ignore_ascii_case' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366885,17 +366925,17 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 293,
+        "line": 197,
         "severity": "warning",
-        "message": "Function 'set_non_blocking' sans documentation",
+        "message": "Function 'stderr' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 306,
+        "line": 298,
         "severity": "warning",
-        "message": "Function 'forward_all' sans documentation",
+        "message": "Function 'set_non_blocking' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -366909,7 +366949,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 317,
+        "line": 316,
+        "severity": "warning",
+        "message": "Function 'forward_all' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
+        "line": 322,
         "severity": "warning",
         "message": "Function 'write_warning' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366917,7 +366965,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 325,
+        "line": 330,
         "severity": "warning",
         "message": "Function 'wait_on_child' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366925,7 +366973,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 430,
+        "line": 435,
         "severity": "warning",
         "message": "Enum 'ProbeKind' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -366933,7 +366981,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 441,
+        "line": 446,
         "severity": "warning",
         "message": "Impl 'ProbeKind ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -366941,7 +366989,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 503,
+        "line": 508,
         "severity": "warning",
         "message": "Function 'run' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366949,7 +366997,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 539,
+        "line": 544,
         "severity": "warning",
         "message": "Function 'spawn_and_wait_for_output' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366957,7 +367005,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 559,
+        "line": 564,
         "severity": "warning",
         "message": "Function 'run_output' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366965,7 +367013,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 600,
+        "line": 605,
         "severity": "warning",
         "message": "Function 'spawn' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366973,7 +367021,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 601,
+        "line": 606,
         "severity": "warning",
         "message": "Struct 'ResetStderr' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -366981,7 +367029,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 603,
+        "line": 608,
         "severity": "warning",
         "message": "Impl 'Drop for ResetStderr<' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -366989,7 +367037,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 604,
+        "line": 609,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -366997,7 +367045,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 639,
+        "line": 644,
         "severity": "warning",
         "message": "Struct 'CmdAddOutputFileArgs' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367005,7 +367053,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 649,
+        "line": 654,
         "severity": "warning",
         "message": "Function 'command_add_output_file' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367013,7 +367061,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 666,
+        "line": 671,
         "severity": "warning",
         "message": "Impl 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367021,7 +367069,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 667,
+        "line": 672,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367029,7 +367077,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 692,
+        "line": 697,
         "severity": "warning",
         "message": "Impl 'CommandExt for Command ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367037,7 +367085,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 693,
+        "line": 698,
         "severity": "warning",
         "message": "Function 'set_family_detection_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367045,7 +367093,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 699,
+        "line": 704,
         "severity": "warning",
         "message": "Function 'set_flag_supported_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367053,7 +367101,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 704,
+        "line": 709,
         "severity": "warning",
         "message": "Function 'set_ar_detection_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367061,7 +367109,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 710,
+        "line": 715,
         "severity": "warning",
         "message": "Function 'set_cpp_stdlib_detection_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367069,7 +367117,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 717,
+        "line": 722,
         "severity": "warning",
         "message": "Mod 'tests' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367077,7 +367125,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 721,
+        "line": 726,
         "severity": "warning",
         "message": "Function 'stderr_warnings_skips_ignored_line' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367085,7 +367133,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/command_helpers.rs",
-        "line": 732,
+        "line": 737,
         "severity": "warning",
         "message": "Function 'stderr_warnings_keeps_every_line_without_ignored_line' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367101,7 +367149,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 29,
+        "line": 27,
         "severity": "warning",
         "message": "Function 'parse' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367109,7 +367157,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 30,
+        "line": 28,
         "severity": "warning",
         "message": "Function 'is_flag_prefix' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367117,7 +367165,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 50,
+        "line": 48,
         "severity": "warning",
         "message": "Function 'handle_flag_prefix' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367125,7 +367173,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 83,
+        "line": 81,
         "severity": "warning",
         "message": "Function 'set_rustc_flag' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367133,7 +367181,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 85,
+        "line": 83,
         "severity": "warning",
         "message": "Function 'arg_to_bool' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367141,7 +367189,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 93,
+        "line": 91,
         "severity": "warning",
         "message": "Function 'arg_to_u32' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367149,7 +367197,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 109,
+        "line": 107,
         "severity": "warning",
         "message": "Function 'flag_not_empty_generic' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367157,7 +367205,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 234,
+        "line": 226,
         "severity": "warning",
         "message": "Function 'cc_flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367165,7 +367213,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 434,
+        "line": 426,
         "severity": "warning",
         "message": "Mod 'tests' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367173,7 +367221,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 438,
+        "line": 430,
         "severity": "warning",
         "message": "Function 'check' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367181,7 +367229,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 444,
+        "line": 436,
         "severity": "warning",
         "message": "Function 'codegen_type' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367189,7 +367237,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 456,
+        "line": 448,
         "severity": "warning",
         "message": "Function 'precedence' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367197,7 +367245,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 467,
+        "line": 459,
         "severity": "warning",
         "message": "Function 'two_valid_prefixes' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367205,7 +367253,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 473,
+        "line": 465,
         "severity": "warning",
         "message": "Function 'stack_protector' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367213,7 +367261,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 483,
+        "line": 475,
         "severity": "warning",
         "message": "Function 'three_valid_prefixes' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367221,7 +367269,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 492,
+        "line": 484,
         "severity": "warning",
         "message": "Function 'all_rustc_flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367229,7 +367277,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 627,
+        "line": 618,
         "severity": "warning",
         "message": "Function 'target_features' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367237,7 +367285,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/flags.rs",
-        "line": 647,
+        "line": 638,
         "severity": "warning",
         "message": "Function 'target_feature_cc_flag' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367325,7 +367373,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 288,
+        "line": 353,
         "severity": "warning",
         "message": "Mod 'parallel' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367333,7 +367381,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 290,
+        "line": 355,
         "severity": "warning",
         "message": "Mod 'target' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367341,7 +367389,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 331,
+        "line": 396,
         "severity": "warning",
         "message": "Enum 'VsVers' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -367349,7 +367397,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 373,
+        "line": 438,
         "severity": "warning",
         "message": "Mod 'command_helpers' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367357,7 +367405,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 376,
+        "line": 441,
         "severity": "warning",
         "message": "Mod 'logger' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367365,7 +367413,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 380,
+        "line": 445,
         "severity": "warning",
         "message": "Mod 'build_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367373,7 +367421,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 383,
+        "line": 448,
         "severity": "warning",
         "message": "Mod 'tool' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367381,7 +367429,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 387,
+        "line": 452,
         "severity": "warning",
         "message": "Mod 'tempfile' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367389,7 +367437,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 389,
+        "line": 454,
         "severity": "warning",
         "message": "Mod 'utilities' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367397,7 +367445,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 392,
+        "line": 457,
         "severity": "warning",
         "message": "Mod 'flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367405,7 +367453,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 399,
+        "line": 464,
         "severity": "warning",
         "message": "Struct 'CompilerFlag' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367413,7 +367461,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 413,
+        "line": 478,
         "severity": "warning",
         "message": "Enum 'PrefixMapFlag' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -367421,7 +367469,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 419,
+        "line": 484,
         "severity": "warning",
         "message": "Struct 'BuildCache' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367429,7 +367477,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 446,
+        "line": 511,
         "severity": "warning",
         "message": "Struct 'Build' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367437,7 +367485,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 497,
+        "line": 562,
         "severity": "warning",
         "message": "Enum 'ErrorKind' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -367445,7 +367493,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 525,
+        "line": 590,
         "severity": "warning",
         "message": "Struct 'Error' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367453,7 +367501,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 532,
+        "line": 597,
         "severity": "warning",
         "message": "Impl 'Error ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367461,7 +367509,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 533,
+        "line": 598,
         "severity": "warning",
         "message": "Function 'new' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367469,7 +367517,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 541,
+        "line": 606,
         "severity": "warning",
         "message": "Impl 'From<io' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367477,7 +367525,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 542,
+        "line": 607,
         "severity": "warning",
         "message": "Function 'from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367485,7 +367533,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 547,
+        "line": 612,
         "severity": "warning",
         "message": "Impl 'Display for Error ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367493,7 +367541,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 548,
+        "line": 613,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367501,7 +367549,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 553,
+        "line": 618,
         "severity": "warning",
         "message": "Impl 'std' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367509,7 +367557,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 559,
+        "line": 624,
         "severity": "warning",
         "message": "Struct 'Object' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367517,7 +367565,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 564,
+        "line": 629,
         "severity": "warning",
         "message": "Impl 'Object ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367525,7 +367573,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 867,
+        "line": 932,
         "severity": "warning",
         "message": "Function 'shared_flag' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367533,7 +367581,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 887,
+        "line": 952,
         "severity": "warning",
         "message": "Function 'static_flag' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367541,7 +367589,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 1601,
+        "line": 1676,
         "severity": "warning",
         "message": "Function 'set_envs_snapshot' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367549,7 +367597,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 1618,
+        "line": 1693,
         "severity": "warning",
         "message": "Function '__set_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367557,7 +367605,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 1662,
+        "line": 1737,
         "severity": "warning",
         "message": "Function 'flag_check_src_name' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367565,7 +367613,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 1673,
+        "line": 1748,
         "severity": "warning",
         "message": "Function 'write_flag_check_src' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367573,7 +367621,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 1679,
+        "line": 1754,
         "severity": "warning",
         "message": "Function 'ensure_check_file' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367581,7 +367629,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 2223,
+        "line": 2303,
         "severity": "warning",
         "message": "Function 'check_enabled' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367589,7 +367637,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 2233,
+        "line": 2313,
         "severity": "warning",
         "message": "Function 'compile_objects' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367597,7 +367645,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 2598,
+        "line": 2680,
         "severity": "warning",
         "message": "Function 'add_default_flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367605,7 +367653,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3166,
+        "line": 3249,
         "severity": "warning",
         "message": "Function 'add_inherited_rustflags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367613,7 +367661,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3439,
+        "line": 3522,
         "severity": "warning",
         "message": "Function 'assemble' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367621,7 +367669,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3537,
+        "line": 3620,
         "severity": "warning",
         "message": "Function 'assemble_progressive' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367629,7 +367677,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3621,
+        "line": 3704,
         "severity": "warning",
         "message": "Function 'apple_flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367637,7 +367685,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3697,
+        "line": 3780,
         "severity": "warning",
         "message": "Function 'cmd' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367645,7 +367693,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3703,
+        "line": 3786,
         "severity": "warning",
         "message": "Function 'prefer_clang' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367653,7 +367701,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 3711,
+        "line": 3794,
         "severity": "warning",
         "message": "Function 'get_base_compiler' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367661,7 +367709,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4211,
+        "line": 4305,
         "severity": "warning",
         "message": "Function 'try_get_archiver_and_flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367669,7 +367717,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4225,
+        "line": 4319,
         "severity": "warning",
         "message": "Function 'get_base_archiver' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367677,7 +367725,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4267,
+        "line": 4361,
         "severity": "warning",
         "message": "Function 'get_base_ranlib' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367685,7 +367733,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4275,
+        "line": 4369,
         "severity": "warning",
         "message": "Function 'get_base_archiver_variant' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367693,7 +367741,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4433,
+        "line": 4527,
         "severity": "warning",
         "message": "Function 'prefix_for_target' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367701,7 +367749,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4646,
+        "line": 4740,
         "severity": "warning",
         "message": "Function 'get_target' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367709,7 +367757,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4661,
+        "line": 4766,
         "severity": "warning",
         "message": "Function 'get_raw_target' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367717,7 +367765,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4668,
+        "line": 4773,
         "severity": "warning",
         "message": "Function 'get_is_cross_compile' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367725,7 +367773,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4677,
+        "line": 4782,
         "severity": "warning",
         "message": "Function 'get_opt_level' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367733,7 +367781,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4698,
+        "line": 4803,
         "severity": "warning",
         "message": "Function 'get_debug_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367741,7 +367789,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4705,
+        "line": 4810,
         "severity": "warning",
         "message": "Function 'get_shell_escaped_flags' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367749,7 +367797,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4710,
+        "line": 4815,
         "severity": "warning",
         "message": "Function 'get_dwarf_version' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367757,7 +367805,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4727,
+        "line": 4832,
         "severity": "warning",
         "message": "Function 'get_force_frame_pointer' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367765,7 +367813,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4731,
+        "line": 4836,
         "severity": "warning",
         "message": "Function 'get_out_dir' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367773,7 +367821,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4860,
+        "line": 4965,
         "severity": "warning",
         "message": "Function 'fix_env_for_apple_os' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367781,7 +367829,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4871,
+        "line": 4976,
         "severity": "warning",
         "message": "Function 'apple_sdk_root_inner' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367789,7 +367837,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4921,
+        "line": 5026,
         "severity": "warning",
         "message": "Function 'apple_sdk_root' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367797,7 +367845,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 4943,
+        "line": 5048,
         "severity": "warning",
         "message": "Function 'apple_deployment_target' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367805,7 +367853,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5071,
+        "line": 5184,
         "severity": "warning",
         "message": "Function 'wasm_musl_sysroot' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367813,7 +367861,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5082,
+        "line": 5195,
         "severity": "warning",
         "message": "Function 'wasi_sysroot' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367821,7 +367869,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5093,
+        "line": 5206,
         "severity": "warning",
         "message": "Function 'cuda_file_count' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367829,7 +367877,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5100,
+        "line": 5213,
         "severity": "warning",
         "message": "Function 'which' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367837,7 +367885,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5155,
+        "line": 5268,
         "severity": "warning",
         "message": "Function 'find_msvc_tools_find' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367845,7 +367893,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5160,
+        "line": 5273,
         "severity": "warning",
         "message": "Function 'find_msvc_tools_find_tool' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367853,7 +367901,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5161,
+        "line": 5274,
         "severity": "warning",
         "message": "Struct 'BuildEnvGetter' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -367861,7 +367909,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5164,
+        "line": 5277,
         "severity": "warning",
         "message": "Function 'get_env' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367869,7 +367917,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5204,
+        "line": 5317,
         "severity": "warning",
         "message": "Function 'pauthtest_sysroot' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367877,7 +367925,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5219,
+        "line": 5332,
         "severity": "warning",
         "message": "Function 'pauthtest_resource_dir' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367885,7 +367933,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5235,
+        "line": 5348,
         "severity": "warning",
         "message": "Impl 'Default for Build ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367893,7 +367941,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5236,
+        "line": 5349,
         "severity": "warning",
         "message": "Function 'default' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367901,7 +367949,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5347,
+        "line": 5460,
         "severity": "warning",
         "message": "Function 'fail' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367909,7 +367957,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5370,
+        "line": 5483,
         "severity": "warning",
         "message": "Function 'android_clang_compiler_uses_target_arg_internally' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367917,7 +367965,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5381,
+        "line": 5494,
         "severity": "warning",
         "message": "Function 'is_llvm_mingw_wrapper' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367925,7 +367973,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5394,
+        "line": 5507,
         "severity": "warning",
         "message": "Function 'autodetect_android_compiler' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367933,7 +367981,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5454,
+        "line": 5567,
         "severity": "warning",
         "message": "Function 'map_darwin_target_from_rust_to_compiler_architecture' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367941,7 +367989,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5471,
+        "line": 5584,
         "severity": "warning",
         "message": "Function 'is_arm' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367949,7 +367997,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5476,
+        "line": 5589,
         "severity": "warning",
         "message": "Enum 'AsmFileExt' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -367957,7 +368005,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5484,
+        "line": 5597,
         "severity": "warning",
         "message": "Impl 'AsmFileExt ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -367965,7 +368013,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5485,
+        "line": 5598,
         "severity": "warning",
         "message": "Function 'from_path' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367973,7 +368021,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5500,
+        "line": 5613,
         "severity": "warning",
         "message": "Function 'check_exe' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -367981,7 +368029,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5520,
+        "line": 5633,
         "severity": "warning",
         "message": "Mod 'tests' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -367989,7 +368037,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/lib.rs",
-        "line": 5524,
+        "line": 5637,
         "severity": "warning",
         "message": "Function 'test_android_clang_compiler_uses_target_arg_internally' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368637,7 +368685,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 81,
+        "line": 86,
         "severity": "warning",
         "message": "Struct 'JobServer' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -368645,7 +368693,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 104,
+        "line": 111,
         "severity": "warning",
         "message": "Impl 'JobServer ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -368653,7 +368701,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 112,
+        "line": 124,
+        "severity": "warning",
+        "message": "Function 'jobserver_fd' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
+        "line": 149,
         "severity": "warning",
         "message": "Function 'get_global_implicit_token' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368661,7 +368717,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 135,
+        "line": 172,
         "severity": "warning",
         "message": "Function 'enter_active' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368669,7 +368725,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 143,
+        "line": 180,
         "severity": "warning",
         "message": "Struct 'HelperThread' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -368677,7 +368733,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 149,
+        "line": 192,
         "severity": "warning",
         "message": "Impl 'HelperThread ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -368685,7 +368741,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 150,
+        "line": 193,
         "severity": "warning",
         "message": "Function 'new' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368693,7 +368749,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 162,
+        "line": 205,
+        "severity": "warning",
+        "message": "Function 'try_recv' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
+        "line": 229,
         "severity": "warning",
         "message": "Struct 'ActiveJobServer' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -368701,7 +368765,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 167,
+        "line": 234,
         "severity": "warning",
         "message": "Impl 'ActiveJobServer<' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -368709,7 +368773,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 168,
+        "line": 235,
         "severity": "warning",
         "message": "Function 'acquire' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368717,7 +368781,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 218,
+        "line": 289,
         "severity": "warning",
         "message": "Mod 'inprocess_jobserver' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -368725,7 +368789,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 228,
+        "line": 299,
         "severity": "warning",
         "message": "Struct 'JobServer' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -368733,7 +368797,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 230,
+        "line": 301,
         "severity": "warning",
         "message": "Impl 'JobServer ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -368741,7 +368805,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 231,
+        "line": 302,
         "severity": "warning",
         "message": "Function 'new' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368749,7 +368813,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 244,
+        "line": 315,
         "severity": "warning",
         "message": "Function 'acquire' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368757,7 +368821,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/job_token.rs",
-        "line": 260,
+        "line": 331,
         "severity": "warning",
         "message": "Function 'release_token_raw' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368765,7 +368829,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/command_runner.rs",
-        "line": 14,
+        "line": 16,
         "severity": "warning",
         "message": "Struct 'KillOnDrop' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -368773,7 +368837,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/command_runner.rs",
-        "line": 16,
+        "line": 18,
         "severity": "warning",
         "message": "Impl 'Drop for KillOnDrop ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -368781,7 +368845,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/command_runner.rs",
-        "line": 17,
+        "line": 19,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368789,15 +368853,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/command_runner.rs",
-        "line": 24,
-        "severity": "warning",
-        "message": "Function 'cell_update' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/command_runner.rs",
-        "line": 34,
+        "line": 26,
         "severity": "warning",
         "message": "Function 'try_wait_on_child' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368805,7 +368861,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/command_runner.rs",
-        "line": 68,
+        "line": 60,
         "severity": "warning",
         "message": "Function 'run_commands_in_parallel' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368813,7 +368869,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/async_executor.rs",
-        "line": 26,
+        "line": 25,
         "severity": "warning",
         "message": "Struct 'YieldOnce' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -368821,7 +368877,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/async_executor.rs",
-        "line": 28,
+        "line": 27,
         "severity": "warning",
         "message": "Impl 'Future for YieldOnce ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -368829,7 +368885,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/async_executor.rs",
-        "line": 31,
+        "line": 30,
         "severity": "warning",
         "message": "Function 'poll' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -368863,7 +368919,151 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/mod.rs",
         "line": 4,
         "severity": "warning",
+        "message": "Mod 'reactor' sans documentation",
+        "suggestion": "Ajoutez /// avant cette mod",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/mod.rs",
+        "line": 5,
+        "severity": "warning",
         "message": "Mod 'stderr' sans documentation",
+        "suggestion": "Ajoutez /// avant cette mod",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unsupported.rs",
+        "line": 10,
+        "severity": "warning",
+        "message": "Struct 'Reactor' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unsupported.rs",
+        "line": 12,
+        "severity": "warning",
+        "message": "Struct 'Registration' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unsupported.rs",
+        "line": 14,
+        "severity": "warning",
+        "message": "Impl 'Reactor ' sans documentation",
+        "suggestion": "Ajoutez /// avant cette impl",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unsupported.rs",
+        "line": 15,
+        "severity": "warning",
+        "message": "Function 'register_stderr' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unsupported.rs",
+        "line": 19,
+        "severity": "warning",
+        "message": "Function 'register_child' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unsupported.rs",
+        "line": 23,
+        "severity": "warning",
+        "message": "Function 'wait_with_timeout' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 15,
+        "severity": "warning",
+        "message": "Struct 'Reactor' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 23,
+        "severity": "warning",
+        "message": "Struct 'Registration' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 30,
+        "severity": "warning",
+        "message": "Impl 'Reactor ' sans documentation",
+        "suggestion": "Ajoutez /// avant cette impl",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 31,
+        "severity": "warning",
+        "message": "Function 'register_stderr' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 35,
+        "severity": "warning",
+        "message": "Function 'register_fd' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 51,
+        "severity": "warning",
+        "message": "Function 'register_child' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 86,
+        "severity": "warning",
+        "message": "Function 'wait_with_timeout' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 109,
+        "severity": "warning",
+        "message": "Impl 'Drop for Registration<' sans documentation",
+        "suggestion": "Ajoutez /// avant cette impl",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/unix.rs",
+        "line": 110,
+        "severity": "warning",
+        "message": "Function 'drop' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/mod.rs",
+        "line": 2,
+        "severity": "warning",
+        "message": "Mod 'unix' sans documentation",
+        "suggestion": "Ajoutez /// avant cette mod",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/mod.rs",
+        "line": 7,
+        "severity": "warning",
+        "message": "Mod 'unsupported' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
         "module": "rust"
     },
@@ -858676,6 +858876,54 @@
         "module": "rust"
     },
     {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1083.rs",
+        "line": 3,
+        "severity": "warning",
+        "message": "Function 'assert_invalid_unicode_at' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1083.rs",
+        "line": 26,
+        "severity": "warning",
+        "message": "Function 'invalid_utf8_after_escape_reports_the_bad_byte' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1083.rs",
+        "line": 33,
+        "severity": "warning",
+        "message": "Function 'invalid_utf8_inside_string_reports_the_bad_byte' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1083.rs",
+        "line": 38,
+        "severity": "warning",
+        "message": "Function 'invalid_utf8_at_start_of_string' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1083.rs",
+        "line": 44,
+        "severity": "warning",
+        "message": "Function 'invalid_utf8_raw_value_matches_value' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1083.rs",
+        "line": 63,
+        "severity": "warning",
+        "message": "Function 'invalid_utf8_in_multiline_raw_value' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/tests/regression/issue1004.rs",
         "line": 4,
         "severity": "warning",
@@ -859733,7 +859981,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 164,
+        "line": 166,
         "severity": "warning",
         "message": "Struct 'SliceRead' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -859741,7 +859989,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 175,
+        "line": 177,
         "severity": "warning",
         "message": "Struct 'StrRead' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -859749,7 +859997,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 182,
+        "line": 184,
         "severity": "warning",
         "message": "Mod 'private' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -859757,7 +860005,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 183,
+        "line": 185,
         "severity": "warning",
         "message": "Trait 'Sealed' sans documentation",
         "suggestion": "Ajoutez /// avant cette trait",
@@ -859765,7 +860013,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 218,
+        "line": 222,
         "severity": "warning",
         "message": "Function 'parse_str_bytes' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859773,7 +860021,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 258,
+        "line": 262,
         "severity": "warning",
         "message": "Function 'next' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859781,7 +860029,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 286,
+        "line": 290,
         "severity": "warning",
         "message": "Function 'peek' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859789,7 +860037,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 302,
+        "line": 306,
         "severity": "warning",
         "message": "Function 'discard' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859797,7 +860045,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 307,
+        "line": 311,
         "severity": "warning",
         "message": "Function 'discard' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859805,7 +860053,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 315,
+        "line": 319,
         "severity": "warning",
         "message": "Function 'position' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859813,7 +860061,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 322,
+        "line": 326,
         "severity": "warning",
         "message": "Function 'peek_position' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859821,7 +860069,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 328,
+        "line": 332,
         "severity": "warning",
         "message": "Function 'byte_offset' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859829,7 +860077,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 335,
+        "line": 339,
         "severity": "warning",
         "message": "Function 'parse_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859837,7 +860085,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 340,
+        "line": 344,
         "severity": "warning",
         "message": "Function 'parse_str_raw' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859845,7 +860093,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 348,
+        "line": 352,
         "severity": "warning",
         "message": "Function 'ignore_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859853,7 +860101,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 368,
+        "line": 372,
         "severity": "warning",
         "message": "Function 'decode_hex_escape' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859861,7 +860109,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 380,
+        "line": 384,
         "severity": "warning",
         "message": "Function 'begin_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859869,7 +860117,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 385,
+        "line": 394,
         "severity": "warning",
         "message": "Function 'end_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859877,7 +860125,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 403,
+        "line": 430,
         "severity": "warning",
         "message": "Function 'set_failed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859885,7 +860133,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 421,
+        "line": 448,
         "severity": "warning",
         "message": "Function 'position_of_index' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859893,7 +860141,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 432,
+        "line": 459,
         "severity": "warning",
         "message": "Function 'skip_to_escape' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859901,7 +860149,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 485,
+        "line": 512,
         "severity": "warning",
         "message": "Function 'skip_to_escape_slow' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859909,7 +860157,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 545,
+        "line": 572,
         "severity": "warning",
         "message": "Function 'next' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859917,7 +860165,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 558,
+        "line": 585,
         "severity": "warning",
         "message": "Function 'peek' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859925,7 +860173,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 569,
+        "line": 596,
         "severity": "warning",
         "message": "Function 'discard' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859933,7 +860181,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 573,
+        "line": 600,
         "severity": "warning",
         "message": "Function 'position' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859941,7 +860189,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 577,
+        "line": 604,
         "severity": "warning",
         "message": "Function 'peek_position' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859949,7 +860197,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 583,
+        "line": 610,
         "severity": "warning",
         "message": "Function 'byte_offset' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859957,7 +860205,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 587,
+        "line": 614,
         "severity": "warning",
         "message": "Function 'parse_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859965,7 +860213,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 591,
+        "line": 618,
         "severity": "warning",
         "message": "Function 'parse_str_raw' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859973,7 +860221,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 598,
+        "line": 625,
         "severity": "warning",
         "message": "Function 'ignore_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859981,7 +860229,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 621,
+        "line": 648,
         "severity": "warning",
         "message": "Function 'decode_hex_escape' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859989,7 +860237,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 638,
+        "line": 665,
         "severity": "warning",
         "message": "Function 'begin_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -859997,7 +860245,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 643,
+        "line": 670,
         "severity": "warning",
         "message": "Function 'end_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860005,65 +860253,9 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 661,
+        "line": 696,
         "severity": "warning",
         "message": "Function 'set_failed' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 683,
-        "severity": "warning",
-        "message": "Function 'next' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 688,
-        "severity": "warning",
-        "message": "Function 'peek' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 693,
-        "severity": "warning",
-        "message": "Function 'discard' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 697,
-        "severity": "warning",
-        "message": "Function 'position' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 701,
-        "severity": "warning",
-        "message": "Function 'peek_position' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 705,
-        "severity": "warning",
-        "message": "Function 'byte_offset' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 709,
-        "severity": "warning",
-        "message": "Function 'parse_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -860071,61 +860263,13 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
         "line": 718,
         "severity": "warning",
-        "message": "Function 'parse_str_raw' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 725,
-        "severity": "warning",
-        "message": "Function 'ignore_str' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 729,
-        "severity": "warning",
-        "message": "Function 'decode_hex_escape' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 734,
-        "severity": "warning",
-        "message": "Function 'begin_raw_buffering' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 739,
-        "severity": "warning",
-        "message": "Function 'end_raw_buffering' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 753,
-        "severity": "warning",
-        "message": "Function 'set_failed' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 766,
-        "severity": "warning",
         "message": "Function 'next' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 770,
+        "line": 723,
         "severity": "warning",
         "message": "Function 'peek' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860133,7 +860277,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 774,
+        "line": 728,
         "severity": "warning",
         "message": "Function 'discard' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860141,7 +860285,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 778,
+        "line": 732,
         "severity": "warning",
         "message": "Function 'position' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860149,7 +860293,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 782,
+        "line": 736,
         "severity": "warning",
         "message": "Function 'peek_position' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860157,7 +860301,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 786,
+        "line": 740,
         "severity": "warning",
         "message": "Function 'byte_offset' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860165,7 +860309,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 790,
+        "line": 744,
         "severity": "warning",
         "message": "Function 'parse_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860173,7 +860317,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 794,
+        "line": 753,
         "severity": "warning",
         "message": "Function 'parse_str_raw' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860181,7 +860325,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 801,
+        "line": 760,
         "severity": "warning",
         "message": "Function 'ignore_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860189,7 +860333,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 805,
+        "line": 764,
         "severity": "warning",
         "message": "Function 'decode_hex_escape' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860197,7 +860341,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 810,
+        "line": 769,
         "severity": "warning",
         "message": "Function 'begin_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860205,7 +860349,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 815,
+        "line": 774,
         "severity": "warning",
         "message": "Function 'end_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860213,7 +860357,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 824,
+        "line": 788,
         "severity": "warning",
         "message": "Function 'set_failed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860221,9 +860365,73 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 801,
+        "severity": "warning",
+        "message": "Function 'next' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 805,
+        "severity": "warning",
+        "message": "Function 'peek' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 809,
+        "severity": "warning",
+        "message": "Function 'discard' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 813,
+        "severity": "warning",
+        "message": "Function 'position' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 817,
+        "severity": "warning",
+        "message": "Function 'peek_position' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 821,
+        "severity": "warning",
+        "message": "Function 'byte_offset' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 825,
+        "severity": "warning",
+        "message": "Function 'parse_str' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 829,
+        "severity": "warning",
+        "message": "Function 'parse_str_raw' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
         "line": 836,
         "severity": "warning",
-        "message": "Function 'is_escape' sans documentation",
+        "message": "Function 'ignore_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -860231,7 +860439,15 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
         "line": 840,
         "severity": "warning",
-        "message": "Function 'next_or_eof' sans documentation",
+        "message": "Function 'decode_hex_escape' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 845,
+        "severity": "warning",
+        "message": "Function 'begin_raw_buffering' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -860239,13 +860455,45 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
         "line": 850,
         "severity": "warning",
+        "message": "Function 'end_raw_buffering' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 859,
+        "severity": "warning",
+        "message": "Function 'set_failed' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 871,
+        "severity": "warning",
+        "message": "Function 'is_escape' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 875,
+        "severity": "warning",
+        "message": "Function 'next_or_eof' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
+        "line": 885,
+        "severity": "warning",
         "message": "Function 'peek_or_eof' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 860,
+        "line": 895,
         "severity": "warning",
         "message": "Function 'error' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860253,7 +860501,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 868,
+        "line": 903,
         "severity": "warning",
         "message": "Function 'as_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860261,7 +860509,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 900,
+        "line": 951,
         "severity": "warning",
         "message": "Function 'parse_unicode_escape' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860269,7 +860517,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 978,
+        "line": 1029,
         "severity": "warning",
         "message": "Function 'push_wtf8_codepoint' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -860277,7 +860525,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/serde_json/src/read.rs",
-        "line": 1075,
+        "line": 1126,
         "severity": "warning",
         "message": "Function 'decode_four_hex_digits' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
