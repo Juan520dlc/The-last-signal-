@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-12 05:13:51
+**Date :** 2026-10-12 10:58:54
 
 # 64/100
 
@@ -867699,7 +867699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tables' sans documentation
 
-- **line :** 253
+- **line :** 260
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -1281317,7 +1281317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/unicode-ident/README.md:256 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/unicode-ident/README.md:262 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
 
 - **module :** titles
 

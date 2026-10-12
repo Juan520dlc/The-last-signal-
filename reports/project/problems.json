@@ -22340,7 +22340,7 @@
     {
         "file": "server_rust/vendor/unicode-ident/README.md",
         "severity": "warning",
-        "message": "server_rust/vendor/unicode-ident/README.md:256 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).",
+        "message": "server_rust/vendor/unicode-ident/README.md:262 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).",
         "module": "titles"
     },
     {
@@ -177877,7 +177877,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/unicode-ident/src/lib.rs",
-        "line": 253,
+        "line": 260,
         "severity": "warning",
         "message": "Mod 'tables' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
