@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-11 20:36:17
+**Date :** 2026-10-12 00:15:25
 
 # 64/100
 
@@ -529755,7 +529755,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Map<String, Value> ' sans documentation
 
-- **line :** 38
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -529765,7 +529765,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 41
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529775,7 +529775,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_capacity' sans documentation
 
-- **line :** 49
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529785,7 +529785,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clear' sans documentation
 
-- **line :** 64
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529795,7 +529795,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get' sans documentation
 
-- **line :** 73
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529805,7 +529805,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'contains_key' sans documentation
 
-- **line :** 86
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529815,7 +529815,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_mut' sans documentation
 
-- **line :** 99
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529825,7 +529825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_key_value' sans documentation
 
-- **line :** 112
+- **line :** 122
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529835,7 +529835,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'insert' sans documentation
 
-- **line :** 127
+- **line :** 137
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529845,7 +529845,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift_insert' sans documentation
 
-- **line :** 140
+- **line :** 150
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529855,7 +529855,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove' sans documentation
 
-- **line :** 156
+- **line :** 166
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529865,7 +529865,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove_entry' sans documentation
 
-- **line :** 179
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529875,7 +529875,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'swap_remove' sans documentation
 
-- **line :** 200
+- **line :** 210
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529885,7 +529885,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'swap_remove_entry' sans documentation
 
-- **line :** 218
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529895,7 +529895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift_remove' sans documentation
 
-- **line :** 236
+- **line :** 246
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529905,7 +529905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift_remove_entry' sans documentation
 
-- **line :** 254
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529915,7 +529915,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'append' sans documentation
 
-- **line :** 264
+- **line :** 274
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529925,7 +529925,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
 
-- **line :** 291
+- **line :** 301
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529935,7 +529935,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_empty' sans documentation
 
-- **line :** 297
+- **line :** 307
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529945,7 +529945,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'iter' sans documentation
 
-- **line :** 303
+- **line :** 313
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529955,7 +529955,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'iter_mut' sans documentation
 
-- **line :** 311
+- **line :** 321
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529965,7 +529965,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'keys' sans documentation
 
-- **line :** 319
+- **line :** 329
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529975,7 +529975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'values' sans documentation
 
-- **line :** 327
+- **line :** 337
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529985,7 +529985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'values_mut' sans documentation
 
-- **line :** 335
+- **line :** 345
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -529995,7 +529995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_values' sans documentation
 
-- **line :** 343
+- **line :** 353
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530005,7 +530005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'retain' sans documentation
 
-- **line :** 354
+- **line :** 364
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530015,7 +530015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sort_keys' sans documentation
 
-- **line :** 379
+- **line :** 389
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530025,7 +530025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for Map<String, Value> ' sans documentation
 
-- **line :** 386
+- **line :** 396
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530035,7 +530035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 388
+- **line :** 398
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530045,7 +530045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Clone for Map<String, Value> ' sans documentation
 
-- **line :** 395
+- **line :** 403
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530055,7 +530055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
 
-- **line :** 397
+- **line :** 405
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530065,7 +530065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clone_from' sans documentation
 
-- **line :** 404
+- **line :** 412
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530075,7 +530075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialEq for Map<String, Value> ' sans documentation
 
-- **line :** 409
+- **line :** 417
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530085,7 +530085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
 
-- **line :** 411
+- **line :** 419
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530095,7 +530095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Eq for Map<String, Value> ' sans documentation
 
-- **line :** 416
+- **line :** 424
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530105,7 +530105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Hash for Map<String, Value> ' sans documentation
 
-- **line :** 418
+- **line :** 426
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530115,7 +530115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
 
-- **line :** 419
+- **line :** 427
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530125,7 +530125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'index' sans documentation
 
-- **line :** 457
+- **line :** 465
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530135,7 +530135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'index_mut' sans documentation
 
-- **line :** 478
+- **line :** 486
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530145,7 +530145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Debug for Map<String, Value> ' sans documentation
 
-- **line :** 483
+- **line :** 491
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530155,7 +530155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 485
+- **line :** 493
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530165,7 +530165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'serde' sans documentation
 
-- **line :** 491
+- **line :** 499
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530175,7 +530175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'serialize' sans documentation
 
-- **line :** 493
+- **line :** 501
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530185,7 +530185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deserialize' sans documentation
 
-- **line :** 508
+- **line :** 516
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530195,7 +530195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Visitor' sans documentation
 
-- **line :** 512
+- **line :** 520
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530205,7 +530205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expecting' sans documentation
 
-- **line :** 517
+- **line :** 525
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530215,7 +530215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'visit_unit' sans documentation
 
-- **line :** 522
+- **line :** 530
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530225,7 +530225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'visit_map' sans documentation
 
-- **line :** 531
+- **line :** 539
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530235,7 +530235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromIterator<' sans documentation
 
-- **line :** 549
+- **line :** 557
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530245,7 +530245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_iter' sans documentation
 
-- **line :** 550
+- **line :** 558
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530255,7 +530255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Extend<' sans documentation
 
-- **line :** 560
+- **line :** 568
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530265,7 +530265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'extend' sans documentation
 
-- **line :** 561
+- **line :** 569
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530275,7 +530275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next' sans documentation
 
-- **line :** 574
+- **line :** 582
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530285,7 +530285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'size_hint' sans documentation
 
-- **line :** 578
+- **line :** 586
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530295,7 +530295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
 
-- **line :** 585
+- **line :** 593
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530305,17 +530305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
 
-- **line :** 592
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'into_deserializer' sans documentation
-
-- **line :** 604
+- **line :** 600
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530333,9 +530323,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'into_deserializer' sans documentation
+
+- **line :** 620
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'key' sans documentation
 
-- **line :** 764
+- **line :** 772
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530345,7 +530345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'insert' sans documentation
 
-- **line :** 788
+- **line :** 796
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530355,7 +530355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'key' sans documentation
 
-- **line :** 814
+- **line :** 822
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530365,7 +530365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get' sans documentation
 
-- **line :** 838
+- **line :** 846
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530375,7 +530375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_mut' sans documentation
 
-- **line :** 864
+- **line :** 872
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530385,7 +530385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_mut' sans documentation
 
-- **line :** 890
+- **line :** 898
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530395,7 +530395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'insert' sans documentation
 
-- **line :** 916
+- **line :** 924
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530405,7 +530405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove' sans documentation
 
-- **line :** 946
+- **line :** 954
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530415,7 +530415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'swap_remove' sans documentation
 
-- **line :** 963
+- **line :** 971
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530425,7 +530425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift_remove' sans documentation
 
-- **line :** 977
+- **line :** 985
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530435,7 +530435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove_entry' sans documentation
 
-- **line :** 1009
+- **line :** 1017
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530445,7 +530445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'swap_remove_entry' sans documentation
 
-- **line :** 1026
+- **line :** 1034
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530455,7 +530455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift_remove_entry' sans documentation
 
-- **line :** 1040
+- **line :** 1048
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530465,7 +530465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_iter' sans documentation
 
-- **line :** 1051
+- **line :** 1059
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530475,7 +530475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Iter' sans documentation
 
-- **line :** 1060
+- **line :** 1068
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530485,7 +530485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_iter' sans documentation
 
-- **line :** 1077
+- **line :** 1085
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530495,7 +530495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'IterMut' sans documentation
 
-- **line :** 1086
+- **line :** 1094
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530505,7 +530505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IntoIterator for Map<String, Value> ' sans documentation
 
-- **line :** 1099
+- **line :** 1107
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -530515,7 +530515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_iter' sans documentation
 
-- **line :** 1103
+- **line :** 1111
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -530525,7 +530525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'IntoIter' sans documentation
 
-- **line :** 1112
+- **line :** 1120
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530535,7 +530535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Keys' sans documentation
 
-- **line :** 1127
+- **line :** 1135
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530545,7 +530545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Values' sans documentation
 
-- **line :** 1142
+- **line :** 1150
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530555,7 +530555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ValuesMut' sans documentation
 
-- **line :** 1157
+- **line :** 1165
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -530565,7 +530565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'IntoValues' sans documentation
 
-- **line :** 1172
+- **line :** 1180
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -672025,7 +672025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse_expr' sans documentation
 
-- **line :** 1497
+- **line :** 1499
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672035,7 +672035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse_binop_rhs' sans documentation
 
-- **line :** 1539
+- **line :** 1543
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672045,7 +672045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'peek_precedence' sans documentation
 
-- **line :** 1574
+- **line :** 1578
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672055,7 +672055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ambiguous_expr' sans documentation
 
-- **line :** 1589
+- **line :** 1593
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672065,7 +672065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_attrs' sans documentation
 
-- **line :** 1608
+- **line :** 1612
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672075,7 +672075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unary_expr' sans documentation
 
-- **line :** 1621
+- **line :** 1625
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672085,7 +672085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unary_expr' sans documentation
 
-- **line :** 1671
+- **line :** 1675
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672095,7 +672095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'trailer_expr' sans documentation
 
-- **line :** 1697
+- **line :** 1701
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672105,7 +672105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'trailer_helper' sans documentation
 
-- **line :** 1729
+- **line :** 1733
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672115,7 +672115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'trailer_expr' sans documentation
 
-- **line :** 1822
+- **line :** 1826
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672125,7 +672125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'atom_expr' sans documentation
 
-- **line :** 1898
+- **line :** 1902
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672135,7 +672135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'atom_labeled' sans documentation
 
-- **line :** 1977
+- **line :** 1981
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672145,7 +672145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'atom_expr' sans documentation
 
-- **line :** 2001
+- **line :** 2005
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672155,7 +672155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_builtin' sans documentation
 
-- **line :** 2038
+- **line :** 2042
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672165,7 +672165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'path_or_macro_or_struct' sans documentation
 
-- **line :** 2052
+- **line :** 2056
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672175,7 +672175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rest_of_path_or_macro_or_struct' sans documentation
 
-- **line :** 2067
+- **line :** 2071
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672185,7 +672185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprMacro ' sans documentation
 
-- **line :** 2105
+- **line :** 2109
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672195,7 +672195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2106
+- **line :** 2110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672205,7 +672205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'paren_or_tuple' sans documentation
 
-- **line :** 2114
+- **line :** 2118
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672215,7 +672215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'array_or_repeat' sans documentation
 
-- **line :** 2153
+- **line :** 2157
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672225,7 +672225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprArray ' sans documentation
 
-- **line :** 2199
+- **line :** 2203
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672235,7 +672235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2200
+- **line :** 2204
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672245,7 +672245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprRepeat ' sans documentation
 
-- **line :** 2225
+- **line :** 2229
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672255,7 +672255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2226
+- **line :** 2230
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672265,7 +672265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'continue_parsing_early' sans documentation
 
-- **line :** 2239
+- **line :** 2243
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672275,7 +672275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprLit ' sans documentation
 
-- **line :** 2258
+- **line :** 2262
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672285,7 +672285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2259
+- **line :** 2263
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672295,7 +672295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_group' sans documentation
 
-- **line :** 2267
+- **line :** 2271
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672305,7 +672305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprParen ' sans documentation
 
-- **line :** 2303
+- **line :** 2307
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672315,7 +672315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2304
+- **line :** 2308
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672325,7 +672325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprLet ' sans documentation
 
-- **line :** 2316
+- **line :** 2320
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672335,7 +672335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2317
+- **line :** 2321
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672345,7 +672345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_let' sans documentation
 
-- **line :** 2324
+- **line :** 2328
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672355,7 +672355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprIf ' sans documentation
 
-- **line :** 2339
+- **line :** 2343
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672365,7 +672365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2340
+- **line :** 2344
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672375,7 +672375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprInfer ' sans documentation
 
-- **line :** 2393
+- **line :** 2397
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672385,7 +672385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2394
+- **line :** 2398
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672395,7 +672395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprForLoop ' sans documentation
 
-- **line :** 2404
+- **line :** 2408
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672405,7 +672405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2405
+- **line :** 2409
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672415,7 +672415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprLoop ' sans documentation
 
-- **line :** 2434
+- **line :** 2438
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672425,7 +672425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2435
+- **line :** 2439
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672435,7 +672435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprMatch ' sans documentation
 
-- **line :** 2456
+- **line :** 2460
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672445,7 +672445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2457
+- **line :** 2461
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672455,7 +672455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ' sans documentation
 
-- **line :** 2487
+- **line :** 2491
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672465,7 +672465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2488
+- **line :** 2492
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672475,7 +672475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprUnary ' sans documentation
 
-- **line :** 2519
+- **line :** 2523
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672485,7 +672485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2520
+- **line :** 2524
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672495,7 +672495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_unary' sans documentation
 
-- **line :** 2528
+- **line :** 2532
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672505,7 +672505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprClosure ' sans documentation
 
-- **line :** 2542
+- **line :** 2546
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672515,7 +672515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2543
+- **line :** 2547
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672525,7 +672525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprRawAddr ' sans documentation
 
-- **line :** 2551
+- **line :** 2555
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672535,7 +672535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2552
+- **line :** 2556
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672545,7 +672545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprReference ' sans documentation
 
-- **line :** 2566
+- **line :** 2570
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672555,7 +672555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2567
+- **line :** 2571
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672565,7 +672565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprBreak ' sans documentation
 
-- **line :** 2580
+- **line :** 2584
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672575,7 +672575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2581
+- **line :** 2585
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672585,7 +672585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprReturn ' sans documentation
 
-- **line :** 2589
+- **line :** 2593
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672595,7 +672595,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2590
+- **line :** 2594
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672605,7 +672605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_become' sans documentation
 
-- **line :** 2606
+- **line :** 2610
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672615,7 +672615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprTryBlock ' sans documentation
 
-- **line :** 2615
+- **line :** 2619
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672625,7 +672625,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2616
+- **line :** 2620
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672635,7 +672635,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprYield ' sans documentation
 
-- **line :** 2628
+- **line :** 2632
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672645,7 +672645,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2629
+- **line :** 2633
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672655,7 +672655,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_closure' sans documentation
 
-- **line :** 2645
+- **line :** 2649
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672665,7 +672665,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprAsync ' sans documentation
 
-- **line :** 2701
+- **line :** 2705
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672675,7 +672675,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2702
+- **line :** 2706
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672685,7 +672685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'closure_arg' sans documentation
 
-- **line :** 2714
+- **line :** 2718
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672695,7 +672695,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprWhile ' sans documentation
 
-- **line :** 2752
+- **line :** 2756
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672705,7 +672705,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2753
+- **line :** 2757
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672715,7 +672715,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprConst ' sans documentation
 
-- **line :** 2776
+- **line :** 2780
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672725,7 +672725,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2777
+- **line :** 2781
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672735,7 +672735,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for Label ' sans documentation
 
-- **line :** 2796
+- **line :** 2800
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672745,7 +672745,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2797
+- **line :** 2801
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672755,7 +672755,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for Option<Label> ' sans documentation
 
-- **line :** 2807
+- **line :** 2811
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672765,7 +672765,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2808
+- **line :** 2812
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672775,7 +672775,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprContinue ' sans documentation
 
-- **line :** 2819
+- **line :** 2823
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672785,7 +672785,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2820
+- **line :** 2824
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672795,7 +672795,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_break' sans documentation
 
-- **line :** 2830
+- **line :** 2834
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672805,7 +672805,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for FieldValue ' sans documentation
 
-- **line :** 2862
+- **line :** 2866
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672815,7 +672815,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2863
+- **line :** 2867
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672825,7 +672825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprStruct ' sans documentation
 
-- **line :** 2891
+- **line :** 2895
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672835,7 +672835,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2892
+- **line :** 2896
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672845,7 +672845,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_struct_helper' sans documentation
 
-- **line :** 2899
+- **line :** 2903
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672855,7 +672855,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprUnsafe ' sans documentation
 
-- **line :** 2946
+- **line :** 2950
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672865,7 +672865,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2947
+- **line :** 2951
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672875,7 +672875,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprBlock ' sans documentation
 
-- **line :** 2965
+- **line :** 2969
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672885,7 +672885,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 2966
+- **line :** 2970
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672895,7 +672895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expr_range' sans documentation
 
-- **line :** 2984
+- **line :** 2988
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672905,7 +672905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse_range_end' sans documentation
 
-- **line :** 2996
+- **line :** 3000
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672915,7 +672915,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for RangeLimits ' sans documentation
 
-- **line :** 3033
+- **line :** 3037
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672925,7 +672925,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 3034
+- **line :** 3038
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672935,7 +672935,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'RangeLimits ' sans documentation
 
-- **line :** 3050
+- **line :** 3054
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672945,7 +672945,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse_obsolete' sans documentation
 
-- **line :** 3051
+- **line :** 3055
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672955,7 +672955,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for ExprPath ' sans documentation
 
-- **line :** 3070
+- **line :** 3074
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672965,7 +672965,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 3071
+- **line :** 3075
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672975,7 +672975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for Member ' sans documentation
 
-- **line :** 3085
+- **line :** 3089
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -672985,7 +672985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 3086
+- **line :** 3090
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -672995,7 +672995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Arm ' sans documentation
 
-- **line :** 3098
+- **line :** 3102
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673005,7 +673005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse_multiple' sans documentation
 
-- **line :** 3099
+- **line :** 3103
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673015,7 +673015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for Arm ' sans documentation
 
-- **line :** 3110
+- **line :** 3114
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673025,7 +673025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 3111
+- **line :** 3115
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673035,7 +673035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Parse for Index ' sans documentation
 
-- **line :** 3134
+- **line :** 3138
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673045,7 +673045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
 
-- **line :** 3135
+- **line :** 3139
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673055,7 +673055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'multi_index' sans documentation
 
-- **line :** 3151
+- **line :** 3155
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673065,7 +673065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'check_cast' sans documentation
 
-- **line :** 3185
+- **line :** 3189
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673075,7 +673075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'printing' sans documentation
 
-- **line :** 3209
+- **line :** 3213
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -673085,7 +673085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'outer_attrs_to_tokens' sans documentation
 
-- **line :** 3239
+- **line :** 3243
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673095,7 +673095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'inner_attrs_to_tokens' sans documentation
 
-- **line :** 3244
+- **line :** 3248
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673105,7 +673105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'outer_attrs_to_tokens' sans documentation
 
-- **line :** 3249
+- **line :** 3253
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673115,7 +673115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_subexpression' sans documentation
 
-- **line :** 3251
+- **line :** 3255
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673125,7 +673125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr' sans documentation
 
-- **line :** 3281
+- **line :** 3285
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673135,7 +673135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprArray ' sans documentation
 
-- **line :** 3370
+- **line :** 3374
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673145,7 +673145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3371
+- **line :** 3375
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673155,7 +673155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprAssign ' sans documentation
 
-- **line :** 3381
+- **line :** 3385
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673165,7 +673165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3382
+- **line :** 3386
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673175,7 +673175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_assign' sans documentation
 
-- **line :** 3388
+- **line :** 3392
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673185,7 +673185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprAsync ' sans documentation
 
-- **line :** 3421
+- **line :** 3425
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673195,7 +673195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3422
+- **line :** 3426
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673205,7 +673205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprAwait ' sans documentation
 
-- **line :** 3432
+- **line :** 3436
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673215,7 +673215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3433
+- **line :** 3437
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673225,7 +673225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_await' sans documentation
 
-- **line :** 3439
+- **line :** 3443
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673235,7 +673235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprBinary ' sans documentation
 
-- **line :** 3453
+- **line :** 3457
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673245,7 +673245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3454
+- **line :** 3458
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673255,7 +673255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_binary' sans documentation
 
-- **line :** 3459
+- **line :** 3463
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673265,7 +673265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprBlock ' sans documentation
 
-- **line :** 3521
+- **line :** 3525
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673275,7 +673275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3522
+- **line :** 3526
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673285,7 +673285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprBreak ' sans documentation
 
-- **line :** 3534
+- **line :** 3538
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673295,7 +673295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3535
+- **line :** 3539
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673305,7 +673305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_break' sans documentation
 
-- **line :** 3541
+- **line :** 3545
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673315,7 +673315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprCall ' sans documentation
 
-- **line :** 3558
+- **line :** 3562
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673325,7 +673325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3559
+- **line :** 3563
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673335,7 +673335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_call' sans documentation
 
-- **line :** 3564
+- **line :** 3568
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673345,7 +673345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprCast ' sans documentation
 
-- **line :** 3588
+- **line :** 3592
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673355,7 +673355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3589
+- **line :** 3593
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673365,7 +673365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_cast' sans documentation
 
-- **line :** 3594
+- **line :** 3598
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673375,7 +673375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprClosure ' sans documentation
 
-- **line :** 3625
+- **line :** 3629
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673385,7 +673385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3626
+- **line :** 3630
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673395,7 +673395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_closure' sans documentation
 
-- **line :** 3632
+- **line :** 3636
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673405,7 +673405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprConst ' sans documentation
 
-- **line :** 3659
+- **line :** 3663
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673415,7 +673415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3660
+- **line :** 3664
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673425,7 +673425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprContinue ' sans documentation
 
-- **line :** 3672
+- **line :** 3676
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673435,7 +673435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3673
+- **line :** 3677
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673445,7 +673445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprField ' sans documentation
 
-- **line :** 3681
+- **line :** 3685
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673455,7 +673455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3682
+- **line :** 3686
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673465,7 +673465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_field' sans documentation
 
-- **line :** 3687
+- **line :** 3691
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673475,7 +673475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprForLoop ' sans documentation
 
-- **line :** 3702
+- **line :** 3706
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673485,7 +673485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3703
+- **line :** 3707
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673495,7 +673495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprGroup ' sans documentation
 
-- **line :** 3718
+- **line :** 3722
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673505,7 +673505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3719
+- **line :** 3723
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673515,7 +673515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprIf ' sans documentation
 
-- **line :** 3729
+- **line :** 3733
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673525,7 +673525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3730
+- **line :** 3734
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673535,7 +673535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprIndex ' sans documentation
 
-- **line :** 3767
+- **line :** 3771
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673545,7 +673545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3768
+- **line :** 3772
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673555,7 +673555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_index' sans documentation
 
-- **line :** 3773
+- **line :** 3777
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673565,7 +673565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprInfer ' sans documentation
 
-- **line :** 3796
+- **line :** 3800
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673575,7 +673575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3797
+- **line :** 3801
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673585,7 +673585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprLet ' sans documentation
 
-- **line :** 3805
+- **line :** 3809
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673595,7 +673595,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3806
+- **line :** 3810
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673605,7 +673605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_let' sans documentation
 
-- **line :** 3812
+- **line :** 3816
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673615,7 +673615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprLit ' sans documentation
 
-- **line :** 3822
+- **line :** 3826
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673625,7 +673625,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3823
+- **line :** 3827
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673635,7 +673635,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprLoop ' sans documentation
 
-- **line :** 3831
+- **line :** 3835
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673645,7 +673645,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3832
+- **line :** 3836
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673655,7 +673655,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprMacro ' sans documentation
 
-- **line :** 3844
+- **line :** 3848
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673665,7 +673665,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3845
+- **line :** 3849
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673675,7 +673675,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprMatch ' sans documentation
 
-- **line :** 3853
+- **line :** 3857
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673685,7 +673685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3854
+- **line :** 3858
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673695,7 +673695,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprMethodCall ' sans documentation
 
-- **line :** 3877
+- **line :** 3881
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673705,7 +673705,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3878
+- **line :** 3882
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673715,7 +673715,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_method_call' sans documentation
 
-- **line :** 3883
+- **line :** 3887
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673725,7 +673725,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprParen ' sans documentation
 
-- **line :** 3907
+- **line :** 3911
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673735,7 +673735,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3908
+- **line :** 3912
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673745,7 +673745,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprPath ' sans documentation
 
-- **line :** 3917
+- **line :** 3921
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673755,7 +673755,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3918
+- **line :** 3922
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673765,7 +673765,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprRange ' sans documentation
 
-- **line :** 3926
+- **line :** 3930
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673775,7 +673775,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3927
+- **line :** 3931
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673785,7 +673785,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_range' sans documentation
 
-- **line :** 3933
+- **line :** 3937
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673795,7 +673795,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprRawAddr ' sans documentation
 
-- **line :** 3969
+- **line :** 3973
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673805,7 +673805,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3970
+- **line :** 3974
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673815,7 +673815,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_raw_addr' sans documentation
 
-- **line :** 3976
+- **line :** 3980
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673825,7 +673825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprReference ' sans documentation
 
-- **line :** 3991
+- **line :** 3995
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673835,7 +673835,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 3992
+- **line :** 3996
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673845,7 +673845,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_reference' sans documentation
 
-- **line :** 3997
+- **line :** 4001
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673855,7 +673855,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprRepeat ' sans documentation
 
-- **line :** 4016
+- **line :** 4020
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673865,7 +673865,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4017
+- **line :** 4021
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673875,7 +673875,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprReturn ' sans documentation
 
-- **line :** 4029
+- **line :** 4033
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673885,7 +673885,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4030
+- **line :** 4034
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673895,7 +673895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_return' sans documentation
 
-- **line :** 4036
+- **line :** 4040
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673905,7 +673905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprStruct ' sans documentation
 
-- **line :** 4049
+- **line :** 4053
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673915,7 +673915,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4050
+- **line :** 4054
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673925,7 +673925,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprTry ' sans documentation
 
-- **line :** 4067
+- **line :** 4071
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673935,7 +673935,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4068
+- **line :** 4072
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673945,7 +673945,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_try' sans documentation
 
-- **line :** 4074
+- **line :** 4078
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673955,7 +673955,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprTryBlock ' sans documentation
 
-- **line :** 4088
+- **line :** 4092
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673965,7 +673965,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4089
+- **line :** 4093
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673975,7 +673975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprTuple ' sans documentation
 
-- **line :** 4097
+- **line :** 4101
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -673985,7 +673985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4098
+- **line :** 4102
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -673995,7 +673995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprUnary ' sans documentation
 
-- **line :** 4112
+- **line :** 4116
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674005,7 +674005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4113
+- **line :** 4117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674015,7 +674015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_unary' sans documentation
 
-- **line :** 4118
+- **line :** 4122
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674025,7 +674025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprUnsafe ' sans documentation
 
-- **line :** 4136
+- **line :** 4140
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674035,7 +674035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4137
+- **line :** 4141
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674045,7 +674045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprWhile ' sans documentation
 
-- **line :** 4149
+- **line :** 4153
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674055,7 +674055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4150
+- **line :** 4154
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674065,7 +674065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for ExprYield ' sans documentation
 
-- **line :** 4164
+- **line :** 4168
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674075,7 +674075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4165
+- **line :** 4169
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674085,7 +674085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'print_expr_yield' sans documentation
 
-- **line :** 4171
+- **line :** 4175
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674095,7 +674095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for Arm ' sans documentation
 
-- **line :** 4185
+- **line :** 4189
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674105,7 +674105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4186
+- **line :** 4190
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674115,7 +674115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for FieldValue ' sans documentation
 
-- **line :** 4196
+- **line :** 4200
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674125,7 +674125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4197
+- **line :** 4201
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674135,7 +674135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for Index ' sans documentation
 
-- **line :** 4208
+- **line :** 4212
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674145,7 +674145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4209
+- **line :** 4213
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674155,7 +674155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for Label ' sans documentation
 
-- **line :** 4218
+- **line :** 4222
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674165,7 +674165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4219
+- **line :** 4223
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674175,7 +674175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for Member ' sans documentation
 
-- **line :** 4226
+- **line :** 4230
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674185,7 +674185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4227
+- **line :** 4231
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -674195,7 +674195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ToTokens for RangeLimits ' sans documentation
 
-- **line :** 4237
+- **line :** 4241
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -674205,7 +674205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
 
-- **line :** 4238
+- **line :** 4242
 
 - **suggestion :** Ajoutez /// avant cette function
 
