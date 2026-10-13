@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-12T20:35:13.692144",
+    "generated": "2026-10-13T02:53:37.562708",
     "score": 64,
     "status": "Bon",
     "scores": {
@@ -11,7 +11,7 @@
         "rust": 0,
         "organization": 95
     },
-    "problem_count": 130179,
+    "problem_count": 130203,
     "details": {
         "markdown": {
             "score": 45,
@@ -13904,73 +13904,67 @@
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:38 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:22 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:44 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:51 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:50 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:57 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:56 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:63 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:62 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:69 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:68 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:75 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:74 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:81 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:80 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:87 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:86 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:93 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:90 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:99 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:97 titre sans ligne vide avant.",
-                    "module": "titles"
-                },
-                {
-                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
-                    "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:104 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:103 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
@@ -13982,49 +13976,61 @@
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:116 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:117 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:122 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:123 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:128 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:129 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:139 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:135 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:145 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:141 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:155 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:152 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:161 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:158 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:175 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:168 titre sans ligne vide avant.",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:174 titre sans ligne vide avant.",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:188 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
@@ -36140,259 +36146,247 @@
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:18 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:8).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:31 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:38 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:15).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:44 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:51 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:21).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:15).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:50 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:57 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:27).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:21).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:56 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:63 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:33).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:27).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:69 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:33).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:45).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:51).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:45).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:57).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:51).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:147).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:57).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:68).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:147).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:97 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:75).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:68).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:81).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:75).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:110 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:87).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:81).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:93).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:87).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:99).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:93).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:128 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:131 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:99).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:110).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:141 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:116).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:110).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:145 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:116).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:126).",
-                    "module": "titles"
-                },
-                {
-                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
-                    "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:155 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
-                    "module": "titles"
-                },
-                {
-                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
-                    "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:156).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:158 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
@@ -36404,115 +36398,139 @@
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:146).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:126).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:175 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:168 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:178 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:156).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:158).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:187 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:146).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:190 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:162).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:188 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:208).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:166).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:158).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:168).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:170).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:203 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:162).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:214).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:208).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:174).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:166).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:176).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:168).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:216).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:170).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:220).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:214).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:182).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:215 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:174).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:184).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:176).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:214 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:186).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:219 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:216).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:188).",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:221 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:220).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:223 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:182).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:184).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:186).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/sha2/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/sha2/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:188).",
                     "module": "titles"
                 },
                 {
@@ -36548,13 +36566,13 @@
                 {
                     "file": "server_rust/vendor/sha2/README.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/README.md:106 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).",
+                    "message": "server_rust/vendor/sha2/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/sha2/README.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/sha2/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).",
+                    "message": "server_rust/vendor/sha2/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).",
                     "module": "titles"
                 },
                 {
@@ -44971,9 +44989,9 @@
             "score": 0,
             "max_score": 30,
             "results": {
-                "files_checked": 5118,
-                "total_elements": 134376,
-                "elements_without_docs": 122696
+                "files_checked": 5116,
+                "total_elements": 134398,
+                "elements_without_docs": 122717
             },
             "problems": [
                 {
@@ -105850,7 +105868,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 303,
+                    "line": 323,
                     "severity": "warning",
                     "message": "Function 'parse_terminated' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105858,7 +105876,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 321,
+                    "line": 341,
                     "severity": "warning",
                     "message": "Function 'parse_terminated_with' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105866,7 +105884,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 355,
+                    "line": 375,
                     "severity": "warning",
                     "message": "Function 'parse_separated_nonempty' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105874,7 +105892,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 373,
+                    "line": 393,
                     "severity": "warning",
                     "message": "Function 'parse_separated_nonempty_with' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105882,7 +105900,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 403,
+                    "line": 423,
                     "severity": "warning",
                     "message": "Function 'clone' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105890,7 +105908,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 410,
+                    "line": 430,
                     "severity": "warning",
                     "message": "Function 'clone_from' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105898,7 +105916,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 432,
+                    "line": 452,
                     "severity": "warning",
                     "message": "Function 'eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105906,7 +105924,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 445,
+                    "line": 465,
                     "severity": "warning",
                     "message": "Function 'hash' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105914,7 +105932,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 455,
+                    "line": 475,
                     "severity": "warning",
                     "message": "Function 'fmt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105922,7 +105940,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 472,
+                    "line": 492,
                     "severity": "warning",
                     "message": "Function 'from_iter' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105930,7 +105948,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 483,
+                    "line": 503,
                     "severity": "warning",
                     "message": "Function 'extend' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105938,7 +105956,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 491,
+                    "line": 511,
                     "severity": "warning",
                     "message": "Function 'from_iter' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105946,7 +105964,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 502,
+                    "line": 522,
                     "severity": "warning",
                     "message": "Function 'extend' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105954,17 +105972,9 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 510,
+                    "line": 530,
                     "severity": "warning",
                     "message": "Function 'do_extend' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 533,
-                    "severity": "warning",
-                    "message": "Function 'into_iter' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -105978,7 +105988,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 562,
+                    "line": 573,
                     "severity": "warning",
                     "message": "Function 'into_iter' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105986,7 +105996,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 568,
+                    "line": 582,
+                    "severity": "warning",
+                    "message": "Function 'into_iter' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 588,
                     "severity": "warning",
                     "message": "Function 'default' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -105994,7 +106012,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 586,
+                    "line": 606,
                     "severity": "warning",
                     "message": "Function 'next' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106002,7 +106020,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 593,
+                    "line": 613,
                     "severity": "warning",
                     "message": "Function 'size_hint' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106010,7 +106028,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 599,
+                    "line": 619,
                     "severity": "warning",
                     "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106018,7 +106036,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 608,
+                    "line": 628,
                     "severity": "warning",
                     "message": "Function 'len' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106026,7 +106044,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 615,
+                    "line": 635,
                     "severity": "warning",
                     "message": "Function 'clone' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106034,7 +106052,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 636,
+                    "line": 656,
                     "severity": "warning",
                     "message": "Function 'next' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106042,7 +106060,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 643,
+                    "line": 663,
                     "severity": "warning",
                     "message": "Function 'size_hint' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106050,7 +106068,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 649,
+                    "line": 669,
                     "severity": "warning",
                     "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106058,7 +106076,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 658,
+                    "line": 678,
                     "severity": "warning",
                     "message": "Function 'len' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106066,7 +106084,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 676,
+                    "line": 696,
                     "severity": "warning",
                     "message": "Function 'next' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106074,7 +106092,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 683,
+                    "line": 703,
                     "severity": "warning",
                     "message": "Function 'size_hint' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106082,7 +106100,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 689,
+                    "line": 709,
                     "severity": "warning",
                     "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106090,17 +106108,9 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 698,
+                    "line": 718,
                     "severity": "warning",
                     "message": "Function 'len' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 708,
-                    "severity": "warning",
-                    "message": "Function 'clone' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -106108,13 +106118,21 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
                     "line": 728,
                     "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 748,
+                    "severity": "warning",
                     "message": "Function 'next' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 732,
+                    "line": 752,
                     "severity": "warning",
                     "message": "Function 'size_hint' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106122,7 +106140,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 738,
+                    "line": 758,
                     "severity": "warning",
                     "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106130,33 +106148,9 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 744,
+                    "line": 764,
                     "severity": "warning",
                     "message": "Function 'len' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 753,
-                    "severity": "warning",
-                    "message": "Function 'clone' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 769,
-                    "severity": "warning",
-                    "message": "Trait 'IterTrait' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette trait",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 770,
-                    "severity": "warning",
-                    "message": "Function 'clone_box' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -106164,93 +106158,21 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
                     "line": 773,
                     "severity": "warning",
-                    "message": "Struct 'PrivateIter' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette struct",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 786,
-                    "severity": "warning",
-                    "message": "Function 'empty_punctuated_iter' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 794,
-                    "severity": "warning",
                     "message": "Function 'clone' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 804,
+                    "line": 789,
                     "severity": "warning",
-                    "message": "Function 'next' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
+                    "message": "Trait 'IterTrait' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette trait",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 808,
-                    "severity": "warning",
-                    "message": "Function 'size_hint' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 814,
-                    "severity": "warning",
-                    "message": "Function 'next_back' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 820,
-                    "severity": "warning",
-                    "message": "Function 'len' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 828,
-                    "severity": "warning",
-                    "message": "Function 'next' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 837,
-                    "severity": "warning",
-                    "message": "Function 'next_back' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 845,
-                    "severity": "warning",
-                    "message": "Function 'len' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 852,
-                    "severity": "warning",
-                    "message": "Function 'clone' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 869,
+                    "line": 790,
                     "severity": "warning",
                     "message": "Function 'clone_box' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106258,95 +106180,23 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 883,
+                    "line": 793,
                     "severity": "warning",
-                    "message": "Trait 'IterMutTrait' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette trait",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 888,
-                    "severity": "warning",
-                    "message": "Struct 'PrivateIterMut' sans documentation",
+                    "message": "Struct 'PrivateIter' sans documentation",
                     "suggestion": "Ajoutez /// avant cette struct",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 901,
+                    "line": 806,
                     "severity": "warning",
-                    "message": "Function 'empty_punctuated_iter_mut' sans documentation",
+                    "message": "Function 'empty_punctuated_iter' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 910,
-                    "severity": "warning",
-                    "message": "Function 'next' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 914,
-                    "severity": "warning",
-                    "message": "Function 'size_hint' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 920,
-                    "severity": "warning",
-                    "message": "Function 'next_back' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 926,
-                    "severity": "warning",
-                    "message": "Function 'len' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 934,
-                    "severity": "warning",
-                    "message": "Function 'next' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 943,
-                    "severity": "warning",
-                    "message": "Function 'next_back' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 951,
-                    "severity": "warning",
-                    "message": "Function 'len' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1053,
-                    "severity": "warning",
-                    "message": "Function 'cloned' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1072,
+                    "line": 814,
                     "severity": "warning",
                     "message": "Function 'clone' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106354,7 +106204,175 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 824,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 828,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 834,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 840,
+                    "severity": "warning",
+                    "message": "Function 'len' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 848,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 857,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 865,
+                    "severity": "warning",
+                    "message": "Function 'len' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 872,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 889,
+                    "severity": "warning",
+                    "message": "Function 'clone_box' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 903,
+                    "severity": "warning",
+                    "message": "Trait 'IterMutTrait' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette trait",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 908,
+                    "severity": "warning",
+                    "message": "Struct 'PrivateIterMut' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 921,
+                    "severity": "warning",
+                    "message": "Function 'empty_punctuated_iter_mut' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 930,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 934,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 940,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 946,
+                    "severity": "warning",
+                    "message": "Function 'len' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 954,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 963,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 971,
+                    "severity": "warning",
+                    "message": "Function 'len' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 1073,
+                    "severity": "warning",
+                    "message": "Function 'cloned' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
                     "line": 1092,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
+                    "line": 1112,
                     "severity": "warning",
                     "message": "Function 'index' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106362,7 +106380,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1105,
+                    "line": 1125,
                     "severity": "warning",
                     "message": "Function 'index_mut' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106370,7 +106388,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1118,
+                    "line": 1138,
                     "severity": "warning",
                     "message": "Function 'fold' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106378,7 +106396,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1148,
+                    "line": 1168,
                     "severity": "warning",
                     "message": "Mod 'printing' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -106386,7 +106404,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1159,
+                    "line": 1179,
                     "severity": "warning",
                     "message": "Function 'to_tokens' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -106394,7 +106412,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/punctuated.rs",
-                    "line": 1170,
+                    "line": 1190,
                     "severity": "warning",
                     "message": "Function 'to_tokens' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -569882,7 +569900,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 75,
+                    "line": 78,
                     "severity": "warning",
                     "message": "Impl 'AlgorithmName for Sha256VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -569890,7 +569908,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 77,
+                    "line": 80,
                     "severity": "warning",
                     "message": "Function 'write_alg_name' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -569898,7 +569916,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 82,
+                    "line": 85,
                     "severity": "warning",
                     "message": "Impl 'fmt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -569906,7 +569924,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 84,
+                    "line": 87,
                     "severity": "warning",
                     "message": "Function 'fmt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -569914,7 +569932,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 89,
+                    "line": 92,
                     "severity": "warning",
                     "message": "Impl 'Drop for Sha256VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -569922,7 +569940,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 90,
+                    "line": 93,
                     "severity": "warning",
                     "message": "Function 'drop' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -569930,17 +569948,9 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 101,
+                    "line": 104,
                     "severity": "warning",
                     "message": "Impl 'digest' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 103,
-                    "severity": "warning",
-                    "message": "Impl 'SerializableState for Sha256VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
                     "module": "rust"
                 },
@@ -569948,13 +569958,21 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
                     "line": 106,
                     "severity": "warning",
+                    "message": "Impl 'SerializableState for Sha256VarCore ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
+                    "line": 109,
+                    "severity": "warning",
                     "message": "Function 'serialize' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 117,
+                    "line": 124,
                     "severity": "warning",
                     "message": "Function 'deserialize' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -569962,7 +569980,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 138,
+                    "line": 144,
                     "severity": "warning",
                     "message": "Struct 'Sha512VarCore' sans documentation",
                     "suggestion": "Ajoutez /// avant cette struct",
@@ -569970,7 +569988,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 143,
+                    "line": 149,
                     "severity": "warning",
                     "message": "Impl 'HashMarker for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -569978,7 +569996,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 145,
+                    "line": 151,
                     "severity": "warning",
                     "message": "Impl 'BlockSizeUser for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -569986,7 +570004,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 149,
+                    "line": 155,
                     "severity": "warning",
                     "message": "Impl 'BufferKindUser for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -569994,7 +570012,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 153,
+                    "line": 159,
                     "severity": "warning",
                     "message": "Impl 'UpdateCore for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570002,7 +570020,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 155,
+                    "line": 161,
                     "severity": "warning",
                     "message": "Function 'update_blocks' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570010,7 +570028,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 162,
+                    "line": 168,
                     "severity": "warning",
                     "message": "Impl 'OutputSizeUser for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570018,7 +570036,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 166,
+                    "line": 172,
                     "severity": "warning",
                     "message": "Impl 'VariableOutputCore for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570026,7 +570044,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 170,
+                    "line": 176,
                     "severity": "warning",
                     "message": "Function 'new' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570034,7 +570052,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 183,
+                    "line": 189,
                     "severity": "warning",
                     "message": "Function 'finalize_variable_core' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570042,7 +570060,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 194,
+                    "line": 203,
                     "severity": "warning",
                     "message": "Impl 'AlgorithmName for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570050,7 +570068,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 196,
+                    "line": 205,
                     "severity": "warning",
                     "message": "Function 'write_alg_name' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570058,7 +570076,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 201,
+                    "line": 210,
                     "severity": "warning",
                     "message": "Impl 'fmt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570066,7 +570084,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 203,
+                    "line": 212,
                     "severity": "warning",
                     "message": "Function 'fmt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570074,7 +570092,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 208,
+                    "line": 217,
                     "severity": "warning",
                     "message": "Impl 'Drop for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570082,7 +570100,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 209,
+                    "line": 218,
                     "severity": "warning",
                     "message": "Function 'drop' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570090,7 +570108,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 219,
+                    "line": 228,
                     "severity": "warning",
                     "message": "Impl 'digest' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570098,7 +570116,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 221,
+                    "line": 230,
                     "severity": "warning",
                     "message": "Impl 'SerializableState for Sha512VarCore ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -570106,7 +570124,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 224,
+                    "line": 233,
                     "severity": "warning",
                     "message": "Function 'serialize' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570114,7 +570132,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/block_api.rs",
-                    "line": 236,
+                    "line": 248,
                     "severity": "warning",
                     "message": "Function 'deserialize' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570138,7 +570156,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 14,
+                    "line": 11,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570146,7 +570164,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 19,
+                    "line": 16,
                     "severity": "warning",
                     "message": "Mod 'x86_sha' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570154,7 +570172,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 29,
+                    "line": 24,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570162,7 +570180,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 34,
+                    "line": 29,
                     "severity": "warning",
                     "message": "Mod 'aarch64_sha2' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570170,7 +570188,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 39,
+                    "line": 34,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570178,7 +570196,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 44,
+                    "line": 39,
                     "severity": "warning",
                     "message": "Mod 'loongarch64_asm' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570186,7 +570204,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 47,
+                    "line": 42,
                     "severity": "warning",
                     "message": "Mod 'wasm32_simd128' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570194,7 +570212,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 50,
+                    "line": 45,
                     "severity": "warning",
                     "message": "Mod 'soft' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570202,7 +570220,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 54,
+                    "line": 49,
                     "severity": "warning",
                     "message": "Mod 'x86_sha' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570210,7 +570228,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 57,
+                    "line": 52,
                     "severity": "warning",
                     "message": "Mod 'aarch64_sha2' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570218,7 +570236,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256.rs",
-                    "line": 62,
+                    "line": 57,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570266,7 +570284,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 14,
+                    "line": 11,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570274,7 +570292,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 19,
+                    "line": 16,
                     "severity": "warning",
                     "message": "Mod 'x86_avx2' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570282,7 +570300,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 24,
+                    "line": 21,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570290,7 +570308,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 29,
+                    "line": 26,
                     "severity": "warning",
                     "message": "Mod 'aarch64_sha3' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570298,7 +570316,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 34,
+                    "line": 31,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570306,7 +570324,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 39,
+                    "line": 36,
                     "severity": "warning",
                     "message": "Mod 'loongarch64_asm' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570314,7 +570332,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 42,
+                    "line": 39,
                     "severity": "warning",
                     "message": "Mod 'wasm32_simd128' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570322,7 +570340,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 45,
+                    "line": 42,
                     "severity": "warning",
                     "message": "Mod 'soft' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570330,7 +570348,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 49,
+                    "line": 46,
                     "severity": "warning",
                     "message": "Mod 'x86_avx2' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570338,7 +570356,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 52,
+                    "line": 49,
                     "severity": "warning",
                     "message": "Mod 'aarch64_sha3' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570346,7 +570364,55 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512.rs",
-                    "line": 57,
+                    "line": 54,
+                    "severity": "warning",
+                    "message": "Function 'compress' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs",
+                    "line": 13,
+                    "severity": "warning",
+                    "message": "Function 'rounds4' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs",
+                    "line": 29,
+                    "severity": "warning",
+                    "message": "Function 'schedule_rounds16' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs",
+                    "line": 48,
+                    "severity": "warning",
+                    "message": "Function 'load_block' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs",
+                    "line": 59,
+                    "severity": "warning",
+                    "message": "Function 'load_state' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs",
+                    "line": 66,
+                    "severity": "warning",
+                    "message": "Function 'store_state' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs",
+                    "line": 75,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570354,15 +570420,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh.rs",
-                    "line": 4,
-                    "severity": "warning",
-                    "message": "Mod 'utils' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette mod",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh.rs",
-                    "line": 13,
+                    "line": 11,
                     "severity": "warning",
                     "message": "Mod 'compact' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570370,10 +570428,26 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh.rs",
-                    "line": 16,
+                    "line": 14,
                     "severity": "warning",
                     "message": "Mod 'unroll' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh.rs",
+                    "line": 20,
+                    "severity": "warning",
+                    "message": "Function 'compress' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh.rs",
+                    "line": 26,
+                    "severity": "warning",
+                    "message": "Function 'load_block' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
@@ -570410,7 +570484,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
-                    "line": 13,
+                    "line": 9,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570418,7 +570492,23 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
-                    "line": 73,
+                    "line": 26,
+                    "severity": "warning",
+                    "message": "Function 'load_data' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
+                    "line": 43,
+                    "severity": "warning",
+                    "message": "Function 'rounds_0_47' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
+                    "line": 65,
                     "severity": "warning",
                     "message": "Function 'rounds_48_63' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570426,7 +570516,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
-                    "line": 84,
+                    "line": 76,
                     "severity": "warning",
                     "message": "Function 'sha_round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570434,23 +570524,71 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
-                    "line": 134,
+                    "line": 126,
                     "severity": "warning",
                     "message": "Function 'accumulate_state' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/compact.rs",
-                    "line": 5,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
+                    "line": 134,
+                    "severity": "warning",
+                    "message": "Function 'sha256_update_x' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/wasm32_simd128.rs",
+                    "line": 184,
+                    "severity": "warning",
+                    "message": "Function 'rk' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/aarch64_sha2.rs",
+                    "line": 10,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/aarch64_sha2.rs",
+                    "line": 88,
+                    "severity": "warning",
+                    "message": "Function 'rk' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/aarch64_sha2.rs",
+                    "line": 95,
+                    "severity": "warning",
+                    "message": "Function 'load_block' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/aarch64_sha2.rs",
+                    "line": 105,
+                    "severity": "warning",
+                    "message": "Function 'load_state' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/aarch64_sha2.rs",
+                    "line": 114,
+                    "severity": "warning",
+                    "message": "Function 'store_state' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/compact.rs",
-                    "line": 12,
+                    "line": 6,
                     "severity": "warning",
                     "message": "Function 'compress_block' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570458,7 +570596,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/compact.rs",
-                    "line": 28,
+                    "line": 23,
                     "severity": "warning",
                     "message": "Function 'schedule' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570466,7 +570604,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/compact.rs",
-                    "line": 36,
+                    "line": 32,
                     "severity": "warning",
                     "message": "Function 'round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570474,7 +570612,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/compact.rs",
-                    "line": 60,
+                    "line": 48,
                     "severity": "warning",
                     "message": "Function 'ch' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570482,7 +570620,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/compact.rs",
-                    "line": 65,
+                    "line": 53,
                     "severity": "warning",
                     "message": "Function 'maj' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570490,15 +570628,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
-                    "line": 5,
-                    "severity": "warning",
-                    "message": "Function 'compress' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
-                    "line": 12,
+                    "line": 6,
                     "severity": "warning",
                     "message": "Function 'compress_block' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570506,7 +570636,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
-                    "line": 60,
+                    "line": 55,
                     "severity": "warning",
                     "message": "Function 'round_schedule' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570514,7 +570644,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
-                    "line": 70,
+                    "line": 66,
                     "severity": "warning",
                     "message": "Function 'round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570522,7 +570652,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
-                    "line": 94,
+                    "line": 82,
                     "severity": "warning",
                     "message": "Function 'ch' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570530,39 +570660,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
-                    "line": 99,
+                    "line": 87,
                     "severity": "warning",
                     "message": "Function 'maj' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/utils.rs",
-                    "line": 4,
-                    "severity": "warning",
-                    "message": "Function 'load_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/utils.rs",
-                    "line": 13,
-                    "severity": "warning",
-                    "message": "Function 'load_aligned_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/utils.rs",
-                    "line": 39,
-                    "severity": "warning",
-                    "message": "Function 'load_unaligned_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/utils.rs",
-                    "line": 84,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/unroll.rs",
+                    "line": 93,
                     "severity": "warning",
                     "message": "Function 'opaque_load' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570594,7 +570700,55 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
-                    "line": 164,
+                    "line": 12,
+                    "severity": "warning",
+                    "message": "Function 'compress' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 41,
+                    "severity": "warning",
+                    "message": "Function 'sha512_compress_x86_64_avx' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 55,
+                    "severity": "warning",
+                    "message": "Function 'load_data_avx' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 75,
+                    "severity": "warning",
+                    "message": "Function 'load_data_avx2' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 113,
+                    "severity": "warning",
+                    "message": "Function 'rounds_0_63_avx' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 134,
+                    "severity": "warning",
+                    "message": "Function 'rounds_0_63_avx2' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 162,
                     "severity": "warning",
                     "message": "Function 'rounds_64_79' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570602,7 +570756,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
-                    "line": 172,
+                    "line": 170,
                     "severity": "warning",
                     "message": "Function 'process_second_block' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570610,7 +570764,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
-                    "line": 179,
+                    "line": 177,
                     "severity": "warning",
                     "message": "Function 'sha_round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570618,7 +570772,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
-                    "line": 229,
+                    "line": 227,
                     "severity": "warning",
                     "message": "Function 'accumulate_state' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570641,16 +570795,56 @@
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 4,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/x86_avx2.rs",
+                    "line": 339,
                     "severity": "warning",
-                    "message": "Mod 'utils' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette mod",
+                    "message": "Function 'rk' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/aarch64_sha3.rs",
+                    "line": 8,
+                    "severity": "warning",
+                    "message": "Function 'compress' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/aarch64_sha3.rs",
+                    "line": 167,
+                    "severity": "warning",
+                    "message": "Function 'rk' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/aarch64_sha3.rs",
+                    "line": 174,
+                    "severity": "warning",
+                    "message": "Function 'load_block' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/aarch64_sha3.rs",
+                    "line": 184,
+                    "severity": "warning",
+                    "message": "Function 'load_state' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/aarch64_sha3.rs",
+                    "line": 193,
+                    "severity": "warning",
+                    "message": "Function 'store_state' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 8,
+                    "line": 6,
                     "severity": "warning",
                     "message": "Mod 'compact' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570658,7 +570852,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 11,
+                    "line": 9,
                     "severity": "warning",
                     "message": "Mod 'unroll' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -570666,7 +570860,23 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 24,
+                    "line": 15,
+                    "severity": "warning",
+                    "message": "Function 'compress' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
+                    "line": 21,
+                    "severity": "warning",
+                    "message": "Function 'load_block' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
+                    "line": 36,
                     "severity": "warning",
                     "message": "Function 'sha512sum0' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570674,7 +570884,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 32,
+                    "line": 43,
                     "severity": "warning",
                     "message": "Function 'sha512sum1' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570682,7 +570892,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 40,
+                    "line": 50,
                     "severity": "warning",
                     "message": "Function 'sha512sig0' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570690,7 +570900,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh.rs",
-                    "line": 48,
+                    "line": 57,
                     "severity": "warning",
                     "message": "Function 'sha512sig1' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570730,7 +570940,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
-                    "line": 13,
+                    "line": 12,
                     "severity": "warning",
                     "message": "Function 'compress' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570738,7 +570948,23 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
-                    "line": 69,
+                    "line": 27,
+                    "severity": "warning",
+                    "message": "Function 'load_data' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
+                    "line": 44,
+                    "severity": "warning",
+                    "message": "Function 'rounds_0_63' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
+                    "line": 64,
                     "severity": "warning",
                     "message": "Function 'rounds_64_79' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570746,7 +570972,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
-                    "line": 78,
+                    "line": 73,
                     "severity": "warning",
                     "message": "Function 'sha_round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570754,23 +570980,31 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
-                    "line": 128,
+                    "line": 123,
                     "severity": "warning",
                     "message": "Function 'accumulate_state' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/compact.rs",
-                    "line": 5,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
+                    "line": 131,
                     "severity": "warning",
-                    "message": "Function 'compress' sans documentation",
+                    "message": "Function 'sha512_update_x' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/wasm32_simd128.rs",
+                    "line": 168,
+                    "severity": "warning",
+                    "message": "Function 'rk' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/compact.rs",
-                    "line": 12,
+                    "line": 6,
                     "severity": "warning",
                     "message": "Function 'compress_block' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570778,7 +571012,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/compact.rs",
-                    "line": 28,
+                    "line": 23,
                     "severity": "warning",
                     "message": "Function 'schedule' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570786,7 +571020,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/compact.rs",
-                    "line": 36,
+                    "line": 32,
                     "severity": "warning",
                     "message": "Function 'round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570794,7 +571028,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/compact.rs",
-                    "line": 60,
+                    "line": 48,
                     "severity": "warning",
                     "message": "Function 'ch' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570802,7 +571036,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/compact.rs",
-                    "line": 65,
+                    "line": 53,
                     "severity": "warning",
                     "message": "Function 'maj' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570810,15 +571044,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
-                    "line": 5,
-                    "severity": "warning",
-                    "message": "Function 'compress' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
-                    "line": 12,
+                    "line": 6,
                     "severity": "warning",
                     "message": "Function 'compress_block' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570826,7 +571052,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
-                    "line": 60,
+                    "line": 55,
                     "severity": "warning",
                     "message": "Function 'round_schedule' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570834,7 +571060,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
-                    "line": 70,
+                    "line": 66,
                     "severity": "warning",
                     "message": "Function 'round' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570842,7 +571068,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
-                    "line": 94,
+                    "line": 82,
                     "severity": "warning",
                     "message": "Function 'ch' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -570850,55 +571076,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
-                    "line": 99,
+                    "line": 87,
                     "severity": "warning",
                     "message": "Function 'maj' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs",
-                    "line": 4,
-                    "severity": "warning",
-                    "message": "Function 'load_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs",
-                    "line": 13,
-                    "severity": "warning",
-                    "message": "Function 'load_aligned_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs",
-                    "line": 27,
-                    "severity": "warning",
-                    "message": "Function 'load_aligned_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs",
-                    "line": 39,
-                    "severity": "warning",
-                    "message": "Function 'load_unaligned_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs",
-                    "line": 89,
-                    "severity": "warning",
-                    "message": "Function 'load_unaligned_block' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs",
-                    "line": 133,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/unroll.rs",
+                    "line": 93,
                     "severity": "warning",
                     "message": "Function 'opaque_load' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",

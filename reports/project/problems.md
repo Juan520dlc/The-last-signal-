@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-10-12 20:35:27
+Generated: 2026-10-13 02:53:50
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|470|
-|⚠️ Warnings|129702|
-|**Total**|**130179**|
+|⚠️ Warnings|129726|
+|**Total**|**130203**|
 
 ---
 
@@ -387235,210 +387235,210 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'AlgorithmName for Sha256VarCore ' sans documentation
-- **line :** 75
+- **line :** 78
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_alg_name' sans documentation
-- **line :** 77
+- **line :** 80
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 82
+- **line :** 85
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 84
+- **line :** 87
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for Sha256VarCore ' sans documentation
-- **line :** 89
+- **line :** 92
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 90
+- **line :** 93
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'digest' sans documentation
-- **line :** 101
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SerializableState for Sha256VarCore ' sans documentation
-- **line :** 103
+- **line :** 106
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'serialize' sans documentation
-- **line :** 106
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'deserialize' sans documentation
-- **line :** 117
+- **line :** 124
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Sha512VarCore' sans documentation
-- **line :** 138
+- **line :** 144
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'HashMarker for Sha512VarCore ' sans documentation
-- **line :** 143
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'BlockSizeUser for Sha512VarCore ' sans documentation
-- **line :** 145
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'BufferKindUser for Sha512VarCore ' sans documentation
 - **line :** 149
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Impl 'BlockSizeUser for Sha512VarCore ' sans documentation
+- **line :** 151
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'BufferKindUser for Sha512VarCore ' sans documentation
+- **line :** 155
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Impl 'UpdateCore for Sha512VarCore ' sans documentation
-- **line :** 153
+- **line :** 159
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update_blocks' sans documentation
-- **line :** 155
+- **line :** 161
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'OutputSizeUser for Sha512VarCore ' sans documentation
-- **line :** 162
+- **line :** 168
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'VariableOutputCore for Sha512VarCore ' sans documentation
-- **line :** 166
+- **line :** 172
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 170
+- **line :** 176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'finalize_variable_core' sans documentation
-- **line :** 183
+- **line :** 189
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'AlgorithmName for Sha512VarCore ' sans documentation
-- **line :** 194
+- **line :** 203
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_alg_name' sans documentation
-- **line :** 196
+- **line :** 205
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 201
+- **line :** 210
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 203
+- **line :** 212
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for Sha512VarCore ' sans documentation
-- **line :** 208
+- **line :** 217
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 209
+- **line :** 218
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'digest' sans documentation
-- **line :** 219
+- **line :** 228
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SerializableState for Sha512VarCore ' sans documentation
-- **line :** 221
+- **line :** 230
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'serialize' sans documentation
-- **line :** 224
+- **line :** 233
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'deserialize' sans documentation
-- **line :** 236
+- **line :** 248
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387488,77 +387488,116 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 14
+- **line :** 11
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x86_sha' sans documentation
-- **line :** 19
+- **line :** 16
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 29
+- **line :** 24
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aarch64_sha2' sans documentation
-- **line :** 34
+- **line :** 29
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 39
+- **line :** 34
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'loongarch64_asm' sans documentation
-- **line :** 44
+- **line :** 39
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'wasm32_simd128' sans documentation
-- **line :** 47
+- **line :** 42
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'soft' sans documentation
-- **line :** 50
+- **line :** 45
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x86_sha' sans documentation
-- **line :** 54
+- **line :** 49
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aarch64_sha2' sans documentation
-- **line :** 57
+- **line :** 52
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 62
+- **line :** 57
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/aarch64_sha2.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 10
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rk' sans documentation
+- **line :** 88
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_block' sans documentation
+- **line :** 95
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_state' sans documentation
+- **line :** 105
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'store_state' sans documentation
+- **line :** 114
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387579,23 +387618,30 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'utils' sans documentation
-- **line :** 4
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Mod 'compact' sans documentation
-- **line :** 13
+- **line :** 11
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'unroll' sans documentation
-- **line :** 16
+- **line :** 14
 - **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 20
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_block' sans documentation
+- **line :** 26
+- **suggestion :** Ajoutez /// avant cette function
 
 ---
 
@@ -387604,43 +387650,36 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'compress' sans documentation
-- **line :** 5
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Function 'compress_block' sans documentation
-- **line :** 12
+- **line :** 6
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'schedule' sans documentation
-- **line :** 28
+- **line :** 23
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'round' sans documentation
-- **line :** 36
+- **line :** 32
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ch' sans documentation
-- **line :** 60
+- **line :** 48
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'maj' sans documentation
-- **line :** 65
+- **line :** 53
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387650,75 +387689,43 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'compress' sans documentation
-- **line :** 5
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Function 'compress_block' sans documentation
-- **line :** 12
+- **line :** 6
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'round_schedule' sans documentation
-- **line :** 60
+- **line :** 55
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'round' sans documentation
-- **line :** 70
+- **line :** 66
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ch' sans documentation
-- **line :** 94
+- **line :** 82
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'maj' sans documentation
-- **line :** 99
-- **suggestion :** Ajoutez /// avant cette function
-
----
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/riscv_zknh/utils.rs
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_block' sans documentation
-- **line :** 4
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_aligned_block' sans documentation
-- **line :** 13
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_unaligned_block' sans documentation
-- **line :** 39
+- **line :** 87
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'opaque_load' sans documentation
-- **line :** 84
+- **line :** 93
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387783,28 +387790,102 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 13
+- **line :** 9
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_data' sans documentation
+- **line :** 26
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rounds_0_47' sans documentation
+- **line :** 43
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rounds_48_63' sans documentation
-- **line :** 73
+- **line :** 65
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sha_round' sans documentation
-- **line :** 84
+- **line :** 76
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'accumulate_state' sans documentation
+- **line :** 126
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sha256_update_x' sans documentation
 - **line :** 134
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rk' sans documentation
+- **line :** 184
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha256/x86_sha.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rounds4' sans documentation
+- **line :** 13
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'schedule_rounds16' sans documentation
+- **line :** 29
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_block' sans documentation
+- **line :** 48
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_state' sans documentation
+- **line :** 59
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'store_state' sans documentation
+- **line :** 66
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 75
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387829,77 +387910,116 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 14
+- **line :** 11
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x86_avx2' sans documentation
-- **line :** 19
+- **line :** 16
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 24
+- **line :** 21
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aarch64_sha3' sans documentation
-- **line :** 29
+- **line :** 26
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 34
+- **line :** 31
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'loongarch64_asm' sans documentation
-- **line :** 39
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'wasm32_simd128' sans documentation
-- **line :** 42
+- **line :** 39
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'soft' sans documentation
-- **line :** 45
+- **line :** 42
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x86_avx2' sans documentation
-- **line :** 49
+- **line :** 46
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aarch64_sha3' sans documentation
-- **line :** 52
+- **line :** 49
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 57
+- **line :** 54
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/aarch64_sha3.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 8
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rk' sans documentation
+- **line :** 167
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_block' sans documentation
+- **line :** 174
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_state' sans documentation
+- **line :** 184
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'store_state' sans documentation
+- **line :** 193
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387920,50 +388040,57 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'utils' sans documentation
-- **line :** 4
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Mod 'compact' sans documentation
-- **line :** 8
+- **line :** 6
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'unroll' sans documentation
-- **line :** 11
+- **line :** 9
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 15
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_block' sans documentation
+- **line :** 21
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'sha512sum0' sans documentation
-- **line :** 24
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sha512sum1' sans documentation
-- **line :** 32
+- **line :** 43
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sha512sig0' sans documentation
-- **line :** 40
+- **line :** 50
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sha512sig1' sans documentation
-- **line :** 48
+- **line :** 57
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -387973,43 +388100,36 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'compress' sans documentation
-- **line :** 5
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Function 'compress_block' sans documentation
-- **line :** 12
+- **line :** 6
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'schedule' sans documentation
-- **line :** 28
+- **line :** 23
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'round' sans documentation
-- **line :** 36
+- **line :** 32
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ch' sans documentation
-- **line :** 60
+- **line :** 48
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'maj' sans documentation
-- **line :** 65
+- **line :** 53
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -388019,89 +388139,43 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'compress' sans documentation
-- **line :** 5
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Function 'compress_block' sans documentation
-- **line :** 12
+- **line :** 6
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'round_schedule' sans documentation
-- **line :** 60
+- **line :** 55
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'round' sans documentation
-- **line :** 70
+- **line :** 66
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ch' sans documentation
-- **line :** 94
+- **line :** 82
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'maj' sans documentation
-- **line :** 99
-- **suggestion :** Ajoutez /// avant cette function
-
----
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/sha2/src/sha512/riscv_zknh/utils.rs
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_block' sans documentation
-- **line :** 4
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_aligned_block' sans documentation
-- **line :** 13
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_aligned_block' sans documentation
-- **line :** 27
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_unaligned_block' sans documentation
-- **line :** 39
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'load_unaligned_block' sans documentation
-- **line :** 89
+- **line :** 87
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'opaque_load' sans documentation
-- **line :** 133
+- **line :** 93
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -388166,28 +388240,56 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'compress' sans documentation
-- **line :** 13
+- **line :** 12
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_data' sans documentation
+- **line :** 27
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rounds_0_63' sans documentation
+- **line :** 44
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rounds_64_79' sans documentation
-- **line :** 69
+- **line :** 64
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sha_round' sans documentation
-- **line :** 78
+- **line :** 73
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'accumulate_state' sans documentation
-- **line :** 128
+- **line :** 123
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sha512_update_x' sans documentation
+- **line :** 131
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rk' sans documentation
+- **line :** 168
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -388197,29 +388299,71 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 12
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sha512_compress_x86_64_avx' sans documentation
+- **line :** 41
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_data_avx' sans documentation
+- **line :** 55
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'load_data_avx2' sans documentation
+- **line :** 75
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rounds_0_63_avx' sans documentation
+- **line :** 113
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rounds_0_63_avx2' sans documentation
+- **line :** 134
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'rounds_64_79' sans documentation
-- **line :** 164
+- **line :** 162
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'process_second_block' sans documentation
-- **line :** 172
+- **line :** 170
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sha_round' sans documentation
-- **line :** 179
+- **line :** 177
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'accumulate_state' sans documentation
-- **line :** 229
+- **line :** 227
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
@@ -388234,6 +388378,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cast_rs' sans documentation
 - **line :** 334
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rk' sans documentation
+- **line :** 339
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -509062,105 +509213,98 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'parse_terminated' sans documentation
-- **line :** 303
+- **line :** 323
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'parse_terminated_with' sans documentation
-- **line :** 321
+- **line :** 341
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'parse_separated_nonempty' sans documentation
-- **line :** 355
+- **line :** 375
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'parse_separated_nonempty_with' sans documentation
-- **line :** 373
+- **line :** 393
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 403
+- **line :** 423
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone_from' sans documentation
-- **line :** 410
+- **line :** 430
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 432
+- **line :** 452
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
-- **line :** 445
+- **line :** 465
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 455
+- **line :** 475
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_iter' sans documentation
-- **line :** 472
+- **line :** 492
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend' sans documentation
-- **line :** 483
+- **line :** 503
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_iter' sans documentation
-- **line :** 491
+- **line :** 511
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend' sans documentation
-- **line :** 502
+- **line :** 522
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'do_extend' sans documentation
-- **line :** 510
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'into_iter' sans documentation
-- **line :** 533
+- **line :** 530
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
@@ -509174,216 +509318,202 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'into_iter' sans documentation
-- **line :** 562
+- **line :** 573
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'into_iter' sans documentation
+- **line :** 582
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 568
+- **line :** 588
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next' sans documentation
-- **line :** 586
+- **line :** 606
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size_hint' sans documentation
-- **line :** 593
+- **line :** 613
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 599
+- **line :** 619
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 608
+- **line :** 628
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 615
+- **line :** 635
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next' sans documentation
-- **line :** 636
+- **line :** 656
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size_hint' sans documentation
-- **line :** 643
+- **line :** 663
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 649
+- **line :** 669
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 658
+- **line :** 678
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next' sans documentation
-- **line :** 676
+- **line :** 696
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size_hint' sans documentation
-- **line :** 683
+- **line :** 703
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 689
+- **line :** 709
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 698
+- **line :** 718
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 708
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'next' sans documentation
 - **line :** 728
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'next' sans documentation
+- **line :** 748
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'size_hint' sans documentation
-- **line :** 732
+- **line :** 752
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 738
+- **line :** 758
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 744
+- **line :** 764
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 753
+- **line :** 773
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Trait 'IterTrait' sans documentation
-- **line :** 769
+- **line :** 789
 - **suggestion :** Ajoutez /// avant cette trait
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone_box' sans documentation
-- **line :** 770
+- **line :** 790
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'PrivateIter' sans documentation
-- **line :** 773
+- **line :** 793
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'empty_punctuated_iter' sans documentation
-- **line :** 786
+- **line :** 806
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 794
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'next' sans documentation
-- **line :** 804
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'size_hint' sans documentation
-- **line :** 808
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'next_back' sans documentation
 - **line :** 814
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'len' sans documentation
-- **line :** 820
+- **Message :** Function 'next' sans documentation
+- **line :** 824
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'next' sans documentation
+- **Message :** Function 'size_hint' sans documentation
 - **line :** 828
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -509391,83 +509521,83 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 837
+- **line :** 834
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 845
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clone' sans documentation
-- **line :** 852
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clone_box' sans documentation
-- **line :** 869
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Trait 'IterMutTrait' sans documentation
-- **line :** 883
-- **suggestion :** Ajoutez /// avant cette trait
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'PrivateIterMut' sans documentation
-- **line :** 888
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'empty_punctuated_iter_mut' sans documentation
-- **line :** 901
+- **line :** 840
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next' sans documentation
-- **line :** 910
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'size_hint' sans documentation
-- **line :** 914
+- **line :** 848
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 920
+- **line :** 857
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 926
+- **line :** 865
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+- **line :** 872
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clone_box' sans documentation
+- **line :** 889
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Trait 'IterMutTrait' sans documentation
+- **line :** 903
+- **suggestion :** Ajoutez /// avant cette trait
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'PrivateIterMut' sans documentation
+- **line :** 908
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'empty_punctuated_iter_mut' sans documentation
+- **line :** 921
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'next' sans documentation
+- **line :** 930
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'size_hint' sans documentation
 - **line :** 934
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -509475,70 +509605,91 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'next_back' sans documentation
-- **line :** 943
+- **line :** 940
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
-- **line :** 951
+- **line :** 946
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+- **line :** 954
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+- **line :** 963
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'len' sans documentation
+- **line :** 971
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cloned' sans documentation
-- **line :** 1053
+- **line :** 1073
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 1072
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'index' sans documentation
 - **line :** 1092
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'index' sans documentation
+- **line :** 1112
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'index_mut' sans documentation
-- **line :** 1105
+- **line :** 1125
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fold' sans documentation
-- **line :** 1118
+- **line :** 1138
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'printing' sans documentation
-- **line :** 1148
+- **line :** 1168
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
-- **line :** 1159
+- **line :** 1179
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_tokens' sans documentation
-- **line :** 1170
+- **line :** 1190
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -909556,62 +909707,57 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:38 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:22 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:44 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:51 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:50 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:57 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:56 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:63 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:62 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:69 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:68 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:75 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:74 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:81 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:80 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:87 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:86 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:93 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:90 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:99 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:97 titre sans ligne vide avant.
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:104 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:103 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
@@ -909621,42 +909767,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:116 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:117 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:122 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:123 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:128 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:129 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:139 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:135 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:145 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:141 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:155 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:152 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:161 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:158 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:175 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:168 titre sans ligne vide avant.
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:174 titre sans ligne vide avant.
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:188 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
@@ -909671,217 +909827,207 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:18 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:31 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:38 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:15).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:44 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:51 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:21).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:15).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:50 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:57 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:27).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:21).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:56 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:63 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:33).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:27).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:69 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:33).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:45).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:51).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:57).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:51).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:57).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:68).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:147).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:97 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:75).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:68).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:81).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:75).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:110 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:87).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:81).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:93).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:87).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:99).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:128 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:131 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:99).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:110).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:141 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:116).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:110).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:145 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:116).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:126).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:155 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:156).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:158 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -909891,97 +910037,117 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:126).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:175 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:168 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:178 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:156).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:158).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:187 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:146).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:190 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:162).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:188 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:208).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:166).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:158).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:168).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:170).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:203 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:162).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:214).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:208).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:174).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:166).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:168).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:216).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:170).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:220).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:214).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:182).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:215 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:174).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:184).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:176).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:214 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:186).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:219 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:216).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:188).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:221 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:220).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:223 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:182).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:184).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:186).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:188).
 
 ---
 
@@ -910015,12 +910181,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:106 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/sha2/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/sha2/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
 
 ---
 
