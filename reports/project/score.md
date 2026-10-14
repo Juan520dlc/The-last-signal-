@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-13 23:37:08
+**Date :** 2026-10-14 05:06:47
 
 # 64/100
 
@@ -89601,7 +89601,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'equivalent' sans documentation
 
-- **line :** 88
+- **line :** 89
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -89611,7 +89611,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'compare' sans documentation
 
-- **line :** 110
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749827,7 +749827,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'lazy_init_read' sans documentation
 
-- **line :** 1064
+- **line :** 1071
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749837,7 +749837,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking_read' sans documentation
 
-- **line :** 1085
+- **line :** 1092
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749847,7 +749847,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_inflight' sans documentation
 
-- **line :** 1100
+- **line :** 1107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749857,7 +749857,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete_inflight' sans documentation
 
-- **line :** 1106
+- **line :** 1113
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749867,7 +749867,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 1118
+- **line :** 1125
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749877,7 +749877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 1140
+- **line :** 1147
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751521,7 +751521,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_spawn_blocking' sans documentation
 
-- **line :** 96
+- **line :** 102
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751865,7 +751865,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'AsyncFdReadyGuard' sans documentation
 
-- **line :** 194
+- **line :** 196
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -751875,7 +751875,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'AsyncFdReadyMutGuard' sans documentation
 
-- **line :** 205
+- **line :** 207
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -751883,69 +751883,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'new' sans documentation
-
-- **line :** 226
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'with_interest' sans documentation
-
-- **line :** 243
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'new_with_handle_and_interest' sans documentation
-
-- **line :** 251
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'try_new' sans documentation
-
-- **line :** 277
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'try_with_interest' sans documentation
-
-- **line :** 297
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'try_new_with_handle_and_interest' sans documentation
-
-- **line :** 305
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Function 'get_ref' sans documentation
 
-- **line :** 323
+- **line :** 288
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751955,7 +751895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_mut' sans documentation
 
-- **line :** 329
+- **line :** 300
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751965,7 +751905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take_inner' sans documentation
 
-- **line :** 333
+- **line :** 304
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751975,7 +751915,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'readable' sans documentation
 
-- **line :** 713
+- **line :** 688
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751985,7 +751925,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'readable_mut' sans documentation
 
-- **line :** 731
+- **line :** 706
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751995,7 +751935,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'writable' sans documentation
 
-- **line :** 751
+- **line :** 726
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752005,7 +751945,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'writable_mut' sans documentation
 
-- **line :** 769
+- **line :** 744
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 911
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'with_interest' sans documentation
+
+- **line :** 923
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_new' sans documentation
+
+- **line :** 935
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_with_interest' sans documentation
+
+- **line :** 947
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752015,7 +751995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 928
+- **line :** 956
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752025,7 +752005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 934
+- **line :** 962
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752035,7 +752015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 940
+- **line :** 971
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752045,7 +752025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 948
+- **line :** 979
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752055,7 +752035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_io' sans documentation
 
-- **line :** 1151
+- **line :** 1186
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752065,7 +752045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1373
+- **line :** 1415
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752075,7 +752055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1381
+- **line :** 1423
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752085,7 +752065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TryIoError' sans documentation
 
-- **line :** 1395
+- **line :** 1437
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -752095,7 +752075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1418
+- **line :** 1465
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752105,7 +752085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1424
+- **line :** 1471
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752115,7 +752095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'source' sans documentation
 
-- **line :** 1430
+- **line :** 1477
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752125,7 +752105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 1436
+- **line :** 1483
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753281,7 +753261,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'stdio_common' sans documentation
 
-- **line :** 265
+- **line :** 268
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753291,7 +753271,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'stderr' sans documentation
 
-- **line :** 267
+- **line :** 270
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753301,7 +753281,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'stdin' sans documentation
 
-- **line :** 270
+- **line :** 273
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753311,7 +753291,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'stdout' sans documentation
 
-- **line :** 273
+- **line :** 276
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753321,7 +753301,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'split' sans documentation
 
-- **line :** 278
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753331,7 +753311,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'join' sans documentation
 
-- **line :** 280
+- **line :** 283
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753341,7 +753321,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'seek' sans documentation
 
-- **line :** 283
+- **line :** 286
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753351,7 +753331,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'util' sans documentation
 
-- **line :** 284
+- **line :** 287
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753361,7 +753341,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'util' sans documentation
 
-- **line :** 293
+- **line :** 296
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -753371,7 +753351,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'uring' sans documentation
 
-- **line :** 307
+- **line :** 310
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -754711,9 +754691,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'complete_after_cancel' sans documentation
+
+- **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'Cancellable for Open ' sans documentation
 
-- **line :** 32
+- **line :** 36
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754723,7 +754713,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel' sans documentation
 
-- **line :** 33
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754733,7 +754723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Op<Open> ' sans documentation
 
-- **line :** 38
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754805,7 +754795,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete' sans documentation
 
-- **line :** 67
+- **line :** 69
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754815,7 +754805,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_with_error' sans documentation
 
-- **line :** 76
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754823,17 +754813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'Cancellable for Read<Vec<u8>, OwnedFd> ' sans documentation
-
-- **line :** 81
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'cancel' sans documentation
+- **Message :** Function 'complete_after_cancel' sans documentation
 
 - **line :** 82
 
@@ -754843,7 +754823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'Cancellable for Read<Buf, ArcFd> ' sans documentation
+- **Message :** Impl 'Cancellable for Read<Vec<u8>, OwnedFd> ' sans documentation
 
 - **line :** 87
 
@@ -754856,6 +754836,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Function 'cancel' sans documentation
 
 - **line :** 88
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Cancellable for Read<Buf, ArcFd> ' sans documentation
+
+- **line :** 93
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'cancel' sans documentation
+
+- **line :** 94
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754905,9 +754905,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'complete_after_cancel' sans documentation
+
+- **line :** 29
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'Cancellable for Rename ' sans documentation
 
-- **line :** 30
+- **line :** 34
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754917,7 +754927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel' sans documentation
 
-- **line :** 31
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754927,7 +754937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Op<Rename> ' sans documentation
 
-- **line :** 36
+- **line :** 40
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754937,7 +754947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rename' sans documentation
 
-- **line :** 37
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755027,9 +755037,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'complete_after_cancel' sans documentation
+
+- **line :** 72
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'Cancellable for Statx ' sans documentation
 
-- **line :** 73
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -755039,7 +755059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel' sans documentation
 
-- **line :** 74
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755049,7 +755069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Op<Statx> ' sans documentation
 
-- **line :** 79
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -755059,7 +755079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'statx' sans documentation
 
-- **line :** 82
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755069,7 +755089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metadata' sans documentation
 
-- **line :** 110
+- **line :** 114
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755079,7 +755099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'symlink_metadata' sans documentation
 
-- **line :** 155
+- **line :** 159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755173,7 +755193,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete' sans documentation
 
-- **line :** 16
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755183,7 +755203,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_with_error' sans documentation
 
-- **line :** 20
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755191,17 +755211,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'Cancellable for Write ' sans documentation
-
-- **line :** 25
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'cancel' sans documentation
+- **Message :** Function 'complete_after_cancel' sans documentation
 
 - **line :** 26
 
@@ -755211,9 +755221,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'Op<Write> ' sans documentation
+- **Message :** Impl 'Cancellable for Write ' sans documentation
 
 - **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'cancel' sans documentation
+
+- **line :** 32
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Op<Write> ' sans documentation
+
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756287,7 +756317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for DuplexStream ' sans documentation
 
-- **line :** 136
+- **line :** 139
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756297,7 +756327,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 138
+- **line :** 141
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756307,7 +756337,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 146
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756317,7 +756347,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 154
+- **line :** 164
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756327,7 +756357,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 159
+- **line :** 169
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756337,7 +756367,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 167
+- **line :** 177
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756347,7 +756377,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DuplexStream ' sans documentation
 
-- **line :** 175
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756357,7 +756387,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 176
+- **line :** 190
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Wakers' sans documentation
+
+- **line :** 211
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Wakers ' sans documentation
+
+- **line :** 218
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake' sans documentation
+
+- **line :** 219
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756367,7 +756427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'simplex' sans documentation
 
-- **line :** 211
+- **line :** 255
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756377,7 +756437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SimplexStream ' sans documentation
 
-- **line :** 215
+- **line :** 259
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756387,7 +756447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_unsplit' sans documentation
 
-- **line :** 222
+- **line :** 266
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756397,7 +756457,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'close_write' sans documentation
 
-- **line :** 232
+- **line :** 279
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756407,7 +756467,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'close_read' sans documentation
 
-- **line :** 240
+- **line :** 287
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756417,7 +756477,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_internal' sans documentation
 
-- **line :** 248
+- **line :** 292
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756427,7 +756487,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_internal' sans documentation
 
-- **line :** 273
+- **line :** 316
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756437,7 +756497,67 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored_internal' sans documentation
 
-- **line :** 295
+- **line :** 337
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_read_deferred' sans documentation
+
+- **line :** 368
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_read_deferred' sans documentation
+
+- **line :** 386
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_write_deferred' sans documentation
+
+- **line :** 398
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_write_deferred' sans documentation
+
+- **line :** 416
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_write_vectored_deferred' sans documentation
+
+- **line :** 428
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_write_vectored_deferred' sans documentation
+
+- **line :** 446
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756447,7 +756567,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for SimplexStream ' sans documentation
 
-- **line :** 327
+- **line :** 458
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756457,17 +756577,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 329
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'poll_read' sans documentation
-
-- **line :** 346
+- **line :** 459
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756477,7 +756587,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for SimplexStream ' sans documentation
 
-- **line :** 357
+- **line :** 471
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756487,17 +756597,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 359
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'poll_write' sans documentation
-
-- **line :** 376
+- **line :** 472
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756507,17 +756607,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 387
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'poll_write_vectored' sans documentation
-
-- **line :** 404
+- **line :** 483
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756527,7 +756617,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 414
+- **line :** 494
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756537,7 +756627,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 418
+- **line :** 498
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756547,7 +756637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 422
+- **line :** 502
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758657,9 +758747,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'ops' sans documentation
+- **Message :** Function 'fetch_update' sans documentation
 
 - **line :** 38
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ops' sans documentation
+
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -758669,7 +758769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deref' sans documentation
 
-- **line :** 41
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758679,7 +758779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ops' sans documentation
 
-- **line :** 48
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -758689,7 +758789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deref_mut' sans documentation
 
-- **line :** 49
+- **line :** 63
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758699,7 +758799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 55
+- **line :** 69
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -758709,7 +758809,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 56
+- **line :** 70
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -759453,7 +759553,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Trait 'RotatorSelect' sans documentation
 
-- **line :** 229
+- **line :** 233
 
 - **suggestion :** Ajoutez /// avant cette trait
 
@@ -759463,7 +759563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SelectNormal' sans documentation
 
-- **line :** 236
+- **line :** 240
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -759473,7 +759573,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SelectBiased' sans documentation
 
-- **line :** 240
+- **line :** 244
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -759483,7 +759583,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'RotatorSelect for SelectNormal ' sans documentation
 
-- **line :** 242
+- **line :** 246
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -759493,7 +759593,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'RotatorSelect for SelectBiased ' sans documentation
 
-- **line :** 246
+- **line :** 250
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -759503,7 +759603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Rotator' sans documentation
 
-- **line :** 252
+- **line :** 256
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -759513,7 +759613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_skip' sans documentation
 
-- **line :** 259
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -759523,7 +759623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'BiasedRotator' sans documentation
 
-- **line :** 271
+- **line :** 275
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -759533,7 +759633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BiasedRotator ' sans documentation
 
-- **line :** 273
+- **line :** 277
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -759543,7 +759643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_skip' sans documentation
 
-- **line :** 276
+- **line :** 280
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768163,9 +768263,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'unpark_self' sans documentation
+
+- **line :** 89
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'io' sans documentation
 
-- **line :** 91
+- **line :** 98
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768175,7 +768285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'signal' sans documentation
 
-- **line :** 100
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768185,7 +768295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'time' sans documentation
 
-- **line :** 112
+- **line :** 119
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768195,7 +768305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_time' sans documentation
 
-- **line :** 119
+- **line :** 126
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768205,7 +768315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clock' sans documentation
 
-- **line :** 126
+- **line :** 133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768215,7 +768325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'IoStack' sans documentation
 
-- **line :** 138
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768225,7 +768335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'IoHandle' sans documentation
 
-- **line :** 144
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768235,7 +768345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_io_stack' sans documentation
 
-- **line :** 149
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768245,7 +768355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IoStack ' sans documentation
 
-- **line :** 169
+- **line :** 176
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768254,16 +768364,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
-
-- **line :** 170
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'park_timeout' sans documentation
 
 - **line :** 177
 
@@ -768273,7 +768373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'shutdown' sans documentation
+- **Message :** Function 'park_timeout' sans documentation
 
 - **line :** 184
 
@@ -768283,9 +768383,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'shutdown' sans documentation
+
+- **line :** 191
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'IoHandle ' sans documentation
 
-- **line :** 192
+- **line :** 199
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768295,7 +768405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unpark' sans documentation
 
-- **line :** 193
+- **line :** 200
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768305,7 +768415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_ref' sans documentation
 
-- **line :** 200
+- **line :** 207
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768315,7 +768425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'IoStack' sans documentation
 
-- **line :** 213
+- **line :** 220
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -768325,7 +768435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_io_stack' sans documentation
 
-- **line :** 215
+- **line :** 222
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768335,7 +768445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IoStack ' sans documentation
 
-- **line :** 221
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768345,7 +768455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 222
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768355,7 +768465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 226
+- **line :** 233
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768365,7 +768475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 230
+- **line :** 237
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768375,7 +768485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_signal_driver' sans documentation
 
-- **line :** 247
+- **line :** 254
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768385,7 +768495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_signal_driver' sans documentation
 
-- **line :** 260
+- **line :** 267
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768395,7 +768505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_process_driver' sans documentation
 
-- **line :** 271
+- **line :** 278
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768405,7 +768515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_process_driver' sans documentation
 
-- **line :** 280
+- **line :** 287
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768415,7 +768525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'TimeDriver' sans documentation
 
-- **line :** 290
+- **line :** 297
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768425,7 +768535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_clock' sans documentation
 
-- **line :** 301
+- **line :** 308
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768435,7 +768545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_time_driver' sans documentation
 
-- **line :** 305
+- **line :** 312
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768445,7 +768555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TimeDriver ' sans documentation
 
-- **line :** 327
+- **line :** 334
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768455,7 +768565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 328
+- **line :** 335
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768465,7 +768575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 336
+- **line :** 343
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768475,7 +768585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 344
+- **line :** 351
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768485,7 +768595,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_clock' sans documentation
 
-- **line :** 360
+- **line :** 367
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768495,7 +768605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_time_driver' sans documentation
 
-- **line :** 364
+- **line :** 371
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768505,7 +768615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'op' sans documentation
 
-- **line :** 375
+- **line :** 382
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -768517,7 +768627,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'CancelData' sans documentation
 
-- **line :** 36
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768527,7 +768637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Lifecycle' sans documentation
 
-- **line :** 58
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768537,7 +768647,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'State' sans documentation
 
-- **line :** 77
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768547,7 +768657,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Op' sans documentation
 
-- **line :** 83
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -768557,7 +768667,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take_data' sans documentation
 
-- **line :** 105
+- **line :** 106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768567,7 +768677,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 111
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768577,7 +768687,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<cqueue' sans documentation
 
-- **line :** 133
+- **line :** 134
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768587,7 +768697,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 134
+- **line :** 135
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768597,7 +768707,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete' sans documentation
 
-- **line :** 148
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768607,7 +768717,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_with_error' sans documentation
 
-- **line :** 154
+- **line :** 155
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768615,7 +768725,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'cancel' sans documentation
+- **Message :** Function 'complete_after_cancel' sans documentation
 
 - **line :** 159
 
@@ -768625,9 +768735,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'cancel' sans documentation
+
+- **line :** 164
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 167
+- **line :** 172
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769165,7 +769285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ReadyEvent' sans documentation
 
-- **line :** 74
+- **line :** 75
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -769175,7 +769295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ReadyEvent ' sans documentation
 
-- **line :** 81
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769185,7 +769305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_ready' sans documentation
 
-- **line :** 82
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769195,7 +769315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Direction' sans documentation
 
-- **line :** 93
+- **line :** 94
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -769205,7 +769325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Tick' sans documentation
 
-- **line :** 98
+- **line :** 99
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -769215,7 +769335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function '_assert_kinds' sans documentation
 
-- **line :** 106
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769225,7 +769345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function '_assert' sans documentation
 
-- **line :** 107
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769235,7 +769355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Driver ' sans documentation
 
-- **line :** 114
+- **line :** 115
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769245,7 +769365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 159
+- **line :** 160
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769255,7 +769375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 164
+- **line :** 165
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769265,7 +769385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 169
+- **line :** 170
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769275,7 +769395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'turn' sans documentation
 
-- **line :** 179
+- **line :** 180
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769285,7 +769405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 254
+- **line :** 255
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769295,7 +769415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 255
+- **line :** 256
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769305,7 +769425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 260
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769315,7 +769435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'release_pending_registrations' sans documentation
 
-- **line :** 332
+- **line :** 333
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769325,7 +769445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 339
+- **line :** 340
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769335,7 +769455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 340
+- **line :** 341
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769345,7 +769465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Direction ' sans documentation
 
-- **line :** 345
+- **line :** 346
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769355,7 +769475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mask' sans documentation
 
-- **line :** 346
+- **line :** 347
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769409,7 +769529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'UringContext' sans documentation
 
-- **line :** 17
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -769419,7 +769539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'UringContext ' sans documentation
 
-- **line :** 22
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769429,7 +769549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 23
+- **line :** 36
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769439,7 +769559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ring' sans documentation
 
-- **line :** 30
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769449,7 +769569,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ring_mut' sans documentation
 
-- **line :** 34
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769459,7 +769579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'dispatch_completions' sans documentation
 
-- **line :** 65
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769469,7 +769589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'submit' sans documentation
 
-- **line :** 110
+- **line :** 123
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769479,7 +769599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove_op' sans documentation
 
-- **line :** 130
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769489,7 +769609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 137
+- **line :** 153
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769499,7 +769619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 177
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769509,7 +769629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_uring_source' sans documentation
 
-- **line :** 178
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769519,7 +769639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_uring' sans documentation
 
-- **line :** 184
+- **line :** 200
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769529,7 +769649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_uring_ready' sans documentation
 
-- **line :** 193
+- **line :** 209
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769539,7 +769659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_uring_probed' sans documentation
 
-- **line :** 204
+- **line :** 220
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769549,7 +769669,89 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel_op' sans documentation
 
-- **line :** 300
+- **line :** 325
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+
+- **line :** 359
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/runtime/io/driver/uring/tests.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'ready_handle' sans documentation
+
+- **line :** 10
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'BrokenRing' sans documentation
+
+- **line :** 27
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'BrokenRing ' sans documentation
+
+- **line :** 32
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Drop for BrokenRing ' sans documentation
+
+- **line :** 45
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 46
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'register_op_keeps_entry_on_submit_failure' sans documentation
+
+- **line :** 60
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769623,7 +769825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'registration' sans documentation
 
-- **line :** 9
+- **line :** 12
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -769633,7 +769835,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'registration_set' sans documentation
 
-- **line :** 12
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -769643,7 +769845,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'scheduled_io' sans documentation
 
-- **line :** 15
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -769653,7 +769855,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'metrics' sans documentation
 
-- **line :** 18
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772979,7 +773181,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hooks' sans documentation
 
-- **line :** 742
+- **line :** 743
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772989,7 +773191,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unhandled_panic' sans documentation
 
-- **line :** 749
+- **line :** 750
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772999,7 +773201,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for Handle ' sans documentation
 
-- **line :** 781
+- **line :** 782
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773009,7 +773211,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 782
+- **line :** 783
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773019,7 +773221,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CoreGuard<' sans documentation
 
-- **line :** 814
+- **line :** 817
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773029,7 +773231,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on' sans documentation
 
-- **line :** 816
+- **line :** 819
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773039,7 +773241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for CoreGuard<' sans documentation
 
-- **line :** 914
+- **line :** 917
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773049,7 +773251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 915
+- **line :** 918
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783555,7 +783757,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_acquire' sans documentation
 
-- **line :** 273
+- **line :** 294
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783565,7 +783767,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'acquire' sans documentation
 
-- **line :** 304
+- **line :** 325
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783575,7 +783777,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_acquire' sans documentation
 
-- **line :** 411
+- **line :** 432
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783585,7 +783787,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 561
+- **line :** 582
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783595,7 +783797,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 562
+- **line :** 583
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783605,7 +783807,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Waiter ' sans documentation
 
-- **line :** 569
+- **line :** 590
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783615,7 +783817,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 570
+- **line :** 591
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783625,7 +783827,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'trace_assigned' sans documentation
 
-- **line :** 606
+- **line :** 627
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783635,7 +783837,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for Acquire<' sans documentation
 
-- **line :** 617
+- **line :** 638
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783645,7 +783847,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 620
+- **line :** 641
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783655,7 +783857,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 667
+- **line :** 688
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783665,7 +783867,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'project' sans documentation
 
-- **line :** 717
+- **line :** 738
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783675,7 +783877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_unpin' sans documentation
 
-- **line :** 718
+- **line :** 739
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783685,7 +783887,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for Acquire<' sans documentation
 
-- **line :** 737
+- **line :** 758
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783695,7 +783897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 738
+- **line :** 759
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783705,7 +783907,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AcquireError ' sans documentation
 
-- **line :** 771
+- **line :** 792
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783715,7 +783917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'closed' sans documentation
 
-- **line :** 772
+- **line :** 793
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783725,7 +783927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 777
+- **line :** 798
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783735,7 +783937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 778
+- **line :** 799
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783745,7 +783947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 783
+- **line :** 804
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783755,7 +783957,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryAcquireError ' sans documentation
 
-- **line :** 787
+- **line :** 808
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783765,7 +783967,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_closed' sans documentation
 
-- **line :** 790
+- **line :** 811
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783775,7 +783977,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_no_permits' sans documentation
 
-- **line :** 797
+- **line :** 818
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783785,7 +783987,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 802
+- **line :** 823
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783795,7 +783997,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 803
+- **line :** 824
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783805,7 +784007,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 811
+- **line :** 832
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783815,7 +784017,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 820
+- **line :** 841
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -794977,7 +795179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unstable' sans documentation
 
-- **line :** 773
+- **line :** 776
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -797423,7 +797625,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'try_new' sans documentation
+- **Message :** Function 'register_error' sans documentation
 
 - **line :** 942
 
@@ -797433,7 +797635,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'try_with_interest' sans documentation
+- **Message :** Function 'register_with_interest_error' sans documentation
 
 - **line :** 952
 
@@ -797443,9 +797645,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'try_new' sans documentation
+
+- **line :** 964
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_with_interest' sans documentation
+
+- **line :** 975
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'drop_after_closing_raw_fd_with_live_duplicate' sans documentation
 
-- **line :** 962
+- **line :** 986
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798809,7 +799031,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ping_pong' sans documentation
 
-- **line :** 7
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798819,7 +799041,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'across_tasks' sans documentation
 
-- **line :** 22
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798829,7 +799051,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'disconnect' sans documentation
 
-- **line :** 44
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798839,7 +799061,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'disconnect_reader' sans documentation
 
-- **line :** 66
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798849,7 +799071,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max_write_size' sans documentation
 
-- **line :** 85
+- **line :** 93
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798859,7 +799081,157 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'duplex_is_cooperative' sans documentation
 
-- **line :** 105
+- **line :** 113
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'PollOnWake' sans documentation
+
+- **line :** 134
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake' sans documentation
+
+- **line :** 140
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_reader_on_write_outside_lock' sans documentation
+
+- **line :** 159
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_reader_on_write_vectored_outside_lock' sans documentation
+
+- **line :** 170
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_reader_on_shutdown_outside_lock' sans documentation
+
+- **line :** 184
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_reader_on_drop_outside_lock' sans documentation
+
+- **line :** 195
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_writer_on_read_outside_lock' sans documentation
+
+- **line :** 206
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_writer_on_drop_outside_lock' sans documentation
+
+- **line :** 217
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'check_drop_replaced_waker' sans documentation
+
+- **line :** 227
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Owner' sans documentation
+
+- **line :** 228
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Wake for Owner ' sans documentation
+
+- **line :** 232
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake' sans documentation
+
+- **line :** 233
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop_replaced_read_waker_outside_lock' sans documentation
+
+- **line :** 248
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop_replaced_write_waker_outside_lock' sans documentation
+
+- **line :** 256
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop_replaced_write_vectored_waker_outside_lock' sans documentation
+
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799049,7 +799421,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'async_fd_new_panic_caller' sans documentation
+- **Message :** Function 'async_fd_register_panic_caller' sans documentation
 
 - **line :** 136
 
@@ -799059,7 +799431,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'async_fd_with_interest_panic_caller' sans documentation
+- **Message :** Function 'async_fd_register_with_interest_panic_caller' sans documentation
 
 - **line :** 158
 
@@ -799069,9 +799441,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'async_fd_new_panic_caller' sans documentation
+
+- **line :** 182
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'async_fd_with_interest_panic_caller' sans documentation
+
+- **line :** 205
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'async_fd_try_new_panic_caller' sans documentation
 
-- **line :** 181
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799081,7 +799473,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_try_with_interest_panic_caller' sans documentation
 
-- **line :** 203
+- **line :** 252
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800867,6 +801259,16 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'uninhabited_output_type' sans documentation
+
+- **line :** 262
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/macros_pin.rs
 
 ## ⚠️ Warning
@@ -801842,6 +802244,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Function 'caller_names_const_count' sans documentation
 
 - **line :** 256
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'uninhabited_ok_type' sans documentation
+
+- **line :** 276
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'uninhabited_err_type' sans documentation
+
+- **line :** 296
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807479,7 +807901,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'unconsumed_messages_are_dropped' sans documentation
+- **Message :** Function 'dropping_rx_drops_sender_wakers_outside_lock' sans documentation
 
 - **line :** 1016
 
@@ -807489,9 +807911,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Struct 'PermitInWaker' sans documentation
+
+- **line :** 1021
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ArcWake for PermitInWaker ' sans documentation
+
+- **line :** 1025
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_by_ref' sans documentation
+
+- **line :** 1026
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'unconsumed_messages_are_dropped' sans documentation
+
+- **line :** 1054
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'blocking_recv' sans documentation
 
-- **line :** 1032
+- **line :** 1070
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807501,7 +807963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_recv_async' sans documentation
 
-- **line :** 1050
+- **line :** 1088
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807511,7 +807973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_send' sans documentation
 
-- **line :** 1057
+- **line :** 1095
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807521,7 +807983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_send_async' sans documentation
 
-- **line :** 1075
+- **line :** 1113
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807531,7 +807993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ready_close_cancel_bounded' sans documentation
 
-- **line :** 1082
+- **line :** 1120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807541,7 +808003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'permit_available_not_acquired_close' sans documentation
 
-- **line :** 1102
+- **line :** 1140
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807551,7 +808013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_bounded' sans documentation
 
-- **line :** 1121
+- **line :** 1159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807561,7 +808023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_unbounded' sans documentation
 
-- **line :** 1164
+- **line :** 1202
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807571,7 +808033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_after_receiver_close' sans documentation
 
-- **line :** 1183
+- **line :** 1221
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807581,7 +808043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_after_receiver_close_with_permit' sans documentation
 
-- **line :** 1192
+- **line :** 1230
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807591,7 +808053,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_close_while_empty_bounded' sans documentation
 
-- **line :** 1205
+- **line :** 1243
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807601,7 +808063,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_close_while_empty_unbounded' sans documentation
 
-- **line :** 1214
+- **line :** 1252
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807611,7 +808073,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'recv_timeout' sans documentation
 
-- **line :** 1224
+- **line :** 1262
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807621,7 +808083,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'recv_timeout_panic' sans documentation
 
-- **line :** 1250
+- **line :** 1288
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807631,7 +808093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_tx_capacity' sans documentation
 
-- **line :** 1260
+- **line :** 1298
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807641,7 +808103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_closed_when_calling_close_with_sender' sans documentation
 
-- **line :** 1278
+- **line :** 1316
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807651,7 +808113,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_closed_when_dropping_all_senders' sans documentation
 
-- **line :** 1287
+- **line :** 1325
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807661,7 +808123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_not_closed_when_there_are_senders' sans documentation
 
-- **line :** 1302
+- **line :** 1340
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807671,7 +808133,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_not_closed_when_there_are_senders_and_buffer_filled' sans documentation
 
-- **line :** 1309
+- **line :** 1347
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807681,7 +808143,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_closed_when_there_are_no_senders_and_there_are_messages' sans documentation
 
-- **line :** 1319
+- **line :** 1357
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807691,7 +808153,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_closed_when_there_are_messages_and_close_is_called' sans documentation
 
-- **line :** 1330
+- **line :** 1368
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807701,7 +808163,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_not_closed_when_there_are_permits_but_not_senders' sans documentation
 
-- **line :** 1341
+- **line :** 1379
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807711,7 +808173,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_empty_when_no_messages_were_sent' sans documentation
 
-- **line :** 1349
+- **line :** 1387
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807721,7 +808183,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_not_empty_when_there_are_messages_in_the_buffer' sans documentation
 
-- **line :** 1355
+- **line :** 1393
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807731,7 +808193,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_not_empty_when_the_buffer_is_full' sans documentation
 
-- **line :** 1362
+- **line :** 1400
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807741,7 +808203,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_not_empty_when_all_but_one_messages_are_consumed' sans documentation
 
-- **line :** 1371
+- **line :** 1409
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807751,7 +808213,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_empty_when_all_messages_are_consumed' sans documentation
 
-- **line :** 1385
+- **line :** 1423
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807761,7 +808223,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_is_empty_all_senders_are_dropped_and_messages_consumed' sans documentation
 
-- **line :** 1395
+- **line :** 1433
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807771,7 +808233,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_on_empty_channel' sans documentation
 
-- **line :** 1410
+- **line :** 1448
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807781,7 +808243,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_on_empty_channel_without_senders' sans documentation
 
-- **line :** 1416
+- **line :** 1454
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807791,7 +808253,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_on_filled_channel' sans documentation
 
-- **line :** 1426
+- **line :** 1464
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807801,7 +808263,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_on_filled_channel_without_senders' sans documentation
 
-- **line :** 1436
+- **line :** 1474
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807811,7 +808273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_when_consuming_all_messages' sans documentation
 
-- **line :** 1447
+- **line :** 1485
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807821,7 +808283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_when_close_is_called' sans documentation
 
-- **line :** 1464
+- **line :** 1502
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807831,7 +808293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_when_close_is_called_before_dropping_sender' sans documentation
 
-- **line :** 1473
+- **line :** 1511
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807841,7 +808303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_len_when_close_is_called_after_dropping_sender' sans documentation
 
-- **line :** 1483
+- **line :** 1521
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807851,7 +808313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_closed_when_calling_close_with_sender' sans documentation
 
-- **line :** 1493
+- **line :** 1531
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807861,7 +808323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_closed_when_dropping_all_senders' sans documentation
 
-- **line :** 1502
+- **line :** 1540
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807871,7 +808333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_not_closed_when_there_are_senders' sans documentation
 
-- **line :** 1517
+- **line :** 1555
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807881,7 +808343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_closed_when_there_are_no_senders_and_there_are_messages' sans documentation
 
-- **line :** 1524
+- **line :** 1562
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807891,7 +808353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_closed_when_there_are_messages_and_close_is_called' sans documentation
 
-- **line :** 1535
+- **line :** 1573
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807901,7 +808363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_empty_when_no_messages_were_sent' sans documentation
 
-- **line :** 1546
+- **line :** 1584
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807911,7 +808373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_not_empty_when_there_are_messages_in_the_buffer' sans documentation
 
-- **line :** 1552
+- **line :** 1590
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807921,7 +808383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_not_empty_when_all_but_one_messages_are_consumed' sans documentation
 
-- **line :** 1559
+- **line :** 1597
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807931,7 +808393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_empty_when_all_messages_are_consumed' sans documentation
 
-- **line :** 1573
+- **line :** 1611
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807941,7 +808403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_is_empty_all_senders_are_dropped_and_messages_consumed' sans documentation
 
-- **line :** 1583
+- **line :** 1621
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807951,7 +808413,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_on_empty_channel' sans documentation
 
-- **line :** 1598
+- **line :** 1636
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807961,7 +808423,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_on_empty_channel_without_senders' sans documentation
 
-- **line :** 1604
+- **line :** 1642
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807971,7 +808433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_with_multiple_messages' sans documentation
 
-- **line :** 1614
+- **line :** 1652
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807981,7 +808443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_with_multiple_messages_and_dropped_senders' sans documentation
 
-- **line :** 1624
+- **line :** 1662
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807991,7 +808453,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_when_consuming_all_messages' sans documentation
 
-- **line :** 1635
+- **line :** 1673
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808001,7 +808463,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_when_close_is_called' sans documentation
 
-- **line :** 1652
+- **line :** 1690
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808011,7 +808473,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_when_close_is_called_before_dropping_sender' sans documentation
 
-- **line :** 1661
+- **line :** 1699
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808021,7 +808483,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_rx_unbounded_len_when_close_is_called_after_dropping_sender' sans documentation
 
-- **line :** 1671
+- **line :** 1709
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808031,7 +808493,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_is_empty_32_msgs' sans documentation
 
-- **line :** 1682
+- **line :** 1720
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808041,7 +808503,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'permit_send_panicking_rx_waker' sans documentation
 
-- **line :** 1694
+- **line :** 1732
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808051,7 +808513,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'PanickingWaker' sans documentation
 
-- **line :** 1697
+- **line :** 1735
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -808061,7 +808523,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for PanickingWaker ' sans documentation
 
-- **line :** 1699
+- **line :** 1737
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -808071,7 +808533,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 1700
+- **line :** 1738
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808081,7 +808543,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_all_elements_during_panic' sans documentation
 
-- **line :** 1726
+- **line :** 1764
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808091,7 +808553,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'A' sans documentation
 
-- **line :** 1734
+- **line :** 1772
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -808101,7 +808563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for A ' sans documentation
 
-- **line :** 1735
+- **line :** 1773
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -808111,7 +808573,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1737
+- **line :** 1775
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808121,7 +808583,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'func' sans documentation
 
-- **line :** 1745
+- **line :** 1783
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808131,7 +808593,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'release_waker_on_rx_drop' sans documentation
 
-- **line :** 1774
+- **line :** 1812
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808141,7 +808603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'DummyWaker' sans documentation
 
-- **line :** 1777
+- **line :** 1815
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -808151,7 +808613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for DummyWaker ' sans documentation
 
-- **line :** 1778
+- **line :** 1816
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -808161,7 +808623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 1779
+- **line :** 1817
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -808171,7 +808633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_debug' sans documentation
 
-- **line :** 1804
+- **line :** 1842
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810349,7 +810811,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'forget' sans documentation
+- **Message :** Function 'close_drops_wakers_outside_lock' sans documentation
 
 - **line :** 79
 
@@ -810359,9 +810821,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'forget_open' sans documentation
+- **Message :** Struct 'ReleaseOnDrop' sans documentation
 
-- **line :** 92
+- **line :** 85
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ArcWake for ReleaseOnDrop ' sans documentation
+
+- **line :** 89
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_by_ref' sans documentation
+
+- **line :** 90
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810369,9 +810851,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'forget_closed' sans documentation
+- **Message :** Function 'close_wakes_waiters_outside_lock' sans documentation
 
-- **line :** 106
+- **line :** 113
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810379,7 +810861,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'merge' sans documentation
+- **Message :** Struct 'ReleaseOnWake' sans documentation
+
+- **line :** 118
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ArcWake for ReleaseOnWake ' sans documentation
+
+- **line :** 120
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_by_ref' sans documentation
 
 - **line :** 121
 
@@ -810389,9 +810891,89 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'close_wakes_all_waiters' sans documentation
+
+- **line :** 142
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'CountWakes' sans documentation
+
+- **line :** 151
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ArcWake for CountWakes ' sans documentation
+
+- **line :** 153
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_by_ref' sans documentation
+
+- **line :** 154
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'forget' sans documentation
+
+- **line :** 181
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'forget_open' sans documentation
+
+- **line :** 194
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'forget_closed' sans documentation
+
+- **line :** 208
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'merge' sans documentation
+
+- **line :** 223
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'merge_unrelated_permits' sans documentation
 
-- **line :** 137
+- **line :** 239
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810401,7 +810983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'split' sans documentation
 
-- **line :** 146
+- **line :** 248
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810411,7 +810993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stress_test' sans documentation
 
-- **line :** 173
+- **line :** 275
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810421,7 +811003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_max_amount_permits' sans documentation
 
-- **line :** 195
+- **line :** 297
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810431,7 +811013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_more_than_max_amount_permits1' sans documentation
 
-- **line :** 204
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810441,7 +811023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_more_than_max_amount_permits2' sans documentation
 
-- **line :** 212
+- **line :** 314
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810451,7 +811033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_when_exceeds_maxpermits' sans documentation
 
-- **line :** 221
+- **line :** 323
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810461,7 +811043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'acquire_many_exceeds_maxpermits' sans documentation
 
-- **line :** 228
+- **line :** 330
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810471,7 +811053,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'acquire_many_top_bit_exceeds_maxpermits' sans documentation
 
-- **line :** 236
+- **line :** 338
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810481,7 +811063,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'no_panic_at_maxpermits' sans documentation
 
-- **line :** 242
+- **line :** 344
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814457,6 +815039,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'paused_time_join_unix_datagram_and_sleep' sans documentation
+
+- **line :** 337
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'paused_time_spawn_unix_datagram_and_sleep' sans documentation
+
+- **line :** 357
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/time_rt.rs
 
 ## ⚠️ Warning
@@ -815051,7 +815653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PanicOnEvent ' sans documentation
 
-- **line :** 304
+- **line :** 309
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -815061,7 +815663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 305
+- **line :** 310
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815071,7 +815673,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Subscriber for PanicOnEvent ' sans documentation
 
-- **line :** 313
+- **line :** 318
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -815081,7 +815683,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enabled' sans documentation
 
-- **line :** 314
+- **line :** 319
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815091,7 +815693,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'event' sans documentation
 
-- **line :** 318
+- **line :** 323
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815101,7 +815703,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_span' sans documentation
 
-- **line :** 324
+- **line :** 329
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815111,7 +815713,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'record' sans documentation
 
-- **line :** 328
+- **line :** 333
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815121,7 +815723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'record_follows_from' sans documentation
 
-- **line :** 330
+- **line :** 335
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815131,7 +815733,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enter' sans documentation
 
-- **line :** 332
+- **line :** 337
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815141,7 +815743,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'exit' sans documentation
 
-- **line :** 334
+- **line :** 339
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815151,7 +815753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'semaphore_release' sans documentation
 
-- **line :** 338
+- **line :** 343
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815161,7 +815763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'semaphore_acquire' sans documentation
 
-- **line :** 362
+- **line :** 369
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815171,7 +815773,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_with_panicking_subscriber' sans documentation
 
-- **line :** 366
+- **line :** 375
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1276347,7 +1276949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ❌ Error
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md: contient 180 titres H1 (1 attendu).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md: contient 182 titres H1 (1 attendu).
 
 - **module :** titles
 
@@ -1276359,739 +1276961,733 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:31 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:27 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:49 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:55 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:135 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:73 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:147 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:159 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:213 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:171 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:252 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:237 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:260 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:264 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:277 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:303 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:294 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:311 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:326 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:328 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:420 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:490 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:377 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:601 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:471 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:615 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:541 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:623 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:652 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:629 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:666 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:643 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:674 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:760 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:680 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:768 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:694 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:801 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:811 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:809 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:819 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:824 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:852 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:896 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:860 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:904 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:875 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:916 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:947 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:930 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:955 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:938 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:967 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:998 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:981 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1006 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:989 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1033 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1049 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1045 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1057 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1107 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1084 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1183 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1096 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1263 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1158 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1274 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1287 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1314 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1383 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1325 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1451 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1338 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1506 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1434 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1514 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1502 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1560 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1557 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1588 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1565 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1671 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1611 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1679 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1639 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1699 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1722 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1716 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1730 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1772 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1750 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1783 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1767 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1847 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1823 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1862 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1834 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1911 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1898 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1958 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1913 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2041 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1962 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2050 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2009 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2060 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2092 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2068 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2101 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2088 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2111 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2102 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2119 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2131 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2139 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2140 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2153 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2160 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2182 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2299 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2191 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2313 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2211 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2406 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2350 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2416 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2364 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2426 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2457 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2436 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2467 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2452 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2477 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2460 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2487 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2518 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2503 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2570 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2511 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2578 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2569 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2586 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2621 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2620 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2629 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2702 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2637 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2786 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2671 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2826 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2753 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2854 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2837 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2888 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2877 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2897 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2905 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2953 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2939 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2993 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2948 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3026 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3004 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3034 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3044 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3075 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3077 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3110 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3085 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3122 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3126 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3132 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3140 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3173 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3180 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3183 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3188 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3191 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3196 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3231 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3232 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3239 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3240 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3247 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3256 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3283 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3302 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3310 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3307 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3359 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3353 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3391 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3361 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3441 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3410 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3461 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3442 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3466 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3492 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3516 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3512 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3523 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3517 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3540 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3567 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3556 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3574 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3617 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3591 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3640 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3607 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3657 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3668 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3695 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3691 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3717 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3708 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3741 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3746 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3778 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3768 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3874 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3792 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3945 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3829 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3974 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3984 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3996 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4017 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4025 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4027 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4035 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4040 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4068 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4058 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4078 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4071 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4101 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 saut de niveau H1 → H3.
 
 - **module :** titles
 
@@ -1277103,1525 +1277699,1561 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4156 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4122 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4199 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4152 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4239 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4160 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4253 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4207 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4259 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4250 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4307 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4290 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4315 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4304 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4359 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4310 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4367 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4358 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4404 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4366 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4434 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4410 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4454 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4418 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4474 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4455 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4482 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4485 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4491 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4505 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4499 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4525 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4507 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4533 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4515 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4542 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4530 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4550 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4558 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4566 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4581 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:49 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:73 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:171 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:183 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:252 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:185 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:260 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:195 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:294 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:237 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:306 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:326 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:331 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:264 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:340 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:278 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:420 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:427 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:431 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:333 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:445 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:353 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:490 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:500 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:377 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:520 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:528 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:408 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:601 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:471 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:478 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:623 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:482 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:629 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:489 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:496 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:658 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:541 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:664 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:551 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:670 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:562 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:691 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:700 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:579 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:704 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:652 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:712 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:666 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:717 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:674 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:722 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:680 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:760 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:694 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:768 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:709 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:774 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:715 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:780 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:721 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:801 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:742 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:809 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:751 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:824 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:755 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:833 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:763 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:840 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:768 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:853 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:773 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:896 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:904 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:819 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:916 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:825 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:930 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:831 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:938 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:852 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:946 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:952 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:875 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:958 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:848).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:884 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:963 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:891 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:998 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:904 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1006 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:947 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1010 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:955 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1015 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:967 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1019 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:981 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1033 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:989 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1045 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:997 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1053 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1059 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1009 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:899).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1068 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1014 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1049 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1107 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1057 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1114 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1061 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1118 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1066 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1129 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1070 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1183 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1084 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1194 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1096 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1104 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1210 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1217 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1263 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1123 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1158 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1287 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1165 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1301 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1169 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1318 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1180 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1324 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1383 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1395 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1399 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1261 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1405 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1268 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1451 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1314 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1463 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1325 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1471 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1338 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1506 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1352 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1514 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1518 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1375 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1525 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1434 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1535 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1446 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1560 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1450 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1567 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1456 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1571 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1502 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1588 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1514 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1595 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1522 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1599 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1557 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1610 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1565 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1614 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1569 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1626 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1576 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1671 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1586 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1679 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1611 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1683 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1618 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1688 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1622 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1699 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1639 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1703 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1646 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1716 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1650 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1724 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1661 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1732 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1665 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1737 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1677 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1745 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1722 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1772 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1730 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1783 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:34).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1734 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1787 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1739 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1796 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1750 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1800 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1754 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1813 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1767 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1847 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1775 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1862 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1783 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1872 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1788 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1880 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1796 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1885 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1823 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1911 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1834 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:34).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1919 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1838 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1926 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1847 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1932 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1851 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1958 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1864 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1965 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1898 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1971 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1913 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1980 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1923 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1988 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1931 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1992 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1936 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2041 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1962 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2050 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1970 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2060 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1977 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2068 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1983 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2072 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2009 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2076 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2016 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2088 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2022 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2031 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2105 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2039 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2043 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2131 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2092 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2140 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2101 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2160 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2167 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2173 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2186 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2191 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2201 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2153 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2299 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2156 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2313 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2162 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2326 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2182 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2334 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2341 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2211 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2347 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2218 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2358 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2224 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2406 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2237 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2416 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2242 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2426 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2252 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2436 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2350 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2452 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2364 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2460 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2377 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2464 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2385 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2472 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2392 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2480 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2398 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2518 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2409 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2527 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2457 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2531 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2467 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2535 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2477 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2540 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2487 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2570 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2503 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2578 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2511 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2586 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2515 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2620 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2523 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2627 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2531 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2638 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2569 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2644 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2578 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2653 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2582 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2702 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2586 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2710 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2591 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2722 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2621 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2726 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2629 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2786 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2637 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2795 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2671 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2804 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:352).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2678 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2826 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2689 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2831 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2695 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2835 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2704 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2841 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2753 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2854 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2761 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2863 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2773 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2867 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2777 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2871 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2837 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2888 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2846 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2897 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2855 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2902 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2877 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2912 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2882 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2920 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2886 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2953 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2892 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2959 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2905 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2967 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2914 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2993 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2918 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2998 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2922 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3004 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2939 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3009 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2948 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3026 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2953 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3034 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2963 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3040 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2971 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3048 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3004 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3054 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3010 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3075 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3018 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3081 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3044 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3086 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3049 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3055 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3122 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3060 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3077 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3085 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3091 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3099 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3105 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3126 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
@@ -1278633,43 +1279265,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3140 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3137 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3149 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:176).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3153 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3173 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3157 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3183 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3180 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3191 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3196 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3200 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
 
 - **module :** titles
 
@@ -1278681,421 +1279307,415 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3210 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3208 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3232 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3231 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3240 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3239 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3256 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3247 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3266 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3275 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3261 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3302 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3283 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3310 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3323 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3307 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3331 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3317 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3359 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3326 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3364 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3353 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3370 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3361 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3391 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3374 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3399 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3382 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3404 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3410 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3441 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3415 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3445 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3421 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3449 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3442 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3461 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3450 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3466 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3455 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3473 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3492 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3479 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3496 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3484 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3500 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3516 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3512 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3523 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3517 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3540 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3524 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3544 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3530 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3552 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:184).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3535 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3556 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3567 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3560 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3574 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3570 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3591 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3580 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3595 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3617 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3603 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:184).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3625 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3607 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3640 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3611 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3645 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3621 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3657 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3631 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3662 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3668 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3666 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3676 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3695 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3691 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3700 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3696 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3717 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3708 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3722 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3713 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3741 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3717 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3746 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3746 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3761 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:194).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3751 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3778 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3768 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3801 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3773 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3819 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3828 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3797 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3874 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3812 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:194).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3890 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3829 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3894 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3852 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3945 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3870 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3953 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3879 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3974 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3984 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3941 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3991 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3945 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4017 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3996 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4027 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4004 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4031 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4025 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4040 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4035 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4046 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4042 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4058 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4068 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4062 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4078 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4071 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4082 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4078 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4084 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4101 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4097 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
@@ -1279107,187 +1279727,223 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4120 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4113 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4156 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4122 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4163 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4129 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4199 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4205 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4152 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4239 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4160 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4253 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4171 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4259 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4207 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4268 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4214 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4307 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4250 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4315 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4256 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4327 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4290 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4334 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4304 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4359 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4310 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4367 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4319 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4379 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4358 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4404 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4366 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4414 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4378 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4434 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4385 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4438 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4410 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4449 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:230).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4418 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4454 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4430 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4466 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4455 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4474 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4465 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4482 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4485 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4491 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4489 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4499 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4500 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:230).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4507 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4515 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4517 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4519 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4525 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4530 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4533 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4542 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4550 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4558 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4566 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4570 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4581 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
