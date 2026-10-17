@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-10-16 23:51:30
+Generated: 2026-10-17 06:34:40
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|470|
-|⚠️ Warnings|129795|
-|**Total**|**130272**|
+|⚠️ Warnings|129806|
+|**Total**|**130283**|
 
 ---
 
@@ -163221,42 +163221,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 86
+- **line :** 92
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 87
+- **line :** 93
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 144
+- **line :** 153
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'which_freebsd' sans documentation
-- **line :** 532
+- **line :** 557
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'emcc_version_code' sans documentation
-- **line :** 553
+- **line :** 578
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_cfg' sans documentation
-- **line :** 592
+- **line :** 617
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -169432,6 +169432,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ---
 
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/libc/src/new/apple/xnu/netinet6/in6_var.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'in6_aliasreq' sans documentation
+- **line :** 9
+- **suggestion :** Ajoutez /// avant cette struct
+
+---
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/libc/src/new/apple/xnu/netinet6/mod.rs
 
 ## ⚠️ Warning
@@ -170264,22 +170275,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'file' sans documentation
+- **Message :** Mod 'elf_common' sans documentation
 - **line :** 5
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'ioccom' sans documentation
+- **Message :** Mod 'file' sans documentation
 - **line :** 6
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'socket' sans documentation
+- **Message :** Mod 'ioccom' sans documentation
 - **line :** 7
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'socket' sans documentation
+- **line :** 8
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -173540,6 +173558,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **line :** 62
 - **suggestion :** Ajoutez /// avant cette struct
 
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'sensordev' sans documentation
+- **line :** 74
+- **suggestion :** Ajoutez /// avant cette struct
+
 ---
 
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/libc/src/new/qurt/dlfcn.rs
@@ -175989,6 +176014,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pathconf' sans documentation
 - **line :** 263
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'isatty' sans documentation
+- **line :** 266
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -190019,2100 +190051,2107 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Enum 'sysdir_search_path_directory_t' sans documentation
-- **line :** 190
+- **line :** 189
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Copy for sysdir_search_path_directory_t ' sans documentation
-- **line :** 216
+- **line :** 215
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Clone for sysdir_search_path_directory_t ' sans documentation
-- **line :** 217
+- **line :** 216
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 218
+- **line :** 217
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'sysdir_search_path_domain_mask_t' sans documentation
-- **line :** 225
+- **line :** 224
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Copy for sysdir_search_path_domain_mask_t ' sans documentation
-- **line :** 232
+- **line :** 231
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Clone for sysdir_search_path_domain_mask_t ' sans documentation
-- **line :** 233
+- **line :** 232
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 234
+- **line :** 233
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ip_mreq' sans documentation
-- **line :** 241
+- **line :** 240
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ip_mreqn' sans documentation
-- **line :** 247
+- **line :** 246
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ip_mreq_source' sans documentation
-- **line :** 254
+- **line :** 253
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'aiocb' sans documentation
-- **line :** 261
+- **line :** 260
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'glob_t' sans documentation
-- **line :** 272
+- **line :** 271
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'tm' sans documentation
-- **line :** 290
+- **line :** 289
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'addrinfo' sans documentation
-- **line :** 306
+- **line :** 305
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mach_timebase_info' sans documentation
-- **line :** 323
+- **line :** 321
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'stat' sans documentation
-- **line :** 329
+- **line :** 327
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_t' sans documentation
-- **line :** 354
+- **line :** 352
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sigaction' sans documentation
-- **line :** 369
+- **line :** 367
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'stack_t' sans documentation
-- **line :** 377
+- **line :** 375
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'fstore_t' sans documentation
-- **line :** 385
+- **line :** 383
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'fpunchhole_t' sans documentation
-- **line :** 394
+- **line :** 392
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ftrimactivefile_t' sans documentation
-- **line :** 402
+- **line :** 400
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'fspecread_t' sans documentation
-- **line :** 408
+- **line :** 406
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'radvisory' sans documentation
-- **line :** 416
+- **line :** 414
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'statvfs' sans documentation
-- **line :** 422
+- **line :** 420
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Dl_info' sans documentation
-- **line :** 437
+- **line :** 435
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_in' sans documentation
-- **line :** 449
+- **line :** 447
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'kevent64_s' sans documentation
-- **line :** 458
+- **line :** 456
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'dqblk' sans documentation
-- **line :** 469
+- **line :** 467
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'if_msghdr' sans documentation
-- **line :** 483
+- **line :** 481
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifa_msghdr' sans documentation
-- **line :** 494
+- **line :** 492
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifma_msghdr' sans documentation
-- **line :** 505
+- **line :** 503
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifma_msghdr2' sans documentation
-- **line :** 515
+- **line :** 513
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rt_metrics' sans documentation
-- **line :** 527
+- **line :** 525
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rt_msghdr' sans documentation
-- **line :** 546
+- **line :** 544
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rt_msghdr2' sans documentation
-- **line :** 563
+- **line :** 561
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'termios' sans documentation
-- **line :** 579
+- **line :** 577
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'flock' sans documentation
-- **line :** 590
+- **line :** 588
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sf_hdtr' sans documentation
-- **line :** 599
+- **line :** 597
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'lconv' sans documentation
-- **line :** 609
+- **line :** 607
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_taskinfo' sans documentation
-- **line :** 648
+- **line :** 646
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_bsdinfo' sans documentation
-- **line :** 671
+- **line :** 669
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_bsdshortinfo' sans documentation
-- **line :** 697
+- **line :** 695
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_taskallinfo' sans documentation
-- **line :** 728
+- **line :** 726
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'xsw_usage' sans documentation
-- **line :** 734
+- **line :** 732
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'xucred' sans documentation
-- **line :** 743
+- **line :** 741
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mach_header' sans documentation
-- **line :** 753
+- **line :** 750
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mach_header_64' sans documentation
-- **line :** 766
+- **line :** 762
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'segment_command' sans documentation
-- **line :** 778
+- **line :** 774
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'segment_command_64' sans documentation
-- **line :** 793
+- **line :** 789
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'load_command' sans documentation
-- **line :** 808
+- **line :** 804
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_dl' sans documentation
-- **line :** 814
+- **line :** 810
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_inarp' sans documentation
-- **line :** 827
+- **line :** 823
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_ctl' sans documentation
-- **line :** 839
+- **line :** 835
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in_pktinfo' sans documentation
-- **line :** 849
+- **line :** 845
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in6_pktinfo' sans documentation
-- **line :** 856
+- **line :** 852
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ipc_perm' sans documentation
-- **line :** 864
+- **line :** 860
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sembuf' sans documentation
-- **line :** 876
+- **line :** 872
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'arphdr' sans documentation
-- **line :** 885
+- **line :** 881
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in_addr' sans documentation
-- **line :** 894
+- **line :** 890
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_ndrv' sans documentation
-- **line :** 901
+- **line :** 897
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sa_endpoints_t' sans documentation
-- **line :** 910
+- **line :** 906
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'timex' sans documentation
-- **line :** 921
+- **line :** 917
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ntptimeval' sans documentation
-- **line :** 942
+- **line :** 938
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_standard_policy' sans documentation
-- **line :** 951
+- **line :** 947
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_extended_policy' sans documentation
-- **line :** 956
+- **line :** 952
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_time_constraint_policy' sans documentation
-- **line :** 961
+- **line :** 957
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_precedence_policy' sans documentation
-- **line :** 969
+- **line :** 965
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_affinity_policy' sans documentation
-- **line :** 974
+- **line :** 970
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_background_policy' sans documentation
-- **line :** 979
+- **line :** 975
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_latency_qos_policy' sans documentation
-- **line :** 984
+- **line :** 980
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_throughput_qos_policy' sans documentation
-- **line :** 989
+- **line :** 985
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'malloc_statistics_t' sans documentation
-- **line :** 995
+- **line :** 991
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mstats' sans documentation
-- **line :** 1003
+- **line :** 999
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vm_range_t' sans documentation
-- **line :** 1012
+- **line :** 1008
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vinfo_stat' sans documentation
-- **line :** 1019
+- **line :** 1015
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vnode_info' sans documentation
-- **line :** 1045
+- **line :** 1041
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vnode_info_path' sans documentation
-- **line :** 1054
+- **line :** 1050
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_vnodepathinfo' sans documentation
-- **line :** 1063
+- **line :** 1059
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vm_statistics' sans documentation
-- **line :** 1069
+- **line :** 1065
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'task_thread_times_info' sans documentation
-- **line :** 1088
+- **line :** 1084
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rusage_info_v0' sans documentation
-- **line :** 1094
+- **line :** 1090
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rusage_info_v1' sans documentation
-- **line :** 1109
+- **line :** 1105
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rusage_info_v2' sans documentation
-- **line :** 1130
+- **line :** 1126
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rusage_info_v3' sans documentation
-- **line :** 1153
+- **line :** 1149
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'rusage_info_v4' sans documentation
-- **line :** 1185
+- **line :** 1181
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'image_offset' sans documentation
-- **line :** 1225
+- **line :** 1221
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'attrlist' sans documentation
-- **line :** 1231
+- **line :** 1227
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'attrreference_t' sans documentation
-- **line :** 1242
+- **line :** 1238
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vol_capabilities_attr_t' sans documentation
-- **line :** 1248
+- **line :** 1244
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'attribute_set_t' sans documentation
-- **line :** 1254
+- **line :** 1250
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vol_attributes_attr_t' sans documentation
-- **line :** 1263
+- **line :** 1259
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'tcp_connection_info' sans documentation
-- **line :** 1269
+- **line :** 1265
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in6_addrlifetime' sans documentation
-- **line :** 1313
+- **line :** 1309
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in6_ifstat' sans documentation
-- **line :** 1322
+- **line :** 1318
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'icmp6_ifstat' sans documentation
-- **line :** 1352
+- **line :** 1348
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'host_cpu_load_info' sans documentation
-- **line :** 1391
+- **line :** 1387
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifmibdata' sans documentation
-- **line :** 1398
+- **line :** 1394
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifs_iso_8802_3' sans documentation
-- **line :** 1419
+- **line :** 1415
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ctl_info' sans documentation
-- **line :** 1441
+- **line :** 1437
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_fdinfo' sans documentation
-- **line :** 1450
+- **line :** 1446
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'kevent' sans documentation
-- **line :** 1457
+- **line :** 1453
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'semid_ds' sans documentation
-- **line :** 1469
+- **line :** 1465
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'shmid_ds' sans documentation
-- **line :** 1483
+- **line :** 1479
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'proc_threadinfo' sans documentation
-- **line :** 1499
+- **line :** 1495
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'statfs' sans documentation
-- **line :** 1515
+- **line :** 1511
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'dirent' sans documentation
-- **line :** 1539
+- **line :** 1535
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_storage' sans documentation
-- **line :** 1549
+- **line :** 1545
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'group_req' sans documentation
-- **line :** 1561
+- **line :** 1557
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'group_source_req' sans documentation
-- **line :** 1568
+- **line :** 1564
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'utmpx' sans documentation
-- **line :** 1574
+- **line :** 1570
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sigevent' sans documentation
-- **line :** 1587
+- **line :** 1583
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'processor_cpu_load_info' sans documentation
-- **line :** 1597
+- **line :** 1593
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'processor_basic_info' sans documentation
-- **line :** 1602
+- **line :** 1598
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'processor_set_basic_info' sans documentation
-- **line :** 1611
+- **line :** 1607
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'processor_set_load_info' sans documentation
-- **line :** 1617
+- **line :** 1613
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'time_value_t' sans documentation
-- **line :** 1625
+- **line :** 1621
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_basic_info' sans documentation
-- **line :** 1631
+- **line :** 1627
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_identifier_info' sans documentation
-- **line :** 1643
+- **line :** 1639
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'thread_extended_info' sans documentation
-- **line :** 1650
+- **line :** 1646
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'if_data64' sans documentation
-- **line :** 1667
+- **line :** 1663
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'if_msghdr2' sans documentation
-- **line :** 1700
+- **line :** 1696
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'vm_statistics64' sans documentation
-- **line :** 1716
+- **line :** 1712
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mach_task_basic_info' sans documentation
-- **line :** 1778
+- **line :** 1774
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'log2phys' sans documentation
-- **line :** 1790
+- **line :** 1786
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'os_unfair_lock_s' sans documentation
-- **line :** 1796
+- **line :** 1792
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_vm' sans documentation
-- **line :** 1802
+- **line :** 1798
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifdevmtu' sans documentation
-- **line :** 1811
+- **line :** 1807
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifkpi' sans documentation
-- **line :** 1819
+- **line :** 1815
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifreq' sans documentation
-- **line :** 1826
+- **line :** 1822
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'ifaliasreq' sans documentation
+- **line :** 1827
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in6_ifreq' sans documentation
-- **line :** 1833
+- **line :** 1836
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifconf' sans documentation
-- **line :** 1842
+- **line :** 1845
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'siginfo_t ' sans documentation
-- **line :** 1900
+- **line :** 1903
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_timer' sans documentation
-- **line :** 1907
+- **line :** 1910
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for semun ' sans documentation
-- **line :** 1944
+- **line :** 1947
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 1945
+- **line :** 1948
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Eq for semun ' sans documentation
-- **line :** 1949
+- **line :** 1952
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'hash' sans documentation
-- **line :** 1950
+- **line :** 1953
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
-- **line :** 1951
+- **line :** 1954
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for ifconf' sans documentation
-- **line :** 1960
+- **line :** 1963
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 1964
+- **line :** 1967
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Eq for ifconf ' sans documentation
-- **line :** 1979
+- **line :** 1982
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for __c_anonymous_ifk_data ' sans documentation
-- **line :** 1981
+- **line :** 1984
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 1982
+- **line :** 1985
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Eq for __c_anonymous_ifk_data ' sans documentation
-- **line :** 1987
+- **line :** 1990
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'hash' sans documentation
-- **line :** 1988
+- **line :** 1991
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
-- **line :** 1989
+- **line :** 1992
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for __c_anonymous_ifr_ifru ' sans documentation
-- **line :** 1997
+- **line :** 2000
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 1998
+- **line :** 2001
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Eq for __c_anonymous_ifr_ifru ' sans documentation
-- **line :** 2024
+- **line :** 2027
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'hash' sans documentation
-- **line :** 2026
+- **line :** 2029
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
-- **line :** 2027
+- **line :** 2030
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Eq for __c_anonymous_ifc_ifcu ' sans documentation
-- **line :** 2049
+- **line :** 2052
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for __c_anonymous_ifc_ifcu ' sans documentation
-- **line :** 2051
+- **line :** 2054
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 2052
+- **line :** 2055
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'hash' sans documentation
-- **line :** 2057
+- **line :** 2060
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
-- **line :** 2058
+- **line :** 2061
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for __c_anonymous_ifr_ifru6 ' sans documentation
-- **line :** 2065
+- **line :** 2068
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 2066
+- **line :** 2069
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Eq for __c_anonymous_ifr_ifru6 ' sans documentation
-- **line :** 2085
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'hash' sans documentation
 - **line :** 2088
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Impl 'hash' sans documentation
+- **line :** 2091
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'hash' sans documentation
-- **line :** 2089
+- **line :** 2092
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setgrent' sans documentation
-- **line :** 4648
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_read' sans documentation
-- **line :** 4649
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_write' sans documentation
-- **line :** 4650
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_fsync' sans documentation
-- **line :** 4651
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_error' sans documentation
-- **line :** 4652
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_return' sans documentation
 - **line :** 4653
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'aio_suspend' sans documentation
+- **Message :** Function 'aio_read' sans documentation
+- **line :** 4654
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'aio_write' sans documentation
+- **line :** 4655
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'aio_fsync' sans documentation
+- **line :** 4656
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'aio_error' sans documentation
+- **line :** 4657
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'aio_return' sans documentation
 - **line :** 4658
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'aio_cancel' sans documentation
+- **Message :** Function 'aio_suspend' sans documentation
 - **line :** 4663
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'chflags' sans documentation
-- **line :** 4664
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fchflags' sans documentation
-- **line :** 4665
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lchflags' sans documentation
-- **line :** 4666
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lchmod' sans documentation
-- **line :** 4667
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_getres' sans documentation
+- **Message :** Function 'aio_cancel' sans documentation
 - **line :** 4668
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'clock_gettime' sans documentation
+- **Message :** Function 'chflags' sans documentation
 - **line :** 4669
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lio_listio' sans documentation
+- **Message :** Function 'fchflags' sans documentation
 - **line :** 4670
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'lchflags' sans documentation
+- **line :** 4671
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lchmod' sans documentation
+- **line :** 4672
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_getres' sans documentation
+- **line :** 4673
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_gettime' sans documentation
+- **line :** 4674
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lio_listio' sans documentation
+- **line :** 4675
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'dirfd' sans documentation
-- **line :** 4677
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lutimes' sans documentation
-- **line :** 4679
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'gettimeofday' sans documentation
-- **line :** 4681
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getutxent' sans documentation
 - **line :** 4682
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getutxid' sans documentation
-- **line :** 4683
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getutxline' sans documentation
+- **Message :** Function 'lutimes' sans documentation
 - **line :** 4684
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pututxline' sans documentation
-- **line :** 4685
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setutxent' sans documentation
+- **Message :** Function 'gettimeofday' sans documentation
 - **line :** 4686
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endutxent' sans documentation
+- **Message :** Function 'getutxent' sans documentation
 - **line :** 4687
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'utmpxname' sans documentation
+- **Message :** Function 'getutxid' sans documentation
 - **line :** 4688
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'asctime' sans documentation
+- **Message :** Function 'getutxline' sans documentation
+- **line :** 4689
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pututxline' sans documentation
 - **line :** 4690
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ctime' sans documentation
+- **Message :** Function 'setutxent' sans documentation
 - **line :** 4691
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getdate' sans documentation
+- **Message :** Function 'endutxent' sans documentation
 - **line :** 4692
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strptime' sans documentation
+- **Message :** Function 'utmpxname' sans documentation
 - **line :** 4693
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'asctime_r' sans documentation
+- **Message :** Function 'asctime' sans documentation
+- **line :** 4695
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ctime' sans documentation
+- **line :** 4696
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getdate' sans documentation
+- **line :** 4697
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'strptime' sans documentation
 - **line :** 4698
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'asctime_r' sans documentation
+- **line :** 4703
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'ctime_r' sans documentation
-- **line :** 4699
+- **line :** 4704
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getnameinfo' sans documentation
-- **line :** 4701
+- **line :** 4706
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mincore' sans documentation
-- **line :** 4710
+- **line :** 4715
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sysctlnametomib' sans documentation
-- **line :** 4711
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mprotect' sans documentation
 - **line :** 4716
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'semget' sans documentation
-- **line :** 4717
+- **Message :** Function 'mprotect' sans documentation
+- **line :** 4721
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'semctl' sans documentation
+- **Message :** Function 'semget' sans documentation
 - **line :** 4722
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'semop' sans documentation
-- **line :** 4723
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shm_open' sans documentation
-- **line :** 4724
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ftok' sans documentation
-- **line :** 4725
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shmat' sans documentation
-- **line :** 4726
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shmdt' sans documentation
+- **Message :** Function 'semctl' sans documentation
 - **line :** 4727
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'shmctl' sans documentation
+- **Message :** Function 'semop' sans documentation
+- **line :** 4728
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shm_open' sans documentation
+- **line :** 4729
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ftok' sans documentation
+- **line :** 4730
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shmat' sans documentation
+- **line :** 4731
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shmdt' sans documentation
 - **line :** 4732
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'shmctl' sans documentation
+- **line :** 4737
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'shmget' sans documentation
-- **line :** 4733
+- **line :** 4738
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sysctl' sans documentation
-- **line :** 4734
+- **line :** 4739
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sysctlbyname' sans documentation
-- **line :** 4742
+- **line :** 4747
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mach_absolute_time' sans documentation
-- **line :** 4751
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mach_timebase_info' sans documentation
 - **line :** 4755
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mach_host_self' sans documentation
+- **Message :** Function 'mach_timebase_info' sans documentation
 - **line :** 4758
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mach_thread_self' sans documentation
-- **line :** 4761
+- **Message :** Function 'mach_host_self' sans documentation
+- **line :** 4760
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_cond_timedwait_relative_np' sans documentation
+- **Message :** Function 'mach_thread_self' sans documentation
 - **line :** 4762
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_cond_timedwait_relative_np' sans documentation
+- **line :** 4763
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_attr_getscope' sans documentation
-- **line :** 4767
+- **line :** 4768
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_attr_getstackaddr' sans documentation
-- **line :** 4771
+- **line :** 4772
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_attr_getdetachstate' sans documentation
-- **line :** 4775
+- **line :** 4776
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_attr_setscope' sans documentation
-- **line :** 4779
+- **line :** 4780
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_attr_setstackaddr' sans documentation
-- **line :** 4781
+- **line :** 4782
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_setname_np' sans documentation
-- **line :** 4785
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_getname_np' sans documentation
 - **line :** 4786
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_mach_thread_np' sans documentation
+- **Message :** Function 'pthread_getname_np' sans documentation
 - **line :** 4787
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_from_mach_thread_np' sans documentation
+- **Message :** Function 'pthread_mach_thread_np' sans documentation
 - **line :** 4788
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_get_stackaddr_np' sans documentation
+- **Message :** Function 'pthread_from_mach_thread_np' sans documentation
 - **line :** 4789
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_get_stacksize_np' sans documentation
+- **Message :** Function 'pthread_get_stackaddr_np' sans documentation
 - **line :** 4790
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_main_np' sans documentation
+- **Message :** Function 'pthread_get_stacksize_np' sans documentation
 - **line :** 4791
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_threadid_np' sans documentation
+- **Message :** Function 'pthread_main_np' sans documentation
 - **line :** 4792
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_threadid_np' sans documentation
+- **line :** 4793
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_jit_write_protect_np' sans documentation
-- **line :** 4795
+- **line :** 4796
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_jit_write_protect_supported_np' sans documentation
-- **line :** 4797
+- **line :** 4798
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_jit_write_with_callback_np' sans documentation
-- **line :** 4805
+- **line :** 4806
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_jit_write_freeze_callbacks_np' sans documentation
-- **line :** 4810
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_cpu_number_np' sans documentation
 - **line :** 4811
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_cpu_number_np' sans documentation
+- **line :** 4812
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'os_sync_wait_on_address' sans documentation
-- **line :** 4814
+- **line :** 4815
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'os_sync_wait_on_address_with_deadline' sans documentation
-- **line :** 4820
+- **line :** 4821
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'os_sync_wait_on_address_with_timeout' sans documentation
-- **line :** 4828
+- **line :** 4829
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'os_sync_wake_by_address_any' sans documentation
-- **line :** 4836
+- **line :** 4837
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'os_sync_wake_by_address_all' sans documentation
-- **line :** 4841
+- **line :** 4842
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'os_unfair_lock_lock' sans documentation
-- **line :** 4847
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'os_unfair_lock_trylock' sans documentation
 - **line :** 4848
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_unfair_lock_unlock' sans documentation
+- **Message :** Function 'os_unfair_lock_trylock' sans documentation
 - **line :** 4849
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_unfair_lock_assert_owner' sans documentation
+- **Message :** Function 'os_unfair_lock_unlock' sans documentation
 - **line :** 4850
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_unfair_lock_assert_not_owner' sans documentation
+- **Message :** Function 'os_unfair_lock_assert_owner' sans documentation
 - **line :** 4851
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_log_create' sans documentation
-- **line :** 4853
+- **Message :** Function 'os_unfair_lock_assert_not_owner' sans documentation
+- **line :** 4852
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_log_type_enabled' sans documentation
+- **Message :** Function 'os_log_create' sans documentation
 - **line :** 4854
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_signpost_id_make_with_pointer' sans documentation
+- **Message :** Function 'os_log_type_enabled' sans documentation
 - **line :** 4855
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_signpost_id_generate' sans documentation
-- **line :** 4859
+- **Message :** Function 'os_signpost_id_make_with_pointer' sans documentation
+- **line :** 4856
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'os_signpost_enabled' sans documentation
+- **Message :** Function 'os_signpost_id_generate' sans documentation
 - **line :** 4860
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'os_signpost_enabled' sans documentation
+- **line :** 4861
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'thread_policy_set' sans documentation
-- **line :** 4862
+- **line :** 4863
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'thread_policy_get' sans documentation
-- **line :** 4868
+- **line :** 4869
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'thread_info' sans documentation
-- **line :** 4875
+- **line :** 4876
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__error' sans documentation
-- **line :** 4883
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'backtrace' sans documentation
 - **line :** 4884
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'backtrace_symbols' sans documentation
+- **Message :** Function 'backtrace' sans documentation
 - **line :** 4885
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'backtrace_symbols_fd' sans documentation
+- **Message :** Function 'backtrace_symbols' sans documentation
 - **line :** 4886
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'backtrace_from_fp' sans documentation
+- **Message :** Function 'backtrace_symbols_fd' sans documentation
 - **line :** 4887
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'backtrace_image_offsets' sans documentation
+- **Message :** Function 'backtrace_from_fp' sans documentation
 - **line :** 4888
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'backtrace_image_offsets' sans documentation
+- **line :** 4889
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'backtrace_async' sans documentation
-- **line :** 4893
+- **line :** 4894
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'statfs' sans documentation
-- **line :** 4898
+- **line :** 4899
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fstatfs' sans documentation
-- **line :** 4903
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kevent' sans documentation
 - **line :** 4904
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'kevent' sans documentation
+- **line :** 4905
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'kevent64' sans documentation
-- **line :** 4912
+- **line :** 4913
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mount' sans documentation
-- **line :** 4921
+- **line :** 4922
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmount' sans documentation
-- **line :** 4927
+- **line :** 4928
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ptrace' sans documentation
-- **line :** 4929
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'quotactl' sans documentation
 - **line :** 4930
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sethostname' sans documentation
+- **Message :** Function 'quotactl' sans documentation
 - **line :** 4931
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sendfile' sans documentation
+- **Message :** Function 'sethostname' sans documentation
 - **line :** 4932
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'futimens' sans documentation
-- **line :** 4940
+- **Message :** Function 'sendfile' sans documentation
+- **line :** 4933
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'utimensat' sans documentation
+- **Message :** Function 'futimens' sans documentation
 - **line :** 4941
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'utimensat' sans documentation
+- **line :** 4942
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'openpty' sans documentation
-- **line :** 4947
+- **line :** 4948
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'forkpty' sans documentation
-- **line :** 4954
+- **line :** 4955
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'login_tty' sans documentation
-- **line :** 4960
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'duplocale' sans documentation
 - **line :** 4961
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'freelocale' sans documentation
+- **Message :** Function 'duplocale' sans documentation
 - **line :** 4962
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'localeconv_l' sans documentation
+- **Message :** Function 'freelocale' sans documentation
 - **line :** 4963
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'newlocale' sans documentation
+- **Message :** Function 'localeconv_l' sans documentation
 - **line :** 4964
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'uselocale' sans documentation
+- **Message :** Function 'newlocale' sans documentation
 - **line :** 4965
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'querylocale' sans documentation
+- **Message :** Function 'uselocale' sans documentation
 - **line :** 4966
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpriority' sans documentation
+- **Message :** Function 'querylocale' sans documentation
 - **line :** 4967
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setpriority' sans documentation
+- **Message :** Function 'getpriority' sans documentation
 - **line :** 4968
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getdomainname' sans documentation
+- **Message :** Function 'setpriority' sans documentation
 - **line :** 4969
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setdomainname' sans documentation
+- **Message :** Function 'getdomainname' sans documentation
 - **line :** 4970
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'preadv' sans documentation
+- **Message :** Function 'setdomainname' sans documentation
 - **line :** 4971
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pwritev' sans documentation
+- **Message :** Function 'preadv' sans documentation
 - **line :** 4972
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getxattr' sans documentation
+- **Message :** Function 'pwritev' sans documentation
 - **line :** 4973
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getxattr' sans documentation
+- **line :** 4974
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fgetxattr' sans documentation
-- **line :** 4981
+- **line :** 4982
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setxattr' sans documentation
-- **line :** 4989
+- **line :** 4990
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fsetxattr' sans documentation
-- **line :** 4997
+- **line :** 4998
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'listxattr' sans documentation
-- **line :** 5005
+- **line :** 5006
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'flistxattr' sans documentation
-- **line :** 5007
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'removexattr' sans documentation
 - **line :** 5008
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'renamex_np' sans documentation
+- **Message :** Function 'removexattr' sans documentation
 - **line :** 5009
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'renameatx_np' sans documentation
+- **Message :** Function 'renamex_np' sans documentation
 - **line :** 5010
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'renameatx_np' sans documentation
+- **line :** 5011
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fremovexattr' sans documentation
-- **line :** 5017
+- **line :** 5018
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrouplist' sans documentation
-- **line :** 5019
+- **line :** 5020
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'initgroups' sans documentation
-- **line :** 5025
+- **line :** 5026
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'waitid' sans documentation
-- **line :** 5031
+- **line :** 5032
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'brk' sans documentation
-- **line :** 5039
+- **line :** 5040
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sbrk' sans documentation
-- **line :** 5042
+- **line :** 5043
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'settimeofday' sans documentation
-- **line :** 5043
+- **line :** 5044
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
@@ -192126,896 +192165,896 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '_dyld_get_image_header' sans documentation
-- **line :** 5050
+- **line :** 5049
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_dyld_get_image_vmaddr_slide' sans documentation
-- **line :** 5053
+- **line :** 5051
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_dyld_get_image_name' sans documentation
-- **line :** 5056
+- **line :** 5053
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn' sans documentation
-- **line :** 5058
+- **line :** 5055
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnp' sans documentation
-- **line :** 5066
+- **line :** 5063
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_init' sans documentation
-- **line :** 5074
+- **line :** 5071
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_destroy' sans documentation
-- **line :** 5075
+- **line :** 5072
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_getsigdefault' sans documentation
-- **line :** 5076
+- **line :** 5073
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setsigdefault' sans documentation
-- **line :** 5080
+- **line :** 5077
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_getsigmask' sans documentation
-- **line :** 5084
+- **line :** 5081
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setsigmask' sans documentation
-- **line :** 5088
+- **line :** 5085
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_getflags' sans documentation
-- **line :** 5092
+- **line :** 5089
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setflags' sans documentation
-- **line :** 5093
+- **line :** 5090
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_getpgroup' sans documentation
-- **line :** 5094
+- **line :** 5091
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setpgroup' sans documentation
-- **line :** 5098
+- **line :** 5095
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setarchpref_np' sans documentation
-- **line :** 5099
+- **line :** 5096
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_getarchpref_np' sans documentation
-- **line :** 5106
+- **line :** 5103
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_getbinpref_np' sans documentation
-- **line :** 5113
+- **line :** 5110
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setbinpref_np' sans documentation
-- **line :** 5119
+- **line :** 5116
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_init' sans documentation
-- **line :** 5126
+- **line :** 5123
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_destroy' sans documentation
-- **line :** 5127
+- **line :** 5124
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addopen' sans documentation
-- **line :** 5128
+- **line :** 5125
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addclose' sans documentation
-- **line :** 5135
+- **line :** 5132
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_adddup2' sans documentation
-- **line :** 5139
+- **line :** 5136
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addchdir_np' sans documentation
-- **line :** 5145
+- **line :** 5142
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addfchdir_np' sans documentation
-- **line :** 5150
+- **line :** 5147
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addchdir' sans documentation
-- **line :** 5155
+- **line :** 5152
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addfchdir' sans documentation
-- **line :** 5160
+- **line :** 5157
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'uname' sans documentation
-- **line :** 5164
+- **line :** 5161
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'connectx' sans documentation
-- **line :** 5166
+- **line :** 5163
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'disconnectx' sans documentation
-- **line :** 5176
+- **line :** 5173
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ntp_adjtime' sans documentation
-- **line :** 5178
+- **line :** 5175
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ntp_gettime' sans documentation
-- **line :** 5179
+- **line :** 5176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getmntinfo' sans documentation
-- **line :** 5185
+- **line :** 5182
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getfsstat' sans documentation
-- **line :** 5190
+- **line :** 5187
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clonefile' sans documentation
-- **line :** 5195
+- **line :** 5192
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clonefileat' sans documentation
-- **line :** 5196
+- **line :** 5193
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fclonefileat' sans documentation
-- **line :** 5203
+- **line :** 5200
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copyfile' sans documentation
-- **line :** 5205
+- **line :** 5202
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fcopyfile' sans documentation
-- **line :** 5211
+- **line :** 5208
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copyfile_state_free' sans documentation
-- **line :** 5217
+- **line :** 5214
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copyfile_state_alloc' sans documentation
-- **line :** 5218
+- **line :** 5215
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copyfile_state_get' sans documentation
-- **line :** 5219
+- **line :** 5216
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copyfile_state_set' sans documentation
-- **line :** 5220
+- **line :** 5217
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mach_error_string' sans documentation
-- **line :** 5222
+- **line :** 5219
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memset_s' sans documentation
-- **line :** 5226
+- **line :** 5223
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memset_pattern4' sans documentation
-- **line :** 5228
+- **line :** 5225
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memset_pattern8' sans documentation
-- **line :** 5229
+- **line :** 5226
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memset_pattern16' sans documentation
-- **line :** 5230
+- **line :** 5227
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'strtonum' sans documentation
-- **line :** 5233
+- **line :** 5230
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mstats' sans documentation
-- **line :** 5240
+- **line :** 5237
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_printf' sans documentation
-- **line :** 5241
+- **line :** 5238
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_check' sans documentation
-- **line :** 5242
+- **line :** 5239
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_print' sans documentation
-- **line :** 5243
+- **line :** 5240
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_statistics' sans documentation
-- **line :** 5244
+- **line :** 5241
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_log' sans documentation
-- **line :** 5245
+- **line :** 5242
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_print_ptr_info' sans documentation
-- **line :** 5246
+- **line :** 5243
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_default_zone' sans documentation
-- **line :** 5247
+- **line :** 5244
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_from_ptr' sans documentation
-- **line :** 5248
+- **line :** 5245
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_malloc' sans documentation
-- **line :** 5249
+- **line :** 5246
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_valloc' sans documentation
-- **line :** 5250
+- **line :** 5247
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_calloc' sans documentation
-- **line :** 5251
+- **line :** 5248
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_realloc' sans documentation
-- **line :** 5256
+- **line :** 5253
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_zone_free' sans documentation
-- **line :** 5261
+- **line :** 5258
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gethostuuid' sans documentation
-- **line :** 5267
+- **line :** 5264
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gethostid' sans documentation
-- **line :** 5269
+- **line :** 5266
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sethostid' sans documentation
-- **line :** 5270
+- **line :** 5267
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'CCRandomGenerateBytes' sans documentation
-- **line :** 5272
+- **line :** 5269
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getentropy' sans documentation
-- **line :** 5273
+- **line :** 5270
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_NSGetExecutablePath' sans documentation
-- **line :** 5277
+- **line :** 5274
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_NSGetArgv' sans documentation
-- **line :** 5280
+- **line :** 5277
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_NSGetArgc' sans documentation
-- **line :** 5281
+- **line :** 5278
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_NSGetEnviron' sans documentation
-- **line :** 5282
+- **line :** 5279
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '_NSGetProgname' sans documentation
-- **line :** 5283
+- **line :** 5280
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mach_vm_map' sans documentation
-- **line :** 5287
+- **line :** 5284
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'vm_allocate' sans documentation
-- **line :** 5301
+- **line :** 5298
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'vm_deallocate' sans documentation
-- **line :** 5308
+- **line :** 5305
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'host_statistics64' sans documentation
-- **line :** 5314
+- **line :** 5311
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'host_processor_info' sans documentation
-- **line :** 5320
+- **line :** 5317
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'task_for_pid' sans documentation
-- **line :** 5331
+- **line :** 5328
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'task_info' sans documentation
-- **line :** 5336
+- **line :** 5333
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'task_create' sans documentation
-- **line :** 5342
+- **line :** 5339
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'task_terminate' sans documentation
-- **line :** 5349
+- **line :** 5346
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'task_threads' sans documentation
-- **line :** 5350
+- **line :** 5347
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'host_statistics' sans documentation
-- **line :** 5355
+- **line :** 5352
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sysdir_start_search_path_enumeration' sans documentation
-- **line :** 5363
+- **line :** 5360
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sysdir_get_next_search_path_enumeration' sans documentation
-- **line :** 5367
+- **line :** 5364
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getattrlist' sans documentation
-- **line :** 5374
+- **line :** 5371
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fgetattrlist' sans documentation
-- **line :** 5381
+- **line :** 5378
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getattrlistat' sans documentation
-- **line :** 5388
+- **line :** 5385
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setattrlist' sans documentation
-- **line :** 5396
+- **line :** 5393
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fsetattrlist' sans documentation
-- **line :** 5403
+- **line :** 5400
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setattrlistat' sans documentation
-- **line :** 5410
+- **line :** 5407
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getattrlistbulk' sans documentation
-- **line :** 5418
+- **line :** 5415
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_size' sans documentation
-- **line :** 5426
+- **line :** 5423
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_good_size' sans documentation
-- **line :** 5427
+- **line :** 5424
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dirname' sans documentation
-- **line :** 5429
+- **line :** 5426
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'basename' sans documentation
-- **line :** 5430
+- **line :** 5427
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mkfifoat' sans documentation
-- **line :** 5432
+- **line :** 5429
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mknodat' sans documentation
-- **line :** 5433
+- **line :** 5430
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'freadlink' sans documentation
-- **line :** 5434
+- **line :** 5431
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'execvP' sans documentation
-- **line :** 5438
+- **line :** 5435
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'qsort_r' sans documentation
-- **line :** 5444
+- **line :** 5441
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clock_settime' sans documentation
-- **line :** 5464
+- **line :** 5460
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_listpids' sans documentation
-- **line :** 5467
+- **line :** 5463
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_listallpids' sans documentation
-- **line :** 5473
+- **line :** 5469
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_listpgrppids' sans documentation
-- **line :** 5474
+- **line :** 5470
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_listchildpids' sans documentation
-- **line :** 5479
+- **line :** 5475
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_pidinfo' sans documentation
-- **line :** 5484
+- **line :** 5480
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_pidfdinfo' sans documentation
-- **line :** 5491
+- **line :** 5487
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_pidfileportinfo' sans documentation
-- **line :** 5498
+- **line :** 5494
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_pidpath' sans documentation
-- **line :** 5505
+- **line :** 5501
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_name' sans documentation
-- **line :** 5506
+- **line :** 5502
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_regionfilename' sans documentation
-- **line :** 5507
+- **line :** 5503
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_kmsgbuf' sans documentation
-- **line :** 5513
+- **line :** 5509
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_libversion' sans documentation
-- **line :** 5514
+- **line :** 5510
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_pid_rusage' sans documentation
-- **line :** 5515
+- **line :** 5511
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_set_no_smt' sans documentation
-- **line :** 5517
+- **line :** 5513
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_setthread_no_smt' sans documentation
-- **line :** 5518
+- **line :** 5514
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_set_csm' sans documentation
-- **line :** 5519
+- **line :** 5515
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'proc_setthread_csm' sans documentation
-- **line :** 5520
+- **line :** 5516
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memmem' sans documentation
-- **line :** 5528
+- **line :** 5524
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'task_set_info' sans documentation
-- **line :** 5536
+- **line :** 5532
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'iconv_open' sans documentation
-- **line :** 5552
+- **line :** 5548
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'iconv' sans documentation
-- **line :** 5554
+- **line :** 5550
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'iconv_close' sans documentation
-- **line :** 5562
+- **line :** 5558
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b32' sans documentation
-- **line :** 5567
+- **line :** 5563
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b64' sans documentation
-- **line :** 5570
+- **line :** 5566
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -193695,14 +193734,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'fpregs' sans documentation
-- **line :** 19
+- **line :** 20
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mcontext_t' sans documentation
-- **line :** 27
+- **line :** 28
 - **suggestion :** Ajoutez /// avant cette struct
 
 ---
@@ -195950,1827 +195989,1827 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'fhlink' sans documentation
-- **line :** 4579
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fhlinkat' sans documentation
-- **line :** 4580
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fhreadlink' sans documentation
-- **line :** 4581
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getfhat' sans documentation
 - **line :** 4582
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'fhlinkat' sans documentation
+- **line :** 4583
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fhreadlink' sans documentation
+- **line :** 4584
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getfhat' sans documentation
+- **line :** 4585
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function '__error' sans documentation
-- **line :** 4590
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_cancel' sans documentation
-- **line :** 4592
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_error' sans documentation
 - **line :** 4593
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'aio_fsync' sans documentation
-- **line :** 4594
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_read' sans documentation
+- **Message :** Function 'aio_cancel' sans documentation
 - **line :** 4595
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'aio_readv' sans documentation
+- **Message :** Function 'aio_error' sans documentation
 - **line :** 4596
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'aio_return' sans documentation
+- **Message :** Function 'aio_fsync' sans documentation
 - **line :** 4597
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'aio_suspend' sans documentation
+- **Message :** Function 'aio_read' sans documentation
 - **line :** 4598
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'aio_readv' sans documentation
+- **line :** 4599
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'aio_return' sans documentation
+- **line :** 4600
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'aio_suspend' sans documentation
+- **line :** 4601
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'aio_write' sans documentation
-- **line :** 4603
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_writev' sans documentation
-- **line :** 4604
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'copy_file_range' sans documentation
 - **line :** 4606
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'aio_writev' sans documentation
+- **line :** 4607
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'copy_file_range' sans documentation
+- **line :** 4609
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'devname_r' sans documentation
-- **line :** 4615
+- **line :** 4618
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_delete_fd' sans documentation
-- **line :** 4622
+- **line :** 4625
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_delete_file' sans documentation
-- **line :** 4623
+- **line :** 4626
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_delete_link' sans documentation
-- **line :** 4628
+- **line :** 4631
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_get_fd' sans documentation
-- **line :** 4633
+- **line :** 4636
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_get_file' sans documentation
-- **line :** 4640
+- **line :** 4643
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_get_link' sans documentation
-- **line :** 4647
+- **line :** 4650
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_list_fd' sans documentation
-- **line :** 4654
+- **line :** 4657
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_list_file' sans documentation
-- **line :** 4660
+- **line :** 4663
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_list_link' sans documentation
-- **line :** 4666
+- **line :** 4669
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_set_fd' sans documentation
-- **line :** 4672
+- **line :** 4675
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_set_file' sans documentation
-- **line :** 4679
+- **line :** 4682
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_set_link' sans documentation
-- **line :** 4686
+- **line :** 4689
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fspacectl' sans documentation
-- **line :** 4694
+- **line :** 4697
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'jail' sans documentation
-- **line :** 4702
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'jail_attach' sans documentation
-- **line :** 4703
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'jail_remove' sans documentation
-- **line :** 4704
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'jail_get' sans documentation
 - **line :** 4705
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'jail_set' sans documentation
+- **Message :** Function 'jail_attach' sans documentation
 - **line :** 4706
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lio_listio' sans documentation
+- **Message :** Function 'jail_remove' sans documentation
+- **line :** 4707
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'jail_get' sans documentation
 - **line :** 4708
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'jail_set' sans documentation
+- **line :** 4709
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lio_listio' sans documentation
+- **line :** 4711
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getutxuser' sans documentation
-- **line :** 4715
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setutxdb' sans documentation
-- **line :** 4716
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_waitcomplete' sans documentation
 - **line :** 4718
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mq_getfd_np' sans documentation
+- **Message :** Function 'setutxdb' sans documentation
 - **line :** 4719
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'waitid' sans documentation
+- **Message :** Function 'aio_waitcomplete' sans documentation
 - **line :** 4721
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'mq_getfd_np' sans documentation
+- **line :** 4722
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'waitid' sans documentation
+- **line :** 4724
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'ptsname_r' sans documentation
-- **line :** 4727
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ftok' sans documentation
-- **line :** 4729
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shmget' sans documentation
 - **line :** 4730
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'shmat' sans documentation
-- **line :** 4731
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shmdt' sans documentation
+- **Message :** Function 'ftok' sans documentation
 - **line :** 4732
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'shmctl' sans documentation
+- **Message :** Function 'shmget' sans documentation
 - **line :** 4733
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'semget' sans documentation
+- **Message :** Function 'shmat' sans documentation
 - **line :** 4734
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'semctl' sans documentation
+- **Message :** Function 'shmdt' sans documentation
 - **line :** 4735
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'semop' sans documentation
+- **Message :** Function 'shmctl' sans documentation
 - **line :** 4736
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'msgctl' sans documentation
+- **Message :** Function 'semget' sans documentation
 - **line :** 4737
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'msgget' sans documentation
+- **Message :** Function 'semctl' sans documentation
 - **line :** 4738
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'msgsnd' sans documentation
+- **Message :** Function 'semop' sans documentation
 - **line :** 4739
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cfmakesane' sans documentation
+- **Message :** Function 'msgctl' sans documentation
 - **line :** 4740
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pdfork' sans documentation
+- **Message :** Function 'msgget' sans documentation
+- **line :** 4741
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'msgsnd' sans documentation
 - **line :** 4742
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pdgetpid' sans documentation
+- **Message :** Function 'cfmakesane' sans documentation
 - **line :** 4743
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pdkill' sans documentation
-- **line :** 4744
+- **Message :** Function 'pdfork' sans documentation
+- **line :** 4745
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'rtprio_thread' sans documentation
+- **Message :** Function 'pdgetpid' sans documentation
 - **line :** 4746
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pdkill' sans documentation
+- **line :** 4747
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rtprio_thread' sans documentation
+- **line :** 4749
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'uuidgen' sans documentation
-- **line :** 4748
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'thr_kill' sans documentation
-- **line :** 4750
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'thr_kill2' sans documentation
 - **line :** 4751
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'thr_self' sans documentation
-- **line :** 4752
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_getthreadid_np' sans documentation
+- **Message :** Function 'thr_kill' sans documentation
 - **line :** 4753
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_getaffinity_np' sans documentation
+- **Message :** Function 'thr_kill2' sans documentation
 - **line :** 4754
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'thr_self' sans documentation
+- **line :** 4755
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_getthreadid_np' sans documentation
+- **line :** 4756
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_getaffinity_np' sans documentation
+- **line :** 4757
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_setaffinity_np' sans documentation
-- **line :** 4759
+- **line :** 4762
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getaffinity' sans documentation
-- **line :** 4766
+- **line :** 4769
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_setaffinity' sans documentation
-- **line :** 4771
+- **line :** 4774
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getcpu' sans documentation
-- **line :** 4776
+- **line :** 4779
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_mutex_consistent' sans documentation
-- **line :** 4778
+- **line :** 4781
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_mutexattr_getrobust' sans documentation
-- **line :** 4780
+- **line :** 4783
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_mutexattr_setrobust' sans documentation
-- **line :** 4784
+- **line :** 4787
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_spin_init' sans documentation
-- **line :** 4789
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_destroy' sans documentation
-- **line :** 4790
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_lock' sans documentation
-- **line :** 4791
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_trylock' sans documentation
 - **line :** 4792
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_unlock' sans documentation
+- **Message :** Function 'pthread_spin_destroy' sans documentation
 - **line :** 4793
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_timedjoin_np' sans documentation
+- **Message :** Function 'pthread_spin_lock' sans documentation
+- **line :** 4794
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_trylock' sans documentation
 - **line :** 4795
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_spin_unlock' sans documentation
+- **line :** 4796
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_timedjoin_np' sans documentation
+- **line :** 4798
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'statfs' sans documentation
-- **line :** 4802
+- **line :** 4805
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fstatfs' sans documentation
-- **line :** 4804
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'dup3' sans documentation
-- **line :** 4806
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function '__xuname' sans documentation
 - **line :** 4807
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sendmmsg' sans documentation
+- **Message :** Function 'dup3' sans documentation
 - **line :** 4809
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function '__xuname' sans documentation
+- **line :** 4810
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sendmmsg' sans documentation
+- **line :** 4812
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'recvmmsg' sans documentation
-- **line :** 4815
+- **line :** 4818
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memmem' sans documentation
-- **line :** 4822
+- **line :** 4825
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fhopen' sans documentation
-- **line :** 4829
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fhstat' sans documentation
-- **line :** 4830
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fhstatfs' sans documentation
-- **line :** 4831
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getfh' sans documentation
 - **line :** 4832
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lgetfh' sans documentation
+- **Message :** Function 'fhstat' sans documentation
 - **line :** 4833
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getfsstat' sans documentation
+- **Message :** Function 'fhstatfs' sans documentation
 - **line :** 4834
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getfh' sans documentation
+- **line :** 4835
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lgetfh' sans documentation
+- **line :** 4836
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getfsstat' sans documentation
+- **line :** 4837
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getmntinfo' sans documentation
-- **line :** 4839
+- **line :** 4842
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mount' sans documentation
-- **line :** 4840
+- **line :** 4843
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'nmount' sans documentation
-- **line :** 4846
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setproctitle' sans documentation
-- **line :** 4848
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'rfork' sans documentation
 - **line :** 4849
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'setproctitle' sans documentation
+- **line :** 4851
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rfork' sans documentation
+- **line :** 4852
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'cpuset_getaffinity' sans documentation
-- **line :** 4850
+- **line :** 4853
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cpuset_setaffinity' sans documentation
-- **line :** 4857
+- **line :** 4860
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cpuset' sans documentation
-- **line :** 4864
+- **line :** 4867
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cpuset_getid' sans documentation
-- **line :** 4865
+- **line :** 4868
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cpuset_setid' sans documentation
-- **line :** 4871
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cap_enter' sans documentation
-- **line :** 4872
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cap_getmode' sans documentation
-- **line :** 4873
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cap_fcntls_get' sans documentation
 - **line :** 4874
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_fcntls_limit' sans documentation
+- **Message :** Function 'cap_enter' sans documentation
 - **line :** 4875
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_ioctls_get' sans documentation
+- **Message :** Function 'cap_getmode' sans documentation
 - **line :** 4876
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_ioctls_limit' sans documentation
+- **Message :** Function 'cap_fcntls_get' sans documentation
 - **line :** 4877
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '__cap_rights_init' sans documentation
+- **Message :** Function 'cap_fcntls_limit' sans documentation
 - **line :** 4878
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '__cap_rights_get' sans documentation
+- **Message :** Function 'cap_ioctls_get' sans documentation
 - **line :** 4879
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '__cap_rights_set' sans documentation
+- **Message :** Function 'cap_ioctls_limit' sans documentation
 - **line :** 4880
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '__cap_rights_clear' sans documentation
+- **Message :** Function '__cap_rights_init' sans documentation
 - **line :** 4881
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '__cap_rights_is_set' sans documentation
+- **Message :** Function '__cap_rights_get' sans documentation
 - **line :** 4882
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_rights_is_valid' sans documentation
+- **Message :** Function '__cap_rights_set' sans documentation
 - **line :** 4883
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_rights_limit' sans documentation
+- **Message :** Function '__cap_rights_clear' sans documentation
 - **line :** 4884
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_rights_merge' sans documentation
+- **Message :** Function '__cap_rights_is_set' sans documentation
 - **line :** 4885
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_rights_remove' sans documentation
+- **Message :** Function 'cap_rights_is_valid' sans documentation
 - **line :** 4886
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_rights_contains' sans documentation
+- **Message :** Function 'cap_rights_limit' sans documentation
+- **line :** 4887
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cap_rights_merge' sans documentation
 - **line :** 4888
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'cap_sandboxed' sans documentation
+- **Message :** Function 'cap_rights_remove' sans documentation
 - **line :** 4889
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'reallocarray' sans documentation
+- **Message :** Function 'cap_rights_contains' sans documentation
 - **line :** 4891
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ffs' sans documentation
-- **line :** 4893
+- **Message :** Function 'cap_sandboxed' sans documentation
+- **line :** 4892
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ffsl' sans documentation
+- **Message :** Function 'reallocarray' sans documentation
 - **line :** 4894
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ffsll' sans documentation
-- **line :** 4895
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fls' sans documentation
+- **Message :** Function 'ffs' sans documentation
 - **line :** 4896
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'flsl' sans documentation
+- **Message :** Function 'ffsl' sans documentation
 - **line :** 4897
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'flsll' sans documentation
+- **Message :** Function 'ffsll' sans documentation
 - **line :** 4898
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'malloc_stats_print' sans documentation
+- **Message :** Function 'fls' sans documentation
 - **line :** 4899
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'flsl' sans documentation
+- **line :** 4900
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'flsll' sans documentation
+- **line :** 4901
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'malloc_stats_print' sans documentation
+- **line :** 4902
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'mallctl' sans documentation
-- **line :** 4904
+- **line :** 4907
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mallctlnametomib' sans documentation
-- **line :** 4911
+- **line :** 4914
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mallctlbymib' sans documentation
-- **line :** 4912
+- **line :** 4915
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mallocx' sans documentation
-- **line :** 4920
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'rallocx' sans documentation
-- **line :** 4921
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'xallocx' sans documentation
-- **line :** 4922
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sallocx' sans documentation
 - **line :** 4923
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'dallocx' sans documentation
+- **Message :** Function 'rallocx' sans documentation
 - **line :** 4924
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sdallocx' sans documentation
+- **Message :** Function 'xallocx' sans documentation
 - **line :** 4925
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'nallocx' sans documentation
+- **Message :** Function 'sallocx' sans documentation
 - **line :** 4926
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'procctl' sans documentation
+- **Message :** Function 'dallocx' sans documentation
+- **line :** 4927
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sdallocx' sans documentation
 - **line :** 4928
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'nallocx' sans documentation
+- **line :** 4929
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'procctl' sans documentation
+- **line :** 4931
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getpagesize' sans documentation
-- **line :** 4935
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getpagesizes' sans documentation
-- **line :** 4936
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_getcpuclockid2' sans documentation
 - **line :** 4938
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strchrnul' sans documentation
+- **Message :** Function 'getpagesizes' sans documentation
 - **line :** 4939
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'shm_create_largepage' sans documentation
+- **Message :** Function 'clock_getcpuclockid2' sans documentation
 - **line :** 4941
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'strchrnul' sans documentation
+- **line :** 4942
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shm_create_largepage' sans documentation
+- **line :** 4944
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'shm_rename' sans documentation
-- **line :** 4948
+- **line :** 4951
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memfd_create' sans documentation
-- **line :** 4949
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setaudit' sans documentation
-- **line :** 4950
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'eventfd' sans documentation
 - **line :** 4952
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'eventfd_read' sans documentation
+- **Message :** Function 'setaudit' sans documentation
 - **line :** 4953
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'eventfd_write' sans documentation
-- **line :** 4954
+- **Message :** Function 'eventfd' sans documentation
+- **line :** 4955
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fdatasync' sans documentation
+- **Message :** Function 'eventfd_read' sans documentation
 - **line :** 4956
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'elf_aux_info' sans documentation
-- **line :** 4958
+- **Message :** Function 'eventfd_write' sans documentation
+- **line :** 4957
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setproctitle_fast' sans documentation
+- **Message :** Function 'fdatasync' sans documentation
 - **line :** 4959
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'timingsafe_bcmp' sans documentation
-- **line :** 4960
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timingsafe_memcmp' sans documentation
+- **Message :** Function 'elf_aux_info' sans documentation
 - **line :** 4961
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '_umtx_op' sans documentation
+- **Message :** Function 'setproctitle_fast' sans documentation
+- **line :** 4962
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'timingsafe_bcmp' sans documentation
 - **line :** 4963
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'timingsafe_memcmp' sans documentation
+- **line :** 4964
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function '_umtx_op' sans documentation
+- **line :** 4966
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'sctp_peeloff' sans documentation
-- **line :** 4971
+- **line :** 4974
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_bindx' sans documentation
-- **line :** 4972
+- **line :** 4975
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_connectx' sans documentation
-- **line :** 4973
+- **line :** 4976
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_getaddrlen' sans documentation
-- **line :** 4979
+- **line :** 4982
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_getpaddrs' sans documentation
-- **line :** 4980
+- **line :** 4983
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_freepaddrs' sans documentation
-- **line :** 4985
+- **line :** 4988
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_getladdrs' sans documentation
-- **line :** 4986
+- **line :** 4989
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_freeladdrs' sans documentation
-- **line :** 4991
+- **line :** 4994
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_opt_info' sans documentation
-- **line :** 4992
+- **line :** 4995
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_sendv' sans documentation
-- **line :** 4999
+- **line :** 5002
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sctp_recvv' sans documentation
-- **line :** 5010
+- **line :** 5013
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timerfd_create' sans documentation
-- **line :** 5022
+- **line :** 5025
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timerfd_gettime' sans documentation
-- **line :** 5023
+- **line :** 5026
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timerfd_settime' sans documentation
-- **line :** 5024
+- **line :** 5027
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'closefrom' sans documentation
-- **line :** 5030
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'close_range' sans documentation
-- **line :** 5031
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'execvpe' sans documentation
 - **line :** 5033
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'close_range' sans documentation
+- **line :** 5034
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'execvpe' sans documentation
+- **line :** 5036
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'kcmp' sans documentation
-- **line :** 5039
+- **line :** 5042
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'renameat2' sans documentation
-- **line :** 5046
+- **line :** 5049
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dlvsym' sans documentation
-- **line :** 5053
+- **line :** 5056
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'lchmod' sans documentation
-- **line :** 5059
+- **line :** 5062
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memstat_strerror' sans documentation
-- **line :** 5064
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'memstat_mtl_alloc' sans documentation
-- **line :** 5065
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'memstat_mtl_first' sans documentation
-- **line :** 5066
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'memstat_mtl_next' sans documentation
 - **line :** 5067
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'memstat_mtl_find' sans documentation
+- **Message :** Function 'memstat_mtl_alloc' sans documentation
 - **line :** 5068
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'memstat_mtl_first' sans documentation
+- **line :** 5069
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'memstat_mtl_next' sans documentation
+- **line :** 5070
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'memstat_mtl_find' sans documentation
+- **line :** 5071
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'memstat_mtl_free' sans documentation
-- **line :** 5073
+- **line :** 5076
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memstat_mtl_geterror' sans documentation
-- **line :** 5074
+- **line :** 5077
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memstat_get_name' sans documentation
-- **line :** 5075
+- **line :** 5078
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'kvm_dpcpu_setcpu' sans documentation
-- **line :** 5080
+- **line :** 5083
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'kvm_getargv' sans documentation
-- **line :** 5081
+- **line :** 5084
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'kvm_getcptime' sans documentation
-- **line :** 5086
+- **line :** 5089
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'kvm_getenvv' sans documentation
-- **line :** 5087
+- **line :** 5090
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'kvm_geterr' sans documentation
-- **line :** 5092
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kvm_getmaxcpu' sans documentation
-- **line :** 5093
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kvm_getncpus' sans documentation
-- **line :** 5094
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kvm_getpcpu' sans documentation
 - **line :** 5095
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'kvm_counter_u64_fetch' sans documentation
+- **Message :** Function 'kvm_getmaxcpu' sans documentation
 - **line :** 5096
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'kvm_getswapinfo' sans documentation
+- **Message :** Function 'kvm_getncpus' sans documentation
 - **line :** 5097
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'kvm_getpcpu' sans documentation
+- **line :** 5098
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'kvm_counter_u64_fetch' sans documentation
+- **line :** 5099
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'kvm_getswapinfo' sans documentation
+- **line :** 5100
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'kvm_native' sans documentation
-- **line :** 5103
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kvm_nlist' sans documentation
-- **line :** 5104
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kvm_nlist2' sans documentation
-- **line :** 5105
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kvm_read_zpcpu' sans documentation
 - **line :** 5106
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'kvm_nlist' sans documentation
+- **line :** 5107
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'kvm_nlist2' sans documentation
+- **line :** 5108
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'kvm_read_zpcpu' sans documentation
+- **line :** 5109
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'kvm_read2' sans documentation
-- **line :** 5113
+- **line :** 5116
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extattr_namespace_to_string' sans documentation
-- **line :** 5123
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extattr_string_to_namespace' sans documentation
-- **line :** 5124
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'realhostname' sans documentation
-- **line :** 5125
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'realhostname_sa' sans documentation
 - **line :** 5126
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'extattr_string_to_namespace' sans documentation
+- **line :** 5127
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'realhostname' sans documentation
+- **line :** 5128
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'realhostname_sa' sans documentation
+- **line :** 5129
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'kld_isloaded' sans documentation
-- **line :** 5133
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kld_load' sans documentation
-- **line :** 5134
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'kinfo_getvmmap' sans documentation
 - **line :** 5136
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'hexdump' sans documentation
-- **line :** 5138
+- **Message :** Function 'kld_load' sans documentation
+- **line :** 5137
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'humanize_number' sans documentation
+- **Message :** Function 'kinfo_getvmmap' sans documentation
 - **line :** 5139
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'hexdump' sans documentation
+- **line :** 5141
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'humanize_number' sans documentation
+- **line :** 5142
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'flopen' sans documentation
-- **line :** 5148
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'flopenat' sans documentation
-- **line :** 5149
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getlocalbase' sans documentation
 - **line :** 5151
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'flopenat' sans documentation
+- **line :** 5152
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getlocalbase' sans documentation
+- **line :** 5154
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pidfile_open' sans documentation
-- **line :** 5153
+- **line :** 5156
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pidfile_write' sans documentation
-- **line :** 5158
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pidfile_close' sans documentation
-- **line :** 5159
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pidfile_remove' sans documentation
-- **line :** 5160
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pidfile_fileno' sans documentation
 - **line :** 5161
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pidfile_close' sans documentation
+- **line :** 5162
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pidfile_remove' sans documentation
+- **line :** 5163
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pidfile_fileno' sans documentation
+- **line :** 5164
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'procstat_open_sysctl' sans documentation
-- **line :** 5167
+- **line :** 5170
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getfiles' sans documentation
-- **line :** 5168
+- **line :** 5171
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_freefiles' sans documentation
-- **line :** 5173
+- **line :** 5176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getprocs' sans documentation
-- **line :** 5174
+- **line :** 5177
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_freeprocs' sans documentation
-- **line :** 5180
+- **line :** 5183
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getvmmap' sans documentation
-- **line :** 5181
+- **line :** 5184
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_freevmmap' sans documentation
-- **line :** 5186
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'procstat_close' sans documentation
-- **line :** 5187
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'procstat_freeargv' sans documentation
-- **line :** 5188
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'procstat_freeenvv' sans documentation
 - **line :** 5189
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'procstat_freegroups' sans documentation
+- **Message :** Function 'procstat_close' sans documentation
 - **line :** 5190
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'procstat_freeptlwpinfo' sans documentation
+- **Message :** Function 'procstat_freeargv' sans documentation
 - **line :** 5191
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'procstat_getargv' sans documentation
+- **Message :** Function 'procstat_freeenvv' sans documentation
 - **line :** 5192
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'procstat_freegroups' sans documentation
+- **line :** 5193
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'procstat_freeptlwpinfo' sans documentation
+- **line :** 5194
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'procstat_getargv' sans documentation
+- **line :** 5195
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'procstat_getenvv' sans documentation
-- **line :** 5197
+- **line :** 5200
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getgroups' sans documentation
-- **line :** 5202
+- **line :** 5205
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getosrel' sans documentation
-- **line :** 5207
+- **line :** 5210
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getpathname' sans documentation
-- **line :** 5212
+- **line :** 5215
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getrlimit' sans documentation
-- **line :** 5218
+- **line :** 5221
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_getumask' sans documentation
-- **line :** 5224
+- **line :** 5227
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_open_core' sans documentation
-- **line :** 5229
+- **line :** 5232
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_open_kvm' sans documentation
-- **line :** 5230
+- **line :** 5233
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_get_socket_info' sans documentation
-- **line :** 5231
+- **line :** 5234
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_get_vnode_info' sans documentation
-- **line :** 5237
+- **line :** 5240
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_get_pts_info' sans documentation
-- **line :** 5243
+- **line :** 5246
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'procstat_get_shm_info' sans documentation
-- **line :** 5249
+- **line :** 5252
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_create' sans documentation
-- **line :** 5259
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timer_delete' sans documentation
-- **line :** 5260
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timer_getoverrun' sans documentation
-- **line :** 5261
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timer_gettime' sans documentation
 - **line :** 5262
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'timer_settime' sans documentation
+- **Message :** Function 'timer_delete' sans documentation
 - **line :** 5263
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'timer_getoverrun' sans documentation
+- **line :** 5264
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'timer_gettime' sans documentation
+- **line :** 5265
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'timer_settime' sans documentation
+- **line :** 5266
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'devstat_getnumdevs' sans documentation
-- **line :** 5273
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'devstat_getgeneration' sans documentation
-- **line :** 5274
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'devstat_getversion' sans documentation
-- **line :** 5275
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'devstat_checkversion' sans documentation
 - **line :** 5276
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'devstat_selectdevs' sans documentation
+- **Message :** Function 'devstat_getgeneration' sans documentation
 - **line :** 5277
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'devstat_getversion' sans documentation
+- **line :** 5278
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'devstat_checkversion' sans documentation
+- **line :** 5279
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'devstat_selectdevs' sans documentation
+- **line :** 5280
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'devstat_buildmatch' sans documentation
-- **line :** 5293
+- **line :** 5296
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'freebsd15' sans documentation
-- **line :** 5302
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Mod 'freebsd14' sans documentation
 - **line :** 5305
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'freebsd13' sans documentation
+- **Message :** Mod 'freebsd14' sans documentation
 - **line :** 5308
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'freebsd12' sans documentation
+- **Message :** Mod 'freebsd13' sans documentation
 - **line :** 5311
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'freebsd11' sans documentation
+- **Message :** Mod 'freebsd12' sans documentation
 - **line :** 5314
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'x86' sans documentation
-- **line :** 5323
+- **Message :** Mod 'freebsd11' sans documentation
+- **line :** 5317
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'x86_64' sans documentation
+- **Message :** Mod 'x86' sans documentation
 - **line :** 5326
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'aarch64' sans documentation
+- **Message :** Mod 'x86_64' sans documentation
 - **line :** 5329
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'arm' sans documentation
+- **Message :** Mod 'aarch64' sans documentation
 - **line :** 5332
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'powerpc64' sans documentation
+- **Message :** Mod 'arm' sans documentation
 - **line :** 5335
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'powerpc' sans documentation
+- **Message :** Mod 'powerpc64' sans documentation
 - **line :** 5338
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'riscv64' sans documentation
+- **Message :** Mod 'powerpc' sans documentation
 - **line :** 5341
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'riscv64' sans documentation
+- **line :** 5344
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -206121,1274 +206160,1274 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'getrlimit' sans documentation
-- **line :** 1502
+- **line :** 1518
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setrlimit' sans documentation
-- **line :** 1503
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getpriority' sans documentation
-- **line :** 1504
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setpriority' sans documentation
-- **line :** 1505
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'endusershell' sans documentation
-- **line :** 1507
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getpass' sans documentation
-- **line :** 1508
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getusershell' sans documentation
-- **line :** 1509
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'issetugid' sans documentation
-- **line :** 1510
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setusershell' sans documentation
-- **line :** 1511
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'utimensat' sans documentation
-- **line :** 1513
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'futimens' sans documentation
 - **line :** 1519
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strerror_r' sans documentation
+- **Message :** Function 'getpriority' sans documentation
 - **line :** 1520
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function '_errnop' sans documentation
+- **Message :** Function 'setpriority' sans documentation
 - **line :** 1521
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'abs' sans documentation
+- **Message :** Function 'endusershell' sans documentation
 - **line :** 1523
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'labs' sans documentation
+- **Message :** Function 'getpass' sans documentation
 - **line :** 1524
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'rand' sans documentation
+- **Message :** Function 'getusershell' sans documentation
 - **line :** 1525
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'srand' sans documentation
+- **Message :** Function 'issetugid' sans documentation
 - **line :** 1526
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getifaddrs' sans documentation
+- **Message :** Function 'setusershell' sans documentation
 - **line :** 1527
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'freeifaddrs' sans documentation
-- **line :** 1528
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ppoll' sans documentation
+- **Message :** Function 'utimensat' sans documentation
 - **line :** 1529
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getspent' sans documentation
+- **Message :** Function 'futimens' sans documentation
+- **line :** 1535
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'strerror_r' sans documentation
 - **line :** 1536
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getspent_r' sans documentation
+- **Message :** Function '_errnop' sans documentation
 - **line :** 1537
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setspent' sans documentation
+- **Message :** Function 'abs' sans documentation
+- **line :** 1539
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'labs' sans documentation
+- **line :** 1540
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'rand' sans documentation
+- **line :** 1541
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'srand' sans documentation
+- **line :** 1542
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getifaddrs' sans documentation
 - **line :** 1543
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endspent' sans documentation
+- **Message :** Function 'freeifaddrs' sans documentation
 - **line :** 1544
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getspnam' sans documentation
+- **Message :** Function 'ppoll' sans documentation
 - **line :** 1545
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getspnam_r' sans documentation
-- **line :** 1546
+- **Message :** Function 'getspent' sans documentation
+- **line :** 1552
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sgetspent' sans documentation
+- **Message :** Function 'getspent_r' sans documentation
 - **line :** 1553
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sgetspent_r' sans documentation
-- **line :** 1554
+- **Message :** Function 'setspent' sans documentation
+- **line :** 1559
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fgetspent' sans documentation
+- **Message :** Function 'endspent' sans documentation
+- **line :** 1560
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getspnam' sans documentation
 - **line :** 1561
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fgetspent_r' sans documentation
+- **Message :** Function 'getspnam_r' sans documentation
 - **line :** 1562
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mkfifoat' sans documentation
+- **Message :** Function 'sgetspent' sans documentation
 - **line :** 1569
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mknodat' sans documentation
+- **Message :** Function 'sgetspent_r' sans documentation
 - **line :** 1570
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sem_destroy' sans documentation
-- **line :** 1571
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_init' sans documentation
-- **line :** 1572
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_getres' sans documentation
-- **line :** 1574
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_gettime' sans documentation
-- **line :** 1575
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_settime' sans documentation
-- **line :** 1576
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_getcpuclockid' sans documentation
+- **Message :** Function 'fgetspent' sans documentation
 - **line :** 1577
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_create' sans documentation
+- **Message :** Function 'fgetspent_r' sans documentation
 - **line :** 1578
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_attr_getguardsize' sans documentation
-- **line :** 1584
+- **Message :** Function 'mkfifoat' sans documentation
+- **line :** 1585
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_attr_setguardsize' sans documentation
+- **Message :** Function 'mknodat' sans documentation
+- **line :** 1586
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sem_destroy' sans documentation
+- **line :** 1587
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sem_init' sans documentation
 - **line :** 1588
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_attr_getstack' sans documentation
-- **line :** 1589
+- **Message :** Function 'clock_getres' sans documentation
+- **line :** 1590
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_condattr_getclock' sans documentation
+- **Message :** Function 'clock_gettime' sans documentation
+- **line :** 1591
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_settime' sans documentation
+- **line :** 1592
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_getcpuclockid' sans documentation
+- **line :** 1593
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_create' sans documentation
 - **line :** 1594
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_condattr_setclock' sans documentation
-- **line :** 1598
+- **Message :** Function 'pthread_attr_getguardsize' sans documentation
+- **line :** 1600
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'valloc' sans documentation
-- **line :** 1602
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'malloc_usable_size' sans documentation
-- **line :** 1603
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'memalign' sans documentation
+- **Message :** Function 'pthread_attr_setguardsize' sans documentation
 - **line :** 1604
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setgroups' sans documentation
+- **Message :** Function 'pthread_attr_getstack' sans documentation
 - **line :** 1605
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'initgroups' sans documentation
-- **line :** 1606
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ioctl' sans documentation
-- **line :** 1607
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mprotect' sans documentation
-- **line :** 1608
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'dirfd' sans documentation
-- **line :** 1609
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getnameinfo' sans documentation
+- **Message :** Function 'pthread_condattr_getclock' sans documentation
 - **line :** 1610
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_mutex_timedlock' sans documentation
+- **Message :** Function 'pthread_condattr_setclock' sans documentation
+- **line :** 1614
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'valloc' sans documentation
+- **line :** 1618
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'malloc_usable_size' sans documentation
 - **line :** 1619
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_sigqueue' sans documentation
+- **Message :** Function 'memalign' sans documentation
+- **line :** 1620
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setgroups' sans documentation
+- **line :** 1621
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'initgroups' sans documentation
+- **line :** 1622
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ioctl' sans documentation
 - **line :** 1623
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_init' sans documentation
+- **Message :** Function 'mprotect' sans documentation
 - **line :** 1624
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_destroy' sans documentation
+- **Message :** Function 'dirfd' sans documentation
 - **line :** 1625
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_lock' sans documentation
+- **Message :** Function 'getnameinfo' sans documentation
 - **line :** 1626
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_trylock' sans documentation
-- **line :** 1627
+- **Message :** Function 'pthread_mutex_timedlock' sans documentation
+- **line :** 1635
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_unlock' sans documentation
-- **line :** 1628
+- **Message :** Function 'pthread_sigqueue' sans documentation
+- **line :** 1639
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'waitid' sans documentation
-- **line :** 1629
+- **Message :** Function 'pthread_spin_init' sans documentation
+- **line :** 1640
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'glob' sans documentation
-- **line :** 1636
+- **Message :** Function 'pthread_spin_destroy' sans documentation
+- **line :** 1641
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'globfree' sans documentation
+- **Message :** Function 'pthread_spin_lock' sans documentation
 - **line :** 1642
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'gettimeofday' sans documentation
+- **Message :** Function 'pthread_spin_trylock' sans documentation
 - **line :** 1643
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_madvise' sans documentation
+- **Message :** Function 'pthread_spin_unlock' sans documentation
 - **line :** 1644
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_fadvise' sans documentation
+- **Message :** Function 'waitid' sans documentation
 - **line :** 1645
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_fallocate' sans documentation
-- **line :** 1646
+- **Message :** Function 'glob' sans documentation
+- **line :** 1652
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'shm_open' sans documentation
-- **line :** 1648
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shm_unlink' sans documentation
-- **line :** 1649
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'seekdir' sans documentation
-- **line :** 1651
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'telldir' sans documentation
-- **line :** 1653
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'madvise' sans documentation
-- **line :** 1654
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'msync' sans documentation
-- **line :** 1656
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'recvfrom' sans documentation
+- **Message :** Function 'globfree' sans documentation
 - **line :** 1658
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'nl_langinfo' sans documentation
-- **line :** 1666
+- **Message :** Function 'gettimeofday' sans documentation
+- **line :** 1659
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'bind' sans documentation
-- **line :** 1668
+- **Message :** Function 'posix_madvise' sans documentation
+- **line :** 1660
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'accept4' sans documentation
+- **Message :** Function 'posix_fadvise' sans documentation
+- **line :** 1661
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_fallocate' sans documentation
+- **line :** 1662
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shm_open' sans documentation
+- **line :** 1664
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shm_unlink' sans documentation
+- **line :** 1665
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'seekdir' sans documentation
+- **line :** 1667
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'telldir' sans documentation
+- **line :** 1669
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'madvise' sans documentation
+- **line :** 1670
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'msync' sans documentation
+- **line :** 1672
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'recvfrom' sans documentation
 - **line :** 1674
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'writev' sans documentation
-- **line :** 1681
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'readv' sans documentation
+- **Message :** Function 'nl_langinfo' sans documentation
 - **line :** 1682
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sendmsg' sans documentation
+- **Message :** Function 'bind' sans documentation
 - **line :** 1684
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'accept4' sans documentation
+- **line :** 1690
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'writev' sans documentation
+- **line :** 1697
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'readv' sans documentation
+- **line :** 1698
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sendmsg' sans documentation
+- **line :** 1700
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'recvmsg' sans documentation
-- **line :** 1685
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'execvpe' sans documentation
-- **line :** 1688
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrgid_r' sans documentation
-- **line :** 1694
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrouplist' sans documentation
 - **line :** 1701
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sigaltstack' sans documentation
-- **line :** 1707
+- **Message :** Function 'execvpe' sans documentation
+- **line :** 1704
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sigsuspend' sans documentation
-- **line :** 1708
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_close' sans documentation
-- **line :** 1709
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getdtablesize' sans documentation
+- **Message :** Function 'getgrgid_r' sans documentation
 - **line :** 1710
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getgrnam_r' sans documentation
-- **line :** 1711
+- **Message :** Function 'getgrouplist' sans documentation
+- **line :** 1717
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_sigmask' sans documentation
-- **line :** 1718
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_open' sans documentation
-- **line :** 1719
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrnam' sans documentation
-- **line :** 1720
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_kill' sans documentation
-- **line :** 1721
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_unlink' sans documentation
-- **line :** 1722
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getpwnam_r' sans documentation
+- **Message :** Function 'sigaltstack' sans documentation
 - **line :** 1723
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpwuid_r' sans documentation
-- **line :** 1730
+- **Message :** Function 'sigsuspend' sans documentation
+- **line :** 1724
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpwent' sans documentation
+- **Message :** Function 'sem_close' sans documentation
+- **line :** 1725
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getdtablesize' sans documentation
+- **line :** 1726
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrnam_r' sans documentation
+- **line :** 1727
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_sigmask' sans documentation
+- **line :** 1734
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sem_open' sans documentation
+- **line :** 1735
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrnam' sans documentation
+- **line :** 1736
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_kill' sans documentation
 - **line :** 1737
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setpwent' sans documentation
+- **Message :** Function 'sem_unlink' sans documentation
 - **line :** 1738
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endpwent' sans documentation
+- **Message :** Function 'getpwnam_r' sans documentation
 - **line :** 1739
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endgrent' sans documentation
-- **line :** 1740
+- **Message :** Function 'getpwuid_r' sans documentation
+- **line :** 1746
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getgrent' sans documentation
-- **line :** 1741
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setgrent' sans documentation
-- **line :** 1742
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sigwait' sans documentation
-- **line :** 1743
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_atfork' sans documentation
-- **line :** 1744
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrgid' sans documentation
-- **line :** 1749
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'popen' sans documentation
-- **line :** 1750
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sethostname' sans documentation
-- **line :** 1751
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'uname' sans documentation
-- **line :** 1752
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getutxent' sans documentation
+- **Message :** Function 'getpwent' sans documentation
 - **line :** 1753
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getutxid' sans documentation
+- **Message :** Function 'setpwent' sans documentation
 - **line :** 1754
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getutxline' sans documentation
+- **Message :** Function 'endpwent' sans documentation
 - **line :** 1755
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pututxline' sans documentation
+- **Message :** Function 'endgrent' sans documentation
 - **line :** 1756
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setutxent' sans documentation
+- **Message :** Function 'getgrent' sans documentation
 - **line :** 1757
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endutxent' sans documentation
+- **Message :** Function 'setgrent' sans documentation
 - **line :** 1758
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'faccessat' sans documentation
+- **Message :** Function 'sigwait' sans documentation
 - **line :** 1759
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sigtimedwait' sans documentation
-- **line :** 1761
+- **Message :** Function 'pthread_atfork' sans documentation
+- **line :** 1760
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sigwaitinfo' sans documentation
+- **Message :** Function 'getgrgid' sans documentation
+- **line :** 1765
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'popen' sans documentation
 - **line :** 1766
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getitimer' sans documentation
+- **Message :** Function 'sethostname' sans documentation
+- **line :** 1767
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'uname' sans documentation
 - **line :** 1768
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setitimer' sans documentation
+- **Message :** Function 'getutxent' sans documentation
 - **line :** 1769
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'regcomp' sans documentation
+- **Message :** Function 'getutxid' sans documentation
+- **line :** 1770
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getutxline' sans documentation
+- **line :** 1771
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pututxline' sans documentation
+- **line :** 1772
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setutxent' sans documentation
+- **line :** 1773
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'endutxent' sans documentation
+- **line :** 1774
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'faccessat' sans documentation
 - **line :** 1775
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'regexec' sans documentation
+- **Message :** Function 'sigtimedwait' sans documentation
 - **line :** 1777
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'regerror' sans documentation
+- **Message :** Function 'sigwaitinfo' sans documentation
+- **line :** 1782
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getitimer' sans documentation
+- **line :** 1784
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setitimer' sans documentation
 - **line :** 1785
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'regcomp' sans documentation
+- **line :** 1791
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'regexec' sans documentation
+- **line :** 1793
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'regerror' sans documentation
+- **line :** 1801
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'regfree' sans documentation
-- **line :** 1792
+- **line :** 1808
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'msgctl' sans documentation
-- **line :** 1794
+- **line :** 1810
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'msgget' sans documentation
-- **line :** 1795
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'msgrcv' sans documentation
-- **line :** 1796
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'msgsnd' sans documentation
-- **line :** 1803
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'semget' sans documentation
-- **line :** 1804
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'semctl' sans documentation
-- **line :** 1805
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'semop' sans documentation
-- **line :** 1806
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ftok' sans documentation
-- **line :** 1807
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'memrchr' sans documentation
-- **line :** 1809
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lsearch' sans documentation
 - **line :** 1811
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lfind' sans documentation
-- **line :** 1818
+- **Message :** Function 'msgrcv' sans documentation
+- **line :** 1812
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'hcreate' sans documentation
+- **Message :** Function 'msgsnd' sans documentation
+- **line :** 1819
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'semget' sans documentation
+- **line :** 1820
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'semctl' sans documentation
+- **line :** 1821
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'semop' sans documentation
+- **line :** 1822
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ftok' sans documentation
+- **line :** 1823
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'memrchr' sans documentation
 - **line :** 1825
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'hdestroy' sans documentation
-- **line :** 1826
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'hsearch' sans documentation
+- **Message :** Function 'lsearch' sans documentation
 - **line :** 1827
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'drand48' sans documentation
-- **line :** 1829
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'erand48' sans documentation
-- **line :** 1830
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lrand48' sans documentation
-- **line :** 1831
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'nrand48' sans documentation
-- **line :** 1832
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mrand48' sans documentation
-- **line :** 1833
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'jrand48' sans documentation
+- **Message :** Function 'lfind' sans documentation
 - **line :** 1834
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'srand48' sans documentation
-- **line :** 1835
+- **Message :** Function 'hcreate' sans documentation
+- **line :** 1841
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'seed48' sans documentation
-- **line :** 1836
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lcong48' sans documentation
-- **line :** 1837
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clearenv' sans documentation
-- **line :** 1839
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ctermid' sans documentation
-- **line :** 1840
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sync' sans documentation
+- **Message :** Function 'hdestroy' sans documentation
 - **line :** 1842
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpagesize' sans documentation
+- **Message :** Function 'hsearch' sans documentation
 - **line :** 1843
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'brk' sans documentation
+- **Message :** Function 'drand48' sans documentation
 - **line :** 1845
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sbrk' sans documentation
+- **Message :** Function 'erand48' sans documentation
 - **line :** 1846
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawn' sans documentation
+- **Message :** Function 'lrand48' sans documentation
+- **line :** 1847
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'nrand48' sans documentation
 - **line :** 1848
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawnp' sans documentation
+- **Message :** Function 'mrand48' sans documentation
+- **line :** 1849
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'jrand48' sans documentation
+- **line :** 1850
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'srand48' sans documentation
+- **line :** 1851
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'seed48' sans documentation
+- **line :** 1852
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lcong48' sans documentation
+- **line :** 1853
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clearenv' sans documentation
+- **line :** 1855
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ctermid' sans documentation
 - **line :** 1856
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'sync' sans documentation
+- **line :** 1858
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getpagesize' sans documentation
+- **line :** 1859
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'brk' sans documentation
+- **line :** 1861
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sbrk' sans documentation
+- **line :** 1862
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawn' sans documentation
+- **line :** 1864
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnp' sans documentation
+- **line :** 1872
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_init' sans documentation
-- **line :** 1865
+- **line :** 1881
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_destroy' sans documentation
-- **line :** 1866
+- **line :** 1882
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addopen' sans documentation
-- **line :** 1868
+- **line :** 1884
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addclose' sans documentation
-- **line :** 1875
+- **line :** 1891
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_adddup2' sans documentation
-- **line :** 1879
+- **line :** 1895
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_init' sans documentation
-- **line :** 1885
+- **line :** 1901
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_destroy' sans documentation
-- **line :** 1886
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getflags' sans documentation
-- **line :** 1887
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_setflags' sans documentation
-- **line :** 1888
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getpgroup' sans documentation
-- **line :** 1889
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_setpgroup' sans documentation
-- **line :** 1893
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getsigdefault' sans documentation
-- **line :** 1894
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_setsigdefault' sans documentation
-- **line :** 1898
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getsigmask' sans documentation
 - **line :** 1902
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawnattr_setsigmask' sans documentation
-- **line :** 1906
+- **Message :** Function 'posix_spawnattr_getflags' sans documentation
+- **line :** 1903
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getopt_long' sans documentation
+- **Message :** Function 'posix_spawnattr_setflags' sans documentation
+- **line :** 1904
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_getpgroup' sans documentation
+- **line :** 1905
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_setpgroup' sans documentation
+- **line :** 1909
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_getsigdefault' sans documentation
 - **line :** 1910
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strcasecmp_l' sans documentation
-- **line :** 1917
+- **Message :** Function 'posix_spawnattr_setsigdefault' sans documentation
+- **line :** 1914
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strncasecmp_l' sans documentation
+- **Message :** Function 'posix_spawnattr_getsigmask' sans documentation
+- **line :** 1918
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_setsigmask' sans documentation
 - **line :** 1922
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getopt_long' sans documentation
+- **line :** 1926
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'strcasecmp_l' sans documentation
+- **line :** 1933
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'strncasecmp_l' sans documentation
+- **line :** 1938
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getentropy' sans documentation
-- **line :** 1929
+- **line :** 1945
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memmem' sans documentation
-- **line :** 1934
+- **line :** 1950
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_getattr_np' sans documentation
-- **line :** 1941
+- **line :** 1957
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_getname_np' sans documentation
-- **line :** 1942
+- **line :** 1958
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pthread_setname_np' sans documentation
-- **line :** 1947
+- **line :** 1963
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b64' sans documentation
-- **line :** 1952
+- **line :** 1968
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b32' sans documentation
-- **line :** 1955
+- **line :** 1971
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x86_64' sans documentation
-- **line :** 1966
+- **line :** 1982
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'bsd' sans documentation
-- **line :** 1975
+- **line :** 1991
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'native' sans documentation
-- **line :** 1978
+- **line :** 1994
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -209354,2380 +209393,2380 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'lutimes' sans documentation
-- **line :** 3727
+- **line :** 3733
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'futimes' sans documentation
-- **line :** 3729
+- **line :** 3735
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'futimens' sans documentation
-- **line :** 3730
+- **line :** 3736
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'utimensat' sans documentation
-- **line :** 3732
+- **line :** 3738
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mkfifoat' sans documentation
-- **line :** 3739
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mknodat' sans documentation
-- **line :** 3741
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function '__libc_current_sigrtmin' sans documentation
-- **line :** 3743
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function '__libc_current_sigrtmax' sans documentation
 - **line :** 3745
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'wait4' sans documentation
+- **Message :** Function 'mknodat' sans documentation
 - **line :** 3747
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function '__libc_current_sigrtmin' sans documentation
+- **line :** 3749
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function '__libc_current_sigrtmax' sans documentation
+- **line :** 3751
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'wait4' sans documentation
+- **line :** 3753
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'waitid' sans documentation
-- **line :** 3754
+- **line :** 3760
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigwait' sans documentation
-- **line :** 3761
+- **line :** 3767
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigsuspend' sans documentation
-- **line :** 3763
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sigtimedwait' sans documentation
-- **line :** 3764
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sigwaitinfo' sans documentation
 - **line :** 3769
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sigaltstack' sans documentation
-- **line :** 3771
+- **Message :** Function 'sigtimedwait' sans documentation
+- **line :** 3770
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ioctl' sans documentation
-- **line :** 3773
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pipe2' sans documentation
+- **Message :** Function 'sigwaitinfo' sans documentation
 - **line :** 3775
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'dup3' sans documentation
+- **Message :** Function 'sigaltstack' sans documentation
 - **line :** 3777
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'ioctl' sans documentation
+- **line :** 3779
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pipe2' sans documentation
+- **line :** 3781
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dup3' sans documentation
+- **line :** 3783
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pread64' sans documentation
-- **line :** 3780
+- **line :** 3786
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pwrite64' sans documentation
-- **line :** 3782
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'readv' sans documentation
-- **line :** 3784
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'writev' sans documentation
-- **line :** 3785
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'preadv' sans documentation
 - **line :** 3788
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'readv' sans documentation
+- **line :** 3790
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'writev' sans documentation
+- **line :** 3791
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'preadv' sans documentation
+- **line :** 3794
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pwritev' sans documentation
-- **line :** 3795
+- **line :** 3801
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'preadv64' sans documentation
-- **line :** 3803
+- **line :** 3809
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pwritev64' sans documentation
-- **line :** 3806
+- **line :** 3812
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fread_unlocked' sans documentation
-- **line :** 3813
+- **line :** 3819
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aio_read' sans documentation
-- **line :** 3820
+- **line :** 3826
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aio_write' sans documentation
-- **line :** 3821
+- **line :** 3827
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aio_fsync' sans documentation
-- **line :** 3822
+- **line :** 3828
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aio_error' sans documentation
-- **line :** 3823
+- **line :** 3829
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aio_return' sans documentation
-- **line :** 3824
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_suspend' sans documentation
-- **line :** 3825
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'aio_cancel' sans documentation
 - **line :** 3830
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lio_listio' sans documentation
+- **Message :** Function 'aio_suspend' sans documentation
 - **line :** 3831
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'aio_cancel' sans documentation
+- **line :** 3836
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lio_listio' sans documentation
+- **line :** 3837
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'mq_open' sans documentation
-- **line :** 3838
+- **line :** 3844
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mq_close' sans documentation
-- **line :** 3839
+- **line :** 3845
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mq_unlink' sans documentation
-- **line :** 3840
+- **line :** 3846
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mq_receive' sans documentation
-- **line :** 3841
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mq_timedreceive' sans documentation
 - **line :** 3847
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mq_send' sans documentation
-- **line :** 3854
+- **Message :** Function 'mq_timedreceive' sans documentation
+- **line :** 3853
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mq_timedsend' sans documentation
+- **Message :** Function 'mq_send' sans documentation
 - **line :** 3860
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'mq_timedsend' sans documentation
+- **line :** 3866
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'mq_getattr' sans documentation
-- **line :** 3867
+- **line :** 3873
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mq_setattr' sans documentation
-- **line :** 3868
+- **line :** 3874
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'lseek64' sans documentation
-- **line :** 3875
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fgetpos64' sans documentation
-- **line :** 3879
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fseeko64' sans documentation
 - **line :** 3881
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'fgetpos64' sans documentation
+- **line :** 3885
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fseeko64' sans documentation
+- **line :** 3887
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fsetpos64' sans documentation
-- **line :** 3884
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ftello64' sans documentation
-- **line :** 3886
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bind' sans documentation
-- **line :** 3888
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'accept4' sans documentation
 - **line :** 3890
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'ftello64' sans documentation
+- **line :** 3892
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'bind' sans documentation
+- **line :** 3894
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'accept4' sans documentation
+- **line :** 3896
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'ppoll' sans documentation
-- **line :** 3897
+- **line :** 3903
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'recvmsg' sans documentation
-- **line :** 3904
+- **line :** 3910
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sendmsg' sans documentation
-- **line :** 3906
+- **line :** 3912
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'recvfrom' sans documentation
-- **line :** 3908
+- **line :** 3914
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sendfile' sans documentation
-- **line :** 3918
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sendfile64' sans documentation
-- **line :** 3920
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shutdown' sans documentation
-- **line :** 3922
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sethostname' sans documentation
 - **line :** 3924
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getdomainname' sans documentation
-- **line :** 3925
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setdomainname' sans documentation
+- **Message :** Function 'sendfile64' sans documentation
 - **line :** 3926
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'if_nameindex' sans documentation
-- **line :** 3927
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'if_freenameindex' sans documentation
+- **Message :** Function 'shutdown' sans documentation
 - **line :** 3928
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getnameinfo' sans documentation
+- **Message :** Function 'sethostname' sans documentation
 - **line :** 3930
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getdomainname' sans documentation
+- **line :** 3931
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setdomainname' sans documentation
+- **line :** 3932
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'if_nameindex' sans documentation
+- **line :** 3933
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'if_freenameindex' sans documentation
+- **line :** 3934
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getnameinfo' sans documentation
+- **line :** 3936
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getifaddrs' sans documentation
-- **line :** 3940
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'freeifaddrs' sans documentation
-- **line :** 3941
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'uname' sans documentation
-- **line :** 3943
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'gethostid' sans documentation
-- **line :** 3945
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sethostid' sans documentation
 - **line :** 3946
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setpwent' sans documentation
-- **line :** 3948
+- **Message :** Function 'freeifaddrs' sans documentation
+- **line :** 3947
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endpwent' sans documentation
+- **Message :** Function 'uname' sans documentation
 - **line :** 3949
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpwent' sans documentation
-- **line :** 3950
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setgrent' sans documentation
+- **Message :** Function 'gethostid' sans documentation
 - **line :** 3951
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endgrent' sans documentation
+- **Message :** Function 'sethostid' sans documentation
 - **line :** 3952
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getgrent' sans documentation
-- **line :** 3953
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setspent' sans documentation
+- **Message :** Function 'setpwent' sans documentation
 - **line :** 3954
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endspent' sans documentation
+- **Message :** Function 'endpwent' sans documentation
 - **line :** 3955
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getspent' sans documentation
+- **Message :** Function 'getpwent' sans documentation
 - **line :** 3956
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getspnam' sans documentation
+- **Message :** Function 'setgrent' sans documentation
+- **line :** 3957
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'endgrent' sans documentation
 - **line :** 3958
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpwent_r' sans documentation
+- **Message :** Function 'getgrent' sans documentation
+- **line :** 3959
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setspent' sans documentation
 - **line :** 3960
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getgrent_r' sans documentation
+- **Message :** Function 'endspent' sans documentation
+- **line :** 3961
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getspent' sans documentation
+- **line :** 3962
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getspnam' sans documentation
+- **line :** 3964
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getpwent_r' sans documentation
 - **line :** 3966
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fgetpwent_r' sans documentation
+- **Message :** Function 'getgrent_r' sans documentation
 - **line :** 3972
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'fgetpwent_r' sans documentation
+- **line :** 3978
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fgetgrent_r' sans documentation
-- **line :** 3979
+- **line :** 3985
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'putpwent' sans documentation
-- **line :** 3987
+- **line :** 3993
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'putgrent' sans documentation
-- **line :** 3988
+- **line :** 3994
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getpwnam_r' sans documentation
-- **line :** 3990
+- **line :** 3996
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getpwuid_r' sans documentation
-- **line :** 3998
+- **line :** 4004
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fgetspent_r' sans documentation
-- **line :** 4006
+- **line :** 4012
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sgetspent_r' sans documentation
-- **line :** 4013
+- **line :** 4019
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getspent_r' sans documentation
-- **line :** 4020
+- **line :** 4026
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getspnam_r' sans documentation
-- **line :** 4027
+- **line :** 4033
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getmntent_r' sans documentation
-- **line :** 4036
+- **line :** 4042
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'utmpname' sans documentation
-- **line :** 4043
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'utmpxname' sans documentation
-- **line :** 4044
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getutxent' sans documentation
-- **line :** 4045
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getutxid' sans documentation
-- **line :** 4046
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getutxline' sans documentation
-- **line :** 4047
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pututxline' sans documentation
-- **line :** 4048
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setutxent' sans documentation
 - **line :** 4049
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endutxent' sans documentation
+- **Message :** Function 'utmpxname' sans documentation
 - **line :** 4050
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getresuid' sans documentation
+- **Message :** Function 'getutxent' sans documentation
+- **line :** 4051
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getutxid' sans documentation
 - **line :** 4052
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getutxline' sans documentation
+- **line :** 4053
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pututxline' sans documentation
+- **line :** 4054
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setutxent' sans documentation
+- **line :** 4055
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'endutxent' sans documentation
+- **line :** 4056
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getresuid' sans documentation
+- **line :** 4058
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getresgid' sans documentation
-- **line :** 4057
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setresuid' sans documentation
-- **line :** 4062
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setresgid' sans documentation
 - **line :** 4063
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'initgroups' sans documentation
-- **line :** 4065
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrgid' sans documentation
-- **line :** 4067
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrgid_r' sans documentation
+- **Message :** Function 'setresuid' sans documentation
 - **line :** 4068
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'setresgid' sans documentation
+- **line :** 4069
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'initgroups' sans documentation
+- **line :** 4071
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrgid' sans documentation
+- **line :** 4073
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrgid_r' sans documentation
+- **line :** 4074
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getgrnam' sans documentation
-- **line :** 4076
+- **line :** 4082
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrnam_r' sans documentation
-- **line :** 4077
+- **line :** 4083
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrouplist' sans documentation
-- **line :** 4085
+- **line :** 4091
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setgroups' sans documentation
-- **line :** 4092
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'acct' sans documentation
-- **line :** 4094
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setmntent' sans documentation
-- **line :** 4096
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getmntent' sans documentation
-- **line :** 4097
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'addmntent' sans documentation
 - **line :** 4098
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'endmntent' sans documentation
-- **line :** 4099
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'hasmntopt' sans documentation
+- **Message :** Function 'acct' sans documentation
 - **line :** 4100
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_create' sans documentation
+- **Message :** Function 'setmntent' sans documentation
 - **line :** 4102
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_kill' sans documentation
+- **Message :** Function 'getmntent' sans documentation
+- **line :** 4103
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'addmntent' sans documentation
+- **line :** 4104
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'endmntent' sans documentation
+- **line :** 4105
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'hasmntopt' sans documentation
+- **line :** 4106
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_create' sans documentation
 - **line :** 4108
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_cancel' sans documentation
-- **line :** 4109
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function '__pthread_equal' sans documentation
-- **line :** 4110
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_getattr_np' sans documentation
-- **line :** 4112
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_attr_getguardsize' sans documentation
+- **Message :** Function 'pthread_kill' sans documentation
 - **line :** 4114
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_attr_setguardsize' sans documentation
+- **Message :** Function 'pthread_cancel' sans documentation
+- **line :** 4115
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function '__pthread_equal' sans documentation
+- **line :** 4116
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_getattr_np' sans documentation
 - **line :** 4118
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_attr_getstack' sans documentation
+- **Message :** Function 'pthread_attr_getguardsize' sans documentation
 - **line :** 4120
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_mutexattr_getpshared' sans documentation
+- **Message :** Function 'pthread_attr_setguardsize' sans documentation
+- **line :** 4124
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_attr_getstack' sans documentation
 - **line :** 4126
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_mutexattr_setpshared' sans documentation
-- **line :** 4130
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_mutex_timedlock' sans documentation
+- **Message :** Function 'pthread_mutexattr_getpshared' sans documentation
 - **line :** 4132
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_mutexattr_setpshared' sans documentation
+- **line :** 4136
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_mutex_timedlock' sans documentation
+- **line :** 4138
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_rwlockattr_getpshared' sans documentation
-- **line :** 4137
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_rwlockattr_setpshared' sans documentation
-- **line :** 4141
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_condattr_getclock' sans documentation
 - **line :** 4143
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_condattr_setclock' sans documentation
+- **Message :** Function 'pthread_rwlockattr_setpshared' sans documentation
 - **line :** 4147
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_condattr_getclock' sans documentation
+- **line :** 4149
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_condattr_setclock' sans documentation
+- **line :** 4153
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_condattr_getpshared' sans documentation
-- **line :** 4151
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_condattr_setpshared' sans documentation
-- **line :** 4155
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_once' sans documentation
 - **line :** 4157
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_barrierattr_init' sans documentation
-- **line :** 4159
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrierattr_destroy' sans documentation
-- **line :** 4160
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrierattr_getpshared' sans documentation
+- **Message :** Function 'pthread_condattr_setpshared' sans documentation
 - **line :** 4161
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_barrierattr_setpshared' sans documentation
+- **Message :** Function 'pthread_once' sans documentation
+- **line :** 4163
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_init' sans documentation
 - **line :** 4165
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_barrierattr_destroy' sans documentation
+- **line :** 4166
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_getpshared' sans documentation
+- **line :** 4167
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_setpshared' sans documentation
+- **line :** 4171
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_barrier_init' sans documentation
-- **line :** 4169
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrier_destroy' sans documentation
-- **line :** 4174
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrier_wait' sans documentation
 - **line :** 4175
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_init' sans documentation
-- **line :** 4176
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_destroy' sans documentation
-- **line :** 4177
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_lock' sans documentation
-- **line :** 4178
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_trylock' sans documentation
-- **line :** 4179
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_spin_unlock' sans documentation
+- **Message :** Function 'pthread_barrier_destroy' sans documentation
 - **line :** 4180
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_atfork' sans documentation
+- **Message :** Function 'pthread_barrier_wait' sans documentation
 - **line :** 4181
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_sigmask' sans documentation
+- **Message :** Function 'pthread_spin_init' sans documentation
+- **line :** 4182
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_destroy' sans documentation
+- **line :** 4183
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_lock' sans documentation
+- **line :** 4184
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_trylock' sans documentation
+- **line :** 4185
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_unlock' sans documentation
+- **line :** 4186
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_atfork' sans documentation
 - **line :** 4187
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sched_getparam' sans documentation
+- **Message :** Function 'pthread_sigmask' sans documentation
 - **line :** 4193
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'sched_getparam' sans documentation
+- **line :** 4199
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'sched_setparam' sans documentation
-- **line :** 4194
+- **line :** 4200
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getscheduler' sans documentation
-- **line :** 4195
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sched_setscheduler' sans documentation
-- **line :** 4196
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_getschedparam' sans documentation
 - **line :** 4201
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_setschedparam' sans documentation
-- **line :** 4206
+- **Message :** Function 'sched_setscheduler' sans documentation
+- **line :** 4202
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_getcpuclockid' sans documentation
+- **Message :** Function 'pthread_getschedparam' sans documentation
+- **line :** 4207
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_setschedparam' sans documentation
 - **line :** 4212
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_getcpuclockid' sans documentation
+- **line :** 4218
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'sem_init' sans documentation
-- **line :** 4214
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_destroy' sans documentation
-- **line :** 4215
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_timedwait' sans documentation
-- **line :** 4216
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sem_getvalue' sans documentation
-- **line :** 4217
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_getres' sans documentation
-- **line :** 4219
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clock_gettime' sans documentation
 - **line :** 4220
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'clock_settime' sans documentation
+- **Message :** Function 'sem_destroy' sans documentation
 - **line :** 4221
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'clock_getcpuclockid' sans documentation
+- **Message :** Function 'sem_timedwait' sans documentation
 - **line :** 4222
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'sem_getvalue' sans documentation
+- **line :** 4223
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_getres' sans documentation
+- **line :** 4225
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_gettime' sans documentation
+- **line :** 4226
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_settime' sans documentation
+- **line :** 4227
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clock_getcpuclockid' sans documentation
+- **line :** 4228
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'clock_nanosleep' sans documentation
-- **line :** 4224
+- **line :** 4230
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gettimeofday' sans documentation
-- **line :** 4231
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'settimeofday' sans documentation
-- **line :** 4232
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'asctime_r' sans documentation
-- **line :** 4234
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ctime_r' sans documentation
-- **line :** 4235
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'strftime' sans documentation
 - **line :** 4237
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strptime' sans documentation
+- **Message :** Function 'settimeofday' sans documentation
+- **line :** 4238
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'asctime_r' sans documentation
+- **line :** 4240
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ctime_r' sans documentation
+- **line :** 4241
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'strftime' sans documentation
 - **line :** 4243
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'strptime' sans documentation
+- **line :** 4249
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'timer_create' sans documentation
-- **line :** 4245
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timer_delete' sans documentation
-- **line :** 4250
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timer_getoverrun' sans documentation
 - **line :** 4251
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'timer_delete' sans documentation
+- **line :** 4256
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'timer_getoverrun' sans documentation
+- **line :** 4257
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'timer_gettime' sans documentation
-- **line :** 4252
+- **line :** 4258
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_settime' sans documentation
-- **line :** 4253
+- **line :** 4259
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fstat64' sans documentation
-- **line :** 4261
+- **line :** 4267
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fstatat64' sans documentation
-- **line :** 4264
+- **line :** 4270
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'statx' sans documentation
-- **line :** 4271
+- **line :** 4277
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ftruncate64' sans documentation
-- **line :** 4280
+- **line :** 4286
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'truncate64' sans documentation
-- **line :** 4282
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lstat64' sans documentation
-- **line :** 4285
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'statfs' sans documentation
 - **line :** 4288
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'statfs64' sans documentation
-- **line :** 4290
+- **Message :** Function 'lstat64' sans documentation
+- **line :** 4291
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fstatfs' sans documentation
-- **line :** 4292
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fstatfs64' sans documentation
+- **Message :** Function 'statfs' sans documentation
 - **line :** 4294
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'statfs64' sans documentation
+- **line :** 4296
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fstatfs' sans documentation
+- **line :** 4298
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fstatfs64' sans documentation
+- **line :** 4300
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'statvfs64' sans documentation
-- **line :** 4297
+- **line :** 4303
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fstatvfs64' sans documentation
-- **line :** 4299
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'open64' sans documentation
-- **line :** 4302
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'openat64' sans documentation
 - **line :** 4305
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fopen64' sans documentation
+- **Message :** Function 'open64' sans documentation
 - **line :** 4308
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'openat64' sans documentation
+- **line :** 4311
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fopen64' sans documentation
+- **line :** 4314
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'freopen64' sans documentation
-- **line :** 4310
+- **line :** 4316
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'creat64' sans documentation
-- **line :** 4317
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mkostemp' sans documentation
-- **line :** 4319
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mkostemps' sans documentation
-- **line :** 4320
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mkstemps' sans documentation
-- **line :** 4321
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'tmpfile64' sans documentation
 - **line :** 4323
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'popen' sans documentation
+- **Message :** Function 'mkostemp' sans documentation
 - **line :** 4325
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getdtablesize' sans documentation
+- **Message :** Function 'mkostemps' sans documentation
+- **line :** 4326
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'mkstemps' sans documentation
 - **line :** 4327
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'tmpfile64' sans documentation
+- **line :** 4329
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'popen' sans documentation
+- **line :** 4331
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getdtablesize' sans documentation
+- **line :** 4333
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'close_range' sans documentation
-- **line :** 4330
+- **line :** 4336
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'openpty' sans documentation
-- **line :** 4332
+- **line :** 4338
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'forkpty' sans documentation
-- **line :** 4340
+- **line :** 4346
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getpt' sans documentation
-- **line :** 4347
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ptsname_r' sans documentation
-- **line :** 4348
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'login_tty' sans documentation
-- **line :** 4349
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ctermid' sans documentation
-- **line :** 4351
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clearenv' sans documentation
 - **line :** 4353
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'execveat' sans documentation
+- **Message :** Function 'ptsname_r' sans documentation
+- **line :** 4354
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'login_tty' sans documentation
 - **line :** 4355
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'ctermid' sans documentation
+- **line :** 4357
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clearenv' sans documentation
+- **line :** 4359
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'execveat' sans documentation
+- **line :** 4361
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'execvpe' sans documentation
-- **line :** 4364
+- **line :** 4370
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fexecve' sans documentation
-- **line :** 4369
+- **line :** 4375
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'daemon' sans documentation
-- **line :** 4371
+- **line :** 4377
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn' sans documentation
-- **line :** 4374
+- **line :** 4380
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnp' sans documentation
-- **line :** 4382
+- **line :** 4388
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_init' sans documentation
-- **line :** 4390
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_destroy' sans documentation
-- **line :** 4391
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getsigdefault' sans documentation
-- **line :** 4392
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_setsigdefault' sans documentation
 - **line :** 4396
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'posix_spawnattr_destroy' sans documentation
+- **line :** 4397
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_getsigdefault' sans documentation
+- **line :** 4398
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_setsigdefault' sans documentation
+- **line :** 4402
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'posix_spawnattr_getsigmask' sans documentation
-- **line :** 4400
+- **line :** 4406
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawnattr_setsigmask' sans documentation
-- **line :** 4404
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getflags' sans documentation
-- **line :** 4408
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_setflags' sans documentation
-- **line :** 4409
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawnattr_getpgroup' sans documentation
 - **line :** 4410
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawnattr_setpgroup' sans documentation
+- **Message :** Function 'posix_spawnattr_getflags' sans documentation
 - **line :** 4414
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawnattr_getschedpolicy' sans documentation
+- **Message :** Function 'posix_spawnattr_setflags' sans documentation
 - **line :** 4415
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawnattr_setschedpolicy' sans documentation
-- **line :** 4419
+- **Message :** Function 'posix_spawnattr_getpgroup' sans documentation
+- **line :** 4416
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_spawnattr_getschedparam' sans documentation
+- **Message :** Function 'posix_spawnattr_setpgroup' sans documentation
 - **line :** 4420
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'posix_spawnattr_getschedpolicy' sans documentation
+- **line :** 4421
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_setschedpolicy' sans documentation
+- **line :** 4425
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawnattr_getschedparam' sans documentation
+- **line :** 4426
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'posix_spawnattr_setschedparam' sans documentation
-- **line :** 4424
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawn_file_actions_init' sans documentation
-- **line :** 4429
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_spawn_file_actions_destroy' sans documentation
 - **line :** 4430
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'posix_spawn_file_actions_init' sans documentation
+- **line :** 4435
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_spawn_file_actions_destroy' sans documentation
+- **line :** 4436
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addopen' sans documentation
-- **line :** 4431
+- **line :** 4437
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addclose' sans documentation
-- **line :** 4438
+- **line :** 4444
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_adddup2' sans documentation
-- **line :** 4442
+- **line :** 4448
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addchdir_np' sans documentation
-- **line :** 4449
+- **line :** 4455
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addfchdir_np' sans documentation
-- **line :** 4454
+- **line :** 4460
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addclosefrom_np' sans documentation
-- **line :** 4459
+- **line :** 4465
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_spawn_file_actions_addtcsetpgrp_np' sans documentation
-- **line :** 4464
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shm_open' sans documentation
-- **line :** 4469
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shm_unlink' sans documentation
 - **line :** 4470
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'euidaccess' sans documentation
-- **line :** 4472
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'eaccess' sans documentation
-- **line :** 4473
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'faccessat' sans documentation
+- **Message :** Function 'shm_open' sans documentation
 - **line :** 4475
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'stat64' sans documentation
+- **Message :** Function 'shm_unlink' sans documentation
+- **line :** 4476
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'euidaccess' sans documentation
 - **line :** 4478
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'readdir64' sans documentation
+- **Message :** Function 'eaccess' sans documentation
+- **line :** 4479
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'faccessat' sans documentation
 - **line :** 4481
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'stat64' sans documentation
+- **line :** 4484
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'readdir64' sans documentation
+- **line :** 4487
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'readdir64_r' sans documentation
-- **line :** 4483
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'seekdir' sans documentation
-- **line :** 4488
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'telldir' sans documentation
 - **line :** 4489
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'dirfd' sans documentation
-- **line :** 4491
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'strerror_r' sans documentation
+- **Message :** Function 'seekdir' sans documentation
 - **line :** 4494
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'telldir' sans documentation
+- **line :** 4495
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dirfd' sans documentation
+- **line :** 4497
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'strerror_r' sans documentation
+- **line :** 4500
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function '__errno_location' sans documentation
-- **line :** 4496
+- **line :** 4502
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mmap64' sans documentation
-- **line :** 4499
+- **line :** 4505
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mremap' sans documentation
-- **line :** 4508
+- **line :** 4514
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mprotect' sans documentation
-- **line :** 4516
+- **line :** 4522
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'msync' sans documentation
-- **line :** 4518
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sync' sans documentation
-- **line :** 4519
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'syncfs' sans documentation
-- **line :** 4520
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fdatasync' sans documentation
-- **line :** 4521
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fallocate64' sans documentation
 - **line :** 4524
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_fallocate' sans documentation
+- **Message :** Function 'sync' sans documentation
+- **line :** 4525
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'syncfs' sans documentation
 - **line :** 4526
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'fdatasync' sans documentation
+- **line :** 4527
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fallocate64' sans documentation
+- **line :** 4530
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_fallocate' sans documentation
+- **line :** 4532
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'posix_fallocate64' sans documentation
-- **line :** 4528
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_fadvise' sans documentation
-- **line :** 4531
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_fadvise64' sans documentation
 - **line :** 4534
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'posix_fadvise' sans documentation
+- **line :** 4537
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_fadvise64' sans documentation
+- **line :** 4540
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'madvise' sans documentation
-- **line :** 4536
+- **line :** 4542
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_madvise' sans documentation
-- **line :** 4538
+- **line :** 4544
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getrlimit' sans documentation
-- **line :** 4541
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getrlimit64' sans documentation
-- **line :** 4543
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setrlimit' sans documentation
-- **line :** 4545
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setrlimit64' sans documentation
 - **line :** 4547
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getpriority' sans documentation
+- **Message :** Function 'getrlimit64' sans documentation
 - **line :** 4549
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setpriority' sans documentation
-- **line :** 4550
+- **Message :** Function 'setrlimit' sans documentation
+- **line :** 4551
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getrandom' sans documentation
-- **line :** 4552
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getentropy' sans documentation
+- **Message :** Function 'setrlimit64' sans documentation
 - **line :** 4553
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'memrchr' sans documentation
+- **Message :** Function 'getpriority' sans documentation
 - **line :** 4555
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'memmem' sans documentation
+- **Message :** Function 'setpriority' sans documentation
 - **line :** 4556
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'strchrnul' sans documentation
+- **Message :** Function 'getrandom' sans documentation
+- **line :** 4558
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getentropy' sans documentation
+- **line :** 4559
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'memrchr' sans documentation
+- **line :** 4561
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'memmem' sans documentation
 - **line :** 4562
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'strchrnul' sans documentation
+- **line :** 4568
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'abs' sans documentation
-- **line :** 4564
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'labs' sans documentation
-- **line :** 4565
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'rand' sans documentation
-- **line :** 4566
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'srand' sans documentation
-- **line :** 4567
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drand48' sans documentation
-- **line :** 4569
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'erand48' sans documentation
 - **line :** 4570
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lrand48' sans documentation
+- **Message :** Function 'labs' sans documentation
 - **line :** 4571
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'nrand48' sans documentation
+- **Message :** Function 'rand' sans documentation
 - **line :** 4572
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mrand48' sans documentation
+- **Message :** Function 'srand' sans documentation
 - **line :** 4573
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'jrand48' sans documentation
-- **line :** 4574
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'srand48' sans documentation
+- **Message :** Function 'drand48' sans documentation
 - **line :** 4575
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'seed48' sans documentation
+- **Message :** Function 'erand48' sans documentation
 - **line :** 4576
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'lcong48' sans documentation
+- **Message :** Function 'lrand48' sans documentation
 - **line :** 4577
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'qsort_r' sans documentation
+- **Message :** Function 'nrand48' sans documentation
+- **line :** 4578
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'mrand48' sans documentation
 - **line :** 4579
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'jrand48' sans documentation
+- **line :** 4580
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'srand48' sans documentation
+- **line :** 4581
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'seed48' sans documentation
+- **line :** 4582
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lcong48' sans documentation
+- **line :** 4583
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'qsort_r' sans documentation
+- **line :** 4585
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'brk' sans documentation
-- **line :** 4587
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sbrk' sans documentation
-- **line :** 4588
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'memalign' sans documentation
-- **line :** 4590
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mallopt' sans documentation
-- **line :** 4591
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mallinfo' sans documentation
 - **line :** 4593
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mallinfo2' sans documentation
+- **Message :** Function 'sbrk' sans documentation
 - **line :** 4594
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'malloc_info' sans documentation
-- **line :** 4595
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'malloc_usable_size' sans documentation
+- **Message :** Function 'memalign' sans documentation
 - **line :** 4596
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'malloc_trim' sans documentation
+- **Message :** Function 'mallopt' sans documentation
 - **line :** 4597
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'iconv_open' sans documentation
+- **Message :** Function 'mallinfo' sans documentation
 - **line :** 4599
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'iconv' sans documentation
+- **Message :** Function 'mallinfo2' sans documentation
 - **line :** 4600
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'malloc_info' sans documentation
+- **line :** 4601
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'malloc_usable_size' sans documentation
+- **line :** 4602
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'malloc_trim' sans documentation
+- **line :** 4603
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'iconv_open' sans documentation
+- **line :** 4605
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'iconv' sans documentation
+- **line :** 4606
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'iconv_close' sans documentation
-- **line :** 4607
+- **line :** 4613
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getopt_long' sans documentation
-- **line :** 4609
+- **line :** 4615
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'backtrace' sans documentation
-- **line :** 4617
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'reboot' sans documentation
-- **line :** 4619
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getloadavg' sans documentation
-- **line :** 4621
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'regexec' sans documentation
 - **line :** 4623
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'reboot' sans documentation
+- **line :** 4625
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getloadavg' sans documentation
+- **line :** 4627
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'regexec' sans documentation
+- **line :** 4629
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'regerror' sans documentation
-- **line :** 4631
+- **line :** 4637
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'regfree' sans documentation
-- **line :** 4638
+- **line :** 4644
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'glob' sans documentation
-- **line :** 4648
+- **line :** 4654
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'globfree' sans documentation
-- **line :** 4662
+- **line :** 4668
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'glob64' sans documentation
-- **line :** 4670
+- **line :** 4676
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'globfree64' sans documentation
-- **line :** 4682
+- **line :** 4688
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getxattr' sans documentation
-- **line :** 4684
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lgetxattr' sans documentation
 - **line :** 4690
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fgetxattr' sans documentation
+- **Message :** Function 'lgetxattr' sans documentation
 - **line :** 4696
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'setxattr' sans documentation
+- **Message :** Function 'fgetxattr' sans documentation
 - **line :** 4702
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'setxattr' sans documentation
+- **line :** 4708
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'lsetxattr' sans documentation
-- **line :** 4709
+- **line :** 4715
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fsetxattr' sans documentation
-- **line :** 4716
+- **line :** 4722
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'listxattr' sans documentation
-- **line :** 4723
+- **line :** 4729
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'llistxattr' sans documentation
-- **line :** 4724
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'flistxattr' sans documentation
-- **line :** 4725
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'removexattr' sans documentation
-- **line :** 4726
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'lremovexattr' sans documentation
-- **line :** 4727
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fremovexattr' sans documentation
-- **line :** 4728
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'dirname' sans documentation
 - **line :** 4730
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'posix_basename' sans documentation
+- **Message :** Function 'flistxattr' sans documentation
+- **line :** 4731
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'removexattr' sans documentation
+- **line :** 4732
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'lremovexattr' sans documentation
 - **line :** 4733
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'gnu_basename' sans documentation
+- **Message :** Function 'fremovexattr' sans documentation
+- **line :** 4734
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dirname' sans documentation
 - **line :** 4736
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'dlmopen' sans documentation
-- **line :** 4738
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'dlinfo' sans documentation
+- **Message :** Function 'posix_basename' sans documentation
 - **line :** 4739
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'gnu_basename' sans documentation
+- **line :** 4742
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dlmopen' sans documentation
+- **line :** 4744
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dlinfo' sans documentation
+- **line :** 4745
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'dladdr1' sans documentation
-- **line :** 4740
+- **line :** 4746
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'duplocale' sans documentation
-- **line :** 4747
+- **line :** 4753
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'freelocale' sans documentation
-- **line :** 4748
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'newlocale' sans documentation
-- **line :** 4749
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'uselocale' sans documentation
-- **line :** 4750
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'nl_langinfo' sans documentation
-- **line :** 4751
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'nl_langinfo_l' sans documentation
-- **line :** 4752
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'dl_iterate_phdr' sans documentation
 - **line :** 4754
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'newlocale' sans documentation
+- **line :** 4755
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'uselocale' sans documentation
+- **line :** 4756
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'nl_langinfo' sans documentation
+- **line :** 4757
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'nl_langinfo_l' sans documentation
+- **line :** 4758
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dl_iterate_phdr' sans documentation
+- **line :** 4760
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'gnu_get_libc_release' sans documentation
-- **line :** 4765
+- **line :** 4771
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gnu_get_libc_version' sans documentation
-- **line :** 4766
+- **line :** 4772
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b64' sans documentation
-- **line :** 4771
+- **line :** 4777
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b32' sans documentation
-- **line :** 4774
+- **line :** 4780
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -212340,1666 +212379,1659 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'stack_t' sans documentation
-- **line :** 67
+- **line :** 71
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct '__fsid_t' sans documentation
-- **line :** 73
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'termios' sans documentation
 - **line :** 77
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'termios' sans documentation
+- **line :** 81
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'termios2' sans documentation
-- **line :** 86
+- **line :** 90
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mallinfo' sans documentation
-- **line :** 97
+- **line :** 101
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'flock' sans documentation
-- **line :** 110
+- **line :** 114
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'flock64' sans documentation
-- **line :** 119
+- **line :** 123
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'cpu_set_t' sans documentation
-- **line :** 127
+- **line :** 131
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sem_t' sans documentation
-- **line :** 134
+- **line :** 138
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'exit_status' sans documentation
-- **line :** 140
+- **line :** 144
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'statvfs' sans documentation
-- **line :** 145
+- **line :** 149
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'signalfd_siginfo' sans documentation
-- **line :** 161
+- **line :** 165
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'itimerspec' sans documentation
-- **line :** 186
+- **line :** 190
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'genlmsghdr' sans documentation
-- **line :** 191
+- **line :** 195
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'nlmsghdr' sans documentation
-- **line :** 197
+- **line :** 201
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'nlmsgerr' sans documentation
-- **line :** 205
+- **line :** 209
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'nl_pktinfo' sans documentation
-- **line :** 210
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'nl_mmap_req' sans documentation
 - **line :** 214
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'nl_mmap_req' sans documentation
+- **line :** 218
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'nl_mmap_hdr' sans documentation
-- **line :** 221
+- **line :** 225
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'nlattr' sans documentation
-- **line :** 230
+- **line :** 234
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in6_pktinfo' sans documentation
-- **line :** 235
+- **line :** 239
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'inotify_event' sans documentation
-- **line :** 240
+- **line :** 244
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sock_extended_err' sans documentation
-- **line :** 247
+- **line :** 251
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'regex_t' sans documentation
-- **line :** 257
+- **line :** 261
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'regmatch_t' sans documentation
-- **line :** 264
+- **line :** 268
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_vm' sans documentation
-- **line :** 269
+- **line :** 273
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Elf32_Phdr' sans documentation
-- **line :** 279
+- **line :** 283
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Elf64_Phdr' sans documentation
-- **line :** 290
+- **line :** 294
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'dl_phdr_info' sans documentation
-- **line :** 303
+- **line :** 307
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'seccomp_data' sans documentation
-- **line :** 329
+- **line :** 333
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'seccomp_metadata' sans documentation
-- **line :** 336
+- **line :** 340
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'seccomp_notif_sizes' sans documentation
-- **line :** 341
+- **line :** 345
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'seccomp_notif' sans documentation
-- **line :** 347
+- **line :** 351
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'seccomp_notif_resp' sans documentation
-- **line :** 354
+- **line :** 358
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'seccomp_notif_addfd' sans documentation
-- **line :** 361
+- **line :** 365
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ptrace_peeksiginfo_args' sans documentation
-- **line :** 369
+- **line :** 373
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'input_event' sans documentation
-- **line :** 376
+- **line :** 380
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'input_id' sans documentation
-- **line :** 383
+- **line :** 387
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'input_absinfo' sans documentation
-- **line :** 390
+- **line :** 394
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'input_keymap_entry' sans documentation
-- **line :** 399
+- **line :** 403
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'input_mask' sans documentation
-- **line :** 407
+- **line :** 411
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_replay' sans documentation
-- **line :** 413
+- **line :** 417
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_trigger' sans documentation
-- **line :** 418
+- **line :** 422
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_envelope' sans documentation
-- **line :** 423
+- **line :** 427
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_constant_effect' sans documentation
-- **line :** 430
+- **line :** 434
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_ramp_effect' sans documentation
-- **line :** 435
+- **line :** 439
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_condition_effect' sans documentation
-- **line :** 441
+- **line :** 445
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_periodic_effect' sans documentation
-- **line :** 452
+- **line :** 456
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_rumble_effect' sans documentation
-- **line :** 465
+- **line :** 469
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ff_effect' sans documentation
-- **line :** 470
+- **line :** 474
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'uinput_ff_upload' sans documentation
-- **line :** 484
+- **line :** 488
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'uinput_ff_erase' sans documentation
-- **line :** 491
+- **line :** 495
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'uinput_abs_setup' sans documentation
-- **line :** 497
+- **line :** 501
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'option' sans documentation
-- **line :** 502
+- **line :** 506
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct '__c_anonymous_ifru_map' sans documentation
-- **line :** 509
+- **line :** 513
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'in6_ifreq' sans documentation
-- **line :** 518
+- **line :** 522
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_nl' sans documentation
-- **line :** 524
+- **line :** 528
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'dirent' sans documentation
-- **line :** 531
+- **line :** 535
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'dirent64' sans documentation
-- **line :** 540
+- **line :** 544
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_t' sans documentation
-- **line :** 548
+- **line :** 552
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'lastlog' sans documentation
-- **line :** 556
+- **line :** 560
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'utmp' sans documentation
-- **line :** 562
+- **line :** 566
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sockaddr_alg' sans documentation
-- **line :** 576
+- **line :** 580
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'uinput_setup' sans documentation
-- **line :** 584
+- **line :** 588
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'uinput_user_dev' sans documentation
-- **line :** 590
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'prop_info' sans documentation
-- **line :** 600
+- **line :** 594
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'futex_waitv' sans documentation
-- **line :** 607
+- **line :** 605
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mmsghdr' sans documentation
-- **line :** 614
+- **line :** 612
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'af_alg_iv' sans documentation
-- **line :** 621
+- **line :** 619
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifreq' sans documentation
-- **line :** 642
+- **line :** 640
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ifconf' sans documentation
-- **line :** 656
+- **line :** 654
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ethhdr' sans documentation
-- **line :** 664
+- **line :** 662
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sifields_sigchld' sans documentation
-- **line :** 671
+- **line :** 669
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_f' sans documentation
-- **line :** 688
+- **line :** 686
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setpwent' sans documentation
-- **line :** 3533
+- **line :** 3531
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'endpwent' sans documentation
-- **line :** 3534
+- **line :** 3532
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getpwent' sans documentation
-- **line :** 3535
+- **line :** 3533
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setgrent' sans documentation
-- **line :** 3536
+- **line :** 3534
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'endgrent' sans documentation
-- **line :** 3537
+- **line :** 3535
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrent' sans documentation
-- **line :** 3538
+- **line :** 3536
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getrlimit64' sans documentation
-- **line :** 3540
+- **line :** 3538
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setrlimit64' sans documentation
-- **line :** 3542
+- **line :** 3540
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getrlimit' sans documentation
-- **line :** 3543
+- **line :** 3541
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setrlimit' sans documentation
-- **line :** 3544
+- **line :** 3542
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'prlimit' sans documentation
-- **line :** 3545
+- **line :** 3543
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'prlimit64' sans documentation
-- **line :** 3552
+- **line :** 3550
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'strerror_r' sans documentation
-- **line :** 3558
+- **line :** 3556
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gettimeofday' sans documentation
-- **line :** 3560
+- **line :** 3558
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mlock2' sans documentation
-- **line :** 3561
+- **line :** 3559
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'madvise' sans documentation
-- **line :** 3562
+- **line :** 3560
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'msync' sans documentation
-- **line :** 3563
+- **line :** 3561
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mprotect' sans documentation
-- **line :** 3564
+- **line :** 3562
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getnameinfo' sans documentation
-- **line :** 3565
+- **line :** 3563
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'preadv' sans documentation
-- **line :** 3574
+- **line :** 3572
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pwritev' sans documentation
-- **line :** 3575
+- **line :** 3573
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'process_vm_readv' sans documentation
-- **line :** 3576
+- **line :** 3574
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'process_vm_writev' sans documentation
-- **line :** 3584
+- **line :** 3582
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ptrace' sans documentation
-- **line :** 3592
+- **line :** 3590
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getpriority' sans documentation
-- **line :** 3593
+- **line :** 3591
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setpriority' sans documentation
-- **line :** 3594
+- **line :** 3592
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__sched_cpualloc' sans documentation
-- **line :** 3595
+- **line :** 3593
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__sched_cpufree' sans documentation
-- **line :** 3596
+- **line :** 3594
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__sched_cpucount' sans documentation
-- **line :** 3597
+- **line :** 3595
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getcpu' sans documentation
-- **line :** 3598
+- **line :** 3596
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mallinfo' sans documentation
-- **line :** 3599
+- **line :** 3597
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_info' sans documentation
-- **line :** 3601
+- **line :** 3599
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'malloc_usable_size' sans documentation
-- **line :** 3603
+- **line :** 3601
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'utmpname' sans documentation
-- **line :** 3605
+- **line :** 3603
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setutent' sans documentation
-- **line :** 3606
+- **line :** 3604
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getutent' sans documentation
-- **line :** 3607
+- **line :** 3605
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'seekdir' sans documentation
-- **line :** 3609
+- **line :** 3607
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'telldir' sans documentation
-- **line :** 3610
+- **line :** 3608
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fallocate' sans documentation
-- **line :** 3611
+- **line :** 3609
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fallocate64' sans documentation
-- **line :** 3613
+- **line :** 3611
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_fallocate' sans documentation
-- **line :** 3614
+- **line :** 3612
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'posix_fallocate64' sans documentation
-- **line :** 3616
+- **line :** 3614
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getxattr' sans documentation
-- **line :** 3617
+- **line :** 3615
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'lgetxattr' sans documentation
-- **line :** 3623
+- **line :** 3621
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fgetxattr' sans documentation
-- **line :** 3629
+- **line :** 3627
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setxattr' sans documentation
-- **line :** 3635
+- **line :** 3633
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'lsetxattr' sans documentation
-- **line :** 3642
+- **line :** 3640
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fsetxattr' sans documentation
-- **line :** 3649
+- **line :** 3647
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'listxattr' sans documentation
-- **line :** 3656
+- **line :** 3654
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'llistxattr' sans documentation
-- **line :** 3657
+- **line :** 3655
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'flistxattr' sans documentation
-- **line :** 3658
+- **line :** 3656
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'removexattr' sans documentation
-- **line :** 3659
+- **line :** 3657
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'lremovexattr' sans documentation
-- **line :** 3660
+- **line :** 3658
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fremovexattr' sans documentation
-- **line :** 3661
+- **line :** 3659
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signalfd' sans documentation
-- **line :** 3662
+- **line :** 3660
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timerfd_create' sans documentation
-- **line :** 3663
+- **line :** 3661
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timerfd_gettime' sans documentation
-- **line :** 3664
+- **line :** 3662
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timerfd_settime' sans documentation
-- **line :** 3665
+- **line :** 3663
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_create' sans documentation
-- **line :** 3671
+- **line :** 3669
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_delete' sans documentation
-- **line :** 3676
+- **line :** 3674
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_getoverrun' sans documentation
-- **line :** 3677
+- **line :** 3675
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_gettime' sans documentation
-- **line :** 3678
+- **line :** 3676
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'timer_settime' sans documentation
-- **line :** 3679
+- **line :** 3677
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'syscall' sans documentation
-- **line :** 3685
+- **line :** 3683
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getaffinity' sans documentation
-- **line :** 3686
+- **line :** 3684
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_setaffinity' sans documentation
-- **line :** 3691
+- **line :** 3689
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_create' sans documentation
-- **line :** 3696
+- **line :** 3694
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_create1' sans documentation
-- **line :** 3697
+- **line :** 3695
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_wait' sans documentation
-- **line :** 3698
+- **line :** 3696
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_ctl' sans documentation
-- **line :** 3704
+- **line :** 3702
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'unshare' sans documentation
-- **line :** 3705
+- **line :** 3703
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'umount' sans documentation
-- **line :** 3706
+- **line :** 3704
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_get_priority_max' sans documentation
-- **line :** 3707
+- **line :** 3705
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'tee' sans documentation
-- **line :** 3708
+- **line :** 3706
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'settimeofday' sans documentation
-- **line :** 3709
+- **line :** 3707
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'splice' sans documentation
-- **line :** 3710
+- **line :** 3708
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eventfd' sans documentation
-- **line :** 3718
+- **line :** 3716
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eventfd_read' sans documentation
-- **line :** 3719
+- **line :** 3717
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eventfd_write' sans documentation
-- **line :** 3720
+- **line :** 3718
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_rr_get_interval' sans documentation
-- **line :** 3721
+- **line :** 3719
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sem_timedwait' sans documentation
-- **line :** 3722
+- **line :** 3720
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sem_getvalue' sans documentation
-- **line :** 3723
+- **line :** 3721
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_setparam' sans documentation
-- **line :** 3724
+- **line :** 3722
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setns' sans documentation
-- **line :** 3725
+- **line :** 3723
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'swapoff' sans documentation
-- **line :** 3726
+- **line :** 3724
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'vmsplice' sans documentation
-- **line :** 3727
+- **line :** 3725
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mount' sans documentation
-- **line :** 3729
+- **line :** 3727
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'personality' sans documentation
-- **line :** 3736
+- **line :** 3734
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'prctl' sans documentation
-- **line :** 3737
+- **line :** 3735
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getparam' sans documentation
-- **line :** 3738
+- **line :** 3736
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ppoll' sans documentation
-- **line :** 3739
+- **line :** 3737
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 3746
+- **line :** 3744
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_getscheduler' sans documentation
-- **line :** 3753
+- **line :** 3751
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clock_nanosleep' sans documentation
-- **line :** 3754
+- **line :** 3752
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sethostname' sans documentation
-- **line :** 3761
+- **line :** 3759
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_get_priority_min' sans documentation
-- **line :** 3762
+- **line :** 3760
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sysinfo' sans documentation
-- **line :** 3763
+- **line :** 3761
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'umount2' sans documentation
-- **line :** 3764
+- **line :** 3762
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'swapon' sans documentation
-- **line :** 3765
+- **line :** 3763
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sched_setscheduler' sans documentation
-- **line :** 3766
+- **line :** 3764
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sendfile' sans documentation
-- **line :** 3771
+- **line :** 3769
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sendfile64' sans documentation
-- **line :** 3773
+- **line :** 3771
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setfsgid' sans documentation
-- **line :** 3774
+- **line :** 3772
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setfsuid' sans documentation
-- **line :** 3775
+- **line :** 3773
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigsuspend' sans documentation
-- **line :** 3776
+- **line :** 3774
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrgid_r' sans documentation
-- **line :** 3777
+- **line :** 3775
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigaltstack' sans documentation
-- **line :** 3784
+- **line :** 3782
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sem_close' sans documentation
-- **line :** 3785
+- **line :** 3783
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrnam_r' sans documentation
-- **line :** 3786
+- **line :** 3784
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sem_open' sans documentation
-- **line :** 3793
+- **line :** 3791
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrnam' sans documentation
-- **line :** 3794
+- **line :** 3792
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sem_unlink' sans documentation
-- **line :** 3795
+- **line :** 3793
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'daemon' sans documentation
-- **line :** 3796
+- **line :** 3794
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigtimedwait' sans documentation
-- **line :** 3797
+- **line :** 3795
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigwait' sans documentation
-- **line :** 3802
+- **line :** 3800
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrgid' sans documentation
-- **line :** 3803
+- **line :** 3801
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getgrouplist' sans documentation
-- **line :** 3804
+- **line :** 3802
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'initgroups' sans documentation
-- **line :** 3810
+- **line :** 3808
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'popen' sans documentation
-- **line :** 3811
+- **line :** 3809
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'faccessat' sans documentation
-- **line :** 3812
+- **line :** 3810
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__errno' sans documentation
-- **line :** 3813
+- **line :** 3811
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'inotify_rm_watch' sans documentation
-- **line :** 3814
+- **line :** 3812
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'inotify_init' sans documentation
-- **line :** 3815
+- **line :** 3813
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'inotify_init1' sans documentation
-- **line :** 3816
+- **line :** 3814
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'inotify_add_watch' sans documentation
-- **line :** 3817
+- **line :** 3815
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'regcomp' sans documentation
-- **line :** 3819
+- **line :** 3817
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'regexec' sans documentation
-- **line :** 3821
+- **line :** 3819
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'regerror' sans documentation
-- **line :** 3829
+- **line :** 3827
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'regfree' sans documentation
-- **line :** 3836
+- **line :** 3834
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'android_set_abort_message' sans documentation
-- **line :** 3838
+- **line :** 3836
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gettid' sans documentation
-- **line :** 3840
+- **line :** 3838
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'tgkill' sans documentation
-- **line :** 3842
+- **line :** 3840
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getauxval' sans documentation
-- **line :** 3844
+- **line :** 3842
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getentropy' sans documentation
-- **line :** 3848
+- **line :** 3846
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__system_property_set' sans documentation
-- **line :** 3850
+- **line :** 3848
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__system_property_get' sans documentation
-- **line :** 3851
+- **line :** 3849
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__system_property_find' sans documentation
-- **line :** 3852
+- **line :** 3850
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__system_property_find_nth' sans documentation
-- **line :** 3853
+- **line :** 3851
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__system_property_foreach' sans documentation
-- **line :** 3854
+- **line :** 3852
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'arc4random' sans documentation
-- **line :** 3868
+- **line :** 3866
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'arc4random_uniform' sans documentation
-- **line :** 3869
+- **line :** 3867
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'arc4random_buf' sans documentation
-- **line :** 3870
+- **line :** 3868
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'reallocarray' sans documentation
-- **line :** 3872
+- **line :** 3870
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dirname' sans documentation
-- **line :** 3874
+- **line :** 3872
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'basename' sans documentation
-- **line :** 3875
+- **line :** 3873
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getopt_long' sans documentation
-- **line :** 3876
+- **line :** 3874
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sync' sans documentation
-- **line :** 3884
+- **line :** 3882
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'syncfs' sans documentation
-- **line :** 3885
+- **line :** 3883
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memmem' sans documentation
-- **line :** 3887
+- **line :** 3885
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fread_unlocked' sans documentation
-- **line :** 3893
+- **line :** 3891
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fwrite_unlocked' sans documentation
-- **line :** 3899
+- **line :** 3897
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fflush_unlocked' sans documentation
-- **line :** 3905
+- **line :** 3903
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fgets_unlocked' sans documentation
-- **line :** 3906
+- **line :** 3904
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'klogctl' sans documentation
-- **line :** 3908
+- **line :** 3906
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'memfd_create' sans documentation
-- **line :** 3910
+- **line :** 3908
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'renameat2' sans documentation
-- **line :** 3911
+- **line :** 3909
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'preadv2' sans documentation
-- **line :** 3918
+- **line :** 3916
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pwritev2' sans documentation
-- **line :** 3925
+- **line :** 3923
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b32' sans documentation
-- **line :** 3936
+- **line :** 3934
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'b64' sans documentation
-- **line :** 3939
+- **line :** 3937
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'siginfo_t ' sans documentation
-- **line :** 3946
+- **line :** 3944
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_sigfault' sans documentation
-- **line :** 3949
+- **line :** 3947
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_timer' sans documentation
-- **line :** 3960
+- **line :** 3958
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'siginfo_t ' sans documentation
-- **line :** 3972
+- **line :** 3970
 - **suggestion :** Ajoutez /// avant cette impl
 
 ---
@@ -214010,651 +214042,651 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'glob_t' sans documentation
-- **line :** 67
+- **line :** 81
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'passwd' sans documentation
-- **line :** 80
+- **line :** 94
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'spwd' sans documentation
-- **line :** 90
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'statvfs' sans documentation
-- **line :** 102
+- **line :** 116
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'signalfd_siginfo' sans documentation
-- **line :** 118
+- **line :** 132
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'fsid_t' sans documentation
-- **line :** 143
+- **line :** 157
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'cpu_set_t' sans documentation
-- **line :** 147
+- **line :** 161
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'msginfo' sans documentation
-- **line :** 152
+- **line :** 166
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sembuf' sans documentation
-- **line :** 163
+- **line :** 177
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sigaction' sans documentation
-- **line :** 171
+- **line :** 185
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ipc_perm' sans documentation
-- **line :** 178
+- **line :** 192
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'termios' sans documentation
-- **line :** 190
+- **line :** 204
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'flock' sans documentation
-- **line :** 201
+- **line :** 215
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'pthread_attr_t' sans documentation
-- **line :** 209
+- **line :** 223
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sigset_t' sans documentation
-- **line :** 214
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'msghdr' sans documentation
-- **line :** 218
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'cmsghdr' sans documentation
 - **line :** 228
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'msghdr' sans documentation
+- **line :** 237
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'cmsghdr' sans documentation
+- **line :** 247
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'in6_pktinfo' sans documentation
-- **line :** 234
+- **line :** 253
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'sem_t' sans documentation
-- **line :** 239
+- **line :** 258
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'stat' sans documentation
-- **line :** 242
+- **line :** 261
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'stack_t' sans documentation
-- **line :** 267
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'shmid_ds' sans documentation
-- **line :** 273
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'msqid_ds' sans documentation
 - **line :** 286
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'shmid_ds' sans documentation
+- **line :** 292
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'msqid_ds' sans documentation
+- **line :** 305
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'statfs' sans documentation
-- **line :** 300
+- **line :** 319
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'siginfo_t' sans documentation
-- **line :** 315
+- **line :** 334
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'arpd_request' sans documentation
-- **line :** 323
+- **line :** 342
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'pthread_mutex_t' sans documentation
-- **line :** 333
+- **line :** 352
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'pthread_rwlock_t' sans documentation
-- **line :** 338
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'pthread_mutexattr_t' sans documentation
-- **line :** 343
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'pthread_rwlockattr_t' sans documentation
-- **line :** 348
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'pthread_condattr_t' sans documentation
-- **line :** 353
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'dirent' sans documentation
 - **line :** 357
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'pthread_mutexattr_t' sans documentation
+- **line :** 362
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'pthread_rwlockattr_t' sans documentation
+- **line :** 367
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'pthread_condattr_t' sans documentation
+- **line :** 372
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'dirent' sans documentation
+- **line :** 376
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'sysinfo' sans documentation
-- **line :** 365
+- **line :** 384
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mq_attr' sans documentation
-- **line :** 382
+- **line :** 401
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'pthread_cond_t' sans documentation
-- **line :** 392
+- **line :** 411
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'mmsghdr' sans documentation
-- **line :** 396
+- **line :** 415
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'max_align_t' sans documentation
-- **line :** 404
+- **line :** 423
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'getrlimit' sans documentation
-- **line :** 1377
+- **line :** 1396
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'setrlimit' sans documentation
-- **line :** 1378
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'strerror_r' sans documentation
-- **line :** 1379
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'abs' sans documentation
-- **line :** 1381
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'labs' sans documentation
-- **line :** 1382
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'rand' sans documentation
-- **line :** 1383
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'srand' sans documentation
-- **line :** 1384
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'gettimeofday' sans documentation
-- **line :** 1386
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setpwent' sans documentation
-- **line :** 1388
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'endpwent' sans documentation
-- **line :** 1389
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getpwent' sans documentation
-- **line :** 1390
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shm_open' sans documentation
-- **line :** 1392
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'mprotect' sans documentation
-- **line :** 1394
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function '__errno_location' sans documentation
-- **line :** 1395
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_fallocate' sans documentation
 - **line :** 1397
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pwritev' sans documentation
+- **Message :** Function 'strerror_r' sans documentation
 - **line :** 1398
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'preadv' sans documentation
-- **line :** 1399
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'dup3' sans documentation
+- **Message :** Function 'abs' sans documentation
 - **line :** 1400
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'nl_langinfo_l' sans documentation
+- **Message :** Function 'labs' sans documentation
 - **line :** 1401
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'accept4' sans documentation
+- **Message :** Function 'rand' sans documentation
 - **line :** 1402
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getnameinfo' sans documentation
+- **Message :** Function 'srand' sans documentation
+- **line :** 1403
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'gettimeofday' sans documentation
+- **line :** 1405
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setpwent' sans documentation
+- **line :** 1407
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'endpwent' sans documentation
 - **line :** 1408
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getloadavg' sans documentation
+- **Message :** Function 'getpwent' sans documentation
+- **line :** 1409
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shm_open' sans documentation
+- **line :** 1411
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'mprotect' sans documentation
+- **line :** 1413
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function '__errno_location' sans documentation
+- **line :** 1414
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_fallocate' sans documentation
+- **line :** 1416
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pwritev' sans documentation
 - **line :** 1417
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mkfifoat' sans documentation
+- **Message :** Function 'preadv' sans documentation
+- **line :** 1418
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dup3' sans documentation
 - **line :** 1419
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mremap' sans documentation
+- **Message :** Function 'nl_langinfo_l' sans documentation
+- **line :** 1420
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'accept4' sans documentation
 - **line :** 1421
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getnameinfo' sans documentation
+- **line :** 1427
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getloadavg' sans documentation
+- **line :** 1436
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'mkfifoat' sans documentation
+- **line :** 1438
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'mremap' sans documentation
+- **line :** 1440
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'glob' sans documentation
-- **line :** 1429
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'globfree' sans documentation
-- **line :** 1435
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'posix_madvise' sans documentation
-- **line :** 1437
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shm_unlink' sans documentation
-- **line :** 1439
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'seekdir' sans documentation
-- **line :** 1441
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'telldir' sans documentation
-- **line :** 1443
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'madvise' sans documentation
-- **line :** 1444
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'msync' sans documentation
-- **line :** 1446
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'recvfrom' sans documentation
 - **line :** 1448
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'mkstemps' sans documentation
+- **Message :** Function 'globfree' sans documentation
+- **line :** 1454
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'posix_madvise' sans documentation
 - **line :** 1456
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'nl_langinfo' sans documentation
-- **line :** 1457
+- **Message :** Function 'shm_unlink' sans documentation
+- **line :** 1458
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sendmmsg' sans documentation
-- **line :** 1459
+- **Message :** Function 'seekdir' sans documentation
+- **line :** 1460
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'recvmmsg' sans documentation
+- **Message :** Function 'telldir' sans documentation
+- **line :** 1462
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'madvise' sans documentation
+- **line :** 1463
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'msync' sans documentation
 - **line :** 1465
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sync' sans documentation
-- **line :** 1472
+- **Message :** Function 'recvfrom' sans documentation
+- **line :** 1467
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ioctl' sans documentation
-- **line :** 1473
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getpriority' sans documentation
-- **line :** 1474
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'setpriority' sans documentation
+- **Message :** Function 'mkstemps' sans documentation
 - **line :** 1475
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'nl_langinfo' sans documentation
+- **line :** 1476
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sendmmsg' sans documentation
+- **line :** 1478
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'recvmmsg' sans documentation
+- **line :** 1484
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sync' sans documentation
+- **line :** 1491
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ioctl' sans documentation
+- **line :** 1492
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getpriority' sans documentation
+- **line :** 1493
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'setpriority' sans documentation
+- **line :** 1494
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'getentropy' sans documentation
-- **line :** 1477
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrgid' sans documentation
-- **line :** 1480
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrnam' sans documentation
-- **line :** 1481
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrnam_r' sans documentation
-- **line :** 1482
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'getgrgid_r' sans documentation
-- **line :** 1489
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sigwait' sans documentation
 - **line :** 1496
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'getgrgid' sans documentation
+- **line :** 1499
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrnam' sans documentation
+- **line :** 1500
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrnam_r' sans documentation
+- **line :** 1501
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'getgrgid_r' sans documentation
+- **line :** 1508
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sigwait' sans documentation
+- **line :** 1515
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'sigwaitinfo' sans documentation
-- **line :** 1497
+- **line :** 1516
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sigtimedwait' sans documentation
-- **line :** 1498
+- **line :** 1517
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'faccessat' sans documentation
-- **line :** 1503
+- **line :** 1522
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_create' sans documentation
-- **line :** 1504
+- **line :** 1523
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_create1' sans documentation
-- **line :** 1505
+- **line :** 1524
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_ctl' sans documentation
-- **line :** 1506
+- **line :** 1525
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_wait' sans documentation
-- **line :** 1507
+- **line :** 1526
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'epoll_pwait' sans documentation
-- **line :** 1513
+- **line :** 1532
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'lfs64' sans documentation
-- **line :** 1523
+- **line :** 1542
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -232910,140 +232942,140 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__errno' sans documentation
-- **line :** 656
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bind' sans documentation
 - **line :** 657
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'ioctl' sans documentation
+- **Message :** Function 'bind' sans documentation
 - **line :** 658
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'dirfd' sans documentation
+- **Message :** Function 'ioctl' sans documentation
 - **line :** 659
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'recvfrom' sans documentation
+- **Message :** Function 'dirfd' sans documentation
 - **line :** 660
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'recvfrom' sans documentation
+- **line :** 661
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_create' sans documentation
-- **line :** 669
+- **line :** 670
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clock_gettime' sans documentation
-- **line :** 676
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'futimens' sans documentation
 - **line :** 677
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_condattr_setclock' sans documentation
+- **Message :** Function 'futimens' sans documentation
 - **line :** 678
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_setname_np' sans documentation
+- **Message :** Function 'pthread_condattr_setclock' sans documentation
 - **line :** 679
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_getname_np' sans documentation
+- **Message :** Function 'pthread_setname_np' sans documentation
 - **line :** 680
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'getrandom' sans documentation
+- **Message :** Function 'pthread_getname_np' sans documentation
 - **line :** 681
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'arc4random' sans documentation
+- **Message :** Function 'getrandom' sans documentation
 - **line :** 682
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'arc4random_buf' sans documentation
+- **Message :** Function 'arc4random' sans documentation
 - **line :** 683
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'arc4random_buf' sans documentation
+- **line :** 684
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'strerror_r' sans documentation
-- **line :** 685
+- **line :** 686
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'accept4' sans documentation
-- **line :** 687
+- **line :** 688
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'recvmsg' sans documentation
-- **line :** 693
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sendmsg' sans documentation
 - **line :** 694
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'sendmsg' sans documentation
+- **line :** 695
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'eventfd' sans documentation
-- **line :** 696
+- **line :** 697
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pipe2' sans documentation
-- **line :** 698
+- **line :** 699
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -242195,204 +242227,218 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_condattr_setpshared' sans documentation
+- **Message :** Function 'pthread_condattr_setclock' sans documentation
 - **line :** 1161
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_condattr_getpshared' sans documentation
+- **Message :** Function 'pthread_condattr_getclock' sans documentation
 - **line :** 1162
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'pthread_condattr_setpshared' sans documentation
+- **line :** 1166
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_condattr_getpshared' sans documentation
+- **line :** 1167
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'pthread_rwlock_init' sans documentation
-- **line :** 1164
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_rwlock_destroy' sans documentation
-- **line :** 1168
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_rwlock_rdlock' sans documentation
 - **line :** 1169
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlock_tryrdlock' sans documentation
-- **line :** 1170
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_rwlock_wrlock' sans documentation
-- **line :** 1171
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_rwlock_trywrlock' sans documentation
-- **line :** 1172
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_rwlock_unlock' sans documentation
+- **Message :** Function 'pthread_rwlock_destroy' sans documentation
 - **line :** 1173
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlock_timedrdlock' sans documentation
+- **Message :** Function 'pthread_rwlock_rdlock' sans documentation
 - **line :** 1174
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlock_timedwrlock' sans documentation
+- **Message :** Function 'pthread_rwlock_tryrdlock' sans documentation
 - **line :** 1175
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlockattr_init' sans documentation
+- **Message :** Function 'pthread_rwlock_wrlock' sans documentation
 - **line :** 1176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlockattr_destroy' sans documentation
+- **Message :** Function 'pthread_rwlock_trywrlock' sans documentation
 - **line :** 1177
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlockattr_setpshared' sans documentation
+- **Message :** Function 'pthread_rwlock_unlock' sans documentation
 - **line :** 1178
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_rwlockattr_getpshared' sans documentation
+- **Message :** Function 'pthread_rwlock_timedrdlock' sans documentation
 - **line :** 1179
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_init' sans documentation
+- **Message :** Function 'pthread_rwlock_timedwrlock' sans documentation
+- **line :** 1180
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_rwlockattr_init' sans documentation
+- **line :** 1181
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_rwlockattr_destroy' sans documentation
 - **line :** 1182
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_destroy' sans documentation
+- **Message :** Function 'pthread_rwlockattr_setpshared' sans documentation
 - **line :** 1183
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_lock' sans documentation
+- **Message :** Function 'pthread_rwlockattr_getpshared' sans documentation
 - **line :** 1184
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_trylock' sans documentation
-- **line :** 1185
+- **Message :** Function 'pthread_spin_init' sans documentation
+- **line :** 1187
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_spin_unlock' sans documentation
-- **line :** 1186
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrier_init' sans documentation
+- **Message :** Function 'pthread_spin_destroy' sans documentation
 - **line :** 1188
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_barrier_destroy' sans documentation
+- **Message :** Function 'pthread_spin_lock' sans documentation
+- **line :** 1189
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_trylock' sans documentation
+- **line :** 1190
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_spin_unlock' sans documentation
+- **line :** 1191
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrier_init' sans documentation
 - **line :** 1193
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_barrier_wait' sans documentation
-- **line :** 1194
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrierattr_init' sans documentation
-- **line :** 1195
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrierattr_destroy' sans documentation
-- **line :** 1196
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrierattr_setpshared' sans documentation
-- **line :** 1197
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pthread_barrierattr_getpshared' sans documentation
+- **Message :** Function 'pthread_barrier_destroy' sans documentation
 - **line :** 1198
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pthread_getattr_np' sans documentation
+- **Message :** Function 'pthread_barrier_wait' sans documentation
+- **line :** 1199
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_init' sans documentation
+- **line :** 1200
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_destroy' sans documentation
+- **line :** 1201
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_setpshared' sans documentation
+- **line :** 1202
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pthread_barrierattr_getpshared' sans documentation
 - **line :** 1203
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'p2' sans documentation
+- **Message :** Function 'pthread_getattr_np' sans documentation
 - **line :** 1208
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'p2' sans documentation
+- **line :** 1213
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -620345,49 +620391,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'composition_table_astral' sans documentation
-- **line :** 1225
+- **line :** 1233
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_public_assigned' sans documentation
-- **line :** 20435
+- **line :** 20594
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'qc_nfc' sans documentation
-- **line :** 21176
+- **line :** 21335
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'qc_nfkc' sans documentation
-- **line :** 21307
+- **line :** 21466
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'qc_nfd' sans documentation
-- **line :** 21759
+- **line :** 21923
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'qc_nfkd' sans documentation
-- **line :** 22019
+- **line :** 22183
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'stream_safe_leading_nonstarters' sans documentation
-- **line :** 22585
+- **line :** 22754
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -904378,172 +904424,177 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:161 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:33 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:180 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:191 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:193 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:210 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:339 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:223 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:350 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:369 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:365 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:380 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:408 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:395 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:427 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:438 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:436 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:457 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:469 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:466 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:485 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:499 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:542 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:515 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:626 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:572 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:642 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:656 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:695 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:672 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:756 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:725 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:774 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:786 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:810 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:804 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:876 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:840 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:931 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:906 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:968 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:961 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:987 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:998 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1012 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1017 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1040 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1042 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1049 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1070 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1161 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1079 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1173 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1191 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1198 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1203 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1236 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1228 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1242 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1266 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1288 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1272 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1319 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1318 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1324 titre très long (83 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1349 titre très long (83 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1345 titre très long (85 caractères).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1354 titre très long (83 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1375 titre très long (85 caractères).
 
 ## ⚠️ Warning
 
@@ -904553,237 +904604,242 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:33 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:9 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:63 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:163 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:193 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:226 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:281 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:203 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:285 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:305 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:256 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:341 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:346 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:352 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:359 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:352 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:367 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:371 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:374 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:376 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:382 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:400 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:410 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:404 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:429 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:423 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:438 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:450 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:440 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:471 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:459 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:475 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:468 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:500 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:529 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:501 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:544 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:530 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:564 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:568 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:605 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:566 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:574 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:628 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:594 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:638 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:598 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:635 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:649 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:645 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:658 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -904793,362 +904849,377 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:675 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:674 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:46).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:686 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:679 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:691 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:698 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:697 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:705 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:719 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:716 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:723 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:721 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:745 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:727 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:749 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:749 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:758 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:753 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:762 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:775 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:767 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:779 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:776 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:788 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:797 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:802 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:797 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:812 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:806 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:847 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:827 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:851 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:842 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:865 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:877 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:878 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:881 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:897 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:890 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:903 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:895 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:907 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:908 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:916 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:933 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:937 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:945 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:946 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:949 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:957 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:953 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:963 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:960 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:970 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:979 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:983 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:989 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:990 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:997 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1000 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1001 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1019 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1014 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1027 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1019 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1031 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1024 titre dupliqué (déjà présent dans server_rust/vendor/libc/CHANGELOG.md:983).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1035 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1029 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1044 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1036 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1049 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1042 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1054 titre dupliqué (déjà présent dans server_rust/vendor/libc/CHANGELOG.md:1013).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1051 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1059 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1083 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1066 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1094 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1100 titre dupliqué (déjà présent dans server_rust/vendor/libc/CHANGELOG.md:983).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1081 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1130 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1113 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1163 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1124 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1167 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1130 titre dupliqué (déjà présent dans server_rust/vendor/libc/CHANGELOG.md:1013).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1175 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1160 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1184 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1193 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1191 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1197 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1200 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1205 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1219 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1214 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1227 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1221 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1238 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1230 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1244 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1249 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1257 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1278 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1268 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1283 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1274 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1290 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1304 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1307 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1308 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1311 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1313 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1321 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1320 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1326 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1337 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1341 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1342 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1351 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1347 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1356 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1358 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1362 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1372 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1366 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1377 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1369 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1388 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1392 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1396 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1399 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ---
 
