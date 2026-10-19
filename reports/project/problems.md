@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-10-19 08:04:15
+Generated: 2026-10-19 16:15:02
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|470|
-|⚠️ Warnings|129806|
-|**Total**|**130283**|
+|⚠️ Warnings|129864|
+|**Total**|**130341**|
 
 ---
 
@@ -31079,210 +31079,161 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'BuildEnv' sans documentation
-- **line :** 26
+- **line :** 29
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BuildEnv ' sans documentation
-- **line :** 33
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'EnvSnapshot' sans documentation
-- **line :** 68
+- **line :** 71
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'EnvSnapshot ' sans documentation
-- **line :** 74
+- **line :** 80
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 75
+- **line :** 81
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_pairs' sans documentation
-- **line :** 107
+- **line :** 114
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for EnvSnapshot ' sans documentation
-- **line :** 136
+- **line :** 166
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 137
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Eq for EnvSnapshot ' sans documentation
-- **line :** 142
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Hash for EnvSnapshot ' sans documentation
-- **line :** 144
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'hash' sans documentation
-- **line :** 145
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Ord for EnvSnapshot ' sans documentation
-- **line :** 150
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cmp' sans documentation
-- **line :** 151
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialOrd for EnvSnapshot ' sans documentation
-- **line :** 159
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'partial_cmp' sans documentation
-- **line :** 160
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 165
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
 - **line :** 167
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'pairs' sans documentation
+- **Message :** Impl 'Eq for EnvSnapshot ' sans documentation
 - **line :** 172
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 174
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 176
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pairs' sans documentation
+- **line :** 181
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 186
+- **line :** 195
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'snapshot' sans documentation
-- **line :** 190
+- **line :** 199
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'envs' sans documentation
-- **line :** 194
+- **line :** 203
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apply_replaces_the_whole_environment' sans documentation
-- **line :** 201
+- **line :** 210
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'build_env_wins_over_snapshot' sans documentation
-- **line :** 213
+- **line :** 222
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'snapshot_lookup_shares_the_value' sans documentation
-- **line :** 230
+- **line :** 239
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'snapshot_lookup_follows_the_platform_case_rule' sans documentation
-- **line :** 237
+- **line :** 246
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_inherited_replaces_a_taken_snapshot' sans documentation
-- **line :** 252
+- **line :** 261
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'snapshot_from_vars_keeps_the_last_value' sans documentation
-- **line :** 262
+- **line :** 271
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'snapshot_comparison_follows_the_variables' sans documentation
-- **line :** 293
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'hash' sans documentation
-- **line :** 297
+- **line :** 302
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'snapshot_debug_hides_values' sans documentation
-- **line :** 329
+- **line :** 324
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -31293,273 +31244,480 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'CargoOutput' sans documentation
-- **line :** 27
+- **line :** 26
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'OutputKind' sans documentation
-- **line :** 41
+- **line :** 40
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CargoOutput ' sans documentation
-- **line :** 50
+- **line :** 49
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 51
+- **line :** 50
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'print_metadata' sans documentation
-- **line :** 85
+- **line :** 84
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'print_warning' sans documentation
-- **line :** 91
+- **line :** 90
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'print_debug' sans documentation
-- **line :** 136
+- **line :** 146
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'stdio_for_warnings' sans documentation
-- **line :** 150
+- **line :** 160
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'stdio_for_output' sans documentation
-- **line :** 158
+- **line :** 168
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'StderrForwarder' sans documentation
-- **line :** 167
+- **line :** 177
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'StderrForwarder ' sans documentation
-- **line :** 180
+- **line :** 190
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 181
+- **line :** 191
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'stderr' sans documentation
-- **line :** 197
+- **line :** 207
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_non_blocking' sans documentation
-- **line :** 298
+- **line :** 308
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'forward_all' sans documentation
-- **line :** 311
+- **line :** 321
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'forward_all' sans documentation
-- **line :** 316
+- **line :** 326
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_warning' sans documentation
-- **line :** 322
+- **line :** 332
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wait_on_child' sans documentation
-- **line :** 330
+- **line :** 340
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'ProbeKind' sans documentation
-- **line :** 435
+- **line :** 463
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'ProbeKind ' sans documentation
-- **line :** 446
+- **line :** 474
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
-- **line :** 508
+- **line :** 536
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'spawn_and_wait_for_output' sans documentation
-- **line :** 544
+- **line :** 572
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'run_output' sans documentation
-- **line :** 564
+- **line :** 592
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'spawn' sans documentation
-- **line :** 605
+- **line :** 633
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ResetStderr' sans documentation
-- **line :** 606
+- **line :** 634
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for ResetStderr<' sans documentation
-- **line :** 608
+- **line :** 636
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 609
+- **line :** 637
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'CmdAddOutputFileArgs' sans documentation
-- **line :** 644
+- **line :** 672
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'command_add_output_file' sans documentation
-- **line :** 654
+- **line :** 682
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 671
+- **line :** 699
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 672
+- **line :** 700
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CommandExt for Command ' sans documentation
-- **line :** 697
+- **line :** 725
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_family_detection_env' sans documentation
-- **line :** 698
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_flag_supported_env' sans documentation
-- **line :** 704
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ar_detection_env' sans documentation
-- **line :** 709
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_cpp_stdlib_detection_env' sans documentation
-- **line :** 715
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Mod 'tests' sans documentation
-- **line :** 722
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'stderr_warnings_skips_ignored_line' sans documentation
 - **line :** 726
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'stderr_warnings_keeps_every_line_without_ignored_line' sans documentation
+- **Message :** Function 'set_flag_supported_env' sans documentation
+- **line :** 732
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ar_detection_env' sans documentation
 - **line :** 737
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_cpp_stdlib_detection_env' sans documentation
+- **line :** 743
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+- **line :** 750
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'stderr_warnings_skips_ignored_line' sans documentation
+- **line :** 754
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'stderr_warnings_keeps_every_line_without_ignored_line' sans documentation
+- **line :** 765
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'source_root_regression_tests' sans documentation
+- **line :** 773
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'object_name' sans documentation
+- **line :** 776
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'external_roots_produce_stable_distinct_names_for_duplicate_basenames' sans documentation
+- **line :** 793
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'source_root_does_not_match_a_sibling_with_the_same_string_prefix' sans documentation
+- **line :** 819
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'source_root_names_do_not_collide_with_out_dir_names' sans documentation
+- **line :** 833
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'manifest_dir_takes_precedence_over_source_root' sans documentation
+- **line :** 846
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'out_dir_and_manifest_dir_names_do_not_collide' sans documentation
+- **line :** 859
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'same_basename_with_different_extensions_do_not_collide' sans documentation
+- **line :** 873
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/compile_commands.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'CompileCommandCollector' sans documentation
+- **line :** 101
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'CompileCommandCollector ' sans documentation
+- **line :** 108
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'BuildMessageLogger for CompileCommandCollector ' sans documentation
+- **line :** 127
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'log' sans documentation
+- **line :** 128
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'CompileCommands' sans documentation
+- **line :** 156
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Iterator for CompileCommands ' sans documentation
+- **line :** 158
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+- **line :** 161
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'json_compilation_database' sans documentation
+- **line :** 186
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write_json_compilation_database' sans documentation
+- **line :** 198
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+- **line :** 230
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+- **line :** 236
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'JsonWriteExt for fmt' sans documentation
+- **line :** 251
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write_json_field' sans documentation
+- **line :** 252
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'inner' sans documentation
+- **line :** 253
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write_json_string' sans documentation
+- **line :** 274
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+- **line :** 297
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'command' sans documentation
+- **line :** 300
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'json_of_no_commands_is_an_empty_array' sans documentation
+- **line :** 310
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'json_formats_only_once' sans documentation
+- **line :** 316
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'json_escapes_quotes_backslashes_and_control_characters' sans documentation
+- **line :** 323
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'json_replaces_invalid_unicode' sans documentation
+- **line :** 365
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -31577,126 +31735,133 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'parse' sans documentation
-- **line :** 27
+- **line :** 85
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_flag_prefix' sans documentation
-- **line :** 28
+- **line :** 86
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'handle_flag_prefix' sans documentation
-- **line :** 48
+- **line :** 106
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rustc_flag' sans documentation
-- **line :** 81
+- **line :** 139
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'arg_to_bool' sans documentation
-- **line :** 83
+- **line :** 141
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'arg_to_u32' sans documentation
-- **line :** 91
+- **line :** 149
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'flag_not_empty_generic' sans documentation
-- **line :** 107
+- **line :** 165
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cc_flags' sans documentation
-- **line :** 226
+- **line :** 290
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 426
+- **line :** 496
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check' sans documentation
-- **line :** 430
+- **line :** 500
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'linker_plugin_lto_values' sans documentation
+- **line :** 506
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'codegen_type' sans documentation
-- **line :** 436
+- **line :** 534
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'precedence' sans documentation
-- **line :** 448
+- **line :** 546
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'two_valid_prefixes' sans documentation
-- **line :** 459
+- **line :** 557
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'stack_protector' sans documentation
-- **line :** 465
+- **line :** 563
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'three_valid_prefixes' sans documentation
-- **line :** 475
+- **line :** 573
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'all_rustc_flags' sans documentation
-- **line :** 484
+- **line :** 582
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'target_features' sans documentation
-- **line :** 618
+- **line :** 716
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'target_feature_cc_flag' sans documentation
-- **line :** 638
+- **line :** 736
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -31707,588 +31872,609 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'parallel' sans documentation
-- **line :** 353
+- **line :** 377
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'target' sans documentation
-- **line :** 355
+- **line :** 379
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'VsVers' sans documentation
-- **line :** 396
+- **line :** 420
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'command_helpers' sans documentation
-- **line :** 438
+- **line :** 462
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'logger' sans documentation
-- **line :** 441
+- **line :** 465
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'compile_commands' sans documentation
+- **line :** 470
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'build_env' sans documentation
-- **line :** 445
+- **line :** 472
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tool' sans documentation
-- **line :** 448
+- **line :** 475
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tempfile' sans documentation
-- **line :** 452
+- **line :** 479
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'utilities' sans documentation
-- **line :** 454
+- **line :** 481
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'flags' sans documentation
-- **line :** 457
+- **line :** 484
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'CompilerFlag' sans documentation
-- **line :** 464
+- **line :** 491
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'PrefixMapFlag' sans documentation
-- **line :** 478
+- **line :** 505
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'BuildCache' sans documentation
-- **line :** 484
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'Build' sans documentation
 - **line :** 511
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'Build' sans documentation
+- **line :** 552
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Enum 'ErrorKind' sans documentation
-- **line :** 562
+- **line :** 603
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Error' sans documentation
-- **line :** 590
+- **line :** 631
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Error ' sans documentation
-- **line :** 597
+- **line :** 638
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 598
+- **line :** 639
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<io' sans documentation
-- **line :** 606
+- **line :** 647
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 607
+- **line :** 648
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Display for Error ' sans documentation
-- **line :** 612
+- **line :** 653
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 613
+- **line :** 654
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
-- **line :** 618
+- **line :** 659
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Enum 'BuildFlag' sans documentation
+- **line :** 664
+- **suggestion :** Ajoutez /// avant cette enum
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'AsRef<OsStr> for BuildFlag ' sans documentation
+- **line :** 669
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'as_ref' sans documentation
+- **line :** 670
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'Object' sans documentation
-- **line :** 624
+- **line :** 681
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Object ' sans documentation
-- **line :** 629
+- **line :** 686
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'shared_flag' sans documentation
-- **line :** 932
+- **line :** 994
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'static_flag' sans documentation
-- **line :** 952
+- **line :** 1014
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_envs_snapshot' sans documentation
-- **line :** 1676
+- **line :** 1814
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__set_env' sans documentation
-- **line :** 1693
+- **line :** 1831
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'flag_check_src_name' sans documentation
-- **line :** 1737
+- **line :** 1879
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_flag_check_src' sans documentation
-- **line :** 1748
+- **line :** 1890
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ensure_check_file' sans documentation
-- **line :** 1754
+- **line :** 1896
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_enabled' sans documentation
-- **line :** 2303
+- **line :** 2450
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compile_objects' sans documentation
-- **line :** 2313
+- **line :** 2460
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'add_default_flags' sans documentation
-- **line :** 2680
+- **line :** 2878
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'add_inherited_rustflags' sans documentation
-- **line :** 3249
+- **line :** 3400
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'assemble' sans documentation
-- **line :** 3522
+- **line :** 3677
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'assemble_progressive' sans documentation
-- **line :** 3620
+- **line :** 3775
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apple_flags' sans documentation
-- **line :** 3704
+- **line :** 3883
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cmd' sans documentation
-- **line :** 3780
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'prefer_clang' sans documentation
-- **line :** 3786
+- **line :** 3959
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_base_compiler' sans documentation
-- **line :** 3794
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'try_get_archiver_and_flags' sans documentation
-- **line :** 4305
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_base_archiver' sans documentation
-- **line :** 4319
+- **line :** 3978
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_base_ranlib' sans documentation
-- **line :** 4361
+- **line :** 4562
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_base_archiver_variant' sans documentation
-- **line :** 4369
+- **line :** 4570
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'prefix_for_target' sans documentation
-- **line :** 4527
+- **line :** 4888
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_target' sans documentation
-- **line :** 4740
+- **line :** 4946
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_raw_target' sans documentation
-- **line :** 4766
+- **line :** 4969
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'get_is_cross_compile' sans documentation
-- **line :** 4773
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_opt_level' sans documentation
-- **line :** 4782
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_debug_str' sans documentation
-- **line :** 4803
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_shell_escaped_flags' sans documentation
-- **line :** 4810
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_dwarf_version' sans documentation
-- **line :** 4815
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_force_frame_pointer' sans documentation
-- **line :** 4832
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_out_dir' sans documentation
-- **line :** 4836
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fix_env_for_apple_os' sans documentation
-- **line :** 4965
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'apple_sdk_root_inner' sans documentation
+- **Message :** Function 'get_host' sans documentation
 - **line :** 4976
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'get_is_cross_compile' sans documentation
+- **line :** 4983
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_opt_level' sans documentation
+- **line :** 4988
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_debug_str' sans documentation
+- **line :** 5009
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_shell_escaped_flags' sans documentation
+- **line :** 5016
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_dwarf_version' sans documentation
+- **line :** 5021
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_force_frame_pointer' sans documentation
+- **line :** 5038
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_out_dir' sans documentation
+- **line :** 5042
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fix_env_for_apple_os' sans documentation
+- **line :** 5292
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'apple_sdk_root_inner' sans documentation
+- **line :** 5303
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'apple_sdk_root' sans documentation
-- **line :** 5026
+- **line :** 5353
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apple_deployment_target' sans documentation
-- **line :** 5048
+- **line :** 5375
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wasm_musl_sysroot' sans documentation
-- **line :** 5184
+- **line :** 5498
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wasi_sysroot' sans documentation
-- **line :** 5195
+- **line :** 5509
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cuda_file_count' sans documentation
-- **line :** 5206
+- **line :** 5520
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'which' sans documentation
-- **line :** 5213
+- **line :** 5527
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'find_msvc_tools_find' sans documentation
-- **line :** 5268
+- **line :** 5582
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'find_msvc_tools_find_tool' sans documentation
-- **line :** 5273
+- **line :** 5587
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'BuildEnvGetter' sans documentation
-- **line :** 5274
+- **line :** 5588
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_env' sans documentation
-- **line :** 5277
+- **line :** 5591
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pauthtest_sysroot' sans documentation
-- **line :** 5317
+- **line :** 5631
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pauthtest_resource_dir' sans documentation
-- **line :** 5332
+- **line :** 5646
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Default for Build ' sans documentation
-- **line :** 5348
+- **line :** 5662
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 5349
+- **line :** 5663
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fail' sans documentation
-- **line :** 5460
+- **line :** 5774
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'android_clang_compiler_uses_target_arg_internally' sans documentation
-- **line :** 5483
+- **line :** 5797
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_llvm_mingw_wrapper' sans documentation
-- **line :** 5494
+- **line :** 5808
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'autodetect_android_compiler' sans documentation
-- **line :** 5507
+- **line :** 5821
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'map_darwin_target_from_rust_to_compiler_architecture' sans documentation
-- **line :** 5567
+- **line :** 5881
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_arm' sans documentation
-- **line :** 5584
+- **line :** 5898
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'AsmFileExt' sans documentation
-- **line :** 5589
+- **line :** 5903
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'AsmFileExt ' sans documentation
-- **line :** 5597
+- **line :** 5911
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_path' sans documentation
-- **line :** 5598
+- **line :** 5912
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_exe' sans documentation
-- **line :** 5613
+- **line :** 5927
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 5633
+- **line :** 5947
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'gnu_prefixes_are_sorted' sans documentation
+- **line :** 5951
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'test_android_clang_compiler_uses_target_arg_internally' sans documentation
-- **line :** 5637
+- **line :** 5957
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -32299,77 +32485,91 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Enum 'BuildMessageKind' sans documentation
-- **line :** 37
+- **line :** 41
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Enum 'BuildMessage' sans documentation
-- **line :** 82
-- **suggestion :** Ajoutez /// avant cette enum
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 87
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 88
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'Logger' sans documentation
-- **line :** 97
+- **Message :** Struct 'CompileCommand' sans documentation
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'UnwindSafe for Logger ' sans documentation
-- **line :** 102
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'RefUnwindSafe for Logger ' sans documentation
-- **line :** 103
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Logger ' sans documentation
-- **line :** 105
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'log' sans documentation
-- **line :** 106
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
+- **Message :** Impl 'CompileCommand ' sans documentation
 - **line :** 111
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Enum 'BuildMessage' sans documentation
+- **line :** 153
+- **suggestion :** Ajoutez /// avant cette enum
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 158
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 112
+- **line :** 159
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'Logger' sans documentation
+- **line :** 170
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Logger ' sans documentation
+- **line :** 178
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'log' sans documentation
+- **line :** 179
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 185
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+- **line :** 191
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'compile_command_has_no_spare_capacity' sans documentation
+- **line :** 195
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'paths_are_joined_to_the_directory' sans documentation
+- **line :** 205
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -32528,126 +32728,147 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'JobServer' sans documentation
-- **line :** 86
+- **line :** 101
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'JobServer ' sans documentation
-- **line :** 111
+- **line :** 128
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'jobserver_auth' sans documentation
+- **line :** 144
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'jobserver_fd' sans documentation
-- **line :** 124
+- **line :** 154
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'jobserver_semaphore' sans documentation
+- **line :** 176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_global_implicit_token' sans documentation
-- **line :** 149
+- **line :** 191
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'enter_active' sans documentation
-- **line :** 172
+- **line :** 214
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'HelperThread' sans documentation
-- **line :** 180
+- **line :** 224
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'HelperThread ' sans documentation
-- **line :** 192
+- **line :** 240
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 193
+- **line :** 241
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pipe' sans documentation
+- **line :** 274
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_recv' sans documentation
-- **line :** 205
+- **line :** 293
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ActiveJobServer' sans documentation
-- **line :** 229
+- **line :** 336
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'ActiveJobServer<' sans documentation
-- **line :** 234
+- **line :** 344
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'acquire' sans documentation
-- **line :** 235
+- **line :** 359
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'inprocess_jobserver' sans documentation
-- **line :** 289
+- **line :** 429
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'JobServer' sans documentation
-- **line :** 299
+- **line :** 439
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'JobServer ' sans documentation
-- **line :** 301
+- **line :** 441
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 302
+- **line :** 442
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'acquire' sans documentation
-- **line :** 315
+- **line :** 455
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'release_token_raw' sans documentation
-- **line :** 331
+- **line :** 471
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -32703,8 +32924,15 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'unsupported' sans documentation
+- **Message :** Mod 'windows' sans documentation
 - **line :** 7
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'unsupported' sans documentation
+- **line :** 12
 - **suggestion :** Ajoutez /// avant cette mod
 
 ---
@@ -32715,63 +32943,98 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'Reactor' sans documentation
-- **line :** 15
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Registration' sans documentation
-- **line :** 23
+- **line :** 55
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Reactor ' sans documentation
-- **line :** 30
+- **line :** 68
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'register_stderr' sans documentation
-- **line :** 31
+- **line :** 69
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'register_fd' sans documentation
-- **line :** 35
+- **line :** 73
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'register_child' sans documentation
-- **line :** 51
+- **Message :** Function 'add_fd' sans documentation
+- **line :** 78
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'register_pidfd' sans documentation
+- **line :** 123
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'register_proc_kevent' sans documentation
+- **line :** 161
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drain_kqueue' sans documentation
+- **line :** 211
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wait_with_timeout' sans documentation
-- **line :** 86
+- **line :** 246
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for Registration<' sans documentation
-- **line :** 109
+- **line :** 277
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 110
+- **line :** 278
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Drop for ChildRegistration<' sans documentation
+- **line :** 284
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 285
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -32795,29 +33058,96 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'Reactor ' sans documentation
+- **Message :** Struct 'ChildRegistration' sans documentation
 - **line :** 14
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Reactor ' sans documentation
+- **line :** 16
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'register_stderr' sans documentation
-- **line :** 15
+- **line :** 17
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'register_child' sans documentation
-- **line :** 19
+- **line :** 21
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wait_with_timeout' sans documentation
-- **line :** 23
+- **line :** 25
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/cc/src/parallel/reactor/windows.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'Reactor' sans documentation
+- **line :** 18
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Reactor ' sans documentation
+- **line :** 43
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'register_stderr' sans documentation
+- **line :** 44
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'wait_with_timeout' sans documentation
+- **line :** 78
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Drop for ChildRegistration<' sans documentation
+- **line :** 111
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 112
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Drop for SemaphoreRegistration<' sans documentation
+- **line :** 123
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 124
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -32973,203 +33303,203 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'CompilerCommandKey' sans documentation
-- **line :** 30
+- **line :** 29
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CompilerCommandKey ' sans documentation
-- **line :** 41
+- **line :** 40
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 42
+- **line :** 41
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Tool' sans documentation
-- **line :** 128
+- **line :** 127
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Tool ' sans documentation
-- **line :** 147
+- **line :** 146
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_find_msvc_tools' sans documentation
-- **line :** 148
+- **line :** 147
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 169
+- **line :** 168
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'with_args' sans documentation
-- **line :** 187
+- **line :** 186
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'with_features' sans documentation
-- **line :** 227
+- **line :** 226
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_zig_cc' sans documentation
-- **line :** 236
+- **line :** 235
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'guess_family_from_stdout' sans documentation
-- **line :** 254
+- **line :** 253
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect_family_inner' sans documentation
-- **line :** 301
+- **line :** 300
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'env' sans documentation
-- **line :** 583
+- **line :** 607
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_xctoolchain_clang' sans documentation
-- **line :** 646
+- **line :** 670
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_xctoolchain_clang' sans documentation
-- **line :** 651
+- **line :** 675
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'ToolFamily' sans documentation
-- **line :** 678
+- **line :** 702
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'ToolFamily ' sans documentation
-- **line :** 688
+- **line :** 712
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'warnings_suppression_flags' sans documentation
-- **line :** 742
+- **line :** 766
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verbose_stderr' sans documentation
-- **line :** 765
+- **line :** 789
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 771
+- **line :** 795
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'tool_env_wins_over_inherited_env' sans documentation
-- **line :** 775
+- **line :** 799
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'tool_with_env' sans documentation
-- **line :** 800
+- **line :** 824
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_envs_yields_env_in_order' sans documentation
-- **line :** 811
+- **line :** 835
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'env_returns_a_copy_of_env_in_order' sans documentation
-- **line :** 829
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'tool_keeps_auto_traits' sans documentation
-- **line :** 845
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'assert_auto_traits' sans documentation
-- **line :** 848
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'command_key_tells_commands_apart' sans documentation
 - **line :** 853
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'tool_keeps_auto_traits' sans documentation
+- **line :** 869
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'assert_auto_traits' sans documentation
+- **line :** 872
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'command_key_tells_commands_apart' sans documentation
+- **line :** 877
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'key' sans documentation
-- **line :** 854
+- **line :** 878
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'command_key_tells_unpaired_surrogates_apart' sans documentation
-- **line :** 880
+- **line :** 904
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -33179,225 +33509,267 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Struct 'JoinOsStrs' sans documentation
-- **line :** 18
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 27
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'OptionOsStrDisplay' sans documentation
-- **line :** 41
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 47
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'OnceLock' sans documentation
-- **line :** 58
+- **Message :** Struct 'VecMap' sans documentation
+- **line :** 33
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 65
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'is_initialized' sans documentation
-- **line :** 80
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_or_init' sans documentation
-- **line :** 93
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get' sans documentation
-- **line :** 100
+- **line :** 42
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_mut' sans documentation
+- **line :** 56
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'JoinOsStrs' sans documentation
+- **line :** 81
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 90
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'OptionOsStrDisplay' sans documentation
+- **line :** 104
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 110
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from_fn' sans documentation
+- **line :** 124
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'FromFn' sans documentation
+- **line :** 128
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 134
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'OnceLock' sans documentation
+- **line :** 142
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'default' sans documentation
+- **line :** 149
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'is_initialized' sans documentation
+- **line :** 164
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_or_init' sans documentation
+- **line :** 177
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get' sans documentation
+- **line :** 184
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 109
+- **line :** 193
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 117
+- **line :** 201
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 127
+- **line :** 211
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 145
+- **line :** 229
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cargo_env_var_os' sans documentation
-- **line :** 161
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cargo_env_var' sans documentation
-- **line :** 165
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'contains_ignore_ascii_case' sans documentation
-- **line :** 186
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'starts_with_ignore_ascii_case' sans documentation
-- **line :** 187
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ends_with_ignore_ascii_case' sans documentation
-- **line :** 188
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'IgnoreAsciiCase for str ' sans documentation
-- **line :** 191
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'contains_ignore_ascii_case' sans documentation
-- **line :** 192
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'starts_with_ignore_ascii_case' sans documentation
-- **line :** 200
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ends_with_ignore_ascii_case' sans documentation
-- **line :** 206
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'HashRecorder' sans documentation
-- **line :** 217
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'HashRecorder ' sans documentation
-- **line :** 219
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'into_bytes' sans documentation
-- **line :** 220
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Hasher for HashRecorder ' sans documentation
-- **line :** 225
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'write' sans documentation
-- **line :** 226
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'finish' sans documentation
-- **line :** 230
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cell_modify' sans documentation
-- **line :** 236
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cell_push' sans documentation
 - **line :** 248
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'contains_ignore_ascii_case' sans documentation
+- **line :** 256
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'starts_with_ignore_ascii_case' sans documentation
+- **line :** 257
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ends_with_ignore_ascii_case' sans documentation
+- **line :** 258
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'IgnoreAsciiCase for str ' sans documentation
+- **line :** 261
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'contains_ignore_ascii_case' sans documentation
+- **line :** 262
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'starts_with_ignore_ascii_case' sans documentation
+- **line :** 270
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ends_with_ignore_ascii_case' sans documentation
+- **line :** 276
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'HashRecorder' sans documentation
+- **line :** 287
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'HashRecorder ' sans documentation
+- **line :** 289
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'into_bytes' sans documentation
+- **line :** 290
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Hasher for HashRecorder ' sans documentation
+- **line :** 295
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write' sans documentation
+- **line :** 296
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'finish' sans documentation
+- **line :** 300
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cell_modify' sans documentation
+- **line :** 306
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cell_push' sans documentation
+- **line :** 318
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 253
+- **line :** 329
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ignore_ascii_case' sans documentation
-- **line :** 257
+- **line :** 333
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -68030,49 +68402,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'FILETIME' sans documentation
-- **line :** 34
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'GUID' sans documentation
-- **line :** 41
+- **line :** 43
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'IUnknown_Vtbl' sans documentation
-- **line :** 61
+- **line :** 64
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'SAFEARRAY' sans documentation
-- **line :** 81
+- **line :** 85
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Default for SAFEARRAY ' sans documentation
-- **line :** 89
+- **line :** 93
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 90
+- **line :** 94
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'SAFEARRAYBOUND' sans documentation
-- **line :** 96
+- **line :** 100
 - **suggestion :** Ajoutez /// avant cette struct
 
 ---
@@ -891221,22 +891593,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 39 > 120 caractères.
+- **Message :** Ligne 44 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 63 > 120 caractères.
+- **Message :** Ligne 73 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 67 > 120 caractères.
+- **Message :** Ligne 79 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 69 > 120 caractères.
+- **Message :** Ligne 83 > 120 caractères.
 
 ---
 
@@ -894152,47 +894524,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:31 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:38 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:51 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:59 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:70 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:79 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:80 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:98 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:103 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:108 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:117 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:131 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:135 titre très long (86 caractères).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:149 titre très long (86 caractères).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:156 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:145 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
@@ -894202,42 +894564,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:170 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:177 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:186 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:184 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:192 titre très long (87 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:191 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:198 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:198 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:207 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:214 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:215 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:220 titre très long (87 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:221 titre très long (89 caractères).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:229 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:226 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894247,37 +894604,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:244 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:243 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:250 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:249 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:256 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:257 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:267 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:263 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:273 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:272 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:280 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:278 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:287 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:284 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894287,7 +894644,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:302 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:301 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894297,27 +894654,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:317 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:315 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:324 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:323 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:331 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:330 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:340 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:336 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:346 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:345 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894327,82 +894684,87 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:358 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:359 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:365 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:368 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:373 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:374 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:379 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:380 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:389 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:386 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:399 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:393 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:408 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:401 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:419 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:407 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:425 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:417 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:433 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:427 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:444 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:436 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:458 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:447 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:469 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:453 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:478 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:461 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:491 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:472 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:500 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:486 titre très long (89 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:497 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894412,27 +894774,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:512 titre très long (89 caractères).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/cc/CHANGELOG.md:519 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:527 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:528 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:535 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:534 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:541 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:540 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894442,27 +894799,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:553 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:555 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:559 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:563 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:565 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:569 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:572 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:575 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:578 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:581 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894472,192 +894829,187 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:598 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:593 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:613 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:600 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:621 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:606 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:629 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:615 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:635 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:626 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:642 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:641 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:652 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:649 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:660 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:657 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:668 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:663 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:679 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:670 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:689 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:680 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:695 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:688 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:701 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:696 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:708 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:707 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:716 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:717 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:730 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:723 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:736 titre très long (87 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:729 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:747 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:736 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:754 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:744 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:760 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:758 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:768 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:764 titre très long (87 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:774 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:775 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:780 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:782 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:787 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:788 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:793 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:796 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:799 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:802 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:805 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:808 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:811 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:815 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:818 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:821 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:824 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:827 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:830 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:833 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:838 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:839 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:844 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:846 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:850 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:852 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:856 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:858 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:862 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:866 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:868 titre très long (89 caractères).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:873 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:872 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -894667,67 +895019,67 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:883 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:884 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:888 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:890 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:893 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:896 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:898 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:901 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:903 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:906 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:909 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:911 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:914 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:916 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:919 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:921 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:924 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:926 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:929 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:931 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:934 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:937 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:939 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:942 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:944 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:947 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
@@ -894742,27 +895094,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:962 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:962 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:967 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:967 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:976 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:972 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:985 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:980 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:990 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:985 titre très long (86 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:990 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
@@ -894772,12 +895129,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1001 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1004 titre très long (92 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1006 titre très long (91 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1013 titre très long (92 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1018 titre très long (92 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1023 titre très long (92 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1029 titre très long (92 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1034 titre très long (91 caractères).
 
 ## ⚠️ Warning
 
@@ -894797,62 +895174,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:33 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:40 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:53 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:61 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:81 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:82 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
@@ -894862,52 +895229,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:110 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -894917,47 +895284,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:188 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:194 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:223 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:216 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:222 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:228 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -894967,42 +895339,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:246 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:252 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:251 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:259 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:262 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:265 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:275 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:280 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:286 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:289 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895012,7 +895384,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895022,27 +895394,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:326 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:325 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:333 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:342 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:338 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:347 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895052,107 +895424,107 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:360 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:361 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:367 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:376 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:381 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:401 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:410 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:421 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:409 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:427 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:435 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:446 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:451 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:460 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:455 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:464 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:474 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:479 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:484 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:502 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:499 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:512 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895162,17 +895534,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:529 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:530 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:537 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:543 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895182,27 +895554,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:555 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:557 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:561 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:567 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:574 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:580 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:583 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895212,112 +895584,112 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:600 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:595 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:604 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:602 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:608 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:623 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:617 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:631 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:628 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:637 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:632 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:654 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:651 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:662 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:659 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:670 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:665 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:681 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:672 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:691 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:682 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:697 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:690 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:703 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:698 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:710 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:709 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:718 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:719 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:732 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:725 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:738 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:731 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:742 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:738 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:749 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:746 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:756 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:760 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:762 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:766 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -895327,87 +895699,82 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:776 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:777 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:782 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:784 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:789 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:790 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:795 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:798 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:801 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:804 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:807 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:810 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:813 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:817 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:820 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:823 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:826 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:829 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:835 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:840 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:841 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:846 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:848 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:852 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:854 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:858 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:864 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:868 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:870 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:875 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:874 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895417,67 +895784,67 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:885 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:886 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:890 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:895 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:898 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:900 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:903 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:905 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:908 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:913 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:916 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:918 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:921 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:923 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:926 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:928 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:931 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:936 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:939 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:941 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:944 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:946 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:949 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895492,7 +895859,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:964 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:964 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895502,7 +895869,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:978 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:974 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:982 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -895512,7 +895884,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:992 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:992 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -895522,12 +895894,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1006 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1008 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1015 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1020 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1025 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1031 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1036 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ---
 
@@ -898794,12 +899186,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:34 titre très long (114 caractères).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:34 titre très long (115 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:41 titre très long (112 caractères).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:40 titre très long (114 caractères).
 
 ## ⚠️ Warning
 
@@ -898814,7 +899206,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:60 titre très long (112 caractères).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:59 titre très long (112 caractères).
 
 ## ⚠️ Warning
 
@@ -898829,7 +899221,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:79 titre très long (112 caractères).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:78 titre très long (112 caractères).
 
 ## ⚠️ Warning
 
@@ -898844,6 +899236,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:97 titre très long (112 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
 
 ## ⚠️ Warning
@@ -898854,12 +899251,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
@@ -898879,7 +899276,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -898894,7 +899291,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -898909,7 +899306,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ## ⚠️ Warning
 
@@ -898920,6 +899317,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
 
 ---
 
