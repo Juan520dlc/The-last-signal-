@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-19 21:24:35
+**Date :** 2026-10-20 00:41:21
 
 # 64/100
 
@@ -749877,7 +749877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking' sans documentation
 
-- **line :** 18
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749887,7 +749887,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_mandatory_blocking' sans documentation
 
-- **line :** 28
+- **line :** 42
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking' sans documentation
+
+- **line :** 57
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_mandatory_blocking' sans documentation
+
+- **line :** 67
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749897,7 +749917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'JoinHandle' sans documentation
 
-- **line :** 37
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -749907,7 +749927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 47
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749917,7 +749937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 56
+- **line :** 95
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -749927,7 +749947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_send_sync' sans documentation
 
-- **line :** 61
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750083,7 +750103,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_into_std' sans documentation
 
-- **line :** 518
+- **line :** 525
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'set_max_buf_size' sans documentation
+
+- **line :** 637
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750093,7 +750123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for File ' sans documentation
 
-- **line :** 596
+- **line :** 648
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750103,7 +750133,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 597
+- **line :** 649
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750113,7 +750143,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncSeek for File ' sans documentation
 
-- **line :** 663
+- **line :** 720
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750123,7 +750153,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 664
+- **line :** 721
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750133,7 +750163,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 710
+- **line :** 766
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750143,7 +750173,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for File ' sans documentation
 
-- **line :** 741
+- **line :** 802
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750153,7 +750183,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 742
+- **line :** 803
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750163,7 +750193,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 813
+- **line :** 883
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750173,7 +750203,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 884
+- **line :** 963
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750183,7 +750213,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 888
+- **line :** 967
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750193,7 +750223,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 894
+- **line :** 973
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750203,7 +750233,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<StdFile> for File ' sans documentation
 
-- **line :** 900
+- **line :** 979
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750213,7 +750243,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 901
+- **line :** 980
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750223,7 +750253,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 906
+- **line :** 985
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750233,7 +750263,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 907
+- **line :** 986
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750243,7 +750273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<std' sans documentation
 
-- **line :** 915
+- **line :** 994
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750253,7 +750283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 916
+- **line :** 995
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750263,7 +750293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 922
+- **line :** 1001
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750273,7 +750303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 923
+- **line :** 1002
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750283,7 +750313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 929
+- **line :** 1008
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750293,7 +750323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 930
+- **line :** 1009
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750303,7 +750333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 938
+- **line :** 1017
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750313,7 +750343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<OwnedHandle> for File ' sans documentation
 
-- **line :** 949
+- **line :** 1028
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750323,7 +750353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 950
+- **line :** 1029
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750333,7 +750363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawHandle for File ' sans documentation
 
-- **line :** 955
+- **line :** 1034
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750343,7 +750373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_handle' sans documentation
 
-- **line :** 956
+- **line :** 1035
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750353,7 +750383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsHandle for File ' sans documentation
 
-- **line :** 961
+- **line :** 1040
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750363,7 +750393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_handle' sans documentation
 
-- **line :** 962
+- **line :** 1041
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750373,7 +750403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromRawHandle for File ' sans documentation
 
-- **line :** 971
+- **line :** 1050
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750383,7 +750413,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Inner ' sans documentation
 
-- **line :** 980
+- **line :** 1059
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750393,7 +750423,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_inner' sans documentation
 
-- **line :** 981
+- **line :** 1060
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750403,7 +750433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'uring_read' sans documentation
 
-- **line :** 1030
+- **line :** 1109
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750413,7 +750443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'lazy_init_read' sans documentation
 
-- **line :** 1071
+- **line :** 1150
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750423,7 +750453,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking_read' sans documentation
 
-- **line :** 1092
+- **line :** 1173
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750433,7 +750463,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_inflight' sans documentation
 
-- **line :** 1107
+- **line :** 1188
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750443,7 +750473,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete_inflight' sans documentation
 
-- **line :** 1113
+- **line :** 1194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750453,7 +750483,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 1125
+- **line :** 1206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750463,7 +750493,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 1147
+- **line :** 1235
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -750761,6 +750791,48 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/fs/file_times.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'FileTimes' sans documentation
+
+- **line :** 30
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'FileTimes ' sans documentation
+
+- **line :** 37
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'set_created' sans documentation
+
+- **line :** 60
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'into_std' sans documentation
+
+- **line :** 65
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/fs/mocks.rs
 
 ## ⚠️ Warning
@@ -750855,7 +750927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'set_max_buf_size' sans documentation
+- **Message :** Function 'set_times' sans documentation
 
 - **line :** 35
 
@@ -750865,7 +750937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'sync_all' sans documentation
+- **Message :** Function 'set_max_buf_size' sans documentation
 
 - **line :** 36
 
@@ -750875,7 +750947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'sync_data' sans documentation
+- **Message :** Function 'sync_all' sans documentation
 
 - **line :** 37
 
@@ -750885,7 +750957,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'try_clone' sans documentation
+- **Message :** Function 'sync_data' sans documentation
 
 - **line :** 38
 
@@ -750895,9 +750967,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'try_clone' sans documentation
+
+- **line :** 39
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'From<std' sans documentation
 
-- **line :** 41
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750907,7 +750989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 42
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750917,7 +750999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 45
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750927,7 +751009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_handle' sans documentation
 
-- **line :** 46
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750937,7 +751019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 49
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750947,7 +751029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 53
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750957,7 +751039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 54
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750967,7 +751049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 58
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750977,7 +751059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Read for MockFile ' sans documentation
 
-- **line :** 63
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -750987,7 +751069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read' sans documentation
 
-- **line :** 64
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -750997,7 +751079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Read for ' sans documentation
 
-- **line :** 76
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751007,7 +751089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read' sans documentation
 
-- **line :** 77
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751017,7 +751099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Seek for ' sans documentation
 
-- **line :** 89
+- **line :** 90
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751027,7 +751109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'seek' sans documentation
 
-- **line :** 90
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751037,7 +751119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Write for ' sans documentation
 
-- **line :** 95
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751047,7 +751129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
 
-- **line :** 96
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751057,7 +751139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'flush' sans documentation
 
-- **line :** 100
+- **line :** 101
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751067,7 +751149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<MockFile> for OwnedFd ' sans documentation
 
-- **line :** 106
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751077,7 +751159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 108
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751087,7 +751169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<OwnedFd> for MockFile ' sans documentation
 
-- **line :** 114
+- **line :** 115
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751097,7 +751179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 116
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751107,7 +751189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'JoinHandle' sans documentation
 
-- **line :** 127
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -751117,7 +751199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking' sans documentation
 
-- **line :** 131
+- **line :** 132
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751127,7 +751209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_mandatory_blocking' sans documentation
 
-- **line :** 146
+- **line :** 147
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751137,7 +751219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 164
+- **line :** 165
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751147,7 +751229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'pool' sans documentation
 
-- **line :** 175
+- **line :** 176
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751157,7 +751239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
 
-- **line :** 178
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751167,7 +751249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run_one' sans documentation
 
-- **line :** 182
+- **line :** 183
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751179,7 +751261,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'canonicalize' sans documentation
 
-- **line :** 217
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751189,7 +751271,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'create_dir' sans documentation
 
-- **line :** 220
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751199,7 +751281,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'create_dir_all' sans documentation
 
-- **line :** 223
+- **line :** 231
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751209,7 +751291,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'dir_builder' sans documentation
 
-- **line :** 226
+- **line :** 234
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751219,7 +751301,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'file' sans documentation
 
-- **line :** 229
+- **line :** 237
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'file_times' sans documentation
+
+- **line :** 240
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751229,7 +751321,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'hard_link' sans documentation
 
-- **line :** 232
+- **line :** 243
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751239,7 +751331,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'metadata' sans documentation
 
-- **line :** 235
+- **line :** 246
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751249,7 +751341,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'open_options' sans documentation
 
-- **line :** 238
+- **line :** 249
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751259,7 +751351,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'read' sans documentation
 
-- **line :** 241
+- **line :** 252
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751269,7 +751361,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'read_dir' sans documentation
 
-- **line :** 244
+- **line :** 255
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751279,7 +751371,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'read_link' sans documentation
 
-- **line :** 247
+- **line :** 258
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751289,7 +751381,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'read_to_string' sans documentation
 
-- **line :** 250
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751299,7 +751391,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'remove_dir' sans documentation
 
-- **line :** 253
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751309,7 +751401,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'remove_dir_all' sans documentation
 
-- **line :** 256
+- **line :** 267
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751319,7 +751411,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'remove_file' sans documentation
 
-- **line :** 259
+- **line :** 270
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751329,7 +751421,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'rename' sans documentation
 
-- **line :** 262
+- **line :** 273
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751339,7 +751431,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'set_permissions' sans documentation
 
-- **line :** 265
+- **line :** 276
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751349,7 +751441,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'symlink_metadata' sans documentation
 
-- **line :** 268
+- **line :** 279
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751359,7 +751451,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'write' sans documentation
 
-- **line :** 271
+- **line :** 282
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751369,7 +751461,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'copy' sans documentation
 
-- **line :** 274
+- **line :** 285
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751379,7 +751471,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'try_exists' sans documentation
 
-- **line :** 277
+- **line :** 288
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751389,7 +751481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'mocks' sans documentation
 
-- **line :** 281
+- **line :** 292
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751399,7 +751491,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'symlink' sans documentation
 
-- **line :** 286
+- **line :** 297
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751409,7 +751501,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'symlink_dir' sans documentation
 
-- **line :** 291
+- **line :** 302
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751419,7 +751511,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'symlink_file' sans documentation
 
-- **line :** 294
+- **line :** 305
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751429,7 +751521,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'read_uring' sans documentation
 
-- **line :** 299
+- **line :** 310
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -751439,7 +751531,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'asyncify' sans documentation
 
-- **line :** 312
+- **line :** 323
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751511,7 +751603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'std_open' sans documentation
 
-- **line :** 551
+- **line :** 552
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751521,7 +751613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_inner_mut' sans documentation
 
-- **line :** 559
+- **line :** 560
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751531,7 +751623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'OpenOptions ' sans documentation
 
-- **line :** 569
+- **line :** 570
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751541,7 +751633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'OpenOptions ' sans documentation
 
-- **line :** 660
+- **line :** 661
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751551,7 +751643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<StdOpenOptions> for OpenOptions ' sans documentation
 
-- **line :** 843
+- **line :** 844
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751561,7 +751653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 844
+- **line :** 845
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751571,7 +751663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for OpenOptions ' sans documentation
 
-- **line :** 855
+- **line :** 856
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -751581,7 +751673,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 856
+- **line :** 857
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -751927,7 +752019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_spawn_blocking' sans documentation
 
-- **line :** 91
+- **line :** 93
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752063,7 +752155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rename_blocking' sans documentation
 
-- **line :** 43
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752075,7 +752167,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_exists_uring' sans documentation
 
-- **line :** 72
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752085,7 +752177,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_exists_spawn_blocking' sans documentation
 
-- **line :** 83
+- **line :** 85
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752097,7 +752189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_uring' sans documentation
 
-- **line :** 58
+- **line :** 60
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -752107,7 +752199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_spawn_blocking' sans documentation
 
-- **line :** 102
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753229,7 +753321,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Buf' sans documentation
 
-- **line :** 22
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -753239,7 +753331,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'State' sans documentation
 
-- **line :** 30
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -753249,7 +753341,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 57
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753259,7 +753351,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 109
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753269,7 +753361,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 146
+- **line :** 200
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753279,7 +753371,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 178
+- **line :** 239
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753289,7 +753381,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Buf ' sans documentation
 
-- **line :** 195
+- **line :** 256
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -753299,7 +753391,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_capacity' sans documentation
 
-- **line :** 196
+- **line :** 257
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753309,7 +753401,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_empty' sans documentation
 
-- **line :** 203
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753319,7 +753411,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'len' sans documentation
 
-- **line :** 207
+- **line :** 268
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753329,7 +753421,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_to' sans documentation
 
-- **line :** 211
+- **line :** 272
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753339,7 +753431,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_from' sans documentation
 
-- **line :** 224
+- **line :** 285
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753349,7 +753441,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bytes' sans documentation
 
-- **line :** 233
+- **line :** 294
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753359,7 +753451,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_to' sans documentation
 
-- **line :** 270
+- **line :** 331
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753369,7 +753461,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Buf ' sans documentation
 
-- **line :** 281
+- **line :** 342
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -753379,7 +753471,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Buf ' sans documentation
 
-- **line :** 315
+- **line :** 376
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -753389,7 +753481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'discard_read' sans documentation
 
-- **line :** 316
+- **line :** 377
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753399,7 +753491,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_from_bufs' sans documentation
 
-- **line :** 323
+- **line :** 384
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'gone' sans documentation
+
+- **line :** 403
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -753937,7 +754039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'uring' sans documentation
 
-- **line :** 310
+- **line :** 311
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -754883,7 +754985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 111
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -754893,7 +754995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TextMockWriter' sans documentation
 
-- **line :** 119
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -754903,7 +755005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'crate' sans documentation
 
-- **line :** 121
+- **line :** 122
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754913,7 +755015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 122
+- **line :** 123
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754923,7 +755025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 132
+- **line :** 133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754933,7 +755035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 136
+- **line :** 137
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754943,7 +755045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'LoggingMockWriter' sans documentation
 
-- **line :** 144
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -754953,7 +755055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'LoggingMockWriter ' sans documentation
 
-- **line :** 148
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754963,7 +755065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 149
+- **line :** 150
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754973,7 +755075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'crate' sans documentation
 
-- **line :** 156
+- **line :** 157
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -754983,7 +755085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 157
+- **line :** 158
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -754993,7 +755095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 167
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755003,7 +755105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 171
+- **line :** 172
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755013,7 +755115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_splitter' sans documentation
 
-- **line :** 181
+- **line :** 182
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755023,7 +755125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_pseudo_text' sans documentation
 
-- **line :** 195
+- **line :** 196
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755247,9 +755349,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Enum 'OpenError' sans documentation
+
+- **line :** 22
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'Completable for Open ' sans documentation
 
-- **line :** 20
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -755259,7 +755371,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete' sans documentation
 
-- **line :** 22
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755269,7 +755381,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_with_error' sans documentation
 
-- **line :** 27
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755279,7 +755391,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'complete_after_cancel' sans documentation
 
-- **line :** 31
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755289,7 +755401,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Cancellable for Open ' sans documentation
 
-- **line :** 36
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -755299,7 +755411,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel' sans documentation
 
-- **line :** 37
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755309,9 +755421,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Op<Open> ' sans documentation
 
-- **line :** 42
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'open' sans documentation
+
+- **line :** 75
+
+- **suggestion :** Ajoutez /// avant cette function
 
 - **module :** rust
 
@@ -755849,9 +755971,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'with_capacity' sans documentation
+
+- **line :** 50
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'discard_buffer' sans documentation
 
-- **line :** 93
+- **line :** 99
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755861,7 +755993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 101
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755871,7 +756003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_fill_buf' sans documentation
 
-- **line :** 123
+- **line :** 129
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755881,7 +756013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'consume' sans documentation
 
-- **line :** 140
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755891,7 +756023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'SeekState' sans documentation
 
-- **line :** 147
+- **line :** 153
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -755901,7 +756033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 177
+- **line :** 183
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755911,7 +756043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 187
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755921,7 +756053,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 262
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755931,7 +756063,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 270
+- **line :** 272
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755941,7 +756073,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 278
+- **line :** 280
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755951,7 +756083,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 282
+- **line :** 284
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755961,7 +756093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 286
+- **line :** 288
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755971,7 +756103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 292
+- **line :** 294
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -755981,7 +756113,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 304
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -755991,7 +756123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_unpin' sans documentation
 
-- **line :** 308
+- **line :** 310
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756011,9 +756143,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'from' sans documentation
+- **Message :** Function 'with_capacity' sans documentation
 
-- **line :** 82
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756023,7 +756155,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 88
+- **line :** 87
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 93
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756033,7 +756175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 122
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756043,7 +756185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 130
+- **line :** 135
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756053,7 +756195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 138
+- **line :** 143
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756063,7 +756205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 142
+- **line :** 147
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756073,7 +756215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 146
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756083,7 +756225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 152
+- **line :** 157
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756093,7 +756235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 180
+- **line :** 185
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756103,7 +756245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 184
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756113,7 +756255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_fill_buf' sans documentation
 
-- **line :** 190
+- **line :** 195
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756123,7 +756265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'consume' sans documentation
 
-- **line :** 194
+- **line :** 199
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756133,7 +756275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 200
+- **line :** 205
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -756143,7 +756285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_unpin' sans documentation
 
-- **line :** 204
+- **line :** 209
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756175,7 +756317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 119
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756185,7 +756327,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 136
+- **line :** 137
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756195,7 +756337,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 198
+- **line :** 199
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756205,7 +756347,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 202
+- **line :** 203
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756215,7 +756357,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 207
+- **line :** 208
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756225,7 +756367,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'SeekState' sans documentation
 
-- **line :** 214
+- **line :** 215
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -756235,7 +756377,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 227
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756245,7 +756387,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 235
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756255,7 +756397,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 270
+- **line :** 271
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756265,7 +756407,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_fill_buf' sans documentation
 
-- **line :** 280
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756275,7 +756417,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'consume' sans documentation
 
-- **line :** 284
+- **line :** 285
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756285,7 +756427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 290
+- **line :** 291
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756295,7 +756437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 303
+- **line :** 304
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -756305,7 +756447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_unpin' sans documentation
 
-- **line :** 307
+- **line :** 308
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756439,7 +756581,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_buf' sans documentation
 
-- **line :** 51
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756449,7 +756591,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_copy' sans documentation
 
-- **line :** 75
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756459,7 +756601,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Copy' sans documentation
 
-- **line :** 221
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -756469,7 +756611,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 297
+- **line :** 307
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756501,7 +756643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_bidirectional' sans documentation
 
-- **line :** 75
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756511,7 +756653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_bidirectional_with_sizes' sans documentation
 
-- **line :** 94
+- **line :** 99
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756521,7 +756663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_bidirectional_impl' sans documentation
 
-- **line :** 113
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756543,7 +756685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 89
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756553,7 +756695,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 109
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -756563,7 +756705,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_unpin' sans documentation
 
-- **line :** 113
+- **line :** 172
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756821,7 +756963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'lines' sans documentation
 
-- **line :** 32
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756831,7 +756973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 138
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -756841,7 +756983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_unpin' sans documentation
 
-- **line :** 142
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756873,7 +757015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'duplex' sans documentation
 
-- **line :** 104
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756883,7 +757025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for DuplexStream ' sans documentation
 
-- **line :** 120
+- **line :** 125
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756893,7 +757035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 127
+- **line :** 132
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756903,7 +757045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for DuplexStream ' sans documentation
 
-- **line :** 139
+- **line :** 144
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756913,7 +757055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 141
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756923,7 +757065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 152
+- **line :** 157
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756932,16 +757074,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
-
-- **line :** 164
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'poll_flush' sans documentation
 
 - **line :** 169
 
@@ -756951,9 +757083,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'poll_flush' sans documentation
+
+- **line :** 174
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 177
+- **line :** 182
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756963,7 +757105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DuplexStream ' sans documentation
 
-- **line :** 189
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -756973,7 +757115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 190
+- **line :** 195
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -756983,7 +757125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wakers' sans documentation
 
-- **line :** 211
+- **line :** 216
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -756993,7 +757135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wakers ' sans documentation
 
-- **line :** 218
+- **line :** 223
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -757003,7 +757145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 219
+- **line :** 224
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757013,7 +757155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'simplex' sans documentation
 
-- **line :** 255
+- **line :** 265
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757023,7 +757165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SimplexStream ' sans documentation
 
-- **line :** 259
+- **line :** 269
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -757033,7 +757175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_unsplit' sans documentation
 
-- **line :** 266
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757043,7 +757185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'close_write' sans documentation
 
-- **line :** 279
+- **line :** 295
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757053,7 +757195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'close_read' sans documentation
 
-- **line :** 287
+- **line :** 303
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757063,7 +757205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_internal' sans documentation
 
-- **line :** 292
+- **line :** 308
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757073,7 +757215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_internal' sans documentation
 
-- **line :** 316
+- **line :** 336
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757083,7 +757225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored_internal' sans documentation
 
-- **line :** 337
+- **line :** 361
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757093,7 +757235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_deferred' sans documentation
 
-- **line :** 368
+- **line :** 396
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757103,7 +757245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_deferred' sans documentation
 
-- **line :** 386
+- **line :** 414
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757113,7 +757255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_deferred' sans documentation
 
-- **line :** 398
+- **line :** 426
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757123,7 +757265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_deferred' sans documentation
 
-- **line :** 416
+- **line :** 444
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757133,7 +757275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored_deferred' sans documentation
 
-- **line :** 428
+- **line :** 456
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757143,7 +757285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored_deferred' sans documentation
 
-- **line :** 446
+- **line :** 474
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757153,7 +757295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for SimplexStream ' sans documentation
 
-- **line :** 458
+- **line :** 486
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -757163,7 +757305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 459
+- **line :** 487
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757173,7 +757315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for SimplexStream ' sans documentation
 
-- **line :** 471
+- **line :** 499
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -757183,7 +757325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 472
+- **line :** 500
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757193,7 +757335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 483
+- **line :** 511
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757203,7 +757345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 494
+- **line :** 522
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757213,7 +757355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 498
+- **line :** 526
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757223,7 +757365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 502
+- **line :** 530
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757743,7 +757885,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 96
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757753,7 +757895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 110
+- **line :** 111
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757795,7 +757937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_line_internal' sans documentation
 
-- **line :** 94
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757805,7 +757947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 114
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757847,7 +757989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 138
+- **line :** 139
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -757931,7 +758073,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 76
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758035,7 +758177,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'poll_flush' sans documentation
+- **Message :** Function 'is_write_vectored' sans documentation
 
 - **line :** 66
 
@@ -758045,9 +758187,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'poll_write_vectored' sans documentation
+
+- **line :** 71
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_flush' sans documentation
+
+- **line :** 82
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 73
+- **line :** 89
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758057,7 +758219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 80
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -758067,7 +758229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 81
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758077,7 +758239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 87
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758087,7 +758249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_unpin' sans documentation
 
-- **line :** 91
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758443,7 +758605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 92
+- **line :** 93
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758453,7 +758615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 107
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758497,7 +758659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'macros' sans documentation
 
-- **line :** 520
+- **line :** 565
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758507,7 +758669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'fs' sans documentation
 
-- **line :** 523
+- **line :** 568
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758517,7 +758679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'future' sans documentation
 
-- **line :** 526
+- **line :** 571
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758527,7 +758689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'io' sans documentation
 
-- **line :** 528
+- **line :** 573
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758537,7 +758699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'net' sans documentation
 
-- **line :** 529
+- **line :** 574
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758547,7 +758709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'loom' sans documentation
 
-- **line :** 531
+- **line :** 576
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758557,7 +758719,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'process' sans documentation
 
-- **line :** 534
+- **line :** 579
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758567,7 +758729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'blocking' sans documentation
 
-- **line :** 543
+- **line :** 588
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758577,7 +758739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'runtime' sans documentation
 
-- **line :** 546
+- **line :** 591
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758587,7 +758749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'runtime' sans documentation
 
-- **line :** 549
+- **line :** 594
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758597,7 +758759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'signal' sans documentation
 
-- **line :** 553
+- **line :** 598
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758607,7 +758769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'signal' sans documentation
 
-- **line :** 560
+- **line :** 605
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758617,7 +758779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'sync' sans documentation
 
-- **line :** 564
+- **line :** 609
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758627,7 +758789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'sync' sans documentation
 
-- **line :** 567
+- **line :** 612
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758637,7 +758799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'task' sans documentation
 
-- **line :** 575
+- **line :** 620
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758647,7 +758809,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'time' sans documentation
 
-- **line :** 581
+- **line :** 626
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758657,7 +758819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'trace' sans documentation
 
-- **line :** 584
+- **line :** 629
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758667,7 +758829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'trace_leaf' sans documentation
 
-- **line :** 592
+- **line :** 637
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758677,7 +758839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_trace_leaf' sans documentation
 
-- **line :** 598
+- **line :** 643
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758687,7 +758849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'util' sans documentation
 
-- **line :** 603
+- **line :** 648
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758697,7 +758859,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'doc' sans documentation
 
-- **line :** 648
+- **line :** 693
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -758707,7 +758869,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_unpin' sans documentation
 
-- **line :** 705
+- **line :** 750
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -758717,7 +758879,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'fuzz' sans documentation
 
-- **line :** 709
+- **line :** 754
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -761335,7 +761497,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'convert_address' sans documentation
 
-- **line :** 979
+- **line :** 980
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761345,7 +761507,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 989
+- **line :** 990
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761355,7 +761517,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 990
+- **line :** 991
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761365,7 +761527,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for TcpSocket ' sans documentation
 
-- **line :** 999
+- **line :** 1000
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761375,7 +761537,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 1000
+- **line :** 1001
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761385,7 +761547,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsFd for TcpSocket ' sans documentation
 
-- **line :** 1005
+- **line :** 1006
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761395,7 +761557,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 1006
+- **line :** 1007
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761405,7 +761567,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromRawFd for TcpSocket ' sans documentation
 
-- **line :** 1011
+- **line :** 1012
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761415,7 +761577,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IntoRawFd for TcpSocket ' sans documentation
 
-- **line :** 1026
+- **line :** 1027
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761425,7 +761587,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_raw_fd' sans documentation
 
-- **line :** 1027
+- **line :** 1028
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761435,7 +761597,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IntoRawSocket for TcpSocket ' sans documentation
 
-- **line :** 1034
+- **line :** 1035
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761445,7 +761607,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_raw_socket' sans documentation
 
-- **line :** 1035
+- **line :** 1036
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761455,7 +761617,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawSocket for TcpSocket ' sans documentation
 
-- **line :** 1040
+- **line :** 1041
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761465,7 +761627,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_socket' sans documentation
 
-- **line :** 1041
+- **line :** 1042
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761475,7 +761637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsSocket for TcpSocket ' sans documentation
 
-- **line :** 1046
+- **line :** 1047
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761485,7 +761647,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_socket' sans documentation
 
-- **line :** 1047
+- **line :** 1048
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761495,7 +761657,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromRawSocket for TcpSocket ' sans documentation
 
-- **line :** 1052
+- **line :** 1053
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -761931,7 +762093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'connect_mio' sans documentation
 
-- **line :** 144
+- **line :** 147
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761941,7 +762103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 163
+- **line :** 166
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761951,7 +762113,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_std' sans documentation
 
-- **line :** 210
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761961,7 +762123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'quickack' sans documentation
 
-- **line :** 1213
+- **line :** 1228
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761971,7 +762133,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_quickack' sans documentation
 
-- **line :** 1253
+- **line :** 1268
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761981,7 +762143,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_linger' sans documentation
 
-- **line :** 1320
+- **line :** 1335
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -761991,7 +762153,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_priv' sans documentation
 
-- **line :** 1436
+- **line :** 1451
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762001,7 +762163,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_priv' sans documentation
 
-- **line :** 1445
+- **line :** 1460
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762011,7 +762173,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored_priv' sans documentation
 
-- **line :** 1453
+- **line :** 1468
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762021,7 +762183,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryFrom<std' sans documentation
 
-- **line :** 1462
+- **line :** 1477
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762031,7 +762193,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for TcpStream ' sans documentation
 
-- **line :** 1476
+- **line :** 1491
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762041,7 +762203,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 1477
+- **line :** 1492
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762051,7 +762213,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for TcpStream ' sans documentation
 
-- **line :** 1486
+- **line :** 1501
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762061,7 +762223,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 1487
+- **line :** 1502
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762071,7 +762233,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 1495
+- **line :** 1510
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762081,7 +762243,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 1503
+- **line :** 1518
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762091,7 +762253,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 1508
+- **line :** 1523
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762101,7 +762263,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 1513
+- **line :** 1528
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762111,7 +762273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 1519
+- **line :** 1534
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762121,7 +762283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1520
+- **line :** 1535
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762131,7 +762293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRef<Self> for TcpStream ' sans documentation
 
-- **line :** 1526
+- **line :** 1541
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762141,7 +762303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_ref' sans documentation
 
-- **line :** 1527
+- **line :** 1542
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762151,7 +762313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'sys' sans documentation
 
-- **line :** 1533
+- **line :** 1548
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -762161,7 +762323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for TcpStream ' sans documentation
 
-- **line :** 1537
+- **line :** 1552
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762171,7 +762333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 1538
+- **line :** 1553
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762181,7 +762343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsFd for TcpStream ' sans documentation
 
-- **line :** 1543
+- **line :** 1558
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762191,7 +762353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 1544
+- **line :** 1559
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762201,7 +762363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawSocket for TcpStream ' sans documentation
 
-- **line :** 1553
+- **line :** 1568
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762211,7 +762373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_socket' sans documentation
 
-- **line :** 1554
+- **line :** 1569
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762221,7 +762383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsSocket for TcpStream ' sans documentation
 
-- **line :** 1559
+- **line :** 1574
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762231,7 +762393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_socket' sans documentation
 
-- **line :** 1560
+- **line :** 1575
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762241,7 +762403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'sys' sans documentation
 
-- **line :** 1567
+- **line :** 1582
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -762251,7 +762413,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for TcpStream ' sans documentation
 
-- **line :** 1571
+- **line :** 1586
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762261,7 +762423,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 1572
+- **line :** 1587
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762271,7 +762433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsFd for TcpStream ' sans documentation
 
-- **line :** 1577
+- **line :** 1592
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762281,7 +762443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 1578
+- **line :** 1593
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762607,7 +762769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_std' sans documentation
 
-- **line :** 491
+- **line :** 495
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762617,7 +762779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 527
+- **line :** 531
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762627,7 +762789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryFrom<std' sans documentation
 
-- **line :** 1593
+- **line :** 1597
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762637,7 +762799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 1605
+- **line :** 1609
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762647,7 +762809,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1606
+- **line :** 1610
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762657,7 +762819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for UnixDatagram ' sans documentation
 
-- **line :** 1611
+- **line :** 1615
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762667,7 +762829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 1612
+- **line :** 1616
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -762677,7 +762839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsFd for UnixDatagram ' sans documentation
 
-- **line :** 1617
+- **line :** 1621
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -762687,7 +762849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 1618
+- **line :** 1622
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763255,7 +763417,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for UnixSocket ' sans documentation
 
-- **line :** 248
+- **line :** 246
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763265,7 +763427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 249
+- **line :** 247
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763275,7 +763437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsFd for UnixSocket ' sans documentation
 
-- **line :** 254
+- **line :** 252
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763285,7 +763447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 255
+- **line :** 253
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763295,7 +763457,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromRawFd for UnixSocket ' sans documentation
 
-- **line :** 260
+- **line :** 258
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763305,7 +763467,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IntoRawFd for UnixSocket ' sans documentation
 
-- **line :** 269
+- **line :** 267
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763315,7 +763477,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_raw_fd' sans documentation
 
-- **line :** 270
+- **line :** 268
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763873,7 +764035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 921
+- **line :** 935
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763883,7 +764045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryFrom<net' sans documentation
 
-- **line :** 1015
+- **line :** 1037
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763893,7 +764055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for UnixStream ' sans documentation
 
-- **line :** 1027
+- **line :** 1049
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763903,7 +764065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 1028
+- **line :** 1050
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763913,7 +764075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for UnixStream ' sans documentation
 
-- **line :** 1037
+- **line :** 1059
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763923,7 +764085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 1038
+- **line :** 1060
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763933,7 +764095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 1046
+- **line :** 1068
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763943,7 +764105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 1054
+- **line :** 1076
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763953,7 +764115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 1058
+- **line :** 1080
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763963,7 +764125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 1062
+- **line :** 1084
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763973,7 +764135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'UnixStream ' sans documentation
 
-- **line :** 1068
+- **line :** 1090
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -763983,7 +764145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_priv' sans documentation
 
-- **line :** 1075
+- **line :** 1097
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -763993,7 +764155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_priv' sans documentation
 
-- **line :** 1084
+- **line :** 1106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764003,7 +764165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored_priv' sans documentation
 
-- **line :** 1092
+- **line :** 1114
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764013,7 +764175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 1101
+- **line :** 1123
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764023,7 +764185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1102
+- **line :** 1124
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764033,7 +764195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRef<Self> for UnixStream ' sans documentation
 
-- **line :** 1107
+- **line :** 1129
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764043,7 +764205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_ref' sans documentation
 
-- **line :** 1108
+- **line :** 1130
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764053,7 +764215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for UnixStream ' sans documentation
 
-- **line :** 1113
+- **line :** 1135
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764063,7 +764225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 1114
+- **line :** 1136
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764073,7 +764235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsFd for UnixStream ' sans documentation
 
-- **line :** 1119
+- **line :** 1141
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764083,7 +764245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_fd' sans documentation
 
-- **line :** 1120
+- **line :** 1142
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764115,7 +764277,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_linux' sans documentation
 
-- **line :** 89
+- **line :** 90
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764125,7 +764287,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 106
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764135,7 +764297,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_netbsd' sans documentation
 
-- **line :** 147
+- **line :** 148
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764145,7 +764307,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 155
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764155,7 +764317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_dragonfly' sans documentation
 
-- **line :** 189
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764165,7 +764327,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 197
+- **line :** 202
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764175,7 +764337,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_freebsd' sans documentation
 
-- **line :** 220
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764185,7 +764347,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 228
+- **line :** 233
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764195,7 +764357,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_macos' sans documentation
 
-- **line :** 294
+- **line :** 299
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764205,7 +764367,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 303
+- **line :** 308
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764215,7 +764377,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_solaris' sans documentation
 
-- **line :** 341
+- **line :** 346
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764225,7 +764387,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 347
+- **line :** 352
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764235,7 +764397,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_aix' sans documentation
 
-- **line :** 374
+- **line :** 379
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764245,7 +764407,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 379
+- **line :** 384
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764255,7 +764417,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_noproc' sans documentation
 
-- **line :** 407
+- **line :** 413
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764265,7 +764427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 411
+- **line :** 417
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764275,7 +764437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'impl_nto' sans documentation
 
-- **line :** 421
+- **line :** 427
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764285,7 +764447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_peer_cred' sans documentation
 
-- **line :** 429
+- **line :** 435
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764309,7 +764471,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'doc' sans documentation
 
-- **line :** 22
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764319,7 +764481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'windows_sys' sans documentation
 
-- **line :** 24
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764329,7 +764491,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'doc' sans documentation
 
-- **line :** 35
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764339,7 +764501,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'mio_windows' sans documentation
 
-- **line :** 36
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -764349,7 +764511,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'NamedPipeServer' sans documentation
 
-- **line :** 105
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -764359,7 +764521,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'NamedPipeServer ' sans documentation
 
-- **line :** 109
+- **line :** 111
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764369,7 +764531,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for NamedPipeServer ' sans documentation
 
-- **line :** 891
+- **line :** 895
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764379,7 +764541,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 892
+- **line :** 896
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764389,7 +764551,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for NamedPipeServer ' sans documentation
 
-- **line :** 901
+- **line :** 905
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764399,7 +764561,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 902
+- **line :** 906
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764409,7 +764571,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 910
+- **line :** 914
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764418,16 +764580,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
-
-- **line :** 918
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'poll_shutdown' sans documentation
 
 - **line :** 922
 
@@ -764437,9 +764589,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'poll_shutdown' sans documentation
+
+- **line :** 926
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'AsRawHandle for NamedPipeServer ' sans documentation
 
-- **line :** 927
+- **line :** 931
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764449,7 +764611,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_handle' sans documentation
 
-- **line :** 928
+- **line :** 932
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764459,7 +764621,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsHandle for NamedPipeServer ' sans documentation
 
-- **line :** 933
+- **line :** 937
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764469,7 +764631,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_handle' sans documentation
 
-- **line :** 934
+- **line :** 938
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764479,7 +764641,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'NamedPipeClient' sans documentation
 
-- **line :** 978
+- **line :** 982
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -764489,7 +764651,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'NamedPipeClient ' sans documentation
 
-- **line :** 982
+- **line :** 986
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764499,7 +764661,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for NamedPipeClient ' sans documentation
 
-- **line :** 1680
+- **line :** 1686
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764509,7 +764671,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 1681
+- **line :** 1687
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764519,7 +764681,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for NamedPipeClient ' sans documentation
 
-- **line :** 1690
+- **line :** 1696
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764529,7 +764691,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 1691
+- **line :** 1697
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764539,7 +764701,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 1699
+- **line :** 1705
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764549,7 +764711,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 1707
+- **line :** 1713
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764559,7 +764721,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 1711
+- **line :** 1717
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764569,7 +764731,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawHandle for NamedPipeClient ' sans documentation
 
-- **line :** 1716
+- **line :** 1722
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764579,7 +764741,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_handle' sans documentation
 
-- **line :** 1717
+- **line :** 1723
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764589,7 +764751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsHandle for NamedPipeClient ' sans documentation
 
-- **line :** 1722
+- **line :** 1728
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764599,7 +764761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_handle' sans documentation
 
-- **line :** 1723
+- **line :** 1729
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764609,7 +764771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ServerOptions' sans documentation
 
-- **line :** 1734
+- **line :** 1740
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -764619,7 +764781,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ServerOptions ' sans documentation
 
-- **line :** 1752
+- **line :** 1758
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764629,7 +764791,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max_instances' sans documentation
 
-- **line :** 2224
+- **line :** 2230
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Default for ServerOptions ' sans documentation
+
+- **line :** 2374
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'default' sans documentation
+
+- **line :** 2376
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764639,7 +764821,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ClientOptions' sans documentation
 
-- **line :** 2373
+- **line :** 2386
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -764649,7 +764831,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ClientOptions ' sans documentation
 
-- **line :** 2380
+- **line :** 2393
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -764659,7 +764841,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_flags' sans documentation
 
-- **line :** 2585
+- **line :** 2614
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Default for ClientOptions ' sans documentation
+
+- **line :** 2619
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'default' sans documentation
+
+- **line :** 2621
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -764669,7 +764871,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'PipeMode' sans documentation
 
-- **line :** 2595
+- **line :** 2631
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -764679,7 +764881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'PipeEnd' sans documentation
 
-- **line :** 2618
+- **line :** 2654
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -764689,7 +764891,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'PipeInfo' sans documentation
 
-- **line :** 2638
+- **line :** 2674
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -765465,7 +765667,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wait for StdChild ' sans documentation
 
-- **line :** 51
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765474,16 +765676,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'id' sans documentation
-
-- **line :** 52
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'try_wait' sans documentation
 
 - **line :** 56
 
@@ -765493,9 +765685,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'try_wait' sans documentation
+
+- **line :** 60
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'Kill for StdChild ' sans documentation
 
-- **line :** 61
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765505,7 +765707,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'kill' sans documentation
 
-- **line :** 62
+- **line :** 66
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765515,7 +765717,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_orphan_queue' sans documentation
 
-- **line :** 68
+- **line :** 72
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765525,7 +765727,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_orphan_queue' sans documentation
 
-- **line :** 78
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765535,7 +765737,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'GlobalOrphanQueue' sans documentation
 
-- **line :** 85
+- **line :** 89
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -765545,7 +765747,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 87
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765555,7 +765757,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 88
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765565,7 +765767,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'GlobalOrphanQueue ' sans documentation
 
-- **line :** 93
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765575,7 +765777,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reap_orphans' sans documentation
 
-- **line :** 94
+- **line :** 98
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765585,7 +765787,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'OrphanQueue<StdChild> for GlobalOrphanQueue ' sans documentation
 
-- **line :** 99
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765595,7 +765797,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push_orphan' sans documentation
 
-- **line :** 100
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765605,7 +765807,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Child' sans documentation
 
-- **line :** 106
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -765615,7 +765817,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 112
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765625,7 +765827,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 113
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765635,7 +765837,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_child' sans documentation
 
-- **line :** 118
+- **line :** 122
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765645,7 +765847,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Child ' sans documentation
 
-- **line :** 147
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765655,7 +765857,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'id' sans documentation
 
-- **line :** 148
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765665,7 +765867,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'std_child' sans documentation
 
-- **line :** 156
+- **line :** 160
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765675,7 +765877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_wait' sans documentation
 
-- **line :** 164
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765685,7 +765887,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Kill for Child ' sans documentation
 
-- **line :** 169
+- **line :** 173
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765695,7 +765897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'kill' sans documentation
 
-- **line :** 170
+- **line :** 174
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765705,7 +765907,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for Child ' sans documentation
 
-- **line :** 175
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765715,7 +765917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 178
+- **line :** 182
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765723,9 +765925,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Struct 'Pipe' sans documentation
+- **Message :** Struct 'ChildStdin' sans documentation
 
-- **line :** 188
+- **line :** 192
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -765733,19 +765935,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'from' sans documentation
+- **Message :** Struct 'ChildStdout' sans documentation
 
-- **line :** 195
+- **line :** 197
 
-- **suggestion :** Ajoutez /// avant cette function
+- **suggestion :** Ajoutez /// avant cette struct
 
 - **module :** rust
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'io' sans documentation
+- **Message :** Impl 'TryFrom<StdChildStdin> for ChildStdin ' sans documentation
 
-- **line :** 201
+- **line :** 203
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765753,9 +765955,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'read' sans documentation
+- **Message :** Function 'try_from' sans documentation
 
-- **line :** 202
+- **line :** 206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765763,9 +765965,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'io' sans documentation
+- **Message :** Impl 'TryFrom<StdChildStdout> for ChildStdout ' sans documentation
 
-- **line :** 207
+- **line :** 213
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765773,27 +765975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'write' sans documentation
-
-- **line :** 208
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'flush' sans documentation
-
-- **line :** 212
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'write_vectored' sans documentation
+- **Message :** Function 'try_from' sans documentation
 
 - **line :** 216
 
@@ -765803,29 +765985,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'AsRawFd for Pipe ' sans documentation
+- **Message :** Impl 'TryFrom<StdChildStderr> for ChildStdout ' sans documentation
 
-- **line :** 221
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'as_raw_fd' sans documentation
-
-- **line :** 222
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'AsFd for Pipe ' sans documentation
-
-- **line :** 227
+- **line :** 223
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765833,9 +765995,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'as_fd' sans documentation
+- **Message :** Function 'try_from' sans documentation
 
-- **line :** 228
+- **line :** 226
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765853,17 +766015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'convert_to_stdio' sans documentation
-
-- **line :** 245
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'Source for Pipe ' sans documentation
+- **Message :** Impl 'ChildStdin ' sans documentation
 
 - **line :** 249
 
@@ -765873,7 +766025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'register' sans documentation
+- **Message :** Function 'into_owned_fd' sans documentation
 
 - **line :** 250
 
@@ -765883,39 +766035,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'reregister' sans documentation
+- **Message :** Function 'into_stdio' sans documentation
+
+- **line :** 254
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ChildStdout ' sans documentation
 
 - **line :** 259
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'deregister' sans documentation
-
-- **line :** 268
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'ChildStdio' sans documentation
-
-- **line :** 273
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'ChildStdio ' sans documentation
-
-- **line :** 277
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765925,7 +766057,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_owned_fd' sans documentation
 
-- **line :** 278
+- **line :** 260
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765933,19 +766065,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
+- **Message :** Function 'into_stdio' sans documentation
 
-- **line :** 283
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-
-- **line :** 284
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765953,9 +766075,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'AsRawFd for ChildStdio ' sans documentation
+- **Message :** Impl 'AsRawFd for ChildStdin ' sans documentation
 
-- **line :** 289
+- **line :** 269
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765965,7 +766087,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 290
+- **line :** 270
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765973,9 +766095,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'AsFd for ChildStdio ' sans documentation
+- **Message :** Impl 'AsRawFd for ChildStdout ' sans documentation
 
-- **line :** 295
+- **line :** 275
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -765983,9 +766105,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'as_fd' sans documentation
+- **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 296
+- **line :** 276
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -765993,9 +766115,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'AsyncWrite for ChildStdio ' sans documentation
+- **Message :** Impl 'AsyncWrite for ChildStdin ' sans documentation
 
-- **line :** 301
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -766005,7 +766127,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 302
+- **line :** 282
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766015,7 +766137,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 310
+- **line :** 290
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766025,7 +766147,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 314
+- **line :** 294
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766035,7 +766157,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 318
+- **line :** 298
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766045,7 +766167,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 326
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766053,9 +766175,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'AsyncRead for ChildStdio ' sans documentation
+- **Message :** Impl 'AsyncRead for ChildStdout ' sans documentation
 
-- **line :** 331
+- **line :** 311
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -766065,7 +766187,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 332
+- **line :** 312
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766075,7 +766197,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_nonblocking' sans documentation
 
-- **line :** 342
+- **line :** 322
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -766085,7 +766207,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stdio' sans documentation
 
-- **line :** 365
+- **line :** 345
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767093,7 +767215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ChildStdio ' sans documentation
 
-- **line :** 200
+- **line :** 204
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767101,9 +767223,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'into_stdio' sans documentation
+
+- **line :** 205
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'into_owned_handle' sans documentation
 
-- **line :** 201
+- **line :** 209
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767113,7 +767245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawHandle for ChildStdio ' sans documentation
 
-- **line :** 206
+- **line :** 214
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767123,7 +767255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_handle' sans documentation
 
-- **line :** 207
+- **line :** 215
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767133,7 +767265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for ChildStdio ' sans documentation
 
-- **line :** 212
+- **line :** 220
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767143,7 +767275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 213
+- **line :** 221
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767153,7 +767285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for ChildStdio ' sans documentation
 
-- **line :** 222
+- **line :** 230
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767163,7 +767295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 223
+- **line :** 231
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767173,7 +767305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 231
+- **line :** 239
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767183,7 +767315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 235
+- **line :** 243
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767193,7 +767325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stdio' sans documentation
 
-- **line :** 240
+- **line :** 248
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767203,17 +767335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'convert_to_file' sans documentation
 
-- **line :** 255
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'convert_to_stdio' sans documentation
-
-- **line :** 262
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767223,7 +767345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'duplicate_handle' sans documentation
 
-- **line :** 266
+- **line :** 270
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767243,27 +767365,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Mod 'sharded' sans documentation
+
+- **line :** 9
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Mod 'schedule' sans documentation
-
-- **line :** 17
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'shutdown' sans documentation
-
-- **line :** 18
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'task' sans documentation
 
 - **line :** 19
 
@@ -767273,9 +767385,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Mod 'shutdown' sans documentation
+
+- **line :** 20
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'task' sans documentation
+
+- **line :** 21
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'create_blocking_pool' sans documentation
 
-- **line :** 24
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767287,7 +767419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'BlockingPool' sans documentation
 
-- **line :** 19
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -767297,7 +767429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Spawner' sans documentation
 
-- **line :** 25
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -767307,7 +767439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SpawnerMetrics' sans documentation
 
-- **line :** 30
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -767317,7 +767449,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SpawnerMetrics ' sans documentation
 
-- **line :** 36
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767327,7 +767459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_threads' sans documentation
 
-- **line :** 37
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767337,7 +767469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_idle_threads' sans documentation
 
-- **line :** 41
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767347,7 +767479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'queue_depth' sans documentation
 
-- **line :** 46
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767357,7 +767489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'inc_num_threads' sans documentation
 
-- **line :** 51
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767367,7 +767499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'dec_num_threads' sans documentation
 
-- **line :** 55
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767377,7 +767509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'inc_num_idle_threads' sans documentation
 
-- **line :** 59
+- **line :** 60
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767387,7 +767519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'dec_num_idle_threads' sans documentation
 
-- **line :** 63
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767397,7 +767529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'inc_queue_depth' sans documentation
 
-- **line :** 67
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767407,7 +767539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'dec_queue_depth' sans documentation
 
-- **line :** 71
+- **line :** 72
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767417,7 +767549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Inner' sans documentation
 
-- **line :** 76
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -767425,11 +767557,21 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Struct 'Shared' sans documentation
+- **Message :** Struct 'LockedInner' sans documentation
 
-- **line :** 105
+- **line :** 118
 
 - **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ThreadManagementState ' sans documentation
+
+- **line :** 152
+
+- **suggestion :** Ajoutez /// avant cette impl
 
 - **module :** rust
 
@@ -767437,7 +767579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Task' sans documentation
 
-- **line :** 124
+- **line :** 181
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -767447,7 +767589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Mandatory' sans documentation
 
-- **line :** 130
+- **line :** 187
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -767457,7 +767599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'SpawnError' sans documentation
 
-- **line :** 136
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -767467,7 +767609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<SpawnError> for io' sans documentation
 
-- **line :** 144
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767477,7 +767619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 145
+- **line :** 202
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767487,77 +767629,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Task ' sans documentation
 
-- **line :** 155
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-
-- **line :** 156
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'run' sans documentation
-
-- **line :** 160
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'shutdown_or_run_if_mandatory' sans documentation
-
-- **line :** 164
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'spawn_blocking' sans documentation
-
-- **line :** 179
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'BlockingPool ' sans documentation
-
-- **line :** 209
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-
 - **line :** 210
 
-- **suggestion :** Ajoutez /// avant cette function
+- **suggestion :** Ajoutez /// avant cette impl
 
 - **module :** rust
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'spawner' sans documentation
+- **Message :** Function 'new' sans documentation
 
-- **line :** 240
+- **line :** 211
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767567,7 +767649,77 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 244
+- **line :** 215
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'run' sans documentation
+
+- **line :** 219
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_or_run_if_mandatory' sans documentation
+
+- **line :** 223
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking' sans documentation
+
+- **line :** 238
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'BlockingPool ' sans documentation
+
+- **line :** 269
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 270
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawner' sans documentation
+
+- **line :** 310
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown' sans documentation
+
+- **line :** 314
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767577,7 +767729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for BlockingPool ' sans documentation
 
-- **line :** 282
+- **line :** 343
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767587,7 +767739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 283
+- **line :** 344
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767597,7 +767749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 288
+- **line :** 349
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767607,7 +767759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 289
+- **line :** 350
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767617,7 +767769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Spawner ' sans documentation
 
-- **line :** 296
+- **line :** 357
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767627,7 +767779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking' sans documentation
 
-- **line :** 298
+- **line :** 359
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767637,7 +767789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_mandatory_blocking' sans documentation
 
-- **line :** 336
+- **line :** 398
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767647,7 +767799,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking_inner' sans documentation
 
-- **line :** 367
+- **line :** 429
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'num_blocking_threads' sans documentation
+
+- **line :** 455
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767657,7 +767819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_task' sans documentation
 
-- **line :** 393
+- **line :** 462
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767667,7 +767829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_thread' sans documentation
 
-- **line :** 459
+- **line :** 508
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767677,7 +767839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Spawner ' sans documentation
 
-- **line :** 483
+- **line :** 532
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767685,19 +767847,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'num_threads' sans documentation
-
-- **line :** 484
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Function 'num_idle_threads' sans documentation
 
-- **line :** 488
+- **line :** 533
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767707,7 +767859,67 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'queue_depth' sans documentation
 
-- **line :** 492
+- **line :** 537
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'InnerImpl ' sans documentation
+
+- **line :** 548
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_task' sans documentation
+
+- **line :** 549
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'run_worker' sans documentation
+
+- **line :** 564
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'begin_shutdown' sans documentation
+
+- **line :** 576
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'LockedImpl ' sans documentation
+
+- **line :** 588
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 589
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767717,7 +767929,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_temporary_os_thread_error' sans documentation
 
-- **line :** 500
+- **line :** 752
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767727,7 +767939,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Inner ' sans documentation
 
-- **line :** 504
+- **line :** 756
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767737,7 +767949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 505
+- **line :** 757
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767747,7 +767959,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 608
+- **line :** 776
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767757,7 +767969,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 609
+- **line :** 777
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767825,6 +768037,68 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/runtime/blocking/sharded.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Shard' sans documentation
+
+- **line :** 34
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'ShardedImpl' sans documentation
+
+- **line :** 44
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ShardedImpl ' sans documentation
+
+- **line :** 72
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 73
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'push_shard_index' sans documentation
+
+- **line :** 96
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'push_shard_index' sans documentation
+
+- **line :** 104
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/runtime/blocking/shutdown.rs
 
 ## ⚠️ Warning
@@ -767885,7 +768159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'UnhandledPanic' sans documentation
 
-- **line :** 166
+- **line :** 173
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -767895,7 +768169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Kind' sans documentation
 
-- **line :** 244
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -767905,7 +768179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Builder ' sans documentation
 
-- **line :** 250
+- **line :** 267
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -767915,7 +768189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_multi_thread' sans documentation
 
-- **line :** 276
+- **line :** 293
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767925,7 +768199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enable_alt_timer' sans documentation
 
-- **line :** 428
+- **line :** 450
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767935,7 +768209,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enable_eager_driver_handoff' sans documentation
 
-- **line :** 463
+- **line :** 485
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'enable_sharded_blocking_queue' sans documentation
+
+- **line :** 526
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767945,7 +768229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_threads' sans documentation
 
-- **line :** 519
+- **line :** 586
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767955,7 +768239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max_blocking_threads' sans documentation
 
-- **line :** 570
+- **line :** 637
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767965,7 +768249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'name' sans documentation
 
-- **line :** 621
+- **line :** 688
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767975,7 +768259,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_thread_start' sans documentation
 
-- **line :** 706
+- **line :** 773
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767985,7 +768269,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_thread_stop' sans documentation
 
-- **line :** 734
+- **line :** 801
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -767995,7 +768279,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_thread_park' sans documentation
 
-- **line :** 815
+- **line :** 882
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768005,7 +768289,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_thread_unpark' sans documentation
 
-- **line :** 853
+- **line :** 920
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768015,7 +768299,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_task_spawn' sans documentation
 
-- **line :** 903
+- **line :** 970
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768025,7 +768309,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_before_task_poll' sans documentation
 
-- **line :** 950
+- **line :** 1020
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768035,7 +768319,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_after_task_poll' sans documentation
 
-- **line :** 997
+- **line :** 1070
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768045,17 +768329,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'on_task_terminate' sans documentation
 
-- **line :** 1046
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'build_local' sans documentation
-
-- **line :** 1104
+- **line :** 1119
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768065,7 +768339,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_cfg' sans documentation
 
-- **line :** 1112
+- **line :** 1194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768075,7 +768349,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'global_queue_interval' sans documentation
 
-- **line :** 1188
+- **line :** 1271
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768085,7 +768359,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'event_interval' sans documentation
 
-- **line :** 1229
+- **line :** 1312
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768095,7 +768369,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enable_metrics_poll_count_histogram' sans documentation
 
-- **line :** 1437
+- **line :** 1520
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768105,7 +768379,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metrics_poll_count_histogram_scale' sans documentation
 
-- **line :** 1468
+- **line :** 1551
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768115,7 +768389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metrics_poll_count_histogram_resolution' sans documentation
 
-- **line :** 1603
+- **line :** 1686
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768125,7 +768399,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metrics_poll_count_histogram_buckets' sans documentation
 
-- **line :** 1640
+- **line :** 1723
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768135,7 +768409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_current_thread_runtime' sans documentation
 
-- **line :** 1646
+- **line :** 1729
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768145,7 +768419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_current_thread_local_runtime' sans documentation
 
-- **line :** 1659
+- **line :** 1742
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768155,7 +768429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_current_thread_runtime_components' sans documentation
 
-- **line :** 1674
+- **line :** 1757
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768165,7 +768439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metrics_poll_count_histogram_builder' sans documentation
 
-- **line :** 1736
+- **line :** 1820
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768175,7 +768449,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metrics_schedule_latency_histogram_builder' sans documentation
 
-- **line :** 1744
+- **line :** 1828
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'max_io_events_per_tick' sans documentation
+
+- **line :** 1879
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'max_io_events_per_busy_tick' sans documentation
+
+- **line :** 1925
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768185,7 +768479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Builder ' sans documentation
 
-- **line :** 1754
+- **line :** 1933
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768195,17 +768489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Builder ' sans documentation
 
-- **line :** 1797
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'Builder ' sans documentation
-
-- **line :** 1823
+- **line :** 1959
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768215,7 +768499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enable_io_uring' sans documentation
 
-- **line :** 1839
+- **line :** 1975
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768225,7 +768509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Builder ' sans documentation
 
-- **line :** 1848
+- **line :** 1984
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768235,7 +768519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Builder ' sans documentation
 
-- **line :** 1873
+- **line :** 2009
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768245,7 +768529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Builder ' sans documentation
 
-- **line :** 2002
+- **line :** 2183
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768255,7 +768539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_threaded_runtime' sans documentation
 
-- **line :** 2003
+- **line :** 2184
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768265,7 +768549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 2061
+- **line :** 2243
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768275,7 +768559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 2062
+- **line :** 2244
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768409,7 +768693,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index' sans documentation
 
-- **line :** 169
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768419,7 +768703,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'defer' sans documentation
 
-- **line :** 174
+- **line :** 173
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768429,7 +768713,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_scheduler' sans documentation
 
-- **line :** 186
+- **line :** 185
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'ClearSchedulerGuard' sans documentation
+
+- **line :** 190
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Drop for ClearSchedulerGuard ' sans documentation
+
+- **line :** 193
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 194
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'clear_scheduler' sans documentation
+
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768439,7 +768763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_scheduler' sans documentation
 
-- **line :** 191
+- **line :** 206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768501,7 +768825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DisallowBlockInPlaceGuard ' sans documentation
 
-- **line :** 105
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768511,7 +768835,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 106
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768635,7 +768959,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 76
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768645,7 +768969,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 77
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768655,7 +768979,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for EnterRuntimeGuard ' sans documentation
 
-- **line :** 82
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768665,7 +768989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 83
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768675,7 +768999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'EnterRuntime ' sans documentation
 
-- **line :** 95
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768685,7 +769009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_entered' sans documentation
 
-- **line :** 96
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768781,7 +769105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Driver ' sans documentation
 
-- **line :** 46
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768791,7 +769115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 47
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768801,7 +769125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 66
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768811,7 +769135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 70
+- **line :** 72
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768821,7 +769145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 74
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768831,7 +769155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 79
+- **line :** 81
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768841,7 +769165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unpark' sans documentation
 
-- **line :** 80
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768851,7 +769175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unpark_self' sans documentation
 
-- **line :** 89
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768861,7 +769185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'io' sans documentation
 
-- **line :** 98
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768871,7 +769195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'signal' sans documentation
 
-- **line :** 107
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768881,7 +769205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'time' sans documentation
 
-- **line :** 119
+- **line :** 121
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768891,7 +769215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_time' sans documentation
 
-- **line :** 126
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768901,7 +769225,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clock' sans documentation
 
-- **line :** 133
+- **line :** 135
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'now' sans documentation
+
+- **line :** 140
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768911,7 +769245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'IoStack' sans documentation
 
-- **line :** 145
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768921,7 +769255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'IoHandle' sans documentation
 
-- **line :** 151
+- **line :** 158
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -768931,7 +769265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_io_stack' sans documentation
 
-- **line :** 156
+- **line :** 163
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -768941,7 +769275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IoStack ' sans documentation
 
-- **line :** 176
+- **line :** 183
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768950,16 +769284,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
-
-- **line :** 177
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'park_timeout' sans documentation
 
 - **line :** 184
 
@@ -768969,7 +769293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'shutdown' sans documentation
+- **Message :** Function 'park_timeout' sans documentation
 
 - **line :** 191
 
@@ -768979,9 +769303,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'shutdown' sans documentation
+
+- **line :** 198
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Impl 'IoHandle ' sans documentation
 
-- **line :** 199
+- **line :** 206
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -768991,7 +769325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unpark' sans documentation
 
-- **line :** 200
+- **line :** 207
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769001,7 +769335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_ref' sans documentation
 
-- **line :** 207
+- **line :** 214
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769011,7 +769345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'IoStack' sans documentation
 
-- **line :** 220
+- **line :** 227
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -769021,7 +769355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_io_stack' sans documentation
 
-- **line :** 222
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769031,7 +769365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'IoStack ' sans documentation
 
-- **line :** 228
+- **line :** 235
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769041,7 +769375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 229
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769051,7 +769385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 233
+- **line :** 240
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769061,7 +769395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 237
+- **line :** 244
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769071,7 +769405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_signal_driver' sans documentation
 
-- **line :** 254
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769081,7 +769415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_signal_driver' sans documentation
 
-- **line :** 267
+- **line :** 274
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769091,7 +769425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_process_driver' sans documentation
 
-- **line :** 278
+- **line :** 285
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769101,7 +769435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_process_driver' sans documentation
 
-- **line :** 287
+- **line :** 294
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769111,7 +769445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'TimeDriver' sans documentation
 
-- **line :** 297
+- **line :** 304
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -769121,7 +769455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_clock' sans documentation
 
-- **line :** 308
+- **line :** 315
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769131,7 +769465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_time_driver' sans documentation
 
-- **line :** 312
+- **line :** 319
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769141,7 +769475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TimeDriver ' sans documentation
 
-- **line :** 334
+- **line :** 341
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769151,7 +769485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 335
+- **line :** 342
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769161,7 +769495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 343
+- **line :** 350
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769171,7 +769505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 351
+- **line :** 358
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769181,7 +769515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_clock' sans documentation
 
-- **line :** 367
+- **line :** 374
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769191,7 +769525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_time_driver' sans documentation
 
-- **line :** 371
+- **line :** 378
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769201,7 +769535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'op' sans documentation
 
-- **line :** 382
+- **line :** 389
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -769871,7 +770205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ReadyEvent' sans documentation
 
-- **line :** 75
+- **line :** 79
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -769881,7 +770215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ReadyEvent ' sans documentation
 
-- **line :** 82
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769891,7 +770225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_ready' sans documentation
 
-- **line :** 83
+- **line :** 87
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769901,7 +770235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Direction' sans documentation
 
-- **line :** 94
+- **line :** 98
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -769911,7 +770245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Tick' sans documentation
 
-- **line :** 99
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -769921,7 +770255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function '_assert_kinds' sans documentation
 
-- **line :** 107
+- **line :** 111
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769931,7 +770265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function '_assert' sans documentation
 
-- **line :** 108
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769941,7 +770275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Driver ' sans documentation
 
-- **line :** 115
+- **line :** 119
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -769951,7 +770285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 160
+- **line :** 165
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769961,7 +770295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 165
+- **line :** 170
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769971,7 +770305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 170
+- **line :** 175
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769981,7 +770315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'turn' sans documentation
 
-- **line :** 180
+- **line :** 185
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -769990,26 +770324,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-
-- **line :** 255
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-
-- **line :** 256
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'Handle ' sans documentation
 
 - **line :** 261
 
@@ -770019,9 +770333,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+
+- **line :** 262
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Handle ' sans documentation
+
+- **line :** 267
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'release_pending_registrations' sans documentation
 
-- **line :** 333
+- **line :** 339
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770031,7 +770365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 340
+- **line :** 363
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770041,7 +770375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 341
+- **line :** 364
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770051,7 +770385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Direction ' sans documentation
 
-- **line :** 346
+- **line :** 369
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770061,7 +770395,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mask' sans documentation
 
-- **line :** 347
+- **line :** 370
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+
+- **line :** 379
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'busy_turn_takes_busy_batch' sans documentation
+
+- **line :** 384
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770491,9 +770845,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'assume_ready' sans documentation
+
+- **line :** 114
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'poll_read_ready' sans documentation
 
-- **line :** 109
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770503,7 +770867,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_ready' sans documentation
 
-- **line :** 115
+- **line :** 126
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770513,7 +770877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_io' sans documentation
 
-- **line :** 122
+- **line :** 133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770523,7 +770887,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_io' sans documentation
 
-- **line :** 132
+- **line :** 143
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770533,7 +770897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_io' sans documentation
 
-- **line :** 162
+- **line :** 173
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770543,7 +770907,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_io' sans documentation
 
-- **line :** 183
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770553,7 +770917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'readiness' sans documentation
 
-- **line :** 204
+- **line :** 215
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770563,7 +770927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_io' sans documentation
 
-- **line :** 214
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770573,7 +770937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'handle' sans documentation
 
-- **line :** 236
+- **line :** 247
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770583,7 +770947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for Registration ' sans documentation
 
-- **line :** 241
+- **line :** 252
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770593,7 +770957,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 242
+- **line :** 253
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770603,7 +770967,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'gone' sans documentation
 
-- **line :** 254
+- **line :** 265
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770675,7 +771039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deregister' sans documentation
 
-- **line :** 74
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770685,7 +771049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 83
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770695,7 +771059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'release' sans documentation
 
-- **line :** 104
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770705,7 +771069,87 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 132
+- **line :** 131
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'loom_tests' sans documentation
+
+- **line :** 151
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Registrations' sans documentation
+
+- **line :** 159
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Registrations ' sans documentation
+
+- **line :** 164
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 165
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'allocate' sans documentation
+
+- **line :** 173
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'deregister' sans documentation
+
+- **line :** 177
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'release' sans documentation
+
+- **line :** 181
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'deregister_races_with_prior_event_delivery' sans documentation
+
+- **line :** 191
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770787,7 +771231,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'token' sans documentation
 
-- **line :** 187
+- **line :** 198
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770797,7 +771241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ready_event' sans documentation
 
-- **line :** 288
+- **line :** 303
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770807,7 +771251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clear_readiness' sans documentation
 
-- **line :** 357
+- **line :** 372
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770817,7 +771261,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clear_wakers' sans documentation
 
-- **line :** 364
+- **line :** 379
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770827,7 +771271,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for ScheduledIo ' sans documentation
 
-- **line :** 371
+- **line :** 386
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770837,7 +771281,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 372
+- **line :** 387
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770847,7 +771291,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ScheduledIo ' sans documentation
 
-- **line :** 380
+- **line :** 395
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770857,7 +771301,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'readiness_fut' sans documentation
 
-- **line :** 390
+- **line :** 405
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770867,7 +771311,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 409
+- **line :** 424
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770877,7 +771321,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for Readiness<' sans documentation
 
-- **line :** 424
+- **line :** 439
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770887,7 +771331,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 427
+- **line :** 442
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770897,7 +771341,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for Readiness<' sans documentation
 
-- **line :** 566
+- **line :** 581
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -770907,7 +771351,299 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 567
+- **line :** 582
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+
+- **line :** 598
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stale_event_does_not_clear_readiness_after_u8_wraparound' sans documentation
+
+- **line :** 602
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'loom_tests' sans documentation
+
+- **line :** 618
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_wakes_readiness' sans documentation
+
+- **line :** 625
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_wakes_poll_readiness' sans documentation
+
+- **line :** 640
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'event_delivery_wakes_waiter' sans documentation
+
+- **line :** 658
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/runtime/jspi.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'UtsName' sans documentation
+
+- **line :** 29
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'uname' sans documentation
+
+- **line :** 43
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_promise_create' sans documentation
+
+- **line :** 45
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_promise_destroy' sans documentation
+
+- **line :** 46
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_promise_resolve' sans documentation
+
+- **line :** 47
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_set_timeout' sans documentation
+
+- **line :** 49
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_clear_timeout' sans documentation
+
+- **line :** 54
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_set_immediate' sans documentation
+
+- **line :** 55
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_clear_immediate' sans documentation
+
+- **line :** 56
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'SettledResult' sans documentation
+
+- **line :** 61
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_promise_await' sans documentation
+
+- **line :** 79
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'JspiState' sans documentation
+
+- **line :** 83
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_version' sans documentation
+
+- **line :** 89
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'detect_jspi' sans documentation
+
+- **line :** 119
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Slot' sans documentation
+
+- **line :** 153
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Slot ' sans documentation
+
+- **line :** 155
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Timer ' sans documentation
+
+- **line :** 175
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'set' sans documentation
+
+- **line :** 176
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Drop for Timer ' sans documentation
+
+- **line :** 190
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 191
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Park' sans documentation
+
+- **line :** 209
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Drop for Park<' sans documentation
+
+- **line :** 215
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 216
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -770993,7 +771729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_local' sans documentation
 
-- **line :** 146
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771003,7 +771739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking' sans documentation
 
-- **line :** 189
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771013,7 +771749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on' sans documentation
 
-- **line :** 219
+- **line :** 224
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771023,7 +771759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on_inner' sans documentation
 
-- **line :** 231
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771033,7 +771769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for LocalRuntime ' sans documentation
 
-- **line :** 386
+- **line :** 391
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -771043,7 +771779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 387
+- **line :** 392
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771053,7 +771789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 399
+- **line :** 404
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -771063,7 +771799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 401
+- **line :** 406
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -771163,9 +771899,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'inc_local_schedule_count' sans documentation
+- **Message :** Function 'record_schedule_latency' sans documentation
 
-- **line :** 275
+- **line :** 272
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'record_schedule_latency' sans documentation
+
+- **line :** 283
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'record_schedule_latency_at' sans documentation
+
+- **line :** 302
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771175,7 +771931,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'inc_local_schedule_count' sans documentation
 
-- **line :** 278
+- **line :** 338
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'inc_local_schedule_count' sans documentation
+
+- **line :** 341
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771185,7 +771951,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'MetricsBatch ' sans documentation
 
-- **line :** 286
+- **line :** 349
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -771195,7 +771961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_steal_count' sans documentation
 
-- **line :** 289
+- **line :** 352
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771205,7 +771971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_steal_count' sans documentation
 
-- **line :** 292
+- **line :** 355
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771215,7 +771981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_steal_operations' sans documentation
 
-- **line :** 300
+- **line :** 363
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771225,7 +771991,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_steal_operations' sans documentation
 
-- **line :** 303
+- **line :** 366
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771235,7 +772001,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_overflow_count' sans documentation
 
-- **line :** 311
+- **line :** 374
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771245,7 +772011,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_overflow_count' sans documentation
 
-- **line :** 314
+- **line :** 377
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771255,7 +772021,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'duration_as_u64' sans documentation
 
-- **line :** 322
+- **line :** 385
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -771937,9 +772703,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'default_configuration_size' sans documentation
+- **Message :** Function 'max_error_caps_precision' sans documentation
 
 - **line :** 522
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'default_configuration_size' sans documentation
+
+- **line :** 528
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772187,7 +772963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_count_histogram_num_buckets' sans documentation
 
-- **line :** 486
+- **line :** 485
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772197,7 +772973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_time_histogram_bucket_range' sans documentation
 
-- **line :** 525
+- **line :** 524
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772207,7 +772983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_count_histogram_bucket_range' sans documentation
 
-- **line :** 547
+- **line :** 545
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772217,7 +772993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_time_histogram_bucket_count' sans documentation
 
-- **line :** 974
+- **line :** 972
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772227,7 +773003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_count_histogram_bucket_count' sans documentation
 
-- **line :** 986
+- **line :** 983
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772237,7 +773013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_mean_poll_time' sans documentation
 
-- **line :** 1021
+- **line :** 1018
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772247,7 +773023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule_latency_histogram_bucket_range' sans documentation
 
-- **line :** 1137
+- **line :** 1133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772257,7 +773033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule_latency_histogram_bucket_count' sans documentation
 
-- **line :** 1209
+- **line :** 1204
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772267,7 +773043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_io_driver_metrics' sans documentation
 
-- **line :** 1295
+- **line :** 1289
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772354,26 +773130,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'ScheduleLatencyContext ' sans documentation
-
-- **line :** 24
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'elapsed_nanos' sans documentation
-
-- **line :** 28
-
-- **suggestion :** Ajoutez /// avant cette function
 
 - **module :** rust
 
@@ -772507,7 +773263,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 415
+- **line :** 417
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772517,7 +773273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'context' sans documentation
 
-- **line :** 417
+- **line :** 419
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772527,7 +773283,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'park' sans documentation
 
-- **line :** 419
+- **line :** 421
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'jspi' sans documentation
+
+- **line :** 424
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772537,7 +773303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'driver' sans documentation
 
-- **line :** 421
+- **line :** 426
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772547,7 +773313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'scheduler' sans documentation
 
-- **line :** 423
+- **line :** 428
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772557,7 +773323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'io' sans documentation
 
-- **line :** 426
+- **line :** 431
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772567,7 +773333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'process' sans documentation
 
-- **line :** 430
+- **line :** 435
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772577,7 +773343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'TimerFlavor' sans documentation
 
-- **line :** 435
+- **line :** 440
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -772587,7 +773353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'time' sans documentation
 
-- **line :** 442
+- **line :** 447
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772597,7 +773363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'time_alt' sans documentation
 
-- **line :** 445
+- **line :** 450
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772607,7 +773373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Timer' sans documentation
 
-- **line :** 453
+- **line :** 456
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -772617,7 +773383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Timer ' sans documentation
 
-- **line :** 460
+- **line :** 463
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -772627,7 +773393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 463
+- **line :** 466
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772637,7 +773403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'init' sans documentation
 
-- **line :** 475
+- **line :** 478
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772647,7 +773413,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_elapsed' sans documentation
 
-- **line :** 488
+- **line :** 491
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'cancel' sans documentation
+
+- **line :** 499
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772657,7 +773433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset' sans documentation
 
-- **line :** 497
+- **line :** 515
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772667,7 +773443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_elapsed' sans documentation
 
-- **line :** 513
+- **line :** 533
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772677,7 +773453,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'signal' sans documentation
 
-- **line :** 535
+- **line :** 556
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772687,7 +773463,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'task' sans documentation
 
-- **line :** 539
+- **line :** 560
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772697,7 +773473,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'config' sans documentation
 
-- **line :** 541
+- **line :** 562
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772707,7 +773483,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'blocking' sans documentation
 
-- **line :** 544
+- **line :** 565
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772717,7 +773493,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'builder' sans documentation
 
-- **line :** 556
+- **line :** 579
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772727,7 +773503,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'dump' sans documentation
 
-- **line :** 601
+- **line :** 626
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772737,7 +773513,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'task_hooks' sans documentation
 
-- **line :** 605
+- **line :** 630
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772747,7 +773523,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'handle' sans documentation
 
-- **line :** 613
+- **line :** 638
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772757,7 +773533,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'runtime' sans documentation
 
-- **line :** 616
+- **line :** 641
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772767,7 +773543,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'local_runtime' sans documentation
 
-- **line :** 619
+- **line :** 644
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772777,7 +773553,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'id' sans documentation
 
-- **line :** 622
+- **line :** 647
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772787,7 +773563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'thread_id' sans documentation
 
-- **line :** 634
+- **line :** 677
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772797,7 +773573,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'metrics' sans documentation
 
-- **line :** 637
+- **line :** 680
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -772839,7 +773615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ParkThread ' sans documentation
 
-- **line :** 43
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -772849,7 +773625,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 44
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772858,16 +773634,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'unpark' sans documentation
-
-- **line :** 54
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'park' sans documentation
 
 - **line :** 59
 
@@ -772877,9 +773643,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'park' sans documentation
+
+- **line :** 64
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'park_timeout' sans documentation
 
-- **line :** 65
+- **line :** 70
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772889,7 +773665,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 71
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772899,7 +773675,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Inner ' sans documentation
 
-- **line :** 78
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -772909,7 +773685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park' sans documentation
 
-- **line :** 79
+- **line :** 85
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772917,19 +773693,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'unpark' sans documentation
+- **Message :** Function 'park' sans documentation
 
-- **line :** 177
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'shutdown' sans documentation
-
-- **line :** 206
+- **line :** 133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772937,19 +773703,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'Default for ParkThread ' sans documentation
+- **Message :** Function 'park_jspi' sans documentation
 
-- **line :** 211
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'default' sans documentation
-
-- **line :** 212
+- **line :** 139
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -772957,29 +773713,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'UnparkThread ' sans documentation
+- **Message :** Struct 'Unpark' sans documentation
 
-- **line :** 219
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'unpark' sans documentation
-
-- **line :** 220
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'CachedParkThread' sans documentation
-
-- **line :** 233
+- **line :** 180
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -772987,9 +773723,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'CachedParkThread ' sans documentation
+- **Message :** Impl 'Drop for Unpark<' sans documentation
 
-- **line :** 237
+- **line :** 181
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -772997,7 +773733,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'waker' sans documentation
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 182
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'park_timeout' sans documentation
+
+- **line :** 197
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'park_timeout' sans documentation
 
 - **line :** 248
 
@@ -773017,19 +773773,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'park' sans documentation
+- **Message :** Function 'shutdown' sans documentation
 
-- **line :** 256
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'park_timeout' sans documentation
-
-- **line :** 261
+- **line :** 285
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773037,9 +773783,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'block_on' sans documentation
+- **Message :** Impl 'Default for ParkThread ' sans documentation
 
-- **line :** 274
+- **line :** 290
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'default' sans documentation
+
+- **line :** 291
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773049,7 +773805,97 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'UnparkThread ' sans documentation
 
-- **line :** 293
+- **line :** 298
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'unpark' sans documentation
+
+- **line :** 299
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'CachedParkThread' sans documentation
+
+- **line :** 312
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'CachedParkThread ' sans documentation
+
+- **line :** 322
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'waker' sans documentation
+
+- **line :** 335
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'unpark' sans documentation
+
+- **line :** 339
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'park' sans documentation
+
+- **line :** 343
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'park_timeout' sans documentation
+
+- **line :** 348
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'block_on' sans documentation
+
+- **line :** 366
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'UnparkThread ' sans documentation
+
+- **line :** 385
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773059,7 +773905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_waker' sans documentation
 
-- **line :** 294
+- **line :** 386
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773069,7 +773915,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Inner ' sans documentation
 
-- **line :** 302
+- **line :** 394
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773079,7 +773925,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_raw' sans documentation
 
-- **line :** 304
+- **line :** 396
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773089,7 +773935,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current_thread_park_count' sans documentation
 
-- **line :** 360
+- **line :** 452
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773203,7 +774049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 174
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773213,7 +774059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn' sans documentation
 
-- **line :** 239
+- **line :** 244
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773223,7 +774069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking' sans documentation
 
-- **line :** 275
+- **line :** 280
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773233,7 +774079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on' sans documentation
 
-- **line :** 338
+- **line :** 343
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773243,7 +774089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on_inner' sans documentation
 
-- **line :** 348
+- **line :** 353
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773253,7 +774099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for Runtime ' sans documentation
 
-- **line :** 500
+- **line :** 505
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773263,7 +774109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 501
+- **line :** 506
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773273,7 +774119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 519
+- **line :** 524
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773283,7 +774129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 521
+- **line :** 526
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773293,7 +774139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'display_eq' sans documentation
 
-- **line :** 523
+- **line :** 528
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773303,7 +774149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'FormatEq' sans documentation
 
-- **line :** 526
+- **line :** 531
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -773313,7 +774159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_str' sans documentation
 
-- **line :** 532
+- **line :** 537
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773337,7 +774183,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CurrentThread ' sans documentation
 
-- **line :** 137
+- **line :** 138
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773347,7 +774193,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 138
+- **line :** 139
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773357,7 +774203,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on' sans documentation
 
-- **line :** 203
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773367,7 +774213,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take_core' sans documentation
 
-- **line :** 244
+- **line :** 242
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773377,7 +774223,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 257
+- **line :** 255
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773387,7 +774233,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown2' sans documentation
 
-- **line :** 290
+- **line :** 288
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773397,7 +774243,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 323
+- **line :** 321
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773407,7 +774253,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 324
+- **line :** 322
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773417,7 +774263,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Core ' sans documentation
 
-- **line :** 331
+- **line :** 329
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773427,7 +774273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_task' sans documentation
 
-- **line :** 337
+- **line :** 335
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773437,7 +774283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_local_task' sans documentation
 
-- **line :** 348
+- **line :** 346
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773447,7 +774293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push_task' sans documentation
 
-- **line :** 357
+- **line :** 355
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773457,7 +774303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'submit_metrics' sans documentation
 
-- **line :** 366
+- **line :** 364
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773467,7 +774313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_deferred_tasks_and_free' sans documentation
 
-- **line :** 372
+- **line :** 370
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773477,7 +774323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Context ' sans documentation
 
-- **line :** 381
+- **line :** 379
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773487,7 +774333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'has_pending_work' sans documentation
 
-- **line :** 459
+- **line :** 457
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773497,7 +774343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_internal' sans documentation
 
-- **line :** 463
+- **line :** 461
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773507,7 +774353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enter' sans documentation
 
-- **line :** 481
+- **line :** 479
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773517,7 +774363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'defer' sans documentation
 
-- **line :** 495
+- **line :** 493
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773527,7 +774373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 502
+- **line :** 500
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773537,7 +774383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn' sans documentation
 
-- **line :** 505
+- **line :** 503
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773547,7 +774393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'dump' sans documentation
 
-- **line :** 580
+- **line :** 582
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773557,7 +774403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_remote_task' sans documentation
 
-- **line :** 623
+- **line :** 625
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773567,7 +774413,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'waker_ref' sans documentation
 
-- **line :** 627
+- **line :** 629
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773577,7 +774423,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_woken' sans documentation
 
-- **line :** 635
+- **line :** 637
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773587,7 +774433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_alive_tasks' sans documentation
 
-- **line :** 639
+- **line :** 641
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773597,7 +774443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'injection_queue_depth' sans documentation
 
-- **line :** 643
+- **line :** 645
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773607,7 +774453,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_metrics' sans documentation
 
-- **line :** 647
+- **line :** 649
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773617,7 +774463,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 654
+- **line :** 656
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773627,7 +774473,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'scheduler_metrics' sans documentation
 
-- **line :** 655
+- **line :** 657
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773637,7 +774483,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_local_queue_depth' sans documentation
 
-- **line :** 659
+- **line :** 661
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773647,7 +774493,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_blocking_threads' sans documentation
 
-- **line :** 663
+- **line :** 665
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773657,7 +774503,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_idle_blocking_threads' sans documentation
 
-- **line :** 667
+- **line :** 669
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773667,7 +774513,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_queue_depth' sans documentation
 
-- **line :** 671
+- **line :** 673
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773677,7 +774523,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawned_tasks_count' sans documentation
 
-- **line :** 676
+- **line :** 678
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773687,7 +774533,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 686
+- **line :** 688
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773697,7 +774543,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'owned_id' sans documentation
 
-- **line :** 687
+- **line :** 689
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773707,7 +774553,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'name' sans documentation
 
-- **line :** 691
+- **line :** 693
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773717,7 +774563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 696
+- **line :** 698
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773727,7 +774573,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 697
+- **line :** 699
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773737,7 +774583,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Schedule for Arc<Handle> ' sans documentation
 
-- **line :** 704
+- **line :** 706
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773747,7 +774593,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'release' sans documentation
 
-- **line :** 705
+- **line :** 707
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773757,7 +774603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule' sans documentation
 
-- **line :** 709
+- **line :** 711
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773767,7 +774613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hooks' sans documentation
 
-- **line :** 743
+- **line :** 742
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773777,7 +774623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unhandled_panic' sans documentation
 
-- **line :** 750
+- **line :** 749
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773787,7 +774633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for Handle ' sans documentation
 
-- **line :** 782
+- **line :** 781
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773797,7 +774643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 783
+- **line :** 782
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773807,7 +774653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CoreGuard<' sans documentation
 
-- **line :** 817
+- **line :** 816
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773817,7 +774663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on' sans documentation
 
-- **line :** 819
+- **line :** 818
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773827,7 +774673,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for CoreGuard<' sans documentation
 
-- **line :** 917
+- **line :** 914
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -773837,7 +774683,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 918
+- **line :** 915
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773961,7 +774807,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'metrics' sans documentation
 
-- **line :** 19
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -773971,7 +774817,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 29
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773981,7 +774827,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_closed' sans documentation
 
-- **line :** 40
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -773991,7 +774837,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pop' sans documentation
 
-- **line :** 61
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774075,9 +774921,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'lock' sans documentation
+- **Message :** Function 'new' sans documentation
 
-- **line :** 11
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774085,19 +774931,79 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'AsMut<Synced> for Synced ' sans documentation
+- **Message :** Function 'is_empty' sans documentation
 
-- **line :** 16
+- **line :** 19
 
-- **suggestion :** Ajoutez /// avant cette impl
+- **suggestion :** Ajoutez /// avant cette function
 
 - **module :** rust
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'as_mut' sans documentation
+- **Message :** Function 'len' sans documentation
 
-- **line :** 17
+- **line :** 25
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'is_closed' sans documentation
+
+- **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'pop' sans documentation
+
+- **line :** 54
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drain_into' sans documentation
+
+- **line :** 84
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'is_empty' sans documentation
+
+- **line :** 92
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'push_batch' sans documentation
+
+- **line :** 98
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drain_into' sans documentation
+
+- **line :** 205
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774187,18 +775093,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/runtime/scheduler/lock.rs
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'lock' sans documentation
-
-- **line :** 5
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/runtime/scheduler/mod.rs
 
 ## ⚠️ Warning
@@ -774243,7 +775137,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'lock' sans documentation
+- **Message :** Mod 'multi_thread' sans documentation
 
 - **line :** 20
 
@@ -774253,19 +775147,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'multi_thread' sans documentation
-
-- **line :** 23
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Mod 'util' sans documentation
 
-- **line :** 27
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -774275,7 +775159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Handle' sans documentation
 
-- **line :** 32
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -774285,7 +775169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Context' sans documentation
 
-- **line :** 47
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -774295,7 +775179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 54
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774305,7 +775189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'driver' sans documentation
 
-- **line :** 56
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774315,7 +775199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 90
+- **line :** 87
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774325,7 +775209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current' sans documentation
 
-- **line :** 92
+- **line :** 89
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774335,7 +775219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_spawner' sans documentation
 
-- **line :** 99
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774345,7 +775229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_local' sans documentation
 
-- **line :** 103
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774355,7 +775239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timer_flavor' sans documentation
 
-- **line :** 113
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774365,7 +775249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn' sans documentation
 
-- **line :** 152
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774375,7 +775259,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 186
+- **line :** 183
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774385,7 +775269,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'seed_generator' sans documentation
 
-- **line :** 195
+- **line :** 192
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774395,7 +775279,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_current_thread' sans documentation
 
-- **line :** 199
+- **line :** 196
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774405,7 +775289,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hooks' sans documentation
 
-- **line :** 207
+- **line :** 204
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774415,7 +775299,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 216
+- **line :** 213
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774425,7 +775309,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_workers' sans documentation
 
-- **line :** 217
+- **line :** 214
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774435,7 +775319,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_alive_tasks' sans documentation
 
-- **line :** 225
+- **line :** 222
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774445,7 +775329,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'injection_queue_depth' sans documentation
 
-- **line :** 229
+- **line :** 226
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774455,7 +775339,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_metrics' sans documentation
 
-- **line :** 233
+- **line :** 230
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774465,7 +775349,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 241
+- **line :** 238
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774475,7 +775359,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawned_tasks_count' sans documentation
 
-- **line :** 243
+- **line :** 240
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774485,7 +775369,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_blocking_threads' sans documentation
 
-- **line :** 248
+- **line :** 245
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774495,7 +775379,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_idle_blocking_threads' sans documentation
 
-- **line :** 252
+- **line :** 249
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774505,7 +775389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'scheduler_metrics' sans documentation
 
-- **line :** 256
+- **line :** 253
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774515,7 +775399,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_local_queue_depth' sans documentation
 
-- **line :** 260
+- **line :** 257
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774525,7 +775409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_queue_depth' sans documentation
 
-- **line :** 264
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774535,7 +775419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Context ' sans documentation
 
-- **line :** 270
+- **line :** 267
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774545,7 +775429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expect_current_thread' sans documentation
 
-- **line :** 272
+- **line :** 269
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774555,7 +775439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'defer' sans documentation
 
-- **line :** 280
+- **line :** 277
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774565,7 +775449,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index' sans documentation
 
-- **line :** 285
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774575,7 +775459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'expect_multi_thread' sans documentation
 
-- **line :** 295
+- **line :** 291
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774585,7 +775469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 312
+- **line :** 308
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774595,7 +775479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current' sans documentation
 
-- **line :** 314
+- **line :** 310
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774605,7 +775489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timer_flavor' sans documentation
 
-- **line :** 320
+- **line :** 316
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774829,7 +775713,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'task' sans documentation
 
-- **line :** 105
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774839,7 +775723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'release' sans documentation
 
-- **line :** 106
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774849,7 +775733,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule' sans documentation
 
-- **line :** 110
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774859,7 +775743,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hooks' sans documentation
 
-- **line :** 114
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774869,7 +775753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'yield_now' sans documentation
 
-- **line :** 120
+- **line :** 122
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774879,7 +775763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 125
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774889,7 +775773,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'owned_id' sans documentation
 
-- **line :** 126
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774899,7 +775783,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'name' sans documentation
 
-- **line :** 130
+- **line :** 132
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -774909,7 +775793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 135
+- **line :** 137
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -774919,7 +775803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 136
+- **line :** 138
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775001,7 +775885,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'num_idle_blocking_threads' sans documentation
 
-- **line :** 39
+- **line :** 36
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775011,7 +775895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'scheduler_metrics' sans documentation
 
-- **line :** 43
+- **line :** 40
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775021,7 +775905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_local_queue_depth' sans documentation
 
-- **line :** 47
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775031,7 +775915,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_queue_depth' sans documentation
 
-- **line :** 51
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775105,7 +775989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'transition_worker_to_searching' sans documentation
 
-- **line :** 104
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775115,7 +775999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'notify_should_wakeup' sans documentation
 
-- **line :** 153
+- **line :** 157
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775125,7 +776009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'State ' sans documentation
 
-- **line :** 159
+- **line :** 166
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -775135,7 +776019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 160
+- **line :** 167
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775145,7 +776029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'load' sans documentation
 
-- **line :** 168
+- **line :** 175
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775155,7 +776039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unpark_one' sans documentation
 
-- **line :** 172
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775165,7 +776049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'inc_num_searching' sans documentation
 
-- **line :** 176
+- **line :** 183
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775175,7 +776059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<usize> for State ' sans documentation
 
-- **line :** 211
+- **line :** 219
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -775185,7 +776069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 212
+- **line :** 220
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775195,7 +776079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<State> for usize ' sans documentation
 
-- **line :** 217
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -775205,7 +776089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 218
+- **line :** 226
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775215,7 +776099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 223
+- **line :** 231
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -775225,7 +776109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 224
+- **line :** 232
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775235,7 +776119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_state' sans documentation
 
-- **line :** 233
+- **line :** 241
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775337,7 +776221,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'trace_mock' sans documentation
 
-- **line :** 34
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -775347,7 +776231,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'MultiThread ' sans documentation
 
-- **line :** 56
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -775357,7 +776241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 58
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775367,7 +776251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 96
+- **line :** 94
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775377,7 +776261,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 104
+- **line :** 102
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -775387,7 +776271,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 105
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775833,17 +776717,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'end_poll' sans documentation
-
-- **line :** 123
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'incr_steal_count' sans documentation
+- **Message :** Function 'record_schedule_latency' sans documentation
 
 - **line :** 127
 
@@ -775853,9 +776727,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'end_poll' sans documentation
+
+- **line :** 134
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'incr_steal_count' sans documentation
+
+- **line :** 138
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'incr_steal_operations' sans documentation
 
-- **line :** 131
+- **line :** 142
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775865,7 +776759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'incr_overflow_count' sans documentation
 
-- **line :** 135
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -775991,7 +776885,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'metrics' sans documentation
 
-- **line :** 79
+- **line :** 81
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -776001,7 +776895,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'taskdump' sans documentation
 
-- **line :** 82
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -776011,7 +776905,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'taskdump_mock' sans documentation
 
-- **line :** 86
+- **line :** 88
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -776031,7 +776925,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_in_place' sans documentation
 
-- **line :** 370
+- **line :** 365
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776041,7 +776935,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Reset' sans documentation
 
-- **line :** 375
+- **line :** 370
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -776051,7 +776945,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for Reset ' sans documentation
 
-- **line :** 380
+- **line :** 375
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776061,7 +776955,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 381
+- **line :** 376
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'maybe_move_runtime' sans documentation
+
+- **line :** 421
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776071,7 +776975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Launch ' sans documentation
 
-- **line :** 511
+- **line :** 512
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776081,7 +776985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'launch' sans documentation
 
-- **line :** 512
+- **line :** 513
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776091,7 +776995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 519
+- **line :** 520
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776101,7 +777005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'AbortOnPanic' sans documentation
 
-- **line :** 521
+- **line :** 522
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -776111,7 +777015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for AbortOnPanic ' sans documentation
 
-- **line :** 523
+- **line :** 524
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776121,7 +777025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 524
+- **line :** 525
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776131,7 +777035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Context ' sans documentation
 
-- **line :** 571
+- **line :** 570
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776141,17 +777045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 572
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'run_task' sans documentation
-
-- **line :** 641
+- **line :** 571
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776161,7 +777055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_lifo_enabled' sans documentation
 
-- **line :** 783
+- **line :** 799
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776171,7 +777065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_lifo_enabled_is_correct' sans documentation
 
-- **line :** 787
+- **line :** 803
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776181,7 +777075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maintenance' sans documentation
 
-- **line :** 794
+- **line :** 810
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776191,7 +777085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_yield' sans documentation
 
-- **line :** 854
+- **line :** 870
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776201,7 +777095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'park_internal' sans documentation
 
-- **line :** 858
+- **line :** 874
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776211,7 +777105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'defer' sans documentation
 
-- **line :** 921
+- **line :** 937
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776221,7 +777115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_core' sans documentation
 
-- **line :** 1039
+- **line :** 1055
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776231,7 +777125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_time_temp_local_context' sans documentation
 
-- **line :** 1050
+- **line :** 1066
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776241,7 +777135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index' sans documentation
 
-- **line :** 1064
+- **line :** 1079
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776251,7 +777145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Core ' sans documentation
 
-- **line :** 1069
+- **line :** 1084
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776261,7 +777155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_local_task' sans documentation
 
-- **line :** 1146
+- **line :** 1159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776271,7 +777165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'transition_to_searching' sans documentation
 
-- **line :** 1185
+- **line :** 1198
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776281,7 +777175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'transition_from_searching' sans documentation
 
-- **line :** 1193
+- **line :** 1206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776291,7 +777185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'has_tasks' sans documentation
 
-- **line :** 1202
+- **line :** 1215
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776301,7 +777195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'should_notify_others' sans documentation
 
-- **line :** 1206
+- **line :** 1219
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776311,7 +777205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tune_global_queue_interval' sans documentation
 
-- **line :** 1321
+- **line :** 1334
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776321,7 +777215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Worker ' sans documentation
 
-- **line :** 1333
+- **line :** 1346
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776331,7 +777225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Handle ' sans documentation
 
-- **line :** 1340
+- **line :** 1353
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776341,7 +777235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule_task' sans documentation
 
-- **line :** 1341
+- **line :** 1354
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776351,7 +777245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule_option_task_without_yield' sans documentation
 
-- **line :** 1370
+- **line :** 1380
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776361,7 +777255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule_local' sans documentation
 
-- **line :** 1376
+- **line :** 1386
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776371,7 +777265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_remote_task' sans documentation
 
-- **line :** 1410
+- **line :** 1420
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776381,7 +777275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push_remote_task' sans documentation
 
-- **line :** 1420
+- **line :** 1424
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776421,7 +777315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'notify_parked_remote' sans documentation
 
-- **line :** 1476
+- **line :** 1472
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776431,7 +777325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'notify_all' sans documentation
 
-- **line :** 1482
+- **line :** 1478
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776441,7 +777335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'notify_if_work_pending' sans documentation
 
-- **line :** 1488
+- **line :** 1484
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776451,7 +777345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ptr_eq' sans documentation
 
-- **line :** 1538
+- **line :** 1534
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776461,7 +777355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Overflow<Arc<Handle>> for Handle ' sans documentation
 
-- **line :** 1543
+- **line :** 1539
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -776471,7 +777365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push' sans documentation
 
-- **line :** 1544
+- **line :** 1540
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776481,37 +777375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push_batch' sans documentation
 
-- **line :** 1548
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'InjectGuard' sans documentation
-
-- **line :** 1558
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'as_mut' sans documentation
-
-- **line :** 1563
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'lock' sans documentation
-
-- **line :** 1571
+- **line :** 1544
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776521,7 +777385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_current' sans documentation
 
-- **line :** 1586
+- **line :** 1560
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -776595,7 +777459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Shared ' sans documentation
 
-- **line :** 60
+- **line :** 57
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -777239,7 +778103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_payload_as_str' sans documentation
 
-- **line :** 183
+- **line :** 180
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777351,7 +778215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'can_read_output' sans documentation
 
-- **line :** 420
+- **line :** 422
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777361,7 +778225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_join_waker' sans documentation
 
-- **line :** 464
+- **line :** 466
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777371,7 +778235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'PollFuture' sans documentation
 
-- **line :** 492
+- **line :** 494
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -777381,7 +778245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_result_to_join_error' sans documentation
 
-- **line :** 509
+- **line :** 511
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777391,7 +778255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Guard' sans documentation
 
-- **line :** 524
+- **line :** 526
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -777401,7 +778265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 528
+- **line :** 530
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777411,7 +778275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_to_error' sans documentation
 
-- **line :** 560
+- **line :** 562
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777879,7 +778743,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Task' sans documentation
 
-- **line :** 233
+- **line :** 235
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -777889,7 +778753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Notified' sans documentation
 
-- **line :** 243
+- **line :** 245
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -777897,7 +778761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'task_meta' sans documentation
+- **Message :** Function 'set_scheduled_at' sans documentation
 
 - **line :** 248
 
@@ -777907,19 +778771,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'set_scheduled_at' sans documentation
-
-- **line :** 252
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Struct 'LocalNotified' sans documentation
 
-- **line :** 270
+- **line :** 266
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -777929,7 +778783,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_meta' sans documentation
 
-- **line :** 278
+- **line :** 274
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777939,7 +778793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_scheduled_at' sans documentation
 
-- **line :** 282
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777949,7 +778803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TaskHarnessScheduleHooks' sans documentation
 
-- **line :** 303
+- **line :** 302
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -777959,7 +778813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Trait 'Schedule' sans documentation
 
-- **line :** 307
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette trait
 
@@ -777969,7 +778823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hooks' sans documentation
 
-- **line :** 318
+- **line :** 317
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777979,7 +778833,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 418
+- **line :** 417
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777989,7 +778843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'header' sans documentation
 
-- **line :** 423
+- **line :** 422
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -777999,7 +778853,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'header_ptr' sans documentation
 
-- **line :** 427
+- **line :** 426
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778009,7 +778863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'id' sans documentation
 
-- **line :** 436
+- **line :** 435
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778019,7 +778873,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawned_at' sans documentation
 
-- **line :** 442
+- **line :** 441
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778029,7 +778883,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_meta' sans documentation
 
-- **line :** 451
+- **line :** 450
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778039,7 +778893,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'header' sans documentation
 
-- **line :** 477
+- **line :** 481
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778049,7 +778903,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id' sans documentation
 
-- **line :** 483
+- **line :** 487
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778059,7 +778913,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_raw' sans documentation
 
-- **line :** 498
+- **line :** 502
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778069,7 +778923,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_notified' sans documentation
 
-- **line :** 527
+- **line :** 531
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778079,7 +778933,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_task' sans documentation
 
-- **line :** 531
+- **line :** 535
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778089,7 +778943,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 545
+- **line :** 549
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778099,7 +778953,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown' sans documentation
 
-- **line :** 561
+- **line :** 565
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778109,7 +778963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 567
+- **line :** 571
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778119,7 +778973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 577
+- **line :** 581
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778129,7 +778983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 587
+- **line :** 591
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778139,7 +778993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 593
+- **line :** 597
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778149,7 +779003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 605
+- **line :** 609
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778159,7 +779013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'spawn_location' sans documentation
 
-- **line :** 634
+- **line :** 638
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -778169,7 +779023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SpawnLocation' sans documentation
 
-- **line :** 639
+- **line :** 643
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -778179,7 +779033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<' sans documentation
 
-- **line :** 641
+- **line :** 645
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -778189,7 +779043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 642
+- **line :** 646
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778198,19 +779052,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Mod 'spawn_location' sans documentation
-
-- **line :** 649
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'SpawnLocation' sans documentation
 
 - **line :** 653
 
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'SpawnLocation' sans documentation
+
+- **line :** 657
+
 - **suggestion :** Ajoutez /// avant cette struct
 
 - **module :** rust
@@ -778219,7 +779073,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<' sans documentation
 
-- **line :** 655
+- **line :** 659
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -778229,7 +779083,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 656
+- **line :** 660
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778239,7 +779093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_location_is_zero_sized' sans documentation
 
-- **line :** 663
+- **line :** 667
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778249,7 +779103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SpawnLocation ' sans documentation
 
-- **line :** 668
+- **line :** 672
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -778259,7 +779113,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'capture' sans documentation
 
-- **line :** 671
+- **line :** 675
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778755,7 +779609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TraceMeta' sans documentation
 
-- **line :** 157
+- **line :** 159
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -778765,7 +779619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Trace ' sans documentation
 
-- **line :** 257
+- **line :** 259
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -778775,7 +779629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'capture' sans documentation
 
-- **line :** 261
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778785,7 +779639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'empty' sans documentation
 
-- **line :** 270
+- **line :** 272
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778795,7 +779649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push_backtrace' sans documentation
 
-- **line :** 274
+- **line :** 276
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778805,7 +779659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'root' sans documentation
 
-- **line :** 280
+- **line :** 282
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778815,7 +779669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'backtraces' sans documentation
 
-- **line :** 284
+- **line :** 286
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778825,7 +779679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'trace_leaf' sans documentation
 
-- **line :** 297
+- **line :** 299
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778835,7 +779689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 328
+- **line :** 330
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -778845,7 +779699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 329
+- **line :** 331
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778855,7 +779709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'defer' sans documentation
 
-- **line :** 334
+- **line :** 336
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778865,7 +779719,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Defer' sans documentation
 
-- **line :** 337
+- **line :** 339
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -778875,7 +779729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 341
+- **line :** 343
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -778885,7 +779739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 355
+- **line :** 357
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779043,7 +779897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TaskHooks ' sans documentation
 
-- **line :** 4
+- **line :** 6
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -779053,7 +779907,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn' sans documentation
 
-- **line :** 5
+- **line :** 7
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779063,7 +779917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_config' sans documentation
 
-- **line :** 12
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779073,7 +779927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_start_callback' sans documentation
 
-- **line :** 25
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779083,7 +779937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_stop_callback' sans documentation
 
-- **line :** 33
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779093,7 +779947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TaskHooks' sans documentation
 
-- **line :** 41
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -779103,7 +779957,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TaskMeta' sans documentation
 
-- **line :** 59
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -779113,7 +779967,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'id' sans documentation
 
-- **line :** 71
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779123,7 +779977,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawned_at' sans documentation
 
-- **line :** 77
+- **line :** 82
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'schedule_latency' sans documentation
+
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779155,7 +780019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pop_n_drains_on_drop' sans documentation
 
-- **line :** 42
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -779195,7 +780059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'spawn_blocking_when_paused' sans documentation
+- **Message :** Function 'mandatory_blocking_io_write_should_always_run' sans documentation
 
 - **line :** 78
 
@@ -779205,9 +780069,79 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Struct 'Writer' sans documentation
+
+- **line :** 84
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'io' sans documentation
+
+- **line :** 86
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'write' sans documentation
+
+- **line :** 87
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'flush' sans documentation
+
+- **line :** 94
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking_when_paused' sans documentation
+
+- **line :** 118
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking_at_thread_cap_runs' sans documentation
+
+- **line :** 180
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking_racing_shutdown_resolves' sans documentation
+
+- **line :** 208
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'mk_runtime' sans documentation
 
-- **line :** 135
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -780159,7 +781093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stress2' sans documentation
 
-- **line :** 219
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -780997,7 +781931,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for StateCell ' sans documentation
 
-- **line :** 104
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781007,7 +781941,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 105
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781017,7 +781951,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 110
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781027,7 +781961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 111
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781037,7 +781971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'StateCell ' sans documentation
 
-- **line :** 116
+- **line :** 115
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781047,7 +781981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 117
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781057,7 +781991,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_pending' sans documentation
 
-- **line :** 125
+- **line :** 124
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781067,7 +782001,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_state' sans documentation
 
-- **line :** 151
+- **line :** 150
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781077,7 +782011,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TimerEntry' sans documentation
 
-- **line :** 287
+- **line :** 286
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -781085,29 +782019,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'PinnedDrop for TimerEntry ' sans documentation
-
-- **line :** 300
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-
-- **line :** 301
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Struct 'TimerHandle' sans documentation
 
-- **line :** 321
+- **line :** 311
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -781117,7 +782031,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 358
+- **line :** 348
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781127,7 +782041,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 359
+- **line :** 349
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781137,7 +782051,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TimerShared ' sans documentation
 
-- **line :** 378
+- **line :** 368
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781147,7 +782061,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 379
+- **line :** 369
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781157,7 +782071,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 456
+- **line :** 446
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781167,7 +782081,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TimerEntry ' sans documentation
 
-- **line :** 473
+- **line :** 463
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781177,7 +782091,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 474
+- **line :** 464
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781187,7 +782101,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'init' sans documentation
 
-- **line :** 481
+- **line :** 470
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781197,7 +782111,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_elapsed' sans documentation
 
-- **line :** 490
+- **line :** 479
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781207,7 +782121,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset' sans documentation
 
-- **line :** 522
+- **line :** 511
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781217,17 +782131,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_elapsed' sans documentation
 
-- **line :** 535
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'driver' sans documentation
-
-- **line :** 548
+- **line :** 524
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781237,7 +782141,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TimerHandle ' sans documentation
 
-- **line :** 553
+- **line :** 539
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781491,7 +782395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'did_wake' sans documentation
 
-- **line :** 456
+- **line :** 455
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781501,7 +782405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Inner ' sans documentation
 
-- **line :** 468
+- **line :** 467
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781511,7 +782415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_shutdown' sans documentation
 
-- **line :** 479
+- **line :** 478
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781521,7 +782425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 488
+- **line :** 487
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781531,7 +782435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 489
+- **line :** 488
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781541,7 +782445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 495
+- **line :** 494
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -781675,7 +782579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_timer' sans documentation
 
-- **line :** 73
+- **line :** 75
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781685,7 +782589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'change_waker' sans documentation
 
-- **line :** 107
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781695,7 +782599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_future' sans documentation
 
-- **line :** 140
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781705,7 +782609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'normal_or_miri' sans documentation
 
-- **line :** 193
+- **line :** 196
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781715,7 +782619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_process_levels' sans documentation
 
-- **line :** 203
+- **line :** 206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781725,7 +782629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_process_levels_targeted' sans documentation
 
-- **line :** 238
+- **line :** 247
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781735,7 +782639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'instant_to_tick_max' sans documentation
 
-- **line :** 259
+- **line :** 272
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781787,7 +782691,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take_slot' sans documentation
 
-- **line :** 144
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781797,7 +782701,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 151
+- **line :** 163
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781807,7 +782711,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 152
+- **line :** 164
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781817,7 +782721,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'occupied_bit' sans documentation
 
-- **line :** 159
+- **line :** 171
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781827,7 +782731,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'slot_range' sans documentation
 
-- **line :** 163
+- **line :** 175
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781837,7 +782741,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level_range' sans documentation
 
-- **line :** 167
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781847,7 +782751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 177
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -781857,7 +782761,117 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_slot_for' sans documentation
 
-- **line :** 181
+- **line :** 193
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'level_with' sans documentation
+
+- **line :** 206
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_on_an_empty_level' sans documentation
+
+- **line :** 213
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_of_a_single_slot' sans documentation
+
+- **line :** 219
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_picks_the_nearest_slot_forward' sans documentation
+
+- **line :** 233
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_skips_the_slot_holding_now' sans documentation
+
+- **line :** 243
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_of_the_slot_holding_now_when_it_is_the_only_one' sans documentation
+
+- **line :** 259
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_of_the_last_slot' sans documentation
+
+- **line :** 269
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_reports_the_start_of_the_slot' sans documentation
+
+- **line :** 277
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_below_the_top_level' sans documentation
+
+- **line :** 287
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_at_the_top_level' sans documentation
+
+- **line :** 295
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_wraps_a_slot_at_or_behind_now' sans documentation
+
+- **line :** 303
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781889,7 +782903,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wheel ' sans documentation
 
-- **line :** 50
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -781899,7 +782913,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_elapsed' sans documentation
 
-- **line :** 264
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781909,7 +782923,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level_for' sans documentation
 
-- **line :** 282
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781919,7 +782933,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level_for' sans documentation
 
-- **line :** 287
+- **line :** 286
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -781929,7 +782943,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 306
+- **line :** 302
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -781939,7 +782953,77 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_for' sans documentation
 
-- **line :** 310
+- **line :** 308
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'insert_entry' sans documentation
+
+- **line :** 344
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_to_level_4' sans documentation
+
+- **line :** 355
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_to_level_5' sans documentation
+
+- **line :** 380
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_after_level_5' sans documentation
+
+- **line :** 404
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_after_level_5_twice' sans documentation
+
+- **line :** 429
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_to_level_5_and_after_level_5' sans documentation
+
+- **line :** 460
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_at_slot_5_of_the_top_level' sans documentation
+
+- **line :** 493
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782667,7 +783751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Timer' sans documentation
 
-- **line :** 11
+- **line :** 10
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -782677,7 +783761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 16
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -782687,27 +783771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 17
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'Drop for Timer ' sans documentation
-
-- **line :** 22
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-
-- **line :** 23
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782717,7 +783781,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Timer ' sans documentation
 
-- **line :** 28
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -782727,7 +783791,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 30
+- **line :** 23
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'cancel' sans documentation
+
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782737,7 +783811,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_elapsed' sans documentation
 
-- **line :** 51
+- **line :** 47
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782747,7 +783821,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_elapsed' sans documentation
 
-- **line :** 55
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782757,7 +783831,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_current_temp_local_context' sans documentation
 
-- **line :** 60
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782767,17 +783841,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'push_from_remote' sans documentation
 
-- **line :** 112
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'deadline_to_tick' sans documentation
-
-- **line :** 126
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782943,7 +784007,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take_slot' sans documentation
 
-- **line :** 147
+- **line :** 159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782953,7 +784017,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 154
+- **line :** 166
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -782963,7 +784027,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 155
+- **line :** 167
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782973,7 +784037,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'occupied_bit' sans documentation
 
-- **line :** 162
+- **line :** 174
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782983,7 +784047,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'slot_range' sans documentation
 
-- **line :** 166
+- **line :** 178
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -782993,7 +784057,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level_range' sans documentation
 
-- **line :** 170
+- **line :** 182
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783003,7 +784067,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 180
+- **line :** 192
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -783013,7 +784077,117 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_slot_for' sans documentation
 
-- **line :** 184
+- **line :** 196
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'level_with' sans documentation
+
+- **line :** 209
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_on_an_empty_level' sans documentation
+
+- **line :** 216
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_of_a_single_slot' sans documentation
+
+- **line :** 222
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_picks_the_nearest_slot_forward' sans documentation
+
+- **line :** 236
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_skips_the_slot_holding_now' sans documentation
+
+- **line :** 246
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_of_the_slot_holding_now_when_it_is_the_only_one' sans documentation
+
+- **line :** 262
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_occupied_slot_of_the_last_slot' sans documentation
+
+- **line :** 272
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_reports_the_start_of_the_slot' sans documentation
+
+- **line :** 280
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_below_the_top_level' sans documentation
+
+- **line :** 290
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_at_the_top_level' sans documentation
+
+- **line :** 298
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_expiration_wraps_a_slot_at_or_behind_now' sans documentation
+
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783045,7 +784219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wheel ' sans documentation
 
-- **line :** 41
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783055,7 +784229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_elapsed' sans documentation
 
-- **line :** 202
+- **line :** 203
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783065,7 +784239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level_for' sans documentation
 
-- **line :** 220
+- **line :** 221
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783075,7 +784249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level_for' sans documentation
 
-- **line :** 225
+- **line :** 226
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783085,7 +784259,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 244
+- **line :** 242
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -783095,7 +784269,87 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_for' sans documentation
 
-- **line :** 248
+- **line :** 247
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'insert_entry' sans documentation
+
+- **line :** 283
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll' sans documentation
+
+- **line :** 290
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_to_level_4' sans documentation
+
+- **line :** 296
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_to_level_5' sans documentation
+
+- **line :** 321
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_after_level_5' sans documentation
+
+- **line :** 345
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_after_level_5_twice' sans documentation
+
+- **line :** 370
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_to_level_5_and_after_level_5' sans documentation
+
+- **line :** 401
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_next_expiration_at_slot_5_of_the_top_level' sans documentation
+
+- **line :** 434
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783249,7 +784503,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Storage for Vec<EventInfo> ' sans documentation
 
-- **line :** 40
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783259,7 +784513,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'event_info' sans documentation
 
-- **line :** 41
+- **line :** 39
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783267,9 +784521,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'for_each' sans documentation
+- **Message :** Function 'iter' sans documentation
 
-- **line :** 45
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783279,7 +784533,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Registry' sans documentation
 
-- **line :** 58
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -783289,7 +784543,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 63
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783299,7 +784553,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Globals' sans documentation
 
-- **line :** 107
+- **line :** 95
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -783309,7 +784563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ops' sans documentation
 
-- **line :** 112
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783319,7 +784573,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deref' sans documentation
 
-- **line :** 115
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783329,7 +784583,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Globals ' sans documentation
 
-- **line :** 120
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783339,7 +784593,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'storage' sans documentation
 
-- **line :** 140
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783349,7 +784603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'globals_init' sans documentation
 
-- **line :** 145
+- **line :** 133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783359,7 +784613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'globals' sans documentation
 
-- **line :** 156
+- **line :** 144
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783369,7 +784623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 167
+- **line :** 155
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -783379,7 +784633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'smoke' sans documentation
 
-- **line :** 175
+- **line :** 163
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783389,7 +784643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'register_panics_on_invalid_input' sans documentation
 
-- **line :** 227
+- **line :** 215
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783399,7 +784653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'record_invalid_event_does_nothing' sans documentation
 
-- **line :** 234
+- **line :** 222
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783409,7 +784663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'broadcast_returns_if_at_least_one_event_fired' sans documentation
 
-- **line :** 240
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783419,7 +784673,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 259
+- **line :** 247
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783429,7 +784683,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'collect' sans documentation
 
-- **line :** 266
+- **line :** 254
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783611,7 +784865,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'for_each' sans documentation
+- **Message :** Function 'iter' sans documentation
 
 - **line :** 55
 
@@ -783623,7 +784877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'OsExtraData' sans documentation
 
-- **line :** 64
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -783633,7 +784887,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for OsExtraData ' sans documentation
 
-- **line :** 69
+- **line :** 66
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783643,7 +784897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 70
+- **line :** 67
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783653,7 +784907,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SignalKind' sans documentation
 
-- **line :** 79
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -783663,7 +784917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SignalKind ' sans documentation
 
-- **line :** 81
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783673,7 +784927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<std' sans documentation
 
-- **line :** 229
+- **line :** 226
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783683,7 +784937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 230
+- **line :** 227
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783693,7 +784947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<SignalKind> for std' sans documentation
 
-- **line :** 235
+- **line :** 232
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783703,7 +784957,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 236
+- **line :** 233
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783713,7 +784967,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SignalInfo' sans documentation
 
-- **line :** 242
+- **line :** 239
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -783723,7 +784977,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Signal' sans documentation
 
-- **line :** 370
+- **line :** 366
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -783733,7 +784987,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'signal' sans documentation
 
-- **line :** 402
+- **line :** 398
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783743,7 +784997,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'signal_with_handle' sans documentation
 
-- **line :** 411
+- **line :** 407
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783753,7 +785007,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Signal ' sans documentation
 
-- **line :** 421
+- **line :** 417
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783763,7 +785017,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Trait 'InternalStream' sans documentation
 
-- **line :** 493
+- **line :** 489
 
 - **suggestion :** Ajoutez /// avant cette trait
 
@@ -783773,7 +785027,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_recv' sans documentation
 
-- **line :** 494
+- **line :** 490
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783783,7 +785037,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'InternalStream for Signal ' sans documentation
 
-- **line :** 498
+- **line :** 494
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -783793,7 +785047,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_recv' sans documentation
 
-- **line :** 499
+- **line :** 495
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783803,7 +785057,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ctrl_c' sans documentation
 
-- **line :** 504
+- **line :** 500
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783813,7 +785067,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 509
+- **line :** 505
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -783823,7 +785077,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'signal_enable_error_on_invalid_input' sans documentation
 
-- **line :** 513
+- **line :** 509
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783833,7 +785087,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'signal_enable_error_on_forbidden_input' sans documentation
 
-- **line :** 527
+- **line :** 523
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783843,7 +785097,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_c_int' sans documentation
 
-- **line :** 541
+- **line :** 537
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -783853,7 +785107,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_c_int' sans documentation
 
-- **line :** 546
+- **line :** 542
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784725,7 +785979,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Waiter ' sans documentation
 
-- **line :** 440
+- **line :** 439
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -784735,7 +785989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 441
+- **line :** 440
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784745,7 +785999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'RecvGuard' sans documentation
 
-- **line :** 459
+- **line :** 458
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -784755,7 +786009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'WaiterCell' sans documentation
 
-- **line :** 474
+- **line :** 473
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -784765,7 +786019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'channel' sans documentation
 
-- **line :** 540
+- **line :** 539
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784775,7 +786029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 558
+- **line :** 557
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784785,7 +786039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'downgrade' sans documentation
 
-- **line :** 732
+- **line :** 731
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784795,7 +786049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'close_channel' sans documentation
 
-- **line :** 935
+- **line :** 934
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784805,7 +786059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 984
+- **line :** 983
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784815,7 +786069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 995
+- **line :** 994
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784825,7 +786079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'notify_rx' sans documentation
 
-- **line :** 1023
+- **line :** 1022
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784835,7 +786089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
 
-- **line :** 1089
+- **line :** 1088
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784845,7 +786099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1098
+- **line :** 1097
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784855,7 +786109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'upgrade' sans documentation
 
-- **line :** 1111
+- **line :** 1110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784865,7 +786119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
 
-- **line :** 1147
+- **line :** 1146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784875,7 +786129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1156
+- **line :** 1155
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784885,7 +786139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1587
+- **line :** 1586
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784895,7 +786149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'NotifyGuard' sans documentation
 
-- **line :** 1588
+- **line :** 1587
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -784905,7 +786159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1594
+- **line :** 1593
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784915,7 +786169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 1633
+- **line :** 1632
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784925,7 +786179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 1664
+- **line :** 1663
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784935,7 +786189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1681
+- **line :** 1680
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784945,7 +786199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw' sans documentation
 
-- **line :** 1727
+- **line :** 1726
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784955,7 +786209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1741
+- **line :** 1740
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784965,7 +786219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1747
+- **line :** 1746
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784975,7 +786229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1753
+- **line :** 1752
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784985,7 +786239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clone_value' sans documentation
 
-- **line :** 1759
+- **line :** 1758
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -784995,7 +786249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1768
+- **line :** 1767
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -789173,9 +790427,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'blocking_acquire' sans documentation
+
+- **line :** 802
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_many' sans documentation
+
+- **line :** 838
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_owned' sans documentation
+
+- **line :** 1086
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_many_owned' sans documentation
+
+- **line :** 1125
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'merge' sans documentation
 
-- **line :** 1061
+- **line :** 1230
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -789185,7 +790479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'OwnedSemaphorePermit ' sans documentation
 
-- **line :** 1109
+- **line :** 1284
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -789195,7 +790489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'merge' sans documentation
 
-- **line :** 1168
+- **line :** 1343
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -789205,7 +790499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for SemaphorePermit<' sans documentation
 
-- **line :** 1225
+- **line :** 1401
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -789215,7 +790509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1226
+- **line :** 1402
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -789225,7 +790519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for OwnedSemaphorePermit ' sans documentation
 
-- **line :** 1231
+- **line :** 1407
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -789235,7 +790529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1232
+- **line :** 1408
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791191,7 +792485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wait_for_inner' sans documentation
 
-- **line :** 896
+- **line :** 914
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791201,7 +792495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_has_changed' sans documentation
 
-- **line :** 955
+- **line :** 973
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791211,7 +792505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_changed' sans documentation
 
-- **line :** 961
+- **line :** 979
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791221,7 +792515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'changed_impl' sans documentation
 
-- **line :** 983
+- **line :** 1001
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791231,7 +792525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
 
-- **line :** 1005
+- **line :** 1023
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791241,7 +792535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1014
+- **line :** 1032
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791251,7 +792545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1459
+- **line :** 1477
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791261,7 +792555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deref' sans documentation
 
-- **line :** 1472
+- **line :** 1490
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791271,7 +792565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 1478
+- **line :** 1496
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -791281,7 +792575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'watch_spurious_wakeup' sans documentation
 
-- **line :** 1484
+- **line :** 1502
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791291,7 +792585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'watch_borrow' sans documentation
 
-- **line :** 1518
+- **line :** 1536
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791679,7 +792973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Coop' sans documentation
 
-- **line :** 437
+- **line :** 438
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -791689,7 +792983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 446
+- **line :** 447
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791699,7 +792993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cooperative' sans documentation
 
-- **line :** 490
+- **line :** 491
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791709,7 +793003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 496
+- **line :** 497
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -791719,7 +793013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get' sans documentation
 
-- **line :** 502
+- **line :** 503
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -791729,7 +793023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'budgeting' sans documentation
 
-- **line :** 507
+- **line :** 508
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792055,7 +793349,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_local' sans documentation
 
-- **line :** 395
+- **line :** 394
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792065,7 +793359,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_local_inner' sans documentation
 
-- **line :** 410
+- **line :** 409
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792075,7 +793369,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for LocalEnterGuard ' sans documentation
 
-- **line :** 482
+- **line :** 481
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792085,7 +793379,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 483
+- **line :** 482
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792095,7 +793389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 496
+- **line :** 495
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792105,7 +793399,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 497
+- **line :** 496
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792115,7 +793409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'LocalSet ' sans documentation
 
-- **line :** 502
+- **line :** 501
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792125,7 +793419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_local' sans documentation
 
-- **line :** 592
+- **line :** 591
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792135,7 +793429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_on' sans documentation
 
-- **line :** 673
+- **line :** 672
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792145,7 +793439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_named' sans documentation
 
-- **line :** 724
+- **line :** 723
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792155,7 +793449,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_named_inner' sans documentation
 
-- **line :** 737
+- **line :** 736
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792165,7 +793459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'next_task' sans documentation
 
-- **line :** 781
+- **line :** 780
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792175,7 +793469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pop_local' sans documentation
 
-- **line :** 812
+- **line :** 811
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792185,7 +793479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with' sans documentation
 
-- **line :** 821
+- **line :** 820
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792195,7 +793489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'LocalSet ' sans documentation
 
-- **line :** 865
+- **line :** 864
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792205,7 +793499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 935
+- **line :** 934
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792215,7 +793509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 936
+- **line :** 935
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792225,7 +793519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for LocalSet ' sans documentation
 
-- **line :** 941
+- **line :** 940
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792235,7 +793529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 944
+- **line :** 943
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792245,7 +793539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for LocalSet ' sans documentation
 
-- **line :** 970
+- **line :** 969
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792255,7 +793549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 971
+- **line :** 970
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792265,7 +793559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for LocalSet ' sans documentation
 
-- **line :** 976
+- **line :** 975
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792275,7 +793569,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 977
+- **line :** 976
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792285,7 +793579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Context ' sans documentation
 
-- **line :** 1026
+- **line :** 1025
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792295,7 +793589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn' sans documentation
 
-- **line :** 1028
+- **line :** 1027
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792305,7 +793599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 1060
+- **line :** 1059
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792315,7 +793609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Shared ' sans documentation
 
-- **line :** 1088
+- **line :** 1087
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792325,7 +793619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ptr_eq' sans documentation
 
-- **line :** 1133
+- **line :** 1132
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792335,7 +793629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'task' sans documentation
 
-- **line :** 1142
+- **line :** 1141
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792345,7 +793639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'release' sans documentation
 
-- **line :** 1143
+- **line :** 1142
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792355,7 +793649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'schedule' sans documentation
 
-- **line :** 1148
+- **line :** 1147
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792365,7 +793659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hooks' sans documentation
 
-- **line :** 1153
+- **line :** 1152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792375,7 +793669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unhandled_panic' sans documentation
 
-- **line :** 1160
+- **line :** 1159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792385,7 +793679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'LocalState ' sans documentation
 
-- **line :** 1185
+- **line :** 1184
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -792395,7 +793689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_called_from_owner_thread' sans documentation
 
-- **line :** 1262
+- **line :** 1261
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792405,7 +793699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 1283
+- **line :** 1280
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -792415,7 +793709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_current_thread_scheduler' sans documentation
 
-- **line :** 1292
+- **line :** 1289
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -792425,7 +793719,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wakes_to_local_queue' sans documentation
 
-- **line :** 1314
+- **line :** 1311
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793187,19 +794481,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'far_future' sans documentation
-
-- **line :** 57
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Impl 'From<std' sans documentation
 
-- **line :** 153
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -793209,7 +794493,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 154
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793219,7 +794503,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<Instant> for std' sans documentation
 
-- **line :** 159
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -793228,6 +794512,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
+
+- **line :** 152
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ops' sans documentation
+
+- **line :** 157
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'add' sans documentation
 
 - **line :** 160
 
@@ -793247,9 +794551,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'add' sans documentation
+- **Message :** Function 'add_assign' sans documentation
 
-- **line :** 168
+- **line :** 166
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793259,7 +794563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ops' sans documentation
 
-- **line :** 173
+- **line :** 171
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -793267,7 +794571,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'add_assign' sans documentation
+- **Message :** Function 'sub' sans documentation
 
 - **line :** 174
 
@@ -793307,29 +794611,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'sub' sans documentation
-
-- **line :** 190
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'ops' sans documentation
-
-- **line :** 195
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Function 'sub_assign' sans documentation
 
-- **line :** 196
+- **line :** 188
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793339,7 +794623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 201
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -793349,7 +794633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 202
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793359,7 +794643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'variant' sans documentation
 
-- **line :** 208
+- **line :** 200
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -793369,7 +794653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'now' sans documentation
 
-- **line :** 211
+- **line :** 203
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793379,7 +794663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'variant' sans documentation
 
-- **line :** 217
+- **line :** 209
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -793389,7 +794673,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'now' sans documentation
 
-- **line :** 220
+- **line :** 212
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793481,17 +794765,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'clock' sans documentation
+- **Message :** Function 'safe_delay' sans documentation
 
 - **line :** 87
 
-- **suggestion :** Ajoutez /// avant cette mod
+- **suggestion :** Ajoutez /// avant cette function
 
 - **module :** rust
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'error' sans documentation
+- **Message :** Mod 'clock' sans documentation
 
 - **line :** 93
 
@@ -793501,27 +794785,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Mod 'error' sans documentation
+
+- **line :** 99
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Mod 'instant' sans documentation
-
-- **line :** 95
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'interval' sans documentation
-
-- **line :** 98
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'sleep' sans documentation
 
 - **line :** 101
 
@@ -793531,9 +794805,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'timeout' sans documentation
+- **Message :** Mod 'interval' sans documentation
 
 - **line :** 104
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'sleep' sans documentation
+
+- **line :** 107
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'timeout' sans documentation
+
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -793565,7 +794859,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Sleep' sans documentation
 
-- **line :** 225
+- **line :** 221
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'PinnedDrop for Sleep ' sans documentation
+
+- **line :** 229
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 230
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Inner' sans documentation
+
+- **line :** 241
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -793575,17 +794899,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Inner' sans documentation
 
-- **line :** 236
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'Inner' sans documentation
-
-- **line :** 243
+- **line :** 248
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -793595,7 +794909,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Sleep ' sans documentation
 
-- **line :** 247
+- **line :** 252
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -793605,17 +794919,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_timeout' sans documentation
 
-- **line :** 250
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'far_future' sans documentation
-
-- **line :** 299
+- **line :** 255
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793625,7 +794929,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_elapsed' sans documentation
 
-- **line :** 391
+- **line :** 396
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793635,7 +794939,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for Sleep ' sans documentation
 
-- **line :** 452
+- **line :** 457
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -793645,7 +794949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 464
+- **line :** 469
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793667,7 +794971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_at' sans documentation
 
-- **line :** 164
+- **line :** 165
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793677,7 +794981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Timeout' sans documentation
 
-- **line :** 176
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -793685,19 +794989,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'new_with_delay' sans documentation
-
-- **line :** 185
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 211
+- **line :** 210
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -793707,7 +795001,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_delay' sans documentation
 
-- **line :** 227
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -794815,16 +796109,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'pin_as_deref_mut' sans documentation
-
-- **line :** 108
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/src/util/ptr_expose.rs
 
 ## ⚠️ Warning
@@ -794953,7 +796237,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fastrand_n' sans documentation
 
-- **line :** 75
+- **line :** 71
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -794963,7 +796247,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fastrand' sans documentation
 
-- **line :** 82
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -794973,7 +796257,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 97
+- **line :** 93
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -794983,7 +796267,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'non_zero_seed_from_u64' sans documentation
 
-- **line :** 101
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -794993,7 +796277,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'non_zero_seed_from_pair' sans documentation
 
-- **line :** 108
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -795665,7 +796949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'udp_socket' sans documentation
 
-- **line :** 226
+- **line :** 233
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795675,7 +796959,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unix_datagram' sans documentation
 
-- **line :** 245
+- **line :** 252
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795685,7 +796969,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unix_pipe' sans documentation
 
-- **line :** 273
+- **line :** 280
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795695,7 +796979,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'windows_named_pipe' sans documentation
 
-- **line :** 286
+- **line :** 293
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795705,7 +796989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test_process' sans documentation
 
-- **line :** 306
+- **line :** 313
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795715,7 +796999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unix_signal' sans documentation
 
-- **line :** 322
+- **line :** 329
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795725,7 +797009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'windows_signal' sans documentation
 
-- **line :** 329
+- **line :** 336
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795735,7 +797019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unix_asyncfd' sans documentation
 
-- **line :** 734
+- **line :** 741
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795745,7 +797029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ImplsFd' sans documentation
 
-- **line :** 739
+- **line :** 746
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -795755,7 +797039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 743
+- **line :** 750
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -795763,9 +797047,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'unstable' sans documentation
+- **Message :** Mod 'local_runtime' sans documentation
 
-- **line :** 776
+- **line :** 782
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -795929,9 +797213,99 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Struct 'ParkState' sans documentation
+
+- **line :** 225
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ParkState ' sans documentation
+
+- **line :** 232
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wait_until' sans documentation
+
+- **line :** 233
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wait_for_all_workers_parked' sans documentation
+
+- **line :** 241
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'assert_dump_preserves_idle_bookkeeping' sans documentation
+
+- **line :** 249
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'one_worker' sans documentation
+
+- **line :** 297
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'two_workers' sans documentation
+
+- **line :** 302
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'many_workers' sans documentation
+
+- **line :** 307
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'block_in_place_during_dump' sans documentation
+
+- **line :** 315
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'local_runtime_foreign_dump_does_not_poll_on_wrong_thread' sans documentation
 
-- **line :** 207
+- **line :** 345
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -795965,7 +797339,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'path_read_write' sans documentation
 
-- **line :** 8
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -795975,7 +797349,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_clone_should_preserve_max_buf_size' sans documentation
 
-- **line :** 19
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -795985,7 +797359,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tempdir' sans documentation
 
-- **line :** 34
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -795997,7 +797371,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'canonicalize_root_dir_unix' sans documentation
 
-- **line :** 8
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796007,7 +797381,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'canonicalize_root_dir_windows' sans documentation
 
-- **line :** 14
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796019,7 +797393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy' sans documentation
 
-- **line :** 9
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796029,7 +797403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_permissions' sans documentation
 
-- **line :** 26
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796041,7 +797415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_dir' sans documentation
 
-- **line :** 11
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796051,7 +797425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_all' sans documentation
 
-- **line :** 22
+- **line :** 34
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796061,7 +797435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_dir' sans documentation
 
-- **line :** 32
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796071,7 +797445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build_dir_mode_read_only' sans documentation
 
-- **line :** 50
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796081,7 +797455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove' sans documentation
 
-- **line :** 70
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796091,7 +797465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_inherent' sans documentation
 
-- **line :** 82
+- **line :** 94
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796101,7 +797475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_dir_entry_info' sans documentation
 
-- **line :** 111
+- **line :** 123
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796113,7 +797487,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'basic_read' sans documentation
 
-- **line :** 15
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796123,7 +797497,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'basic_write' sans documentation
 
-- **line :** 29
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796133,7 +797507,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'basic_write_and_shutdown' sans documentation
 
-- **line :** 42
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796143,7 +797517,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored' sans documentation
 
-- **line :** 55
+- **line :** 67
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796153,7 +797527,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_and_shutdown' sans documentation
 
-- **line :** 72
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796163,7 +797537,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rewind_seek_position' sans documentation
 
-- **line :** 89
+- **line :** 101
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'buf_reader_seek_after_write' sans documentation
+
+- **line :** 114
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796173,7 +797557,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'coop' sans documentation
 
-- **line :** 102
+- **line :** 133
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796183,7 +797567,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_to_clone' sans documentation
 
-- **line :** 127
+- **line :** 162
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796193,7 +797577,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_into_std' sans documentation
 
-- **line :** 141
+- **line :** 176
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796203,7 +797587,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_into_std_immediate' sans documentation
 
-- **line :** 154
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796213,7 +797597,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_file_from_std' sans documentation
 
-- **line :** 167
+- **line :** 202
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796223,7 +797607,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'empty_read' sans documentation
 
-- **line :** 181
+- **line :** 216
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'set_times' sans documentation
+
+- **line :** 235
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796233,7 +797627,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tempfile' sans documentation
 
-- **line :** 198
+- **line :** 256
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796243,7 +797637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_max_buf_size_read' sans documentation
 
-- **line :** 203
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796253,7 +797647,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_max_buf_size_write' sans documentation
 
-- **line :** 215
+- **line :** 273
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'set_max_buf_size_panics_on_zero' sans documentation
+
+- **line :** 284
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796263,7 +797667,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'file_debug_fmt' sans documentation
 
-- **line :** 227
+- **line :** 293
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796273,7 +797677,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'file_debug_fmt' sans documentation
 
-- **line :** 240
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796283,7 +797687,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unix_fd_is_valid' sans documentation
 
-- **line :** 253
+- **line :** 319
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796293,7 +797697,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_file_from_unix_fd' sans documentation
 
-- **line :** 263
+- **line :** 329
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796303,7 +797707,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'windows_handle' sans documentation
 
-- **line :** 283
+- **line :** 349
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_file_join_error.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_once' sans documentation
+
+- **line :** 21
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'file_ops_survive_join_error' sans documentation
+
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796315,7 +797741,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_hard_link' sans documentation
 
-- **line :** 11
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796325,7 +797751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_symlink' sans documentation
 
-- **line :** 37
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796335,7 +797761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_hard_link_error_source_not_found' sans documentation
 
-- **line :** 66
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796345,7 +797771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_hard_link_error_destination_already_exists' sans documentation
 
-- **line :** 77
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796355,7 +797781,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_hard_link_error_source_is_directory' sans documentation
 
-- **line :** 95
+- **line :** 111
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796367,7 +797793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_with_open_options_and_read' sans documentation
 
-- **line :** 12
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796377,7 +797803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_write' sans documentation
 
-- **line :** 26
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796387,7 +797813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_append' sans documentation
 
-- **line :** 32
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796397,7 +797823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_truncate' sans documentation
 
-- **line :** 38
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796407,7 +797833,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_create' sans documentation
 
-- **line :** 44
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796417,7 +797843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_create_new' sans documentation
 
-- **line :** 50
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796427,7 +797853,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_mode' sans documentation
 
-- **line :** 57
+- **line :** 69
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796437,7 +797863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_custom_flags_linux' sans documentation
 
-- **line :** 68
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796447,7 +797873,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_options_custom_flags_bsd_family' sans documentation
 
-- **line :** 78
+- **line :** 90
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796511,7 +797937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove_dir_all' sans documentation
 
-- **line :** 8
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796523,7 +797949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remove_file' sans documentation
 
-- **line :** 8
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796535,7 +797961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rename_file' sans documentation
 
-- **line :** 8
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796571,7 +797997,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_exists' sans documentation
 
-- **line :** 9
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796633,7 +798059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'open_many_files' sans documentation
 
-- **line :** 88
+- **line :** 101
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796643,7 +798069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 89
+- **line :** 102
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796653,7 +798079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel_op_future' sans documentation
 
-- **line :** 114
+- **line :** 126
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796663,7 +798089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'completion_waker_panic_preserves_uring' sans documentation
 
-- **line :** 150
+- **line :** 162
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796673,7 +798099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'PanicWaker' sans documentation
 
-- **line :** 155
+- **line :** 167
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -796683,7 +798109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for PanicWaker ' sans documentation
 
-- **line :** 156
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -796693,7 +798119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 157
+- **line :** 169
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796703,7 +798129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_tmp_files' sans documentation
 
-- **line :** 195
+- **line :** 207
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796799,7 +798225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'multi_rt' sans documentation
 
-- **line :** 21
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796809,7 +798235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current_rt' sans documentation
 
-- **line :** 31
+- **line :** 33
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796819,7 +798245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt_combinations' sans documentation
 
-- **line :** 35
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796829,7 +798255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_temp_file' sans documentation
 
-- **line :** 39
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796839,7 +798265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read' sans documentation
 
-- **line :** 48
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796849,7 +798275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_exact' sans documentation
 
-- **line :** 60
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796859,7 +798285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_to_end' sans documentation
 
-- **line :** 71
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796869,7 +798295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_to_string' sans documentation
 
-- **line :** 104
+- **line :** 106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796879,7 +798305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_empty' sans documentation
 
-- **line :** 115
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796889,7 +798315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_large' sans documentation
 
-- **line :** 125
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796899,7 +798325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_custom_buf_size' sans documentation
 
-- **line :** 137
+- **line :** 139
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796909,7 +798335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_partial_buf' sans documentation
 
-- **line :** 149
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796919,7 +798345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_seek' sans documentation
 
-- **line :** 167
+- **line :** 169
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796929,7 +798355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_seek_back' sans documentation
 
-- **line :** 180
+- **line :** 182
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796939,7 +798365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_after_write' sans documentation
 
-- **line :** 201
+- **line :** 203
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796949,7 +798375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_cancel' sans documentation
 
-- **line :** 222
+- **line :** 224
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796959,7 +798385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_concurrent' sans documentation
 
-- **line :** 246
+- **line :** 248
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796969,7 +798395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_multi_runtime' sans documentation
 
-- **line :** 274
+- **line :** 275
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796979,7 +798405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown_runtime_with_pending_reads' sans documentation
 
-- **line :** 292
+- **line :** 293
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796989,7 +798415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_from_std' sans documentation
 
-- **line :** 319
+- **line :** 330
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -796999,7 +798425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_with_smaller_buf' sans documentation
 
-- **line :** 345
+- **line :** 356
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797009,7 +798435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_with_bigger_buf' sans documentation
 
-- **line :** 372
+- **line :** 383
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797019,7 +798445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_buffer_larger_than_max' sans documentation
 
-- **line :** 394
+- **line :** 405
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797029,7 +798455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_then_write' sans documentation
 
-- **line :** 410
+- **line :** 421
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797039,7 +798465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_partial_read_then_write' sans documentation
 
-- **line :** 440
+- **line :** 451
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797049,17 +798475,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_file_read_4gib_buf_size' sans documentation
 
-- **line :** 475
+- **line :** 486
 
 - **suggestion :** Ajoutez /// avant cette function
 
 - **module :** rust
 
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_read.rs
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_no_io.rs
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'multi_rt' sans documentation
+- **Message :** Function 'runtime_without_io' sans documentation
+
+- **line :** 19
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'fs_read_should_fall_back_to_blocking_if_runtime_has_no_io_driver' sans documentation
 
 - **line :** 24
 
@@ -797069,9 +798505,91 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'fs_write_should_fall_back_to_blocking_if_runtime_has_no_io_driver' sans documentation
+
+- **line :** 36
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'open_options_should_fall_back_to_blocking_if_runtime_has_no_io_driver' sans documentation
+
+- **line :** 48
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'file_read_should_fall_back_to_blocking_if_runtime_has_no_io_driver' sans documentation
+
+- **line :** 64
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_exists_should_fall_back_to_blocking_if_runtime_has_no_io_driver' sans documentation
+
+- **line :** 82
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_should_fall_back_to_blocking_if_runtime_has_no_io_driver' sans documentation
+
+- **line :** 98
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_read.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'support' sans documentation
+
+- **line :** 26
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'io_uring' sans documentation
+
+- **line :** 27
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'multi_rt' sans documentation
+
+- **line :** 30
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'current_rt' sans documentation
 
-- **line :** 34
+- **line :** 40
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797081,7 +798599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt_combinations' sans documentation
 
-- **line :** 38
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797091,7 +798609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown_runtime_while_performing_io_uring_ops' sans documentation
 
-- **line :** 50
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797101,7 +798619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 51
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797111,7 +798629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_many_files' sans documentation
 
-- **line :** 93
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797121,7 +798639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'run' sans documentation
 
-- **line :** 94
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797131,7 +798649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_small_large_files' sans documentation
 
-- **line :** 120
+- **line :** 129
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797141,7 +798659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel_op_future' sans documentation
 
-- **line :** 135
+- **line :** 144
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797151,7 +798669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_tmp_files' sans documentation
 
-- **line :** 167
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797161,7 +798679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_large_temp_file' sans documentation
 
-- **line :** 180
+- **line :** 192
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797171,7 +798689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_small_temp_file' sans documentation
 
-- **line :** 190
+- **line :** 202
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797181,13 +798699,207 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_buf' sans documentation
 
-- **line :** 200
+- **line :** 212
 
 - **suggestion :** Ajoutez /// avant cette function
 
 - **module :** rust
 
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_rename.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'support' sans documentation
+
+- **line :** 27
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'io_uring' sans documentation
+
+- **line :** 28
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'multi_rt' sans documentation
+
+- **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'current_rt' sans documentation
+
+- **line :** 41
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rt_combinations' sans documentation
+
+- **line :** 45
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_runtime_while_performing_io_uring_ops' sans documentation
+
+- **line :** 57
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'run' sans documentation
+
+- **line :** 62
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_many_files' sans documentation
+
+- **line :** 103
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'run' sans documentation
+
+- **line :** 104
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_file' sans documentation
+
+- **line :** 134
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_replaces_destination' sans documentation
+
+- **line :** 149
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_directory' sans documentation
+
+- **line :** 164
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_nonexistent_source' sans documentation
+
+- **line :** 185
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rename_path_name_too_long' sans documentation
+
+- **line :** 195
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'cancel_op_future' sans documentation
+
+- **line :** 211
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'create_tmp_files' sans documentation
+
+- **line :** 245
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_runtime_shutdown.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'support' sans documentation
+
+- **line :** 22
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'io_uring' sans documentation
+
+- **line :** 23
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_runtime_while_performing_io_uring_ops' sans documentation
+
+- **line :** 28
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_statx.rs
 
 ## ⚠️ Warning
 - **Module :** rust
@@ -797261,7 +798973,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'rename_many_files' sans documentation
+- **Message :** Function 'stat_many_files' sans documentation
+
+- **line :** 104
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'run' sans documentation
 
 - **line :** 105
 
@@ -797271,213 +798993,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'run' sans documentation
-
-- **line :** 106
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'rename_file' sans documentation
-
-- **line :** 137
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'rename_replaces_destination' sans documentation
-
-- **line :** 152
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'rename_directory' sans documentation
-
-- **line :** 167
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'rename_nonexistent_source' sans documentation
-
-- **line :** 188
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'rename_path_name_too_long' sans documentation
-
-- **line :** 198
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'cancel_op_future' sans documentation
-
-- **line :** 214
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'create_tmp_files' sans documentation
-
-- **line :** 248
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_runtime_shutdown.rs
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'support' sans documentation
-
-- **line :** 22
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'io_uring' sans documentation
-
-- **line :** 23
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'shutdown_runtime_while_performing_io_uring_ops' sans documentation
-
-- **line :** 28
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/fs_uring_statx.rs
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'support' sans documentation
-
-- **line :** 29
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'io_uring' sans documentation
-
-- **line :** 30
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'multi_rt' sans documentation
-
-- **line :** 33
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'current_rt' sans documentation
-
-- **line :** 43
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'rt_combinations' sans documentation
-
-- **line :** 47
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'shutdown_runtime_while_performing_io_uring_ops' sans documentation
-
-- **line :** 59
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'run' sans documentation
-
-- **line :** 64
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'stat_many_files' sans documentation
-
-- **line :** 106
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'run' sans documentation
-
-- **line :** 107
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Function 'stat_small_large_files' sans documentation
 
-- **line :** 133
+- **line :** 130
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797487,7 +799005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stat_nonexistent_file' sans documentation
 
-- **line :** 146
+- **line :** 143
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797497,7 +799015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stat_permission_denied' sans documentation
 
-- **line :** 156
+- **line :** 153
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797507,7 +799025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stat_filesystem_loop' sans documentation
 
-- **line :** 190
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797517,7 +799035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stat_path_name_too_long' sans documentation
 
-- **line :** 222
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797527,7 +799045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cancel_op_future' sans documentation
 
-- **line :** 235
+- **line :** 238
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797537,7 +799055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_tmp_files' sans documentation
 
-- **line :** 268
+- **line :** 271
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797547,7 +799065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_large_temp_file' sans documentation
 
-- **line :** 281
+- **line :** 284
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797557,7 +799075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_small_temp_file' sans documentation
 
-- **line :** 291
+- **line :** 294
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797567,7 +799085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_buf' sans documentation
 
-- **line :** 301
+- **line :** 304
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797579,7 +799097,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 9
+- **line :** 13
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -797589,7 +799107,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'io_uring' sans documentation
 
-- **line :** 10
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -797599,7 +799117,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 63
+- **line :** 67
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797609,7 +799127,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'completed_then_dropped_before_repoll' sans documentation
 
-- **line :** 81
+- **line :** 85
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797619,7 +799137,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'uring_completed_then_dropped' sans documentation
 
-- **line :** 127
+- **line :** 131
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -797631,7 +799149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
 
-- **line :** 8
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798053,7 +799571,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_readable' sans documentation
 
-- **line :** 633
+- **line :** 632
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798063,7 +799581,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_writable' sans documentation
 
-- **line :** 637
+- **line :** 636
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798073,7 +799591,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'driver_shutdown_wakes_currently_pending_polls' sans documentation
 
-- **line :** 642
+- **line :** 641
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798083,7 +799601,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'driver_shutdown_wakes_poll' sans documentation
 
-- **line :** 664
+- **line :** 663
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798093,7 +799611,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'driver_shutdown_then_clear_readiness' sans documentation
 
-- **line :** 680
+- **line :** 679
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798103,7 +799621,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'driver_shutdown_wakes_poll_race' sans documentation
 
-- **line :** 697
+- **line :** 696
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798113,7 +799631,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'priority_event_on_oob_data' sans documentation
 
-- **line :** 721
+- **line :** 719
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798123,7 +799641,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_oob_data' sans documentation
 
-- **line :** 743
+- **line :** 741
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798133,7 +799651,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clear_ready_matching_clears_ready' sans documentation
 
-- **line :** 760
+- **line :** 758
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798143,7 +799661,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'clear_ready_matching_clears_ready_mut' sans documentation
 
-- **line :** 783
+- **line :** 781
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798153,7 +799671,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'await_error_readiness_timestamping' sans documentation
 
-- **line :** 808
+- **line :** 806
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798163,7 +799681,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'configure_timestamping_socket' sans documentation
 
-- **line :** 841
+- **line :** 839
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798173,7 +799691,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'await_error_readiness_invalid_address' sans documentation
 
-- **line :** 865
+- **line :** 863
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798183,7 +799701,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'InvalidSource' sans documentation
 
-- **line :** 933
+- **line :** 931
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798193,7 +799711,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for InvalidSource ' sans documentation
 
-- **line :** 935
+- **line :** 933
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798203,7 +799721,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 936
+- **line :** 934
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798213,7 +799731,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'register_error' sans documentation
 
-- **line :** 942
+- **line :** 940
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798223,7 +799741,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'register_with_interest_error' sans documentation
 
-- **line :** 952
+- **line :** 950
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798233,7 +799751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_new' sans documentation
 
-- **line :** 964
+- **line :** 962
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798243,7 +799761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_with_interest' sans documentation
 
-- **line :** 975
+- **line :** 973
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798253,7 +799771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_after_closing_raw_fd_with_live_duplicate' sans documentation
 
-- **line :** 986
+- **line :** 984
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798265,7 +799783,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_obj_safe' sans documentation
 
-- **line :** 7
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798275,7 +799793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function '_assert' sans documentation
 
-- **line :** 8
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798287,7 +799805,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MaybePending' sans documentation
 
-- **line :** 28
+- **line :** 36
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798297,7 +799815,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 35
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798307,7 +799825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for MaybePending<' sans documentation
 
-- **line :** 44
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798317,7 +799835,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 45
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798327,7 +799845,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncBufRead for MaybePending<' sans documentation
 
-- **line :** 61
+- **line :** 69
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798337,7 +799855,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_fill_buf' sans documentation
 
-- **line :** 62
+- **line :** 70
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798347,7 +799865,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'consume' sans documentation
 
-- **line :** 76
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798357,7 +799875,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_buffered_reader' sans documentation
 
-- **line :** 82
+- **line :** 90
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798367,7 +799885,77 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_buffered_reader_seek' sans documentation
 
-- **line :** 119
+- **line :** 127
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'seek_waits_for_pending_operation' sans documentation
+
+- **line :** 142
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'PendingOperation' sans documentation
+
+- **line :** 143
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'AsyncRead for PendingOperation ' sans documentation
+
+- **line :** 148
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_read' sans documentation
+
+- **line :** 149
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'AsyncSeek for PendingOperation ' sans documentation
+
+- **line :** 158
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'start_seek' sans documentation
+
+- **line :** 159
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_complete' sans documentation
+
+- **line :** 164
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798377,7 +799965,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_buffered_reader_seek_underflow' sans documentation
 
-- **line :** 134
+- **line :** 199
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798387,7 +799975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'PositionReader' sans documentation
 
-- **line :** 136
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798397,7 +799985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for PositionReader ' sans documentation
 
-- **line :** 139
+- **line :** 204
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798407,7 +799995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 140
+- **line :** 205
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798417,7 +800005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncSeek for PositionReader ' sans documentation
 
-- **line :** 155
+- **line :** 220
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798427,7 +800015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 156
+- **line :** 221
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798437,7 +800025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 170
+- **line :** 235
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798447,7 +800035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_short_reads' sans documentation
 
-- **line :** 192
+- **line :** 257
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798457,7 +800045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for ShortReader ' sans documentation
 
-- **line :** 198
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798467,7 +800055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 199
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798477,7 +800065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_pending' sans documentation
 
-- **line :** 226
+- **line :** 291
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798487,7 +800075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_pending_buf_read' sans documentation
 
-- **line :** 263
+- **line :** 328
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798497,7 +800085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_pending_seek' sans documentation
 
-- **line :** 282
+- **line :** 347
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798507,7 +800095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MaybePendingSeek' sans documentation
 
-- **line :** 283
+- **line :** 348
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798517,7 +800105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 290
+- **line :** 355
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798527,7 +800115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for MaybePendingSeek<' sans documentation
 
-- **line :** 299
+- **line :** 364
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798537,7 +800125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 300
+- **line :** 365
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798547,7 +800135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncBufRead for MaybePendingSeek<' sans documentation
 
-- **line :** 309
+- **line :** 374
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798557,7 +800145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_fill_buf' sans documentation
 
-- **line :** 310
+- **line :** 375
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798567,7 +800155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'consume' sans documentation
 
-- **line :** 318
+- **line :** 383
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798577,7 +800165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncSeek for MaybePendingSeek<' sans documentation
 
-- **line :** 323
+- **line :** 388
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798587,7 +800175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 324
+- **line :** 389
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798597,7 +800185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 328
+- **line :** 393
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798607,7 +800195,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_fill_buf_wrapper' sans documentation
 
-- **line :** 356
+- **line :** 421
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'one_byte_capacity_still_reads' sans documentation
+
+- **line :** 447
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'one_byte_capacity_buf_stream_still_reads' sans documentation
+
+- **line :** 465
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'zero_capacity_panics' sans documentation
+
+- **line :** 476
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'zero_capacity_buf_stream_panics' sans documentation
+
+- **line :** 482
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798619,7 +800247,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 17
+- **line :** 25
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -798629,7 +800257,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'io_vec' sans documentation
 
-- **line :** 18
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -798639,7 +800267,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MaybePending' sans documentation
 
-- **line :** 22
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798649,7 +800277,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'MaybePending ' sans documentation
 
-- **line :** 27
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798659,7 +800287,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 28
+- **line :** 36
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798669,7 +800297,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for MaybePending ' sans documentation
 
-- **line :** 36
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798679,7 +800307,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 37
+- **line :** 45
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798689,7 +800317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 52
+- **line :** 60
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798699,7 +800327,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 56
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798709,7 +800337,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored' sans documentation
 
-- **line :** 61
+- **line :** 69
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798719,7 +800347,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'buf_writer' sans documentation
 
-- **line :** 70
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798729,7 +800357,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'buf_writer_inner_flushes' sans documentation
 
-- **line :** 112
+- **line :** 120
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'buf_writer_flush_retries_interrupted' sans documentation
+
+- **line :** 130
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798739,7 +800377,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'buf_writer_seek' sans documentation
 
-- **line :** 122
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798749,7 +800387,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_pending_buf_writer' sans documentation
 
-- **line :** 135
+- **line :** 158
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798759,7 +800397,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_pending_buf_writer_inner_flushes' sans documentation
 
-- **line :** 183
+- **line :** 206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798769,7 +800407,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'maybe_pending_buf_writer_seek' sans documentation
 
-- **line :** 193
+- **line :** 216
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798779,7 +800417,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MaybePendingSeek' sans documentation
 
-- **line :** 194
+- **line :** 217
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798789,7 +800427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'MaybePendingSeek ' sans documentation
 
-- **line :** 201
+- **line :** 224
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798799,7 +800437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 202
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798809,7 +800447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for MaybePendingSeek ' sans documentation
 
-- **line :** 212
+- **line :** 235
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798819,7 +800457,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 213
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798829,7 +800467,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 228
+- **line :** 251
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798839,7 +800477,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 232
+- **line :** 255
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798849,7 +800487,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncSeek for MaybePendingSeek ' sans documentation
 
-- **line :** 237
+- **line :** 260
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798859,7 +800497,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'start_seek' sans documentation
 
-- **line :** 238
+- **line :** 261
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798869,7 +800507,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_complete' sans documentation
 
-- **line :** 242
+- **line :** 265
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798879,7 +800517,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MockWriter' sans documentation
 
-- **line :** 272
+- **line :** 295
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -798889,7 +800527,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'MockWriter ' sans documentation
 
-- **line :** 278
+- **line :** 301
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798899,7 +800537,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 279
+- **line :** 302
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798909,7 +800547,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'vectored' sans documentation
 
-- **line :** 287
+- **line :** 310
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798919,7 +800557,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_up_to' sans documentation
 
-- **line :** 295
+- **line :** 318
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798929,7 +800567,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for MockWriter ' sans documentation
 
-- **line :** 302
+- **line :** 325
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -798939,7 +800577,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 303
+- **line :** 326
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798949,7 +800587,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 313
+- **line :** 336
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798959,7 +800597,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 330
+- **line :** 353
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798969,7 +800607,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 334
+- **line :** 357
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798979,7 +800617,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 338
+- **line :** 361
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798989,7 +800627,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_empty_on_non_vectored' sans documentation
 
-- **line :** 344
+- **line :** 367
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -798999,7 +800637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_empty_on_vectored' sans documentation
 
-- **line :** 358
+- **line :** 381
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799009,7 +800647,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_basic_on_non_vectored' sans documentation
 
-- **line :** 372
+- **line :** 395
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799019,7 +800657,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_basic_on_vectored' sans documentation
 
-- **line :** 388
+- **line :** 411
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799029,7 +800667,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_large_total_on_non_vectored' sans documentation
 
-- **line :** 404
+- **line :** 427
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799039,7 +800677,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_large_total_on_vectored' sans documentation
 
-- **line :** 424
+- **line :** 447
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799049,7 +800687,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'VectoredWriteHarness' sans documentation
 
-- **line :** 443
+- **line :** 466
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799059,7 +800697,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'VectoredWriteHarness ' sans documentation
 
-- **line :** 448
+- **line :** 471
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799069,7 +800707,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 449
+- **line :** 472
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799079,7 +800717,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'with_vectored_backend' sans documentation
 
-- **line :** 456
+- **line :** 479
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799089,7 +800727,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_all' sans documentation
 
-- **line :** 463
+- **line :** 486
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799099,7 +800737,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'flush' sans documentation
 
-- **line :** 475
+- **line :** 498
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799109,7 +800747,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_odd_on_non_vectored' sans documentation
 
-- **line :** 482
+- **line :** 505
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799119,7 +800757,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_odd_on_vectored' sans documentation
 
-- **line :** 497
+- **line :** 520
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799129,7 +800767,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_large_slice_on_non_vectored' sans documentation
 
-- **line :** 512
+- **line :** 535
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799139,7 +800777,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_vectored_large_slice_on_vectored' sans documentation
 
-- **line :** 526
+- **line :** 549
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799151,7 +800789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'chain' sans documentation
 
-- **line :** 8
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799161,7 +800799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'empty_read_does_not_skip_first' sans documentation
 
-- **line :** 19
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799173,7 +800811,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy' sans documentation
 
-- **line :** 12
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799183,7 +800821,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Rd' sans documentation
 
-- **line :** 13
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799193,7 +800831,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for Rd ' sans documentation
 
-- **line :** 15
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799203,17 +800841,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 16
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'proxy' sans documentation
-
-- **line :** 40
+- **line :** 25
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799223,7 +800851,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'BufferedWd' sans documentation
 
-- **line :** 41
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799233,7 +800861,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for BufferedWd ' sans documentation
 
-- **line :** 46
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799243,7 +800871,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 47
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799253,7 +800881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 56
+- **line :** 63
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799263,7 +800891,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 67
+- **line :** 74
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'proxy' sans documentation
+
+- **line :** 80
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'proxy_buf' sans documentation
+
+- **line :** 98
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799273,7 +800921,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_is_cooperative' sans documentation
 
-- **line :** 89
+- **line :** 116
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'copy_buf_is_cooperative' sans documentation
+
+- **line :** 131
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'retry_on_io_interrupted' sans documentation
+
+- **line :** 146
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799285,7 +800953,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'make_socketpair' sans documentation
 
-- **line :** 9
+- **line :** 12
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799295,7 +800963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_write' sans documentation
 
-- **line :** 20
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799305,7 +800973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'symmetric' sans documentation
 
-- **line :** 38
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799315,7 +800983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_basic_transfer' sans documentation
 
-- **line :** 62
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799325,7 +800993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_transfer_after_close' sans documentation
 
-- **line :** 73
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799335,7 +801003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'blocking_one_side_does_not_block_other' sans documentation
 
-- **line :** 92
+- **line :** 95
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799345,7 +801013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'immediate_exit_on_write_error' sans documentation
 
-- **line :** 114
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799355,7 +801023,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'immediate_exit_on_read_error' sans documentation
 
-- **line :** 132
+- **line :** 135
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'copy_bidirectional_with_sizes_panics_on_zero_a_to_b_buffer' sans documentation
+
+- **line :** 147
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'copy_bidirectional_with_sizes_panics_on_zero_b_to_a_buffer' sans documentation
+
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799365,7 +801053,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'copy_bidirectional_is_cooperative' sans documentation
 
-- **line :** 143
+- **line :** 164
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'retry_on_io_interrupted' sans documentation
+
+- **line :** 189
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/io_copy_buf.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'retry_on_io_interrupted' sans documentation
+
+- **line :** 7
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799429,7 +801139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tcp_doesnt_block' sans documentation
 
-- **line :** 9
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799439,7 +801149,67 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_wakes' sans documentation
 
-- **line :** 31
+- **line :** 36
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'RegistrationWaker' sans documentation
+
+- **line :** 60
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ArcWake for RegistrationWaker ' sans documentation
+
+- **line :** 66
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake_by_ref' sans documentation
+
+- **line :** 67
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Drop for RegistrationWaker ' sans documentation
+
+- **line :** 70
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 71
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_drops_waker_holding_registration' sans documentation
+
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799449,7 +801219,59 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 55
+- **line :** 109
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/io_emscripten.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stdout_write_completes' sans documentation
+
+- **line :** 23
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stderr_write_completes' sans documentation
+
+- **line :** 30
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stdout_large_multichunk_write_completes' sans documentation
+
+- **line :** 37
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stdout_interleaved_writes_complete' sans documentation
+
+- **line :** 47
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stdin_read_does_not_hang' sans documentation
+
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799461,7 +801283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fill_buf_file' sans documentation
 
-- **line :** 10
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799473,7 +801295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'R' sans documentation
 
-- **line :** 10
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799483,7 +801305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for R ' sans documentation
 
-- **line :** 12
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799493,7 +801315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 13
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799503,7 +801325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'W' sans documentation
 
-- **line :** 23
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799513,7 +801335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for W ' sans documentation
 
-- **line :** 25
+- **line :** 33
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799523,7 +801345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 26
+- **line :** 34
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799533,7 +801355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 34
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799543,7 +801365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 38
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799553,7 +801375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 42
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799563,7 +801385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 50
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799573,7 +801395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_send_and_sync' sans documentation
 
-- **line :** 56
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799583,7 +801405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_bound' sans documentation
 
-- **line :** 57
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799593,7 +801415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'method_delegation' sans documentation
 
-- **line :** 63
+- **line :** 71
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799605,7 +801427,57 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'lines_inherent' sans documentation
 
-- **line :** 8
+- **line :** 21
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'lines_keeps_partial_line_after_io_error' sans documentation
+
+- **line :** 35
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'lines_keeps_truncated_multibyte_char_after_io_error' sans documentation
+
+- **line :** 52
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'lines_invalid_utf8_line_errors_once_and_advances' sans documentation
+
+- **line :** 69
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'lines_invalid_utf8_at_eof_does_not_loop_forever' sans documentation
+
+- **line :** 87
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'lines_next_line_is_cancel_safe' sans documentation
+
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799617,7 +801489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ping_pong' sans documentation
 
-- **line :** 15
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799627,7 +801499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'across_tasks' sans documentation
 
-- **line :** 30
+- **line :** 39
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799637,7 +801509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'disconnect' sans documentation
 
-- **line :** 52
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799647,7 +801519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'disconnect_reader' sans documentation
 
-- **line :** 74
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799657,7 +801529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max_write_size' sans documentation
 
-- **line :** 93
+- **line :** 102
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799665,9 +801537,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'duplex_is_cooperative' sans documentation
+- **Message :** Function 'zero_length_operations' sans documentation
 
-- **line :** 113
+- **line :** 122
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799675,17 +801547,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Struct 'PollOnWake' sans documentation
-
-- **line :** 134
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'wake' sans documentation
+- **Message :** Function 'zero_length_writes_to_closed_stream' sans documentation
 
 - **line :** 140
 
@@ -799695,9 +801557,39 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'duplex_is_cooperative' sans documentation
+
+- **line :** 154
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'PollOnWake' sans documentation
+
+- **line :** 175
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wake' sans documentation
+
+- **line :** 181
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'wake_reader_on_write_outside_lock' sans documentation
 
-- **line :** 159
+- **line :** 200
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799707,7 +801599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_reader_on_write_vectored_outside_lock' sans documentation
 
-- **line :** 170
+- **line :** 211
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799717,7 +801609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_reader_on_shutdown_outside_lock' sans documentation
 
-- **line :** 184
+- **line :** 225
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799727,7 +801619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_reader_on_drop_outside_lock' sans documentation
 
-- **line :** 195
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799737,7 +801629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_writer_on_read_outside_lock' sans documentation
 
-- **line :** 206
+- **line :** 247
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799747,7 +801639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_writer_on_drop_outside_lock' sans documentation
 
-- **line :** 217
+- **line :** 258
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799757,7 +801649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'check_drop_replaced_waker' sans documentation
 
-- **line :** 227
+- **line :** 268
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799767,7 +801659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Owner' sans documentation
 
-- **line :** 228
+- **line :** 269
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799777,7 +801669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for Owner ' sans documentation
 
-- **line :** 232
+- **line :** 273
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799787,7 +801679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 233
+- **line :** 274
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799797,7 +801689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_replaced_read_waker_outside_lock' sans documentation
 
-- **line :** 248
+- **line :** 289
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799807,7 +801699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_replaced_write_waker_outside_lock' sans documentation
 
-- **line :** 256
+- **line :** 297
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799817,7 +801709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_replaced_write_vectored_waker_outside_lock' sans documentation
 
-- **line :** 264
+- **line :** 305
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799829,7 +801721,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 9
+- **line :** 12
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -799839,7 +801731,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'panic' sans documentation
 
-- **line :** 10
+- **line :** 13
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -799849,7 +801741,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'RW' sans documentation
 
-- **line :** 14
+- **line :** 17
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799859,7 +801751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for RW ' sans documentation
 
-- **line :** 16
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799869,7 +801761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 17
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799879,7 +801771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for RW ' sans documentation
 
-- **line :** 27
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799889,7 +801781,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 28
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799899,7 +801791,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 36
+- **line :** 39
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799909,7 +801801,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 40
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799919,7 +801811,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unix' sans documentation
 
-- **line :** 46
+- **line :** 49
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -799929,7 +801821,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MockFd' sans documentation
 
-- **line :** 49
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -799939,7 +801831,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsRawFd for MockFd ' sans documentation
 
-- **line :** 51
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -799949,7 +801841,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'as_raw_fd' sans documentation
 
-- **line :** 52
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799959,7 +801851,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_buf_initialize_unfilled_to_panic_caller' sans documentation
 
-- **line :** 59
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799969,7 +801861,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_buf_advance_panic_caller' sans documentation
 
-- **line :** 74
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799979,7 +801871,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_buf_set_filled_panic_caller' sans documentation
 
-- **line :** 89
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799989,7 +801881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_buf_put_slice_panic_caller' sans documentation
 
-- **line :** 104
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -799999,7 +801891,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unsplit_panic_caller' sans documentation
 
-- **line :** 121
+- **line :** 124
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'duplex_zero_capacity_panic_caller' sans documentation
+
+- **line :** 138
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'simplex_zero_capacity_panic_caller' sans documentation
+
+- **line :** 150
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new_unsplit_zero_capacity_panic_caller' sans documentation
+
+- **line :** 162
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800009,7 +801931,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_register_panic_caller' sans documentation
 
-- **line :** 136
+- **line :** 175
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800019,7 +801941,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_register_with_interest_panic_caller' sans documentation
 
-- **line :** 158
+- **line :** 197
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800029,7 +801951,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_new_panic_caller' sans documentation
 
-- **line :** 182
+- **line :** 221
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800039,7 +801961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_with_interest_panic_caller' sans documentation
 
-- **line :** 205
+- **line :** 244
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800049,7 +801971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_try_new_panic_caller' sans documentation
 
-- **line :** 229
+- **line :** 268
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800059,7 +801981,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'async_fd_try_with_interest_panic_caller' sans documentation
 
-- **line :** 252
+- **line :** 291
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'buf_reader_with_capacity_panic_caller' sans documentation
+
+- **line :** 313
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'buf_stream_with_capacity_panic_caller' sans documentation
+
+- **line :** 325
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800363,7 +802305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 11
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -800373,7 +802315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'leaked_buffers' sans documentation
 
-- **line :** 12
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -800383,7 +802325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read' sans documentation
 
-- **line :** 17
+- **line :** 25
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800393,7 +802335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Rd' sans documentation
 
-- **line :** 19
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -800403,7 +802345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for Rd ' sans documentation
 
-- **line :** 23
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800413,7 +802355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 24
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800423,7 +802365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'BadAsyncRead' sans documentation
 
-- **line :** 45
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -800433,7 +802375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BadAsyncRead ' sans documentation
 
-- **line :** 49
+- **line :** 57
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800443,7 +802385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 50
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800453,7 +802395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for BadAsyncRead ' sans documentation
 
-- **line :** 57
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800463,7 +802405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 58
+- **line :** 66
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800473,7 +802415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_buf_bad_async_read' sans documentation
 
-- **line :** 72
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800485,7 +802427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_buf' sans documentation
 
-- **line :** 12
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800495,7 +802437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Rd' sans documentation
 
-- **line :** 13
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -800505,7 +802447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for Rd ' sans documentation
 
-- **line :** 17
+- **line :** 25
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800515,7 +802457,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 18
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800525,7 +802467,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'issue_5588' sans documentation
 
-- **line :** 40
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800537,7 +802479,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_exact' sans documentation
 
-- **line :** 8
+- **line :** 19
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'InterruptThenRead' sans documentation
+
+- **line :** 28
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'AsyncRead for InterruptThenRead ' sans documentation
+
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'poll_read' sans documentation
+
+- **line :** 34
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'read_exact_retries_interrupted' sans documentation
+
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800549,7 +802531,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_line' sans documentation
 
-- **line :** 11
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800559,7 +802541,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_line_not_all_ready' sans documentation
 
-- **line :** 33
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800569,7 +802551,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_line_invalid_utf8' sans documentation
 
-- **line :** 64
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800579,7 +802561,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_line_fail' sans documentation
 
-- **line :** 77
+- **line :** 87
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800589,7 +802571,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_line_fail_and_utf8_fail' sans documentation
 
-- **line :** 93
+- **line :** 103
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800601,7 +802583,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_to_end' sans documentation
 
-- **line :** 11
+- **line :** 20
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'read_to_end_retries_interrupted' sans documentation
+
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800611,7 +802603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'State' sans documentation
 
-- **line :** 21
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -800621,7 +802613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'UninitTest' sans documentation
 
-- **line :** 27
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -800631,7 +802623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for UninitTest ' sans documentation
 
-- **line :** 32
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800641,7 +802633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 33
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800651,7 +802643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_to_end_uninit' sans documentation
 
-- **line :** 70
+- **line :** 93
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800661,7 +802653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_to_end_doesnt_grow_with_capacity' sans documentation
 
-- **line :** 83
+- **line :** 106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800671,7 +802663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_to_end_grows_capacity_if_unfit' sans documentation
 
-- **line :** 115
+- **line :** 138
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800683,7 +802675,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_to_string' sans documentation
 
-- **line :** 10
+- **line :** 19
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'read_to_string_retries_interrupted' sans documentation
+
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800693,7 +802695,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_string_does_not_truncate_on_utf8_error' sans documentation
 
-- **line :** 20
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800703,7 +802705,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_string_does_not_truncate_on_io_error' sans documentation
 
-- **line :** 35
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800713,7 +802715,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_string_appends' sans documentation
 
-- **line :** 52
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800725,7 +802727,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_until' sans documentation
 
-- **line :** 9
+- **line :** 17
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'read_until_retries_interrupted' sans documentation
+
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800735,7 +802747,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_until_not_all_ready' sans documentation
 
-- **line :** 27
+- **line :** 49
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800745,7 +802757,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_until_fail' sans documentation
 
-- **line :** 58
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800757,7 +802769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'repeat_poll_read_is_cooperative' sans documentation
 
-- **line :** 7
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800769,7 +802781,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sink_poll_write_is_cooperative' sans documentation
 
-- **line :** 7
+- **line :** 16
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'sink_write_vectored_consumes_all_buffers' sans documentation
+
+- **line :** 30
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'sink_poll_write_vectored_is_cooperative' sans documentation
+
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800779,7 +802811,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sink_poll_flush_is_cooperative' sans documentation
 
-- **line :** 21
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800789,7 +802821,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sink_poll_shutdown_is_cooperative' sans documentation
 
-- **line :** 34
+- **line :** 71
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800801,7 +802833,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'RW' sans documentation
 
-- **line :** 12
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -800811,7 +802843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for RW ' sans documentation
 
-- **line :** 14
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800821,7 +802853,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 15
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800831,7 +802863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for RW ' sans documentation
 
-- **line :** 25
+- **line :** 33
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -800841,7 +802873,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 26
+- **line :** 34
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800851,7 +802883,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 34
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800861,7 +802893,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 38
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800871,7 +802903,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 42
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800881,7 +802913,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 50
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800891,7 +802923,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_send_and_sync' sans documentation
 
-- **line :** 56
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800901,7 +802933,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_bound' sans documentation
 
-- **line :** 57
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800911,7 +802943,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'split_stream_id' sans documentation
 
-- **line :** 64
+- **line :** 72
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800921,7 +802953,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unsplit_ok' sans documentation
 
-- **line :** 74
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800931,7 +802963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unsplit_err1' sans documentation
 
-- **line :** 81
+- **line :** 89
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800941,7 +802973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unsplit_err2' sans documentation
 
-- **line :** 89
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800951,7 +802983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'method_delegation' sans documentation
 
-- **line :** 96
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800963,7 +802995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 9
+- **line :** 17
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -800973,7 +803005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'leaked_buffers' sans documentation
 
-- **line :** 10
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -800983,7 +803015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take' sans documentation
 
-- **line :** 15
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -800993,7 +803025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'issue_4435' sans documentation
 
-- **line :** 26
+- **line :** 34
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801003,7 +803035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'BadReader' sans documentation
 
-- **line :** 42
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801013,7 +803045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BadReader ' sans documentation
 
-- **line :** 46
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801023,7 +803055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 47
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801033,7 +803065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncRead for BadReader ' sans documentation
 
-- **line :** 54
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801043,7 +803075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read' sans documentation
 
-- **line :** 55
+- **line :** 63
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801053,7 +803085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bad_reader_fails' sans documentation
 
-- **line :** 70
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801065,7 +803097,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'empty_read_is_cooperative' sans documentation
 
-- **line :** 5
+- **line :** 13
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801075,7 +803107,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'empty_buf_reads_are_cooperative' sans documentation
 
-- **line :** 20
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801085,7 +803117,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'empty_seek' sans documentation
 
-- **line :** 35
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801097,7 +803129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
 
-- **line :** 13
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801107,7 +803139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 14
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801117,7 +803149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 19
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801127,7 +803159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 20
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801137,7 +803169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 30
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801147,7 +803179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 34
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801157,7 +803189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_cursor' sans documentation
 
-- **line :** 50
+- **line :** 58
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801169,7 +803201,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_all' sans documentation
 
-- **line :** 14
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801179,7 +803211,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 15
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801189,7 +803221,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 20
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801199,7 +803231,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 21
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801209,7 +803241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 34
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801219,7 +803251,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 38
+- **line :** 47
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'write_all_retries_interrupted' sans documentation
+
+- **line :** 63
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801231,7 +803273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_all_buf' sans documentation
 
-- **line :** 14
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801241,7 +803283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 15
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801251,7 +803293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 20
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801261,7 +803303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 21
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801271,7 +803313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 35
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801281,7 +803323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 39
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801291,7 +803333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_buf_err' sans documentation
 
-- **line :** 59
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801301,7 +803343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 65
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801311,7 +803353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 66
+- **line :** 75
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801321,7 +803363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 78
+- **line :** 87
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801331,7 +803373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 82
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801341,7 +803383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_all_buf_vectored' sans documentation
 
-- **line :** 99
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801351,7 +803393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 100
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801361,7 +803403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 103
+- **line :** 113
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801371,7 +803413,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 104
+- **line :** 114
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801381,7 +803423,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 113
+- **line :** 123
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801391,7 +803433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 116
+- **line :** 126
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801401,7 +803443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 119
+- **line :** 129
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801411,7 +803453,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 130
+- **line :** 145
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'write_all_buf_retries_interrupted' sans documentation
+
+- **line :** 164
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801423,7 +803475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_all' sans documentation
 
-- **line :** 14
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801433,7 +803485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 15
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801443,7 +803495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 20
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801453,7 +803505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 21
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801463,7 +803515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 36
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801473,7 +803525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 40
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801483,7 +803535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_buf_vectored' sans documentation
 
-- **line :** 59
+- **line :** 67
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801493,7 +803545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 60
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801503,7 +803555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 65
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801513,7 +803565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 66
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801523,7 +803575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 74
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801533,7 +803585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 78
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801543,7 +803595,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_vectored' sans documentation
 
-- **line :** 82
+- **line :** 90
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801553,7 +803605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_write_vectored' sans documentation
 
-- **line :** 96
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801565,7 +803617,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_int_should_err_if_write_count_0' sans documentation
 
-- **line :** 11
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801575,7 +803627,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Wr' sans documentation
 
-- **line :** 12
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801585,7 +803637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AsyncWrite for Wr ' sans documentation
 
-- **line :** 14
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801595,7 +803647,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write' sans documentation
 
-- **line :** 15
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801605,7 +803657,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_flush' sans documentation
 
-- **line :** 23
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801615,7 +803667,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_shutdown' sans documentation
 
-- **line :** 27
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801627,7 +803679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'PanicsOnDrop' sans documentation
 
-- **line :** 5
+- **line :** 8
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -801637,7 +803689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for PanicsOnDrop ' sans documentation
 
-- **line :** 7
+- **line :** 10
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -801647,7 +803699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 8
+- **line :** 11
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -801657,7 +803709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_panics_do_not_propagate_when_dropping_join_handle' sans documentation
 
-- **line :** 14
+- **line :** 17
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803363,7 +805415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_panics_when_no_tokio_context' sans documentation
 
-- **line :** 15
+- **line :** 8
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803381,9 +805433,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'timeout_value' sans documentation
+- **Message :** Function 'io_panics_when_no_tokio_context' sans documentation
 
-- **line :** 29
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803391,9 +805443,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'io_panics_when_no_tokio_context' sans documentation
+- **Message :** Function 'fs_panics_when_no_tokio_context' sans documentation
 
-- **line :** 39
+- **line :** 51
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stdout_panics_when_no_tokio_context' sans documentation
+
+- **line :** 63
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803484,6 +805546,48 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Function 'test_one' sans documentation
 
 - **line :** 24
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/process_issue_8042.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'read_chunks' sans documentation
+
+- **line :** 14
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'child_stdout_receives_second_chunk_before_exit' sans documentation
+
+- **line :** 45
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'child_stderr_receives_second_chunk_before_exit' sans documentation
+
+- **line :** 75
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'child_stdin_rearms_after_pipe_is_full' sans documentation
+
+- **line :** 105
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803603,7 +805707,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 15
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -803613,7 +805717,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'mpsc_stream' sans documentation
 
-- **line :** 16
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -803623,7 +805727,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawned_task_does_not_progress_without_block_on' sans documentation
 
-- **line :** 29
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803633,7 +805737,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'no_extra_poll' sans documentation
 
-- **line :** 48
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803643,7 +805747,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TrackPolls' sans documentation
 
-- **line :** 59
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -803653,7 +805757,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_next' sans documentation
 
-- **line :** 71
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803663,7 +805767,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'acquire_mutex_in_drop' sans documentation
 
-- **line :** 116
+- **line :** 119
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803673,7 +805777,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_tasks_in_context' sans documentation
 
-- **line :** 152
+- **line :** 155
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803683,7 +805787,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ContextOnDrop' sans documentation
 
-- **line :** 155
+- **line :** 158
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -803693,7 +805797,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for ContextOnDrop ' sans documentation
 
-- **line :** 157
+- **line :** 160
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -803703,7 +805807,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 160
+- **line :** 163
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803713,7 +805817,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for ContextOnDrop ' sans documentation
 
-- **line :** 165
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -803723,7 +805827,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 166
+- **line :** 169
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803733,7 +805837,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_in_drop_after_panic' sans documentation
 
-- **line :** 183
+- **line :** 186
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803743,7 +805847,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'WakeOnDrop' sans documentation
 
-- **line :** 184
+- **line :** 187
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -803753,7 +805857,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for WakeOnDrop ' sans documentation
 
-- **line :** 186
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -803763,7 +805867,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 187
+- **line :** 190
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803773,7 +805877,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_two' sans documentation
 
-- **line :** 221
+- **line :** 224
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803783,7 +805887,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_remote' sans documentation
 
-- **line :** 254
+- **line :** 260
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803793,7 +805897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_panics_when_no_time_handle' sans documentation
 
-- **line :** 293
+- **line :** 299
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803803,7 +805907,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default_runtime_name_should_be_none' sans documentation
 
-- **line :** 305
+- **line :** 311
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803813,7 +805917,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'different_runtime_names' sans documentation
 
-- **line :** 312
+- **line :** 318
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803823,7 +805927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'unstable' sans documentation
 
-- **line :** 326
+- **line :** 332
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -803833,7 +805937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown_on_panic' sans documentation
 
-- **line :** 333
+- **line :** 339
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803843,7 +805947,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawns_do_nothing' sans documentation
 
-- **line :** 350
+- **line :** 359
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803853,7 +805957,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown_all_concurrent_block_on' sans documentation
 
-- **line :** 379
+- **line :** 391
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803863,7 +805967,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rng_seed' sans documentation
 
-- **line :** 417
+- **line :** 429
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803873,7 +805977,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rng_seed_multi_enter' sans documentation
 
-- **line :** 445
+- **line :** 457
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803883,7 +805987,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'two_rand_values' sans documentation
 
-- **line :** 448
+- **line :** 460
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803893,7 +805997,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 474
+- **line :** 486
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803903,7 +806007,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'before_park_yields' sans documentation
 
-- **line :** 482
+- **line :** 494
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -803913,7 +806017,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyWaker' sans documentation
 
-- **line :** 488
+- **line :** 500
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -803923,7 +806027,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ArcWake for MyWaker ' sans documentation
 
-- **line :** 490
+- **line :** 502
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -803933,7 +806037,71 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_by_ref' sans documentation
 
-- **line :** 491
+- **line :** 503
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_blocking_thread_exhaust.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking_with_only_scheduler_workers' sans documentation
+
+- **line :** 18
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_busy_tick.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'zero_busy_tick_panics' sans documentation
+
+- **line :** 10
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'zero_io_events_per_tick_panics' sans documentation
+
+- **line :** 16
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'busy_runtime_gets_every_event' sans documentation
+
+- **line :** 22
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'multi_thread_busy_tick' sans documentation
+
+- **line :** 67
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'current_thread_busy_tick' sans documentation
+
+- **line :** 79
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804523,9 +806691,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'shutdown_timeout_max' sans documentation
+
+- **line :** 1075
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'shutdown_wakeup_time' sans documentation
 
-- **line :** 1074
+- **line :** 1083
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804535,7 +806713,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'runtime_in_thread_local' sans documentation
 
-- **line :** 1090
+- **line :** 1099
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804545,7 +806723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'client_server' sans documentation
 
-- **line :** 1110
+- **line :** 1119
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804555,7 +806733,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_set_block_on_socket' sans documentation
 
-- **line :** 1136
+- **line :** 1145
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804565,7 +806743,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_set_client_server_block_on' sans documentation
 
-- **line :** 1158
+- **line :** 1167
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804575,7 +806753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'client_server_local' sans documentation
 
-- **line :** 1171
+- **line :** 1180
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804585,7 +806763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'coop' sans documentation
 
-- **line :** 1196
+- **line :** 1205
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804595,7 +806773,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'coop_unconstrained' sans documentation
 
-- **line :** 1224
+- **line :** 1233
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804605,7 +806783,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'coop_consume_budget' sans documentation
 
-- **line :** 1251
+- **line :** 1260
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804615,7 +806793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ping_pong_saturation' sans documentation
 
-- **line :** 1278
+- **line :** 1287
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804625,7 +806803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shutdown_concurrent_spawn' sans documentation
 
-- **line :** 1342
+- **line :** 1351
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804635,7 +806813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_by_ref_from_thread_local' sans documentation
 
-- **line :** 1377
+- **line :** 1386
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804645,7 +806823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_by_val_from_thread_local' sans documentation
 
-- **line :** 1383
+- **line :** 1392
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804655,7 +806833,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_from_thread_local' sans documentation
 
-- **line :** 1387
+- **line :** 1396
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804665,7 +806843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TLData' sans documentation
 
-- **line :** 1392
+- **line :** 1401
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -804675,7 +806853,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for TLData ' sans documentation
 
-- **line :** 1398
+- **line :** 1407
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -804685,7 +806863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 1399
+- **line :** 1408
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804733,103 +806911,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_handle.rs
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_emscripten_block_on.rs
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'basic_enter' sans documentation
+- **Message :** Function 'jspi_linked' sans documentation
 
-- **line :** 10
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'interleave_enter_different_rt' sans documentation
-
-- **line :** 24
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'interleave_enter_same_rt' sans documentation
-
-- **line :** 38
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'interleave_then_enter' sans documentation
-
-- **line :** 52
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'drop_tasks_with_reference_cycle' sans documentation
-
-- **line :** 71
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'runtime_id_is_same' sans documentation
-
-- **line :** 104
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'runtime_ids_different' sans documentation
-
-- **line :** 114
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'spawn_blocking_after_shutdown_drops_outside_lock' sans documentation
-
-- **line :** 122
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'OnDrop' sans documentation
-
-- **line :** 123
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-
-- **line :** 126
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804839,7 +806927,351 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 149
+- **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'block_on_returns_immediate_value' sans documentation
+
+- **line :** 53
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'block_on_drives_ready_spawned_tasks' sans documentation
+
+- **line :** 59
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'block_on_drives_many_ready_spawned_tasks' sans documentation
+
+- **line :** 71
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'timer_wait_completes_without_jspi' sans documentation
+
+- **line :** 88
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'timeout_elapses_without_jspi' sans documentation
+
+- **line :** 99
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wait_without_a_deadline_needs_jspi' sans documentation
+
+- **line :** 106
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_async_call' sans documentation
+
+- **line :** 129
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_emscripten_jspi.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rt' sans documentation
+
+- **line :** 24
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'jspi_linked' sans documentation
+
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'is_nested_runtime_panic' sans documentation
+
+- **line :** 46
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'nested_block_on_still_panics' sans documentation
+
+- **line :** 53
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'block_on_yield_now_takes_a_host_turn' sans documentation
+
+- **line :** 70
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'root_sleep_parks_and_resumes' sans documentation
+
+- **line :** 80
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'root_spawned_tasks_with_timers' sans documentation
+
+- **line :** 91
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'sequential_parks_inside_one_root' sans documentation
+
+- **line :** 109
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'root_park_resumes_on_timer_driven_wake' sans documentation
+
+- **line :** 121
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_async_call' sans documentation
+
+- **line :** 134
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'host_activation_wakes_park_without_deadline' sans documentation
+
+- **line :** 157
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'host_activation_wakes_timed_park_early' sans documentation
+
+- **line :** 168
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'host_activation_wakes_spawned_task' sans documentation
+
+- **line :** 185
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'greedy_task_does_not_starve_host_timer' sans documentation
+
+- **line :** 204
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'farther_timer_survives_nearer_timer_firing' sans documentation
+
+- **line :** 217
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'host_activation_spawns_onto_parked_runtime' sans documentation
+
+- **line :** 244
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_handle.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'basic_enter' sans documentation
+
+- **line :** 13
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'interleave_enter_different_rt' sans documentation
+
+- **line :** 27
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'interleave_enter_same_rt' sans documentation
+
+- **line :** 41
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'interleave_then_enter' sans documentation
+
+- **line :** 55
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop_tasks_with_reference_cycle' sans documentation
+
+- **line :** 74
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'runtime_id_is_same' sans documentation
+
+- **line :** 107
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'runtime_ids_different' sans documentation
+
+- **line :** 117
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking_after_shutdown_drops_outside_lock' sans documentation
+
+- **line :** 125
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'OnDrop' sans documentation
+
+- **line :** 126
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+
+- **line :** 129
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'rt' sans documentation
+
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804851,7 +807283,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'threaded_scheduler_4_threads_only' sans documentation
 
-- **line :** 19
+- **line :** 13
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -804861,7 +807293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 24
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804871,7 +807303,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'threaded_scheduler_1_thread_only' sans documentation
 
-- **line :** 33
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -804881,7 +807313,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 38
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804891,7 +807323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'current_thread_scheduler' sans documentation
 
-- **line :** 52
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -804901,7 +807333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 57
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804911,7 +807343,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'threaded_scheduler_4_threads' sans documentation
 
-- **line :** 65
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -804921,7 +807353,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 70
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804931,7 +807363,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'threaded_scheduler_1_thread' sans documentation
 
-- **line :** 79
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -804941,7 +807373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 84
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804951,7 +807383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'basic' sans documentation
 
-- **line :** 98
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804961,7 +807393,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bounded_mpsc_channel' sans documentation
 
-- **line :** 106
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804971,7 +807403,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unbounded_mpsc_channel' sans documentation
 
-- **line :** 118
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804981,7 +807413,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'yield_in_block_in_place' sans documentation
 
-- **line :** 130
+- **line :** 124
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -804991,7 +807423,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'basic_fs' sans documentation
 
-- **line :** 146
+- **line :** 140
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805001,7 +807433,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fs_shutdown_before_started' sans documentation
 
-- **line :** 157
+- **line :** 151
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'stdout_shutdown_before_started' sans documentation
+
+- **line :** 167
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805011,7 +807453,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'basic_spawn_blocking' sans documentation
 
-- **line :** 173
+- **line :** 185
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805021,7 +807463,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking_after_shutdown_fails' sans documentation
 
-- **line :** 189
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805031,7 +807473,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_blocking_started_before_shutdown_continues' sans documentation
 
-- **line :** 206
+- **line :** 218
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805041,7 +807483,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'thread_park_ok' sans documentation
 
-- **line :** 224
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805051,7 +807493,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tcp_listener_bind' sans documentation
 
-- **line :** 244
+- **line :** 256
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805061,7 +807503,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tcp_listener_connect_after_shutdown' sans documentation
 
-- **line :** 256
+- **line :** 266
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805071,7 +807513,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tcp_listener_connect_before_shutdown' sans documentation
 
-- **line :** 276
+- **line :** 280
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805091,7 +807533,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'udp_stream_bind_after_shutdown' sans documentation
 
-- **line :** 307
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805101,7 +807543,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'udp_stream_bind_before_shutdown' sans documentation
 
-- **line :** 327
+- **line :** 321
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805111,7 +807553,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unix_listener_bind_after_shutdown' sans documentation
 
-- **line :** 348
+- **line :** 337
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805121,7 +807563,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unix_listener_shutdown_after_bind' sans documentation
 
-- **line :** 370
+- **line :** 354
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805131,7 +807573,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unix_listener_shutdown_after_accept' sans documentation
 
-- **line :** 392
+- **line :** 374
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805141,7 +807583,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'nesting' sans documentation
 
-- **line :** 418
+- **line :** 399
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805151,7 +807593,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'some_non_async_function' sans documentation
 
-- **line :** 419
+- **line :** 400
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805161,7 +807603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_after_runtime_dropped' sans documentation
 
-- **line :** 430
+- **line :** 411
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805171,7 +807613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unix_listener_bind' sans documentation
 
-- **line :** 457
+- **line :** 438
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805181,7 +807623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep' sans documentation
 
-- **line :** 481
+- **line :** 462
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805191,7 +807633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_before_shutdown_panics' sans documentation
 
-- **line :** 490
+- **line :** 471
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805201,7 +807643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_after_shutdown_panics' sans documentation
 
-- **line :** 503
+- **line :** 484
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805211,7 +807653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_multi_thread' sans documentation
 
-- **line :** 517
+- **line :** 498
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805421,31 +807863,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_panic.rs
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_multi_thread_emscripten.rs
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Mod 'support' sans documentation
-
-- **line :** 10
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'panic' sans documentation
-
-- **line :** 11
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'current_handle_panic_caller' sans documentation
+- **Message :** Function 'block_on_multi_thread' sans documentation
 
 - **line :** 16
 
@@ -805455,9 +807877,61 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'spawn_blocking_runs_in_parallel' sans documentation
+
+- **line :** 34
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'macro_multi_thread' sans documentation
+
+- **line :** 58
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/rt_panic.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'support' sans documentation
+
+- **line :** 15
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'panic' sans documentation
+
+- **line :** 16
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'current_handle_panic_caller' sans documentation
+
+- **line :** 21
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'into_panic_panic_caller' sans documentation
 
-- **line :** 28
+- **line :** 33
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805467,7 +807941,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder_worker_threads_panic_caller' sans documentation
 
-- **line :** 50
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805477,7 +807951,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder_max_blocking_threads_panic_caller' sans documentation
 
-- **line :** 62
+- **line :** 69
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805487,7 +807961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder_global_queue_interval_panic_caller' sans documentation
 
-- **line :** 74
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805497,7 +807971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder_event_interval_interval_panic_caller' sans documentation
 
-- **line :** 86
+- **line :** 95
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805507,7 +807981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder_name_panic_caller' sans documentation
 
-- **line :** 98
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805517,7 +807991,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current_thread' sans documentation
 
-- **line :** 109
+- **line :** 119
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805551,7 +808025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 9
+- **line :** 10
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805561,7 +808035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_is_rt_shutdown_err' sans documentation
 
-- **line :** 14
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805571,7 +808045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_is_not_rt_shutdown_err' sans documentation
 
-- **line :** 31
+- **line :** 33
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805581,7 +808055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_join_error_panic' sans documentation
 
-- **line :** 41
+- **line :** 43
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805591,7 +808065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_join_error_cancelled' sans documentation
 
-- **line :** 53
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -805601,7 +808075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_other_error_kinds_and_strings' sans documentation
 
-- **line :** 65
+- **line :** 67
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806147,7 +808621,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_start_paused' sans documentation
 
-- **line :** 6
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806459,9 +808933,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'schedule_latency_lifo_polls_are_recorded_individually' sans documentation
+
+- **line :** 854
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wait_for_elapsed' sans documentation
+
+- **line :** 892
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'try_spawn_stealable_task' sans documentation
 
-- **line :** 852
+- **line :** 903
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806471,7 +808965,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current_thread' sans documentation
 
-- **line :** 876
+- **line :** 927
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806481,7 +808975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'threaded' sans documentation
 
-- **line :** 883
+- **line :** 934
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806491,7 +808985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'threaded_no_lifo' sans documentation
 
-- **line :** 891
+- **line :** 942
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806501,7 +808995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'us' sans documentation
 
-- **line :** 900
+- **line :** 951
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806513,7 +809007,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index_current_thread' sans documentation
 
-- **line :** 7
+- **line :** 10
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'worker_index_handle_block_on_current_thread' sans documentation
+
+- **line :** 22
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'worker_index_current_thread_concurrent_block_on' sans documentation
+
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806523,7 +809037,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index_local_runtime' sans documentation
 
-- **line :** 19
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806533,7 +809047,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index_outside_runtime' sans documentation
 
-- **line :** 28
+- **line :** 71
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806543,7 +809057,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index_matches_metrics_worker_thread_id' sans documentation
 
-- **line :** 34
+- **line :** 77
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806553,7 +809067,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'worker_index_from_spawn_blocking' sans documentation
 
-- **line :** 61
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806561,9 +809075,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'worker_index_block_on_multi_thread' sans documentation
+- **Message :** Function 'worker_index_multi_thread' sans documentation
 
-- **line :** 75
+- **line :** 118
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'worker_index_tokio_test_current_thread' sans documentation
+
+- **line :** 130
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'worker_index_tokio_test_multi_thread' sans documentation
+
+- **line :** 135
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806979,7 +809513,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'io_uring_supported' sans documentation
 
-- **line :** 20
+- **line :** 21
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'uring_fs_op_in_use' sans documentation
+
+- **line :** 45
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'uring_op_supported' sans documentation
+
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -806989,7 +809543,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_fds_are_not_leaking' sans documentation
 
-- **line :** 32
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -807906,6 +810460,68 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Function 'sender_strong_and_weak_conut' sans documentation
 
 - **line :** 151
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/sync_emscripten_blocking.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'emscripten_async_call' sans documentation
+
+- **line :** 18
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'jspi_linked' sans documentation
+
+- **line :** 25
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'mpsc_blocking_recv_wakes_from_host_activation' sans documentation
+
+- **line :** 61
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'oneshot_blocking_recv_wakes_from_host_activation' sans documentation
+
+- **line :** 81
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_recv_ready_value_needs_no_suspension' sans documentation
+
+- **line :** 100
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'sequential_blocking_recvs_reuse_the_parker' sans documentation
+
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809793,7 +812409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'straight_execution' sans documentation
 
-- **line :** 19
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809803,7 +812419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'readiness' sans documentation
 
-- **line :** 42
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809813,7 +812429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'lock' sans documentation
 
-- **line :** 62
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809823,7 +812439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'aborted_future_1' sans documentation
 
-- **line :** 95
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809833,7 +812449,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'aborted_future_2' sans documentation
 
-- **line :** 125
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809843,7 +812459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_lock' sans documentation
 
-- **line :** 152
+- **line :** 154
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809853,7 +812469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'debug_format' sans documentation
 
-- **line :** 165
+- **line :** 167
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -809863,7 +812479,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mutex_debug' sans documentation
 
-- **line :** 172
+- **line :** 174
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'mutex_fifo_with_coop_budget' sans documentation
+
+- **line :** 184
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'mutex_coop_drop_after_take_permit' sans documentation
+
+- **line :** 208
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810451,7 +813087,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Foo' sans documentation
 
-- **line :** 13
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -810461,7 +813097,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for Foo ' sans documentation
 
-- **line :** 17
+- **line :** 25
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -810471,7 +813107,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 18
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810481,7 +813117,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<Arc<AtomicU32>> for Foo ' sans documentation
 
-- **line :** 23
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -810491,7 +813127,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 24
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810501,7 +813137,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_cell' sans documentation
 
-- **line :** 30
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810511,7 +813147,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_cell_new_with' sans documentation
 
-- **line :** 41
+- **line :** 49
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810521,7 +813157,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_into_inner' sans documentation
 
-- **line :** 51
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810531,7 +813167,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_into_inner_new_with' sans documentation
 
-- **line :** 65
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810541,7 +813177,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 79
+- **line :** 87
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810551,7 +813187,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'func1' sans documentation
 
-- **line :** 84
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810561,7 +813197,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'func2' sans documentation
 
-- **line :** 88
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810571,7 +813207,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'func_err' sans documentation
 
-- **line :** 93
+- **line :** 101
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810581,7 +813217,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'func_ok' sans documentation
 
-- **line :** 97
+- **line :** 105
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810591,7 +813227,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'func_panic' sans documentation
 
-- **line :** 101
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810601,7 +813237,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_and_set' sans documentation
 
-- **line :** 106
+- **line :** 114
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810611,7 +813247,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'advance_time_and_set' sans documentation
 
-- **line :** 114
+- **line :** 122
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810621,7 +813257,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_or_init' sans documentation
 
-- **line :** 120
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810631,7 +813267,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_or_init_panic' sans documentation
 
-- **line :** 145
+- **line :** 153
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810641,7 +813277,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_and_get' sans documentation
 
-- **line :** 170
+- **line :** 178
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810651,7 +813287,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_uninit' sans documentation
 
-- **line :** 186
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810661,7 +813297,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_twice' sans documentation
 
-- **line :** 193
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810671,7 +813307,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_while_initializing' sans documentation
 
-- **line :** 203
+- **line :** 211
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810681,7 +813317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_or_try_init' sans documentation
 
-- **line :** 228
+- **line :** 236
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -810975,7 +813611,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 11
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -810985,7 +813621,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'panic' sans documentation
 
-- **line :** 12
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -810995,7 +813631,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'broadcast_channel_panic_caller' sans documentation
 
-- **line :** 17
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811005,7 +813641,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mutex_blocking_lock_panic_caller' sans documentation
 
-- **line :** 29
+- **line :** 32
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811015,7 +813651,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'oneshot_blocking_recv_panic_caller' sans documentation
 
-- **line :** 45
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811025,7 +813661,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rwlock_with_max_readers_panic_caller' sans documentation
 
-- **line :** 61
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811035,7 +813671,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rwlock_blocking_read_panic_caller' sans documentation
 
-- **line :** 73
+- **line :** 76
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811045,7 +813681,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rwlock_blocking_write_panic_caller' sans documentation
 
-- **line :** 89
+- **line :** 92
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811055,7 +813691,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mpsc_bounded_channel_panic_caller' sans documentation
 
-- **line :** 105
+- **line :** 108
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811065,7 +813701,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mpsc_bounded_receiver_blocking_recv_panic_caller' sans documentation
 
-- **line :** 117
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811075,7 +813711,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mpsc_bounded_receiver_blocking_recv_many_panic_caller' sans documentation
 
-- **line :** 133
+- **line :** 136
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811085,7 +813721,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mpsc_bounded_sender_blocking_send_panic_caller' sans documentation
 
-- **line :** 149
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811095,7 +813731,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mpsc_unbounded_receiver_blocking_recv_panic_caller' sans documentation
 
-- **line :** 165
+- **line :** 168
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811105,7 +813741,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mpsc_unbounded_receiver_blocking_recv_many_panic_caller' sans documentation
 
-- **line :** 181
+- **line :** 184
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811115,7 +813751,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'semaphore_merge_unrelated_owned_permits' sans documentation
 
-- **line :** 198
+- **line :** 201
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811125,7 +813761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'semaphore_merge_unrelated_permits' sans documentation
 
-- **line :** 214
+- **line :** 217
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811135,7 +813771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current_thread' sans documentation
 
-- **line :** 229
+- **line :** 232
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811577,9 +814213,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'permit_semaphore' sans documentation
+
+- **line :** 274
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'stress_test' sans documentation
 
-- **line :** 275
+- **line :** 283
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811589,7 +814235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_max_amount_permits' sans documentation
 
-- **line :** 297
+- **line :** 305
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811599,7 +814245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_more_than_max_amount_permits1' sans documentation
 
-- **line :** 306
+- **line :** 314
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811609,7 +814255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'add_more_than_max_amount_permits2' sans documentation
 
-- **line :** 314
+- **line :** 322
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811619,7 +814265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_when_exceeds_maxpermits' sans documentation
 
-- **line :** 323
+- **line :** 331
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811629,7 +814275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'acquire_many_exceeds_maxpermits' sans documentation
 
-- **line :** 330
+- **line :** 338
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811639,7 +814285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'acquire_many_top_bit_exceeds_maxpermits' sans documentation
 
-- **line :** 338
+- **line :** 346
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811649,7 +814295,117 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'no_panic_at_maxpermits' sans documentation
 
-- **line :** 344
+- **line :** 352
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire' sans documentation
+
+- **line :** 359
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_waits_for_permit' sans documentation
+
+- **line :** 369
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_many' sans documentation
+
+- **line :** 384
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_owned' sans documentation
+
+- **line :** 393
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_many_owned' sans documentation
+
+- **line :** 402
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_closed' sans documentation
+
+- **line :** 411
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_in_async_context' sans documentation
+
+- **line :** 423
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_many_in_async_context' sans documentation
+
+- **line :** 432
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_owned_in_async_context' sans documentation
+
+- **line :** 441
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'blocking_acquire_many_owned_in_async_context' sans documentation
+
+- **line :** 450
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'merge_many_permits' sans documentation
+
+- **line :** 458
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811777,13 +814533,23 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'merge_many_permits_owned' sans documentation
+
+- **line :** 185
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/sync_set_once.rs
 
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Struct 'DropCounter' sans documentation
 
-- **line :** 11
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -811793,7 +814559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'DropCounter ' sans documentation
 
-- **line :** 15
+- **line :** 23
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -811803,7 +814569,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 16
+- **line :** 24
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811813,7 +814579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_num_drops' sans documentation
 
-- **line :** 22
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811823,7 +814589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DropCounter ' sans documentation
 
-- **line :** 27
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -811833,7 +814599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 28
+- **line :** 36
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811843,7 +814609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_cell' sans documentation
 
-- **line :** 34
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811853,7 +814619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_cell_new_with' sans documentation
 
-- **line :** 48
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811863,7 +814629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_into_inner' sans documentation
 
-- **line :** 60
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811873,7 +814639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_into_inner_new_with' sans documentation
 
-- **line :** 72
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811883,7 +814649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 83
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811893,7 +814659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_and_get' sans documentation
 
-- **line :** 89
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811903,7 +814669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_and_wait' sans documentation
 
-- **line :** 98
+- **line :** 106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811913,7 +814679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_and_wait_multiple_threads' sans documentation
 
-- **line :** 109
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811923,7 +814689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_and_wait_threads' sans documentation
 
-- **line :** 124
+- **line :** 132
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811933,7 +814699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_uninit' sans documentation
 
-- **line :** 137
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811943,7 +814709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_twice' sans documentation
 
-- **line :** 144
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811953,7 +814719,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_none_initializing' sans documentation
 
-- **line :** 154
+- **line :** 162
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811963,7 +814729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_some_initializing' sans documentation
 
-- **line :** 165
+- **line :** 173
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -811973,7 +814739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'into_inner_int_empty_setonce' sans documentation
 
-- **line :** 174
+- **line :** 182
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812193,9 +814959,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'wait_for_errors_on_closed_channel_true_predicate' sans documentation
+- **Message :** Function 'receiver_is_closed_after_all_senders_are_dropped' sans documentation
 
 - **line :** 497
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wait_for_errors_on_closed_channel_true_predicate' sans documentation
+
+- **line :** 510
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812207,7 +814983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'PanicOnDrop' sans documentation
 
-- **line :** 11
+- **line :** 17
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812217,7 +814993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for PanicOnDrop ' sans documentation
 
-- **line :** 14
+- **line :** 20
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812227,7 +815003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 15
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812237,7 +815013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_abort_without_panic_3157' sans documentation
 
-- **line :** 23
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812247,7 +815023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_abort_without_panic_3662' sans documentation
 
-- **line :** 45
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812257,7 +815033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'DropCheck' sans documentation
 
-- **line :** 49
+- **line :** 57
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812267,7 +815043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DropCheck ' sans documentation
 
-- **line :** 51
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812277,7 +815053,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 52
+- **line :** 60
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812287,7 +815063,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'remote_abort_local_set_3929' sans documentation
 
-- **line :** 108
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812297,7 +815073,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'DropCheck' sans documentation
 
-- **line :** 109
+- **line :** 118
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812307,7 +815083,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'DropCheck ' sans documentation
 
-- **line :** 114
+- **line :** 123
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812317,7 +815093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 115
+- **line :** 124
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812327,7 +815103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DropCheck ' sans documentation
 
-- **line :** 122
+- **line :** 131
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812337,7 +815113,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 123
+- **line :** 132
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812347,7 +815123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_abort_wakes_task_3964' sans documentation
 
-- **line :** 151
+- **line :** 161
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812357,7 +815133,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_abort_task_that_panics_on_drop_contained' sans documentation
 
-- **line :** 182
+- **line :** 192
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812367,7 +815143,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_abort_task_that_panics_on_drop_returned' sans documentation
 
-- **line :** 206
+- **line :** 216
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812377,7 +815153,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_join_error_display' sans documentation
 
-- **line :** 229
+- **line :** 239
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812387,7 +815163,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_join_error_debug' sans documentation
 
-- **line :** 280
+- **line :** 290
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812667,13 +815443,25 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/task_emscripten.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'spawn_blocking_is_unsupported' sans documentation
+
+- **line :** 15
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/task_hooks.rs
 
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'spawn_task_hook_fires' sans documentation
 
-- **line :** 14
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812683,7 +815471,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'terminate_task_hook_fires' sans documentation
 
-- **line :** 50
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812693,7 +815481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_hook_spawn_location_current_thread' sans documentation
 
-- **line :** 78
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812703,7 +815491,87 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_hook_spawn_location_multi_thread' sans documentation
 
-- **line :** 129
+- **line :** 135
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'task_hook_spawn_location_builder' sans documentation
+
+- **line :** 186
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'task_hook_schedule_latency_non_poll_callbacks' sans documentation
+
+- **line :** 230
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'task_hook_schedule_latency_disabled' sans documentation
+
+- **line :** 256
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'task_hook_schedule_latency_current_thread' sans documentation
+
+- **line :** 267
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'task_hook_schedule_latency_multi_thread' sans documentation
+
+- **line :** 300
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'task_hook_schedule_latency_multi_thread_lifo' sans documentation
+
+- **line :** 340
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'wait_for_elapsed' sans documentation
+
+- **line :** 366
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'schedule_latency_hook' sans documentation
+
+- **line :** 378
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812713,7 +815581,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'mk_spawn_location_hook' sans documentation
 
-- **line :** 177
+- **line :** 394
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812725,7 +815593,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 12
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -812735,7 +815603,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'panic' sans documentation
 
-- **line :** 13
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -812745,7 +815613,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_spawn' sans documentation
 
-- **line :** 18
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812755,7 +815623,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_spawn_blocking' sans documentation
 
-- **line :** 26
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812765,7 +815633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_collision_current_thread' sans documentation
 
-- **line :** 33
+- **line :** 42
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812775,7 +815643,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_collision_multi_thread' sans documentation
 
-- **line :** 43
+- **line :** 52
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812785,7 +815653,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_ids_match_current_thread' sans documentation
 
-- **line :** 52
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812795,7 +815663,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_ids_match_multi_thread' sans documentation
 
-- **line :** 64
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812805,7 +815673,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_future_destructor_completion' sans documentation
 
-- **line :** 76
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812815,7 +815683,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyFuture' sans documentation
 
-- **line :** 77
+- **line :** 87
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812825,7 +815693,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for MyFuture ' sans documentation
 
-- **line :** 81
+- **line :** 91
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812835,7 +815703,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 84
+- **line :** 94
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812845,7 +815713,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for MyFuture ' sans documentation
 
-- **line :** 89
+- **line :** 99
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812855,7 +815723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 90
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812865,7 +815733,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_future_destructor_abort' sans documentation
 
-- **line :** 104
+- **line :** 115
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812875,7 +815743,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyFuture' sans documentation
 
-- **line :** 105
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812885,7 +815753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for MyFuture ' sans documentation
 
-- **line :** 109
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812895,7 +815763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 112
+- **line :** 123
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812905,7 +815773,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for MyFuture ' sans documentation
 
-- **line :** 116
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812915,7 +815783,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 117
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812925,7 +815793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_output_destructor_handle_dropped_before_completion' sans documentation
 
-- **line :** 131
+- **line :** 142
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812935,7 +815803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyOutput' sans documentation
 
-- **line :** 132
+- **line :** 143
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812945,7 +815813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for MyOutput ' sans documentation
 
-- **line :** 136
+- **line :** 147
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812955,7 +815823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 137
+- **line :** 148
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812965,7 +815833,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyFuture' sans documentation
 
-- **line :** 142
+- **line :** 153
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -812975,7 +815843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for MyFuture ' sans documentation
 
-- **line :** 146
+- **line :** 157
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -812985,7 +815853,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 149
+- **line :** 160
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -812995,7 +815863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_output_destructor_handle_dropped_after_completion' sans documentation
 
-- **line :** 163
+- **line :** 174
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813005,7 +815873,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyOutput' sans documentation
 
-- **line :** 164
+- **line :** 175
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -813015,7 +815883,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for MyOutput ' sans documentation
 
-- **line :** 168
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813025,7 +815893,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 169
+- **line :** 180
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813035,7 +815903,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyFuture' sans documentation
 
-- **line :** 174
+- **line :** 185
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -813045,7 +815913,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for MyFuture ' sans documentation
 
-- **line :** 179
+- **line :** 190
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813055,7 +815923,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 182
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813065,7 +815933,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_try_id_outside_task' sans documentation
 
-- **line :** 204
+- **line :** 215
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813075,7 +815943,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_try_id_inside_block_on' sans documentation
 
-- **line :** 210
+- **line :** 221
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813085,7 +815953,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_spawn_local' sans documentation
 
-- **line :** 218
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813095,7 +815963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_nested_spawn_local' sans documentation
 
-- **line :** 229
+- **line :** 240
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813105,7 +815973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_block_in_place_block_on_spawn' sans documentation
 
-- **line :** 253
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813115,7 +815983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_outside_task_panic_caller' sans documentation
 
-- **line :** 275
+- **line :** 286
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813125,7 +815993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_id_inside_block_on_panic_caller' sans documentation
 
-- **line :** 288
+- **line :** 300
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813137,7 +816005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt' sans documentation
 
-- **line :** 10
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813147,7 +816015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_index_tasks' sans documentation
 
-- **line :** 17
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813157,7 +816025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_pending_tasks' sans documentation
 
-- **line :** 30
+- **line :** 39
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813167,7 +816035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drain_joinset_and_assert' sans documentation
 
-- **line :** 53
+- **line :** 62
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813177,7 +816045,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'await_receivers_and_assert' sans documentation
 
-- **line :** 65
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813187,7 +816055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_with_sleep' sans documentation
 
-- **line :** 75
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813197,7 +816065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_abort_on_drop' sans documentation
 
-- **line :** 125
+- **line :** 134
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813207,7 +816075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'alternating' sans documentation
 
-- **line :** 150
+- **line :** 159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813217,7 +816085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'abort_tasks' sans documentation
 
-- **line :** 168
+- **line :** 177
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813227,7 +816095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'runtime_gone' sans documentation
 
-- **line :** 202
+- **line :** 211
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813237,7 +816105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'join_all' sans documentation
 
-- **line :** 218
+- **line :** 227
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813247,7 +816115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_panics' sans documentation
 
-- **line :** 234
+- **line :** 243
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813257,7 +816125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'abort_all' sans documentation
 
-- **line :** 258
+- **line :** 267
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813267,7 +816135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'join_set_coop' sans documentation
 
-- **line :** 290
+- **line :** 299
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813277,7 +816145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_join_next' sans documentation
 
-- **line :** 331
+- **line :** 340
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813287,7 +816155,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_join_next_with_id' sans documentation
 
-- **line :** 367
+- **line :** 376
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813297,7 +816165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'extend' sans documentation
 
-- **line :** 408
+- **line :** 417
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813307,7 +816175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'spawn_local' sans documentation
 
-- **line :** 424
+- **line :** 433
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -813317,7 +816185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_outside_any_runtime' sans documentation
 
-- **line :** 431
+- **line :** 440
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813327,7 +816195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'panic_in_multi_thread_runtime' sans documentation
 
-- **line :** 440
+- **line :** 450
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813337,7 +816205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'local_runtime' sans documentation
 
-- **line :** 446
+- **line :** 455
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -813347,7 +816215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_join_next' sans documentation
 
-- **line :** 451
+- **line :** 460
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813357,7 +816225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_shutdown' sans documentation
 
-- **line :** 463
+- **line :** 472
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813367,7 +816235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_drop' sans documentation
 
-- **line :** 480
+- **line :** 489
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813377,7 +816245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'local_set' sans documentation
 
-- **line :** 494
+- **line :** 503
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -813387,7 +816255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_join_next' sans documentation
 
-- **line :** 499
+- **line :** 508
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813397,7 +816265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_shutdown' sans documentation
 
-- **line :** 514
+- **line :** 523
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813407,7 +816275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_drop' sans documentation
 
-- **line :** 536
+- **line :** 545
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813417,7 +816285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'spawn_local_on' sans documentation
 
-- **line :** 556
+- **line :** 565
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -813427,7 +816295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'local_runtime' sans documentation
 
-- **line :** 560
+- **line :** 568
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -813437,7 +816305,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_join_next' sans documentation
 
-- **line :** 565
+- **line :** 573
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813447,7 +816315,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'local_set' sans documentation
 
-- **line :** 582
+- **line :** 590
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -813457,7 +816325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_join_next' sans documentation
 
-- **line :** 587
+- **line :** 595
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813467,7 +816335,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_shutdown' sans documentation
 
-- **line :** 604
+- **line :** 612
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813477,7 +816345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_then_drop' sans documentation
 
-- **line :** 625
+- **line :** 633
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813487,7 +816355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'replace_parent_waker_drops_outside_lock' sans documentation
 
-- **line :** 665
+- **line :** 673
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813497,7 +816365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'DriveOnDrop' sans documentation
 
-- **line :** 670
+- **line :** 678
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -813507,7 +816375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for DriveOnDrop ' sans documentation
 
-- **line :** 672
+- **line :** 680
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813517,7 +816385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 673
+- **line :** 681
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813527,7 +816395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for DriveOnDrop ' sans documentation
 
-- **line :** 676
+- **line :** 684
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813537,7 +816405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 677
+- **line :** 685
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813549,7 +816417,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local' sans documentation
 
-- **line :** 9
+- **line :** 13
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813559,7 +816427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_local_available_on_abort' sans documentation
 
-- **line :** 41
+- **line :** 45
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813569,7 +816437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyFuture' sans documentation
 
-- **line :** 46
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -813579,7 +816447,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for MyFuture ' sans documentation
 
-- **line :** 50
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813589,7 +816457,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 53
+- **line :** 57
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813599,7 +816467,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for MyFuture ' sans documentation
 
-- **line :** 60
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813609,7 +816477,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 61
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813619,7 +816487,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_local_available_on_completion_drop' sans documentation
 
-- **line :** 92
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813629,7 +816497,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MyFuture' sans documentation
 
-- **line :** 97
+- **line :** 101
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -813639,7 +816507,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for MyFuture ' sans documentation
 
-- **line :** 100
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813649,7 +816517,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 103
+- **line :** 107
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813659,7 +816527,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for MyFuture ' sans documentation
 
-- **line :** 107
+- **line :** 111
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -813669,7 +816537,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 108
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813679,7 +816547,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'take_value' sans documentation
 
-- **line :** 122
+- **line :** 126
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813689,7 +816557,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_after_take_value_should_fail' sans documentation
 
-- **line :** 133
+- **line :** 137
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -813699,7 +816567,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get_value' sans documentation
 
-- **line :** 150
+- **line :** 154
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814153,7 +817021,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 10
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -814163,7 +817031,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'panic' sans documentation
 
-- **line :** 11
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -814173,7 +817041,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'block_in_place_panic_caller' sans documentation
 
-- **line :** 16
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814183,7 +817051,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_set_spawn_local_panic_caller' sans documentation
 
-- **line :** 31
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814193,7 +817061,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_set_block_on_panic_caller' sans documentation
 
-- **line :** 45
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814203,7 +817071,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'spawn_panic_caller' sans documentation
 
-- **line :** 62
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814213,7 +817081,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_key_sync_scope_panic_caller' sans documentation
 
-- **line :** 74
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814223,7 +817091,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_key_with_panic_caller' sans documentation
 
-- **line :** 94
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814233,7 +817101,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'local_key_get_panic_caller' sans documentation
 
-- **line :** 110
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814559,7 +817427,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'yield_now_outside_of_runtime' sans documentation
 
-- **line :** 8
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814569,7 +817437,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'yield_now_external_executor_and_block_in_place' sans documentation
 
-- **line :** 19
+- **line :** 27
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814612,6 +817480,108 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Function 'accept_many' sans documentation
 
 - **line :** 110
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/tcp_accept_ready.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'accepted_with' sans documentation
+
+- **line :** 35
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'accepted_stream_reads_without_waiting_for_an_event' sans documentation
+
+- **line :** 45
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'accepted_stream_with_no_data_still_waits' sans documentation
+
+- **line :** 69
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'first_poll_read_and_write_are_ready' sans documentation
+
+- **line :** 92
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'full_first_read_keeps_draining' sans documentation
+
+- **line :** 109
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'later_reads_after_runtime_drop_report_shutdown' sans documentation
+
+- **line :** 126
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'unix_accepted_stream_reads_without_an_event' sans documentation
+
+- **line :** 151
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'peek_first_poll_ready' sans documentation
+
+- **line :** 172
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'write_vectored_first_poll_ready' sans documentation
+
+- **line :** 182
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'async_io_wouldblock_falls_back_to_wait' sans documentation
+
+- **line :** 193
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814889,7 +817859,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_read_write' sans documentation
 
-- **line :** 49
+- **line :** 45
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814899,7 +817869,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'buffer_not_included_in_future' sans documentation
 
-- **line :** 178
+- **line :** 181
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814909,7 +817879,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_ready' sans documentation
 
-- **line :** 235
+- **line :** 238
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814919,7 +817889,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_ready' sans documentation
 
-- **line :** 258
+- **line :** 264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814929,7 +817899,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_pair' sans documentation
 
-- **line :** 273
+- **line :** 279
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814939,7 +817909,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_until_pending' sans documentation
 
-- **line :** 280
+- **line :** 286
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814949,7 +817919,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_until_pending' sans documentation
 
-- **line :** 295
+- **line :** 301
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814959,7 +817929,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_read_buf' sans documentation
 
-- **line :** 315
+- **line :** 317
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -814991,7 +817961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'resume_lets_time_move_forward_instead_of_resetting_it' sans documentation
 
-- **line :** 7
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815001,7 +817971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'can_pause_after_resume' sans documentation
 
-- **line :** 20
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815011,7 +817981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'freezing_time_while_frozen_panics' sans documentation
 
-- **line :** 33
+- **line :** 41
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815021,7 +817991,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'advancing_time_when_time_is_not_frozen_panics' sans documentation
 
-- **line :** 40
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815031,7 +818001,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'resuming_time_when_not_frozen_panics' sans documentation
 
-- **line :** 46
+- **line :** 54
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815135,7 +818105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'interval_zero_duration' sans documentation
 
-- **line :** 29
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815145,7 +818115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'burst' sans documentation
 
-- **line :** 43
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815155,7 +818125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'delay' sans documentation
 
-- **line :** 87
+- **line :** 95
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815165,7 +818135,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'skip' sans documentation
 
-- **line :** 139
+- **line :** 147
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'reset_doesnt_panic_max_duration' sans documentation
+
+- **line :** 180
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'reset_after_doesnt_panic_max_duration' sans documentation
+
+- **line :** 186
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815175,7 +818165,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset' sans documentation
 
-- **line :** 172
+- **line :** 192
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815185,7 +818175,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_immediately' sans documentation
 
-- **line :** 208
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815195,7 +818185,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_after' sans documentation
 
-- **line :** 243
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815205,7 +818195,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_at' sans documentation
 
-- **line :** 279
+- **line :** 299
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815215,7 +818205,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_at_bigger_than_interval' sans documentation
 
-- **line :** 315
+- **line :** 335
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815225,7 +818215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_next' sans documentation
 
-- **line :** 355
+- **line :** 375
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815235,7 +818225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ms' sans documentation
 
-- **line :** 359
+- **line :** 379
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815245,7 +818235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Stream for IntervalStreamer ' sans documentation
 
-- **line :** 379
+- **line :** 399
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -815255,7 +818245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_next' sans documentation
 
-- **line :** 382
+- **line :** 402
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815265,7 +818255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stream_with_interval_poll_tick_self_waking' sans documentation
 
-- **line :** 408
+- **line :** 428
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815275,7 +818265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'stream_with_interval_poll_tick_no_waking' sans documentation
 
-- **line :** 440
+- **line :** 460
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815285,7 +818275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'interval_doesnt_panic_max_duration_when_polling' sans documentation
 
-- **line :** 474
+- **line :** 494
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815297,7 +818287,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'support' sans documentation
 
-- **line :** 11
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -815307,7 +818297,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'panic' sans documentation
 
-- **line :** 12
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -815317,7 +818307,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt_combinations' sans documentation
 
-- **line :** 16
+- **line :** 19
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815327,7 +818317,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pause_panic_caller' sans documentation
 
-- **line :** 62
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815337,7 +818327,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'resume_panic_caller' sans documentation
 
-- **line :** 79
+- **line :** 85
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815347,7 +818337,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'interval_panic_caller' sans documentation
 
-- **line :** 95
+- **line :** 101
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815357,7 +818347,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'interval_at_panic_caller' sans documentation
 
-- **line :** 107
+- **line :** 113
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815367,7 +818357,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_panic_caller' sans documentation
 
-- **line :** 119
+- **line :** 125
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815377,7 +818367,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_at_panic_caller' sans documentation
 
-- **line :** 135
+- **line :** 141
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815387,7 +818377,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'current_thread' sans documentation
 
-- **line :** 150
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815399,7 +818389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pause_time_in_main' sans documentation
 
-- **line :** 20
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815409,7 +818399,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pause_time_in_task' sans documentation
 
-- **line :** 25
+- **line :** 33
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815419,7 +818409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pause_time_in_main_threads' sans documentation
 
-- **line :** 36
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815429,7 +818419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'pause_time_in_spawn_threads' sans documentation
 
-- **line :** 43
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815439,7 +818429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'paused_time_is_deterministic' sans documentation
 
-- **line :** 52
+- **line :** 60
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815449,7 +818439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'paused_time_stress_run' sans documentation
 
-- **line :** 60
+- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815459,7 +818449,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'advance_after_poll' sans documentation
 
-- **line :** 75
+- **line :** 83
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815469,7 +818459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_no_poll' sans documentation
 
-- **line :** 92
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815479,7 +818469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'State' sans documentation
 
-- **line :** 107
+- **line :** 115
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -815489,7 +818479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Tester' sans documentation
 
-- **line :** 113
+- **line :** 121
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -815499,7 +818489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Future for Tester ' sans documentation
 
-- **line :** 120
+- **line :** 128
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -815509,7 +818499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 123
+- **line :** 131
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815519,7 +818509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_same_task' sans documentation
 
-- **line :** 153
+- **line :** 161
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815529,7 +818519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_same_task_no_poll' sans documentation
 
-- **line :** 171
+- **line :** 179
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815539,7 +818529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'interval' sans documentation
 
-- **line :** 189
+- **line :** 197
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815549,7 +818539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_time_advance_sub_ms' sans documentation
 
-- **line :** 226
+- **line :** 234
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815559,7 +818549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_time_advance_3ms_and_change' sans documentation
 
-- **line :** 242
+- **line :** 250
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815569,7 +818559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'regression_3710_with_submillis_advance' sans documentation
 
-- **line :** 258
+- **line :** 266
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815579,7 +818569,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'exact_1ms_advance' sans documentation
 
-- **line :** 276
+- **line :** 284
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815589,7 +818579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'advance_once_with_timer' sans documentation
 
-- **line :** 292
+- **line :** 300
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815599,7 +818589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'advance_multi_with_timer' sans documentation
 
-- **line :** 306
+- **line :** 314
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815609,7 +818599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_next' sans documentation
 
-- **line :** 327
+- **line :** 335
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815619,7 +818609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ms' sans documentation
 
-- **line :** 331
+- **line :** 339
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815629,7 +818619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'paused_time_join_unix_datagram_and_sleep' sans documentation
 
-- **line :** 337
+- **line :** 345
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815639,7 +818629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'paused_time_spawn_unix_datagram_and_sleep' sans documentation
 
-- **line :** 357
+- **line :** 365
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815651,7 +818641,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'rt_combinations' sans documentation
 
-- **line :** 11
+- **line :** 9
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815661,7 +818651,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timer_with_threaded_runtime' sans documentation
 
-- **line :** 58
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815671,7 +818661,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timer_with_current_thread_scheduler' sans documentation
 
-- **line :** 99
+- **line :** 97
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815681,7 +818671,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'starving' sans documentation
 
-- **line :** 118
+- **line :** 116
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815691,7 +818681,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Starve' sans documentation
 
-- **line :** 123
+- **line :** 121
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -815701,7 +818691,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll' sans documentation
 
-- **line :** 128
+- **line :** 126
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815711,7 +818701,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_value' sans documentation
 
-- **line :** 153
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815721,7 +818711,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'tickspace' sans documentation
 
-- **line :** 171
+- **line :** 170
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815733,7 +818723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'immediate_sleep' sans documentation
 
-- **line :** 14
+- **line :** 22
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815743,7 +818733,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_elapsed' sans documentation
 
-- **line :** 29
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815753,7 +818743,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'delayed_sleep_level_0' sans documentation
 
-- **line :** 48
+- **line :** 56
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815763,7 +818753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sub_ms_delayed_sleep' sans documentation
 
-- **line :** 62
+- **line :** 70
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815773,7 +818763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'delayed_sleep_wrapping_level_0' sans documentation
 
-- **line :** 76
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815783,7 +818773,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_future_sleep_before_fire' sans documentation
 
-- **line :** 88
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815793,7 +818783,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_past_sleep_before_turn' sans documentation
 
-- **line :** 105
+- **line :** 113
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815803,7 +818793,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_past_sleep_before_fire' sans documentation
 
-- **line :** 122
+- **line :** 130
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815813,7 +818803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_future_sleep_after_fire' sans documentation
 
-- **line :** 141
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815823,7 +818813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_sleep_to_past' sans documentation
 
-- **line :** 156
+- **line :** 164
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815833,7 +818823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'creating_sleep_outside_of_context' sans documentation
 
-- **line :** 179
+- **line :** 187
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815843,7 +818833,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'greater_than_max' sans documentation
 
-- **line :** 188
+- **line :** 196
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815853,7 +818843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'short_sleeps' sans documentation
 
-- **line :** 196
+- **line :** 204
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815863,7 +818853,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'multi_long_sleeps' sans documentation
 
-- **line :** 203
+- **line :** 211
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815873,7 +818863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'long_sleeps' sans documentation
 
-- **line :** 226
+- **line :** 234
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815883,7 +818873,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset_after_firing' sans documentation
 
-- **line :** 242
+- **line :** 250
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815893,7 +818883,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'exactly_max' sans documentation
 
-- **line :** 267
+- **line :** 275
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815903,7 +818893,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'issue_5183' sans documentation
 
-- **line :** 273
+- **line :** 281
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815913,7 +818903,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'no_out_of_bounds_close_to_max' sans documentation
 
-- **line :** 287
+- **line :** 295
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'long_wait_sleep_does_not_break_other_timers' sans documentation
+
+- **line :** 301
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'long_wait_sleep_does_not_corrupt_wheel' sans documentation
+
+- **line :** 312
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815923,7 +818933,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ms' sans documentation
 
-- **line :** 292
+- **line :** 333
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815933,7 +818943,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_after_reschedule_at_new_scheduled_time' sans documentation
 
-- **line :** 297
+- **line :** 338
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815943,7 +818953,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_from_wake' sans documentation
 
-- **line :** 319
+- **line :** 360
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815953,7 +818963,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'DropWaker' sans documentation
 
-- **line :** 354
+- **line :** 395
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -815963,7 +818973,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'futures' sans documentation
 
-- **line :** 359
+- **line :** 400
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -815973,7 +818983,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake_by_ref' sans documentation
 
-- **line :** 360
+- **line :** 401
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815983,7 +818993,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop_from_waker_drop' sans documentation
 
-- **line :** 373
+- **line :** 414
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -815993,7 +819003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TimerOwner' sans documentation
 
-- **line :** 379
+- **line :** 420
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -816003,7 +819013,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Wake for TimerOwner ' sans documentation
 
-- **line :** 383
+- **line :** 424
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -816013,7 +819023,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'wake' sans documentation
 
-- **line :** 384
+- **line :** 425
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816023,7 +819033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Drop for TimerOwner ' sans documentation
 
-- **line :** 387
+- **line :** 428
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -816033,7 +819043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
 
-- **line :** 388
+- **line :** 429
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816045,7 +819055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'simultaneous_deadline_future_completion' sans documentation
 
-- **line :** 12
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816055,7 +819065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'completed_future_past_deadline' sans documentation
 
-- **line :** 22
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816065,7 +819075,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'future_and_deadline_in_future' sans documentation
 
-- **line :** 31
+- **line :** 40
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816075,7 +819085,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'future_and_timeout_in_future' sans documentation
 
-- **line :** 55
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816085,7 +819095,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'very_large_timeout' sans documentation
 
-- **line :** 79
+- **line :** 88
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816095,7 +819105,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deadline_now_elapses' sans documentation
 
-- **line :** 106
+- **line :** 115
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816105,7 +819115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'deadline_future_elapses' sans documentation
 
-- **line :** 122
+- **line :** 131
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816115,7 +819125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ms' sans documentation
 
-- **line :** 136
+- **line :** 145
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816125,7 +819135,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'timeout_is_not_exhausted_by_future' sans documentation
 
-- **line :** 141
+- **line :** 150
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816137,7 +819147,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'instant_now_panics' sans documentation
 
-- **line :** 8
+- **line :** 12
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816147,7 +819157,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'runtime_without_time_does_not_panic' sans documentation
 
-- **line :** 14
+- **line :** 18
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816157,7 +819167,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'runtime_with_time_does_not_panic' sans documentation
 
-- **line :** 24
+- **line :** 28
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816167,7 +819177,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sleep_panics_on_unknown_unknown' sans documentation
 
-- **line :** 34
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816369,9 +819379,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'run_test' sans documentation
+
+- **line :** 15
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'task_spawn_creates_span' sans documentation
 
-- **line :** 14
+- **line :** 25
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816381,7 +819401,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_spawn_loc_file_recorded' sans documentation
 
-- **line :** 40
+- **line :** 53
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816391,7 +819411,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_builder_name_recorded' sans documentation
 
-- **line :** 60
+- **line :** 75
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816401,7 +819421,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_builder_loc_file_recorded' sans documentation
 
-- **line :** 79
+- **line :** 96
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816411,7 +819431,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_spawn_sizes_recorded' sans documentation
 
-- **line :** 101
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816421,7 +819441,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'task_big_spawn_sizes_recorded' sans documentation
 
-- **line :** 128
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816431,7 +819451,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'big' sans documentation
 
-- **line :** 130
+- **line :** 152
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816441,7 +819461,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'boxed_size' sans documentation
 
-- **line :** 145
+- **line :** 167
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816485,7 +819505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_recv_closed_returns_err' sans documentation
 
-- **line :** 63
+- **line :** 59
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816495,7 +819515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_recv_from' sans documentation
 
-- **line :** 94
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816505,7 +819525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_recv_from_poll' sans documentation
 
-- **line :** 114
+- **line :** 102
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816515,7 +819535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_peek_from' sans documentation
 
-- **line :** 132
+- **line :** 120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816525,7 +819545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_try_peek_from' sans documentation
 
-- **line :** 161
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816535,7 +819555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_peek_from_poll' sans documentation
 
-- **line :** 201
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816545,7 +819565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'peek_sender' sans documentation
 
-- **line :** 230
+- **line :** 218
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816555,7 +819575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_peek_sender' sans documentation
 
-- **line :** 256
+- **line :** 244
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816565,7 +819585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_peek_sender' sans documentation
 
-- **line :** 283
+- **line :** 271
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816575,7 +819595,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'split' sans documentation
 
-- **line :** 318
+- **line :** 306
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816585,7 +819605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'split_chan' sans documentation
 
-- **line :** 334
+- **line :** 322
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816595,7 +819615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'split_chan_poll' sans documentation
 
-- **line :** 366
+- **line :** 354
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816605,7 +819625,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_send_spawn' sans documentation
 
-- **line :** 415
+- **line :** 403
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816615,7 +819635,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_send_recv' sans documentation
 
-- **line :** 456
+- **line :** 444
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816625,7 +819645,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_send_to_recv_from' sans documentation
 
-- **line :** 504
+- **line :** 488
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816635,7 +819655,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_buf' sans documentation
 
-- **line :** 547
+- **line :** 531
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816645,7 +819665,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'recv_buf' sans documentation
 
-- **line :** 591
+- **line :** 575
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816655,7 +819675,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_buf_from' sans documentation
 
-- **line :** 612
+- **line :** 592
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816665,7 +819685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'recv_buf_from' sans documentation
 
-- **line :** 659
+- **line :** 635
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816675,7 +819695,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_ready' sans documentation
 
-- **line :** 680
+- **line :** 652
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816687,7 +819707,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_socket_pair' sans documentation
 
-- **line :** 15
+- **line :** 17
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_listener' sans documentation
+
+- **line :** 23
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'assert_peer_cred' sans documentation
+
+- **line :** 35
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816699,7 +819739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'echo_server' sans documentation
 
-- **line :** 13
+- **line :** 14
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816709,7 +819749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'echo' sans documentation
 
-- **line :** 25
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816719,7 +819759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'echo_from' sans documentation
 
-- **line :** 50
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816729,7 +819769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_send_recv_never_block' sans documentation
 
-- **line :** 77
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816739,7 +819779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'split' sans documentation
 
-- **line :** 123
+- **line :** 124
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816749,7 +819789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_to_recv_from_poll' sans documentation
 
-- **line :** 148
+- **line :** 149
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816759,7 +819799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'send_recv_poll' sans documentation
 
-- **line :** 170
+- **line :** 171
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816769,7 +819809,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_send_to_recv_from' sans documentation
 
-- **line :** 194
+- **line :** 195
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816779,7 +819819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_buf_from' sans documentation
 
-- **line :** 242
+- **line :** 243
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816789,7 +819829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'recv_buf_from' sans documentation
 
-- **line :** 290
+- **line :** 291
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816799,7 +819839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_recv_buf_never_block' sans documentation
 
-- **line :** 314
+- **line :** 315
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816809,7 +819849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'recv_buf' sans documentation
 
-- **line :** 362
+- **line :** 363
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816819,7 +819859,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_ready' sans documentation
 
-- **line :** 381
+- **line :** 382
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'pair_starts_writable' sans documentation
+
+- **line :** 432
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816925,7 +819975,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'create_pair' sans documentation
 
-- **line :** 225
+- **line :** 232
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816935,7 +819985,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_read_ready' sans documentation
 
-- **line :** 271
+- **line :** 278
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816945,7 +819995,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'poll_write_ready' sans documentation
 
-- **line :** 294
+- **line :** 304
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816955,7 +820005,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'read_until_pending' sans documentation
 
-- **line :** 309
+- **line :** 319
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816965,7 +820015,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write_until_pending' sans documentation
 
-- **line :** 322
+- **line :** 332
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816975,7 +820025,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_read_buf' sans documentation
 
-- **line :** 336
+- **line :** 346
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816985,7 +820035,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'epollhup' sans documentation
 
-- **line :** 420
+- **line :** 437
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -816995,7 +820045,39 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'abstract_socket_name' sans documentation
 
-- **line :** 461
+- **line :** 478
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'pair_starts_writable' sans documentation
+
+- **line :** 497
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/tokio/tests/unix_shutdown.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown' sans documentation
+
+- **line :** 10
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'shutdown_after_peer_dropped' sans documentation
+
+- **line :** 26
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -817007,7 +820089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'notify_is_unwind_safe' sans documentation
 
-- **line :** 7
+- **line :** 10
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -817017,7 +820099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'join_handle_is_unwind_safe' sans documentation
 
-- **line :** 12
+- **line :** 15
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -817027,7 +820109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'net_types_are_unwind_safe' sans documentation
 
-- **line :** 17
+- **line :** 21
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -817037,7 +820119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'unix_net_types_are_unwind_safe' sans documentation
 
-- **line :** 26
+- **line :** 30
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -817047,7 +820129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'windows_net_types_are_unwind_safe' sans documentation
 
-- **line :** 34
+- **line :** 38
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -817057,7 +820139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_unwind_safe' sans documentation
 
-- **line :** 42
+- **line :** 46
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1277601,175 +1280683,139 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ❌ Error
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md: contient 182 titres H1 (1 attendu).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md: contient 183 titres H1 (1 attendu).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:7 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:27 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:161 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:55 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:185 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:73 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:213 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:159 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:233 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:171 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:319 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:237 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:331 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:264 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:399 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:303 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:426 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:311 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:465 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:328 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:473 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:490 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:377 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:507 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:471 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:539 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:541 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:633 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:652 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:705 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:666 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:808 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:674 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:822 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:680 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:830 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:694 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:836 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:811 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:850 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:819 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:852 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:860 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:875 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:947 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:955 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:967 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:971 saut de niveau H1 → H3.
 
 - **module :** titles
 
@@ -1277781,133 +1280827,139 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:989 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1014 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1049 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1022 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1057 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1039 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1084 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1111 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1096 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1119 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1158 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1131 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1145 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1314 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1155 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1325 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1215 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1338 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1225 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1434 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1252 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1502 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1264 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1557 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1328 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1565 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1406 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1611 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1486 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1639 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1497 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1722 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1510 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1730 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1606 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1750 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1676 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1767 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1731 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1823 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1739 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1834 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1785 saut de niveau H1 → H3.
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1815 saut de niveau H1 → H3.
 
 - **module :** titles
 
@@ -1277919,61 +1280971,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1913 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1906 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1962 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1926 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2009 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1945 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2092 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2001 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2101 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2014 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2111 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2078 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2119 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2093 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2139 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2153 saut de niveau H1 → H3.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2182 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2142 saut de niveau H1 → H3.
 
 - **module :** titles
 
@@ -1277985,397 +1281025,397 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2211 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2274 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2350 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2283 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2364 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2293 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2457 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2303 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2467 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2323 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2477 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2339 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2487 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2368 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2503 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2377 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2511 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2399 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2569 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2538 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2621 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2554 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2629 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2647 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2637 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2657 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2671 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2667 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2753 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2677 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2837 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2693 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2877 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2703 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2905 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2763 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2939 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2815 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2948 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2823 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3004 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2831 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3044 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2865 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3077 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2949 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3085 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3033 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3126 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3073 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3103 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3173 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3137 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3183 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3146 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3191 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3202 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3231 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3244 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3239 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3277 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3247 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3285 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3283 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3328 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3363 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3307 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3375 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3353 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3385 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3361 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3395 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3410 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3435 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3442 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3443 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3492 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3453 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3512 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3489 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3517 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3497 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3567 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3515 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3574 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3561 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3591 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3569 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3607 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3618 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3668 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3650 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3691 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3702 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3708 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3722 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3746 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3729 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3768 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3779 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3792 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3786 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3829 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3803 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3819 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3996 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3880 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4025 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3903 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4035 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3920 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4068 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3958 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4078 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3980 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4004 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4109 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4041 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4122 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4137 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4152 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4208 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4160 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4237 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4207 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4247 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4250 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4280 saut de niveau H1 → H3.
 
 - **module :** titles
 
@@ -1278387,187 +1281427,187 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4304 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4303 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4310 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4321 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4358 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4334 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4366 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4364 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4410 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4372 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4418 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4419 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4455 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4462 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4485 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4502 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4505 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4516 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4525 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4522 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4533 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4570 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4542 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4578 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4550 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4622 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4558 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4630 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4566 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4667 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4581 saut de niveau H1 → H3.
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4697 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4717 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4737 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4745 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4754 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4762 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4770 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4778 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4793 saut de niveau H1 → H3.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:73 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:7 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:161 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
@@ -1278579,217 +1281619,235 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:195 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:177).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:177).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:221 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:237 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:233 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:239 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:264 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:278 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:323 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:177).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:331 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:333 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:357 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:353 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:374 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:378 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:377 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:399 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:407 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:408 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:471 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:440 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:177).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:478 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:482 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:473 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:489 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:496 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:495 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:177).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:541 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:507 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:551 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:515 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:562 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:519 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:539 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:579 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:652 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:553 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:666 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:674 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:570 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:680 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:633 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:694 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:709 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:651 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:658 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:705 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
@@ -1278801,211 +1281859,169 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:721 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:726 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:742 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:731 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:751 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:739 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:755 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:808 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:763 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:822 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:768 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:830 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:773 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:836 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:850 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:819 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:867 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:825 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:873 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:831 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:879 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:852 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:900 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:875 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:915 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:884 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:923 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:891 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:928 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:904 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:947 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:955 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:981 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:967 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:981 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:993 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:989 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1014 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:997 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1022 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1039 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1009 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:899).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1048 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1014 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1055 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1049 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1068 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1057 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1061 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1066 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1070 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1084 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1096 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1104 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
@@ -1279017,25 +1282033,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1123 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1131 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1158 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1165 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1155 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1169 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1163 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1169 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1175 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:1063).
 
 - **module :** titles
 
@@ -1279047,145 +1282075,163 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1215 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1225 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1229 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1261 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1268 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1238 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1314 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1252 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1325 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1264 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1338 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1272 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:362).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1352 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1278 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1287 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1375 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1291 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1434 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1328 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1446 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1335 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:362).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1450 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1456 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1350 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1502 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1406 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1514 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1417 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1522 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1427 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1557 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1433 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:362).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1565 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1440 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1569 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1486 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1576 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1497 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1586 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1510 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1611 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1524 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1541 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1547 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1606 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
@@ -1279197,67 +1282243,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1622 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1622 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1639 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1628 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1646 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1676 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1650 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1688 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1661 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1696 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1665 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1731 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1677 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1739 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1722 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1730 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1734 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1739 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1743 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
@@ -1279269,73 +1282297,61 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1754 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1760 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1767 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1785 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1775 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1783 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1796 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1788 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1815 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1796 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1822 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1823 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1826 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1834 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:34).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1837 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1838 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1841 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1847 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1851 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1864 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1853 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
@@ -1279347,97 +1282363,115 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1913 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1906 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1923 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1910 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1931 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1915 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1936 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1926 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1962 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1930 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1970 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1945 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1977 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1953 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1983 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1961 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2009 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1966 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2016 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1974 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2022 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2001 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2031 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2014 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:34).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2039 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2018 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2043 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2027 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2092 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2031 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2101 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2044 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2078 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2093 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
@@ -1279449,49 +1282483,31 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2116 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2142 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2150 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2157 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2153 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2156 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2162 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2182 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2163 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
@@ -1279503,49 +1282519,97 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2211 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2198 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2218 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2224 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2213 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2237 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2221 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2242 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2225 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2252 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2350 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2283 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2364 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2293 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2303 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2307 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2311 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2323 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2342 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2348 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2368 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
@@ -1279557,889 +1282621,847 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2385 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2399 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2392 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2406 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:362).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2398 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2412 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2409 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2425 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2457 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2430 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2467 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2440 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2477 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2538 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2487 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2554 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2503 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2567 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2511 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2575 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2515 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2582 titre dupliqué (déjà présent dans server_rust/vendor/bytes/CHANGELOG.md:37).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2523 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2588 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2531 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2599 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2569 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2647 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2578 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2657 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2582 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2667 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2586 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2677 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2591 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2693 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2621 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2703 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2629 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2707 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2637 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2715 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2671 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2723 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2678 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2763 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2689 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2772 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2695 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2776 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2704 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2780 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2753 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2785 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2761 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2815 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2773 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2823 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2777 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2831 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2837 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2865 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2846 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2872 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2855 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:403).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2883 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2877 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2889 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2882 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2898 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2886 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2949 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2892 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2957 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2905 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2969 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2914 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2973 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2918 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3033 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2922 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3042 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2939 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3051 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:66).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2948 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3073 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2953 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3078 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2963 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3082 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2971 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3088 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:362).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3004 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3010 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3112 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3018 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3116 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3044 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3120 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3049 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3055 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3060 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3151 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3077 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3085 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3169 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3091 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3202 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3099 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3208 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3105 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3216 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3126 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3244 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3132 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3249 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3137 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3260 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3173 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3277 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3183 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3285 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3191 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3200 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:200).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3299 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3305 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3208 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3328 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3231 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3334 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3239 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3339 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3247 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3363 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3375 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3261 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3385 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3283 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3395 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3404 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:362).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3307 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3408 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3317 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3412 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3326 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3435 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3353 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3443 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3361 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3453 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3374 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3461 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3382 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3467 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3410 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3489 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3415 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3497 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3421 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3515 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3442 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3525 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3450 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3534 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3455 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3561 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3492 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3569 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3496 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3582 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3500 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3590 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3512 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3618 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3517 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3623 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3524 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3629 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3530 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3650 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3535 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3658 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3567 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3663 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3574 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3702 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3591 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3706 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3595 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3710 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3603 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:184).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3722 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3607 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3729 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3611 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3736 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3621 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3742 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3631 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3747 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:18).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3668 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3779 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3676 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3786 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3691 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3803 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3696 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3807 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3708 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3815 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:184).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3713 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3819 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3717 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3823 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3746 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3833 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3751 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3843 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3768 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3880 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3773 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3888 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3903 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3797 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3908 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3812 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:194).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3920 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3829 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3852 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3929 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3870 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3958 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3879 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3963 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3980 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3941 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3985 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3945 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4004 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3996 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4009 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4004 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4024 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:194).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4025 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4041 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4035 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4064 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4042 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4082 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4068 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4078 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4137 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4082 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4153 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4157 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4097 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4208 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4109 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4216 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4113 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4237 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4122 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4247 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4129 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4254 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4152 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4160 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4171 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4207 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4214 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4250 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4256 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4280 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
@@ -1280451,151 +1283473,247 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4304 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4294 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4310 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4303 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4319 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4309 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4358 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4321 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4366 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4325 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4378 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4334 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4385 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4341 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4410 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4347 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4418 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4364 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4430 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4372 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4455 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4383 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4465 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4419 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4485 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4426 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4489 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4462 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4500 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:230).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4468 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4502 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4517 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4516 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4525 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4522 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4533 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4531 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4542 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4570 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4550 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4578 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4558 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4590 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4566 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4597 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4570 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4622 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4581 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4630 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4642 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4667 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4677 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4697 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4701 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4712 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:230).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4717 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4729 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4737 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4745 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4754 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4762 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4770 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4778 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4782 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4793 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
@@ -1280603,37 +1283721,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/README.md:31).
+- **Message :** server_rust/vendor/tokio/README.md:34 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/README.md:31).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/tokio/README.md:51 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:113 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
+- **Message :** server_rust/vendor/tokio/README.md:109 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:126 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/tokio/README.md:122 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:167 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/tokio/README.md:166 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:177 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/README.md:99).
+- **Message :** server_rust/vendor/tokio/README.md:176 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/README.md:99).
 
 - **module :** titles
 
