@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-10-20 11:51:30
+Generated: 2026-10-21 00:11:49
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|470|
-|⚠️ Warnings|130175|
-|**Total**|**130652**|
+|⚠️ Warnings|130142|
+|**Total**|**130619**|
 
 ---
 
@@ -54757,169 +54757,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'bench' sans documentation
-- **line :** 5
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_kilobyte_baseline' sans documentation
-- **line :** 18
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_kilobyte_specialized' sans documentation
-- **line :** 22
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_megabyte_baseline' sans documentation
-- **line :** 26
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_megabyte_specialized' sans documentation
-- **line :** 30
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_16kb_baseline' sans documentation
-- **line :** 38
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_16kb_specialized' sans documentation
-- **line :** 42
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_16b_specialized' sans documentation
-- **line :** 52
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_63b_specialized' sans documentation
-- **line :** 56
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_127b_specialized' sans documentation
+- **Message :** Function 'baseline' sans documentation
 - **line :** 60
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'bench_255b_specialized' sans documentation
-- **line :** 64
+- **Message :** Function 'specialized' sans documentation
+- **line :** 69
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'bench_511b_specialized' sans documentation
-- **line :** 68
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_1000b_specialized' sans documentation
-- **line :** 72
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_1023b_specialized' sans documentation
-- **line :** 76
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_2047b_specialized' sans documentation
-- **line :** 80
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_2048b_specialized' sans documentation
-- **line :** 84
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_2175b_specialized' sans documentation
-- **line :** 88
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_2176b_specialized' sans documentation
-- **line :** 92
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_2303b_specialized' sans documentation
-- **line :** 96
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_2304b_specialized' sans documentation
-- **line :** 100
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_combine_inner' sans documentation
-- **line :** 104
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_combine_16' sans documentation
-- **line :** 115
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_combine_32' sans documentation
-- **line :** 120
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bench_combine_64' sans documentation
-- **line :** 125
+- **Message :** Function 'combine' sans documentation
+- **line :** 78
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -54947,92 +54800,43 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Struct 'State' sans documentation
-- **line :** 4
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'State ' sans documentation
-- **line :** 8
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-- **line :** 9
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'update' sans documentation
-- **line :** 13
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'finalize' sans documentation
-- **line :** 17
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'reset' sans documentation
-- **line :** 21
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'combine' sans documentation
-- **line :** 25
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Function 'fold_16' sans documentation
-- **line :** 35
+- **line :** 8
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update_fast_16' sans documentation
-- **line :** 55
+- **line :** 28
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update_slow' sans documentation
-- **line :** 78
+- **line :** 51
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 89
+- **line :** 62
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'slow' sans documentation
-- **line :** 91
+- **line :** 64
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fast_16_is_the_same_as_slow' sans documentation
-- **line :** 107
+- **line :** 80
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55095,99 +54899,127 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Enum 'State' sans documentation
-- **line :** 60
-- **suggestion :** Ajoutez /// avant cette enum
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Impl 'Hasher ' sans documentation
-- **line :** 74
+- **line :** 69
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'internal_new_baseline' sans documentation
-- **line :** 103
+- **line :** 98
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'internal_new_specialized' sans documentation
-- **line :** 112
+- **line :** 108
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'total_len' sans documentation
+- **line :** 143
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'finalize' sans documentation
+- **line :** 149
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'reset' sans documentation
+- **line :** 155
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 161
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 162
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Default for Hasher ' sans documentation
 - **line :** 167
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'default' sans documentation
+- **Message :** Function 'fmt' sans documentation
 - **line :** 168
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'hash' sans documentation
+- **Message :** Impl 'Default for Hasher ' sans documentation
 - **line :** 173
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'write' sans documentation
+- **Message :** Function 'default' sans documentation
 - **line :** 174
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Impl 'hash' sans documentation
+- **line :** 179
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write' sans documentation
+- **line :** 180
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'finish' sans documentation
-- **line :** 178
+- **line :** 184
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 184
+- **line :** 190
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'total_len_tracks_resumed_and_combined_blocks' sans documentation
+- **line :** 194
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'total_len_for_empty_and_unknown_initial_length' sans documentation
+- **line :** 217
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'combine' sans documentation
-- **line :** 188
+- **line :** 234
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'combine_from_len' sans documentation
-- **line :** 201
+- **line :** 247
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55205,70 +55037,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'State ' sans documentation
-- **line :** 8
+- **line :** 6
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 10
+- **line :** 8
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 21
+- **line :** 19
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update' sans documentation
-- **line :** 31
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'finalize' sans documentation
-- **line :** 37
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'reset' sans documentation
-- **line :** 41
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'combine' sans documentation
-- **line :** 45
+- **line :** 29
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 148
+- **line :** 134
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
-- **line :** 150
+- **line :** 136
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
-- **line :** 170
+- **line :** 158
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55317,27 +55128,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **line :** 19
 - **suggestion :** Ajoutez /// avant cette function
 
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'finalize' sans documentation
-- **line :** 23
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'reset' sans documentation
-- **line :** 27
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'combine' sans documentation
-- **line :** 31
-- **suggestion :** Ajoutez /// avant cette function
-
 ---
 
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs
@@ -55360,28 +55150,28 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'State ' sans documentation
-- **line :** 41
+- **line :** 40
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect' sans documentation
-- **line :** 43
+- **line :** 42
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect' sans documentation
-- **line :** 66
+- **line :** 65
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 88
+- **line :** 87
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
@@ -55394,43 +55184,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'finalize' sans documentation
-- **line :** 106
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'reset' sans documentation
-- **line :** 110
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'combine' sans documentation
-- **line :** 114
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 471
+- **line :** 459
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
-- **line :** 473
+- **line :** 461
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
-- **line :** 493
+- **line :** 483
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -884551,62 +884320,77 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:27 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:1 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:38 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:9 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:46 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:27 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:67 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:38 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:77 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:46 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:85 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:56 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:101).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:93 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:67 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:102 titre dupliqué (déjà présent dans CHANGELOG.md:56).
+- **Message :** CHANGELOG.md:77 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:109 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:85 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:117 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:93 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:124 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:102 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:101).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG.md:132 titre dupliqué (déjà présent dans CHANGELOG.md:9).
+- **Message :** CHANGELOG.md:109 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** CHANGELOG.md:117 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** CHANGELOG.md:124 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** CHANGELOG.md:132 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:131).
 
 ---
 
@@ -884675,11 +884459,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG_ENG.md:1 titre dupliqué (déjà présent dans CHANGELOG.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** CHANGELOG_ENG.md:26 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
@@ -884715,11 +884494,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** CHANGELOG_ENG.md:101 titre dupliqué (déjà présent dans CHANGELOG.md:56).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** CHANGELOG_ENG.md:108 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
@@ -884731,11 +884505,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** CHANGELOG_ENG.md:124 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** CHANGELOG_ENG.md:131 titre dupliqué (déjà présent dans CHANGELOG.md:9).
 
 ---
 
@@ -884785,6 +884554,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** CONTRIBUTING.md:479 titre sans ligne vide avant.
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** CONTRIBUTING.md:206 titre dupliqué (déjà présent dans README.md:153).
 
 ## ⚠️ Warning
 
@@ -884858,27 +884632,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** README.md:4 titre dupliqué (déjà présent dans README_ENG.md:4).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** README.md:35 titre dupliqué (déjà présent dans README_ENG.md:38).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** README.md:95 titre dupliqué (déjà présent dans README_ESP.md:94).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** README.md:105 titre dupliqué (déjà présent dans README_ENG.md:133).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** README.md:153 titre dupliqué (déjà présent dans CONTRIBUTING.md:206).
 
 ## ⚠️ Warning
 
@@ -884932,12 +884686,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** README_ENG.md:4 titre dupliqué (déjà présent dans README.md:4).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** README_ENG.md:38 titre dupliqué (déjà présent dans README.md:35).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** README_ENG.md:124 titre dupliqué (déjà présent dans README_ESP.md:94).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** README_ENG.md:186 titre dupliqué (déjà présent dans CONTRIBUTING.md:206).
+- **Message :** README_ENG.md:133 titre dupliqué (déjà présent dans README.md:105).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** README_ENG.md:186 titre dupliqué (déjà présent dans README.md:153).
 
 ## ⚠️ Warning
 
@@ -885122,7 +884891,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/CODING_RULES.md:363 titre dupliqué (déjà présent dans CONTRIBUTING.md:206).
+- **Message :** docs/CODING_RULES.md:363 titre dupliqué (déjà présent dans README.md:153).
 
 ## ⚠️ Warning
 
@@ -885155,7 +884924,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/FAQ.md:78 titre dupliqué (déjà présent dans README_ENG.md:38).
+- **Message :** docs/FAQ.md:78 titre dupliqué (déjà présent dans README.md:35).
 
 ---
 
@@ -885937,12 +885706,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/README.md:3 titre dupliqué (déjà présent dans README_ENG.md:4).
+- **Message :** docs/README.md:3 titre dupliqué (déjà présent dans README.md:4).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/README.md:4 titre dupliqué (déjà présent dans README_ENG.md:4).
+- **Message :** docs/README.md:4 titre dupliqué (déjà présent dans README.md:4).
 
 ## ⚠️ Warning
 
@@ -886328,6 +886097,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** docs/gdd/02_UNIVERS.md:13 titre dupliqué (déjà présent dans docs/CODING_RULES.md:21).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/02_UNIVERS.md:114 titre dupliqué (déjà présent dans docs/gdd/06_REGIONS.md:114).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/02_UNIVERS.md:124 titre dupliqué (déjà présent dans docs/gdd/06_REGIONS.md:125).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/02_UNIVERS.md:134 titre dupliqué (déjà présent dans docs/gdd/06_REGIONS.md:137).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/02_UNIVERS.md:144 titre dupliqué (déjà présent dans docs/gdd/06_REGIONS.md:147).
 
 ## ⚠️ Warning
 
@@ -886773,26 +886562,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:114 titre dupliqué (déjà présent dans docs/gdd/02_UNIVERS.md:114).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:125 titre dupliqué (déjà présent dans docs/gdd/02_UNIVERS.md:124).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:137 titre dupliqué (déjà présent dans docs/gdd/02_UNIVERS.md:134).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:147 titre dupliqué (déjà présent dans docs/gdd/02_UNIVERS.md:144).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** docs/gdd/06_REGIONS.md:222 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:219).
 
 ## ⚠️ Warning
@@ -886848,12 +886617,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:452 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:415).
+- **Message :** docs/gdd/06_REGIONS.md:452 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:293).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:470 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:430).
+- **Message :** docs/gdd/06_REGIONS.md:470 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:311).
 
 ## ⚠️ Warning
 
@@ -886863,7 +886632,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/06_REGIONS.md:485 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:443).
+- **Message :** docs/gdd/06_REGIONS.md:485 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:319).
 
 ## ⚠️ Warning
 
@@ -886898,6 +886667,21 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** docs/gdd/07_VILLES.md:387 titre dupliqué (déjà présent dans docs_ENG/QRB_flake8_error_ENG.md:1963).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/07_VILLES.md:415 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:293).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/07_VILLES.md:430 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:311).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/07_VILLES.md:443 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:319).
 
 ## ⚠️ Warning
 
@@ -887001,12 +886785,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/08_DONJONS.md:400 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:415).
+- **Message :** docs/gdd/08_DONJONS.md:400 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:293).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/08_DONJONS.md:415 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:430).
+- **Message :** docs/gdd/08_DONJONS.md:415 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:311).
 
 ## ⚠️ Warning
 
@@ -887016,7 +886800,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/08_DONJONS.md:428 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:443).
+- **Message :** docs/gdd/08_DONJONS.md:428 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:319).
 
 ## ⚠️ Warning
 
@@ -887060,17 +886844,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/09_PERSONNAGES.md:400 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:415).
+- **Message :** docs/gdd/09_PERSONNAGES.md:11 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:12).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/09_PERSONNAGES.md:430 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:430).
+- **Message :** docs/gdd/09_PERSONNAGES.md:32 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:31).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/09_PERSONNAGES.md:440 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:443).
+- **Message :** docs/gdd/09_PERSONNAGES.md:400 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:293).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/09_PERSONNAGES.md:430 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:311).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/09_PERSONNAGES.md:440 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:319).
 
 ## ⚠️ Warning
 
@@ -887114,36 +886908,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:12 titre dupliqué (déjà présent dans docs/gdd/09_PERSONNAGES.md:11).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:31 titre dupliqué (déjà présent dans docs/gdd/09_PERSONNAGES.md:32).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:41 titre dupliqué (déjà présent dans docs/gdd/11_PROGRESSION.md:45).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:293 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:415).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:311 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:430).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:319 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:443).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** docs/gdd/10_CREATION_PERSONNAGE.md:327 titre dupliqué (déjà présent dans docs_ENG/CODING_RULES_ENG.md:364).
 
 ---
@@ -887178,27 +886942,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/11_PROGRESSION.md:12 titre dupliqué (déjà présent dans docs/gdd/09_PERSONNAGES.md:11).
+- **Message :** docs/gdd/11_PROGRESSION.md:12 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:12).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/11_PROGRESSION.md:35 titre dupliqué (déjà présent dans docs/gdd/09_PERSONNAGES.md:32).
+- **Message :** docs/gdd/11_PROGRESSION.md:35 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:31).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/11_PROGRESSION.md:348 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:415).
+- **Message :** docs/gdd/11_PROGRESSION.md:45 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:41).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/11_PROGRESSION.md:370 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:430).
+- **Message :** docs/gdd/11_PROGRESSION.md:348 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:293).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/11_PROGRESSION.md:378 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:443).
+- **Message :** docs/gdd/11_PROGRESSION.md:370 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:311).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs/gdd/11_PROGRESSION.md:378 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:319).
 
 ## ⚠️ Warning
 
@@ -887247,17 +887016,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/12_STATISTIQUES.md:12 titre dupliqué (déjà présent dans docs/gdd/09_PERSONNAGES.md:11).
+- **Message :** docs/gdd/12_STATISTIQUES.md:12 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:12).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/12_STATISTIQUES.md:35 titre dupliqué (déjà présent dans docs/gdd/09_PERSONNAGES.md:32).
+- **Message :** docs/gdd/12_STATISTIQUES.md:35 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:31).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/12_STATISTIQUES.md:45 titre dupliqué (déjà présent dans docs/gdd/11_PROGRESSION.md:45).
+- **Message :** docs/gdd/12_STATISTIQUES.md:45 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:41).
 
 ## ⚠️ Warning
 
@@ -887267,17 +887036,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/12_STATISTIQUES.md:345 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:415).
+- **Message :** docs/gdd/12_STATISTIQUES.md:345 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:293).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/12_STATISTIQUES.md:367 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:430).
+- **Message :** docs/gdd/12_STATISTIQUES.md:367 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:311).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/12_STATISTIQUES.md:375 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:443).
+- **Message :** docs/gdd/12_STATISTIQUES.md:375 titre dupliqué (déjà présent dans docs/gdd/10_CREATION_PERSONNAGE.md:319).
 
 ## ⚠️ Warning
 
@@ -888123,7 +887892,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs/gdd/README.md:2 titre dupliqué (déjà présent dans README_ENG.md:4).
+- **Message :** docs/gdd/README.md:2 titre dupliqué (déjà présent dans README.md:4).
 
 ## ⚠️ Warning
 
@@ -888237,7 +888006,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/FAQ_ENG.md:78 titre dupliqué (déjà présent dans README_ENG.md:38).
+- **Message :** docs_ENG/FAQ_ENG.md:78 titre dupliqué (déjà présent dans README.md:35).
 
 ---
 
@@ -888389,7 +888158,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/README_ENG.md:4 titre dupliqué (déjà présent dans README_ENG.md:4).
+- **Message :** docs_ENG/README_ENG.md:4 titre dupliqué (déjà présent dans README.md:4).
 
 ## ⚠️ Warning
 
@@ -888750,31 +888519,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** docs_ENG/gdd/02_UNIVERS_ENG.md:13 titre dupliqué (déjà présent dans docs_ENG/CODING_RULES_ENG.md:21).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/02_UNIVERS_ENG.md:28 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:34).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/02_UNIVERS_ENG.md:103 titre dupliqué (déjà présent dans docs_ENG/gdd/06_REGIONS_ENG.md:109).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/02_UNIVERS_ENG.md:111 titre dupliqué (déjà présent dans docs_ENG/gdd/06_REGIONS_ENG.md:119).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/02_UNIVERS_ENG.md:119 titre dupliqué (déjà présent dans docs_ENG/gdd/06_REGIONS_ENG.md:129).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/02_UNIVERS_ENG.md:127 titre dupliqué (déjà présent dans docs_ENG/gdd/06_REGIONS_ENG.md:139).
 
 ## ⚠️ Warning
 
@@ -889216,7 +888960,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/05_FACTIONS_ENG.md:31 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:34).
+- **Message :** docs_ENG/gdd/05_FACTIONS_ENG.md:31 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:28).
 
 ## ⚠️ Warning
 
@@ -889320,7 +889064,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:34 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:34).
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:34 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:28).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:109 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:103).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:119 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:111).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:129 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:119).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:139 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:127).
 
 ## ⚠️ Warning
 
@@ -889335,17 +889099,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:420 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:393).
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:405 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:379).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:426 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:399).
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:420 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:394).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:433 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:406).
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:426 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:400).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/06_REGIONS_ENG.md:433 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:407).
 
 ## ⚠️ Warning
 
@@ -889474,7 +889243,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/07_VILLES_ENG.md:33 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:34).
+- **Message :** docs_ENG/gdd/07_VILLES_ENG.md:33 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:28).
 
 ## ⚠️ Warning
 
@@ -889485,26 +889254,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** docs_ENG/gdd/07_VILLES_ENG.md:342 titre dupliqué (déjà présent dans docs/gdd/07_VILLES.md:367).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/07_VILLES_ENG.md:379 titre dupliqué (déjà présent dans docs_ENG/gdd/06_REGIONS_ENG.md:405).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/07_VILLES_ENG.md:394 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:393).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/07_VILLES_ENG.md:400 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:399).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/07_VILLES_ENG.md:407 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:406).
 
 ## ⚠️ Warning
 
@@ -889623,7 +889372,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:34 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:34).
+- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:34 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:28).
 
 ## ⚠️ Warning
 
@@ -889658,22 +889407,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:376 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:362).
+- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:376 titre dupliqué (déjà présent dans docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:250).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:393 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:393).
+- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:393 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:394).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:399 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:399).
+- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:399 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:400).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:406 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:406).
+- **Message :** docs_ENG/gdd/08_DONJONS_ENG.md:406 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:407).
 
 ## ⚠️ Warning
 
@@ -889838,6 +889587,31 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** docs_ENG/gdd/09_PERSONNAGES_ENG.md:13 titre dupliqué (déjà présent dans docs_ENG/CODING_RULES_ENG.md:21).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/09_PERSONNAGES_ENG.md:34 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:28).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/09_PERSONNAGES_ENG.md:362 titre dupliqué (déjà présent dans docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:250).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/09_PERSONNAGES_ENG.md:393 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:394).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/09_PERSONNAGES_ENG.md:399 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:400).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** docs_ENG/gdd/09_PERSONNAGES_ENG.md:406 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:407).
 
 ## ⚠️ Warning
 
@@ -890026,22 +889800,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:32 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:34).
+- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:32 titre dupliqué (déjà présent dans docs_ENG/gdd/02_UNIVERS_ENG.md:28).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:250 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:362).
+- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:270 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:394).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:270 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:393).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:278 titre dupliqué (déjà présent dans docs_ENG/gdd/09_PERSONNAGES_ENG.md:406).
+- **Message :** docs_ENG/gdd/10_CREATION_PERSONNAGE_ENG.md:278 titre dupliqué (déjà présent dans docs_ENG/gdd/07_VILLES_ENG.md:407).
 
 ## ⚠️ Warning
 
@@ -891830,7 +891599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** docs_ENG/gdd/README_ENG.md:2 titre dupliqué (déjà présent dans README_ENG.md:4).
+- **Message :** docs_ENG/gdd/README_ENG.md:2 titre dupliqué (déjà présent dans README.md:4).
 
 ## ⚠️ Warning
 
@@ -893880,12 +893649,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/adler2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/adler2/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -893895,17 +893664,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/adler2/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/adler2/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/adler2/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ---
 
@@ -893914,12 +893683,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/adler2/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/adler2/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/adler2/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/adler2/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/README.md:85).
 
 ## ⚠️ Warning
 
@@ -893947,12 +893721,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/aho-corasick/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/aho-corasick/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/aho-corasick/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/aho-corasick/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/aho-corasick/README.md:155 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:315).
 
 ---
 
@@ -893980,12 +893759,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/allocator-api2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/allocator-api2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/allocator-api2/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/allocator-api2/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ---
 
@@ -893999,12 +893778,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/allocator-api2/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/allocator-api2/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/allocator-api2/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/allocator-api2/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -894013,7 +893792,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/android_system_properties/CONTRIBUTING.md:1 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/android_system_properties/CONTRIBUTING.md:1 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
 
 ## ⚠️ Warning
 
@@ -894023,7 +893802,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/android_system_properties/CONTRIBUTING.md:38 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/android_system_properties/CONTRIBUTING.md:33 titre dupliqué (déjà présent dans server_rust/vendor/serde_json/CONTRIBUTING.md:40).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/android_system_properties/CONTRIBUTING.md:38 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -894032,12 +893816,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/android_system_properties/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/android_system_properties/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/android_system_properties/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/android_system_properties/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -894156,7 +893940,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -894166,32 +893950,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -894211,17 +893995,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -894231,27 +894015,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -894266,12 +894050,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:162 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:162 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -894281,7 +894065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -894291,17 +894075,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -894311,12 +894095,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -894331,12 +894115,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/argon2/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -894355,17 +894139,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/base64ct/README.md:20).
+- **Message :** server_rust/vendor/argon2/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/argon2/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/argon2/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/argon2/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -894392,7 +894176,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/atoi/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/atoi/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ---
 
@@ -894406,22 +894190,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/autocfg/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/autocfg/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/autocfg/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:35).
+- **Message :** server_rust/vendor/autocfg/README.md:104 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:315).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/autocfg/README.md:104 titre dupliqué (déjà présent dans server_rust/vendor/aho-corasick/README.md:155).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/autocfg/README.md:112 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/autocfg/README.md:112 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -894445,12 +894224,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/base64/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/README.md:151 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/base64/README.md:151 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -894464,17 +894243,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:44 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:44 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:92 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:92 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:99 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:99 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
@@ -894484,22 +894263,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:122 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:122 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:131 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:131 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:227 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:327).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:218 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:655).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:231 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:563).
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:222 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:660).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:227 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:683).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:231 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:694).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:236 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:701).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:252 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:3).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:258 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64/RELEASE-NOTES.md:262 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:15).
 
 ---
 
@@ -894643,7 +894452,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -894653,7 +894462,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -894663,27 +894472,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -894693,12 +894502,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -894708,27 +894517,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -894738,12 +894547,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -894758,47 +894567,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:181 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:181 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -894808,7 +894617,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/base64ct/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -894817,17 +894626,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/phc/README.md:19).
+- **Message :** server_rust/vendor/base64ct/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/base64ct/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/cmov/README.md:78).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/base64ct/README.md:61 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/base64ct/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/base64ct/README.md:61 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -894861,282 +894675,212 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:463).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:782).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:790).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:811).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:197 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:824).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:832).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:262 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:842).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:867).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:289 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:876).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/bumpalo/CHANGELOG.md:885).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/shlex/CHANGELOG.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:334 titre dupliqué (déjà présent dans server_rust/vendor/shlex/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895146,127 +894890,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:433 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:433 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:437 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:437 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:452 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:452 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:459 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:459 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:503 titre dupliqué (déjà présent dans server_rust/vendor/tinyvec/changelog.md:97).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:28).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:562 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:39).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:55).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:37).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:41).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:603 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:45).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:49).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:622 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:54).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:655 titre dupliqué (déjà présent dans server_rust/vendor/base64/RELEASE-NOTES.md:218).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:660 titre dupliqué (déjà présent dans server_rust/vendor/base64/RELEASE-NOTES.md:222).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:677 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:303).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:680 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:309).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:683 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:327).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:691 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:520).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:694 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:563).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:701 titre dupliqué (déjà présent dans server_rust/vendor/base64/RELEASE-NOTES.md:236).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ---
 
@@ -895286,11 +894945,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/bitflags/CODE_OF_CONDUCT.md:12 titre dupliqué (déjà présent dans CODE_OF_CONDUCT.md:15).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CODE_OF_CONDUCT.md:34 titre dupliqué (déjà présent dans server_rust/vendor/wasi/CODE_OF_CONDUCT.md:27).
 
 ## ⚠️ Warning
 
@@ -895319,41 +894973,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/bitflags/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/README.md:40 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/bitflags/README.md:40 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/flume/README.md:54).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/adler2/README.md:35).
-
----
-
-# 📄 server_rust/vendor/bitflags/SECURITY.md
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/SECURITY.md:3 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:3).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/bitflags/SECURITY.md:7 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:7).
+- **Message :** server_rust/vendor/bitflags/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/zerovec/README.md:35).
 
 ---
 
@@ -895426,7 +895056,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -895436,17 +895066,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895456,32 +895086,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895491,12 +895121,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -895506,12 +895136,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -895521,7 +895151,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/blake2/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -895555,17 +895185,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/blake2/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/README.md:58 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/blake2/README.md:58 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/blake2/README.md:67 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/blake2/README.md:67 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -895604,12 +895234,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895629,7 +895259,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895639,7 +895269,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895649,12 +895279,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -895664,7 +895294,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -895674,7 +895304,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ---
 
@@ -895688,12 +895318,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer-0.10.4/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/block-buffer-0.10.4/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -895742,12 +895372,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895757,7 +895387,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -895767,12 +895397,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -895782,27 +895412,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:54 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:54 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:77 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:77 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -895812,7 +895442,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/block-buffer/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ---
 
@@ -895821,12 +895451,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/block-buffer/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/block-buffer/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/block-buffer/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -895840,7 +895470,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/flume/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -895850,22 +895480,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895875,17 +895505,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895895,17 +895525,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895915,7 +895545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -895925,12 +895555,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895940,12 +895570,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895970,17 +895600,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:238 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:238 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -895995,17 +895625,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:278 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:278 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:288 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:288 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:299 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:299 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896015,7 +895645,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896030,7 +895660,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896040,22 +895670,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:369 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:374 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:374 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:387 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:387 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896065,7 +895695,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:432 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:432 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896075,7 +895705,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896115,12 +895745,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:651 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:651 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896135,47 +895765,92 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:704 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:704 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:760 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:760 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:775 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:775 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:893 titre dupliqué (déjà présent dans server_rust/vendor/shlex/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:782 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:152).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:902 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:39).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:790 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:171).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:55).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:182).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:921 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:45).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:824 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:197).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:925 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:49).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:204).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:929 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:54).
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:842 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:262).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:867 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:282).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:876 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:289).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:885 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:302).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:893 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:334).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:902 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:562).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:571).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:921 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:603).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:925 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:615).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/bumpalo/CHANGELOG.md:929 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:622).
 
 ---
 
@@ -896219,7 +895894,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bumpalo/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/bumpalo/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -896247,22 +895922,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/byteorder/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/byteorder/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/byteorder/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/README.md:9).
+- **Message :** server_rust/vendor/byteorder/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/hex/README.md:29).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/byteorder/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/aho-corasick/README.md:155).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/byteorder/README.md:73 titre dupliqué (déjà présent dans server_rust/vendor/version_check/README.md:64).
+- **Message :** server_rust/vendor/byteorder/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:315).
 
 ---
 
@@ -896401,7 +896071,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896411,12 +896081,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896426,12 +896096,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896441,7 +896111,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896461,7 +896131,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896486,7 +896156,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:118 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:118 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896516,7 +896186,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896526,7 +896196,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896541,7 +896211,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896551,7 +896221,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896561,12 +896231,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:235 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:235 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:239 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:239 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -896581,7 +896251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896591,32 +896261,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:283 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:283 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:286 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:286 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:301 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:301 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -896661,7 +896331,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -896671,7 +896341,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/CHANGELOG.md:377 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/bytes/CHANGELOG.md:377 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -896685,17 +896355,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/bytes/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/bytes/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/README.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/bytes/README.md:69 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -896704,7 +896374,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/bytes/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:1).
+- **Message :** server_rust/vendor/bytes/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:1).
 
 ## ⚠️ Warning
 
@@ -897358,12 +897028,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
@@ -897373,12 +897043,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -897388,12 +897058,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -897403,12 +897073,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -897418,22 +897088,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -897443,77 +897113,77 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -897528,362 +897198,362 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:228 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:228 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:251 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:251 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:259 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:259 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:265 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:265 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:280 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:280 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:286 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:286 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:325 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:325 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:338 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:338 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:347 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:347 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:354 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:354 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:361 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:361 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:376 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:376 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:409 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:409 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:455 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:455 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:474 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:474 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:479 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:479 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:499 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:499 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:512 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:512 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:530 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:530 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:549 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:549 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:557 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:557 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:583 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:583 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:589 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:589 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:595 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:595 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:602 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:602 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:608 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:608 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:617 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:617 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:628 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:628 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:632 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:632 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:651 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:651 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:659 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:659 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:665 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:665 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:672 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:672 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:682 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:682 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:690 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:690 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:698 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:698 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:709 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:709 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:719 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:719 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:725 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:725 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:731 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:731 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:738 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:738 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:746 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:746 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:760 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:760 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -897893,192 +897563,192 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:770 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:770 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:777 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:777 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:784 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:784 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:790 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:790 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:798 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:798 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:804 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:804 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:810 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:810 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:817 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:817 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:823 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:823 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:829 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:829 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:835 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:835 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:841 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:841 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:848 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:848 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:854 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:854 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:868 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:868 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:874 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:874 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:880 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:880 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:886 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:886 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:898 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:898 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:903 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:903 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:908 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:908 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:913 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:913 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:918 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:918 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:923 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:923 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:928 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:928 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:939 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:939 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:944 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:944 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:949 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:949 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:954 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:954 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:959 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:959 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:964 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:964 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:969 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:969 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:974 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:974 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:982 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:982 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -898088,46 +897758,41 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:997 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:997 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1006 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1006 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1015 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1015 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1020 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1020 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1025 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1025 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1031 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1031 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1036 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1036 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ---
 
 # 📄 server_rust/vendor/cc/DEVELOPMENT.md
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/DEVELOPMENT.md:1 titre dupliqué (déjà présent dans server_rust/vendor/wasi/README.md:67).
 
 ## ⚠️ Warning
 
@@ -898141,12 +897806,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/cc/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/cc/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -898180,12 +897845,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cfg-if/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/cfg-if/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cfg-if/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/cfg-if/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ---
 
@@ -898219,17 +897884,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cfg-if/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/cfg-if/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cfg-if/README.md:46 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/cfg-if/README.md:46 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cfg-if/README.md:57 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/cfg-if/README.md:57 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -898368,12 +898033,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -898388,12 +898053,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -898408,22 +898073,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898438,22 +898103,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:113 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:113 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898468,32 +898133,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898503,27 +898168,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -898538,7 +898203,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -898548,12 +898213,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -898578,12 +898243,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/chacha20/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -898607,17 +898272,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/chacha20/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/README.md:106 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/chacha20/README.md:106 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chacha20/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/chacha20/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -898631,17 +898296,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chrono/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/chrono/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chrono/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/rand/README.md:62).
+- **Message :** server_rust/vendor/chrono/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:200).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/chrono/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/chrono/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -898730,7 +898395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -898740,12 +898405,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -898760,12 +898425,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -898775,12 +898440,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898790,7 +898455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -898800,12 +898465,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898815,7 +898480,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898825,12 +898490,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -898840,7 +898505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cmov/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -898854,22 +898519,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/base64ct/README.md:20).
+- **Message :** server_rust/vendor/cmov/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/README.md:78 titre dupliqué (déjà présent dans server_rust/vendor/phc/README.md:19).
+- **Message :** server_rust/vendor/cmov/README.md:86 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cmov/README.md:86 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cmov/README.md:95 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/cmov/README.md:95 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -899038,7 +898698,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -899048,7 +898708,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -899058,7 +898718,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -899068,17 +898728,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -899118,42 +898778,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:150 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:150 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899168,7 +898828,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899178,12 +898838,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -899198,7 +898858,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899208,12 +898868,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:233 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:233 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -899223,7 +898883,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899233,17 +898893,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:254 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:254 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899258,7 +898918,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:270 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/const-oid/CHANGELOG.md:270 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -899267,17 +898927,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/README.md:58 titre dupliqué (déjà présent dans server_rust/vendor/phc/README.md:19).
+- **Message :** server_rust/vendor/const-oid/README.md:58 titre dupliqué (déjà présent dans server_rust/vendor/cmov/README.md:78).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/const-oid/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/const-oid/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/const-oid/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -899396,22 +899056,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:32).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:38).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:44).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:50).
 
 ## ⚠️ Warning
 
@@ -899421,7 +899101,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:57).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:63).
 
 ## ⚠️ Warning
 
@@ -899431,7 +899121,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:45 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:69).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:46 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:75).
 
 ## ⚠️ Warning
 
@@ -899441,12 +899141,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:81).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:58 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:87).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -899456,17 +899171,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:99).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:76 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:83 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:107).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:97 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:114).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:120).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:97 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:130).
 
 ## ⚠️ Warning
 
@@ -899476,17 +899216,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:140).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:147).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:153).
 
 ## ⚠️ Warning
 
@@ -899496,7 +899251,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:164).
 
 ## ⚠️ Warning
 
@@ -899506,7 +899266,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:170).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:176).
 
 ## ⚠️ Warning
 
@@ -899516,12 +899286,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:185).
 
 ## ⚠️ Warning
 
 - **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:162 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/CHANGELOG.md:191).
 
 ---
 
@@ -899535,17 +899315,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/README.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/cmov/README.md:37).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:94 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/README.md:64).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:34 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/README.md:74).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures/README.md:95).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:94 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cpufeatures-0.2.17/README.md:103 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -899674,17 +899474,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -899694,42 +899494,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:14).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:20).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:45 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:26).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:45 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -899739,17 +899519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:33).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:39).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899759,17 +899529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:45).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:70 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:51).
 
 ## ⚠️ Warning
 
@@ -899779,27 +899539,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:57).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:82 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:63).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:69).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -899809,42 +899554,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:75).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:100 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:107 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:83).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:90).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:96).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:106).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899854,32 +899574,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:116).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:123).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:153 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:129).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -899889,12 +899594,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:140).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -899904,17 +899604,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:146).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:152).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -899924,22 +899614,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:185 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:161).
+- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
 - **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:186 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/CHANGELOG.md:167).
 
 ---
 
@@ -899953,12 +899633,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/README.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/cpufeatures/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -899968,27 +899643,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/README.md:24).
+- **Message :** server_rust/vendor/cpufeatures/README.md:138 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/README.md:34).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:95 titre dupliqué (déjà présent dans server_rust/vendor/cpufeatures-0.2.17/README.md:54).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:138 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cpufeatures/README.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/cpufeatures/README.md:147 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -899997,12 +899657,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crc-catalog/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/crc-catalog/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crc-catalog/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/crc-catalog/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900012,26 +899672,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/crc/README.md:10 saut de niveau H1 → H3.
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crc/README.md:10 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crc/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crc/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crc/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
 
 ---
 
@@ -900045,7 +899685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crc32fast/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/crc32fast/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
@@ -900055,12 +899695,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crc32fast/README.md:80 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/crc32fast/README.md:80 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crc32fast/README.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/crc32fast/README.md:91 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900070,41 +899710,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md: contient 22 titres H1 (1 attendu).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:217).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:221).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:225).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:231).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:236).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:240).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/CHANGELOG.md:253).
 
 ---
 
@@ -900118,22 +899723,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/crossbeam-queue/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/README.md:54).
+- **Message :** server_rust/vendor/crossbeam-queue/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:1059).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/crossbeam-queue/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-queue/README.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/crossbeam-queue/README.md:50 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900143,6 +899748,41 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md: contient 44 titres H1 (1 attendu).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:56).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:221 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:60).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:65).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:74).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:236 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:78).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:82).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-queue/CHANGELOG.md:95).
 
 ---
 
@@ -900161,17 +899801,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-utils/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/crossbeam-utils/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-utils/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/crossbeam-utils/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:1059).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crossbeam-utils/README.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/crossbeam-utils/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crossbeam-utils/README.md:69 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900210,7 +899855,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:74).
 
 ## ⚠️ Warning
 
@@ -900220,7 +899870,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:80).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:86).
 
 ## ⚠️ Warning
 
@@ -900230,7 +899890,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:92).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
@@ -900240,7 +899910,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:106).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:41 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/CHANGELOG.md:112).
 
 ---
 
@@ -900249,17 +899929,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/README.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:36 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/README.md:13).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/crypto-common-0.1.6/README.md:36 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900313,7 +900003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -900323,12 +900013,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -900338,22 +900028,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900363,17 +900048,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:14).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:20).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900383,17 +900058,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:26).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:32).
+- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900403,17 +900068,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:40).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:107 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:46).
 
 ---
 
@@ -900422,22 +900077,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/README.md:1).
+- **Message :** server_rust/vendor/crypto-common/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/README.md:22).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/crypto-common/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/crypto-common/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900521,17 +900166,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900546,12 +900191,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -900561,7 +900206,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900571,7 +900216,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -900581,7 +900226,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900606,7 +900251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900616,7 +900261,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900635,7 +900280,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/base64ct/README.md:20).
+- **Message :** server_rust/vendor/ctutils/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:19).
 
 ## ⚠️ Warning
 
@@ -900645,17 +900290,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/phc/README.md:19).
+- **Message :** server_rust/vendor/ctutils/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/cmov/README.md:78).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/ctutils/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/README.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/ctutils/README.md:69 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -900709,7 +900354,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -900719,7 +900364,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900739,7 +900384,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900759,7 +900404,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900769,7 +900414,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900784,7 +900429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -900794,7 +900439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900809,7 +900454,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest-0.10.7/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -900928,17 +900573,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/digest-0.10.7/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/README.md:22).
+- **Message :** server_rust/vendor/digest-0.10.7/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/README.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/digest-0.10.7/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
@@ -900948,12 +900593,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/README.md:128 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/digest-0.10.7/README.md:128 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest-0.10.7/README.md:137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/digest-0.10.7/README.md:137 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -901017,7 +900662,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -901027,7 +900672,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901037,7 +900682,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901047,17 +900692,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901067,7 +900712,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -901077,12 +900722,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901092,12 +900737,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901107,7 +900752,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/digest/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -901116,17 +900761,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/digest/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/README.md:99 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/digest/README.md:99 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/digest/README.md:108 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/digest/README.md:108 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -901160,7 +900805,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -901170,7 +900815,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901180,7 +900825,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901190,12 +900835,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901205,7 +900850,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -901225,7 +900870,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/displaydoc/CHANGELOG.md:66 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -901254,7 +900899,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/displaydoc/README.md:102 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/displaydoc/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/displaydoc/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/tinystr/README.md:37).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/displaydoc/README.md:102 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -901263,12 +900918,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/dotenvy/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/dotenvy/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/dotenvy/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ---
 
@@ -901277,7 +900927,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/either/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/either/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -901295,7 +900945,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/equivalent/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/equivalent/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -901320,6 +900970,36 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** titles
 - **Message :** server_rust/vendor/event-listener/CHANGELOG.md: contient 35 titres H1 (1 attendu).
 
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/event-listener/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/parking/CHANGELOG.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/event-listener/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/parking/CHANGELOG.md:5).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/event-listener/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/parking/CHANGELOG.md:13).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/event-listener/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/parking/CHANGELOG.md:17).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/event-listener/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/parking/CHANGELOG.md:41).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/event-listener/CHANGELOG.md:166 titre dupliqué (déjà présent dans server_rust/vendor/parking/CHANGELOG.md:45).
+
 ---
 
 # 📄 server_rust/vendor/event-listener/README.md
@@ -901332,22 +901012,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/event-listener/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/event-listener/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/event-listener/README.md:73 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/event-listener/README.md:73 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/event-listener/README.md:93 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/event-listener/README.md:93 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/event-listener/README.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/event-listener/README.md:102 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -901440,87 +901120,87 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/find-msvc-tools/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ---
 
@@ -901529,12 +901209,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/find-msvc-tools/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/find-msvc-tools/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/find-msvc-tools/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -901567,17 +901247,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flate2/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:76).
+- **Message :** server_rust/vendor/flate2/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/README.md:131).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flate2/README.md:117 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/flate2/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/sha2/README.md:58).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flate2/README.md:128 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/flate2/README.md:117 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/flate2/README.md:128 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -901595,12 +901280,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/flexi_logger/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/README.md:72 titre dupliqué (déjà présent dans server_rust/vendor/rand/README.md:62).
+- **Message :** server_rust/vendor/flexi_logger/README.md:72 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:200).
 
 ## ⚠️ Warning
 
@@ -901984,27 +901669,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:84 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:175).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:85 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:176 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:79).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:188 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:175).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:188 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:84).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:189 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:189 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -902014,17 +901689,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:267 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:267 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:268 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:175).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:268 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:84).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:269 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:269 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -902034,12 +901709,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:295 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:295 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:297 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:297 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -902084,7 +901759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:335 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:335 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -902139,7 +901814,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:397 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:397 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -902159,12 +901834,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:473 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:175).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:473 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:84).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:474 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:474 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -902184,12 +901859,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:501 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:175).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:501 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:84).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:502 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/flexi_logger/src/code_examples.md:502 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ---
 
@@ -902298,7 +901973,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -902308,17 +901988,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -902328,12 +902008,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -902343,17 +902023,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -902363,17 +902043,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -902383,12 +902063,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -902398,22 +902078,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -902428,32 +902108,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:153 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:153 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -902472,12 +902152,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/README.md:46 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/flume/README.md:46 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/README.md:90 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/flume/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/zerovec/README.md:35).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/flume/README.md:90 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902486,12 +902171,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/foreign-types/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/foreign-types/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/foreign-types/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/foreign-types/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -902500,12 +902185,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-channel/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-channel/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-channel/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-channel/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+---
+
+# 📄 server_rust/vendor/futures-core/README.md
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/futures-core/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/futures-core/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902514,12 +902213,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-executor/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-executor/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-executor/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-executor/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902528,7 +902227,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-intrusive/examples/readme.md:1 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/futures-intrusive/examples/readme.md:1 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ---
 
@@ -902542,17 +902241,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-intrusive/readme.md:21 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-intrusive/readme.md:21 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-intrusive/readme.md:42 titre dupliqué (déjà présent dans server_rust/vendor/parking_lot/README.md:133).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/futures-intrusive/readme.md:47 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-intrusive/readme.md:47 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902561,12 +902255,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-io/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-io/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-io/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-io/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902575,12 +902269,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-sink/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-sink/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-sink/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-sink/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902589,12 +902283,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-task/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-task/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-task/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-task/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902603,12 +902297,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-util/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/futures-util/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/futures-util/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/futures-util/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -902631,7 +902325,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/generic-array/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/generic-array/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ---
 
@@ -902795,12 +902489,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:237).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:247).
 
 ## ⚠️ Warning
 
@@ -902810,17 +902514,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:254).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:24 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:270).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:277).
 
 ## ⚠️ Warning
 
@@ -902830,17 +902549,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:292).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -902850,12 +902574,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:309).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:75 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:322).
 
 ## ⚠️ Warning
 
@@ -902865,7 +902599,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:333).
 
 ## ⚠️ Warning
 
@@ -902875,22 +902614,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:384).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -902900,27 +902644,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:410).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:178 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:178 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:426).
 
 ## ⚠️ Warning
 
@@ -902930,7 +902684,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:190 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:190 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:437).
 
 ## ⚠️ Warning
 
@@ -902940,12 +902699,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:450).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -902955,52 +902719,97 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:467).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:235 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:243 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:234 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:478).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:235 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:242 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:487).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:243 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:295 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:262 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:508).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:263 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:509).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:537).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:295 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:550).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:559).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:320 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:570).
 
 ## ⚠️ Warning
 
@@ -903010,37 +902819,57 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:330 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:330 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:341 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:340 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:591).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:347 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:341 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:354 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:346 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:598).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:358 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:347 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:365 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:353 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:606).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:354 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:358 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:364 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:618).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:365 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903050,7 +902879,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:381 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:636).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:387 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:643).
 
 ## ⚠️ Warning
 
@@ -903060,32 +902899,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:401 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:401 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:412 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:668).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:412 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:422 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:675).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:422 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:688).
 
 ## ⚠️ Warning
 
@@ -903095,12 +902949,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:717).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:461 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:723).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:464 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:728).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:467 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:733).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:738).
 
 ---
 
@@ -903109,17 +902988,46 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:57 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/README.md:74 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
+
+---
+
+# 📄 server_rust/vendor/getrandom-0.2.17/SECURITY.md
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/SECURITY.md:3 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:3).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/getrandom-0.2.17/SECURITY.md:7 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:7).
 
 ---
 
@@ -903288,7 +903196,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -903298,22 +903206,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -903323,7 +903231,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903333,22 +903241,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -903358,37 +903266,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:143 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:143 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903398,22 +903306,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:7).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:238 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:16).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:238 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -903423,32 +903321,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:254 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:23).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/getrandom/CHANGELOG.md:255 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:258 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:270 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:38).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:44).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -903458,22 +903341,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:283 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:283 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:58).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:296 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:296 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903483,22 +903361,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:309 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:74).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/getrandom/CHANGELOG.md:310 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:313 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:86).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:313 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903508,12 +903376,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:326 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:333 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:96).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:326 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903523,27 +903386,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:346 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:346 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:349 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:349 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:384 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:146).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:385 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:385 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903553,37 +903411,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:392 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:392 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:410 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:171).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:414 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:414 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:186).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
@@ -903593,12 +903436,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:437 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:196).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903608,17 +903446,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:441 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:441 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:450 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:208).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:451 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:451 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903628,97 +903461,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:467 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:224).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:468 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:468 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:479 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:478 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:234).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:479 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:487 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:242).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:495 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:517 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:538 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:495 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:262).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:551 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:509 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:263).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:517 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:537 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:290).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:538 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:550 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:302).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:551 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:310).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:560 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:570 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:320).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:560 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903728,57 +903516,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:574 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:574 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:580 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:580 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:591 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:340).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:592 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:592 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:599 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:598 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:346).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:607 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:599 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:611 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:606 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:353).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:607 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:611 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:618 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:364).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:619 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:619 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903788,17 +903556,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:636 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:381).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:637 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:387).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:637 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903808,47 +903566,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:649 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:649 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:654 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:654 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:657 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:657 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:668 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:411).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:669 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:669 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:676 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:675 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:417).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:676 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:680 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:688 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:429).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:680 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -903858,37 +903601,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:693 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:693 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:697 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:717 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:457).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:723 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:461).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:728 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:464).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:733 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:467).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:738 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/CHANGELOG.md:470).
+- **Message :** server_rust/vendor/getrandom/CHANGELOG.md:697 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -903927,12 +903645,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/rand/README.md:94).
+- **Message :** server_rust/vendor/getrandom/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
@@ -903942,22 +903655,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/README.md:238 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:57).
+- **Message :** server_rust/vendor/getrandom/README.md:325 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/README.md:325 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/getrandom/README.md:336 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/README.md:336 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/getrandom/README.md:345 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/getrandom/README.md:345 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -903966,17 +903674,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:1).
+- **Message :** server_rust/vendor/getrandom/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/SECURITY.md:3 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:3).
+- **Message :** server_rust/vendor/getrandom/SECURITY.md:3 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/getrandom/SECURITY.md:7 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:7).
+- **Message :** server_rust/vendor/getrandom/SECURITY.md:7 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:7).
 
 ---
 
@@ -904010,12 +903718,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
@@ -904025,12 +903733,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904040,12 +903748,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904055,7 +903763,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904070,22 +903778,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904095,7 +903803,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:139 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904105,7 +903813,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904115,12 +903823,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904130,17 +903838,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:183 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:183 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:210 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904150,17 +903858,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:236 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:236 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:243 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:243 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904170,12 +903878,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:256 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:256 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:262 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:262 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904185,22 +903893,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:278 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:278 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:290 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:299 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:299 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:305 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:305 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904210,22 +903918,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:320 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:320 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904235,12 +903943,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:351 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:351 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904250,12 +903958,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:366 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:366 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904265,17 +903973,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904285,12 +903993,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:413 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:413 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:416 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:416 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904300,7 +904008,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904310,7 +904018,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904330,17 +904038,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:462 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:462 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904350,62 +904058,62 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:476 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:476 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:487 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:487 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:495 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:495 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:500 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:500 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:508 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:513 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:513 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:519 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:519 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:523 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:523 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:528 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:528 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904415,7 +904123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904425,27 +904133,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:549 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:549 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:560 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:560 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:570 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:570 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904455,17 +904163,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:578 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:578 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:583 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:583 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:588 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:588 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -904479,22 +904187,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:77 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/hashbrown-0.16.1/README.md:77 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -904538,12 +904246,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
@@ -904558,12 +904266,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904578,7 +904286,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904588,7 +904296,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904603,7 +904311,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904613,7 +904321,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904628,7 +904336,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904658,17 +904366,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -904678,7 +904386,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904698,7 +904406,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904713,7 +904421,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904728,12 +904436,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904748,12 +904456,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:214 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:214 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:233 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:233 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -904763,7 +904471,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904778,12 +904486,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:255 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:267 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:267 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904793,7 +904501,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904808,7 +904516,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:287 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:287 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904818,7 +904526,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904833,12 +904541,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:309 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:309 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:321 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:321 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904848,7 +904556,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:330 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:330 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904858,7 +904566,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904873,17 +904581,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:351 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:351 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:355 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:355 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:359 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:359 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904893,7 +904601,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:366 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:366 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904908,7 +904616,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:382 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904918,7 +904626,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -904928,7 +904636,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904938,7 +904646,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:406 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:406 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904953,7 +904661,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:420 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:420 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904963,12 +904671,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -904983,12 +904691,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:444 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:444 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905003,7 +904711,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905018,7 +904726,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905053,7 +904761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:488 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905063,12 +904771,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:496 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:496 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905083,12 +904791,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:507 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:507 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905098,12 +904806,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:518 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:518 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905113,7 +904821,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:526 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:526 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905123,7 +904831,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:531 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:531 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905133,12 +904841,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:539 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:539 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905148,7 +904856,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905158,12 +904866,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:550 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:550 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905173,7 +904881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905183,7 +904891,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:567 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:567 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905198,7 +904906,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:580 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:580 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905208,7 +904916,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:585 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:585 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905218,7 +904926,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:591 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:591 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905228,7 +904936,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:596 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:596 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905238,7 +904946,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:601 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:601 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905253,7 +904961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:609 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:609 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905263,7 +904971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:614 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:614 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905273,7 +904981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:619 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hashbrown/CHANGELOG.md:619 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905292,12 +905000,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/hashbrown/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/hashbrown/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
@@ -905307,12 +905015,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/hashbrown/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashbrown/README.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/hashbrown/README.md:87 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -905335,7 +905043,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hashlink/README.md:57 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/hashlink/README.md:57 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -905346,26 +905054,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** titles
 - **Message :** server_rust/vendor/heck/CHANGELOG.md: contient 4 titres H1 (1 attendu).
 
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/heck/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/flume/CHANGELOG.md:8).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/heck/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/base64/RELEASE-NOTES.md:252).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/heck/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/base64/RELEASE-NOTES.md:258).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/heck/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/base64/RELEASE-NOTES.md:262).
-
 ---
 
 # 📄 server_rust/vendor/heck/README.md
@@ -905373,7 +905061,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/heck/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/heck/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:51).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/heck/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -905382,27 +905075,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hex/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/hex/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hex/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/README.md:9).
+- **Message :** server_rust/vendor/hex/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hex/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/hex/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hex/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/hex/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/hex/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -905491,7 +905179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -905501,22 +905189,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -905531,7 +905219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905546,17 +905234,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905566,7 +905254,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905576,32 +905264,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -905611,27 +905299,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hkdf/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -905645,17 +905333,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/hkdf/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/README.md:88 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/hkdf/README.md:88 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hkdf/README.md:97 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/hkdf/README.md:97 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -905709,7 +905397,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -905719,22 +905407,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905744,7 +905432,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905754,12 +905442,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905769,12 +905457,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hmac/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -905783,17 +905471,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/README.md:33 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/hmac/README.md:33 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/README.md:97 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/hmac/README.md:97 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hmac/README.md:106 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/hmac/README.md:106 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -905912,7 +905600,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -905942,7 +905630,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -905977,7 +905665,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -905992,7 +905680,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906002,7 +905690,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906012,7 +905700,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -906022,12 +905710,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -906042,7 +905730,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -906052,12 +905740,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:195 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:195 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/hybrid-array/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ---
 
@@ -906066,22 +905754,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/base64ct/README.md:20).
+- **Message :** server_rust/vendor/hybrid-array/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/phc/README.md:19).
+- **Message :** server_rust/vendor/hybrid-array/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/cmov/README.md:78).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/README.md:34 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/hybrid-array/README.md:34 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/hybrid-array/README.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/hybrid-array/README.md:43 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -906420,27 +906108,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906450,17 +906138,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906475,37 +906163,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:77 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:77 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906515,27 +906203,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906545,22 +906233,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:132 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:132 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -906580,7 +906268,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906590,12 +906278,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -906610,162 +906298,162 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:220 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:233 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:233 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:249 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:249 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:261 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:261 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:265 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:265 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:273 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:273 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:281 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:281 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:285 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:285 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:289 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:289 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -906779,7 +906467,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/iana-time-zone/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -906793,7 +906481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_collections/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_collections/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -906807,12 +906495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_locale_core/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/icu_locale_core/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_locale_core/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ---
 
@@ -906826,12 +906509,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_normalizer/README.md:34 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/icu_normalizer/README.md:34 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_normalizer/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_normalizer/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -906869,7 +906552,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_normalizer_data/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_normalizer_data/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -906883,12 +906566,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_properties/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/icu_properties/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_properties/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_properties/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -906902,7 +906585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_properties_data/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_properties_data/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -906921,7 +906604,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/icu_provider/README.md:82 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/icu_provider/README.md:82 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -906930,12 +906613,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/idna/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/idna/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/idna/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/flume/README.md:54).
+- **Message :** server_rust/vendor/idna/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/zerovec/README.md:35).
 
 ## ⚠️ Warning
 
@@ -906945,7 +906628,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/idna/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/idna/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -906954,7 +906637,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/idna_adapter/README.md:39 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/idna_adapter/README.md:39 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -906974,6 +906657,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/indexmap/README.md:36 titre dupliqué (déjà présent dans server_rust/vendor/foldhash/README.md:30).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/indexmap/README.md:57 titre dupliqué (déjà présent dans server_rust/vendor/scopeguard/README.md:47).
 
 ---
 
@@ -907001,7 +906689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/itoa/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/itoa/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -907011,7 +906699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/itoa/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/itoa/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -907200,7 +906888,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -907215,12 +906903,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907235,22 +906923,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -907260,17 +906948,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:203 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:203 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907285,27 +906973,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:311 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:352 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:352 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907315,7 +907003,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:376 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:376 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907325,12 +907013,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:51).
 
 ## ⚠️ Warning
 
@@ -907340,17 +907028,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:423 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:423 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907360,7 +907048,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907375,12 +907063,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907390,7 +907078,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907400,17 +907088,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:559 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:566 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:566 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -907420,22 +907108,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:594 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:594 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:598 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:598 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:635 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:635 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:645 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:645 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -907445,7 +907133,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:668 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:668 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907460,22 +907148,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:698 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:698 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:705 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:705 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:716 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:716 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:721 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:721 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -907485,22 +907173,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:749 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:749 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:753 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:753 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:775 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:775 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:779 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:779 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -907510,12 +907198,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:792 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:797 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:797 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907525,12 +907213,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:827 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:827 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907540,22 +907228,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:877 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:877 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:881 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:881 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:890 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:890 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:895 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:895 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907565,27 +907253,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:933 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:937 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:937 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:946 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:946 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:957 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:957 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -907595,22 +907283,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:979 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:979 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:983 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:983 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:990 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:990 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907620,7 +907308,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907630,17 +907318,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1027 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1027 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1031 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1031 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1035 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1035 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907650,7 +907338,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1049 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1049 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907660,17 +907348,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1059 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1059 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1066 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1066 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907680,12 +907368,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1113 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1113 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1124 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1124 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -907695,17 +907383,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1160 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1160 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1193 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1193 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:51).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1197 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1197 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907715,12 +907403,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1214 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1214 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1221 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1221 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907730,17 +907418,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1249 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1249 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1257 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1257 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1268 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1268 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -907750,17 +907438,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1304 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1304 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1308 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1308 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1313 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1313 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907770,17 +907458,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1337 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1337 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1341 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1341 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1351 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1351 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
@@ -907790,12 +907478,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1369 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1372 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1372 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -907805,22 +907493,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1388 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1388 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1392 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1392 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1396 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1396 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/CHANGELOG.md:1399 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/libc/CHANGELOG.md:1399 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ---
 
@@ -907829,27 +907517,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/libc/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/adler2/README.md:35).
+- **Message :** server_rust/vendor/libc/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/README.md:85).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:57).
+- **Message :** server_rust/vendor/libc/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/README.md:67 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/libc/README.md:67 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libc/README.md:79 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/libc/README.md:79 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
 
 ---
 
@@ -907918,27 +907606,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libsqlite3-sys/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/libsqlite3-sys/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/libsqlite3-sys/README.md:88 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:239).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/libsqlite3-sys/README.md:214 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/libsqlite3-sys/README.md:239 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:191).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/libsqlite3-sys/README.md:243 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/libsqlite3-sys/README.md:243 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
@@ -907957,7 +907630,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/litemap/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/litemap/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -907966,62 +907639,72 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/log/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/log/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908031,57 +907714,57 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:136 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:136 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:3).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:189 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:189 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908091,17 +907774,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:298 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:298 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
@@ -908151,17 +907834,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:364 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:364 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:380 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/README.md:54).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:380 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:1059).
 
 ## ⚠️ Warning
 
@@ -908171,12 +907854,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:410 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:410 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908195,7 +907878,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/log/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/log/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ---
 
@@ -908254,7 +907937,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -908264,12 +907947,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -908284,12 +907967,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:80).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908299,7 +907982,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908309,7 +907992,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908319,17 +908002,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908339,12 +908022,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160).
+- **Message :** server_rust/vendor/md-5/CHANGELOG.md:95 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:201).
 
 ## ⚠️ Warning
 
@@ -908363,17 +908046,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/md-5/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/README.md:40 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/md-5/README.md:40 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/md-5/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/md-5/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -908382,7 +908065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/memchr/CONTRIBUTING.md:1 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/memchr/CONTRIBUTING.md:1 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
 
 ---
 
@@ -908396,7 +908079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/memchr/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/memchr/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
@@ -908406,7 +908089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/memchr/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/aho-corasick/README.md:155).
+- **Message :** server_rust/vendor/memchr/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:315).
 
 ---
 
@@ -908442,7 +908125,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/miniz_oxide/Readme.md:30 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/miniz_oxide/Readme.md:30 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ---
 
@@ -908491,22 +908174,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:37).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:556).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:41).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:562).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:45).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/tinyvec/changelog.md:112).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:49).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:571).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:587).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:597).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:603).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:615).
 
 ## ⚠️ Warning
 
@@ -908516,7 +908219,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -908531,12 +908239,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:197 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:197 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908546,12 +908254,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:218 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:218 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908561,22 +908269,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:248 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:248 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908586,12 +908294,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:287 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:287 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:294 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:294 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:677).
 
 ## ⚠️ Warning
 
@@ -908601,17 +908314,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:309 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:680).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/mio/CHANGELOG.md:311 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:327 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:683).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:344 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:344 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -908621,37 +908344,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:356 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/mio/CHANGELOG.md:360 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:366 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:366 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:373 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:373 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:381 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:381 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:407 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:407 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -908661,7 +908389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:429 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -908671,7 +908399,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:469 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:460 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:469 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -908681,7 +908414,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:496 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:496 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -908701,22 +908434,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:520 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:691).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/mio/CHANGELOG.md:529 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:539 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:539 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:551 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:551 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:558 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:558 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:563 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:694).
 
 ## ⚠️ Warning
 
@@ -908726,22 +908469,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:581 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:581 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:599 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:599 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:629 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:629 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:634 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:634 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908751,27 +908494,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:648 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:648 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:653 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:653 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:659 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:659 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:664 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:664 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:669 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:669 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -908785,7 +908528,41 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/mio/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/README.md:108 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:556).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/README.md:191 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:239).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/mio/README.md:200 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
+
+---
+
+# 📄 server_rust/vendor/nu-ansi-term/CHANGELOG.md
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/nu-ansi-term/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/nu-ansi-term/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ---
 
@@ -908795,6 +908572,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/nu-ansi-term/README.md: contient 2 titres H1 (1 attendu).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/nu-ansi-term/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/hex/README.md:29).
 
 ---
 
@@ -908818,27 +908600,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/num-traits/README.md:10 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/num-traits/README.md:10 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/num-traits/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/num-traits/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/num-traits/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/README.md:54).
+- **Message :** server_rust/vendor/num-traits/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:1059).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/num-traits/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/num-traits/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/num-traits/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/num-traits/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -908856,7 +908638,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -908886,37 +908668,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:166 titre dupliqué (déjà présent dans server_rust/vendor/tinyvec/changelog.md:97).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:166 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:503).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/shlex/CHANGELOG.md:10).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/tinyvec/changelog.md:101).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:39).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:562).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:55).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:571).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:45).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:603).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:49).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:615).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:195 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:54).
+- **Message :** server_rust/vendor/once_cell/CHANGELOG.md:195 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:622).
 
 ---
 
@@ -908944,12 +908726,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:7 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908959,7 +908756,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908969,7 +908766,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908979,7 +908776,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -908989,7 +908786,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -909004,17 +908806,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909044,7 +908851,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909059,7 +908866,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909074,7 +908881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909084,12 +908891,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909099,7 +908906,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:222 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:222 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909109,7 +908916,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:234 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:234 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909119,7 +908926,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909129,7 +908936,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:259 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:259 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909149,12 +908956,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:288 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:288 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:294 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:294 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909174,7 +908981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909194,7 +909001,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909209,7 +909016,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909219,12 +909026,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909254,7 +909061,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:448 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:448 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909274,7 +909081,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909284,7 +909091,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909294,12 +909101,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:520 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:520 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909324,7 +909131,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909369,7 +909176,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909379,7 +909186,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:650 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:650 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909434,7 +909241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:739 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:739 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909444,7 +909251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:751 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:751 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909453,22 +909260,31 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ---
 
+# 📄 server_rust/vendor/openssl-sys/README.md
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl/README.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl/README.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
+
+---
+
 # 📄 server_rust/vendor/openssl/CHANGELOG.md
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909478,17 +909294,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909498,7 +909314,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909508,7 +909324,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909523,7 +909339,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909533,12 +909349,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -909548,32 +909364,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909588,7 +909404,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909598,7 +909414,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:181 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:181 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909608,7 +909424,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909618,27 +909434,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:222 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:222 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:226 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:226 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909653,7 +909469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:248 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:248 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909663,12 +909479,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:260 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:260 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:266 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:266 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909678,12 +909494,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:280 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:280 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909693,7 +909509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909703,7 +909519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909713,7 +909529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909723,7 +909539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909733,7 +909549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909743,7 +909559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:363 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:363 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909763,7 +909579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -909773,7 +909589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:406 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:406 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909783,7 +909599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909793,12 +909609,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:440 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:440 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -909808,7 +909624,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:461 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:461 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909833,12 +909649,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909848,12 +909664,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:525 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:525 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:531 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:531 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -909868,7 +909684,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909883,7 +909699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909898,7 +909714,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909908,7 +909724,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909918,7 +909734,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:630 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:630 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -909928,12 +909744,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:653 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:653 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:657 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:657 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -909943,12 +909759,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:671 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:671 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:677 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:677 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909958,7 +909774,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:694 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:694 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909968,7 +909784,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:710 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:710 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909978,7 +909794,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:726 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:726 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909988,7 +909804,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:737 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:737 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -909998,7 +909814,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:755 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:755 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910013,7 +909829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:771 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:771 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910033,7 +909849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:803 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:803 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910053,7 +909869,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:835 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:835 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910063,12 +909879,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:843 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:843 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:849 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:849 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910078,7 +909894,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:862 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:862 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910093,7 +909909,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:883 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:883 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -910103,7 +909919,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:897 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:897 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910113,12 +909929,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:913 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:913 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:919 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:919 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910138,17 +909954,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:973 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:973 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:981 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:981 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:988 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:988 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910158,12 +909974,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1007 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1007 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -910173,7 +909989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1026 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1026 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910183,7 +909999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1039 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1039 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910198,22 +910014,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1059 titre dupliqué (déjà présent dans server_rust/vendor/crossbeam-utils/README.md:54).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/openssl/CHANGELOG.md:1063 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1108 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1108 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ---
 
@@ -910222,17 +910033,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/openssl/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/openssl/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/openssl/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -910242,36 +910043,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/parking/CHANGELOG.md: contient 12 titres H1 (1 attendu).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/parking/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/event-listener/CHANGELOG.md:122).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/parking/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/event-listener/CHANGELOG.md:126).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/parking/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/event-listener/CHANGELOG.md:130).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/parking/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/event-listener/CHANGELOG.md:138).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/parking/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/event-listener/CHANGELOG.md:160).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/parking/CHANGELOG.md:45 titre dupliqué (déjà présent dans server_rust/vendor/event-listener/CHANGELOG.md:166).
 
 ---
 
@@ -910285,17 +910056,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/parking/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/parking/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking/README.md:63 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/parking/README.md:63 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -910334,12 +910105,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking_lot/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/parking_lot/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking_lot/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/parking_lot/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ---
 
@@ -910353,22 +910124,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking_lot/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/parking_lot/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking_lot/README.md:100 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/parking_lot/README.md:100 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking_lot/README.md:137 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/parking_lot/README.md:133 titre dupliqué (déjà présent dans server_rust/vendor/futures-intrusive/readme.md:42).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/parking_lot/README.md:146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/parking_lot/README.md:137 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/parking_lot/README.md:146 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -910457,12 +910233,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910472,12 +910248,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -910487,17 +910263,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910507,22 +910283,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:113 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:113 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910532,7 +910308,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910542,17 +910318,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910562,12 +910338,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910577,22 +910353,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910602,7 +910378,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/password-hash/CHANGELOG.md:208 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -910611,17 +910387,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/base64ct/README.md:20).
+- **Message :** server_rust/vendor/password-hash/README.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/password-hash/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/password-hash/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/password-hash/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -910635,7 +910411,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/phc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/phc/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -910654,12 +910430,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/phc/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/phc/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/cmov/README.md:78).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/phc/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/phc/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/phc/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -910668,12 +910449,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pin-project-lite/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/pin-project-lite/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pin-project-lite/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:3).
+- **Message :** server_rust/vendor/pin-project-lite/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/openssl/CHANGELOG.md:3).
 
 ---
 
@@ -910682,12 +910463,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pin-project-lite/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/pin-project-lite/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pin-project-lite/README.md:122 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/pin-project-lite/README.md:22 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/pin-project-lite/README.md:122 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -910696,12 +910482,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910711,37 +910497,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910751,7 +910537,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -910766,42 +910552,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:101 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:101 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:107 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:107 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:113 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:113 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:131 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:131 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910811,32 +910597,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:178 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:178 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:187 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:187 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910846,12 +910632,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910861,12 +910647,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910876,7 +910662,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -910886,7 +910672,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/pkg-config/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -910895,17 +910681,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/pkg-config/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/pkg-config/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/pkg-config/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/pkg-config/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -910919,7 +910705,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/potential_utf/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/potential_utf/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -910933,12 +910719,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/proc-macro2/README.md:28 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/proc-macro2/README.md:28 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/proc-macro2/README.md:81 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/proc-macro2/README.md:81 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -910957,12 +910743,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/quote/README.md:120 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/quote/README.md:120 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/quote/README.md:257 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/quote/README.md:257 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -911145,42 +910931,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -911190,12 +910976,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -911205,27 +910991,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:119).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/rand/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:104).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:218 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:314 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:314 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
@@ -911235,27 +911031,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:353 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:353 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:57).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 ## ⚠️ Warning
 
@@ -911265,17 +911061,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:442 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:442 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -911285,7 +911081,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:455 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:455 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -911295,7 +911091,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:466 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:35).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:466 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -911305,7 +911106,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:477 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:477 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -911320,17 +911121,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:124).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -911340,12 +911136,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:582 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:582 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:603 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:124).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:603 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:556).
 
 ## ⚠️ Warning
 
@@ -911365,27 +911161,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:645 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:645 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:715 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:715 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:720 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:57).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:720 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:725 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:57).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:725 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:730 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:57).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:730 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 ## ⚠️ Warning
 
@@ -911405,12 +911201,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:887 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:124).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:887 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:556).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -911420,12 +911216,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:904 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:904 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:909 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:909 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -911440,32 +911236,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:930 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:930 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:941 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:941 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:947 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:947 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:954 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:954 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:960 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:960 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -911475,7 +911271,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:969 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:969 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -911485,32 +911281,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:980 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:980 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:984 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:984 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:989 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:989 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:994 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:994 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:999 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:999 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -911525,42 +911321,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1018 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1018 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1023 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1023 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1026 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1026 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1032 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1032 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1035 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1035 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1040 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1040 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1045 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1045 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1050 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1050 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -911570,47 +911366,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1058 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1058 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1063 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1063 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1071 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1071 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1076 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1076 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1081 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1081 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1087 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1087 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1092 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1092 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1097 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1097 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1100 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1100 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -911625,7 +911421,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -911635,17 +911431,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1128 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1128 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1132 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1132 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1136 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1136 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -911655,22 +911451,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1146 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1175 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1175 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1179 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1179 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -911689,7 +911485,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/README.md:102 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/rand/README.md:62 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:200).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/rand/README.md:94 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:68).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/rand/README.md:102 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -911788,17 +911594,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -911808,7 +911614,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -911818,17 +911624,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:53 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:53 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -911838,57 +911639,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:127).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/rand_core/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:102).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:166 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:166 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:185 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:185 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:197 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:197 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:2567).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:218).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:202 titre dupliqué (déjà présent dans server_rust/vendor/rand_core/CHANGELOG.md:93).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:226 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:226 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:238 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:238 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -911903,7 +911699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -911918,7 +911714,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -911927,7 +911723,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/rand_core/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -911941,12 +911737,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex-automata/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/regex-automata/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex-automata/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/regex-automata/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -911965,7 +911761,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex-syntax/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/regex-syntax/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
@@ -911975,7 +911771,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex-syntax/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/regex-syntax/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -911985,7 +911781,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex-syntax/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/rand/README.md:62).
+- **Message :** server_rust/vendor/regex-syntax/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:200).
 
 ## ⚠️ Warning
 
@@ -912038,17 +911834,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/regex/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/regex/README.md:200 titre dupliqué (déjà présent dans server_rust/vendor/rand/README.md:62).
+- **Message :** server_rust/vendor/regex/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
@@ -912058,12 +911849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/regex/README.md:315 titre dupliqué (déjà présent dans server_rust/vendor/aho-corasick/README.md:155).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/regex/README.md:326 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/regex/README.md:326 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -912111,7 +911897,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/rustversion/README.md:154 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/rustversion/README.md:154 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -912121,11 +911907,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/scopeguard/README.md:21 titre sans ligne vide avant.
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/scopeguard/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/indexmap/README.md:57).
 
 ---
 
@@ -912169,22 +911950,57 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:16).
+- **Message :** server_rust/vendor/serde/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:21).
+- **Message :** server_rust/vendor/serde/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:25).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
+- **Message :** server_rust/vendor/serde/README.md:36 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:36).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde/README.md:101 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/serde/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:37).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:38).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:39 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:39).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:42 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:42).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:43 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:43).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:53).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/README.md:101 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -912194,6 +912010,21 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/serde/crates-io.md: contient 0 titres H1 (1 attendu).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/crates-io.md:16 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:25).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/crates-io.md:21 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:53).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/serde/crates-io.md:44 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:76).
 
 ---
 
@@ -912251,57 +912082,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:36 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:36).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:37).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:38).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:39 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:39).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:42 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:42).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:43 titre dupliqué (déjà présent dans server_rust/vendor/serde/README.md:43).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:21).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/README.md:101 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/serde_derive/README.md:101 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -912315,17 +912096,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/crates-io.md:16 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:16).
+- **Message :** server_rust/vendor/serde_derive/crates-io.md:16 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:25).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/crates-io.md:21 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:21).
+- **Message :** server_rust/vendor/serde_derive/crates-io.md:21 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:53).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde_derive/crates-io.md:44 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
+- **Message :** server_rust/vendor/serde_derive/crates-io.md:44 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:76).
 
 ---
 
@@ -912340,11 +912121,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/serde_json/CONTRIBUTING.md:36 titre sans ligne vide avant.
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/serde_json/CONTRIBUTING.md:40 titre dupliqué (déjà présent dans server_rust/vendor/android_system_properties/CONTRIBUTING.md:33).
 
 ---
 
@@ -912368,12 +912144,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde_json/README.md:325 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
+- **Message :** server_rust/vendor/serde_json/README.md:325 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/serde_json/README.md:375 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/serde_json/README.md:375 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -912422,7 +912198,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -912432,12 +912208,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -912457,27 +912233,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:80).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha1/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -912486,17 +912267,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/sha1/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/README.md:50 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/sha1/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/sha2/README.md:23).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha1/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/sha1/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/sha2/README.md:33).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha1/README.md:50 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha1/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -912610,7 +912401,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:50).
 
 ## ⚠️ Warning
 
@@ -912620,7 +912416,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:56).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:16 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:62).
 
 ## ⚠️ Warning
 
@@ -912630,37 +912436,62 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:68).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:28 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:74).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:80).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:45 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:86).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:92).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:98).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -912670,17 +912501,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:109).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:116).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:122).
 
 ## ⚠️ Warning
 
@@ -912690,12 +912536,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:128).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:134).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:140).
 
 ## ⚠️ Warning
 
@@ -912705,12 +912566,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:151).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:157).
 
 ## ⚠️ Warning
 
@@ -912720,7 +912591,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:167).
 
 ## ⚠️ Warning
 
@@ -912735,7 +912611,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:187).
 
 ## ⚠️ Warning
 
@@ -912745,7 +912626,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:150 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:150 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:199).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:201).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:162 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:203).
 
 ## ⚠️ Warning
 
@@ -912755,7 +912651,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:166 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:207).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:168 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:209).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:211).
+
+## ⚠️ Warning
+
+- **Module :** titles
 - **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:214).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:215).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:176 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:217).
 
 ## ⚠️ Warning
 
@@ -912767,6 +912688,26 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** titles
 - **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:220).
 
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:182 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:223).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:225).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:227).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/CHANGELOG.md:188 titre dupliqué (déjà présent dans server_rust/vendor/sha2/CHANGELOG.md:229).
+
 ---
 
 # 📄 server_rust/vendor/sha2-0.10.9/README.md
@@ -912774,22 +912715,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/sha2-0.10.9/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/sha2/README.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common-0.1.6/README.md:22).
+- **Message :** server_rust/vendor/sha2-0.10.9/README.md:17 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/sha2-0.10.9/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/crypto-common/README.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2-0.10.9/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/sha2-0.10.9/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sha2-0.10.9/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -912913,22 +912859,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:9 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -912938,12 +912884,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -912953,17 +912894,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:56 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:15).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/sha2/CHANGELOG.md:57 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:21).
 
 ## ⚠️ Warning
 
@@ -912973,62 +912904,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:27).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/sha2/CHANGELOG.md:69 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:33).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/sha1/CHANGELOG.md:42).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:45).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:51).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:57).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913038,32 +912939,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:68).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:75).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:122 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:81).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913073,27 +912959,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:87).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:93).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:99).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -913103,22 +912974,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:144 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:110).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:157 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:116).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -913128,12 +912989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:167 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:126).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -913148,12 +913004,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:187 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -913163,22 +913014,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:158).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:160).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:203 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:162).
+- **Message :** server_rust/vendor/sha2/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -913188,32 +913024,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:166).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:168).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:170).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/sha2/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:214).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:215 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:174).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:176).
 
 ## ⚠️ Warning
 
@@ -913225,26 +913036,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** titles
 - **Message :** server_rust/vendor/sha2/CHANGELOG.md:221 titre dupliqué (déjà présent dans server_rust/vendor/digest/CHANGELOG.md:220).
 
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:223 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:182).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:184).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:186).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/CHANGELOG.md:188).
-
 ---
 
 # 📄 server_rust/vendor/sha2/README.md
@@ -913252,37 +913043,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:1 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/README.md:1).
+- **Message :** server_rust/vendor/sha2/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/sha2/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/sha1/README.md:25).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:33 titre dupliqué (déjà présent dans server_rust/vendor/sha1/README.md:35).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:58 titre dupliqué (déjà présent dans server_rust/vendor/flate2/README.md:68).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:115 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sha2/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/sha2/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -913296,22 +913067,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/shlex/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:28).
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:322).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/shlex/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:39).
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:334).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/shlex/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:55).
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/tinyvec/changelog.md:101).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/shlex/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:54).
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:556).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:562).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:571).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/shlex/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:622).
 
 ---
 
@@ -913320,7 +913106,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/shlex/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/shlex/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -913338,12 +913124,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/simd-adler32/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/simd-adler32/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/simd-adler32/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/simd-adler32/CHANGELOG.md:5 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
@@ -913371,7 +913157,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/simd-adler32/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/simd-adler32/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
@@ -913386,12 +913172,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/simd-adler32/README.md:125 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:53).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/simd-adler32/README.md:141 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/simd-adler32/README.md:141 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
 
 ---
 
@@ -913409,17 +913190,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/slab/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/slab/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/slab/README.md:43 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/slab/README.md:43 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/slab/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/slab/README.md:47 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -913428,7 +913209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/slab/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:1).
+- **Message :** server_rust/vendor/slab/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:1).
 
 ---
 
@@ -913442,7 +913223,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/smallvec/README.md:10 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/smallvec/README.md:10 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ---
 
@@ -913471,12 +913252,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/socket2/README.md:70 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/socket2/README.md:70 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/socket2/README.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/socket2/README.md:81 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -913565,12 +913346,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/flume/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -913580,32 +913361,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:12 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913615,17 +913396,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913635,17 +913416,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913655,12 +913436,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913670,12 +913451,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913685,7 +913466,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -913695,7 +913476,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/spin/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -913704,22 +913485,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/spin/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/README.md:30 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/spin/README.md:30 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/spin/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/spin/README.md:141 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/spin/README.md:141 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -913748,7 +913529,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx-postgres/src/options/doc.md:147 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/sqlx-postgres/src/options/doc.md:147 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sqlx-postgres/src/options/doc.md:175 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:84).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/sqlx-postgres/src/options/doc.md:176 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ---
 
@@ -913790,7 +913581,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -913800,12 +913591,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913815,12 +913606,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:387 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:387 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913830,7 +913621,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:422 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:422 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913840,12 +913631,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:468 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:468 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913855,12 +913646,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:582 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:582 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:595 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:595 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913870,12 +913661,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:660 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:660 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:663 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:663 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913885,12 +913676,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:702 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:702 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:720 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:720 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913905,12 +913696,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:821 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:821 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913920,12 +913711,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:963 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:963 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:980 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:980 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913935,12 +913726,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1053 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1053 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1069 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1069 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913950,12 +913741,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1143 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1143 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1155 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1155 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913965,12 +913756,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1203 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1203 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1209 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1209 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -913985,12 +913776,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1328 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1328 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1346 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1346 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914000,12 +913791,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1492 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1492 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1497 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1497 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914015,12 +913806,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1571 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1571 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1578 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1578 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914035,12 +913826,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1687 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1687 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1697 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1697 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914050,12 +913841,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1785 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1785 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1792 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914065,12 +913856,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1847 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1847 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1852 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1852 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914080,17 +913871,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1925 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1938 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2143 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2143 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -914100,7 +913881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2176 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2176 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -914130,7 +913911,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2333 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2333 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914160,7 +913941,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2430 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2430 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -914170,12 +913951,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2440 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2440 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2464 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2464 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914185,7 +913966,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2503 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2503 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914195,27 +913976,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2529 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2529 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2533 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2533 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2545 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2545 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2553 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2567 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2553 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914225,17 +914001,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2696 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2696 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2720 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2720 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2731 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2731 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914245,12 +914021,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2761 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2761 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2777 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2777 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914260,12 +914036,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2810 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2810 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2816 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2816 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914275,17 +914051,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2828 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2828 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2838 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2838 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2851 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2851 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914295,7 +914071,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2867 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2867 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -914305,21 +914081,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2881 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2881 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
 - **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2887 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
----
-
-# 📄 server_rust/vendor/sqlx/CONTRIBUTING.md
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CONTRIBUTING.md:7 titre dupliqué (déjà présent dans server_rust/vendor/uuid/README.md:25).
 
 ---
 
@@ -914497,22 +914264,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/README.md:131 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:76).
+- **Message :** server_rust/vendor/sqlx/README.md:245 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/README.md:245 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/sqlx/README.md:463 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/README.md:463 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/sqlx/README.md:474 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/sqlx/README.md:474 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -914719,7 +914481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/src/macros/test.md:80 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/sqlx/src/macros/test.md:80 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -914734,7 +914496,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/src/macros/test.md:112 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/sqlx/src/macros/test.md:112 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -914749,12 +914511,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/src/macros/test.md:134 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/sqlx/src/macros/test.md:134 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/src/macros/test.md:149 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/sqlx/src/macros/test.md:149 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -914769,7 +914531,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/src/macros/test.md:173 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/sqlx/src/macros/test.md:173 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ## ⚠️ Warning
 
@@ -914784,7 +914546,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/src/macros/test.md:221 titre dupliqué (déjà présent dans server_rust/vendor/sqlx-postgres/src/options/doc.md:176).
+- **Message :** server_rust/vendor/sqlx/src/macros/test.md:221 titre dupliqué (déjà présent dans server_rust/vendor/flexi_logger/src/code_examples.md:85).
 
 ---
 
@@ -914820,12 +914582,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/stringprep/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/stringprep/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/stringprep/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/stringprep/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -914854,37 +914616,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:53).
+- **Message :** server_rust/vendor/syn-2.0.119/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:125).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:64).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:89 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:93).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:121 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:125).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:132 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:136).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:139 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:125).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:160 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:175).
+- **Message :** server_rust/vendor/syn-2.0.119/README.md:139 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:121).
 
 ## ⚠️ Warning
 
@@ -914894,22 +914631,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:204 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:219).
+- **Message :** server_rust/vendor/syn-2.0.119/README.md:224 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:88).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:224 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:239).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:250 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:265).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/syn-2.0.119/README.md:269 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/syn-2.0.119/README.md:269 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -914938,7 +914665,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/syn/README.md:143 titre dupliqué (déjà présent dans server_rust/vendor/syn/README.md:125).
+- **Message :** server_rust/vendor/syn/README.md:53 titre dupliqué (déjà présent dans server_rust/vendor/simd-adler32/README.md:125).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:64).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/README.md:131).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:93 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:89).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:125 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:121).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:136 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:132).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:143 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:121).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:175 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:160).
 
 ## ⚠️ Warning
 
@@ -914948,7 +914710,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/syn/README.md:284 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/syn/README.md:219 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:204).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:239 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:88).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:265 titre dupliqué (déjà présent dans server_rust/vendor/syn-2.0.119/README.md:250).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/syn/README.md:284 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -915041,17 +914818,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/thiserror/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/thiserror/README.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/thiserror/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:55).
+- **Message :** server_rust/vendor/thiserror/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/tinystr/README.md:37).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/thiserror/README.md:223 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/thiserror/README.md:223 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -915065,17 +914842,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinystr/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/tinystr/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinystr/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:55).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tinystr/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/tinystr/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -915111,42 +914883,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:101 titre dupliqué (déjà présent dans server_rust/vendor/shlex/CHANGELOG.md:10).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:97 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:503).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:106 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:39).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:106 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:562).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:112 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:48).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:122 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:571).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:122 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:55).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:133 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:603).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:133 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:45).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:137 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:615).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:137 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:49).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tinyvec/changelog.md:141 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:54).
+- **Message :** server_rust/vendor/tinyvec/changelog.md:141 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:622).
 
 ---
 
@@ -915248,37 +915015,47 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:190 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:3815).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:190 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:4024).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:198 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -915288,7 +915065,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:217 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -915298,7 +915075,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:227 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/tokio-macros/CHANGELOG.md:230 titre dupliqué (déjà présent dans server_rust/vendor/tokio/CHANGELOG.md:4712).
 
 ---
 
@@ -915307,12 +915089,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/tokio-macros/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-macros/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/tokio-macros/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -915356,12 +915138,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -915371,7 +915153,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -915381,7 +915163,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:172 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -915391,12 +915173,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:186 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:195 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio-stream/CHANGELOG.md:195 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -915405,12 +915187,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/tokio-stream/README.md:5 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio-stream/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/tokio-stream/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -916164,12 +915946,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916184,17 +915966,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:185 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:185 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916204,7 +915986,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:213 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916224,12 +916006,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:239 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:239 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:253 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916239,7 +916021,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916249,12 +916031,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:331 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:331 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916264,12 +916046,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:369 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:369 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:374 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:374 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916284,17 +916066,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:407 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:407 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:426 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916304,17 +916086,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:473 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:473 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916329,12 +916111,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:515 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:515 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:519 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:519 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916344,12 +916126,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:553 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:553 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916369,12 +916151,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916394,12 +916176,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:715 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:715 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:726 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:726 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916414,27 +916196,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:808 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:808 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:822 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:822 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:830 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:830 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:836 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:836 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:850 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:850 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916444,7 +916226,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:873 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:873 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916459,7 +916241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916469,7 +916251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:923 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:923 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916484,7 +916266,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916494,7 +916276,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916504,12 +916286,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1014 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1014 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1022 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1022 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916519,12 +916301,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1048 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1048 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1055 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1055 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -916534,22 +916316,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1111 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1119 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1131 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1131 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1145 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1145 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916559,12 +916341,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1163 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1163 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1169 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1169 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -916579,7 +916361,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1215 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1215 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916589,12 +916371,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1229 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1229 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1234 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -916604,7 +916386,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1252 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1252 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916619,12 +916401,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1278 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1278 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1287 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1287 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916644,7 +916426,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1339 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916659,12 +916441,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1417 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1417 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1427 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1427 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916679,12 +916461,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1486 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1486 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1497 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1497 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916694,12 +916476,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1524 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1524 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1541 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1541 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916714,12 +916496,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1618 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1618 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1622 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1622 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916734,7 +916516,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1688 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1688 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916744,7 +916526,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1731 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1731 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916754,12 +916536,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1743 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1743 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1750 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1750 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916769,12 +916551,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1785 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1785 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1792 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1792 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916784,12 +916566,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1815 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1815 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1822 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1822 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916799,7 +916581,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1837 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1837 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -916814,12 +916596,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1898 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1898 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1906 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1906 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916834,7 +916616,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1926 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1926 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916844,7 +916626,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1945 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1945 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916854,7 +916636,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1961 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1961 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -916869,7 +916651,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2001 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2001 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916879,12 +916661,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2018 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2018 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2027 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2027 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916899,7 +916681,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2078 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2078 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916909,12 +916691,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2103 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2111 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2111 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916929,12 +916711,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2150 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2150 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2157 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2157 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916944,7 +916726,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2191 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2191 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916954,7 +916736,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2204 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2204 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -916974,22 +916756,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2274 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2283 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2283 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2293 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2293 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2303 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2303 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -916999,17 +916781,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2311 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2311 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2323 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2323 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2339 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917019,17 +916801,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2348 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2348 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2368 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2368 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2377 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2377 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917044,12 +916826,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2412 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2412 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2425 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2425 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917064,7 +916846,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2538 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2538 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917074,12 +916856,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2567 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2567 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2575 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2575 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917099,27 +916881,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2647 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2647 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2657 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2657 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2667 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2667 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2677 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2677 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2693 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2693 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917129,7 +916911,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2707 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2707 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917149,12 +916931,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2772 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2772 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2776 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2776 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917169,22 +916951,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2815 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2815 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2823 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2823 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2831 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2831 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2865 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2865 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917194,7 +916976,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2883 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2883 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917209,12 +916991,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2949 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2949 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2957 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:2957 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917229,7 +917011,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3033 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3033 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917244,12 +917026,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3073 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3073 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3078 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3078 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917264,7 +917046,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3103 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917274,7 +917056,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3116 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3116 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917284,12 +917066,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3137 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3146 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3146 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917299,7 +917081,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3161 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917309,7 +917091,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3202 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3202 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917324,7 +917106,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3244 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3244 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917334,7 +917116,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3255 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3255 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917344,7 +917126,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3277 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3277 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917354,12 +917136,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3291 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3299 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3299 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -917374,27 +917156,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3334 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3334 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3339 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3339 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3363 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3363 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3375 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3375 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3385 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3385 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917409,7 +917191,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3408 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3408 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917419,12 +917201,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3435 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3435 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3443 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3443 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917434,7 +917216,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3461 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3461 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917444,12 +917226,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3489 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3489 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3497 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3497 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917459,7 +917241,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3525 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3525 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917469,7 +917251,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3561 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3561 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917479,7 +917261,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3582 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3582 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917494,7 +917276,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3623 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3623 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917509,7 +917291,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3658 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3658 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917524,7 +917306,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3706 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3706 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917534,7 +917316,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3722 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3722 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917544,12 +917326,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3736 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3736 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3742 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3742 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917559,42 +917341,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3779 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3779 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3786 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3786 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3803 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3803 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3807 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3807 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3815 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:184).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3819 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3819 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3823 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3823 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3833 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3833 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -917604,7 +917381,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3880 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3880 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917614,7 +917391,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3903 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3903 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917624,12 +917401,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3920 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3920 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3925 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917639,7 +917416,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3958 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3958 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917649,7 +917426,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3980 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3980 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917659,7 +917436,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4004 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4004 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917669,12 +917446,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4024 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:194).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4041 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4041 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -917684,22 +917456,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4082 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4082 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4091 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4137 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4137 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4153 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4153 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
@@ -917709,7 +917481,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4208 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4208 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917719,12 +917491,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4237 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4237 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4247 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4247 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917734,22 +917506,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4280 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4280 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4290 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4290 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4294 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4294 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4303 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4303 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917759,7 +917531,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4321 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4321 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917769,7 +917541,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4334 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4334 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917779,17 +917551,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4347 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4347 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4364 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4364 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4372 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4372 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917799,7 +917571,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4419 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4419 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917809,7 +917581,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4462 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4462 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917819,17 +917591,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4502 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4502 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4516 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4516 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4522 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4522 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917839,7 +917611,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4570 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4570 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917849,17 +917621,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4590 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4590 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4597 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:147).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4597 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1925).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4622 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4622 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917869,12 +917641,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4642 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4642 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4667 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4667 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917884,7 +917656,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4697 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:356).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4697 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CHANGELOG.md:1938).
 
 ## ⚠️ Warning
 
@@ -917894,22 +917666,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4712 titre dupliqué (déjà présent dans server_rust/vendor/tokio-macros/CHANGELOG.md:230).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4717 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4717 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4729 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4729 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4737 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4737 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -917934,7 +917701,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4778 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4778 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -917958,22 +917725,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:51 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/tokio/README.md:51 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:109 titre dupliqué (déjà présent dans server_rust/vendor/serde/crates-io.md:44).
+- **Message :** server_rust/vendor/tokio/README.md:109 titre dupliqué (déjà présent dans server_rust/vendor/serde_derive/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:122 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:200).
+- **Message :** server_rust/vendor/tokio/README.md:122 titre dupliqué (déjà présent dans server_rust/vendor/libsqlite3-sys/README.md:214).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:166 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/tokio/README.md:166 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
@@ -917983,12 +917750,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:251 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/tokio/README.md:251 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/README.md:257 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/tokio/README.md:257 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -918211,27 +917978,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:23 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918241,22 +918008,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:65 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:78 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918266,12 +918033,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:128 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918281,12 +918048,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:158 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918296,17 +918063,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:230 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:230 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -918316,12 +918083,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:267 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:267 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918336,32 +918103,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:339 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:356 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:356 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:373 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:373 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918376,7 +918143,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:396 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:396 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -918406,27 +918173,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:454 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:454 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:460 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:460 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:466 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:466 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-attributes/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -918440,7 +918207,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/tracing-attributes/README.md:44 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/tracing-attributes/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/tracing/README.md:261).
 
 ## ⚠️ Warning
 
@@ -918450,12 +918222,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/README.md:83 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/tracing-attributes/README.md:83 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-attributes/README.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/tracing-attributes/README.md:87 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -918659,17 +918431,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:29 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918679,12 +918451,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918699,17 +918471,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -918724,7 +918496,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918739,7 +918511,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:200 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -918754,7 +918526,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:228 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:228 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918764,22 +918536,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:251 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:251 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:268 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:268 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -918789,7 +918561,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918799,7 +918571,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:339 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:339 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918819,7 +918591,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918829,12 +918601,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:428 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:428 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:436 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:436 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918844,12 +918616,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:456 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:456 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918859,12 +918631,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:472 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:472 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:481 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:481 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -918874,7 +918646,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:492 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918884,7 +918656,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:510 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:510 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918894,7 +918666,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:522 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:522 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918904,7 +918676,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:534 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:534 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918914,7 +918686,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:547 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:547 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918924,7 +918696,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:558 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:558 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -918939,17 +918711,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:575 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:575 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
 - **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:581 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:588 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
 
 ## ⚠️ Warning
 
@@ -918964,7 +918731,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:607 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing-core/CHANGELOG.md:607 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ---
 
@@ -918973,17 +918740,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/tracing-core/README.md:60 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/README.md:113 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/tracing-core/README.md:113 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing-core/README.md:117 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/tracing-core/README.md:117 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -919222,17 +918989,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:7 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:22 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919247,12 +919014,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919267,17 +919034,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919287,12 +919054,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919307,12 +919074,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:230 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:230 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:236 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:236 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919322,7 +919089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:274 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919332,7 +919099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:289 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:289 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919342,7 +919109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919352,7 +919119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919362,12 +919129,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:355 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:355 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:367 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:367 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919377,17 +919144,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:392 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:392 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:416 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:416 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919397,12 +919164,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:438 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919412,17 +919179,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:476 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:476 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919432,17 +919199,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:516 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:516 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:542 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919452,7 +919219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:600 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:600 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919467,32 +919234,32 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:658 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:658 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:672 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:672 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:696 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:696 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:704 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:704 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:712 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:712 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919502,7 +919269,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:736 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:736 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919512,7 +919279,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:747 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:747 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919522,12 +919289,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:763 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:763 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:770 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:770 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919537,12 +919304,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:803 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:803 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:811 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919552,17 +919319,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:826 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:826 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:830 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:830 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:843 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:843 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919577,12 +919344,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:866 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:866 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:871 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:871 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919592,12 +919359,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:894 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:894 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:899 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:899 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919612,7 +919379,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:925 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:925 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919622,17 +919389,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:944 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:944 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:950 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:950 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:955 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:955 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919642,22 +919409,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:982 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:982 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919667,7 +919434,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1000 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1000 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919677,12 +919444,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1011 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1011 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1016 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1016 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919697,12 +919464,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1033 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1033 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1037 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1037 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919712,17 +919479,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1052 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1052 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1058 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1058 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1062 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/tracing/CHANGELOG.md:1062 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -919756,7 +919523,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/tracing/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
@@ -919766,12 +919533,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/README.md:261 titre dupliqué (déjà présent dans server_rust/vendor/tracing-attributes/README.md:60).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/tracing/README.md:306 titre dupliqué (déjà présent dans server_rust/vendor/tracing-attributes/README.md:60).
+- **Message :** server_rust/vendor/tracing/README.md:306 titre dupliqué (déjà présent dans server_rust/vendor/tracing/README.md:261).
 
 ## ⚠️ Warning
 
@@ -919786,12 +919548,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/README.md:461 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/tracing/README.md:461 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/tracing/README.md:465 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/tracing/README.md:465 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -919805,12 +919567,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/typenum/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/typenum/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/typenum/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/flume/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/typenum/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/heck/CHANGELOG.md:1).
 
 ---
 
@@ -919824,17 +919586,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/typenum/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/typenum/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/typenum/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/typenum/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/typenum/README.md:63 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/typenum/README.md:63 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -919853,7 +919615,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/unicode-ident/README.md:262 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/unicode-ident/README.md:262 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -919863,6 +919625,45 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/url/README.md: contient 0 titres H1 (1 attendu).
+
+---
+
+# 📄 server_rust/vendor/utf8_iter/README.md
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:30 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:395).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/autocfg/README.md:44).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:587).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:41 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:597).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:603).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:615).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:622).
 
 ---
 
@@ -919886,12 +919687,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/uuid/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/uuid/README.md:25 titre dupliqué (déjà présent dans server_rust/vendor/sqlx/CONTRIBUTING.md:7).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/uuid/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/uuid/README.md:76 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/uuid/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -919900,22 +919706,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:10 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919955,17 +919761,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919975,12 +919781,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:97 titre dupliqué (déjà présent dans server_rust/vendor/mio/CHANGELOG.md:460).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:97 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/vcpkg/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -919999,12 +919805,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/README.md:7 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/vcpkg/README.md:7 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/vcpkg/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/vcpkg/README.md:20 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -920022,17 +919828,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/version_check/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/version_check/README.md:13 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/version_check/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/version_check/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/version_check/README.md:75 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/version_check/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/byteorder/README.md:73).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/version_check/README.md:75 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
@@ -920052,6 +919863,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/wasi/CODE_OF_CONDUCT.md:9 titre dupliqué (déjà présent dans CODE_OF_CONDUCT.md:15).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/wasi/CODE_OF_CONDUCT.md:27 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CODE_OF_CONDUCT.md:34).
 
 ## ⚠️ Warning
 
@@ -920094,17 +919910,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasi/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:5).
+- **Message :** server_rust/vendor/wasi/README.md:27 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:10).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasi/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/wasi/README.md:67 titre dupliqué (déjà présent dans server_rust/vendor/cc/DEVELOPMENT.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasi/README.md:90 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/wasi/README.md:85 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/wasi/README.md:90 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -920113,7 +919934,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasi/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/SECURITY.md:1).
+- **Message :** server_rust/vendor/wasi/SECURITY.md:1 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/SECURITY.md:1).
 
 ## ⚠️ Warning
 
@@ -920151,7 +919972,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasm-bindgen/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/wasm-bindgen/README.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -920161,7 +919982,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasm-bindgen/README.md:77 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
+- **Message :** server_rust/vendor/wasm-bindgen/README.md:77 titre dupliqué (déjà présent dans server_rust/vendor/whoami/README.md:18).
 
 ## ⚠️ Warning
 
@@ -920171,12 +919992,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasm-bindgen/README.md:126 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/wasm-bindgen/README.md:126 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/wasm-bindgen/README.md:137 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/wasm-bindgen/README.md:137 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -920190,27 +920011,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/whoami/README.md:18 titre dupliqué (déjà présent dans server_rust/vendor/mio/README.md:108).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/whoami/README.md:51 titre dupliqué (déjà présent dans server_rust/vendor/heck/README.md:41).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/whoami/README.md:77 titre dupliqué (déjà présent dans CONTRIBUTING.md:491).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/whoami/README.md:82 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/whoami/README.md:82 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/whoami/README.md:95 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/whoami/README.md:95 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -920287,12 +920098,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/writeable/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/writeable/README.md:26 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/writeable/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/writeable/README.md:65 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920306,7 +920117,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/yoke-derive/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/yoke-derive/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920316,6 +920127,11 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** titles
 - **Message :** server_rust/vendor/yoke/README.md:1 titre très long (88 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/yoke/README.md:29 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920329,7 +920145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerofrom-derive/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/zerofrom-derive/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920343,7 +920159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerofrom/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/zerofrom/README.md:11 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920447,42 +920263,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
-
-## ⚠️ Warning
-
-- **Module :** titles
 - **Message :** server_rust/vendor/zeroize/CHANGELOG.md:26 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:54 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:54 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920492,17 +920288,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:67 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920512,7 +920308,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -920522,7 +920318,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:102 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920537,7 +920333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920552,17 +920348,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:148 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
@@ -920577,7 +920373,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920602,7 +920398,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920612,7 +920408,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ---
 
@@ -920621,27 +920417,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/README.md:19 titre dupliqué (déjà présent dans server_rust/vendor/base64ct/README.md:20).
+- **Message :** server_rust/vendor/zeroize/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/dotenvy/README.md:48).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/README.md:38 titre dupliqué (déjà présent dans server_rust/vendor/getrandom-0.2.17/README.md:53).
+- **Message :** server_rust/vendor/zeroize/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/zeroize/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/zeroize/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/zeroize/README.md:68 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -920720,52 +920506,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/nu-ansi-term/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:1).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:36 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:14).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:11).
 
 ## ⚠️ Warning
 
@@ -920780,22 +920566,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:80 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/zeroize_derive/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
@@ -920814,12 +920600,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/zeroize_derive/README.md:14 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zeroize_derive/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/README.md:17).
+- **Message :** server_rust/vendor/zeroize_derive/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:85).
 
 ---
 
@@ -920833,12 +920619,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerotrie/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/zerotrie/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerotrie/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/zerotrie/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920852,7 +920638,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerovec-derive/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/zerovec-derive/README.md:9 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920906,12 +920692,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerovec/README.md:35 titre dupliqué (déjà présent dans server_rust/vendor/flume/README.md:54).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/zerovec/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/pin-project-lite/README.md:22).
+- **Message :** server_rust/vendor/zerovec/README.md:52 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:18).
 
 ## ⚠️ Warning
 
@@ -920926,7 +920707,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zerovec/README.md:195 titre dupliqué (déjà présent dans server_rust/vendor/yoke/README.md:29).
+- **Message :** server_rust/vendor/zerovec/README.md:195 titre dupliqué (déjà présent dans server_rust/vendor/icu_locale_core/README.md:53).
 
 ---
 
@@ -920940,7 +920721,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zlib-rs/README.md:7 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/zlib-rs/README.md:7 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ---
 
@@ -920954,7 +920735,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zmij/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/displaydoc/README.md:21).
+- **Message :** server_rust/vendor/zmij/README.md:16 titre dupliqué (déjà présent dans server_rust/vendor/zeroize/README.md:45).
 
 ## ⚠️ Warning
 
@@ -920964,7 +920745,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/zmij/README.md:40 titre dupliqué (déjà présent dans server_rust/vendor/futures-core/README.md:16).
+- **Message :** server_rust/vendor/zmij/README.md:40 titre dupliqué (déjà présent dans server_rust/vendor/crc/README.md:76).
 
 ---
 
