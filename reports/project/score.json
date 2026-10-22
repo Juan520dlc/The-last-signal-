@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-22T04:58:53.912153",
+    "generated": "2026-10-22T10:28:12.464206",
     "score": 64,
     "status": "Bon",
     "scores": {
@@ -1116,25 +1116,25 @@
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 39 > 120 caractères.",
+                    "message": "Ligne 44 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 63 > 120 caractères.",
+                    "message": "Ligne 73 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 67 > 120 caractères.",
+                    "message": "Ligne 79 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 69 > 120 caractères.",
+                    "message": "Ligne 83 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
