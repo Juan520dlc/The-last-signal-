@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-23 00:53:17
+**Date :** 2026-10-23 05:02:34
 
 # 64/100
 
@@ -80639,7 +80639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BitAnd for Choice ' sans documentation
 
-- **line :** 480
+- **line :** 509
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80649,7 +80649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bitand' sans documentation
 
-- **line :** 484
+- **line :** 513
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80659,7 +80659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BitAndAssign for Choice ' sans documentation
 
-- **line :** 489
+- **line :** 518
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80669,7 +80669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bitand_assign' sans documentation
 
-- **line :** 491
+- **line :** 520
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80679,7 +80679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BitOr for Choice ' sans documentation
 
-- **line :** 496
+- **line :** 525
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80689,7 +80689,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bitor' sans documentation
 
-- **line :** 500
+- **line :** 529
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80699,7 +80699,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BitOrAssign for Choice ' sans documentation
 
-- **line :** 505
+- **line :** 534
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80709,7 +80709,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bitor_assign' sans documentation
 
-- **line :** 507
+- **line :** 536
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80719,7 +80719,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BitXor for Choice ' sans documentation
 
-- **line :** 512
+- **line :** 541
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80729,7 +80729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bitxor' sans documentation
 
-- **line :** 516
+- **line :** 545
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80739,7 +80739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'BitXorAssign for Choice ' sans documentation
 
-- **line :** 521
+- **line :** 550
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80749,7 +80749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'bitxor_assign' sans documentation
 
-- **line :** 523
+- **line :** 552
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80759,7 +80759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtAssign for Choice ' sans documentation
 
-- **line :** 528
+- **line :** 557
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80769,7 +80769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_assign' sans documentation
 
-- **line :** 530
+- **line :** 559
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80779,7 +80779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtAssignSlice for Choice ' sans documentation
 
-- **line :** 534
+- **line :** 563
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80789,7 +80789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtSelectUsingCtAssign for Choice ' sans documentation
 
-- **line :** 535
+- **line :** 564
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80799,7 +80799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtEq for Choice ' sans documentation
 
-- **line :** 537
+- **line :** 566
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80809,7 +80809,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
 
-- **line :** 539
+- **line :** 568
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80819,7 +80819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtEqSlice for Choice ' sans documentation
 
-- **line :** 543
+- **line :** 572
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80829,7 +80829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 554
+- **line :** 583
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80839,7 +80839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<Choice> for u8 ' sans documentation
 
-- **line :** 559
+- **line :** 588
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80849,7 +80849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 560
+- **line :** 589
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80859,7 +80859,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 576
+- **line :** 605
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80869,7 +80869,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Not for Choice ' sans documentation
 
-- **line :** 581
+- **line :** 610
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80879,7 +80879,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'not' sans documentation
 
-- **line :** 585
+- **line :** 614
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80889,7 +80889,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<subtle' sans documentation
 
-- **line :** 591
+- **line :** 620
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80899,7 +80899,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 593
+- **line :** 622
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80909,7 +80909,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'From<Choice> for subtle' sans documentation
 
-- **line :** 599
+- **line :** 628
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80919,7 +80919,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
 
-- **line :** 601
+- **line :** 630
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80929,7 +80929,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'subtle' sans documentation
 
-- **line :** 607
+- **line :** 636
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80939,7 +80939,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'conditional_select' sans documentation
 
-- **line :** 609
+- **line :** 638
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80949,7 +80949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'subtle' sans documentation
 
-- **line :** 615
+- **line :** 644
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -80959,7 +80959,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
 
-- **line :** 617
+- **line :** 646
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80969,7 +80969,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 623
+- **line :** 652
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -80979,7 +80979,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
 
-- **line :** 628
+- **line :** 657
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80989,7 +80989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_select' sans documentation
 
-- **line :** 643
+- **line :** 672
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -80999,7 +80999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'and' sans documentation
 
-- **line :** 651
+- **line :** 680
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81009,7 +81009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'or' sans documentation
 
-- **line :** 659
+- **line :** 688
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81019,7 +81019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'xor' sans documentation
 
-- **line :** 667
+- **line :** 696
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81029,7 +81029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'not' sans documentation
 
-- **line :** 675
+- **line :** 704
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81039,7 +81039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_i64_eq' sans documentation
 
-- **line :** 681
+- **line :** 710
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81049,7 +81049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u8_eq' sans documentation
 
-- **line :** 687
+- **line :** 716
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81059,7 +81059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u8_le' sans documentation
 
-- **line :** 693
+- **line :** 722
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81069,7 +81069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u8_lsb' sans documentation
 
-- **line :** 701
+- **line :** 730
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81079,7 +81079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u8_lt' sans documentation
 
-- **line :** 709
+- **line :** 738
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81089,7 +81089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u8_nz' sans documentation
 
-- **line :** 717
+- **line :** 746
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81099,7 +81099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u16_eq' sans documentation
 
-- **line :** 724
+- **line :** 753
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81109,7 +81109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u16_le' sans documentation
 
-- **line :** 730
+- **line :** 759
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81119,7 +81119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u16_lsb' sans documentation
 
-- **line :** 738
+- **line :** 767
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81129,7 +81129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u16_lt' sans documentation
 
-- **line :** 746
+- **line :** 775
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81139,7 +81139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u16_nz' sans documentation
 
-- **line :** 754
+- **line :** 783
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81149,7 +81149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u32_eq' sans documentation
 
-- **line :** 761
+- **line :** 790
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81159,7 +81159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u32_le' sans documentation
 
-- **line :** 767
+- **line :** 796
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81169,7 +81169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u32_lsb' sans documentation
 
-- **line :** 775
+- **line :** 804
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81179,7 +81179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u32_lt' sans documentation
 
-- **line :** 783
+- **line :** 812
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81189,7 +81189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u32_nz' sans documentation
 
-- **line :** 791
+- **line :** 820
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81199,7 +81199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u64_eq' sans documentation
 
-- **line :** 798
+- **line :** 827
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81209,7 +81209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u64_le' sans documentation
 
-- **line :** 804
+- **line :** 833
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81219,7 +81219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u64_lsb' sans documentation
 
-- **line :** 812
+- **line :** 841
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81229,7 +81229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u64_lt' sans documentation
 
-- **line :** 818
+- **line :** 847
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81239,7 +81239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u64_nz' sans documentation
 
-- **line :** 826
+- **line :** 855
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81249,7 +81249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u128_eq' sans documentation
 
-- **line :** 833
+- **line :** 862
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81259,7 +81259,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u128_le' sans documentation
 
-- **line :** 839
+- **line :** 868
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81269,7 +81269,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u128_lsb' sans documentation
 
-- **line :** 847
+- **line :** 876
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81279,7 +81279,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u128_lt' sans documentation
 
-- **line :** 853
+- **line :** 882
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from_u128_comparison_boundaries' sans documentation
+
+- **line :** 890
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81289,7 +81299,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_u128_nz' sans documentation
 
-- **line :** 861
+- **line :** 922
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81299,7 +81309,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'select_i64' sans documentation
 
-- **line :** 868
+- **line :** 929
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81309,7 +81319,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'select_u8' sans documentation
 
-- **line :** 876
+- **line :** 937
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81319,7 +81329,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'select_u16' sans documentation
 
-- **line :** 884
+- **line :** 945
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81329,7 +81339,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'select_u32' sans documentation
 
-- **line :** 892
+- **line :** 953
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81339,7 +81349,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'select_u64' sans documentation
 
-- **line :** 900
+- **line :** 961
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81349,7 +81359,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'select_u128' sans documentation
 
-- **line :** 908
+- **line :** 969
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81359,7 +81369,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_bool' sans documentation
 
-- **line :** 916
+- **line :** 977
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81369,7 +81379,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_u8' sans documentation
 
-- **line :** 922
+- **line :** 983
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81379,7 +81389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_u8_mask' sans documentation
 
-- **line :** 928
+- **line :** 989
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81389,7 +81399,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_u16_mask' sans documentation
 
-- **line :** 934
+- **line :** 995
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81399,7 +81409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_u32_mask' sans documentation
 
-- **line :** 940
+- **line :** 1001
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81409,7 +81419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_u64_mask' sans documentation
 
-- **line :** 946
+- **line :** 1007
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -81419,7 +81429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_u128_mask' sans documentation
 
-- **line :** 952
+- **line :** 1013
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -82811,9 +82821,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'CtGt for ' sans documentation
+- **Message :** Impl 'CtGt for u128 ' sans documentation
 
-- **line :** 35
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -82823,7 +82833,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_gt' sans documentation
 
-- **line :** 37
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'CtGt for ' sans documentation
+
+- **line :** 42
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'ct_gt' sans documentation
+
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -82833,7 +82863,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtGt for cmp' sans documentation
 
-- **line :** 54
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -82843,7 +82873,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_gt' sans documentation
 
-- **line :** 57
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -82853,7 +82883,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 67
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -82863,7 +82893,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_gt' sans documentation
 
-- **line :** 79
+- **line :** 86
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -82873,7 +82903,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ordering' sans documentation
 
-- **line :** 95
+- **line :** 102
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83045,9 +83075,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'CtLt for ' sans documentation
+- **Message :** Impl 'CtLt for u128 ' sans documentation
 
-- **line :** 35
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -83057,7 +83087,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_lt' sans documentation
 
-- **line :** 37
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'CtLt for ' sans documentation
+
+- **line :** 42
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'ct_lt' sans documentation
+
+- **line :** 44
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83067,7 +83117,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'CtLt for cmp' sans documentation
 
-- **line :** 54
+- **line :** 61
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -83077,7 +83127,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_lt' sans documentation
 
-- **line :** 57
+- **line :** 64
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83087,7 +83137,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 67
+- **line :** 74
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -83097,7 +83147,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_lt' sans documentation
 
-- **line :** 72
+- **line :** 79
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83107,7 +83157,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_gt' sans documentation
 
-- **line :** 88
+- **line :** 95
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83117,7 +83167,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ordering' sans documentation
 
-- **line :** 104
+- **line :** 111
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83383,7 +83433,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_assign' sans documentation
 
-- **line :** 13
+- **line :** 16
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83393,7 +83443,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
 
-- **line :** 28
+- **line :** 31
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83403,7 +83453,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_ne' sans documentation
 
-- **line :** 34
+- **line :** 37
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -83413,7 +83463,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'ct_select' sans documentation
 
-- **line :** 40
+- **line :** 43
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from_u128_comparison' sans documentation
+
+- **line :** 65
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1263995,7 +1264055,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:22 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:24 titre sans ligne vide avant.
 
 - **module :** titles
 
@@ -1264007,13 +1264067,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:57 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:71 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:65 titre sans ligne vide avant.
 
 - **module :** titles
 
@@ -1264031,43 +1264091,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:99 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:95 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:105 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:107 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:115 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:113 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:127 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:123 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:133 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:135 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:139 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:141 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:158 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:147 titre sans ligne vide avant.
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:166 titre sans ligne vide avant.
 
 - **module :** titles
 
@@ -1264079,19 +1264145,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:22 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
@@ -1264103,103 +1264169,109 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:57 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:65 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:71 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:79 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:79 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:87 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:95 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:99 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:105 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:107 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:113 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:115 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:127 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:135 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:139 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:158 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:147 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:166 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
