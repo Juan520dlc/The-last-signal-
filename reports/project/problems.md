@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-10-23 05:02:46
+Generated: 2026-10-23 10:21:48
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|470|
-|⚠️ Warnings|130262|
-|**Total**|**130739**|
+|⚠️ Warnings|130277|
+|**Total**|**130754**|
 
 ---
 
@@ -58016,146 +58016,160 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'Choice' sans documentation
-- **line :** 42
+- **line :** 18
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Choice ' sans documentation
-- **line :** 44
+- **line :** 20
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BitAnd for Choice ' sans documentation
-- **line :** 509
+- **line :** 493
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bitand' sans documentation
-- **line :** 513
+- **line :** 497
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BitAndAssign for Choice ' sans documentation
-- **line :** 518
+- **line :** 502
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bitand_assign' sans documentation
-- **line :** 520
+- **line :** 504
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BitOr for Choice ' sans documentation
-- **line :** 525
+- **line :** 509
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bitor' sans documentation
-- **line :** 529
+- **line :** 513
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BitOrAssign for Choice ' sans documentation
-- **line :** 534
+- **line :** 518
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bitor_assign' sans documentation
-- **line :** 536
+- **line :** 520
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BitXor for Choice ' sans documentation
-- **line :** 541
+- **line :** 525
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bitxor' sans documentation
-- **line :** 545
+- **line :** 529
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'BitXorAssign for Choice ' sans documentation
-- **line :** 550
+- **line :** 534
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bitxor_assign' sans documentation
-- **line :** 552
+- **line :** 536
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CtAssign for Choice ' sans documentation
-- **line :** 557
+- **line :** 541
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ct_assign' sans documentation
-- **line :** 559
+- **line :** 543
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CtAssignSlice for Choice ' sans documentation
-- **line :** 563
+- **line :** 547
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CtSelectUsingCtAssign for Choice ' sans documentation
-- **line :** 564
+- **line :** 548
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CtEq for Choice ' sans documentation
-- **line :** 566
+- **line :** 550
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
-- **line :** 568
+- **line :** 552
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'CtEqSlice for Choice ' sans documentation
+- **line :** 556
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+- **line :** 567
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'From<Choice> for u8 ' sans documentation
 - **line :** 572
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -58163,15 +58177,8 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 583
+- **line :** 573
 - **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'From<Choice> for u8 ' sans documentation
-- **line :** 588
-- **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
@@ -58183,407 +58190,400 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'from' sans documentation
-- **line :** 605
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Impl 'Not for Choice ' sans documentation
-- **line :** 610
+- **line :** 594
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'not' sans documentation
-- **line :** 614
+- **line :** 598
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<subtle' sans documentation
-- **line :** 620
+- **line :** 604
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 622
+- **line :** 606
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<Choice> for subtle' sans documentation
-- **line :** 628
+- **line :** 612
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 630
+- **line :** 614
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'subtle' sans documentation
-- **line :** 636
+- **line :** 620
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'conditional_select' sans documentation
-- **line :** 638
+- **line :** 622
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'subtle' sans documentation
-- **line :** 644
+- **line :** 628
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
-- **line :** 646
+- **line :** 630
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 652
+- **line :** 636
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ct_eq' sans documentation
-- **line :** 657
+- **line :** 641
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ct_select' sans documentation
-- **line :** 672
+- **line :** 656
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'and' sans documentation
-- **line :** 680
+- **line :** 664
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'or' sans documentation
-- **line :** 688
+- **line :** 672
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'xor' sans documentation
-- **line :** 696
+- **line :** 680
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'not' sans documentation
-- **line :** 704
+- **line :** 688
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_i64_eq' sans documentation
-- **line :** 710
+- **line :** 694
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u8_eq' sans documentation
-- **line :** 716
+- **line :** 700
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u8_le' sans documentation
-- **line :** 722
+- **line :** 706
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u8_lsb' sans documentation
-- **line :** 730
+- **line :** 714
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u8_lt' sans documentation
-- **line :** 738
+- **line :** 722
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u8_nz' sans documentation
-- **line :** 746
+- **line :** 730
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u16_eq' sans documentation
-- **line :** 753
+- **line :** 737
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u16_le' sans documentation
-- **line :** 759
+- **line :** 743
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u16_lsb' sans documentation
-- **line :** 767
+- **line :** 751
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u16_lt' sans documentation
-- **line :** 775
+- **line :** 759
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u16_nz' sans documentation
-- **line :** 783
+- **line :** 767
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u32_eq' sans documentation
-- **line :** 790
+- **line :** 774
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u32_le' sans documentation
-- **line :** 796
+- **line :** 780
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u32_lsb' sans documentation
-- **line :** 804
+- **line :** 788
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u32_lt' sans documentation
-- **line :** 812
+- **line :** 796
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u32_nz' sans documentation
-- **line :** 820
+- **line :** 804
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u64_eq' sans documentation
-- **line :** 827
+- **line :** 811
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u64_le' sans documentation
-- **line :** 833
+- **line :** 817
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u64_lsb' sans documentation
-- **line :** 841
+- **line :** 825
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u64_lt' sans documentation
-- **line :** 847
+- **line :** 831
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u64_nz' sans documentation
-- **line :** 855
+- **line :** 839
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u128_eq' sans documentation
-- **line :** 862
+- **line :** 846
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u128_le' sans documentation
-- **line :** 868
+- **line :** 852
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u128_lsb' sans documentation
-- **line :** 876
+- **line :** 860
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u128_lt' sans documentation
-- **line :** 882
+- **line :** 866
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u128_comparison_boundaries' sans documentation
-- **line :** 890
+- **line :** 874
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_u128_nz' sans documentation
-- **line :** 922
+- **line :** 906
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_i64' sans documentation
-- **line :** 929
+- **line :** 913
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_u8' sans documentation
-- **line :** 937
+- **line :** 921
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_u16' sans documentation
-- **line :** 945
+- **line :** 929
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_u32' sans documentation
-- **line :** 953
+- **line :** 937
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_u64' sans documentation
-- **line :** 961
+- **line :** 945
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_u128' sans documentation
-- **line :** 969
+- **line :** 953
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_bool' sans documentation
-- **line :** 977
+- **line :** 961
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_u8' sans documentation
-- **line :** 983
+- **line :** 967
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_u8_mask' sans documentation
-- **line :** 989
+- **line :** 973
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_u16_mask' sans documentation
-- **line :** 995
+- **line :** 979
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_u32_mask' sans documentation
-- **line :** 1001
+- **line :** 985
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_u64_mask' sans documentation
-- **line :** 1007
+- **line :** 991
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_u128_mask' sans documentation
-- **line :** 1013
+- **line :** 997
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -59055,6 +59055,38 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Mod 'traits' sans documentation
 - **line :** 127
 - **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'primitives' sans documentation
+- **line :** 129
+- **suggestion :** Ajoutez /// avant cette mod
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/primitives.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+- **line :** 268
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'zero_counts_u32' sans documentation
+- **line :** 288
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'zero_counts_u64' sans documentation
+- **line :** 304
+- **suggestion :** Ajoutez /// avant cette function
 
 ---
 
@@ -60011,6 +60043,52 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ---
 
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/tests/primitives.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sub_u32' sans documentation
+- **line :** 8
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sub_u64' sans documentation
+- **line :** 16
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'zero_counts_u32' sans documentation
+- **line :** 24
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'zero_counts_u64' sans documentation
+- **line :** 30
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_u64' sans documentation
+- **line :** 36
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_u128' sans documentation
+- **line :** 42
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/tests/proptests.rs
 
 ## ⚠️ Warning
@@ -60044,8 +60122,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'from_u128_comparison' sans documentation
+- **Message :** Function 'from_u32_comparison' sans documentation
 - **line :** 65
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from_u64_comparison' sans documentation
+- **line :** 73
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from_u128_comparison' sans documentation
+- **line :** 81
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -901036,77 +901128,82 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:16 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:19 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:24 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:27 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:30 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:35 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:41 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:65 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:49 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:79 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:76 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:87 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:90 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:95 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:98 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:107 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:106 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:113 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:118 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:123 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:124 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:135 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:134 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:141 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:146 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:147 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:152 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:166 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:158 titre sans ligne vide avant.
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:177 titre sans ligne vide avant.
 
 ## ⚠️ Warning
 
@@ -901116,112 +901213,122 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:30 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:38 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:41 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:50 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:49 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:65 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:57 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:61 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:79 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:76 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:81 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:95 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:90 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:73).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:107 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:106 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:113 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:110 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:118 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:124 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:127 titre dupliqué (déjà présent dans server_rust/vendor/cmov/CHANGELOG.md:8).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:135 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:134 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:141 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:13).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:147 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:146 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:166 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:98).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:158 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/ctutils/CHANGELOG.md:177 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ---
 
