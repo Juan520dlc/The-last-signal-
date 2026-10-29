@@ -1670,25 +1670,25 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 39 > 120 caractères.",
+        "message": "Ligne 44 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 63 > 120 caractères.",
+        "message": "Ligne 73 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 67 > 120 caractères.",
+        "message": "Ligne 79 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 69 > 120 caractères.",
+        "message": "Ligne 83 > 120 caractères.",
         "module": "markdown"
     },
     {
