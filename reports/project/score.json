@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-29T01:13:39.362976",
+    "generated": "2026-10-29T01:57:13.367559",
     "score": 64,
     "status": "Bon",
     "scores": {
@@ -11,7 +11,7 @@
         "rust": 0,
         "organization": 95
     },
-    "problem_count": 130775,
+    "problem_count": 130780,
     "details": {
         "markdown": {
             "score": 45,
@@ -1698,25 +1698,25 @@
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 44 > 120 caractères.",
+                    "message": "Ligne 39 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 73 > 120 caractères.",
+                    "message": "Ligne 63 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 79 > 120 caractères.",
+                    "message": "Ligne 67 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
                     "file": "lychee/out.md",
                     "severity": "warning",
-                    "message": "Ligne 83 > 120 caractères.",
+                    "message": "Ligne 69 > 120 caractères.",
                     "module": "markdown"
                 },
                 {
@@ -12548,25 +12548,25 @@
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:15 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:14 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:26 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:21 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:34 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:32 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:42 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:40 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
@@ -12578,37 +12578,37 @@
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:56 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:54 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:83 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:62 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:97 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:89 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:105 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:103 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:113 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:111 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:125 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:119 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
@@ -12620,13 +12620,13 @@
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:141 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:137 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:153 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:147 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
@@ -12644,7 +12644,13 @@
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:184 titre sans ligne vide avant.",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:171 titre sans ligne vide avant.",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/ctutils/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:190 titre sans ligne vide avant.",
                     "module": "titles"
                 },
                 {
@@ -28274,97 +28280,97 @@
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:8 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:14 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:15 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:21 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:40 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:48 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:56 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:54 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:64 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:62 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:68 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:83 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:74 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:89 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:97 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:103 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:113 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:119 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:125 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
                     "module": "titles"
                 },
                 {
@@ -28376,43 +28382,49 @@
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:137 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:141 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:147 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:153 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:159 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:165 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/ctutils/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:184 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:171 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/ctutils/CHANGELOG.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/ctutils/CHANGELOG.md:190 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).",
                     "module": "titles"
                 },
                 {
@@ -28490,7 +28502,7 @@
                 {
                     "file": "server_rust/vendor/bumpalo/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/bumpalo/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/bumpalo/CHANGELOG.md:25 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -28670,7 +28682,7 @@
                 {
                     "file": "server_rust/vendor/bumpalo/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/bumpalo/CHANGELOG.md:327 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/bumpalo/CHANGELOG.md:327 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -28772,7 +28784,7 @@
                 {
                     "file": "server_rust/vendor/bumpalo/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/bumpalo/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/bumpalo/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -36416,7 +36428,7 @@
                 {
                     "file": "server_rust/vendor/chacha20/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/chacha20/CHANGELOG.md:261 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/chacha20/CHANGELOG.md:261 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -36452,7 +36464,7 @@
                 {
                     "file": "server_rust/vendor/chacha20/README.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/chacha20/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/chacha20/README.md:24 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -38282,7 +38294,7 @@
                 {
                     "file": "server_rust/vendor/cmov/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/cmov/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/cmov/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -38348,7 +38360,7 @@
                 {
                     "file": "server_rust/vendor/cmov/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/cmov/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:26).",
+                    "message": "server_rust/vendor/cmov/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/ctutils/CHANGELOG.md:8).",
                     "module": "titles"
                 },
                 {
@@ -45224,8 +45236,8 @@
             "max_score": 30,
             "results": {
                 "files_checked": 5140,
-                "total_elements": 135039,
-                "elements_without_docs": 123250
+                "total_elements": 135042,
+                "elements_without_docs": 123253
             },
             "problems": [
                 {
@@ -676654,7 +676666,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 493,
+                    "line": 509,
                     "severity": "warning",
                     "message": "Impl 'BitAnd for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676662,7 +676674,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 497,
+                    "line": 513,
                     "severity": "warning",
                     "message": "Function 'bitand' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676670,7 +676682,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 502,
+                    "line": 518,
                     "severity": "warning",
                     "message": "Impl 'BitAndAssign for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676678,7 +676690,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 504,
+                    "line": 520,
                     "severity": "warning",
                     "message": "Function 'bitand_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676686,7 +676698,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 509,
+                    "line": 525,
                     "severity": "warning",
                     "message": "Impl 'BitOr for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676694,7 +676706,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 513,
+                    "line": 529,
                     "severity": "warning",
                     "message": "Function 'bitor' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676702,7 +676714,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 518,
+                    "line": 534,
                     "severity": "warning",
                     "message": "Impl 'BitOrAssign for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676710,7 +676722,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 520,
+                    "line": 536,
                     "severity": "warning",
                     "message": "Function 'bitor_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676718,7 +676730,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 525,
+                    "line": 541,
                     "severity": "warning",
                     "message": "Impl 'BitXor for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676726,7 +676738,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 529,
+                    "line": 545,
                     "severity": "warning",
                     "message": "Function 'bitxor' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676734,7 +676746,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 534,
+                    "line": 550,
                     "severity": "warning",
                     "message": "Impl 'BitXorAssign for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676742,7 +676754,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 536,
+                    "line": 552,
                     "severity": "warning",
                     "message": "Function 'bitxor_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676750,7 +676762,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 541,
+                    "line": 557,
                     "severity": "warning",
                     "message": "Impl 'CtAssign for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676758,7 +676770,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 543,
+                    "line": 559,
                     "severity": "warning",
                     "message": "Function 'ct_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676766,7 +676778,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 547,
+                    "line": 563,
                     "severity": "warning",
                     "message": "Impl 'CtAssignSlice for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676774,7 +676786,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 548,
+                    "line": 564,
                     "severity": "warning",
                     "message": "Impl 'CtSelectUsingCtAssign for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676782,7 +676794,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 550,
+                    "line": 566,
                     "severity": "warning",
                     "message": "Impl 'CtEq for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676790,7 +676802,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 552,
+                    "line": 568,
                     "severity": "warning",
                     "message": "Function 'ct_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676798,7 +676810,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 556,
+                    "line": 572,
                     "severity": "warning",
                     "message": "Impl 'CtEqSlice for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676806,7 +676818,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 567,
+                    "line": 583,
                     "severity": "warning",
                     "message": "Function 'from' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676814,18 +676826,10 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 572,
+                    "line": 588,
                     "severity": "warning",
                     "message": "Impl 'From<Choice> for u8 ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 573,
-                    "severity": "warning",
-                    "message": "Function 'from' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
@@ -676838,7 +676842,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 594,
+                    "line": 605,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
+                    "line": 610,
                     "severity": "warning",
                     "message": "Impl 'Not for Choice ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -676846,41 +676858,9 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 598,
-                    "severity": "warning",
-                    "message": "Function 'not' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 604,
-                    "severity": "warning",
-                    "message": "Impl 'From<subtle' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 606,
-                    "severity": "warning",
-                    "message": "Function 'from' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 612,
-                    "severity": "warning",
-                    "message": "Impl 'From<Choice> for subtle' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 614,
                     "severity": "warning",
-                    "message": "Function 'from' sans documentation",
+                    "message": "Function 'not' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -676888,7 +676868,7 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 620,
                     "severity": "warning",
-                    "message": "Impl 'subtle' sans documentation",
+                    "message": "Impl 'From<subtle' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
                     "module": "rust"
                 },
@@ -676896,7 +676876,7 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 622,
                     "severity": "warning",
-                    "message": "Function 'conditional_select' sans documentation",
+                    "message": "Function 'from' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -676904,7 +676884,7 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 628,
                     "severity": "warning",
-                    "message": "Impl 'subtle' sans documentation",
+                    "message": "Impl 'From<Choice> for subtle' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
                     "module": "rust"
                 },
@@ -676912,7 +676892,7 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 630,
                     "severity": "warning",
-                    "message": "Function 'ct_eq' sans documentation",
+                    "message": "Function 'from' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -676920,13 +676900,29 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 636,
                     "severity": "warning",
-                    "message": "Mod 'tests' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette mod",
+                    "message": "Impl 'subtle' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 641,
+                    "line": 638,
+                    "severity": "warning",
+                    "message": "Function 'conditional_select' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
+                    "line": 644,
+                    "severity": "warning",
+                    "message": "Impl 'subtle' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
+                    "line": 646,
                     "severity": "warning",
                     "message": "Function 'ct_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676934,17 +676930,17 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 656,
+                    "line": 652,
                     "severity": "warning",
-                    "message": "Function 'ct_select' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
+                    "message": "Mod 'tests' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 664,
+                    "line": 657,
                     "severity": "warning",
-                    "message": "Function 'and' sans documentation",
+                    "message": "Function 'ct_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -676952,7 +676948,7 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 672,
                     "severity": "warning",
-                    "message": "Function 'or' sans documentation",
+                    "message": "Function 'ct_select' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -676960,7 +676956,7 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 680,
                     "severity": "warning",
-                    "message": "Function 'xor' sans documentation",
+                    "message": "Function 'and' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
@@ -676968,13 +676964,29 @@
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
                     "line": 688,
                     "severity": "warning",
+                    "message": "Function 'or' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
+                    "line": 696,
+                    "severity": "warning",
+                    "message": "Function 'xor' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
+                    "line": 704,
+                    "severity": "warning",
                     "message": "Function 'not' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 694,
+                    "line": 710,
                     "severity": "warning",
                     "message": "Function 'from_i64_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676982,7 +676994,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 700,
+                    "line": 716,
                     "severity": "warning",
                     "message": "Function 'from_u8_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676990,7 +677002,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 706,
+                    "line": 722,
                     "severity": "warning",
                     "message": "Function 'from_u8_le' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -676998,7 +677010,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 714,
+                    "line": 730,
                     "severity": "warning",
                     "message": "Function 'from_u8_lsb' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677006,7 +677018,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 722,
+                    "line": 738,
                     "severity": "warning",
                     "message": "Function 'from_u8_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677014,7 +677026,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 730,
+                    "line": 746,
                     "severity": "warning",
                     "message": "Function 'from_u8_nz' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677022,7 +677034,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 737,
+                    "line": 753,
                     "severity": "warning",
                     "message": "Function 'from_u16_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677030,7 +677042,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 743,
+                    "line": 759,
                     "severity": "warning",
                     "message": "Function 'from_u16_le' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677038,7 +677050,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 751,
+                    "line": 767,
                     "severity": "warning",
                     "message": "Function 'from_u16_lsb' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677046,7 +677058,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 759,
+                    "line": 775,
                     "severity": "warning",
                     "message": "Function 'from_u16_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677054,7 +677066,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 767,
+                    "line": 783,
                     "severity": "warning",
                     "message": "Function 'from_u16_nz' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677062,7 +677074,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 774,
+                    "line": 790,
                     "severity": "warning",
                     "message": "Function 'from_u32_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677070,7 +677082,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 780,
+                    "line": 796,
                     "severity": "warning",
                     "message": "Function 'from_u32_le' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677078,7 +677090,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 788,
+                    "line": 804,
                     "severity": "warning",
                     "message": "Function 'from_u32_lsb' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677086,7 +677098,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 796,
+                    "line": 812,
                     "severity": "warning",
                     "message": "Function 'from_u32_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677094,7 +677106,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 804,
+                    "line": 820,
                     "severity": "warning",
                     "message": "Function 'from_u32_nz' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677102,7 +677114,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 811,
+                    "line": 827,
                     "severity": "warning",
                     "message": "Function 'from_u64_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677110,7 +677122,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 817,
+                    "line": 833,
                     "severity": "warning",
                     "message": "Function 'from_u64_le' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677118,7 +677130,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 825,
+                    "line": 841,
                     "severity": "warning",
                     "message": "Function 'from_u64_lsb' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677126,7 +677138,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 831,
+                    "line": 847,
                     "severity": "warning",
                     "message": "Function 'from_u64_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677134,7 +677146,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 839,
+                    "line": 855,
                     "severity": "warning",
                     "message": "Function 'from_u64_nz' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677142,7 +677154,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 846,
+                    "line": 862,
                     "severity": "warning",
                     "message": "Function 'from_u128_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677150,7 +677162,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 852,
+                    "line": 868,
                     "severity": "warning",
                     "message": "Function 'from_u128_le' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677158,7 +677170,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 860,
+                    "line": 876,
                     "severity": "warning",
                     "message": "Function 'from_u128_lsb' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677166,7 +677178,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 866,
+                    "line": 882,
                     "severity": "warning",
                     "message": "Function 'from_u128_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677174,7 +677186,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 874,
+                    "line": 890,
                     "severity": "warning",
                     "message": "Function 'from_u128_comparison_boundaries' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677182,7 +677194,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 906,
+                    "line": 922,
                     "severity": "warning",
                     "message": "Function 'from_u128_nz' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677190,7 +677202,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 913,
+                    "line": 929,
                     "severity": "warning",
                     "message": "Function 'select_i64' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677198,7 +677210,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 921,
+                    "line": 937,
                     "severity": "warning",
                     "message": "Function 'select_u8' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677206,7 +677218,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 929,
+                    "line": 945,
                     "severity": "warning",
                     "message": "Function 'select_u16' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677214,7 +677226,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 937,
+                    "line": 953,
                     "severity": "warning",
                     "message": "Function 'select_u32' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677222,7 +677234,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 945,
+                    "line": 961,
                     "severity": "warning",
                     "message": "Function 'select_u64' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677230,7 +677242,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 953,
+                    "line": 969,
                     "severity": "warning",
                     "message": "Function 'select_u128' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677238,7 +677250,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 961,
+                    "line": 977,
                     "severity": "warning",
                     "message": "Function 'to_bool' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677246,7 +677258,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 967,
+                    "line": 983,
                     "severity": "warning",
                     "message": "Function 'to_u8' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677254,7 +677266,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 973,
+                    "line": 989,
                     "severity": "warning",
                     "message": "Function 'to_u8_mask' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677262,7 +677274,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 979,
+                    "line": 995,
                     "severity": "warning",
                     "message": "Function 'to_u16_mask' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677270,7 +677282,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 985,
+                    "line": 1001,
                     "severity": "warning",
                     "message": "Function 'to_u32_mask' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677278,7 +677290,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 991,
+                    "line": 1007,
                     "severity": "warning",
                     "message": "Function 'to_u64_mask' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -677286,7 +677298,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/choice.rs",
-                    "line": 997,
+                    "line": 1013,
                     "severity": "warning",
                     "message": "Function 'to_u128_mask' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678350,23 +678362,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 31,
-                    "severity": "warning",
-                    "message": "Impl 'CtGt for u128 ' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 33,
-                    "severity": "warning",
-                    "message": "Function 'ct_gt' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 42,
+                    "line": 34,
                     "severity": "warning",
                     "message": "Impl 'CtGt for ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678374,7 +678370,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 44,
+                    "line": 36,
                     "severity": "warning",
                     "message": "Function 'ct_gt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678382,7 +678378,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 61,
+                    "line": 53,
                     "severity": "warning",
                     "message": "Impl 'CtGt for cmp' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678390,7 +678386,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 64,
+                    "line": 56,
                     "severity": "warning",
                     "message": "Function 'ct_gt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678398,7 +678394,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 74,
+                    "line": 66,
                     "severity": "warning",
                     "message": "Mod 'tests' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -678406,7 +678402,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 86,
+                    "line": 78,
                     "severity": "warning",
                     "message": "Function 'ct_gt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678414,7 +678410,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_gt.rs",
-                    "line": 102,
+                    "line": 94,
                     "severity": "warning",
                     "message": "Function 'ordering' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678422,31 +678418,31 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 12,
+                    "line": 15,
                     "severity": "warning",
                     "message": "Function 'ct_neg' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 25,
-                    "severity": "warning",
-                    "message": "Impl 'CtNeg for ' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
                     "line": 28,
                     "severity": "warning",
+                    "message": "Impl 'CtNeg for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
+                    "line": 30,
+                    "severity": "warning",
                     "message": "Function 'ct_neg' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 34,
+                    "line": 35,
                     "severity": "warning",
                     "message": "Function 'ct_neg_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678454,7 +678450,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 46,
+                    "line": 47,
                     "severity": "warning",
                     "message": "Impl 'CtNeg for ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678462,7 +678458,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 48,
+                    "line": 49,
                     "severity": "warning",
                     "message": "Function 'ct_neg' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678470,7 +678466,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 53,
+                    "line": 54,
                     "severity": "warning",
                     "message": "Function 'ct_neg_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678478,7 +678474,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 84,
+                    "line": 85,
                     "severity": "warning",
                     "message": "Impl 'CtNeg for ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678486,7 +678482,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 86,
+                    "line": 87,
                     "severity": "warning",
                     "message": "Function 'ct_neg' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678494,7 +678490,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 106,
+                    "line": 107,
                     "severity": "warning",
                     "message": "Mod 'tests' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -678502,7 +678498,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 115,
+                    "line": 116,
                     "severity": "warning",
                     "message": "Function 'ct_neg' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678510,7 +678506,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 122,
+                    "line": 123,
                     "severity": "warning",
                     "message": "Function 'ct_neg_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678518,7 +678514,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 144,
+                    "line": 134,
+                    "severity": "warning",
+                    "message": "Function 'ct_neg_min' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
+                    "line": 156,
                     "severity": "warning",
                     "message": "Function 'ct_neg' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678526,7 +678530,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_neg.rs",
-                    "line": 151,
+                    "line": 163,
                     "severity": "warning",
                     "message": "Function 'ct_neg_assign' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678630,7 +678634,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 18,
+                    "line": 17,
                     "severity": "warning",
                     "message": "Impl 'CtLt for ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678638,7 +678642,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 20,
+                    "line": 19,
                     "severity": "warning",
                     "message": "Function 'ct_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678646,7 +678650,39 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 31,
+                    "line": 45,
+                    "severity": "warning",
+                    "message": "Impl 'CtLt for u64 ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
+                    "line": 47,
+                    "severity": "warning",
+                    "message": "Function 'ct_lt' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
+                    "line": 53,
+                    "severity": "warning",
+                    "message": "Impl 'CtLt for usize ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
+                    "line": 56,
+                    "severity": "warning",
+                    "message": "Function 'ct_lt' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
+                    "line": 67,
                     "severity": "warning",
                     "message": "Impl 'CtLt for u128 ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678654,7 +678690,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 33,
+                    "line": 69,
                     "severity": "warning",
                     "message": "Function 'ct_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678662,7 +678698,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 42,
+                    "line": 78,
                     "severity": "warning",
                     "message": "Impl 'CtLt for ' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678670,7 +678706,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 44,
+                    "line": 80,
                     "severity": "warning",
                     "message": "Function 'ct_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678678,7 +678714,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 61,
+                    "line": 97,
                     "severity": "warning",
                     "message": "Impl 'CtLt for cmp' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
@@ -678686,7 +678722,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 64,
+                    "line": 100,
                     "severity": "warning",
                     "message": "Function 'ct_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678694,7 +678730,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 74,
+                    "line": 110,
                     "severity": "warning",
                     "message": "Mod 'tests' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -678702,7 +678738,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 79,
+                    "line": 115,
                     "severity": "warning",
                     "message": "Function 'ct_lt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678710,7 +678746,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 95,
+                    "line": 131,
                     "severity": "warning",
                     "message": "Function 'ct_gt' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -678718,7 +678754,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/ctutils/src/traits/ct_lt.rs",
-                    "line": 111,
+                    "line": 147,
                     "severity": "warning",
                     "message": "Function 'ordering' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
