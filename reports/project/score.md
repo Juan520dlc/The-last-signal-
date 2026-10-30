@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-29 20:37:06
+**Date :** 2026-10-30 01:14:52
 
 # 64/100
 
@@ -878335,13 +878335,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Struct 'Utf8CharIndices' sans documentation
+- **Message :** Struct 'DefaultHandler' sans documentation
 
-- **line :** 26
+- **line :** 29
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -878349,9 +878349,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'next' sans documentation
+- **Message :** Impl 'DefaultHandler ' sans documentation
 
-- **line :** 35
+- **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Default for DefaultHandler ' sans documentation
+
+- **line :** 38
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'default' sans documentation
+
+- **line :** 39
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -878359,7 +878379,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'count' sans documentation
+- **Message :** Impl 'Utf8Handler for DefaultHandler ' sans documentation
+
+- **line :** 44
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'single_byte' sans documentation
 
 - **line :** 49
 
@@ -878369,19 +878399,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'size_hint' sans documentation
+- **Message :** Function 'two_byte' sans documentation
 
-- **line :** 54
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'last' sans documentation
-
-- **line :** 59
+- **line :** 55
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -878389,7 +878409,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'next_back' sans documentation
+- **Message :** Function 'three_byte' sans documentation
+
+- **line :** 61
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'four_byte' sans documentation
 
 - **line :** 67
 
@@ -878399,9 +878429,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'FusedIterator for Utf8CharIndices<' sans documentation
+- **Message :** Function 'error' sans documentation
 
-- **line :** 75
+- **line :** 73
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Utf8CharsEx for ' sans documentation
+
+- **line :** 100
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -878409,9 +878449,497 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'chars' sans documentation
+
+- **line :** 104
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'char_indices' sans documentation
+
+- **line :** 110
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'error' sans documentation
+
+- **line :** 100
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Utf8CharsWithHandler' sans documentation
+
+- **line :** 109
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'as_slice' sans documentation
 
-- **line :** 93
+- **line :** 133
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'handler' sans documentation
+
+- **line :** 139
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'error' sans documentation
+
+- **line :** 144
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_fallback' sans documentation
+
+- **line :** 155
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back_fallback' sans documentation
+
+- **line :** 200
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+
+- **line :** 246
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'size_hint' sans documentation
+
+- **line :** 280
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'last' sans documentation
+
+- **line :** 286
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+
+- **line :** 297
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+
+- **line :** 336
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Utf8CharIndicesWithHandler' sans documentation
+
+- **line :** 28
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+
+- **line :** 43
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'count' sans documentation
+
+- **line :** 57
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'size_hint' sans documentation
+
+- **line :** 62
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'last' sans documentation
+
+- **line :** 67
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+
+- **line :** 78
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+
+- **line :** 92
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_slice' sans documentation
+
+- **line :** 119
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'handler' sans documentation
+
+- **line :** 125
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'offset' sans documentation
+
+- **line :** 133
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'CharIndicesWithHandler' sans documentation
+
+- **line :** 143
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+
+- **line :** 158
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'count' sans documentation
+
+- **line :** 172
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'size_hint' sans documentation
+
+- **line :** 177
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'last' sans documentation
+
+- **line :** 182
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+
+- **line :** 193
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+
+- **line :** 207
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_str' sans documentation
+
+- **line :** 234
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'handler' sans documentation
+
+- **line :** 240
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'offset' sans documentation
+
+- **line :** 248
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'basic' sans documentation
+
+- **line :** 38
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'handler' sans documentation
+
+- **line :** 39
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'indices' sans documentation
+
+- **line :** 40
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'macros' sans documentation
+
+- **line :** 41
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'report' sans documentation
+
+- **line :** 42
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'str' sans documentation
+
+- **line :** 43
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_slice' sans documentation
+
+- **line :** 44
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+
+- **line :** 53
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'count' sans documentation
+
+- **line :** 58
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'size_hint' sans documentation
+
+- **line :** 63
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'last' sans documentation
+
+- **line :** 68
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+
+- **line :** 76
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 81
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+
+- **line :** 84
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_slice' sans documentation
+
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -878422,220 +878950,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Message :** Function 'offset' sans documentation
 
 - **line :** 117
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'indices' sans documentation
-
-- **line :** 36
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Mod 'report' sans documentation
-
-- **line :** 37
-
-- **suggestion :** Ajoutez /// avant cette mod
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'Utf8Data' sans documentation
-
-- **line :** 45
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'in_inclusive_range8' sans documentation
-
-- **line :** 80
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'Utf8Chars' sans documentation
-
-- **line :** 87
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'as_slice' sans documentation
-
-- **line :** 101
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'next_fallback' sans documentation
-
-- **line :** 106
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'next' sans documentation
-
-- **line :** 164
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'next_back' sans documentation
-
-- **line :** 230
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'FusedIterator for Utf8Chars<' sans documentation
-
-- **line :** 257
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'chars' sans documentation
-
-- **line :** 262
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'char_indices' sans documentation
-
-- **line :** 263
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'Utf8CharsEx for ' sans documentation
-
-- **line :** 266
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'chars' sans documentation
-
-- **line :** 270
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'char_indices' sans documentation
-
-- **line :** 276
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'Utf8CharsError' sans documentation
-
-- **line :** 30
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Impl 'core' sans documentation
-
-- **line :** 32
-
-- **suggestion :** Ajoutez /// avant cette impl
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-
-- **line :** 33
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Struct 'ErrorReportingUtf8Chars' sans documentation
-
-- **line :** 49
-
-- **suggestion :** Ajoutez /// avant cette struct
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'as_slice' sans documentation
-
-- **line :** 63
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
-- **Message :** Function 'next_fallback' sans documentation
-
-- **line :** 68
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -878653,9 +878967,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'next_back' sans documentation
+- **Message :** Function 'count' sans documentation
 
-- **line :** 186
+- **line :** 131
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -878663,9 +878977,39 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Impl 'FusedIterator for ErrorReportingUtf8Chars<' sans documentation
+- **Message :** Function 'size_hint' sans documentation
 
-- **line :** 213
+- **line :** 136
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'last' sans documentation
+
+- **line :** 141
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+
+- **line :** 149
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 154
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -878673,9 +879017,151 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'clone' sans documentation
+
+- **line :** 157
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Utf8CharsError' sans documentation
+
+- **line :** 28
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 30
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+
+- **line :** 31
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 36
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'ErrorReportingHandler' sans documentation
+
+- **line :** 40
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ErrorReportingHandler ' sans documentation
+
+- **line :** 42
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+
+- **line :** 43
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Utf8Handler for ErrorReportingHandler ' sans documentation
+
+- **line :** 48
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'single_byte' sans documentation
+
+- **line :** 59
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'two_byte' sans documentation
+
+- **line :** 71
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'three_byte' sans documentation
+
+- **line :** 83
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'four_byte' sans documentation
+
+- **line :** 95
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'error' sans documentation
+
+- **line :** 111
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 216
+- **line :** 139
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -878685,7 +879171,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_size' sans documentation
 
-- **line :** 221
+- **line :** 144
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -878695,7 +879181,995 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_eq' sans documentation
 
-- **line :** 229
+- **line :** 152
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'CharsWithHandler' sans documentation
+
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_str' sans documentation
+
+- **line :** 69
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'handler' sans documentation
+
+- **line :** 76
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_with_minimum_lead' sans documentation
+
+- **line :** 85
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+
+- **line :** 216
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+
+- **line :** 231
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'count' sans documentation
+
+- **line :** 249
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'size_hint' sans documentation
+
+- **line :** 254
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'last' sans documentation
+
+- **line :** 260
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'next_back' sans documentation
+
+- **line :** 271
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/lib.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'utf16' sans documentation
+
+- **line :** 22
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'utf8' sans documentation
+
+- **line :** 23
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Utf16CodeUnitError' sans documentation
+
+- **line :** 25
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 27
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+
+- **line :** 28
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'TryFrom<u16> for ' sans documentation
+
+- **line :** 120
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_from' sans documentation
+
+- **line :** 124
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'From<' sans documentation
+
+- **line :** 129
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 131
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Trait 'Utf16CodeUnitSequence' sans documentation
+
+- **line :** 144
+
+- **suggestion :** Ajoutez /// avant cette trait
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Seal for ' sans documentation
+
+- **line :** 150
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Utf16CodeUnitSequence for ' sans documentation
+
+- **line :** 152
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'From<' sans documentation
+
+- **line :** 154
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 156
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'AsRef<' sans documentation
+
+- **line :** 161
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_ref' sans documentation
+
+- **line :** 163
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Bmp' sans documentation
+
+- **line :** 174
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Bmp ' sans documentation
+
+- **line :** 181
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Surrogate' sans documentation
+
+- **line :** 255
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Surrogate ' sans documentation
+
+- **line :** 262
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'HighSurrogate' sans documentation
+
+- **line :** 296
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'HighSurrogate ' sans documentation
+
+- **line :** 303
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'LowSurrogate' sans documentation
+
+- **line :** 354
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'LowSurrogate ' sans documentation
+
+- **line :** 361
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'SurrogatePair' sans documentation
+
+- **line :** 415
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'SurrogatePair ' sans documentation
+
+- **line :** 420
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'BmpOrSurrogate' sans documentation
+
+- **line :** 478
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'BmpOrSurrogate ' sans documentation
+
+- **line :** 485
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+
+- **line :** 503
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_code_unit_ranges' sans documentation
+
+- **line :** 507
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_surrogate_pairs' sans documentation
+
+- **line :** 565
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_niche' sans documentation
+
+- **line :** 591
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Utf8ByteError' sans documentation
+
+- **line :** 22
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 24
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+
+- **line :** 25
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'core' sans documentation
+
+- **line :** 30
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Utf8Data' sans documentation
+
+- **line :** 33
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Utf8Data ' sans documentation
+
+- **line :** 37
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'TryFrom<u8> for ' sans documentation
+
+- **line :** 224
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_from' sans documentation
+
+- **line :** 228
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'From<' sans documentation
+
+- **line :** 233
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 235
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'TryFrom<NonAscii> for ' sans documentation
+
+- **line :** 246
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_from' sans documentation
+
+- **line :** 250
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'From<' sans documentation
+
+- **line :** 255
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 257
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'TryFrom<LeadForMultiByte> for ' sans documentation
+
+- **line :** 269
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'try_from' sans documentation
+
+- **line :** 273
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'From<' sans documentation
+
+- **line :** 278
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 280
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Trait 'Utf8ByteSequence' sans documentation
+
+- **line :** 323
+
+- **suggestion :** Ajoutez /// avant cette trait
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Seal for ' sans documentation
+
+- **line :** 329
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Utf8ByteSequence for ' sans documentation
+
+- **line :** 331
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'From<' sans documentation
+
+- **line :** 333
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'from' sans documentation
+
+- **line :** 335
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'AsRef<str> for ' sans documentation
+
+- **line :** 340
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'as_ref' sans documentation
+
+- **line :** 342
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'Ascii' sans documentation
+
+- **line :** 353
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'Ascii ' sans documentation
+
+- **line :** 484
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'NonAscii' sans documentation
+
+- **line :** 543
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'NonAscii ' sans documentation
+
+- **line :** 674
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'UnconstrainedContinuation' sans documentation
+
+- **line :** 712
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'UnconstrainedContinuation ' sans documentation
+
+- **line :** 779
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'LeadForMultiByte' sans documentation
+
+- **line :** 837
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'LeadForMultiByte ' sans documentation
+
+- **line :** 891
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'LeadForTwoByte' sans documentation
+
+- **line :** 928
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'LeadForTwoByte ' sans documentation
+
+- **line :** 961
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'LeadForThreeByte' sans documentation
+
+- **line :** 1018
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'LeadForThreeByte ' sans documentation
+
+- **line :** 1037
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Enum 'LeadForFourByte' sans documentation
+
+- **line :** 1094
+
+- **suggestion :** Ajoutez /// avant cette enum
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'LeadForFourByte ' sans documentation
+
+- **line :** 1102
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'TwoByteSequence' sans documentation
+
+- **line :** 1158
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'TwoByteSequence ' sans documentation
+
+- **line :** 1163
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'ThreeByteSequence' sans documentation
+
+- **line :** 1291
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'ThreeByteSequence ' sans documentation
+
+- **line :** 1302
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'FourByteSequence' sans documentation
+
+- **line :** 1444
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'FourByteSequence ' sans documentation
+
+- **line :** 1456
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'PreparedTwoBytes' sans documentation
+
+- **line :** 1610
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'PreparedTwoBytes ' sans documentation
+
+- **line :** 1622
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'PreparedThreeBytes' sans documentation
+
+- **line :** 1657
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Impl 'PreparedThreeBytes ' sans documentation
+
+- **line :** 1672
+
+- **suggestion :** Ajoutez /// avant cette impl
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Mod 'tests' sans documentation
+
+- **line :** 1728
+
+- **suggestion :** Ajoutez /// avant cette mod
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'two_byte_prefix_reference' sans documentation
+
+- **line :** 1737
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'prefix_of_four_byte_reference' sans documentation
+
+- **line :** 1751
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_bytes' sans documentation
+
+- **line :** 1769
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_scalars' sans documentation
+
+- **line :** 1881
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_niche' sans documentation
+
+- **line :** 1957
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1258209,13 +1259683,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:37).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:47).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:41).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:51).
 
 - **module :** titles
 
@@ -1273817,13 +1275291,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:37).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:47).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:41).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:51).
 
 - **module :** titles
 
@@ -1287187,6 +1288661,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/utf_types/README.md:8).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
 - **Message :** server_rust/vendor/utf8_iter/README.md:30 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:16).
 
 - **module :** titles
@@ -1287199,19 +1288679,59 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/utf8_iter/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:184).
+- **Message :** server_rust/vendor/utf8_iter/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:179).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/utf8_iter/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:188).
+- **Message :** server_rust/vendor/utf8_iter/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:184).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/utf8_iter/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:195).
+- **Message :** server_rust/vendor/utf8_iter/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:188).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/utf8_iter/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:195).
+
+- **module :** titles
+
+# 📄 server_rust/vendor/utf_types/CONTRIBUTING.md
+
+## ❌ Error
+- **Module :** titles
+- **Message :** server_rust/vendor/utf_types/CONTRIBUTING.md: contient 0 titres H1 (1 attendu).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/utf_types/CONTRIBUTING.md:3 titre dupliqué (déjà présent dans server_rust/vendor/utf_types/README.md:8).
+
+- **module :** titles
+
+# 📄 server_rust/vendor/utf_types/README.md
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/utf_types/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:16).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/utf_types/README.md:31 titre dupliqué (déjà présent dans server_rust/vendor/autocfg/README.md:44).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/utf_types/README.md:33 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:195).
 
 - **module :** titles
 

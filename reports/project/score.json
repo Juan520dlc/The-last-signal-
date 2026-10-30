@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-29T20:37:05.896085",
+    "generated": "2026-10-30T01:14:51.376705",
     "score": 64,
     "status": "Bon",
     "scores": {
@@ -11,7 +11,7 @@
         "rust": 0,
         "organization": 95
     },
-    "problem_count": 130780,
+    "problem_count": 130933,
     "details": {
         "markdown": {
             "score": 45,
@@ -7101,6 +7101,12 @@
                     "file": "server_rust/vendor/indexmap/README.md",
                     "severity": "error",
                     "message": "server_rust/vendor/indexmap/README.md: contient 3 titres H1 (1 attendu).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/utf_types/CONTRIBUTING.md",
+                    "severity": "error",
+                    "message": "server_rust/vendor/utf_types/CONTRIBUTING.md: contient 0 titres H1 (1 attendu).",
                     "module": "titles"
                 },
                 {
@@ -29784,6 +29790,30 @@
                     "module": "titles"
                 },
                 {
+                    "file": "server_rust/vendor/utf_types/README.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/utf_types/README.md:15 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:16).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/utf_types/README.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/utf_types/README.md:31 titre dupliqué (déjà présent dans server_rust/vendor/autocfg/README.md:44).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/utf_types/README.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/utf_types/README.md:33 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:195).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/utf_types/CONTRIBUTING.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/utf_types/CONTRIBUTING.md:3 titre dupliqué (déjà présent dans server_rust/vendor/utf_types/README.md:8).",
+                    "module": "titles"
+                },
+                {
                     "file": "server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md",
                     "severity": "warning",
                     "message": "server_rust/vendor/crypto-common-0.1.6/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:1).",
@@ -34214,6 +34244,12 @@
                 {
                     "file": "server_rust/vendor/utf8_iter/README.md",
                     "severity": "warning",
+                    "message": "server_rust/vendor/utf8_iter/README.md:23 titre dupliqué (déjà présent dans server_rust/vendor/utf_types/README.md:8).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/utf8_iter/README.md",
+                    "severity": "warning",
                     "message": "server_rust/vendor/utf8_iter/README.md:30 titre dupliqué (déjà présent dans server_rust/vendor/regex/README.md:16).",
                     "module": "titles"
                 },
@@ -34226,19 +34262,25 @@
                 {
                     "file": "server_rust/vendor/utf8_iter/README.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/utf8_iter/README.md:45 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:184).",
+                    "message": "server_rust/vendor/utf8_iter/README.md:37 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:179).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/utf8_iter/README.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/utf8_iter/README.md:49 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:188).",
+                    "message": "server_rust/vendor/utf8_iter/README.md:55 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:184).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/utf8_iter/README.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/utf8_iter/README.md:54 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:195).",
+                    "message": "server_rust/vendor/utf8_iter/README.md:59 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:188).",
+                    "module": "titles"
+                },
+                {
+                    "file": "server_rust/vendor/utf8_iter/README.md",
+                    "severity": "warning",
+                    "message": "server_rust/vendor/utf8_iter/README.md:64 titre dupliqué (déjà présent dans server_rust/vendor/once_cell/CHANGELOG.md:195).",
                     "module": "titles"
                 },
                 {
@@ -36032,13 +36074,13 @@
                 {
                     "file": "server_rust/vendor/bitflags/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/bitflags/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:37).",
+                    "message": "server_rust/vendor/bitflags/CHANGELOG.md:587 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:47).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/bitflags/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/bitflags/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:41).",
+                    "message": "server_rust/vendor/bitflags/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:51).",
                     "module": "titles"
                 },
                 {
@@ -37178,13 +37220,13 @@
                 {
                     "file": "server_rust/vendor/mio/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/mio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:37).",
+                    "message": "server_rust/vendor/mio/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:47).",
                     "module": "titles"
                 },
                 {
                     "file": "server_rust/vendor/mio/CHANGELOG.md",
                     "severity": "warning",
-                    "message": "server_rust/vendor/mio/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:41).",
+                    "message": "server_rust/vendor/mio/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:51).",
                     "module": "titles"
                 },
                 {
@@ -45235,9 +45277,9 @@
             "score": 0,
             "max_score": 30,
             "results": {
-                "files_checked": 5140,
-                "total_elements": 135042,
-                "elements_without_docs": 123253
+                "files_checked": 5147,
+                "total_elements": 135201,
+                "elements_without_docs": 123399
             },
             "problems": [
                 {
@@ -699457,6 +699499,710 @@
                     "module": "rust"
                 },
                 {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 22,
+                    "severity": "warning",
+                    "message": "Struct 'Utf8ByteError' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 24,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 25,
+                    "severity": "warning",
+                    "message": "Function 'fmt' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 30,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 33,
+                    "severity": "warning",
+                    "message": "Struct 'Utf8Data' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 37,
+                    "severity": "warning",
+                    "message": "Impl 'Utf8Data ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 224,
+                    "severity": "warning",
+                    "message": "Impl 'TryFrom<u8> for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 228,
+                    "severity": "warning",
+                    "message": "Function 'try_from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 233,
+                    "severity": "warning",
+                    "message": "Impl 'From<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 235,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 246,
+                    "severity": "warning",
+                    "message": "Impl 'TryFrom<NonAscii> for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 250,
+                    "severity": "warning",
+                    "message": "Function 'try_from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 255,
+                    "severity": "warning",
+                    "message": "Impl 'From<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 257,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 269,
+                    "severity": "warning",
+                    "message": "Impl 'TryFrom<LeadForMultiByte> for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 273,
+                    "severity": "warning",
+                    "message": "Function 'try_from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 278,
+                    "severity": "warning",
+                    "message": "Impl 'From<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 280,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 323,
+                    "severity": "warning",
+                    "message": "Trait 'Utf8ByteSequence' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette trait",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 329,
+                    "severity": "warning",
+                    "message": "Impl 'Seal for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 331,
+                    "severity": "warning",
+                    "message": "Impl 'Utf8ByteSequence for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 333,
+                    "severity": "warning",
+                    "message": "Impl 'From<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 335,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 340,
+                    "severity": "warning",
+                    "message": "Impl 'AsRef<str> for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 342,
+                    "severity": "warning",
+                    "message": "Function 'as_ref' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 353,
+                    "severity": "warning",
+                    "message": "Enum 'Ascii' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 484,
+                    "severity": "warning",
+                    "message": "Impl 'Ascii ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 543,
+                    "severity": "warning",
+                    "message": "Enum 'NonAscii' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 674,
+                    "severity": "warning",
+                    "message": "Impl 'NonAscii ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 712,
+                    "severity": "warning",
+                    "message": "Enum 'UnconstrainedContinuation' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 779,
+                    "severity": "warning",
+                    "message": "Impl 'UnconstrainedContinuation ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 837,
+                    "severity": "warning",
+                    "message": "Enum 'LeadForMultiByte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 891,
+                    "severity": "warning",
+                    "message": "Impl 'LeadForMultiByte ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 928,
+                    "severity": "warning",
+                    "message": "Enum 'LeadForTwoByte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 961,
+                    "severity": "warning",
+                    "message": "Impl 'LeadForTwoByte ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1018,
+                    "severity": "warning",
+                    "message": "Enum 'LeadForThreeByte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1037,
+                    "severity": "warning",
+                    "message": "Impl 'LeadForThreeByte ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1094,
+                    "severity": "warning",
+                    "message": "Enum 'LeadForFourByte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1102,
+                    "severity": "warning",
+                    "message": "Impl 'LeadForFourByte ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1158,
+                    "severity": "warning",
+                    "message": "Struct 'TwoByteSequence' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1163,
+                    "severity": "warning",
+                    "message": "Impl 'TwoByteSequence ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1291,
+                    "severity": "warning",
+                    "message": "Struct 'ThreeByteSequence' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1302,
+                    "severity": "warning",
+                    "message": "Impl 'ThreeByteSequence ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1444,
+                    "severity": "warning",
+                    "message": "Struct 'FourByteSequence' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1456,
+                    "severity": "warning",
+                    "message": "Impl 'FourByteSequence ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1610,
+                    "severity": "warning",
+                    "message": "Struct 'PreparedTwoBytes' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1622,
+                    "severity": "warning",
+                    "message": "Impl 'PreparedTwoBytes ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1657,
+                    "severity": "warning",
+                    "message": "Struct 'PreparedThreeBytes' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1672,
+                    "severity": "warning",
+                    "message": "Impl 'PreparedThreeBytes ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1728,
+                    "severity": "warning",
+                    "message": "Mod 'tests' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1737,
+                    "severity": "warning",
+                    "message": "Function 'two_byte_prefix_reference' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1751,
+                    "severity": "warning",
+                    "message": "Function 'prefix_of_four_byte_reference' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1769,
+                    "severity": "warning",
+                    "message": "Function 'test_bytes' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1881,
+                    "severity": "warning",
+                    "message": "Function 'test_scalars' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf8.rs",
+                    "line": 1957,
+                    "severity": "warning",
+                    "message": "Function 'test_niche' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 25,
+                    "severity": "warning",
+                    "message": "Struct 'Utf16CodeUnitError' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 27,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 28,
+                    "severity": "warning",
+                    "message": "Function 'fmt' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 33,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 120,
+                    "severity": "warning",
+                    "message": "Impl 'TryFrom<u16> for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 124,
+                    "severity": "warning",
+                    "message": "Function 'try_from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 129,
+                    "severity": "warning",
+                    "message": "Impl 'From<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 131,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 144,
+                    "severity": "warning",
+                    "message": "Trait 'Utf16CodeUnitSequence' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette trait",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 150,
+                    "severity": "warning",
+                    "message": "Impl 'Seal for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 152,
+                    "severity": "warning",
+                    "message": "Impl 'Utf16CodeUnitSequence for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 154,
+                    "severity": "warning",
+                    "message": "Impl 'From<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 156,
+                    "severity": "warning",
+                    "message": "Function 'from' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 161,
+                    "severity": "warning",
+                    "message": "Impl 'AsRef<' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 163,
+                    "severity": "warning",
+                    "message": "Function 'as_ref' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 174,
+                    "severity": "warning",
+                    "message": "Struct 'Bmp' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 181,
+                    "severity": "warning",
+                    "message": "Impl 'Bmp ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 255,
+                    "severity": "warning",
+                    "message": "Struct 'Surrogate' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 262,
+                    "severity": "warning",
+                    "message": "Impl 'Surrogate ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 296,
+                    "severity": "warning",
+                    "message": "Struct 'HighSurrogate' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 303,
+                    "severity": "warning",
+                    "message": "Impl 'HighSurrogate ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 354,
+                    "severity": "warning",
+                    "message": "Struct 'LowSurrogate' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 361,
+                    "severity": "warning",
+                    "message": "Impl 'LowSurrogate ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 415,
+                    "severity": "warning",
+                    "message": "Struct 'SurrogatePair' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 420,
+                    "severity": "warning",
+                    "message": "Impl 'SurrogatePair ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 478,
+                    "severity": "warning",
+                    "message": "Enum 'BmpOrSurrogate' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette enum",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 485,
+                    "severity": "warning",
+                    "message": "Impl 'BmpOrSurrogate ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 503,
+                    "severity": "warning",
+                    "message": "Mod 'tests' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 507,
+                    "severity": "warning",
+                    "message": "Function 'test_code_unit_ranges' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 565,
+                    "severity": "warning",
+                    "message": "Function 'test_surrogate_pairs' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/utf16.rs",
+                    "line": 591,
+                    "severity": "warning",
+                    "message": "Function 'test_niche' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/lib.rs",
+                    "line": 22,
+                    "severity": "warning",
+                    "message": "Mod 'utf16' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf_types/src/lib.rs",
+                    "line": 23,
+                    "severity": "warning",
+                    "message": "Mod 'utf8' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crypto-common-0.1.6/src/lib.rs",
                     "line": 141,
                     "severity": "warning",
@@ -807889,55 +808635,183 @@
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 30,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 100,
                     "severity": "warning",
-                    "message": "Struct 'Utf8CharsError' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette struct",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 32,
-                    "severity": "warning",
-                    "message": "Impl 'core' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 33,
-                    "severity": "warning",
-                    "message": "Function 'fmt' sans documentation",
+                    "message": "Function 'error' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 49,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 109,
                     "severity": "warning",
-                    "message": "Struct 'ErrorReportingUtf8Chars' sans documentation",
+                    "message": "Struct 'Utf8CharsWithHandler' sans documentation",
                     "suggestion": "Ajoutez /// avant cette struct",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 63,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 133,
                     "severity": "warning",
                     "message": "Function 'as_slice' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 68,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 139,
+                    "severity": "warning",
+                    "message": "Function 'handler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 144,
+                    "severity": "warning",
+                    "message": "Function 'error' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 155,
                     "severity": "warning",
                     "message": "Function 'next_fallback' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 200,
+                    "severity": "warning",
+                    "message": "Function 'next_back_fallback' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 246,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 280,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 286,
+                    "severity": "warning",
+                    "message": "Function 'last' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 297,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/handler.rs",
+                    "line": 336,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 44,
+                    "severity": "warning",
+                    "message": "Function 'as_slice' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 53,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 58,
+                    "severity": "warning",
+                    "message": "Function 'count' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 63,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 68,
+                    "severity": "warning",
+                    "message": "Function 'last' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 76,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 81,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 84,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 110,
+                    "severity": "warning",
+                    "message": "Function 'as_slice' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 117,
+                    "severity": "warning",
+                    "message": "Function 'offset' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
                     "line": 126,
                     "severity": "warning",
                     "message": "Function 'next' sans documentation",
@@ -807945,24 +808819,160 @@
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 186,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 131,
+                    "severity": "warning",
+                    "message": "Function 'count' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 136,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 141,
+                    "severity": "warning",
+                    "message": "Function 'last' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 149,
                     "severity": "warning",
                     "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 213,
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 154,
                     "severity": "warning",
-                    "message": "Impl 'FusedIterator for ErrorReportingUtf8Chars<' sans documentation",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/macros.rs",
+                    "line": 157,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 28,
+                    "severity": "warning",
+                    "message": "Struct 'Utf8CharsError' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 30,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
                     "suggestion": "Ajoutez /// avant cette impl",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 216,
+                    "line": 31,
+                    "severity": "warning",
+                    "message": "Function 'fmt' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 36,
+                    "severity": "warning",
+                    "message": "Impl 'core' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 40,
+                    "severity": "warning",
+                    "message": "Struct 'ErrorReportingHandler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 42,
+                    "severity": "warning",
+                    "message": "Impl 'ErrorReportingHandler ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 43,
+                    "severity": "warning",
+                    "message": "Function 'new' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 48,
+                    "severity": "warning",
+                    "message": "Impl 'Utf8Handler for ErrorReportingHandler ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 59,
+                    "severity": "warning",
+                    "message": "Function 'single_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 71,
+                    "severity": "warning",
+                    "message": "Function 'two_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 83,
+                    "severity": "warning",
+                    "message": "Function 'three_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 95,
+                    "severity": "warning",
+                    "message": "Function 'four_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 111,
+                    "severity": "warning",
+                    "message": "Function 'error' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
+                    "line": 139,
                     "severity": "warning",
                     "message": "Mod 'tests' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -807970,7 +808980,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 221,
+                    "line": 144,
                     "severity": "warning",
                     "message": "Function 'test_size' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -807978,15 +808988,135 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/report.rs",
-                    "line": 229,
+                    "line": 152,
                     "severity": "warning",
                     "message": "Function 'test_eq' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 29,
+                    "severity": "warning",
+                    "message": "Struct 'DefaultHandler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 31,
+                    "severity": "warning",
+                    "message": "Impl 'DefaultHandler ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 38,
+                    "severity": "warning",
+                    "message": "Impl 'Default for DefaultHandler ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 39,
+                    "severity": "warning",
+                    "message": "Function 'default' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 44,
+                    "severity": "warning",
+                    "message": "Impl 'Utf8Handler for DefaultHandler ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 49,
+                    "severity": "warning",
+                    "message": "Function 'single_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 55,
+                    "severity": "warning",
+                    "message": "Function 'two_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 61,
+                    "severity": "warning",
+                    "message": "Function 'three_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 67,
+                    "severity": "warning",
+                    "message": "Function 'four_byte' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 73,
+                    "severity": "warning",
+                    "message": "Function 'error' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 100,
+                    "severity": "warning",
+                    "message": "Impl 'Utf8CharsEx for ' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette impl",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 104,
+                    "severity": "warning",
+                    "message": "Function 'chars' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/basic.rs",
+                    "line": 110,
+                    "severity": "warning",
+                    "message": "Function 'char_indices' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 36,
+                    "line": 38,
+                    "severity": "warning",
+                    "message": "Mod 'basic' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
+                    "line": 39,
+                    "severity": "warning",
+                    "message": "Mod 'handler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
+                    "line": 40,
                     "severity": "warning",
                     "message": "Mod 'indices' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -807994,7 +809124,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 37,
+                    "line": 41,
+                    "severity": "warning",
+                    "message": "Mod 'macros' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
+                    "line": 42,
                     "severity": "warning",
                     "message": "Mod 'report' sans documentation",
                     "suggestion": "Ajoutez /// avant cette mod",
@@ -808002,119 +809140,23 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 45,
+                    "line": 43,
                     "severity": "warning",
-                    "message": "Struct 'Utf8Data' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette struct",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 80,
-                    "severity": "warning",
-                    "message": "Function 'in_inclusive_range8' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 87,
-                    "severity": "warning",
-                    "message": "Struct 'Utf8Chars' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette struct",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 101,
-                    "severity": "warning",
-                    "message": "Function 'as_slice' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 106,
-                    "severity": "warning",
-                    "message": "Function 'next_fallback' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 164,
-                    "severity": "warning",
-                    "message": "Function 'next' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 230,
-                    "severity": "warning",
-                    "message": "Function 'next_back' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 257,
-                    "severity": "warning",
-                    "message": "Impl 'FusedIterator for Utf8Chars<' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 262,
-                    "severity": "warning",
-                    "message": "Function 'chars' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 263,
-                    "severity": "warning",
-                    "message": "Function 'char_indices' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 266,
-                    "severity": "warning",
-                    "message": "Impl 'Utf8CharsEx for ' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 270,
-                    "severity": "warning",
-                    "message": "Function 'chars' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
-                    "module": "rust"
-                },
-                {
-                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/lib.rs",
-                    "line": 276,
-                    "severity": "warning",
-                    "message": "Function 'char_indices' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette function",
+                    "message": "Mod 'str' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette mod",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 26,
+                    "line": 28,
                     "severity": "warning",
-                    "message": "Struct 'Utf8CharIndices' sans documentation",
+                    "message": "Struct 'Utf8CharIndicesWithHandler' sans documentation",
                     "suggestion": "Ajoutez /// avant cette struct",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 35,
+                    "line": 43,
                     "severity": "warning",
                     "message": "Function 'next' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -808122,7 +809164,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 49,
+                    "line": 57,
                     "severity": "warning",
                     "message": "Function 'count' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -808130,7 +809172,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 54,
+                    "line": 62,
                     "severity": "warning",
                     "message": "Function 'size_hint' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -808138,7 +809180,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 59,
+                    "line": 67,
                     "severity": "warning",
                     "message": "Function 'last' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -808146,7 +809188,7 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 67,
+                    "line": 78,
                     "severity": "warning",
                     "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -808154,15 +809196,15 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 75,
+                    "line": 92,
                     "severity": "warning",
-                    "message": "Impl 'FusedIterator for Utf8CharIndices<' sans documentation",
-                    "suggestion": "Ajoutez /// avant cette impl",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 93,
+                    "line": 119,
                     "severity": "warning",
                     "message": "Function 'as_slice' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
@@ -808170,9 +809212,177 @@
                 },
                 {
                     "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
-                    "line": 117,
+                    "line": 125,
+                    "severity": "warning",
+                    "message": "Function 'handler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 133,
                     "severity": "warning",
                     "message": "Function 'offset' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 143,
+                    "severity": "warning",
+                    "message": "Struct 'CharIndicesWithHandler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 158,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 172,
+                    "severity": "warning",
+                    "message": "Function 'count' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 177,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 182,
+                    "severity": "warning",
+                    "message": "Function 'last' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 193,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 207,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 234,
+                    "severity": "warning",
+                    "message": "Function 'as_str' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 240,
+                    "severity": "warning",
+                    "message": "Function 'handler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/indices.rs",
+                    "line": 248,
+                    "severity": "warning",
+                    "message": "Function 'offset' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 33,
+                    "severity": "warning",
+                    "message": "Struct 'CharsWithHandler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette struct",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 69,
+                    "severity": "warning",
+                    "message": "Function 'as_str' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 76,
+                    "severity": "warning",
+                    "message": "Function 'handler' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 85,
+                    "severity": "warning",
+                    "message": "Function 'next_with_minimum_lead' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 216,
+                    "severity": "warning",
+                    "message": "Function 'clone' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 231,
+                    "severity": "warning",
+                    "message": "Function 'next' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 249,
+                    "severity": "warning",
+                    "message": "Function 'count' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 254,
+                    "severity": "warning",
+                    "message": "Function 'size_hint' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 260,
+                    "severity": "warning",
+                    "message": "Function 'last' sans documentation",
+                    "suggestion": "Ajoutez /// avant cette function",
+                    "module": "rust"
+                },
+                {
+                    "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/utf8_iter/src/str.rs",
+                    "line": 271,
+                    "severity": "warning",
+                    "message": "Function 'next_back' sans documentation",
                     "suggestion": "Ajoutez /// avant cette function",
                     "module": "rust"
                 },
