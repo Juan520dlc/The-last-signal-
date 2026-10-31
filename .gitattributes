@@ -35,10 +35,6 @@ reports/python/2026-10-27/*.html filter=lfs diff=lfs merge=lfs -text
 reports/python/2026-10-28/*.html filter=lfs diff=lfs merge=lfs -text
 reports/python/2026-10-29/*.html filter=lfs diff=lfs merge=lfs -text
 reports/python/2026-10-30/*.html filter=lfs diff=lfs merge=lfs -text
-reports/python/2026-09-25/*.md filter=lfs diff=lfs merge=lfs -text
-reports/python/2026-09-26/*.md filter=lfs diff=lfs merge=lfs -text
-reports/python/2026-09-29/*.md filter=lfs diff=lfs merge=lfs -text
-reports/python/2026-10-30/*.md filter=lfs diff=lfs merge=lfs -text
 reports/rust/2026-09-25/*.md filter=lfs diff=lfs merge=lfs -text
 reports/rust/2026-09-26/*.md filter=lfs diff=lfs merge=lfs -text
 reports/rust/2026-09-29/*.md filter=lfs diff=lfs merge=lfs -text
@@ -55,3 +51,8 @@ reports/build/build-macos-latest/2026-09-25/*.md filter=lfs diff=lfs merge=lfs -
 reports/build/build-macos-latest/2026-09-26/*.md filter=lfs diff=lfs merge=lfs -text
 reports/build/build-macos-latest/2026-09-29/*.md filter=lfs diff=lfs merge=lfs -text
 reports/build/build-macos-latest/2026-10-31/*.md filter=lfs diff=lfs merge=lfs -text
+reports/python/2026-09-25/*.md filter=lfs diff=lfs merge=lfs -text
+reports/python/2026-09-26/*.md filter=lfs diff=lfs merge=lfs -text
+reports/python/2026-09-29/*.md filter=lfs diff=lfs merge=lfs -text
+reports/python/2026-10-31/*.md filter=lfs diff=lfs merge=lfs -text
+reports/python/2026-10-31/*.html filter=lfs diff=lfs merge=lfs -text
