@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-31 00:05:30
+**Date :** 2026-10-31 07:41:42
 
 # 64/100
 
@@ -368819,7 +368819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'macros' sans documentation
 
-- **line :** 415
+- **line :** 414
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -368829,7 +368829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'serde' sans documentation
 
-- **line :** 416
+- **line :** 415
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -368839,7 +368839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'kv' sans documentation
 
-- **line :** 419
+- **line :** 418
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -368849,7 +368849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'AtomicUsize' sans documentation
 
-- **line :** 430
+- **line :** 429
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -368859,7 +368859,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'AtomicUsize ' sans documentation
 
-- **line :** 435
+- **line :** 434
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -368869,7 +368869,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'load' sans documentation
 
-- **line :** 440
+- **line :** 439
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368879,7 +368879,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'store' sans documentation
 
-- **line :** 444
+- **line :** 443
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368889,7 +368889,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'Level' sans documentation
 
-- **line :** 484
+- **line :** 483
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -368899,7 +368899,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialEq<LevelFilter> for Level ' sans documentation
 
-- **line :** 510
+- **line :** 509
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -368909,7 +368909,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
 
-- **line :** 512
+- **line :** 511
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368919,7 +368919,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialOrd<LevelFilter> for Level ' sans documentation
 
-- **line :** 517
+- **line :** 516
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -368929,7 +368929,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'partial_cmp' sans documentation
 
-- **line :** 519
+- **line :** 518
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368939,7 +368939,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromStr for Level ' sans documentation
 
-- **line :** 524
+- **line :** 523
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -368949,7 +368949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_str' sans documentation
 
-- **line :** 526
+- **line :** 525
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368959,7 +368959,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 537
+- **line :** 536
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -368969,7 +368969,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 538
+- **line :** 537
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368979,7 +368979,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Level ' sans documentation
 
-- **line :** 543
+- **line :** 542
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -368989,7 +368989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_usize' sans documentation
 
-- **line :** 544
+- **line :** 543
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -368999,7 +368999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max' sans documentation
 
-- **line :** 557
+- **line :** 556
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369009,7 +369009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_level_filter' sans documentation
 
-- **line :** 563
+- **line :** 562
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369019,7 +369019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'LevelFilter' sans documentation
 
-- **line :** 645
+- **line :** 644
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -369029,7 +369029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialEq<Level> for LevelFilter ' sans documentation
 
-- **line :** 660
+- **line :** 659
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369039,7 +369039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
 
-- **line :** 662
+- **line :** 661
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369049,7 +369049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialOrd<Level> for LevelFilter ' sans documentation
 
-- **line :** 667
+- **line :** 666
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369059,7 +369059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'partial_cmp' sans documentation
 
-- **line :** 669
+- **line :** 668
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369069,7 +369069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'FromStr for LevelFilter ' sans documentation
 
-- **line :** 674
+- **line :** 673
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369079,7 +369079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_str' sans documentation
 
-- **line :** 676
+- **line :** 675
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369089,7 +369089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 687
+- **line :** 686
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369099,7 +369099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 688
+- **line :** 687
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369109,7 +369109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'LevelFilter ' sans documentation
 
-- **line :** 693
+- **line :** 692
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369119,7 +369119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_usize' sans documentation
 
-- **line :** 694
+- **line :** 693
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369129,7 +369129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max' sans documentation
 
-- **line :** 708
+- **line :** 707
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369139,7 +369139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_level' sans documentation
 
-- **line :** 716
+- **line :** 715
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369149,7 +369149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Enum 'MaybeStaticStr' sans documentation
 
-- **line :** 790
+- **line :** 789
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -369159,7 +369159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'get' sans documentation
 
-- **line :** 797
+- **line :** 796
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369169,7 +369169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Eq for MaybeStaticStr<' sans documentation
 
-- **line :** 805
+- **line :** 804
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369179,7 +369179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialEq for MaybeStaticStr<' sans documentation
 
-- **line :** 807
+- **line :** 806
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369189,7 +369189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
 
-- **line :** 808
+- **line :** 807
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369199,7 +369199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Ord for MaybeStaticStr<' sans documentation
 
-- **line :** 813
+- **line :** 812
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369209,7 +369209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'cmp' sans documentation
 
-- **line :** 814
+- **line :** 813
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369219,7 +369219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'PartialOrd for MaybeStaticStr<' sans documentation
 
-- **line :** 819
+- **line :** 818
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369229,7 +369229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'partial_cmp' sans documentation
 
-- **line :** 820
+- **line :** 819
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369239,7 +369239,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'std' sans documentation
 
-- **line :** 825
+- **line :** 824
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369249,7 +369249,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
 
-- **line :** 826
+- **line :** 825
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369259,7 +369259,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Record' sans documentation
 
-- **line :** 877
+- **line :** 876
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369269,7 +369269,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'KeyValues' sans documentation
 
-- **line :** 893
+- **line :** 892
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369279,7 +369279,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 897
+- **line :** 896
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369289,7 +369289,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder' sans documentation
 
-- **line :** 907
+- **line :** 906
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369299,7 +369299,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'args' sans documentation
 
-- **line :** 913
+- **line :** 912
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369309,7 +369309,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metadata' sans documentation
 
-- **line :** 919
+- **line :** 918
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369319,7 +369319,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level' sans documentation
 
-- **line :** 925
+- **line :** 924
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369329,7 +369329,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'target' sans documentation
 
-- **line :** 931
+- **line :** 930
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369339,7 +369339,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'module_path' sans documentation
 
-- **line :** 937
+- **line :** 936
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369349,7 +369349,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'module_path_static' sans documentation
 
-- **line :** 943
+- **line :** 942
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369359,7 +369359,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'file' sans documentation
 
-- **line :** 952
+- **line :** 951
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369369,7 +369369,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'file_static' sans documentation
 
-- **line :** 958
+- **line :** 957
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369379,7 +369379,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'line' sans documentation
 
-- **line :** 967
+- **line :** 966
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369389,7 +369389,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'key_values' sans documentation
 
-- **line :** 974
+- **line :** 973
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369399,7 +369399,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'to_builder' sans documentation
 
-- **line :** 981
+- **line :** 980
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369409,7 +369409,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'RecordBuilder' sans documentation
 
-- **line :** 1038
+- **line :** 1037
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369419,7 +369419,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 1056
+- **line :** 1055
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369429,7 +369429,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'args' sans documentation
 
-- **line :** 1072
+- **line :** 1071
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369439,7 +369439,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'metadata' sans documentation
 
-- **line :** 1079
+- **line :** 1078
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369449,7 +369449,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level' sans documentation
 
-- **line :** 1086
+- **line :** 1085
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369459,7 +369459,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'target' sans documentation
 
-- **line :** 1093
+- **line :** 1092
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369469,7 +369469,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'module_path' sans documentation
 
-- **line :** 1100
+- **line :** 1099
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369479,7 +369479,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'module_path_static' sans documentation
 
-- **line :** 1107
+- **line :** 1106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369489,7 +369489,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'file' sans documentation
 
-- **line :** 1114
+- **line :** 1113
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369499,7 +369499,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'file_static' sans documentation
 
-- **line :** 1121
+- **line :** 1120
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369509,7 +369509,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'line' sans documentation
 
-- **line :** 1128
+- **line :** 1127
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369519,7 +369519,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'key_values' sans documentation
 
-- **line :** 1136
+- **line :** 1135
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369529,7 +369529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build' sans documentation
 
-- **line :** 1143
+- **line :** 1142
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369539,7 +369539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for RecordBuilder<' sans documentation
 
-- **line :** 1148
+- **line :** 1147
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369549,7 +369549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 1149
+- **line :** 1148
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369559,7 +369559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'Metadata' sans documentation
 
-- **line :** 1193
+- **line :** 1192
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369569,7 +369569,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'builder' sans documentation
 
-- **line :** 1201
+- **line :** 1200
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369579,7 +369579,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level' sans documentation
 
-- **line :** 1207
+- **line :** 1206
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369589,7 +369589,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'target' sans documentation
 
-- **line :** 1213
+- **line :** 1212
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369599,7 +369599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'MetadataBuilder' sans documentation
 
-- **line :** 1235
+- **line :** 1234
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369609,7 +369609,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 1247
+- **line :** 1246
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369619,7 +369619,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'level' sans documentation
 
-- **line :** 1258
+- **line :** 1257
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369629,7 +369629,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'target' sans documentation
 
-- **line :** 1265
+- **line :** 1264
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369639,7 +369639,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'build' sans documentation
 
-- **line :** 1272
+- **line :** 1271
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369649,7 +369649,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for MetadataBuilder<' sans documentation
 
-- **line :** 1277
+- **line :** 1276
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369659,7 +369659,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 1278
+- **line :** 1277
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369669,7 +369669,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Log for NopLogger ' sans documentation
 
-- **line :** 1320
+- **line :** 1319
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369679,7 +369679,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enabled' sans documentation
 
-- **line :** 1321
+- **line :** 1320
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369688,6 +369688,16 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** rust
 - **Message :** Function 'log' sans documentation
+
+- **line :** 1324
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'flush' sans documentation
 
 - **line :** 1325
 
@@ -369697,19 +369707,9 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'flush' sans documentation
-
-- **line :** 1326
-
-- **suggestion :** Ajoutez /// avant cette function
-
-- **module :** rust
-
-## ⚠️ Warning
-- **Module :** rust
 - **Message :** Function 'enabled' sans documentation
 
-- **line :** 1333
+- **line :** 1332
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369719,7 +369719,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'log' sans documentation
 
-- **line :** 1337
+- **line :** 1336
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369729,7 +369729,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'flush' sans documentation
 
-- **line :** 1340
+- **line :** 1339
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369739,7 +369739,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enabled' sans documentation
 
-- **line :** 1350
+- **line :** 1349
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369749,7 +369749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'log' sans documentation
 
-- **line :** 1354
+- **line :** 1353
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369759,7 +369759,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'flush' sans documentation
 
-- **line :** 1357
+- **line :** 1356
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369769,7 +369769,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'enabled' sans documentation
 
-- **line :** 1367
+- **line :** 1366
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369779,7 +369779,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'log' sans documentation
 
-- **line :** 1371
+- **line :** 1370
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369789,7 +369789,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'flush' sans documentation
 
-- **line :** 1374
+- **line :** 1373
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369799,7 +369799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_max_level' sans documentation
 
-- **line :** 1386
+- **line :** 1385
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369809,7 +369809,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'max_level' sans documentation
 
-- **line :** 1431
+- **line :** 1430
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369819,7 +369819,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_boxed_logger' sans documentation
 
-- **line :** 1455
+- **line :** 1454
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369829,7 +369829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_logger' sans documentation
 
-- **line :** 1513
+- **line :** 1512
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369839,7 +369839,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'set_logger_inner' sans documentation
 
-- **line :** 1518
+- **line :** 1517
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369849,7 +369849,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'SetLoggerError' sans documentation
 
-- **line :** 1584
+- **line :** 1583
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369859,7 +369859,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 1586
+- **line :** 1585
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369869,7 +369869,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1587
+- **line :** 1586
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369879,7 +369879,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'error' sans documentation
 
-- **line :** 1594
+- **line :** 1593
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369889,7 +369889,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ParseLevelError' sans documentation
 
-- **line :** 1601
+- **line :** 1600
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -369899,7 +369899,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 1603
+- **line :** 1602
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369909,7 +369909,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 1604
+- **line :** 1603
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369919,7 +369919,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'error' sans documentation
 
-- **line :** 1611
+- **line :** 1610
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -369929,7 +369929,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod '__private_api' sans documentation
 
-- **line :** 1635
+- **line :** 1634
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -369939,7 +369939,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 1662
+- **line :** 1661
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -369949,7 +369949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_levelfilter_from_str' sans documentation
 
-- **line :** 1666
+- **line :** 1665
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369959,7 +369959,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_from_str' sans documentation
 
-- **line :** 1688
+- **line :** 1687
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369969,7 +369969,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_as_str' sans documentation
 
-- **line :** 1709
+- **line :** 1708
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369979,7 +369979,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_show' sans documentation
 
-- **line :** 1723
+- **line :** 1722
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369989,7 +369989,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_levelfilter_show' sans documentation
 
-- **line :** 1729
+- **line :** 1728
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -369999,7 +369999,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_cross_cmp' sans documentation
 
-- **line :** 1735
+- **line :** 1734
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370009,7 +370009,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_cross_eq' sans documentation
 
-- **line :** 1742
+- **line :** 1741
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370019,7 +370019,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_to_level' sans documentation
 
-- **line :** 1749
+- **line :** 1748
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370029,7 +370029,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_to_level_filter' sans documentation
 
-- **line :** 1756
+- **line :** 1755
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370039,7 +370039,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_filter_as_str' sans documentation
 
-- **line :** 1762
+- **line :** 1761
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370049,7 +370049,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_up' sans documentation
 
-- **line :** 1777
+- **line :** 1776
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370059,7 +370059,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_filter_up' sans documentation
 
-- **line :** 1789
+- **line :** 1788
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370069,7 +370069,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_down' sans documentation
 
-- **line :** 1801
+- **line :** 1800
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370079,7 +370079,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_level_filter_down' sans documentation
 
-- **line :** 1813
+- **line :** 1812
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370089,7 +370089,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_static_max_level_debug' sans documentation
 
-- **line :** 1827
+- **line :** 1826
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370099,7 +370099,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_static_max_level_release' sans documentation
 
-- **line :** 1845
+- **line :** 1844
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370109,7 +370109,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_error_trait' sans documentation
 
-- **line :** 1875
+- **line :** 1874
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370119,7 +370119,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_metadata_builder' sans documentation
 
-- **line :** 1886
+- **line :** 1885
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370129,7 +370129,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_metadata_convenience_builder' sans documentation
 
-- **line :** 1898
+- **line :** 1897
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370139,7 +370139,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_record_builder' sans documentation
 
-- **line :** 1910
+- **line :** 1909
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370149,7 +370149,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_record_convenience_builder' sans documentation
 
-- **line :** 1929
+- **line :** 1928
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370159,7 +370159,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_record_complete_builder' sans documentation
 
-- **line :** 1948
+- **line :** 1947
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370169,7 +370169,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_record_key_values_builder' sans documentation
 
-- **line :** 1967
+- **line :** 1966
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370179,7 +370179,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'TestVisitSource' sans documentation
 
-- **line :** 1971
+- **line :** 1970
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -370189,7 +370189,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'visit_pair' sans documentation
 
-- **line :** 1976
+- **line :** 1975
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370199,7 +370199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_record_key_values_get_coerce' sans documentation
 
-- **line :** 1998
+- **line :** 1997
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370209,7 +370209,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_foreign_impl' sans documentation
 
-- **line :** 2018
+- **line :** 2017
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370219,7 +370219,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'assert_is_log' sans documentation
 
-- **line :** 2023
+- **line :** 2022
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -370229,7 +370229,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'forall' sans documentation
 
-- **line :** 2035
+- **line :** 2034
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1267131,31 +1267131,31 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:11 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:21 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
@@ -1267167,103 +1267167,103 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:39 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:63 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:82 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:89 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:92 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:126 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:147 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1267275,13 +1267275,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1267293,13 +1267293,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:173 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:177 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1267311,13 +1267311,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:191 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1267329,7 +1267329,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:199 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
@@ -1267341,37 +1267341,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:212 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:250 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:257 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
@@ -1267383,7 +1267383,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
@@ -1267395,7 +1267395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:284 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
@@ -1267407,13 +1267407,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1267425,19 +1267425,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:310 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
@@ -1267449,13 +1267449,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:324 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1267473,49 +1267473,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:419 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:433 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:433 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:437 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:437 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:452 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:452 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:459 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:459 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/bitflags/CHANGELOG.md:490 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
@@ -1282581,253 +1282581,277 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:17 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:10 titre très long (81 caractères).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:1).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:27 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:8 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:8).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:34 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:14 titre dupliqué (déjà présent dans server_rust/vendor/libc/CHANGELOG.md:352).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:44 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:47 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:75 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:83 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:53).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:88 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:77 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:100 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:90 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:117 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:68).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:136 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:124 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:160 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:132 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:5).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:140 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:189 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:9).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:151 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:271 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:164 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:262).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:282 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:20).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:24).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:298 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/README.md:17).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:286 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:304 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:262).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:277).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:315 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:262).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:321 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:262).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:307 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:308).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:313 titre dupliqué (déjà présent dans server_rust/vendor/sha2-0.10.9/README.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:308).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:277).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:341 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:308).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:330 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:277).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:308).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:277).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:354 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:308).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:323).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:360 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:308).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:350 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:323).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:364 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:356 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:323).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:363 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:323).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:380 titre dupliqué (déjà présent dans server_rust/vendor/num-traits/README.md:41).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:369 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:323).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:396 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:262).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:375 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:323).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:410 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:379 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/log/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/log/CHANGELOG.md:385 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/log/CHANGELOG.md:395 titre dupliqué (déjà présent dans server_rust/vendor/num-traits/README.md:41).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/log/CHANGELOG.md:411 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:277).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/log/CHANGELOG.md:425 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/log/CHANGELOG.md:432 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 - **module :** titles
 
@@ -1283691,12 +1283715,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:1).
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
 - **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:3 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:8).
 
 - **module :** titles
@@ -1284343,7 +1284361,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:1).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1 titre dupliqué (déjà présent dans server_rust/vendor/openssl-sys/CHANGELOG.md:1).
 
 - **module :** titles
 
@@ -1285255,7 +1285273,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1116 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:439).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1116 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:454).
 
 - **module :** titles
 
