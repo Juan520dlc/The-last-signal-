@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-10-31 20:16:03
+**Date :** 2026-11-01 00:09:49
 
 # 64/100
 
@@ -881371,164 +881371,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **module :** rust
 
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/unicode-properties/scripts/unicode.py
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** Le module ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Info
-- **Module :** python
-- **Message :** FIXME présent dans le fichier.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'fetch_unidata'ligne 41 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'fetch_unidata' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'load_emoji_properties'ligne 52 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'load_emoji_properties' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'load_general_category_properties'ligne 84 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'load_general_category_properties' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'format_table_content'ligne 137 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'format_table_content' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'escape_char'ligne 152 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'escape_char' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'escape_char_list'ligne 157 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'escape_char_list' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_table'ligne 169 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_table' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_general_category_module'ligne 187 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_general_category_module' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_general_category_module' dépasse 80 lignes.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_emoji_module'ligne 375 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_emoji_module' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_emoji_module' dépasse 80 lignes.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_util_mod'ligne 494 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'emit_util_mod' ne possède pas d'annotations de type.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'group_text'ligne 443 ne possède pas de docstring.
-
-- **module :** python
-
-## ⚠️ Warning
-- **Module :** python
-- **Message :** La fonction 'group_text' ne possède pas d'annotations de type.
-
-- **module :** python
-
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/unicode-properties/src/lib.rs
 
 ## ⚠️ Warning
@@ -881687,7 +881529,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'emoji' sans documentation
 
-- **line :** 2794
+- **line :** 2845
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -881697,7 +881539,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'emoji_status' sans documentation
 
-- **line :** 2820
+- **line :** 2871
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -881707,7 +881549,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_emoji_status_for_emoji_char_or_emoji_component' sans documentation
 
-- **line :** 2825
+- **line :** 2876
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -881717,7 +881559,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_emoji_status_for_emoji_char' sans documentation
 
-- **line :** 2829
+- **line :** 2880
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -881727,7 +881569,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'is_emoji_status_for_emoji_component' sans documentation
 
-- **line :** 2833
+- **line :** 2884
 
 - **suggestion :** Ajoutez /// avant cette function
 
