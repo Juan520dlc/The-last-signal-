@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-11-01 21:19:27
+Generated: 2026-11-02 01:30:38
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|471|
-|⚠️ Warnings|131219|
-|**Total**|**131696**|
+|⚠️ Warnings|131269|
+|**Total**|**131746**|
 
 ---
 
@@ -54814,36 +54814,64 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'fold_8' sans documentation
+- **line :** 30
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fold_4' sans documentation
+- **line :** 44
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'update_fast_16' sans documentation
-- **line :** 28
+- **line :** 52
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'update_short' sans documentation
+- **line :** 80
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'update_4_to_15' sans documentation
+- **line :** 89
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update_slow' sans documentation
-- **line :** 51
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 62
+- **line :** 115
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'slow' sans documentation
-- **line :** 64
+- **line :** 117
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fast_16_is_the_same_as_slow' sans documentation
-- **line :** 80
+- **line :** 133
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -54853,22 +54881,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'multiply' sans documentation
-- **line :** 12
+- **Message :** Function 'shift' sans documentation
+- **line :** 68
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'combine' sans documentation
-- **line :** 23
+- **line :** 75
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shift_table_appends_zeros' sans documentation
+- **line :** 96
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'golden' sans documentation
-- **line :** 44
+- **line :** 113
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -54879,154 +54914,189 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'baseline' sans documentation
-- **line :** 45
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Mod 'combine' sans documentation
 - **line :** 46
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'specialized' sans documentation
+- **Message :** Mod 'combine' sans documentation
 - **line :** 47
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'table' sans documentation
+- **Message :** Mod 'specialized' sans documentation
 - **line :** 48
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Mod 'table' sans documentation
+- **line :** 49
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'hash' sans documentation
+- **line :** 55
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Impl 'Hasher ' sans documentation
-- **line :** 69
+- **line :** 71
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'new' sans documentation
+- **line :** 77
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_with_initial' sans documentation
+- **line :** 86
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_with_initial_len' sans documentation
+- **line :** 96
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'internal_new_baseline' sans documentation
-- **line :** 98
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'internal_new_specialized' sans documentation
-- **line :** 108
+- **line :** 115
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'update' sans documentation
+- **line :** 125
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'total_len' sans documentation
-- **line :** 143
+- **line :** 151
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'finalize' sans documentation
-- **line :** 149
+- **line :** 157
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'reset' sans documentation
-- **line :** 155
+- **line :** 163
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 167
+- **line :** 175
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 168
+- **line :** 176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Default for Hasher ' sans documentation
-- **line :** 173
+- **line :** 181
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 174
+- **line :** 182
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'hash' sans documentation
-- **line :** 179
+- **line :** 187
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
-- **line :** 180
+- **line :** 188
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'finish' sans documentation
-- **line :** 184
+- **line :** 192
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 190
+- **line :** 198
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'total_len_tracks_resumed_and_combined_blocks' sans documentation
-- **line :** 194
+- **line :** 202
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'total_len_for_empty_and_unknown_initial_length' sans documentation
-- **line :** 217
+- **line :** 225
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'combine' sans documentation
-- **line :** 234
+- **line :** 242
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'combine_from_len' sans documentation
-- **line :** 247
+- **line :** 255
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55071,22 +55141,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'quad' sans documentation
+- **line :** 52
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 134
+- **line :** 133
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
-- **line :** 136
+- **line :** 135
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
-- **line :** 158
+- **line :** 157
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55097,42 +55174,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'pclmulqdq' sans documentation
-- **line :** 6
+- **line :** 8
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aarch64' sans documentation
-- **line :** 9
+- **line :** 12
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'State' sans documentation
-- **line :** 13
+- **line :** 16
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'State ' sans documentation
-- **line :** 14
+- **line :** 17
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 15
+- **line :** 18
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update' sans documentation
-- **line :** 19
+- **line :** 22
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55143,70 +55220,84 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Enum 'Kind' sans documentation
-- **line :** 24
+- **line :** 28
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'State' sans documentation
-- **line :** 36
+- **line :** 40
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'State ' sans documentation
-- **line :** 40
+- **line :** 44
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect' sans documentation
-- **line :** 42
+- **line :** 47
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect' sans documentation
-- **line :** 65
+- **line :** 71
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 87
+- **line :** 94
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update' sans documentation
-- **line :** 93
+- **line :** 100
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get' sans documentation
+- **line :** 444
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'partial_words' sans documentation
+- **line :** 475
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 459
+- **line :** 495
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
-- **line :** 461
+- **line :** 497
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
-- **line :** 483
+- **line :** 519
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -284218,35 +284309,35 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'postprocess' sans documentation
-- **line :** 295
+- **line :** 297
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'validate_headers' sans documentation
-- **line :** 310
+- **line :** 312
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'version_error' sans documentation
-- **line :** 466
+- **line :** 469
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'parse_version' sans documentation
-- **line :** 479
+- **line :** 482
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'parse_new_version' sans documentation
-- **line :** 491
+- **line :** 494
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -291962,351 +292053,351 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_do_handshake' sans documentation
+- **Message :** Function 'SSL_alert_desc_string_long' sans documentation
 - **line :** 543
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_shutdown' sans documentation
-- **line :** 544
+- **Message :** Function 'SSL_do_handshake' sans documentation
+- **line :** 545
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_CTX_set_client_CA_list' sans documentation
+- **Message :** Function 'SSL_shutdown' sans documentation
 - **line :** 546
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_CTX_add_client_CA' sans documentation
+- **Message :** Function 'SSL_CTX_set_client_CA_list' sans documentation
 - **line :** 548
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_CTX_set_default_verify_paths' sans documentation
+- **Message :** Function 'SSL_CTX_add_client_CA' sans documentation
 - **line :** 550
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_CTX_set_default_verify_paths' sans documentation
+- **line :** 552
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_CTX_load_verify_locations' sans documentation
-- **line :** 551
+- **line :** 553
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_ssl_method' sans documentation
-- **line :** 560
+- **line :** 562
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_connect_state' sans documentation
-- **line :** 565
+- **line :** 567
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_accept_state' sans documentation
-- **line :** 566
+- **line :** 568
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_library_init' sans documentation
-- **line :** 569
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_CIPHER_description' sans documentation
 - **line :** 571
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_CIPHER_description' sans documentation
+- **line :** 573
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_get_certificate' sans documentation
-- **line :** 577
+- **line :** 579
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_privatekey' sans documentation
-- **line :** 578
+- **line :** 580
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_get0_certificate' sans documentation
-- **line :** 582
+- **line :** 584
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_get0_privatekey' sans documentation
-- **line :** 583
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_set_shutdown' sans documentation
 - **line :** 585
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_shutdown' sans documentation
-- **line :** 586
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_version' sans documentation
+- **Message :** Function 'SSL_set_shutdown' sans documentation
 - **line :** 587
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_session' sans documentation
+- **Message :** Function 'SSL_get_shutdown' sans documentation
 - **line :** 588
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_SSL_CTX' sans documentation
+- **Message :** Function 'SSL_version' sans documentation
 - **line :** 589
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_set_SSL_CTX' sans documentation
+- **Message :** Function 'SSL_get_session' sans documentation
 - **line :** 590
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_verify_result' sans documentation
+- **Message :** Function 'SSL_get_SSL_CTX' sans documentation
+- **line :** 591
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'SSL_set_SSL_CTX' sans documentation
 - **line :** 592
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get0_verified_chain' sans documentation
+- **Message :** Function 'SSL_get_verify_result' sans documentation
 - **line :** 594
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_client_random' sans documentation
+- **Message :** Function 'SSL_get0_verified_chain' sans documentation
 - **line :** 596
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_server_random' sans documentation
-- **line :** 597
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_SESSION_get_master_key' sans documentation
+- **Message :** Function 'SSL_get_client_random' sans documentation
 - **line :** 598
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_get_server_random' sans documentation
+- **line :** 599
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'SSL_SESSION_get_master_key' sans documentation
+- **line :** 600
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_get_ex_new_index' sans documentation
-- **line :** 607
+- **line :** 609
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_ex_data' sans documentation
-- **line :** 615
+- **line :** 617
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_ex_data' sans documentation
-- **line :** 616
+- **line :** 618
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_get_ex_new_index' sans documentation
-- **line :** 619
+- **line :** 621
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set_ex_data' sans documentation
-- **line :** 627
+- **line :** 629
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_get_ex_data' sans documentation
-- **line :** 628
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_get_ex_data_X509_STORE_CTX_idx' sans documentation
 - **line :** 630
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_get_ex_data_X509_STORE_CTX_idx' sans documentation
+- **line :** 632
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_CTX_set_tmp_dh_callback__fixed_rust' sans documentation
-- **line :** 636
+- **line :** 638
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_tmp_dh_callback__fixed_rust' sans documentation
-- **line :** 643
+- **line :** 645
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set_tmp_ecdh_callback__fixed_rust' sans documentation
-- **line :** 651
+- **line :** 653
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_tmp_ecdh_callback__fixed_rust' sans documentation
-- **line :** 659
+- **line :** 661
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_current_compression' sans documentation
-- **line :** 670
+- **line :** 672
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_current_compression' sans documentation
-- **line :** 675
+- **line :** 677
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_COMP_get_name' sans documentation
-- **line :** 683
+- **line :** 685
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_COMP_get_name' sans documentation
-- **line :** 687
+- **line :** 689
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'COMP_get_type' sans documentation
-- **line :** 695
+- **line :** 697
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CIPHER_get_cipher_nid' sans documentation
-- **line :** 699
+- **line :** 701
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CIPHER_get_digest_nid' sans documentation
-- **line :** 700
+- **line :** 702
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_session_reused' sans documentation
-- **line :** 706
+- **line :** 708
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_is_server' sans documentation
-- **line :** 712
+- **line :** 714
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'OPENSSL_init_ssl' sans documentation
-- **line :** 718
+- **line :** 720
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set_num_tickets' sans documentation
-- **line :** 723
+- **line :** 725
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_num_tickets' sans documentation
-- **line :** 726
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_CTX_get_num_tickets' sans documentation
-- **line :** 729
+- **line :** 728
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
@@ -292319,8 +292410,8 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_num_tickets' sans documentation
-- **line :** 734
+- **Message :** Function 'SSL_CTX_get_num_tickets' sans documentation
+- **line :** 733
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
@@ -292333,253 +292424,260 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_get_num_tickets' sans documentation
+- **line :** 738
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_CTX_set_security_level' sans documentation
-- **line :** 741
+- **line :** 743
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_security_level' sans documentation
-- **line :** 744
+- **line :** 746
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_get_security_level' sans documentation
-- **line :** 747
+- **line :** 749
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_security_level' sans documentation
-- **line :** 750
+- **line :** 752
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'OSSL_QUIC_client_method' sans documentation
-- **line :** 755
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'OSSL_QUIC_client_thread_method' sans documentation
-- **line :** 756
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_get_event_timeout' sans documentation
 - **line :** 757
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_handle_events' sans documentation
+- **Message :** Function 'OSSL_QUIC_client_thread_method' sans documentation
 - **line :** 758
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_blocking_mode' sans documentation
+- **Message :** Function 'SSL_get_event_timeout' sans documentation
 - **line :** 759
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_set_blocking_mode' sans documentation
+- **Message :** Function 'SSL_handle_events' sans documentation
 - **line :** 760
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_rpoll_descriptor' sans documentation
+- **Message :** Function 'SSL_get_blocking_mode' sans documentation
 - **line :** 761
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_wpoll_descriptor' sans documentation
+- **Message :** Function 'SSL_set_blocking_mode' sans documentation
 - **line :** 762
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_net_read_desired' sans documentation
+- **Message :** Function 'SSL_get_rpoll_descriptor' sans documentation
 - **line :** 763
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_net_write_desired' sans documentation
+- **Message :** Function 'SSL_get_wpoll_descriptor' sans documentation
 - **line :** 764
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_set1_initial_peer_addr' sans documentation
+- **Message :** Function 'SSL_net_read_desired' sans documentation
 - **line :** 765
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_shutdown_ex' sans documentation
+- **Message :** Function 'SSL_net_write_desired' sans documentation
 - **line :** 766
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_set1_initial_peer_addr' sans documentation
+- **line :** 767
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'SSL_shutdown_ex' sans documentation
+- **line :** 768
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_stream_conclude' sans documentation
-- **line :** 772
+- **line :** 774
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_stream_reset' sans documentation
-- **line :** 773
+- **line :** 775
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_stream_read_state' sans documentation
-- **line :** 778
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_get_stream_write_state' sans documentation
-- **line :** 779
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_get_conn_close_info' sans documentation
 - **line :** 780
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_get_stream_write_state' sans documentation
+- **line :** 781
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'SSL_get_conn_close_info' sans documentation
+- **line :** 782
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_get0_connection' sans documentation
-- **line :** 785
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_is_connection' sans documentation
-- **line :** 786
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'SSL_get_stream_type' sans documentation
 - **line :** 787
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_stream_id' sans documentation
+- **Message :** Function 'SSL_is_connection' sans documentation
 - **line :** 788
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_new_stream' sans documentation
+- **Message :** Function 'SSL_get_stream_type' sans documentation
 - **line :** 789
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_accept_stream' sans documentation
+- **Message :** Function 'SSL_get_stream_id' sans documentation
 - **line :** 790
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_set_incoming_stream_policy' sans documentation
+- **Message :** Function 'SSL_new_stream' sans documentation
 - **line :** 791
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get_accept_stream_queue_len' sans documentation
+- **Message :** Function 'SSL_accept_stream' sans documentation
 - **line :** 792
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_set_default_stream_mode' sans documentation
+- **Message :** Function 'SSL_set_incoming_stream_policy' sans documentation
 - **line :** 793
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'SSL_get0_group_name' sans documentation
+- **Message :** Function 'SSL_get_accept_stream_queue_len' sans documentation
 - **line :** 794
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'SSL_set_default_stream_mode' sans documentation
+- **line :** 795
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'SSL_get0_group_name' sans documentation
+- **line :** 796
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'SSL_write_ex2' sans documentation
-- **line :** 799
+- **line :** 801
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_get_value_uint' sans documentation
-- **line :** 806
+- **line :** 808
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_value_uint' sans documentation
-- **line :** 807
+- **line :** 809
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set0_tmp_dh_pkey' sans documentation
-- **line :** 812
+- **line :** 814
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set0_tmp_dh_pkey' sans documentation
-- **line :** 813
+- **line :** 815
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -294870,190 +294968,204 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_STORE_add_cert' sans documentation
+- **Message :** Function 'X509_STORE_CTX_set_cert' sans documentation
+- **line :** 46
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'X509_STORE_CTX_set_current_cert' sans documentation
 - **line :** 47
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_STORE_set_default_paths' sans documentation
+- **Message :** Function 'X509_STORE_add_cert' sans documentation
 - **line :** 49
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_STORE_set_flags' sans documentation
-- **line :** 50
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'X509_STORE_set_purpose' sans documentation
+- **Message :** Function 'X509_STORE_set_default_paths' sans documentation
 - **line :** 51
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_STORE_set_trust' sans documentation
+- **Message :** Function 'X509_STORE_set_flags' sans documentation
 - **line :** 52
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'X509_STORE_set_purpose' sans documentation
+- **line :** 53
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'X509_STORE_set_trust' sans documentation
+- **line :** 54
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'X509_STORE_add_lookup' sans documentation
-- **line :** 58
+- **line :** 60
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_STORE_set1_param' sans documentation
-- **line :** 62
+- **line :** 64
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_STORE_CTX_get_ex_data' sans documentation
-- **line :** 68
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'X509_STORE_CTX_get_error' sans documentation
-- **line :** 69
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'X509_STORE_CTX_get_error_depth' sans documentation
 - **line :** 70
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_STORE_CTX_get_current_cert' sans documentation
+- **Message :** Function 'X509_STORE_CTX_get_error' sans documentation
 - **line :** 71
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'X509_STORE_CTX_get_error_depth' sans documentation
+- **line :** 72
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'X509_STORE_CTX_get_current_cert' sans documentation
+- **line :** 73
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'X509_STORE_CTX_set_error' sans documentation
-- **line :** 75
+- **line :** 77
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_STORE_CTX_get0_chain' sans documentation
-- **line :** 79
+- **line :** 81
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_new' sans documentation
-- **line :** 84
+- **line :** 86
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_free' sans documentation
-- **line :** 85
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'X509_VERIFY_PARAM_set_flags' sans documentation
 - **line :** 87
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_VERIFY_PARAM_clear_flags' sans documentation
-- **line :** 88
+- **Message :** Function 'X509_VERIFY_PARAM_set_flags' sans documentation
+- **line :** 89
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_VERIFY_PARAM_set_time' sans documentation
+- **Message :** Function 'X509_VERIFY_PARAM_clear_flags' sans documentation
 - **line :** 90
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'X509_VERIFY_PARAM_set_depth' sans documentation
+- **Message :** Function 'X509_VERIFY_PARAM_set_time' sans documentation
 - **line :** 92
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'X509_VERIFY_PARAM_set_depth' sans documentation
+- **line :** 94
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_get_flags' sans documentation
-- **line :** 96
+- **line :** 98
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_set1_host' sans documentation
-- **line :** 101
+- **line :** 103
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_set_hostflags' sans documentation
-- **line :** 106
+- **line :** 108
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_set1_email' sans documentation
-- **line :** 107
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_set1_ip' sans documentation
-- **line :** 112
+- **line :** 114
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_set_auth_level' sans documentation
-- **line :** 118
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'X509_VERIFY_PARAM_get_auth_level' sans documentation
 - **line :** 120
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'X509_VERIFY_PARAM_get_auth_level' sans documentation
+- **line :** 122
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'X509_VERIFY_PARAM_set_purpose' sans documentation
-- **line :** 121
+- **line :** 123
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -295225,105 +295337,105 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'X509_get_extension_flags' sans documentation
-- **line :** 110
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_get_key_usage' sans documentation
-- **line :** 112
+- **line :** 110
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_get_extended_key_usage' sans documentation
-- **line :** 114
+- **line :** 111
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_get0_subject_key_id' sans documentation
-- **line :** 116
+- **line :** 113
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_get0_authority_key_id' sans documentation
-- **line :** 118
+- **line :** 115
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_get0_authority_issuer' sans documentation
-- **line :** 120
+- **line :** 117
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_get0_authority_serial' sans documentation
-- **line :** 122
+- **line :** 119
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'DIST_POINT_NAME' sans documentation
-- **line :** 126
+- **line :** 123
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'DIST_POINT' sans documentation
-- **line :** 139
+- **line :** 136
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'DIST_POINT_free' sans documentation
-- **line :** 148
+- **line :** 145
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'DIST_POINT_NAME_free' sans documentation
-- **line :** 149
+- **line :** 146
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_check_host' sans documentation
-- **line :** 154
+- **line :** 151
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_check_email' sans documentation
-- **line :** 161
+- **line :** 158
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_check_ip' sans documentation
-- **line :** 167
+- **line :** 164
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'X509_check_ip_asc' sans documentation
-- **line :** 168
+- **line :** 165
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -295334,273 +295446,273 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'boringssl' sans documentation
-- **line :** 20
+- **line :** 19
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'init' sans documentation
-- **line :** 27
+- **line :** 26
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aws_lc' sans documentation
-- **line :** 38
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'init' sans documentation
-- **line :** 50
+- **line :** 48
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ERR_GET_LIB' sans documentation
-- **line :** 69
+- **line :** 67
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ERR_GET_REASON' sans documentation
-- **line :** 75
+- **line :** 73
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ERR_GET_FUNC' sans documentation
-- **line :** 81
+- **line :** 79
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'openssl' sans documentation
-- **line :** 90
+- **line :** 88
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'macros' sans documentation
-- **line :** 128
+- **line :** 126
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'aes' sans documentation
-- **line :** 130
+- **line :** 128
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'asn1' sans documentation
-- **line :** 131
+- **line :** 129
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'bio' sans documentation
-- **line :** 132
+- **line :** 130
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'bn' sans documentation
-- **line :** 133
+- **line :** 131
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'cms' sans documentation
-- **line :** 134
+- **line :** 132
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'core_dispatch' sans documentation
-- **line :** 136
+- **line :** 134
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'crypto' sans documentation
-- **line :** 137
+- **line :** 135
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'dh' sans documentation
-- **line :** 138
+- **line :** 136
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'dsa' sans documentation
-- **line :** 139
+- **line :** 137
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'dtls1' sans documentation
-- **line :** 140
+- **line :** 138
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'ec' sans documentation
-- **line :** 141
+- **line :** 139
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'err' sans documentation
-- **line :** 142
+- **line :** 140
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'evp' sans documentation
-- **line :** 143
+- **line :** 141
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'handwritten' sans documentation
-- **line :** 145
+- **line :** 143
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'obj_mac' sans documentation
-- **line :** 146
+- **line :** 144
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'ocsp' sans documentation
-- **line :** 147
+- **line :** 145
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'pem' sans documentation
-- **line :** 148
+- **line :** 146
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'pkcs7' sans documentation
-- **line :** 149
+- **line :** 147
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'rsa' sans documentation
-- **line :** 150
+- **line :** 148
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'sha' sans documentation
-- **line :** 151
+- **line :** 149
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'srtp' sans documentation
-- **line :** 152
+- **line :** 150
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'ssl' sans documentation
-- **line :** 153
+- **line :** 151
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'ssl3' sans documentation
-- **line :** 154
+- **line :** 152
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tls1' sans documentation
-- **line :** 155
+- **line :** 153
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'types' sans documentation
-- **line :** 156
+- **line :** 154
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x509' sans documentation
-- **line :** 157
+- **line :** 155
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x509_vfy' sans documentation
-- **line :** 158
+- **line :** 156
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'x509v3' sans documentation
-- **line :** 159
+- **line :** 157
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'init' sans documentation
-- **line :** 174
+- **line :** 172
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'init' sans documentation
-- **line :** 188
+- **line :** 186
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -295611,56 +295723,56 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'SSL_set1_groups_list' sans documentation
-- **line :** 423
+- **line :** 461
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set1_groups_list' sans documentation
-- **line :** 424
+- **line :** 462
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set_tmp_dh_callback' sans documentation
-- **line :** 591
+- **line :** 629
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_tmp_dh_callback' sans documentation
-- **line :** 597
+- **line :** 635
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set_tmp_ecdh_callback' sans documentation
-- **line :** 603
+- **line :** 641
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_set_tmp_ecdh_callback' sans documentation
-- **line :** 613
+- **line :** 651
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_callback_ctrl' sans documentation
-- **line :** 623
+- **line :** 661
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'SSL_CTX_set_alpn_select_cb' sans documentation
-- **line :** 630
+- **line :** 668
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -298658,350 +298770,378 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'block_size' sans documentation
-- **line :** 339
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'key_length' sans documentation
 - **line :** 351
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'key_length' sans documentation
+- **line :** 363
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'rand_key' sans documentation
-- **line :** 365
+- **line :** 377
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_key_length' sans documentation
-- **line :** 386
+- **line :** 398
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'iv_length' sans documentation
-- **line :** 407
+- **line :** 419
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'num' sans documentation
-- **line :** 423
+- **line :** 435
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_iv_length' sans documentation
-- **line :** 437
+- **line :** 449
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'tag_length' sans documentation
-- **line :** 465
+- **line :** 477
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'tag' sans documentation
-- **line :** 478
+- **line :** 490
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_tag_length' sans documentation
-- **line :** 497
+- **line :** 509
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_tag' sans documentation
-- **line :** 514
+- **line :** 526
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_padding' sans documentation
-- **line :** 533
+- **line :** 545
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_data_len' sans documentation
-- **line :** 543
+- **line :** 555
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_flags' sans documentation
-- **line :** 564
+- **line :** 576
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cipher_update' sans documentation
-- **line :** 581
+- **line :** 593
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cipher_update_inplace' sans documentation
-- **line :** 664
+- **line :** 676
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cipher_final' sans documentation
-- **line :** 702
+- **line :** 714
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 754
+- **line :** 766
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'seal_open' sans documentation
-- **line :** 762
+- **line :** 776
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aes_128_cbc' sans documentation
-- **line :** 793
+- **line :** 807
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fetched_aes_128_cbc' sans documentation
-- **line :** 827
+- **line :** 841
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default_aes_128_cbc' sans documentation
-- **line :** 833
+- **line :** 847
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default_aes_128_ccm' sans documentation
-- **line :** 840
+- **line :** 854
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default_aes_192_ccm' sans documentation
-- **line :** 856
+- **line :** 870
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default_aes_256_ccm' sans documentation
-- **line :** 872
+- **line :** 886
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'aes_ccm' sans documentation
-- **line :** 887
+- **line :** 901
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default_aes_128_xts' sans documentation
-- **line :** 940
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'default_aes_256_xts' sans documentation
 - **line :** 954
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'default_aes_256_xts' sans documentation
+- **line :** 968
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'aes_xts' sans documentation
-- **line :** 961
+- **line :** 975
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_stream_ciphers' sans documentation
-- **line :** 992
+- **line :** 1006
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_stream_cipher' sans documentation
-- **line :** 1009
+- **line :** 1023
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'full_block_updates_aes_128' sans documentation
-- **line :** 1105
+- **line :** 1119
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'full_block_updates_aes_256' sans documentation
-- **line :** 1111
+- **line :** 1125
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'full_block_updates_3des' sans documentation
-- **line :** 1117
+- **line :** 1131
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'output_buffer_too_small' sans documentation
-- **line :** 1121
+- **line :** 1135
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cipher_wrap_test' sans documentation
-- **line :** 1141
+- **line :** 1155
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes128_wrap' sans documentation
-- **line :** 1174
+- **line :** 1188
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes128_wrap_default_iv' sans documentation
-- **line :** 1185
+- **line :** 1199
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes128_wrap_pad' sans documentation
-- **line :** 1195
+- **line :** 1209
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes128_wrap_pad_default_iv' sans documentation
-- **line :** 1206
+- **line :** 1220
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes192_wrap' sans documentation
-- **line :** 1216
+- **line :** 1230
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes192_wrap_default_iv' sans documentation
-- **line :** 1227
+- **line :** 1241
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes192_wrap_pad' sans documentation
-- **line :** 1237
+- **line :** 1251
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes192_wrap_pad_default_iv' sans documentation
-- **line :** 1248
+- **line :** 1262
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes256_wrap' sans documentation
-- **line :** 1258
+- **line :** 1272
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes256_wrap_default_iv' sans documentation
-- **line :** 1269
+- **line :** 1283
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes256_wrap_pad' sans documentation
-- **line :** 1279
+- **line :** 1293
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes256_wrap_pad_default_iv' sans documentation
-- **line :** 1290
+- **line :** 1304
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes_wrap_pad_cipher_update_vec_buffer_size' sans documentation
-- **line :** 1300
+- **line :** 1314
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aes_wrap_pad_cipher_update_inplace_buffer_size' sans documentation
-- **line :** 1321
+- **line :** 1335
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_aes_wrap_cipher_update_exact_buffer_size' sans documentation
+- **line :** 1354
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_des3_wrap_cipher_update_vec_buffer_size' sans documentation
+- **line :** 1371
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_des3_wrap_unwrap' sans documentation
+- **line :** 1389
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_des3_wrap_cipher_update_buffer_size' sans documentation
+- **line :** 1412
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -299511,217 +299651,280 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'pub_key' sans documentation
-- **line :** 103
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'priv_key' sans documentation
-- **line :** 139
+- **line :** 140
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size' sans documentation
-- **line :** 154
+- **line :** 155
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'p' sans documentation
-- **line :** 160
+- **line :** 164
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'q' sans documentation
+- **Message :** Function 'p_opt' sans documentation
 - **line :** 170
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'q' sans documentation
+- **line :** 183
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'q_opt' sans documentation
+- **line :** 190
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'g' sans documentation
-- **line :** 180
+- **line :** 203
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'g_opt' sans documentation
+- **line :** 209
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Dsa<Params> ' sans documentation
-- **line :** 193
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'from_pqg' sans documentation
-- **line :** 196
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'generate_params' sans documentation
-- **line :** 207
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'generate_key' sans documentation
-- **line :** 226
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Dsa<Private> ' sans documentation
 - **line :** 236
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'Dsa<Public> ' sans documentation
+- **Message :** Function 'from_pqg' sans documentation
+- **line :** 239
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'generate_params' sans documentation
+- **line :** 250
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'generate_key' sans documentation
 - **line :** 269
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Dsa<Private> ' sans documentation
+- **line :** 279
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Impl 'Dsa<Public> ' sans documentation
+- **line :** 312
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'public_key_from_pem' sans documentation
+- **line :** 319
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'public_key_from_der' sans documentation
+- **line :** 339
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 311
+- **line :** 373
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 320
+- **line :** 382
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'DsaSig ' sans documentation
-- **line :** 376
+- **line :** 438
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_private_components' sans documentation
-- **line :** 379
+- **line :** 441
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 397
+- **line :** 459
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 398
+- **line :** 460
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'DsaSigRef ' sans documentation
-- **line :** 406
+- **line :** 468
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'r' sans documentation
-- **line :** 416
+- **line :** 478
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 's' sans documentation
-- **line :** 426
+- **line :** 488
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 438
+- **line :** 500
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_generate' sans documentation
-- **line :** 449
+- **line :** 511
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_pubkey_generation' sans documentation
-- **line :** 454
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_priv_key_from_parts' sans documentation
-- **line :** 467
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_pub_key_from_parts' sans documentation
-- **line :** 483
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_params' sans documentation
-- **line :** 497
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_signature' sans documentation
 - **line :** 516
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'test_priv_key_from_parts' sans documentation
+- **line :** 529
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_pub_key_from_parts' sans documentation
+- **line :** 545
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_params' sans documentation
+- **line :** 559
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_signature' sans documentation
+- **line :** 578
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'test_signature_der' sans documentation
-- **line :** 557
+- **line :** 619
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 586
+- **line :** 648
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dsa_sig_debug' sans documentation
-- **line :** 592
+- **line :** 654
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'dsa_without_params' sans documentation
+- **line :** 671
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'public_key_from_der_rejects_missing_params' sans documentation
+- **line :** 679
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'p_opt_is_none_without_params' sans documentation
+- **line :** 684
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'p_panics_without_params' sans documentation
+- **line :** 693
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -301342,168 +301545,168 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'hash_test' sans documentation
-- **line :** 498
+- **line :** 497
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash_xof_test' sans documentation
-- **line :** 504
+- **line :** 503
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash_xof_squeeze_test' sans documentation
-- **line :** 518
+- **line :** 517
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hash_recycle_test' sans documentation
-- **line :** 531
+- **line :** 530
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_md5' sans documentation
-- **line :** 558
+- **line :** 557
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_md5_recycle' sans documentation
-- **line :** 569
+- **line :** 568
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_finish_twice' sans documentation
-- **line :** 577
+- **line :** 576
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_finish_then_squeeze' sans documentation
-- **line :** 589
+- **line :** 588
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_squeeze_then_update' sans documentation
-- **line :** 600
+- **line :** 599
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_squeeze_then_finalize' sans documentation
-- **line :** 612
+- **line :** 611
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_clone' sans documentation
-- **line :** 627
+- **line :** 626
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha1' sans documentation
-- **line :** 657
+- **line :** 656
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha256' sans documentation
-- **line :** 670
+- **line :** 669
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha512' sans documentation
-- **line :** 689
+- **line :** 688
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha3_224' sans documentation
-- **line :** 710
+- **line :** 709
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha3_256' sans documentation
-- **line :** 730
+- **line :** 729
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha3_384' sans documentation
-- **line :** 750
+- **line :** 749
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sha3_512' sans documentation
-- **line :** 770
+- **line :** 769
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_shake_128' sans documentation
-- **line :** 790
+- **line :** 789
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_shake_256' sans documentation
-- **line :** 815
+- **line :** 814
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_ripemd160' sans documentation
-- **line :** 841
+- **line :** 840
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_sm3' sans documentation
-- **line :** 861
+- **line :** 860
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_nid' sans documentation
-- **line :** 877
+- **line :** 876
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_name' sans documentation
-- **line :** 885
+- **line :** 884
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -302142,35 +302345,35 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'to_owned' sans documentation
-- **line :** 217
+- **line :** 218
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'deref' sans documentation
-- **line :** 231
+- **line :** 233
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'deref_mut' sans documentation
-- **line :** 238
+- **line :** 240
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'borrow' sans documentation
-- **line :** 245
+- **line :** 247
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'as_ref' sans documentation
-- **line :** 252
+- **line :** 254
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -302690,56 +302893,56 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 1116
+- **line :** 1120
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 1117
+- **line :** 1121
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 1130
+- **line :** 1134
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signature_digest' sans documentation
-- **line :** 1134
+- **line :** 1138
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_long_name_conversion' sans documentation
-- **line :** 1141
+- **line :** 1145
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_short_name_conversion' sans documentation
-- **line :** 1173
+- **line :** 1177
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_create' sans documentation
-- **line :** 1199
+- **line :** 1203
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_debug' sans documentation
-- **line :** 1215
+- **line :** 1219
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -303389,175 +303592,182 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 22
+- **line :** 23
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Pkcs7SignerInfo' sans documentation
-- **line :** 24
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'Pkcs7SignerInfoRef' sans documentation
 - **line :** 25
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'Pkcs7SignerInfoRef' sans documentation
+- **line :** 26
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Impl 'Stackable for Pkcs7SignerInfo ' sans documentation
-- **line :** 28
+- **line :** 29
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 34
+- **line :** 35
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 47
+- **line :** 50
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Pkcs7Flags' sans documentation
-- **line :** 61
+- **line :** 64
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Pkcs7 ' sans documentation
-- **line :** 83
+- **line :** 90
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_smime' sans documentation
-- **line :** 107
+- **line :** 115
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'encrypt' sans documentation
-- **line :** 131
+- **line :** 139
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign' sans documentation
-- **line :** 157
+- **line :** 165
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Pkcs7Ref ' sans documentation
-- **line :** 181
+- **line :** 189
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'to_smime' sans documentation
-- **line :** 184
+- **line :** 193
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'decrypt' sans documentation
-- **line :** 221
+- **line :** 230
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify' sans documentation
-- **line :** 251
+- **line :** 260
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signers' sans documentation
-- **line :** 289
+- **line :** 298
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'signed' sans documentation
+- **line :** 332
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Pkcs7SignedRef ' sans documentation
-- **line :** 333
+- **line :** 344
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 346
+- **line :** 357
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'encrypt_decrypt_test' sans documentation
-- **line :** 357
+- **line :** 368
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign_verify_test_detached' sans documentation
-- **line :** 389
+- **line :** 411
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign_verify_test_normal' sans documentation
-- **line :** 437
+- **line :** 468
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signers' sans documentation
-- **line :** 479
+- **line :** 519
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'invalid_from_smime' sans documentation
-- **line :** 518
+- **line :** 570
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signed_data_certificates' sans documentation
-- **line :** 526
+- **line :** 579
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signed_data_certificates_no_signed_data' sans documentation
-- **line :** 552
+- **line :** 606
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -303624,581 +303834,581 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'rsa' sans documentation
-- **line :** 201
+- **line :** 202
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dsa' sans documentation
-- **line :** 210
+- **line :** 211
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dh' sans documentation
-- **line :** 219
+- **line :** 220
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ec_key' sans documentation
-- **line :** 228
+- **line :** 229
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'id' sans documentation
-- **line :** 241
+- **line :** 242
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_a' sans documentation
-- **line :** 253
+- **line :** 254
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size' sans documentation
-- **line :** 259
+- **line :** 260
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bits' sans documentation
-- **line :** 289
+- **line :** 290
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'security_bits' sans documentation
-- **line :** 298
+- **line :** 299
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'public_eq' sans documentation
-- **line :** 304
+- **line :** 305
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'raw_public_key' sans documentation
-- **line :** 321
+- **line :** 322
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'raw_private_key' sans documentation
-- **line :** 372
+- **line :** 373
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'seed_into' sans documentation
-- **line :** 404
+- **line :** 405
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_to_pkcs8' sans documentation
-- **line :** 427
+- **line :** 428
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_to_pkcs8_passphrase' sans documentation
-- **line :** 447
+- **line :** 448
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 470
+- **line :** 471
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 506
+- **line :** 507
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_rsa' sans documentation
-- **line :** 514
+- **line :** 515
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_dsa' sans documentation
-- **line :** 527
+- **line :** 528
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_dh' sans documentation
-- **line :** 539
+- **line :** 540
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_dhx' sans documentation
-- **line :** 550
+- **line :** 551
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_ec_key' sans documentation
-- **line :** 566
+- **line :** 567
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PKey<Private> ' sans documentation
-- **line :** 576
+- **line :** 577
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hmac' sans documentation
-- **line :** 584
+- **line :** 585
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cmac' sans documentation
-- **line :** 610
+- **line :** 611
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_eddsa' sans documentation
-- **line :** 619
+- **line :** 620
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_x25519' sans documentation
-- **line :** 649
+- **line :** 650
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_x448' sans documentation
-- **line :** 677
+- **line :** 678
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_ed25519' sans documentation
-- **line :** 703
+- **line :** 704
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_ed448' sans documentation
-- **line :** 729
+- **line :** 730
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ec_gen' sans documentation
-- **line :** 738
+- **line :** 739
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_from_pkcs8_callback' sans documentation
-- **line :** 802
+- **line :** 803
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_from_pkcs8_passphrase' sans documentation
-- **line :** 830
+- **line :** 831
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_from_raw_bytes' sans documentation
-- **line :** 853
+- **line :** 854
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_from_raw_bytes_ex' sans documentation
-- **line :** 877
+- **line :** 878
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_key_from_seed' sans documentation
-- **line :** 908
+- **line :** 909
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PKey<Public> ' sans documentation
-- **line :** 939
+- **line :** 940
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'public_key_from_raw_bytes' sans documentation
-- **line :** 973
+- **line :** 974
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'public_key_from_raw_bytes_ex' sans documentation
-- **line :** 997
+- **line :** 998
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1022
+- **line :** 1023
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1030
+- **line :** 1031
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1038
+- **line :** 1039
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1046
+- **line :** 1047
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1054
+- **line :** 1055
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1062
+- **line :** 1063
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1071
+- **line :** 1072
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 1079
+- **line :** 1080
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 1085
+- **line :** 1086
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_to_password' sans documentation
-- **line :** 1103
+- **line :** 1104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_unencrypted_pkcs8' sans documentation
-- **line :** 1114
+- **line :** 1115
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_encrypted_pkcs8_passphrase' sans documentation
-- **line :** 1127
+- **line :** 1128
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_encrypted_pkcs8_callback' sans documentation
-- **line :** 1144
+- **line :** 1145
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_private_key_from_pem' sans documentation
-- **line :** 1157
+- **line :** 1158
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_key_from_pem' sans documentation
-- **line :** 1163
+- **line :** 1164
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_key_from_der' sans documentation
-- **line :** 1169
+- **line :** 1170
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_private_key_from_der' sans documentation
-- **line :** 1175
+- **line :** 1176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_pem' sans documentation
-- **line :** 1181
+- **line :** 1182
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_rsa_accessor' sans documentation
-- **line :** 1195
+- **line :** 1196
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_dsa_accessor' sans documentation
-- **line :** 1204
+- **line :** 1205
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_dh_accessor' sans documentation
-- **line :** 1214
+- **line :** 1215
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_ec_key_accessor' sans documentation
-- **line :** 1224
+- **line :** 1225
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_rsa_conversion' sans documentation
-- **line :** 1233
+- **line :** 1234
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_dsa_conversion' sans documentation
-- **line :** 1243
+- **line :** 1244
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_ec_key_conversion' sans documentation
-- **line :** 1252
+- **line :** 1253
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_security_bits' sans documentation
-- **line :** 1263
+- **line :** 1264
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_dh_conversion' sans documentation
-- **line :** 1273
+- **line :** 1274
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_public_key' sans documentation
-- **line :** 1293
+- **line :** 1294
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_private_key' sans documentation
-- **line :** 1309
+- **line :** 1310
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_public_key_bytes' sans documentation
-- **line :** 1326
+- **line :** 1327
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_private_key_bytes' sans documentation
-- **line :** 1337
+- **line :** 1338
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_hmac' sans documentation
-- **line :** 1348
+- **line :** 1349
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_key_fail' sans documentation
-- **line :** 1361
+- **line :** 1362
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_is_a' sans documentation
-- **line :** 1372
+- **line :** 1373
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_public_key_from_bytes_ex' sans documentation
-- **line :** 1386
+- **line :** 1387
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_raw_private_key_from_bytes_ex' sans documentation
-- **line :** 1403
+- **line :** 1404
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_ec_gen' sans documentation
-- **line :** 1416
+- **line :** 1417
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_private_key_from_seed_mldsa' sans documentation
-- **line :** 1423
+- **line :** 1424
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_private_key_from_seed_mlkem' sans documentation
-- **line :** 1440
+- **line :** 1441
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_private_key_from_seed_invalid_algorithm' sans documentation
-- **line :** 1461
+- **line :** 1462
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_seed_into_mldsa_roundtrip' sans documentation
-- **line :** 1471
+- **line :** 1472
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_seed_into_mlkem_roundtrip' sans documentation
-- **line :** 1497
+- **line :** 1498
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_seed_into_rejects_non_pq_algorithms' sans documentation
-- **line :** 1514
+- **line :** 1515
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_eq' sans documentation
-- **line :** 1524
+- **line :** 1525
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -304300,392 +304510,392 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'verify_recover' sans documentation
-- **line :** 274
+- **line :** 277
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'decrypt_init' sans documentation
-- **line :** 301
+- **line :** 314
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign_init' sans documentation
-- **line :** 312
+- **line :** 325
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'derive_set_peer' sans documentation
-- **line :** 322
+- **line :** 335
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'decrypt' sans documentation
-- **line :** 339
+- **line :** 352
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign' sans documentation
-- **line :** 375
+- **line :** 388
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'derive_init' sans documentation
-- **line :** 405
+- **line :** 418
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'keygen_init' sans documentation
-- **line :** 416
+- **line :** 429
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'paramgen_init' sans documentation
-- **line :** 427
+- **line :** 440
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_signature_md' sans documentation
-- **line :** 441
+- **line :** 454
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_dh_paramgen_prime_len' sans documentation
-- **line :** 457
+- **line :** 470
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_dh_paramgen_generator' sans documentation
-- **line :** 474
+- **line :** 487
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_dsa_paramgen_bits' sans documentation
-- **line :** 490
+- **line :** 503
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_ec_paramgen_curve_nid' sans documentation
-- **line :** 506
+- **line :** 519
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rsa_padding' sans documentation
-- **line :** 522
+- **line :** 535
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_padding' sans documentation
-- **line :** 536
+- **line :** 549
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_keygen_bits' sans documentation
-- **line :** 552
+- **line :** 565
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_keygen_pubexp' sans documentation
-- **line :** 568
+- **line :** 581
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_pss_saltlen' sans documentation
-- **line :** 594
+- **line :** 607
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_mgf1_md' sans documentation
-- **line :** 609
+- **line :** 622
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_oaep_md' sans documentation
-- **line :** 625
+- **line :** 638
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_rsa_oaep_label' sans documentation
-- **line :** 640
+- **line :** 653
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_keygen_cipher' sans documentation
-- **line :** 666
+- **line :** 679
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_keygen_mac_key' sans documentation
-- **line :** 685
+- **line :** 698
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_hkdf_md' sans documentation
-- **line :** 708
+- **line :** 721
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_hkdf_mode' sans documentation
-- **line :** 731
+- **line :** 744
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_hkdf_key' sans documentation
-- **line :** 750
+- **line :** 763
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_hkdf_salt' sans documentation
-- **line :** 775
+- **line :** 788
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'add_hkdf_info' sans documentation
-- **line :** 800
+- **line :** 813
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'derive' sans documentation
-- **line :** 822
+- **line :** 835
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'keygen' sans documentation
-- **line :** 897
+- **line :** 910
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'paramgen' sans documentation
-- **line :** 908
+- **line :** 921
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_nonce_type' sans documentation
-- **line :** 924
+- **line :** 937
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'nonce_type' sans documentation
-- **line :** 946
+- **line :** 959
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_context_string' sans documentation
-- **line :** 969
+- **line :** 982
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 981
+- **line :** 994
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rsa' sans documentation
-- **line :** 1001
+- **line :** 1014
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rsa_oaep' sans documentation
-- **line :** 1024
+- **line :** 1037
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rsa_sign' sans documentation
-- **line :** 1051
+- **line :** 1064
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rsa_sign_pss' sans documentation
-- **line :** 1072
+- **line :** 1085
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'derive' sans documentation
-- **line :** 1098
+- **line :** 1111
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'derive_undersized_buffer' sans documentation
-- **line :** 1115
+- **line :** 1128
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cmac_keygen' sans documentation
-- **line :** 1138
+- **line :** 1151
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dh_paramgen' sans documentation
-- **line :** 1149
+- **line :** 1162
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dsa_paramgen' sans documentation
-- **line :** 1161
+- **line :** 1174
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ec_keygen' sans documentation
-- **line :** 1182
+- **line :** 1195
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rsa_keygen' sans documentation
-- **line :** 1193
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'hkdf' sans documentation
 - **line :** 1206
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'hkdf' sans documentation
+- **line :** 1219
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'hkdf_expand' sans documentation
-- **line :** 1228
+- **line :** 1241
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'hkdf_extract' sans documentation
-- **line :** 1252
+- **line :** 1265
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify_fail' sans documentation
-- **line :** 1272
+- **line :** 1285
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify_fail_ec' sans documentation
-- **line :** 1292
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_verify_recover' sans documentation
 - **line :** 1305
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'test_verify_recover' sans documentation
+- **line :** 1318
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'set_nonce_type' sans documentation
-- **line :** 1352
+- **line :** 1373
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ecdsa_deterministic_signature' sans documentation
-- **line :** 1369
+- **line :** 1390
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_context_string_mldsa' sans documentation
-- **line :** 1394
+- **line :** 1415
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -304830,280 +305040,280 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'private_decrypt' sans documentation
-- **line :** 125
+- **line :** 126
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'private_encrypt' sans documentation
-- **line :** 153
+- **line :** 154
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'd' sans documentation
-- **line :** 176
+- **line :** 177
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'p' sans documentation
-- **line :** 186
+- **line :** 187
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'q' sans documentation
-- **line :** 196
+- **line :** 197
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dmp1' sans documentation
-- **line :** 206
+- **line :** 207
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dmq1' sans documentation
-- **line :** 216
+- **line :** 217
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'iqmp' sans documentation
-- **line :** 226
+- **line :** 227
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_key' sans documentation
-- **line :** 236
+- **line :** 237
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size' sans documentation
-- **line :** 291
+- **line :** 292
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'public_decrypt' sans documentation
-- **line :** 301
+- **line :** 302
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'public_encrypt' sans documentation
-- **line :** 328
+- **line :** 329
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'n' sans documentation
-- **line :** 351
+- **line :** 352
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'e' sans documentation
-- **line :** 361
+- **line :** 362
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Rsa<Public> ' sans documentation
-- **line :** 370
+- **line :** 371
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'RsaPrivateKeyBuilder' sans documentation
-- **line :** 426
+- **line :** 427
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'RsaPrivateKeyBuilder ' sans documentation
-- **line :** 430
+- **line :** 431
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_factors' sans documentation
-- **line :** 456
+- **line :** 457
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_crt_params' sans documentation
-- **line :** 470
+- **line :** 471
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Rsa<Private> ' sans documentation
-- **line :** 494
+- **line :** 495
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_private_components' sans documentation
-- **line :** 510
+- **line :** 511
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate' sans documentation
-- **line :** 530
+- **line :** 531
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_with_e' sans documentation
-- **line :** 539
+- **line :** 540
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 581
+- **line :** 582
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 592
+- **line :** 593
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_from_password' sans documentation
-- **line :** 598
+- **line :** 599
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_from_password_callback' sans documentation
-- **line :** 604
+- **line :** 605
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_to_password' sans documentation
-- **line :** 618
+- **line :** 619
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_encrypt_private_decrypt_with_padding' sans documentation
-- **line :** 628
+- **line :** 629
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_private_encrypt' sans documentation
-- **line :** 650
+- **line :** 651
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_encrypt' sans documentation
-- **line :** 668
+- **line :** 669
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_key_from_pem_pkcs1' sans documentation
-- **line :** 685
+- **line :** 686
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_key_from_pem_pkcs1_file_panic' sans documentation
-- **line :** 692
+- **line :** 693
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_key_to_pem_pkcs1' sans documentation
-- **line :** 698
+- **line :** 699
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_public_key_from_pem_pkcs1_generate_panic' sans documentation
-- **line :** 706
+- **line :** 707
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_pem_pkcs1_encrypt' sans documentation
-- **line :** 713
+- **line :** 714
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_pem_pkcs1_padding' sans documentation
-- **line :** 733
+- **line :** 734
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 754
+- **line :** 755
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'generate_with_e' sans documentation
-- **line :** 760
+- **line :** 761
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_check_key' sans documentation
-- **line :** 766
+- **line :** 767
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -306507,1821 +306717,1877 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Struct 'SslAlert' sans documentation
-- **line :** 626
+- **line :** 629
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SslAlert ' sans documentation
-- **line :** 628
+- **line :** 631
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 693
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 694
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Struct 'AlpnError' sans documentation
-- **line :** 639
+- **line :** 709
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'AlpnError ' sans documentation
-- **line :** 641
+- **line :** 711
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ClientHelloResponse' sans documentation
-- **line :** 654
+- **line :** 724
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'ClientHelloResponse ' sans documentation
-- **line :** 657
+- **line :** 727
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'SslVersion' sans documentation
-- **line :** 667
+- **line :** 737
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SslVersion ' sans documentation
-- **line :** 669
+- **line :** 739
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'select_next_proto' sans documentation
-- **line :** 724
+- **line :** 794
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SslContextBuilder ' sans documentation
-- **line :** 747
+- **line :** 817
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 750
+- **line :** 820
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_verify' sans documentation
-- **line :** 775
+- **line :** 845
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_verify_callback' sans documentation
-- **line :** 788
+- **line :** 858
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_servername_callback' sans documentation
-- **line :** 807
+- **line :** 877
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_verify_depth' sans documentation
-- **line :** 833
+- **line :** 903
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_verify_cert_store' sans documentation
-- **line :** 844
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_cert_store' sans documentation
-- **line :** 856
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_read_ahead' sans documentation
-- **line :** 870
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_mode' sans documentation
-- **line :** 878
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_tmp_dh' sans documentation
-- **line :** 887
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_tmp_dh_callback' sans documentation
-- **line :** 898
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_tmp_ecdh' sans documentation
 - **line :** 914
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_default_verify_paths' sans documentation
-- **line :** 923
+- **Message :** Function 'set_cert_store' sans documentation
+- **line :** 926
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_ca_file' sans documentation
-- **line :** 931
+- **Message :** Function 'set_read_ahead' sans documentation
+- **line :** 940
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'load_verify_locations' sans documentation
-- **line :** 937
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_client_ca_list' sans documentation
-- **line :** 959
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'add_client_ca' sans documentation
-- **line :** 969
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_session_id_context' sans documentation
-- **line :** 982
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_certificate_file' sans documentation
-- **line :** 1000
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_certificate_chain_file' sans documentation
-- **line :** 1022
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_certificate' sans documentation
-- **line :** 1040
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'add_extra_chain_cert' sans documentation
-- **line :** 1049
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_private_key_file' sans documentation
-- **line :** 1059
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_private_key' sans documentation
-- **line :** 1077
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_cipher_list' sans documentation
-- **line :** 1092
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ciphersuites' sans documentation
-- **line :** 1113
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ecdh_auto' sans documentation
-- **line :** 1129
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_options' sans documentation
-- **line :** 1140
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'options' sans documentation
-- **line :** 1148
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clear_options' sans documentation
-- **line :** 1155
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_min_proto_version' sans documentation
-- **line :** 1166
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_max_proto_version' sans documentation
-- **line :** 1181
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'min_proto_version' sans documentation
-- **line :** 1199
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'max_proto_version' sans documentation
-- **line :** 1218
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_alpn_protos' sans documentation
-- **line :** 1238
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_tlsext_use_srtp' sans documentation
-- **line :** 1258
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_alpn_select_callback' sans documentation
-- **line :** 1285
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'check_private_key' sans documentation
-- **line :** 1308
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cert_store' sans documentation
-- **line :** 1314
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cert_store_mut' sans documentation
-- **line :** 1320
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_param' sans documentation
-- **line :** 1328
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_param_mut' sans documentation
-- **line :** 1336
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_status_callback' sans documentation
-- **line :** 1353
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_psk_client_callback' sans documentation
-- **line :** 1374
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_psk_callback' sans documentation
-- **line :** 1389
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_psk_server_callback' sans documentation
-- **line :** 1406
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_new_session_callback' sans documentation
-- **line :** 1433
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_remove_session_callback' sans documentation
-- **line :** 1447
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_keylog_callback' sans documentation
-- **line :** 1488
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_session_cache_mode' sans documentation
-- **line :** 1502
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_stateless_cookie_generate_cb' sans documentation
-- **line :** 1516
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_stateless_cookie_verify_cb' sans documentation
-- **line :** 1539
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_cookie_generate_cb' sans documentation
-- **line :** 1558
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_cookie_verify_cb' sans documentation
-- **line :** 1574
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ex_data' sans documentation
-- **line :** 1590
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ex_data_inner' sans documentation
-- **line :** 1594
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ex_data_mut' sans documentation
-- **line :** 1608
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'add_custom_ext' sans documentation
-- **line :** 1624
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_max_early_data' sans documentation
-- **line :** 1680
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_client_hello_callback' sans documentation
-- **line :** 1693
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_session_cache_size' sans documentation
-- **line :** 1715
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_sigalgs_list' sans documentation
-- **line :** 1726
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_groups_list' sans documentation
-- **line :** 1739
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_num_tickets' sans documentation
-- **line :** 1752
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_security_level' sans documentation
-- **line :** 1762
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 1774
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Clone for SslContext ' sans documentation
-- **line :** 1788
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clone' sans documentation
-- **line :** 1789
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'ToOwned for SslContextRef ' sans documentation
-- **line :** 1794
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'to_owned' sans documentation
-- **line :** 1797
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 1806
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 1807
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'SslContext ' sans documentation
-- **line :** 1812
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_ex_index' sans documentation
-- **line :** 1823
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cached_ex_index' sans documentation
-- **line :** 1838
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'SslContextRef ' sans documentation
-- **line :** 1853
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'certificate' sans documentation
-- **line :** 1859
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'private_key' sans documentation
-- **line :** 1871
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cert_store' sans documentation
-- **line :** 1880
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extra_chain_certs' sans documentation
-- **line :** 1886
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ex_data' sans documentation
-- **line :** 1896
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'max_early_data' sans documentation
-- **line :** 1912
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'session_cache_size' sans documentation
-- **line :** 1947
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_mode' sans documentation
-- **line :** 1955
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'num_tickets' sans documentation
-- **line :** 1966
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'security_level' sans documentation
-- **line :** 1976
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'ForeignType for SslCipher ' sans documentation
-- **line :** 1993
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'as_ptr' sans documentation
-- **line :** 2003
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Stackable for SslCipher ' sans documentation
-- **line :** 2008
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Deref for SslCipher ' sans documentation
-- **line :** 2012
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'deref' sans documentation
-- **line :** 2015
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'DerefMut for SslCipher ' sans documentation
-- **line :** 2020
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'deref_mut' sans documentation
-- **line :** 2021
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'ForeignTypeRef for SslCipherRef ' sans documentation
-- **line :** 2031
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'SslCipherRef ' sans documentation
-- **line :** 2035
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'name' sans documentation
-- **line :** 2038
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'standard_name' sans documentation
-- **line :** 2050
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'version' sans documentation
-- **line :** 2063
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bits' sans documentation
-- **line :** 2075
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'description' sans documentation
-- **line :** 2088
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'handshake_digest' sans documentation
-- **line :** 2102
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cipher_nid' sans documentation
-- **line :** 2118
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'protocol_id' sans documentation
-- **line :** 2132
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 2140
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 2141
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'CipherLists' sans documentation
-- **line :** 2148
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 2155
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Clone for SslSession ' sans documentation
-- **line :** 2168
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clone' sans documentation
-- **line :** 2169
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'SslSession ' sans documentation
-- **line :** 2174
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'ToOwned for SslSessionRef ' sans documentation
-- **line :** 2184
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'to_owned' sans documentation
-- **line :** 2187
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'SslSessionRef ' sans documentation
-- **line :** 2195
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'id' sans documentation
-- **line :** 2198
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'master_key_len' sans documentation
-- **line :** 2209
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'master_key' sans documentation
-- **line :** 2217
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'max_early_data' sans documentation
-- **line :** 2226
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'time' sans documentation
-- **line :** 2233
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'timeout' sans documentation
-- **line :** 2242
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'protocol_version' sans documentation
-- **line :** 2251
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 2268
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 2284
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 2285
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Ssl ' sans documentation
-- **line :** 2290
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_ex_index' sans documentation
-- **line :** 2296
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cached_ex_index' sans documentation
-- **line :** 2311
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-- **line :** 2327
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connect' sans documentation
-- **line :** 2345
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'accept' sans documentation
-- **line :** 2360
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 2368
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 2369
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'SslRef ' sans documentation
-- **line :** 2377
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_raw_rbio' sans documentation
-- **line :** 2378
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_error' sans documentation
-- **line :** 2382
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_connect_state' sans documentation
-- **line :** 2388
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_accept_state' sans documentation
-- **line :** 2394
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_verify' sans documentation
-- **line :** 2402
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_mode' sans documentation
-- **line :** 2408
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_verify_callback' sans documentation
-- **line :** 2417
+- **Message :** Function 'set_mode' sans documentation
+- **line :** 948
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_tmp_dh' sans documentation
-- **line :** 2436
+- **line :** 957
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_tmp_dh_callback' sans documentation
-- **line :** 2444
+- **line :** 968
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_tmp_ecdh' sans documentation
-- **line :** 2462
+- **line :** 984
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_ecdh_auto' sans documentation
-- **line :** 2473
+- **Message :** Function 'set_default_verify_paths' sans documentation
+- **line :** 993
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_alpn_protos' sans documentation
-- **line :** 2483
+- **Message :** Function 'set_ca_file' sans documentation
+- **line :** 1001
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'current_cipher' sans documentation
-- **line :** 2499
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'state_string' sans documentation
-- **line :** 2509
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'state_string_long' sans documentation
-- **line :** 2520
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_hostname' sans documentation
-- **line :** 2533
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'peer_certificate' sans documentation
-- **line :** 2543
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'peer_cert_chain' sans documentation
-- **line :** 2555
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verified_chain' sans documentation
-- **line :** 2573
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'certificate' sans documentation
-- **line :** 2582
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'private_key' sans documentation
-- **line :** 2593
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'version' sans documentation
-- **line :** 2601
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'version2' sans documentation
-- **line :** 2607
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'version_str' sans documentation
-- **line :** 2620
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'selected_alpn_protocol' sans documentation
-- **line :** 2636
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_tlsext_use_srtp' sans documentation
-- **line :** 2655
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'srtp_profiles' sans documentation
-- **line :** 2674
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'selected_srtp_profile' sans documentation
-- **line :** 2687
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'pending' sans documentation
-- **line :** 2700
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'servername' sans documentation
-- **line :** 2718
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'servername_raw' sans documentation
-- **line :** 2731
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ssl_context' sans documentation
-- **line :** 2746
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ssl_context' sans documentation
-- **line :** 2752
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'param_mut' sans documentation
-- **line :** 2763
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_result' sans documentation
-- **line :** 2769
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'session' sans documentation
-- **line :** 2775
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_random' sans documentation
-- **line :** 2790
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'server_random' sans documentation
-- **line :** 2804
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'export_keying_material' sans documentation
-- **line :** 2812
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'export_keying_material_early' sans documentation
-- **line :** 2845
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'session_reused' sans documentation
-- **line :** 2882
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_status_type' sans documentation
-- **line :** 2888
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extms_support' sans documentation
-- **line :** 2899
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ocsp_status' sans documentation
-- **line :** 2911
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ocsp_status' sans documentation
-- **line :** 2927
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'is_server' sans documentation
-- **line :** 2946
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_ex_data' sans documentation
-- **line :** 2956
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ex_data' sans documentation
-- **line :** 2972
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ex_data_mut' sans documentation
-- **line :** 2985
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_max_early_data' sans documentation
-- **line :** 3001
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'max_early_data' sans documentation
-- **line :** 3014
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'finished' sans documentation
-- **line :** 3023
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'peer_finished' sans documentation
-- **line :** 3033
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'is_init_finished' sans documentation
-- **line :** 3042
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_hello_isv2' sans documentation
-- **line :** 3053
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_hello_legacy_version' sans documentation
-- **line :** 3064
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_hello_random' sans documentation
-- **line :** 3082
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_hello_session_id' sans documentation
-- **line :** 3101
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_hello_ciphers' sans documentation
-- **line :** 3120
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'bytes_to_cipher_list' sans documentation
-- **line :** 3138
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_hello_compression_methods' sans documentation
-- **line :** 3174
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_mtu' sans documentation
-- **line :** 3188
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'psk_identity_hint' sans documentation
-- **line :** 3197
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'psk_identity' sans documentation
-- **line :** 3211
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'add_chain_cert' sans documentation
-- **line :** 3224
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_method' sans documentation
-- **line :** 3234
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_private_key_file' sans documentation
-- **line :** 3243
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_private_key' sans documentation
-- **line :** 3262
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_certificate' sans documentation
-- **line :** 3271
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_certificate_chain_file' sans documentation
-- **line :** 3285
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'add_client_ca' sans documentation
-- **line :** 3302
+- **Message :** Function 'load_verify_locations' sans documentation
+- **line :** 1007
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_client_ca_list' sans documentation
-- **line :** 3311
+- **line :** 1029
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_min_proto_version' sans documentation
-- **line :** 3321
+- **Message :** Function 'add_client_ca' sans documentation
+- **line :** 1039
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_max_proto_version' sans documentation
-- **line :** 3336
+- **Message :** Function 'set_session_id_context' sans documentation
+- **line :** 1052
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_ciphersuites' sans documentation
-- **line :** 3356
+- **Message :** Function 'set_certificate_file' sans documentation
+- **line :** 1070
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_certificate_chain_file' sans documentation
+- **line :** 1092
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_certificate' sans documentation
+- **line :** 1110
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_extra_chain_cert' sans documentation
+- **line :** 1119
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_private_key_file' sans documentation
+- **line :** 1129
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_private_key' sans documentation
+- **line :** 1147
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_cipher_list' sans documentation
-- **line :** 3375
+- **line :** 1162
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_verify_cert_store' sans documentation
-- **line :** 3389
+- **Message :** Function 'set_ciphersuites' sans documentation
+- **line :** 1183
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ecdh_auto' sans documentation
+- **line :** 1199
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_options' sans documentation
+- **line :** 1210
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'options' sans documentation
+- **line :** 1217
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clear_options' sans documentation
+- **line :** 1224
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_min_proto_version' sans documentation
+- **line :** 1234
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_max_proto_version' sans documentation
+- **line :** 1249
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'min_proto_version' sans documentation
+- **line :** 1267
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'max_proto_version' sans documentation
+- **line :** 1286
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_alpn_protos' sans documentation
+- **line :** 1306
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_tlsext_use_srtp' sans documentation
+- **line :** 1326
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_alpn_select_callback' sans documentation
+- **line :** 1353
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'check_private_key' sans documentation
+- **line :** 1376
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cert_store' sans documentation
+- **line :** 1382
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cert_store_mut' sans documentation
+- **line :** 1388
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_param' sans documentation
+- **line :** 1396
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_param_mut' sans documentation
+- **line :** 1404
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_status_callback' sans documentation
+- **line :** 1421
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_psk_client_callback' sans documentation
+- **line :** 1442
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_psk_callback' sans documentation
+- **line :** 1457
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_psk_server_callback' sans documentation
+- **line :** 1474
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_new_session_callback' sans documentation
+- **line :** 1501
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_remove_session_callback' sans documentation
+- **line :** 1515
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_keylog_callback' sans documentation
+- **line :** 1556
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_session_cache_mode' sans documentation
+- **line :** 1570
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_stateless_cookie_generate_cb' sans documentation
+- **line :** 1584
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_stateless_cookie_verify_cb' sans documentation
+- **line :** 1607
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_cookie_generate_cb' sans documentation
+- **line :** 1626
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_cookie_verify_cb' sans documentation
+- **line :** 1642
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ex_data' sans documentation
+- **line :** 1658
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ex_data_inner' sans documentation
+- **line :** 1662
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ex_data_mut' sans documentation
+- **line :** 1676
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_custom_ext' sans documentation
+- **line :** 1692
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_max_early_data' sans documentation
+- **line :** 1748
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_client_hello_callback' sans documentation
+- **line :** 1761
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_session_cache_size' sans documentation
+- **line :** 1783
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_sigalgs_list' sans documentation
+- **line :** 1794
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_groups_list' sans documentation
+- **line :** 1807
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_num_tickets' sans documentation
-- **line :** 3403
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'num_tickets' sans documentation
-- **line :** 3413
+- **line :** 1820
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_security_level' sans documentation
-- **line :** 3423
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'security_level' sans documentation
-- **line :** 3433
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'peer_tmp_key' sans documentation
-- **line :** 3443
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'tmp_key' sans documentation
-- **line :** 3459
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'MidHandshakeSslStream' sans documentation
-- **line :** 3472
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'handshake' sans documentation
-- **line :** 3511
+- **line :** 1830
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 3535
+- **line :** 1842
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Impl 'Clone for SslContext ' sans documentation
+- **line :** 1856
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+- **line :** 1857
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'ToOwned for SslContextRef ' sans documentation
+- **line :** 1862
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'to_owned' sans documentation
+- **line :** 1865
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 1875
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 3548
+- **line :** 1876
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'SslContext ' sans documentation
+- **line :** 1881
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_ex_index' sans documentation
+- **line :** 1892
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cached_ex_index' sans documentation
+- **line :** 1907
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'SslContextRef ' sans documentation
+- **line :** 1922
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'certificate' sans documentation
+- **line :** 1928
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'private_key' sans documentation
+- **line :** 1940
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cert_store' sans documentation
+- **line :** 1949
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'extra_chain_certs' sans documentation
+- **line :** 1955
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ex_data' sans documentation
+- **line :** 1965
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'max_early_data' sans documentation
+- **line :** 1981
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'session_cache_size' sans documentation
+- **line :** 2016
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_mode' sans documentation
+- **line :** 2024
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'num_tickets' sans documentation
+- **line :** 2035
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'security_level' sans documentation
+- **line :** 2045
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'ForeignType for SslCipher ' sans documentation
+- **line :** 2062
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'as_ptr' sans documentation
+- **line :** 2072
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Stackable for SslCipher ' sans documentation
+- **line :** 2077
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Deref for SslCipher ' sans documentation
+- **line :** 2081
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'deref' sans documentation
+- **line :** 2084
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'DerefMut for SslCipher ' sans documentation
+- **line :** 2089
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'deref_mut' sans documentation
+- **line :** 2090
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'ForeignTypeRef for SslCipherRef ' sans documentation
+- **line :** 2100
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'SslCipherRef ' sans documentation
+- **line :** 2104
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'name' sans documentation
+- **line :** 2107
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'standard_name' sans documentation
+- **line :** 2119
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'version' sans documentation
+- **line :** 2132
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'bits' sans documentation
+- **line :** 2144
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'description' sans documentation
+- **line :** 2157
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'handshake_digest' sans documentation
+- **line :** 2171
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cipher_nid' sans documentation
+- **line :** 2187
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'protocol_id' sans documentation
+- **line :** 2201
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 2209
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 2210
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'CipherLists' sans documentation
+- **line :** 2217
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 2224
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Clone for SslSession ' sans documentation
+- **line :** 2237
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+- **line :** 2238
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'SslSession ' sans documentation
+- **line :** 2243
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'ToOwned for SslSessionRef ' sans documentation
+- **line :** 2253
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'to_owned' sans documentation
+- **line :** 2256
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'SslSessionRef ' sans documentation
+- **line :** 2265
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'id' sans documentation
+- **line :** 2268
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'master_key_len' sans documentation
+- **line :** 2279
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'master_key' sans documentation
+- **line :** 2287
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'max_early_data' sans documentation
+- **line :** 2296
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'time' sans documentation
+- **line :** 2303
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'timeout' sans documentation
+- **line :** 2312
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'protocol_version' sans documentation
+- **line :** 2321
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 2338
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 2354
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 2355
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Ssl ' sans documentation
+- **line :** 2360
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_ex_index' sans documentation
+- **line :** 2366
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cached_ex_index' sans documentation
+- **line :** 2381
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 3565
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'read_early_data' sans documentation
-- **line :** 3604
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'write_early_data' sans documentation
-- **line :** 3630
+- **line :** 2397
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'connect' sans documentation
-- **line :** 3654
+- **line :** 2415
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'accept' sans documentation
-- **line :** 3670
+- **line :** 2430
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'do_handshake' sans documentation
-- **line :** 3683
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 2438
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 2439
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'stateless' sans documentation
-- **line :** 3704
+- **Message :** Impl 'SslRef ' sans documentation
+- **line :** 2447
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_raw_rbio' sans documentation
+- **line :** 2448
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'read_uninit' sans documentation
-- **line :** 3720
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ssl_read' sans documentation
-- **line :** 3741
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ssl_read_uninit' sans documentation
-- **line :** 3758
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ssl_write' sans documentation
-- **line :** 3799
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ssl_peek' sans documentation
-- **line :** 3837
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shutdown' sans documentation
-- **line :** 3883
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_shutdown' sans documentation
-- **line :** 3893
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_shutdown' sans documentation
-- **line :** 3905
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'make_error' sans documentation
-- **line :** 3911
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'check_panic' sans documentation
-- **line :** 3936
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_bio_error' sans documentation
-- **line :** 3942
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'read' sans documentation
-- **line :** 3974
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'write' sans documentation
-- **line :** 3986
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'flush' sans documentation
-- **line :** 3998
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'SslStreamBuilder' sans documentation
-- **line :** 4008
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'stateless' sans documentation
-- **line :** 4036
+- **Message :** Function 'get_error' sans documentation
+- **line :** 2452
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_connect_state' sans documentation
-- **line :** 4047
+- **line :** 2458
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_accept_state' sans documentation
-- **line :** 4053
+- **line :** 2464
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'set_verify' sans documentation
+- **line :** 2472
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_mode' sans documentation
+- **line :** 2478
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_verify_callback' sans documentation
+- **line :** 2487
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_tmp_dh' sans documentation
+- **line :** 2506
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_tmp_dh_callback' sans documentation
+- **line :** 2514
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_tmp_ecdh' sans documentation
+- **line :** 2532
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ecdh_auto' sans documentation
+- **line :** 2543
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_alpn_protos' sans documentation
+- **line :** 2553
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'current_cipher' sans documentation
+- **line :** 2569
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'state_string' sans documentation
+- **line :** 2579
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'state_string_long' sans documentation
+- **line :** 2590
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_hostname' sans documentation
+- **line :** 2603
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'peer_certificate' sans documentation
+- **line :** 2613
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'peer_cert_chain' sans documentation
+- **line :** 2625
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verified_chain' sans documentation
+- **line :** 2643
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'certificate' sans documentation
+- **line :** 2652
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'private_key' sans documentation
+- **line :** 2663
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'version' sans documentation
+- **line :** 2671
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'version2' sans documentation
+- **line :** 2677
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'version_str' sans documentation
+- **line :** 2690
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'selected_alpn_protocol' sans documentation
+- **line :** 2706
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_tlsext_use_srtp' sans documentation
+- **line :** 2725
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'srtp_profiles' sans documentation
+- **line :** 2744
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'selected_srtp_profile' sans documentation
+- **line :** 2757
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'pending' sans documentation
+- **line :** 2770
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'servername' sans documentation
+- **line :** 2788
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'servername_raw' sans documentation
+- **line :** 2801
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ssl_context' sans documentation
+- **line :** 2816
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ssl_context' sans documentation
+- **line :** 2822
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'param_mut' sans documentation
+- **line :** 2833
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_result' sans documentation
+- **line :** 2839
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'session' sans documentation
+- **line :** 2845
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_random' sans documentation
+- **line :** 2860
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'server_random' sans documentation
+- **line :** 2874
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'export_keying_material' sans documentation
+- **line :** 2882
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'export_keying_material_early' sans documentation
+- **line :** 2915
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'session_reused' sans documentation
+- **line :** 2952
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_status_type' sans documentation
+- **line :** 2958
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'extms_support' sans documentation
+- **line :** 2969
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ocsp_status' sans documentation
+- **line :** 2981
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ocsp_status' sans documentation
+- **line :** 2997
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'is_server' sans documentation
+- **line :** 3016
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ex_data' sans documentation
+- **line :** 3026
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ex_data' sans documentation
+- **line :** 3042
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ex_data_mut' sans documentation
+- **line :** 3055
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_max_early_data' sans documentation
+- **line :** 3071
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'max_early_data' sans documentation
+- **line :** 3084
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'finished' sans documentation
+- **line :** 3093
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'peer_finished' sans documentation
+- **line :** 3103
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'is_init_finished' sans documentation
+- **line :** 3112
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_hello_isv2' sans documentation
+- **line :** 3123
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_hello_legacy_version' sans documentation
+- **line :** 3134
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_hello_random' sans documentation
+- **line :** 3152
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_hello_session_id' sans documentation
+- **line :** 3171
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_hello_ciphers' sans documentation
+- **line :** 3190
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'bytes_to_cipher_list' sans documentation
+- **line :** 3208
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_hello_compression_methods' sans documentation
+- **line :** 3244
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_mtu' sans documentation
+- **line :** 3258
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'psk_identity_hint' sans documentation
+- **line :** 3267
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'psk_identity' sans documentation
+- **line :** 3281
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_chain_cert' sans documentation
+- **line :** 3294
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_method' sans documentation
+- **line :** 3304
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_private_key_file' sans documentation
+- **line :** 3313
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_private_key' sans documentation
+- **line :** 3332
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_certificate' sans documentation
+- **line :** 3341
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_certificate_chain_file' sans documentation
+- **line :** 3355
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_client_ca' sans documentation
+- **line :** 3372
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_client_ca_list' sans documentation
+- **line :** 3381
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_min_proto_version' sans documentation
+- **line :** 3391
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_max_proto_version' sans documentation
+- **line :** 3406
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_ciphersuites' sans documentation
+- **line :** 3426
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_cipher_list' sans documentation
+- **line :** 3445
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_verify_cert_store' sans documentation
+- **line :** 3459
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_num_tickets' sans documentation
+- **line :** 3473
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'num_tickets' sans documentation
+- **line :** 3483
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_security_level' sans documentation
+- **line :** 3493
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'security_level' sans documentation
+- **line :** 3503
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'peer_tmp_key' sans documentation
+- **line :** 3513
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'tmp_key' sans documentation
+- **line :** 3529
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'MidHandshakeSslStream' sans documentation
+- **line :** 3542
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'handshake' sans documentation
-- **line :** 4099
+- **line :** 3581
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 3605
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 3618
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+- **line :** 3635
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'read_early_data' sans documentation
-- **line :** 4128
+- **line :** 3674
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_early_data' sans documentation
-- **line :** 4140
+- **line :** 3700
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connect' sans documentation
+- **line :** 3724
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'accept' sans documentation
+- **line :** 3740
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'do_handshake' sans documentation
+- **line :** 3753
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'stateless' sans documentation
+- **line :** 3774
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'read_uninit' sans documentation
+- **line :** 3790
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ssl_read' sans documentation
+- **line :** 3811
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ssl_read_uninit' sans documentation
+- **line :** 3828
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ssl_write' sans documentation
+- **line :** 3869
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ssl_peek' sans documentation
+- **line :** 3907
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shutdown' sans documentation
+- **line :** 3953
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_shutdown' sans documentation
+- **line :** 3963
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_shutdown' sans documentation
+- **line :** 3975
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'make_error' sans documentation
+- **line :** 3981
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'check_panic' sans documentation
+- **line :** 4006
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_bio_error' sans documentation
+- **line :** 4012
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'read' sans documentation
+- **line :** 4044
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write' sans documentation
+- **line :** 4056
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'flush' sans documentation
+- **line :** 4068
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'SslStreamBuilder' sans documentation
+- **line :** 4078
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'stateless' sans documentation
+- **line :** 4106
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_connect_state' sans documentation
+- **line :** 4117
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_accept_state' sans documentation
+- **line :** 4123
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'handshake' sans documentation
+- **line :** 4169
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'read_early_data' sans documentation
+- **line :** 4198
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write_early_data' sans documentation
+- **line :** 4210
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_dtls_mtu_size' sans documentation
-- **line :** 4181
+- **line :** 4251
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'ShutdownResult' sans documentation
-- **line :** 4191
+- **line :** 4261
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'ShutdownState' sans documentation
-- **line :** 4203
+- **line :** 4273
 - **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'alert_tests' sans documentation
+- **line :** 4360
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'reason_code_is_description_plus_offset' sans documentation
+- **line :** 4364
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from_reason_code_maps_alerts' sans documentation
+- **line :** 4371
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'from_reason_code_rejects_non_alert_codes' sans documentation
+- **line :** 4386
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'display_uses_long_description' sans documentation
+- **line :** 4396
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'reason_code_round_trips' sans documentation
+- **line :** 4405
+- **suggestion :** Ajoutez /// avant cette function
 
 ---
 
@@ -308492,679 +308758,679 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'test_connect_with_srtp_ssl' sans documentation
-- **line :** 439
+- **line :** 444
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_alpn_server_advertise_multiple' sans documentation
-- **line :** 507
+- **line :** 517
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_alpn_server_select_none_fatal' sans documentation
-- **line :** 522
+- **line :** 532
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_alpn_server_select_none' sans documentation
-- **line :** 537
+- **line :** 547
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_alpn_server_unilateral' sans documentation
-- **line :** 555
+- **line :** 565
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_panic' sans documentation
-- **line :** 566
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'ExplodingStream' sans documentation
-- **line :** 567
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Read for ExplodingStream ' sans documentation
-- **line :** 569
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'read' sans documentation
-- **line :** 570
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Write for ExplodingStream ' sans documentation
-- **line :** 575
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'write' sans documentation
 - **line :** 576
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'flush' sans documentation
+- **Message :** Struct 'ExplodingStream' sans documentation
+- **line :** 577
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Read for ExplodingStream ' sans documentation
+- **line :** 579
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'read' sans documentation
 - **line :** 580
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'read_panic' sans documentation
-- **line :** 597
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'ExplodingStream' sans documentation
-- **line :** 598
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Read for ExplodingStream ' sans documentation
-- **line :** 600
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'read' sans documentation
-- **line :** 601
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Impl 'Write for ExplodingStream ' sans documentation
-- **line :** 606
+- **line :** 585
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
+- **line :** 586
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'flush' sans documentation
+- **line :** 590
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'read_panic' sans documentation
 - **line :** 607
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'flush' sans documentation
-- **line :** 611
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'flush_panic' sans documentation
-- **line :** 628
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Struct 'ExplodingStream' sans documentation
-- **line :** 629
+- **line :** 608
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Read for ExplodingStream ' sans documentation
-- **line :** 631
+- **line :** 610
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'read' sans documentation
-- **line :** 632
+- **line :** 611
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Write for ExplodingStream ' sans documentation
-- **line :** 637
+- **line :** 616
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
+- **line :** 617
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'flush' sans documentation
+- **line :** 621
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'flush_panic' sans documentation
 - **line :** 638
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'flush' sans documentation
-- **line :** 642
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'refcount_ssl_context' sans documentation
-- **line :** 658
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'default_verify_paths' sans documentation
-- **line :** 674
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_mode_round_trip' sans documentation
-- **line :** 699
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'add_extra_chain_cert' sans documentation
-- **line :** 720
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_valid_hostname' sans documentation
-- **line :** 728
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify_invalid_hostname' sans documentation
-- **line :** 746
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_valid_hostname' sans documentation
-- **line :** 765
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_invalid_hostname' sans documentation
-- **line :** 777
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_invalid_no_hostname_verification' sans documentation
-- **line :** 790
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_no_hostname_still_verifies' sans documentation
-- **line :** 808
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_can_disable_verify' sans documentation
-- **line :** 825
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_does_use_sni_with_dnsnames' sans documentation
-- **line :** 842
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_doesnt_use_sni_with_ips' sans documentation
-- **line :** 869
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_mozilla_server' sans documentation
-- **line :** 896
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_client_server_mozilla_intermediate' sans documentation
-- **line :** 928
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_client_server_mozilla_modern' sans documentation
-- **line :** 933
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_client_server_mozilla_intermediate_v5' sans documentation
-- **line :** 938
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'connector_client_server_mozilla_modern_v5' sans documentation
-- **line :** 944
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'shutdown' sans documentation
-- **line :** 949
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'client_ca_list' sans documentation
-- **line :** 970
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cert_store' sans documentation
-- **line :** 979
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'tmp_dh_callback' sans documentation
-- **line :** 992
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'tmp_dh_callback_ssl' sans documentation
-- **line :** 1016
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'idle_session' sans documentation
-- **line :** 1041
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'active_session' sans documentation
-- **line :** 1052
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'status_callbacks' sans documentation
-- **line :** 1069
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_session_callback' sans documentation
-- **line :** 1112
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_session_callback_swapped_ctx' sans documentation
-- **line :** 1139
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'keying_export' sans documentation
-- **line :** 1167
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'no_version_overlap' sans documentation
-- **line :** 1215
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'custom_extensions' sans documentation
-- **line :** 1241
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'custom_extensions_inline_buffer' sans documentation
-- **line :** 1278
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function '_check_kinds' sans documentation
-- **line :** 1314
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'is_send' sans documentation
-- **line :** 1315
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'is_sync' sans documentation
-- **line :** 1316
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'MemoryStream' sans documentation
-- **line :** 1324
+- **Message :** Struct 'ExplodingStream' sans documentation
+- **line :** 639
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'MemoryStream ' sans documentation
-- **line :** 1330
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-- **line :** 1331
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extend_incoming' sans documentation
-- **line :** 1338
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'take_outgoing' sans documentation
-- **line :** 1342
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Read for MemoryStream ' sans documentation
-- **line :** 1348
+- **Message :** Impl 'Read for ExplodingStream ' sans documentation
+- **line :** 641
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'read' sans documentation
-- **line :** 1349
+- **line :** 642
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'Write for MemoryStream ' sans documentation
-- **line :** 1366
+- **Message :** Impl 'Write for ExplodingStream ' sans documentation
+- **line :** 647
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
-- **line :** 1367
+- **line :** 648
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'flush' sans documentation
-- **line :** 1371
+- **line :** 652
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'send' sans documentation
+- **Message :** Function 'refcount_ssl_context' sans documentation
+- **line :** 668
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'default_verify_paths' sans documentation
+- **line :** 684
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_mode_round_trip' sans documentation
+- **line :** 709
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_extra_chain_cert' sans documentation
+- **line :** 730
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_valid_hostname' sans documentation
+- **line :** 738
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'verify_invalid_hostname' sans documentation
+- **line :** 756
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_valid_hostname' sans documentation
+- **line :** 775
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_invalid_hostname' sans documentation
+- **line :** 787
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_invalid_no_hostname_verification' sans documentation
+- **line :** 800
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_no_hostname_still_verifies' sans documentation
+- **line :** 818
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_can_disable_verify' sans documentation
+- **line :** 835
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_does_use_sni_with_dnsnames' sans documentation
+- **line :** 852
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_doesnt_use_sni_with_ips' sans documentation
+- **line :** 879
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_mozilla_server' sans documentation
+- **line :** 906
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_client_server_mozilla_intermediate' sans documentation
+- **line :** 938
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_client_server_mozilla_modern' sans documentation
+- **line :** 943
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_client_server_mozilla_intermediate_v5' sans documentation
+- **line :** 948
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'connector_client_server_mozilla_modern_v5' sans documentation
+- **line :** 954
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'shutdown' sans documentation
+- **line :** 959
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'client_ca_list' sans documentation
+- **line :** 980
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cert_store' sans documentation
+- **line :** 989
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'tmp_dh_callback' sans documentation
+- **line :** 1002
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'tmp_dh_callback_ssl' sans documentation
+- **line :** 1026
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'idle_session' sans documentation
+- **line :** 1051
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'active_session' sans documentation
+- **line :** 1062
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'status_callbacks' sans documentation
+- **line :** 1079
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_session_callback' sans documentation
+- **line :** 1122
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_session_callback_swapped_ctx' sans documentation
+- **line :** 1149
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'keying_export' sans documentation
+- **line :** 1177
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'no_version_overlap' sans documentation
+- **line :** 1225
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'custom_extensions' sans documentation
+- **line :** 1251
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'custom_extensions_inline_buffer' sans documentation
+- **line :** 1288
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function '_check_kinds' sans documentation
+- **line :** 1324
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'is_send' sans documentation
+- **line :** 1325
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'is_sync' sans documentation
+- **line :** 1326
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'MemoryStream' sans documentation
+- **line :** 1334
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'MemoryStream ' sans documentation
+- **line :** 1340
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+- **line :** 1341
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'extend_incoming' sans documentation
+- **line :** 1348
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'take_outgoing' sans documentation
+- **line :** 1352
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Read for MemoryStream ' sans documentation
+- **line :** 1358
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'read' sans documentation
+- **line :** 1359
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Write for MemoryStream ' sans documentation
+- **line :** 1376
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'write' sans documentation
 - **line :** 1377
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'flush' sans documentation
+- **line :** 1381
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'send' sans documentation
+- **line :** 1387
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'stateless' sans documentation
-- **line :** 1383
+- **line :** 1393
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'psk_ciphers' sans documentation
-- **line :** 1434
+- **line :** 1444
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'psk_client_cb_oversize_psk_len_rejected' sans documentation
-- **line :** 1479
+- **line :** 1489
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'psk_server_cb_oversize_psk_len_rejected' sans documentation
-- **line :** 1516
+- **line :** 1526
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'stateless_cookie_cb_oversize_length_rejected' sans documentation
-- **line :** 1549
+- **line :** 1559
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dtls_cookie_generate_cb_oversize_length_rejected' sans documentation
-- **line :** 1576
+- **line :** 1586
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sni_callback_swapped_ctx' sans documentation
-- **line :** 1617
+- **line :** 1627
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify_callback_after_swapped_ctx' sans documentation
-- **line :** 1644
+- **line :** 1654
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'client_hello' sans documentation
-- **line :** 1672
+- **line :** 1682
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'openssl_cipher_name' sans documentation
-- **line :** 1699
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'session_cache_size' sans documentation
 - **line :** 1709
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'session_cache_size' sans documentation
+- **line :** 1719
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'add_chain_cert' sans documentation
-- **line :** 1718
+- **line :** 1728
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_ssl_certificate_key_related_api' sans documentation
-- **line :** 1726
+- **line :** 1736
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_ssl_set_cert_chain_file' sans documentation
-- **line :** 1774
+- **line :** 1784
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_num_tickets' sans documentation
-- **line :** 1782
+- **line :** 1792
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_security_level' sans documentation
-- **line :** 1796
+- **line :** 1806
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ssl_ctx_ex_data_leak' sans documentation
-- **line :** 1809
+- **line :** 1819
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'DropTest' sans documentation
-- **line :** 1812
+- **line :** 1822
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for DropTest ' sans documentation
-- **line :** 1814
+- **line :** 1824
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1815
+- **line :** 1825
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ssl_ex_data_leak' sans documentation
-- **line :** 1832
+- **line :** 1842
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'DropTest' sans documentation
-- **line :** 1835
+- **line :** 1845
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for DropTest ' sans documentation
-- **line :** 1837
+- **line :** 1847
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1838
+- **line :** 1848
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cipher_id' sans documentation
-- **line :** 1857
+- **line :** 1867
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -311030,1477 +311296,1505 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'verify' sans documentation
-- **line :** 44
+- **line :** 45
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'extension' sans documentation
-- **line :** 46
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Mod 'store' sans documentation
 - **line :** 47
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Mod 'store' sans documentation
+- **line :** 48
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 50
+- **line :** 51
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 64
+- **line :** 65
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509StoreContext ' sans documentation
-- **line :** 73
+- **line :** 74
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ssl_idx' sans documentation
-- **line :** 77
+- **line :** 78
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 83
+- **line :** 84
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509StoreContextRef ' sans documentation
-- **line :** 91
+- **line :** 92
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ex_data' sans documentation
-- **line :** 94
+- **line :** 95
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'error' sans documentation
-- **line :** 107
+- **line :** 108
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Cleanup' sans documentation
-- **line :** 136
+- **line :** 137
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for Cleanup<' sans documentation
-- **line :** 138
+- **line :** 139
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 139
+- **line :** 140
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify_cert' sans documentation
-- **line :** 166
+- **line :** 178
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_error' sans documentation
-- **line :** 172
+- **line :** 184
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'current_cert' sans documentation
-- **line :** 181
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'error_depth' sans documentation
 - **line :** 193
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'error_depth' sans documentation
+- **line :** 205
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'chain' sans documentation
-- **line :** 199
+- **line :** 211
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509Builder ' sans documentation
-- **line :** 215
+- **line :** 227
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 218
+- **line :** 230
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_not_after' sans documentation
-- **line :** 227
+- **line :** 239
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_not_before' sans documentation
-- **line :** 233
+- **line :** 245
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_version' sans documentation
-- **line :** 243
+- **line :** 255
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_serial_number' sans documentation
-- **line :** 249
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_issuer_name' sans documentation
 - **line :** 261
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_subject_name' sans documentation
-- **line :** 290
+- **Message :** Function 'set_issuer_name' sans documentation
+- **line :** 273
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_pubkey' sans documentation
+- **Message :** Function 'set_subject_name' sans documentation
 - **line :** 302
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'set_pubkey' sans documentation
+- **line :** 314
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'x509v3_context' sans documentation
-- **line :** 313
+- **line :** 325
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'append_extension2' sans documentation
-- **line :** 353
+- **line :** 365
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign' sans documentation
-- **line :** 362
+- **line :** 374
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Struct 'X509KeyUsage' sans documentation
+- **line :** 391
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'X509ExtendedKeyUsage' sans documentation
+- **line :** 408
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 377
+- **line :** 423
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509Ref ' sans documentation
-- **line :** 385
+- **line :** 431
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'subject_name' sans documentation
-- **line :** 388
+- **line :** 434
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'subject_name_hash' sans documentation
-- **line :** 397
+- **line :** 443
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'issuer_name' sans documentation
-- **line :** 406
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'issuer_name_hash' sans documentation
-- **line :** 415
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'subject_alt_names' sans documentation
-- **line :** 424
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'crl_distribution_points' sans documentation
-- **line :** 438
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'issuer_alt_names' sans documentation
 - **line :** 452
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'issuer_name_hash' sans documentation
+- **line :** 461
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'subject_alt_names' sans documentation
+- **line :** 470
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'crl_distribution_points' sans documentation
+- **line :** 484
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'issuer_alt_names' sans documentation
+- **line :** 498
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'authority_info' sans documentation
-- **line :** 468
+- **line :** 514
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pathlen' sans documentation
-- **line :** 483
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'subject_key_id' sans documentation
-- **line :** 491
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'authority_key_id' sans documentation
-- **line :** 501
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'authority_issuer' sans documentation
-- **line :** 511
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'authority_serial' sans documentation
-- **line :** 521
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'public_key' sans documentation
 - **line :** 529
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'digest' sans documentation
-- **line :** 538
+- **Message :** Function 'subject_key_id' sans documentation
+- **line :** 537
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fingerprint' sans documentation
-- **line :** 558
+- **Message :** Function 'authority_key_id' sans documentation
+- **line :** 547
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'not_after' sans documentation
-- **line :** 564
+- **Message :** Function 'authority_issuer' sans documentation
+- **line :** 557
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'not_before' sans documentation
-- **line :** 573
+- **Message :** Function 'authority_serial' sans documentation
+- **line :** 567
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'signature' sans documentation
-- **line :** 582
+- **Message :** Function 'key_usage' sans documentation
+- **line :** 580
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'signature_algorithm' sans documentation
-- **line :** 592
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ocsp_responders' sans documentation
-- **line :** 607
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'issued' sans documentation
-- **line :** 625
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'version' sans documentation
-- **line :** 639
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'verify' sans documentation
-- **line :** 650
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'serial_number' sans documentation
-- **line :** 659
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'alias' sans documentation
-- **line :** 672
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'ToOwned for X509Ref ' sans documentation
-- **line :** 708
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'to_owned' sans documentation
-- **line :** 711
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Ord for X509Ref ' sans documentation
-- **line :** 719
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cmp' sans documentation
-- **line :** 720
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialOrd for X509Ref ' sans documentation
-- **line :** 728
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'partial_cmp' sans documentation
-- **line :** 729
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialOrd<X509> for X509Ref ' sans documentation
-- **line :** 734
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'partial_cmp' sans documentation
-- **line :** 735
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialEq for X509Ref ' sans documentation
-- **line :** 740
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'eq' sans documentation
-- **line :** 741
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialEq<X509> for X509Ref ' sans documentation
-- **line :** 746
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'eq' sans documentation
-- **line :** 747
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Eq for X509Ref ' sans documentation
-- **line :** 752
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509 ' sans documentation
-- **line :** 754
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'stack_from_pem' sans documentation
-- **line :** 780
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Clone for X509 ' sans documentation
-- **line :** 811
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'clone' sans documentation
-- **line :** 812
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 817
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 818
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'AsRef<X509Ref> for X509Ref ' sans documentation
-- **line :** 846
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'as_ref' sans documentation
-- **line :** 847
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Stackable for X509 ' sans documentation
-- **line :** 852
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Ord for X509 ' sans documentation
-- **line :** 856
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'cmp' sans documentation
-- **line :** 857
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialOrd for X509 ' sans documentation
-- **line :** 862
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'partial_cmp' sans documentation
-- **line :** 863
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialOrd<X509Ref> for X509 ' sans documentation
-- **line :** 868
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'partial_cmp' sans documentation
-- **line :** 869
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialEq for X509 ' sans documentation
-- **line :** 874
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'eq' sans documentation
-- **line :** 875
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'PartialEq<X509Ref> for X509 ' sans documentation
-- **line :** 880
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'eq' sans documentation
-- **line :** 881
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Eq for X509 ' sans documentation
-- **line :** 886
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509v3Context<' sans documentation
-- **line :** 891
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'as_ptr' sans documentation
-- **line :** 892
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 899
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Stackable for X509Extension ' sans documentation
-- **line :** 907
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509Extension ' sans documentation
-- **line :** 911
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-- **line :** 929
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_nid' sans documentation
-- **line :** 981
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509ExtensionRef ' sans documentation
-- **line :** 1066
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509NameBuilder ' sans documentation
-- **line :** 1078
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'append_entry' sans documentation
-- **line :** 1089
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'append_entry_by_text' sans documentation
-- **line :** 1103
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'append_entry_by_text_with_type' sans documentation
-- **line :** 1122
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'append_entry_by_nid' sans documentation
-- **line :** 1146
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'append_entry_by_nid_with_type' sans documentation
-- **line :** 1164
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 1196
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509Name ' sans documentation
-- **line :** 1204
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Stackable for X509Name ' sans documentation
-- **line :** 1230
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509NameRef ' sans documentation
-- **line :** 1234
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'try_cmp' sans documentation
-- **line :** 1260
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'to_owned' sans documentation
-- **line :** 1270
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 1285
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 1286
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'next' sans documentation
-- **line :** 1301
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 1330
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509NameEntryRef ' sans documentation
-- **line :** 1338
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'data' sans documentation
-- **line :** 1341
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'object' sans documentation
-- **line :** 1351
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 1359
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 1360
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509ReqBuilder ' sans documentation
-- **line :** 1368
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-- **line :** 1371
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_version' sans documentation
-- **line :** 1381
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_subject_name' sans documentation
-- **line :** 1393
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_pubkey' sans documentation
-- **line :** 1405
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'sign' sans documentation
-- **line :** 1452
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 1474
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509Req ' sans documentation
-- **line :** 1482
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509ReqRef ' sans documentation
-- **line :** 1513
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'version' sans documentation
-- **line :** 1546
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'subject_name' sans documentation
-- **line :** 1552
+- **Message :** Function 'extended_key_usage' sans documentation
+- **line :** 598
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'public_key' sans documentation
-- **line :** 1561
+- **line :** 608
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'digest' sans documentation
+- **line :** 617
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fingerprint' sans documentation
+- **line :** 637
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'not_after' sans documentation
+- **line :** 643
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'not_before' sans documentation
+- **line :** 652
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'signature' sans documentation
+- **line :** 661
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'signature_algorithm' sans documentation
+- **line :** 671
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ocsp_responders' sans documentation
+- **line :** 686
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'issued' sans documentation
+- **line :** 704
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'version' sans documentation
+- **line :** 718
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify' sans documentation
-- **line :** 1572
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extensions' sans documentation
-- **line :** 1581
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'CrlReason' sans documentation
-- **line :** 1591
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'CrlReason ' sans documentation
-- **line :** 1594
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509RevokedBuilder ' sans documentation
-- **line :** 1620
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new' sans documentation
-- **line :** 1623
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_revocation_date' sans documentation
-- **line :** 1632
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_serial_number' sans documentation
-- **line :** 1644
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 1662
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Stackable for X509Revoked ' sans documentation
-- **line :** 1670
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509Revoked ' sans documentation
-- **line :** 1674
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'X509RevokedRef ' sans documentation
-- **line :** 1684
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'to_owned' sans documentation
-- **line :** 1694
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'revocation_date' sans documentation
-- **line :** 1700
+- **line :** 729
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'serial_number' sans documentation
-- **line :** 1710
+- **line :** 738
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'extension' sans documentation
-- **line :** 1722
+- **Message :** Function 'alias' sans documentation
+- **line :** 751
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'X509CrlBuilder ' sans documentation
-- **line :** 1795
+- **Message :** Impl 'ToOwned for X509Ref ' sans documentation
+- **line :** 787
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'to_owned' sans documentation
+- **line :** 790
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Ord for X509Ref ' sans documentation
+- **line :** 799
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cmp' sans documentation
+- **line :** 800
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialOrd for X509Ref ' sans documentation
+- **line :** 808
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'partial_cmp' sans documentation
+- **line :** 809
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialOrd<X509> for X509Ref ' sans documentation
+- **line :** 814
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'partial_cmp' sans documentation
+- **line :** 815
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialEq for X509Ref ' sans documentation
+- **line :** 820
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'eq' sans documentation
+- **line :** 821
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialEq<X509> for X509Ref ' sans documentation
+- **line :** 826
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'eq' sans documentation
+- **line :** 827
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Eq for X509Ref ' sans documentation
+- **line :** 832
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509 ' sans documentation
+- **line :** 834
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'stack_from_pem' sans documentation
+- **line :** 860
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Clone for X509 ' sans documentation
+- **line :** 891
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'clone' sans documentation
+- **line :** 892
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 897
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 898
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'AsRef<X509Ref> for X509Ref ' sans documentation
+- **line :** 926
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'as_ref' sans documentation
+- **line :** 927
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Stackable for X509 ' sans documentation
+- **line :** 932
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Ord for X509 ' sans documentation
+- **line :** 936
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'cmp' sans documentation
+- **line :** 937
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialOrd for X509 ' sans documentation
+- **line :** 942
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'partial_cmp' sans documentation
+- **line :** 943
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialOrd<X509Ref> for X509 ' sans documentation
+- **line :** 948
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'partial_cmp' sans documentation
+- **line :** 949
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialEq for X509 ' sans documentation
+- **line :** 954
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'eq' sans documentation
+- **line :** 955
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'PartialEq<X509Ref> for X509 ' sans documentation
+- **line :** 960
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'eq' sans documentation
+- **line :** 961
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Eq for X509 ' sans documentation
+- **line :** 966
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509v3Context<' sans documentation
+- **line :** 971
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'as_ptr' sans documentation
+- **line :** 972
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 979
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Stackable for X509Extension ' sans documentation
+- **line :** 987
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509Extension ' sans documentation
+- **line :** 991
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 1798
+- **line :** 1009
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_issuer_name' sans documentation
-- **line :** 1810
+- **Message :** Function 'new_nid' sans documentation
+- **line :** 1061
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_last_update' sans documentation
-- **line :** 1822
+- **Message :** Impl 'X509ExtensionRef ' sans documentation
+- **line :** 1146
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509NameBuilder ' sans documentation
+- **line :** 1158
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'append_entry' sans documentation
+- **line :** 1169
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'set_next_update' sans documentation
-- **line :** 1828
+- **Message :** Function 'append_entry_by_text' sans documentation
+- **line :** 1183
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'append_extension2' sans documentation
-- **line :** 1841
+- **Message :** Function 'append_entry_by_text_with_type' sans documentation
+- **line :** 1202
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'add_revoked' sans documentation
-- **line :** 1854
+- **Message :** Function 'append_entry_by_nid' sans documentation
+- **line :** 1226
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'sort' sans documentation
-- **line :** 1868
+- **Message :** Function 'append_entry_by_nid_with_type' sans documentation
+- **line :** 1244
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 1276
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509Name ' sans documentation
+- **line :** 1284
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Stackable for X509Name ' sans documentation
+- **line :** 1310
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509NameRef ' sans documentation
+- **line :** 1314
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'try_cmp' sans documentation
+- **line :** 1340
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'to_owned' sans documentation
+- **line :** 1350
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 1365
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 1366
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'next' sans documentation
+- **line :** 1381
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 1410
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509NameEntryRef ' sans documentation
+- **line :** 1418
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'data' sans documentation
+- **line :** 1421
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'object' sans documentation
+- **line :** 1431
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 1439
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 1440
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509ReqBuilder ' sans documentation
+- **line :** 1448
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+- **line :** 1451
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_version' sans documentation
+- **line :** 1461
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_subject_name' sans documentation
+- **line :** 1473
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_pubkey' sans documentation
+- **line :** 1485
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sign' sans documentation
-- **line :** 1874
+- **line :** 1532
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1938
+- **line :** 1554
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'X509Crl ' sans documentation
-- **line :** 1990
+- **Message :** Impl 'X509Req ' sans documentation
+- **line :** 1562
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'X509CrlRef ' sans documentation
-- **line :** 2010
+- **Message :** Impl 'X509ReqRef ' sans documentation
+- **line :** 1593
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'last_update' sans documentation
-- **line :** 2041
+- **Message :** Function 'version' sans documentation
+- **line :** 1626
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'next_update' sans documentation
-- **line :** 2053
+- **Message :** Function 'subject_name' sans documentation
+- **line :** 1632
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'get_by_serial' sans documentation
-- **line :** 2062
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_by_cert' sans documentation
-- **line :** 2073
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'issuer_name' sans documentation
-- **line :** 2084
+- **Message :** Function 'public_key' sans documentation
+- **line :** 1641
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'verify' sans documentation
-- **line :** 2099
+- **line :** 1652
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'extensions' sans documentation
+- **line :** 1661
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'CrlReason' sans documentation
+- **line :** 1671
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'CrlReason ' sans documentation
+- **line :** 1674
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509RevokedBuilder ' sans documentation
+- **line :** 1700
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new' sans documentation
+- **line :** 1703
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_revocation_date' sans documentation
+- **line :** 1712
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_serial_number' sans documentation
+- **line :** 1724
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 1742
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Stackable for X509Revoked ' sans documentation
+- **line :** 1750
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509Revoked ' sans documentation
+- **line :** 1754
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509RevokedRef ' sans documentation
+- **line :** 1764
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'to_owned' sans documentation
+- **line :** 1774
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'revocation_date' sans documentation
+- **line :** 1780
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'serial_number' sans documentation
+- **line :** 1790
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extension' sans documentation
-- **line :** 2110
+- **line :** 1802
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Struct 'X509VerifyResult' sans documentation
-- **line :** 2139
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 2141
+- **Message :** Impl 'X509CrlBuilder ' sans documentation
+- **line :** 1875
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 2142
+- **Message :** Function 'new' sans documentation
+- **line :** 1878
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'fmt' sans documentation
-- **line :** 2150
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'fmt' sans documentation
-- **line :** 2151
+- **Message :** Function 'set_issuer_name' sans documentation
+- **line :** 1890
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'Error for X509VerifyResult ' sans documentation
-- **line :** 2156
+- **Message :** Function 'set_last_update' sans documentation
+- **line :** 1902
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_next_update' sans documentation
+- **line :** 1908
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'append_extension2' sans documentation
+- **line :** 1921
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'add_revoked' sans documentation
+- **line :** 1934
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sort' sans documentation
+- **line :** 1948
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'sign' sans documentation
+- **line :** 1954
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 2025
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509Crl ' sans documentation
+- **line :** 2077
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'X509VerifyResult ' sans documentation
-- **line :** 2158
+- **Message :** Impl 'X509CrlRef ' sans documentation
+- **line :** 2097
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'as_raw' sans documentation
+- **Message :** Function 'last_update' sans documentation
+- **line :** 2128
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'next_update' sans documentation
+- **line :** 2140
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_by_serial' sans documentation
+- **line :** 2149
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_by_cert' sans documentation
+- **line :** 2160
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'issuer_name' sans documentation
 - **line :** 2171
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'error_string' sans documentation
-- **line :** 2178
+- **Message :** Function 'verify' sans documentation
+- **line :** 2186
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'drop' sans documentation
-- **line :** 2196
+- **Message :** Function 'extension' sans documentation
+- **line :** 2197
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'GeneralName ' sans documentation
-- **line :** 2204
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_email' sans documentation
-- **line :** 2228
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_dns' sans documentation
-- **line :** 2232
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_uri' sans documentation
-- **line :** 2236
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_ip' sans documentation
-- **line :** 2240
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_rid' sans documentation
-- **line :** 2251
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_other_name' sans documentation
-- **line :** 2272
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'new_dir_name' sans documentation
-- **line :** 2300
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'GeneralNameRef ' sans documentation
-- **line :** 2330
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ia5_string' sans documentation
-- **line :** 2331
-- **suggestion :** Ajoutez /// avant cette function
+- **Message :** Struct 'X509VerifyResult' sans documentation
+- **line :** 2226
+- **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 2405
+- **line :** 2228
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 2406
+- **line :** 2229
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 2237
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 2238
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Error for X509VerifyResult ' sans documentation
+- **line :** 2243
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'X509VerifyResult ' sans documentation
+- **line :** 2245
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'as_raw' sans documentation
+- **line :** 2258
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'error_string' sans documentation
+- **line :** 2265
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 2283
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'GeneralName ' sans documentation
+- **line :** 2291
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_email' sans documentation
+- **line :** 2315
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_dns' sans documentation
+- **line :** 2319
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_uri' sans documentation
+- **line :** 2323
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_ip' sans documentation
+- **line :** 2327
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_rid' sans documentation
+- **line :** 2338
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_other_name' sans documentation
+- **line :** 2359
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'new_dir_name' sans documentation
+- **line :** 2387
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'GeneralNameRef ' sans documentation
+- **line :** 2417
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'ia5_string' sans documentation
+- **line :** 2418
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'fmt' sans documentation
+- **line :** 2492
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 2493
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Stackable for GeneralName ' sans documentation
-- **line :** 2427
+- **line :** 2514
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 2433
+- **line :** 2520
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'DistPointRef ' sans documentation
-- **line :** 2441
+- **line :** 2528
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 2450
+- **line :** 2537
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'DistPointNameRef ' sans documentation
-- **line :** 2458
+- **line :** 2545
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Stackable for DistPoint ' sans documentation
-- **line :** 2470
+- **line :** 2557
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 2476
+- **line :** 2563
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'AccessDescriptionRef ' sans documentation
-- **line :** 2484
+- **line :** 2571
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'location' sans documentation
-- **line :** 2491
+- **line :** 2578
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Stackable for AccessDescription ' sans documentation
-- **line :** 2496
+- **line :** 2583
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 2502
+- **line :** 2589
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509AlgorithmRef ' sans documentation
-- **line :** 2510
+- **line :** 2597
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 2523
+- **line :** 2610
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509ObjectRef ' sans documentation
-- **line :** 2531
+- **line :** 2618
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509' sans documentation
-- **line :** 2532
+- **line :** 2619
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Stackable for X509Object ' sans documentation
-- **line :** 2540
+- **line :** 2627
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'X509PurposeId' sans documentation
-- **line :** 2560
+- **line :** 2647
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509PurposeId ' sans documentation
-- **line :** 2562
+- **line :** 2649
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'X509PurposeRef ' sans documentation
-- **line :** 2594
+- **line :** 2683
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_by_sname' sans documentation
-- **line :** 2609
+- **line :** 2698
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_idx' sans documentation
-- **line :** 2619
+- **line :** 2708
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -312697,448 +312991,462 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'pkey' sans documentation
-- **line :** 36
+- **line :** 37
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_cert_loading' sans documentation
-- **line :** 42
+- **line :** 43
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_debug' sans documentation
-- **line :** 54
+- **line :** 55
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_cert_issue_validity' sans documentation
-- **line :** 70
+- **line :** 71
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_save_der' sans documentation
-- **line :** 81
+- **line :** 82
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_subject_read_cn' sans documentation
-- **line :** 90
+- **line :** 91
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_nid_values' sans documentation
-- **line :** 99
+- **line :** 100
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_nameref_iterator' sans documentation
-- **line :** 118
+- **line :** 119
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_nid_uid_value' sans documentation
-- **line :** 145
+- **line :** 146
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_subject_alt_name' sans documentation
-- **line :** 155
+- **line :** 156
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_retrieve_pathlen' sans documentation
-- **line :** 173
+- **line :** 174
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_subject_key_id' sans documentation
-- **line :** 189
+- **line :** 190
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_authority_key_id' sans documentation
-- **line :** 202
+- **line :** 203
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_authority_issuer_and_serial' sans documentation
-- **line :** 215
+- **line :** 216
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_subject_alt_name_iter' sans documentation
-- **line :** 236
+- **line :** 237
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_aia_ca_issuer' sans documentation
-- **line :** 266
+- **line :** 267
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_builder' sans documentation
-- **line :** 284
+- **line :** 285
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_extension_new' sans documentation
-- **line :** 359
+- **line :** 368
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_extension_new_from_der' sans documentation
-- **line :** 367
+- **line :** 376
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_extension_to_der' sans documentation
-- **line :** 381
+- **line :** 390
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eku_invalid_other' sans documentation
-- **line :** 427
+- **line :** 436
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_req_builder' sans documentation
-- **line :** 435
+- **line :** 444
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_stack_from_pem' sans documentation
-- **line :** 471
+- **line :** 480
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'issued' sans documentation
-- **line :** 487
+- **line :** 496
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'signature' sans documentation
-- **line :** 498
+- **line :** 507
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone_x509' sans documentation
-- **line :** 519
+- **line :** 528
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_cert' sans documentation
-- **line :** 526
+- **line :** 535
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_store_ctx_cleared_after_init' sans documentation
+- **line :** 556
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'test_store_ctx_nested_init' sans documentation
+- **line :** 586
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_fails' sans documentation
-- **line :** 547
+- **line :** 614
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_fails_with_crl_flag_set_and_no_crl' sans documentation
-- **line :** 565
+- **line :** 632
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_cert_with_purpose' sans documentation
-- **line :** 591
+- **line :** 658
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_cert_with_wrong_purpose_fails' sans documentation
-- **line :** 617
+- **line :** 684
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_ref_version' sans documentation
-- **line :** 652
+- **line :** 719
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'x509_ref_version_no_version_set' sans documentation
-- **line :** 668
+- **line :** 735
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_load_crl' sans documentation
-- **line :** 678
+- **line :** 745
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_crl_entry_extensions' sans documentation
-- **line :** 702
+- **line :** 769
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_save_subject_der' sans documentation
-- **line :** 756
+- **line :** 823
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_load_subject_der' sans documentation
-- **line :** 766
+- **line :** 833
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_convert_to_text' sans documentation
-- **line :** 779
+- **line :** 846
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_convert_req_to_text' sans documentation
-- **line :** 805
+- **line :** 872
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_name_cmp' sans documentation
-- **line :** 830
+- **line :** 897
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_name_to_owned' sans documentation
-- **line :** 841
+- **line :** 908
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_param_set_time_fails_verification' sans documentation
-- **line :** 850
+- **line :** 917
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_param_set_time' sans documentation
-- **line :** 880
+- **line :** 951
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_param_set_depth' sans documentation
-- **line :** 903
+- **line :** 974
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_param_set_depth_fails_verification' sans documentation
-- **line :** 930
+- **line :** 1001
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_load_cert_file' sans documentation
-- **line :** 975
+- **line :** 1046
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_verify_param_auth_level' sans documentation
-- **line :** 995
+- **line :** 1066
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_set_purpose' sans documentation
-- **line :** 1008
+- **line :** 1078
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_set_purpose_fails_verification' sans documentation
-- **line :** 1033
+- **line :** 1102
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_add_name_entry' sans documentation
-- **line :** 1067
+- **line :** 1136
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_load_crl_file_fail' sans documentation
-- **line :** 1085
+- **line :** 1154
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ipaddress_as_subject_alternative_name_is_formatted_in_debug' sans documentation
-- **line :** 1093
+- **line :** 1162
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ipv4_as_subject_alternative_name_is_formatted_in_debug' sans documentation
-- **line :** 1117
+- **line :** 1186
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'ipv6_as_subject_alternative_name_is_formatted_in_debug' sans documentation
-- **line :** 1123
+- **line :** 1192
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'other_name_as_subject_alternative_name' sans documentation
-- **line :** 1131
+- **line :** 1200
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'dir_name_as_subject_alternative_name' sans documentation
-- **line :** 1156
+- **line :** 1225
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_dist_point' sans documentation
-- **line :** 1223
+- **line :** 1292
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_dist_point_null' sans documentation
-- **line :** 1243
+- **line :** 1312
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_store_all_certificates' sans documentation
-- **line :** 1251
+- **line :** 1320
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_ocsp_responders_invalid_utf8' sans documentation
-- **line :** 1265
+- **line :** 1334
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_x509_revoked_builder' sans documentation
-- **line :** 1272
+- **line :** 1341
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'build_ca' sans documentation
-- **line :** 1291
+- **line :** 1360
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'build_crl' sans documentation
-- **line :** 1325
+- **line :** 1394
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_x509_crl_builder' sans documentation
-- **line :** 1358
+- **line :** 1427
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -916265,12 +916573,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:13 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:15 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:19 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
@@ -916280,142 +916588,142 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:36 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:37 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:41 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:43 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:48 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:54 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:58 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:59 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:69 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:66 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:73 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:70 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:81 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:76 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:88 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:87 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:91 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:99 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:105 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:106 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:119 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:116 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:125 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:123 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:131 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:138 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:137 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:144 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:143 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:152 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:149 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:160 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:156 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:168 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:162 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:180 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:178 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:189 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:186 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:192 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:200 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:198 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:207 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -916425,107 +916733,107 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:216 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:218 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:222 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:223 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:226 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:230 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:234 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:234 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:238 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:240 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:245 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:244 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:249 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:252 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:259 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:256 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:263 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:263 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:269 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:267 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:277 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:288 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:281 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:294 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:287 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:298 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:295 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:309 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:306 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:321 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:312 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:316 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:336 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:327 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:343 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:339 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:349 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:350 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:354 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -916535,7 +916843,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:368 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:367 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -916550,142 +916858,147 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:391 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:386 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:397 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:401 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:397 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:410 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:409 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:417 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:415 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:431 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:419 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:438 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:428 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:448 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:435 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:454 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:449 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:461 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:456 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:469 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:466 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:472 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:485 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:479 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:493 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:487 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:497 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:498 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:503 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:520 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:524 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:515 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:531 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:532 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:540 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:538 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:546 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:542 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:549 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:560 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:558 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:575 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:564 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:581 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:572 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:589 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:578 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:604 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:593 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:611 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:599 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:607 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -916695,77 +917008,72 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:634 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:629 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:640 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:644 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:652 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:650 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:658 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:654 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:662 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:666 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:668 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:677 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:672 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:688 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:684 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:694 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:695 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:700 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:706 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:710 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:712 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:716 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:718 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:727 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:728 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:733 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:739 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:734 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
@@ -916775,12 +917083,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:751 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:751 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:757 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:757 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:763 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:769 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl-sys/CHANGELOG.md:775 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ---
 
@@ -916813,22 +917136,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:11 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:16 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:26 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:24 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:30 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
@@ -916838,212 +917156,212 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:46 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:55 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:60 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:55 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:75 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:61 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:81 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:71 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:93 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:80 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:102 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:85 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:100 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:112 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:106 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:118 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:118 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:127 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:134 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:133 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:137 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:143 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:149 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:154 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:155 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:159 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:165 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:171 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:174 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:175 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:181 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:184 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:185 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:190 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:193 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:196 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:199 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:200 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:204 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:206 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:209 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:210 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:216 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:218 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:222 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:224 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:226 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:229 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:232 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:234 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:240 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:241 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:248 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:255 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:251 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:260 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:257 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:266 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:265 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:270 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:273 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:276 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:280 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:280 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:285 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:284 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:292 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:295 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:299 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:301 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:303 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:305 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
@@ -917053,162 +917371,167 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:319 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:317 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:327 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:324 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:337 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:334 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:344 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:354 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:352 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:363 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:369 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:362 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:377 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:373 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:386 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:379 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:388 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:400 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:394 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:406 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:402 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:410 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:411 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:417 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:427 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:425 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:434 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:431 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:440 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:435 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:446 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:442 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:461 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:452 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:466 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:459 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:475 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:483 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:471 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:494 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:486 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:491 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:500 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:515 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:508 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:525 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:519 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:531 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:530 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:535 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:536 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:550 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:540 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:550 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:556 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
@@ -917218,257 +917541,262 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:568 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:575 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:581 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:581 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:585 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:588 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:593 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:602 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:601 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:606 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:613 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:619 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:622 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:630 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:626 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:637 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:653 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:644 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:657 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:655 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:661 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:662 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:671 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:678 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:677 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:682 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:681 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:686 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:694 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:696 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:701 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:702 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:710 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:706 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:714 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:719 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:726 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:726 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:730 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:735 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:737 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:739 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:741 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:751 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:755 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:755 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:759 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:762 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:765 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:766 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:771 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:780 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:775 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:784 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:782 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:790 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:791 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:796 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:803 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:800 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:809 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:807 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:821 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:816 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:829 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:828 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:835 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:834 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:839 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:846 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:843 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:854 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:849 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:860 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:853 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:864 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:862 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:868 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:866 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:874 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:874 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:878 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:883 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:887 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:890 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:891 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:897 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:899 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:902 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:908 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:913 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:915 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:919 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:922 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:929 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:927 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:941 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:938 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:944 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
@@ -917478,87 +917806,97 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:973 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:966 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:981 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:979 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:988 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:998 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:992 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1006 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1003 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1013 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1007 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1017 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1013 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1028 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1026 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1032 titre dupliqué (déjà présent dans server_rust/vendor/tracing-core/CHANGELOG.md:588).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1033 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1038 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1039 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1051 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1045 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1058 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1053 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1064 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:35).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1059 titre dupliqué (déjà présent dans server_rust/vendor/num-traits/README.md:41).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1070 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1063 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1078 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1072 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1084 titre dupliqué (déjà présent dans server_rust/vendor/num-traits/README.md:41).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1108 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1088 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1116 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:454).
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1097 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:30).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1133 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown/CHANGELOG.md:146).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/openssl/CHANGELOG.md:1141 titre dupliqué (déjà présent dans server_rust/vendor/log/CHANGELOG.md:454).
 
 ---
 
