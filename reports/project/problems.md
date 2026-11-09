@@ -1,6 +1,6 @@
 # 📚 Documentation Problems
 
-Generated: 2026-11-09 02:17:03
+Generated: 2026-11-09 06:33:36
 
 ## Summary
 
@@ -150038,14 +150038,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'enc_16lsd' sans documentation
-- **line :** 408
+- **line :** 414
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'div_rem_1e16' sans documentation
-- **line :** 450
+- **line :** 456
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -150067,7 +150067,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'test_max_str_len' sans documentation
-- **line :** 32
+- **line :** 34
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -901751,22 +901751,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 44 > 120 caractères.
+- **Message :** Ligne 39 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 73 > 120 caractères.
+- **Message :** Ligne 63 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 79 > 120 caractères.
+- **Message :** Ligne 67 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 83 > 120 caractères.
+- **Message :** Ligne 69 > 120 caractères.
 
 ---
 

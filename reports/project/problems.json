@@ -1670,25 +1670,25 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 44 > 120 caractères.",
+        "message": "Ligne 39 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 73 > 120 caractères.",
+        "message": "Ligne 63 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 79 > 120 caractères.",
+        "message": "Ligne 67 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 83 > 120 caractères.",
+        "message": "Ligne 69 > 120 caractères.",
         "module": "markdown"
     },
     {
@@ -249811,7 +249811,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/itoa/src/lib.rs",
-        "line": 408,
+        "line": 414,
         "severity": "warning",
         "message": "Function 'enc_16lsd' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -249819,7 +249819,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/itoa/src/lib.rs",
-        "line": 450,
+        "line": 456,
         "severity": "warning",
         "message": "Function 'div_rem_1e16' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -249827,7 +249827,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/itoa/tests/test.rs",
-        "line": 32,
+        "line": 34,
         "severity": "warning",
         "message": "Function 'test_max_str_len' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
