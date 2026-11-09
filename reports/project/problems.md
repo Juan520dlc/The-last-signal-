@@ -1,6 +1,6 @@
 # 📚 Documentation Problems
 
-Generated: 2026-11-09 06:33:36
+Generated: 2026-11-09 17:51:49
 
 ## Summary
 
@@ -487295,84 +487295,84 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'parenthesize' sans documentation
-- **line :** 377
+- **line :** 388
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Copy for FixupContext ' sans documentation
-- **line :** 446
+- **line :** 457
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Clone for FixupContext ' sans documentation
-- **line :** 448
+- **line :** 459
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 449
+- **line :** 460
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'Scan' sans documentation
-- **line :** 455
+- **line :** 466
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Copy for Scan ' sans documentation
-- **line :** 462
+- **line :** 473
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Clone for Scan ' sans documentation
-- **line :** 465
+- **line :** 476
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clone' sans documentation
-- **line :** 466
+- **line :** 477
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'PartialEq for Scan ' sans documentation
-- **line :** 472
+- **line :** 483
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 473
+- **line :** 484
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'scan_left' sans documentation
-- **line :** 479
+- **line :** 490
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'scan_right' sans documentation
-- **line :** 493
+- **line :** 504
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -518349,147 +518349,147 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for Ident ' sans documentation
-- **line :** 704
+- **line :** 703
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 705
+- **line :** 704
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for RangeSyntax ' sans documentation
-- **line :** 710
+- **line :** 709
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 711
+- **line :** 710
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for Param ' sans documentation
-- **line :** 718
+- **line :** 717
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 719
+- **line :** 718
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for TokenKind ' sans documentation
-- **line :** 746
+- **line :** 748
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 747
+- **line :** 749
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for TokenStream ' sans documentation
-- **line :** 759
+- **line :** 761
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 760
+- **line :** 762
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'doc_comment' sans documentation
-- **line :** 794
+- **line :** 796
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_escaped_literal_token' sans documentation
-- **line :** 847
+- **line :** 849
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_escaped_literal_meta_item_lit' sans documentation
-- **line :** 860
+- **line :** 862
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_escaped_lit' sans documentation
-- **line :** 872
+- **line :** 874
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_escaped_lit_kind' sans documentation
-- **line :** 886
+- **line :** 888
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'SpanlessEq for LazyAttrTokenStream ' sans documentation
-- **line :** 895
+- **Message :** Impl 'SpanlessEq for LazyTokenStream ' sans documentation
+- **line :** 897
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 896
+- **line :** 898
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for AttrKind ' sans documentation
-- **line :** 903
+- **line :** 905
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 904
+- **line :** 906
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'SpanlessEq for FormatArguments ' sans documentation
-- **line :** 935
+- **line :** 938
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'eq' sans documentation
-- **line :** 936
+- **line :** 939
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -525538,14 +525538,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'test_permutations' sans documentation
-- **line :** 922
+- **line :** 924
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'iter' sans documentation
-- **line :** 923
+- **line :** 925
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -901751,22 +901751,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 39 > 120 caractères.
+- **Message :** Ligne 44 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 63 > 120 caractères.
+- **Message :** Ligne 73 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 67 > 120 caractères.
+- **Message :** Ligne 79 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 69 > 120 caractères.
+- **Message :** Ligne 83 > 120 caractères.
 
 ---
 

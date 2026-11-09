@@ -1670,25 +1670,25 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 39 > 120 caractères.",
+        "message": "Ligne 44 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 63 > 120 caractères.",
+        "message": "Ligne 73 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 67 > 120 caractères.",
+        "message": "Ligne 79 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 69 > 120 caractères.",
+        "message": "Ligne 83 > 120 caractères.",
         "module": "markdown"
     },
     {
@@ -89643,7 +89643,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 377,
+        "line": 388,
         "severity": "warning",
         "message": "Function 'parenthesize' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -89651,7 +89651,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 446,
+        "line": 457,
         "severity": "warning",
         "message": "Impl 'Copy for FixupContext ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -89659,7 +89659,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 448,
+        "line": 459,
         "severity": "warning",
         "message": "Impl 'Clone for FixupContext ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -89667,7 +89667,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 449,
+        "line": 460,
         "severity": "warning",
         "message": "Function 'clone' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -89675,7 +89675,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 455,
+        "line": 466,
         "severity": "warning",
         "message": "Enum 'Scan' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -89683,7 +89683,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 462,
+        "line": 473,
         "severity": "warning",
         "message": "Impl 'Copy for Scan ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -89691,7 +89691,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 465,
+        "line": 476,
         "severity": "warning",
         "message": "Impl 'Clone for Scan ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -89699,7 +89699,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 466,
+        "line": 477,
         "severity": "warning",
         "message": "Function 'clone' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -89707,7 +89707,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 472,
+        "line": 483,
         "severity": "warning",
         "message": "Impl 'PartialEq for Scan ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -89715,7 +89715,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 473,
+        "line": 484,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -89723,7 +89723,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 479,
+        "line": 490,
         "severity": "warning",
         "message": "Function 'scan_left' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -89731,7 +89731,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/src/fixup.rs",
-        "line": 493,
+        "line": 504,
         "severity": "warning",
         "message": "Function 'scan_right' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -127371,7 +127371,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/test_expr.rs",
-        "line": 922,
+        "line": 924,
         "severity": "warning",
         "message": "Function 'test_permutations' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -127379,7 +127379,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/test_expr.rs",
-        "line": 923,
+        "line": 925,
         "severity": "warning",
         "message": "Function 'iter' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135107,7 +135107,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 704,
+        "line": 703,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for Ident ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135115,7 +135115,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 705,
+        "line": 704,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135123,7 +135123,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 710,
+        "line": 709,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for RangeSyntax ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135131,7 +135131,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 711,
+        "line": 710,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135139,7 +135139,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 718,
+        "line": 717,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for Param ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135147,7 +135147,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 719,
+        "line": 718,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135155,7 +135155,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 746,
+        "line": 748,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for TokenKind ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135163,7 +135163,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 747,
+        "line": 749,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135171,7 +135171,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 759,
+        "line": 761,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for TokenStream ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135179,7 +135179,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 760,
+        "line": 762,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135187,7 +135187,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 794,
+        "line": 796,
         "severity": "warning",
         "message": "Function 'doc_comment' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135195,7 +135195,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 847,
+        "line": 849,
         "severity": "warning",
         "message": "Function 'is_escaped_literal_token' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135203,7 +135203,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 860,
+        "line": 862,
         "severity": "warning",
         "message": "Function 'is_escaped_literal_meta_item_lit' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135211,7 +135211,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 872,
+        "line": 874,
         "severity": "warning",
         "message": "Function 'is_escaped_lit' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135219,7 +135219,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 886,
+        "line": 888,
         "severity": "warning",
         "message": "Function 'is_escaped_lit_kind' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135227,15 +135227,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 895,
+        "line": 897,
         "severity": "warning",
-        "message": "Impl 'SpanlessEq for LazyAttrTokenStream ' sans documentation",
+        "message": "Impl 'SpanlessEq for LazyTokenStream ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 896,
+        "line": 898,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135243,7 +135243,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 903,
+        "line": 905,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for AttrKind ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135251,7 +135251,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 904,
+        "line": 906,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -135259,7 +135259,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 935,
+        "line": 938,
         "severity": "warning",
         "message": "Impl 'SpanlessEq for FormatArguments ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -135267,7 +135267,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/syn/tests/common/eq.rs",
-        "line": 936,
+        "line": 939,
         "severity": "warning",
         "message": "Function 'eq' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
