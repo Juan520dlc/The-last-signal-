@@ -30008,13 +30008,13 @@
     {
         "file": "server_rust/vendor/crc32fast/README.md",
         "severity": "warning",
-        "message": "server_rust/vendor/crc32fast/README.md:80 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:54).",
+        "message": "server_rust/vendor/crc32fast/README.md:81 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:54).",
         "module": "titles"
     },
     {
         "file": "server_rust/vendor/crc32fast/README.md",
         "severity": "warning",
-        "message": "server_rust/vendor/crc32fast/README.md:91 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:63).",
+        "message": "server_rust/vendor/crc32fast/README.md:92 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:63).",
         "module": "titles"
     },
     {
@@ -718331,7 +718331,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 68,
+        "line": 82,
         "severity": "warning",
         "message": "Function 'shift' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718339,7 +718339,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 75,
+        "line": 89,
         "severity": "warning",
         "message": "Function 'combine' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718347,7 +718347,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 96,
+        "line": 110,
+        "severity": "warning",
+        "message": "Function 'fold_keys_match_the_x86_constants' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
+        "line": 118,
         "severity": "warning",
         "message": "Function 'shift_table_appends_zeros' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718355,7 +718363,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 113,
+        "line": 135,
         "severity": "warning",
         "message": "Function 'golden' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718363,7 +718371,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 46,
+        "line": 48,
         "severity": "warning",
         "message": "Mod 'baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -718371,7 +718379,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 47,
+        "line": 49,
         "severity": "warning",
         "message": "Mod 'combine' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -718379,7 +718387,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 48,
+        "line": 50,
         "severity": "warning",
         "message": "Mod 'specialized' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -718387,7 +718395,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 49,
+        "line": 51,
         "severity": "warning",
         "message": "Mod 'table' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -718395,7 +718403,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 55,
+        "line": 57,
         "severity": "warning",
         "message": "Function 'hash' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718403,7 +718411,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 71,
+        "line": 73,
         "severity": "warning",
         "message": "Impl 'Hasher ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -718411,7 +718419,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 77,
+        "line": 79,
         "severity": "warning",
         "message": "Function 'new' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718419,7 +718427,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 86,
+        "line": 88,
         "severity": "warning",
         "message": "Function 'new_with_initial' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718427,7 +718435,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 96,
+        "line": 98,
         "severity": "warning",
         "message": "Function 'new_with_initial_len' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718435,7 +718443,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 104,
+        "line": 106,
         "severity": "warning",
         "message": "Function 'internal_new_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718443,7 +718451,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 115,
+        "line": 117,
         "severity": "warning",
         "message": "Function 'internal_new_specialized' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718451,7 +718459,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 125,
+        "line": 127,
         "severity": "warning",
         "message": "Function 'update' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718459,7 +718467,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 151,
+        "line": 153,
         "severity": "warning",
         "message": "Function 'total_len' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718467,7 +718475,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 157,
+        "line": 159,
         "severity": "warning",
         "message": "Function 'finalize' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718475,7 +718483,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 163,
+        "line": 165,
         "severity": "warning",
         "message": "Function 'reset' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718483,7 +718491,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 175,
+        "line": 177,
         "severity": "warning",
         "message": "Impl 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -718491,7 +718499,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 176,
+        "line": 178,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718499,7 +718507,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 181,
+        "line": 183,
         "severity": "warning",
         "message": "Impl 'Default for Hasher ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -718507,7 +718515,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 182,
+        "line": 184,
         "severity": "warning",
         "message": "Function 'default' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718515,7 +718523,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 187,
+        "line": 189,
         "severity": "warning",
         "message": "Impl 'hash' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -718523,7 +718531,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 188,
+        "line": 190,
         "severity": "warning",
         "message": "Function 'write' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718531,7 +718539,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 192,
+        "line": 194,
         "severity": "warning",
         "message": "Function 'finish' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718539,7 +718547,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 198,
+        "line": 200,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -718547,7 +718555,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 202,
+        "line": 204,
         "severity": "warning",
         "message": "Function 'total_len_tracks_resumed_and_combined_blocks' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718555,7 +718563,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 225,
+        "line": 227,
         "severity": "warning",
         "message": "Function 'total_len_for_empty_and_unknown_initial_length' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718563,7 +718571,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 242,
+        "line": 244,
         "severity": "warning",
         "message": "Function 'combine' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718571,7 +718579,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/lib.rs",
-        "line": 255,
+        "line": 257,
         "severity": "warning",
         "message": "Function 'combine_from_len' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718669,13 +718677,21 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
         "line": 52,
         "severity": "warning",
+        "message": "Function 'has_pmull' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
+        "line": 79,
+        "severity": "warning",
         "message": "Function 'quad' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 133,
+        "line": 301,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -718683,7 +718699,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 135,
+        "line": 319,
+        "severity": "warning",
+        "message": "Function 'picks_the_expected_kernel' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
+        "line": 334,
         "severity": "warning",
         "message": "Function 'check_against_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -718691,7 +718715,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 157,
+        "line": 352,
         "severity": "warning",
         "message": "Function 'check_large_inputs_against_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",

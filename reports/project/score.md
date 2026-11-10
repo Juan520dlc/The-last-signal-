@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-11-10 04:25:08
+**Date :** 2026-11-10 10:07:02
 
 # 64/100
 
@@ -76293,7 +76293,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift' sans documentation
 
-- **line :** 68
+- **line :** 82
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76303,7 +76303,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'combine' sans documentation
 
-- **line :** 75
+- **line :** 89
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'fold_keys_match_the_x86_constants' sans documentation
+
+- **line :** 110
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76313,7 +76323,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'shift_table_appends_zeros' sans documentation
 
-- **line :** 96
+- **line :** 118
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76323,7 +76333,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'golden' sans documentation
 
-- **line :** 113
+- **line :** 135
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76335,7 +76345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'baseline' sans documentation
 
-- **line :** 46
+- **line :** 48
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -76345,7 +76355,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'combine' sans documentation
 
-- **line :** 47
+- **line :** 49
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -76355,7 +76365,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'specialized' sans documentation
 
-- **line :** 48
+- **line :** 50
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -76365,7 +76375,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'table' sans documentation
 
-- **line :** 49
+- **line :** 51
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -76375,7 +76385,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'hash' sans documentation
 
-- **line :** 55
+- **line :** 57
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76385,7 +76395,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Hasher ' sans documentation
 
-- **line :** 71
+- **line :** 73
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -76395,7 +76405,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 77
+- **line :** 79
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76405,7 +76415,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_with_initial' sans documentation
 
-- **line :** 86
+- **line :** 88
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76415,7 +76425,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_with_initial_len' sans documentation
 
-- **line :** 96
+- **line :** 98
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76425,7 +76435,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'internal_new_baseline' sans documentation
 
-- **line :** 104
+- **line :** 106
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76435,7 +76445,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'internal_new_specialized' sans documentation
 
-- **line :** 115
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76445,7 +76455,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'update' sans documentation
 
-- **line :** 125
+- **line :** 127
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76455,7 +76465,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'total_len' sans documentation
 
-- **line :** 151
+- **line :** 153
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76465,7 +76475,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'finalize' sans documentation
 
-- **line :** 157
+- **line :** 159
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76475,7 +76485,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'reset' sans documentation
 
-- **line :** 163
+- **line :** 165
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76485,7 +76495,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
 
-- **line :** 175
+- **line :** 177
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -76495,7 +76505,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 176
+- **line :** 178
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76505,7 +76515,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for Hasher ' sans documentation
 
-- **line :** 181
+- **line :** 183
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -76515,7 +76525,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 182
+- **line :** 184
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76525,7 +76535,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'hash' sans documentation
 
-- **line :** 187
+- **line :** 189
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -76535,7 +76545,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'write' sans documentation
 
-- **line :** 188
+- **line :** 190
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76545,7 +76555,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'finish' sans documentation
 
-- **line :** 192
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76555,7 +76565,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 198
+- **line :** 200
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -76565,7 +76575,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'total_len_tracks_resumed_and_combined_blocks' sans documentation
 
-- **line :** 202
+- **line :** 204
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76575,7 +76585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'total_len_for_empty_and_unknown_initial_length' sans documentation
 
-- **line :** 225
+- **line :** 227
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76585,7 +76595,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'combine' sans documentation
 
-- **line :** 242
+- **line :** 244
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76595,7 +76605,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'combine_from_len' sans documentation
 
-- **line :** 255
+- **line :** 257
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76655,7 +76665,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
-- **Message :** Function 'quad' sans documentation
+- **Message :** Function 'has_pmull' sans documentation
 
 - **line :** 52
 
@@ -76665,9 +76675,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'quad' sans documentation
+
+- **line :** 79
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 133
+- **line :** 301
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -76675,9 +76695,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'picks_the_expected_kernel' sans documentation
+
+- **line :** 319
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
 
-- **line :** 135
+- **line :** 334
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -76687,7 +76717,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
 
-- **line :** 157
+- **line :** 352
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1274145,13 +1274175,13 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/crc32fast/README.md:80 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:54).
+- **Message :** server_rust/vendor/crc32fast/README.md:81 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:54).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/crc32fast/README.md:91 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:63).
+- **Message :** server_rust/vendor/crc32fast/README.md:92 titre dupliqué (déjà présent dans server_rust/vendor/parking/README.md:63).
 
 - **module :** titles
 
