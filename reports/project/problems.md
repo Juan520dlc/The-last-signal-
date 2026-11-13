@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-11-13 08:16:54
+Generated: 2026-11-13 22:56:15
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|470|
-|⚠️ Warnings|131347|
-|**Total**|**131823**|
+|⚠️ Warnings|131350|
+|**Total**|**131826**|
 
 ---
 
@@ -31886,609 +31886,609 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'parallel' sans documentation
-- **line :** 377
+- **line :** 383
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'target' sans documentation
-- **line :** 379
+- **line :** 385
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'VsVers' sans documentation
-- **line :** 420
+- **line :** 426
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'command_helpers' sans documentation
-- **line :** 462
+- **line :** 468
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'logger' sans documentation
-- **line :** 465
+- **line :** 471
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'compile_commands' sans documentation
-- **line :** 470
+- **line :** 476
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'build_env' sans documentation
-- **line :** 472
+- **line :** 478
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tool' sans documentation
-- **line :** 475
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Mod 'tempfile' sans documentation
-- **line :** 479
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Mod 'utilities' sans documentation
 - **line :** 481
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Mod 'tempfile' sans documentation
+- **line :** 485
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'utilities' sans documentation
+- **line :** 487
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Mod 'flags' sans documentation
-- **line :** 484
+- **line :** 490
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'CompilerFlag' sans documentation
-- **line :** 490
+- **line :** 496
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'PrefixMapFlag' sans documentation
-- **line :** 504
+- **line :** 510
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'BuildCache' sans documentation
-- **line :** 510
+- **line :** 516
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Build' sans documentation
-- **line :** 551
+- **line :** 557
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'ErrorKind' sans documentation
-- **line :** 604
+- **line :** 610
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Error' sans documentation
-- **line :** 632
+- **line :** 638
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Error ' sans documentation
-- **line :** 639
+- **line :** 645
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 640
+- **line :** 646
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<io' sans documentation
-- **line :** 648
-- **suggestion :** Ajoutez /// avant cette impl
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'from' sans documentation
-- **line :** 649
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Impl 'Display for Error ' sans documentation
 - **line :** 654
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Function 'fmt' sans documentation
+- **Message :** Function 'from' sans documentation
 - **line :** 655
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Impl 'std' sans documentation
+- **Message :** Impl 'Display for Error ' sans documentation
 - **line :** 660
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'fmt' sans documentation
+- **line :** 661
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'std' sans documentation
+- **line :** 666
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Enum 'BuildFlag' sans documentation
-- **line :** 665
+- **line :** 671
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'AsRef<OsStr> for BuildFlag ' sans documentation
-- **line :** 670
+- **line :** 676
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'as_ref' sans documentation
-- **line :** 671
+- **line :** 677
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Object' sans documentation
-- **line :** 682
+- **line :** 688
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Object ' sans documentation
-- **line :** 687
+- **line :** 693
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'shared_flag' sans documentation
-- **line :** 997
+- **line :** 1003
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'static_flag' sans documentation
-- **line :** 1017
+- **line :** 1023
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'set_envs_snapshot' sans documentation
-- **line :** 1883
+- **line :** 1889
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__set_env' sans documentation
-- **line :** 1900
+- **line :** 1906
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'flag_check_src_name' sans documentation
-- **line :** 1948
+- **line :** 1954
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'write_flag_check_src' sans documentation
-- **line :** 1959
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'ensure_check_file' sans documentation
 - **line :** 1965
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'ensure_check_file' sans documentation
+- **line :** 1971
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'check_enabled' sans documentation
-- **line :** 2519
+- **line :** 2525
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compile_objects' sans documentation
-- **line :** 2529
+- **line :** 2535
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'add_default_flags' sans documentation
-- **line :** 2974
+- **line :** 2980
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'add_inherited_rustflags' sans documentation
-- **line :** 3501
+- **line :** 3513
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'assemble' sans documentation
-- **line :** 3831
+- **line :** 3843
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'assemble_progressive' sans documentation
-- **line :** 3948
+- **line :** 3960
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apple_flags' sans documentation
-- **line :** 4103
+- **line :** 4115
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cmd' sans documentation
-- **line :** 4179
+- **line :** 4191
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_base_compiler' sans documentation
-- **line :** 4196
+- **line :** 4208
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_base_ranlib' sans documentation
-- **line :** 4780
+- **line :** 4792
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_base_archiver_variant' sans documentation
-- **line :** 4788
+- **line :** 4800
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'prefix_for_target' sans documentation
-- **line :** 5106
+- **line :** 5118
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_target' sans documentation
-- **line :** 5164
+- **line :** 5176
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_raw_target' sans documentation
-- **line :** 5187
+- **line :** 5199
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_host' sans documentation
-- **line :** 5194
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_is_cross_compile' sans documentation
-- **line :** 5201
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_opt_level' sans documentation
 - **line :** 5206
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'get_is_cross_compile' sans documentation
+- **line :** 5213
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_opt_level' sans documentation
+- **line :** 5218
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'get_debug_str' sans documentation
-- **line :** 5227
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_shell_escaped_flags' sans documentation
-- **line :** 5234
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'get_dwarf_version' sans documentation
 - **line :** 5239
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'get_shell_escaped_flags' sans documentation
+- **line :** 5246
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'get_dwarf_version' sans documentation
+- **line :** 5251
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'get_force_frame_pointer' sans documentation
-- **line :** 5256
+- **line :** 5268
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_out_dir' sans documentation
-- **line :** 5260
+- **line :** 5272
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fix_env_for_apple_os' sans documentation
-- **line :** 5510
+- **line :** 5522
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apple_sdk_root_inner' sans documentation
-- **line :** 5521
+- **line :** 5533
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apple_sdk_root' sans documentation
-- **line :** 5571
+- **line :** 5583
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'apple_deployment_target' sans documentation
-- **line :** 5593
+- **line :** 5605
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wasm_musl_sysroot' sans documentation
-- **line :** 5716
+- **line :** 5728
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'wasi_sysroot' sans documentation
-- **line :** 5727
+- **line :** 5739
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'cuda_file_count' sans documentation
-- **line :** 5738
+- **line :** 5750
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'which' sans documentation
-- **line :** 5745
+- **line :** 5757
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'find_msvc_tools_find' sans documentation
-- **line :** 5800
+- **line :** 5812
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'find_msvc_tools_find_tool' sans documentation
-- **line :** 5805
+- **line :** 5817
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'BuildEnvGetter' sans documentation
-- **line :** 5806
+- **line :** 5818
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get_env' sans documentation
-- **line :** 5809
+- **line :** 5821
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pauthtest_sysroot' sans documentation
-- **line :** 5849
+- **line :** 5861
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'pauthtest_resource_dir' sans documentation
-- **line :** 5864
+- **line :** 5876
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Default for Build ' sans documentation
-- **line :** 5880
+- **line :** 5892
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 5881
+- **line :** 5893
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fail' sans documentation
-- **line :** 5992
+- **line :** 6004
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'android_clang_compiler_uses_target_arg_internally' sans documentation
-- **line :** 6015
+- **line :** 6027
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_llvm_mingw_wrapper' sans documentation
-- **line :** 6026
+- **line :** 6038
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'autodetect_android_compiler' sans documentation
-- **line :** 6047
+- **line :** 6059
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'map_darwin_target_from_rust_to_compiler_architecture' sans documentation
-- **line :** 6107
+- **line :** 6119
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_arm' sans documentation
-- **line :** 6124
+- **line :** 6136
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'AsmFileExt' sans documentation
-- **line :** 6129
+- **line :** 6141
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'AsmFileExt ' sans documentation
-- **line :** 6137
+- **line :** 6149
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from_path' sans documentation
-- **line :** 6138
+- **line :** 6150
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_exe' sans documentation
-- **line :** 6153
+- **line :** 6165
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 6173
+- **line :** 6185
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'gnu_prefixes_are_sorted' sans documentation
-- **line :** 6177
+- **line :** 6189
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_android_clang_compiler_uses_target_arg_internally' sans documentation
-- **line :** 6183
+- **line :** 6195
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -901782,22 +901782,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 44 > 120 caractères.
+- **Message :** Ligne 39 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 73 > 120 caractères.
+- **Message :** Ligne 63 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 79 > 120 caractères.
+- **Message :** Ligne 67 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 83 > 120 caractères.
+- **Message :** Ligne 69 > 120 caractères.
 
 ---
 
@@ -904614,37 +904614,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:16 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:20 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:27 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:26 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:42 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:37 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:70 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:52 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:91 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:80 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:111 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:101 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:130 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:121 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
@@ -904654,177 +904654,177 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:163 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:150 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:177 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:173 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:195 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:187 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:209 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:205 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:216 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:219 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:223 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:226 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:230 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:233 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:246 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:240 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:252 titre très long (87 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:256 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:258 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:262 titre très long (87 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:267 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:268 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:275 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:277 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:281 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:285 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:289 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:291 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:295 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:299 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:304 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:305 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:310 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:314 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:316 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:320 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:327 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:326 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:333 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:337 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:340 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:343 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:347 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:350 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:355 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:357 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:362 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:365 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:368 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:372 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:377 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:378 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:384 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:387 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:391 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:394 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:400 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:401 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:406 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:410 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:412 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:416 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:418 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:422 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:425 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:428 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:433 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:435 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:439 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:443 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -904839,167 +904839,167 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:468 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:469 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:479 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:478 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:485 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:489 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:493 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:495 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:504 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:503 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:518 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:514 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:529 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:528 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:538 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:539 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:551 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:548 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:560 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:561 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:566 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:570 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:572 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:576 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:579 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:582 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:587 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:589 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:595 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:597 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:601 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:605 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:607 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:611 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:613 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:617 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:619 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:623 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:625 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:629 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:632 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:635 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:638 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:642 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:647 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:648 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:658 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:657 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:673 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:668 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:681 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:683 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:689 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:691 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:695 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:699 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:702 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:705 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:712 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:712 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:720 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:722 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:728 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:730 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:739 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:738 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
@@ -905009,137 +905009,132 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:755 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:759 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:761 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:765 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:768 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:771 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:776 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:778 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:790 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:786 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:796 titre très long (87 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:800 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:807 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:806 titre très long (87 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:814 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:817 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:820 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:824 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:828 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:830 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:834 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:838 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:840 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:844 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:847 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:850 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:853 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:857 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:859 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:863 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:865 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:869 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:871 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:875 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:878 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:881 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:884 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:888 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:890 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:894 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:898 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:900 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:904 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:908 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:910 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:914 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:916 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:920 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:922 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:926 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:928 titre très long (89 caractères).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:933 titre très long (89 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:932 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
@@ -905174,17 +905169,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:969 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:968 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:974 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:973 titre très long (89 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:979 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:979 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
@@ -905214,37 +905209,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1012 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1009 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1017 titre très long (86 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1014 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1022 titre très long (88 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1022 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1027 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1027 titre très long (86 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1036 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1032 titre très long (88 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1045 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1037 titre très long (92 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1050 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1046 titre très long (92 caractères).
 
 ## ⚠️ Warning
 
@@ -905254,12 +905249,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1061 titre très long (92 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1060 titre très long (92 caractères).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1066 titre très long (91 caractères).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1065 titre très long (92 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1071 titre très long (92 caractères).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1076 titre très long (91 caractères).
 
 ## ⚠️ Warning
 
@@ -905279,7 +905284,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:18 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:16 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -905289,312 +905294,317 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:29 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:28 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:33 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:32 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:39 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:44 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:43 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:52 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:48 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:54 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:62 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:76 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:72 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:84 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:82 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:93 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:86 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:94 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:104 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:103 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:113 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:109 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:120 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:125 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:123 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:132 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:130 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:136 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:135 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:142 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:142 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:146 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:153 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:152 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:159 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:156 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:165 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:163 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:170 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:169 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:179 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:175 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:184 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:180 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:197 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:189 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:201 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:194 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:205 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:207 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:211 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:218 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:215 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:221 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:232 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:228 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:237 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:235 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:248 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:242 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:254 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:247 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:260 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:258 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:269 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:264 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:277 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:270 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:283 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:279 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:291 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:287 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:297 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:293 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:306 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:301 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:312 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:307 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:318 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:316 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:322 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:328 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:335 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:332 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:342 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:339 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:349 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:345 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:352 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:364 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:359 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:370 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:367 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:379 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:374 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:386 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:380 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:393 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:389 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:402 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:396 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:408 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:403 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:414 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:412 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:420 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:418 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:427 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:424 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:435 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:430 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:441 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:437 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:445 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -905609,167 +905619,167 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:481 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:480 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:487 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:491 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:495 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:497 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:506 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:511 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:516 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:520 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:524 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:530 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:531 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:534 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:540 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:541 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:544 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:550 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:553 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:554 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:562 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:563 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:568 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:572 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:574 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:578 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:581 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:584 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:589 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:591 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:597 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:599 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:603 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:607 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:609 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:613 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:615 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:619 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:621 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:625 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:627 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:631 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:634 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:637 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:640 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:644 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:649 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:650 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:660 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:659 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:664 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:670 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:675 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:674 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:683 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:685 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:691 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:693 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:697 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:701 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:704 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:707 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -905779,17 +905789,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:722 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:724 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:730 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:732 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:741 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:740 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -905799,32 +905809,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:757 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:761 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:763 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:767 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:770 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:773 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:778 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:780 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:792 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
-
-## ⚠️ Warning
-
-- **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:798 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:788 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -905834,107 +905839,107 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:809 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:808 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:816 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:812 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:822 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:819 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:830 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:826 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:836 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:832 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:842 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:840 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:849 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:846 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:855 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:852 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:861 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:859 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:867 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:865 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:873 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:871 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:880 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:877 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:886 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:883 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:890 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:900 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:896 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:906 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:902 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:912 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:910 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:918 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:916 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:924 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:922 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:930 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:928 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:935 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:934 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -905944,7 +905949,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:945 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:945 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 ## ⚠️ Warning
 
@@ -905969,12 +905974,12 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:971 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:970 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:976 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:975 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -906009,17 +906014,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1014 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1011 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1019 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1016 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1024 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1024 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -906029,17 +906034,17 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1038 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1034 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1047 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1039 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1052 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1048 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
@@ -906049,12 +906054,22 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1063 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1062 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ## ⚠️ Warning
 
 - **Module :** titles
-- **Message :** server_rust/vendor/cc/CHANGELOG.md:1068 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1067 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1073 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+
+## ⚠️ Warning
+
+- **Module :** titles
+- **Message :** server_rust/vendor/cc/CHANGELOG.md:1078 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 ---
 
