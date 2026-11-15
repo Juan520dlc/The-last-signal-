@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-11-15 09:39:40
+**Date :** 2026-11-15 17:25:21
 
 # 64/100
 
@@ -469183,9 +469183,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** rust
+- **Message :** Function 'deserialize' sans documentation
+
+- **line :** 143
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Struct 'Fields' sans documentation
+
+- **line :** 152
+
+- **suggestion :** Ajoutez /// avant cette struct
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
 - **Message :** Enum 'UniformDurationMode' sans documentation
 
-- **line :** 140
+- **line :** 194
 
 - **suggestion :** Ajoutez /// avant cette enum
 
@@ -469195,7 +469215,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SampleUniform for Duration ' sans documentation
 
-- **line :** 155
+- **line :** 209
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -469205,7 +469225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'UniformSampler for UniformDuration ' sans documentation
 
-- **line :** 159
+- **line :** 213
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -469215,7 +469235,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
 
-- **line :** 163
+- **line :** 217
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469225,7 +469245,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'new_inclusive' sans documentation
 
-- **line :** 177
+- **line :** 231
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469235,7 +469255,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'sample' sans documentation
 
-- **line :** 230
+- **line :** 284
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469245,7 +469265,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
 
-- **line :** 261
+- **line :** 315
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -469255,7 +469275,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_serialization_uniform_duration' sans documentation
 
-- **line :** 267
+- **line :** 321
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469265,7 +469285,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_char' sans documentation
 
-- **line :** 276
+- **line :** 330
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469275,7 +469295,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_char_bad_deser' sans documentation
 
-- **line :** 318
+- **line :** 372
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469285,7 +469305,37 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'do_test' sans documentation
 
-- **line :** 319
+- **line :** 373
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_duration_bad_deser' sans documentation
+
+- **line :** 397
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'do_test' sans documentation
+
+- **line :** 398
+
+- **suggestion :** Ajoutez /// avant cette function
+
+- **module :** rust
+
+## ⚠️ Warning
+- **Module :** rust
+- **Message :** Function 'test_duration_large_narrow_range_roundtrip' sans documentation
+
+- **line :** 440
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -469295,7 +469345,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_durations' sans documentation
 
-- **line :** 343
+- **line :** 453
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470801,7 +470851,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'StdRng' sans documentation
 
-- **line :** 73
+- **line :** 78
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -470811,7 +470861,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryRng for StdRng ' sans documentation
 
-- **line :** 75
+- **line :** 80
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -470821,7 +470871,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_next_u32' sans documentation
 
-- **line :** 79
+- **line :** 84
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470831,7 +470881,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_next_u64' sans documentation
 
-- **line :** 84
+- **line :** 89
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470841,7 +470891,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_fill_bytes' sans documentation
 
-- **line :** 89
+- **line :** 94
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470851,7 +470901,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'SeedableRng for StdRng ' sans documentation
 
-- **line :** 94
+- **line :** 99
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -470861,7 +470911,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'from_seed' sans documentation
 
-- **line :** 99
+- **line :** 104
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470871,7 +470921,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryCryptoRng for StdRng ' sans documentation
 
-- **line :** 104
+- **line :** 109
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -470881,7 +470931,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 107
+- **line :** 112
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -470891,7 +470941,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_stdrng_construction' sans documentation
 
-- **line :** 112
+- **line :** 117
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470901,7 +470951,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_chacha_true_values_1' sans documentation
 
-- **line :** 132
+- **line :** 137
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470911,7 +470961,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_chacha_true_values_2' sans documentation
 
-- **line :** 160
+- **line :** 165
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470921,7 +470971,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_chacha_true_values_3' sans documentation
 
-- **line :** 186
+- **line :** 191
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470931,7 +470981,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_chacha_true_values_8' sans documentation
 
-- **line :** 212
+- **line :** 217
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -470941,7 +470991,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_chacha_counter' sans documentation
 
-- **line :** 245
+- **line :** 250
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471003,7 +471053,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Struct 'ThreadRng' sans documentation
 
-- **line :** 132
+- **line :** 151
 
 - **suggestion :** Ajoutez /// avant cette struct
 
@@ -471013,7 +471063,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'ThreadRng ' sans documentation
 
-- **line :** 137
+- **line :** 156
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -471023,7 +471073,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
 
-- **line :** 152
+- **line :** 174
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471033,7 +471083,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'Default for ThreadRng ' sans documentation
 
-- **line :** 206
+- **line :** 228
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -471043,7 +471093,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
 
-- **line :** 207
+- **line :** 229
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471053,7 +471103,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryRng for ThreadRng ' sans documentation
 
-- **line :** 212
+- **line :** 234
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -471063,7 +471113,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_next_u32' sans documentation
 
-- **line :** 216
+- **line :** 238
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471073,7 +471123,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_next_u64' sans documentation
 
-- **line :** 224
+- **line :** 246
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471083,7 +471133,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'try_fill_bytes' sans documentation
 
-- **line :** 232
+- **line :** 254
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471093,7 +471143,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Impl 'TryCryptoRng for ThreadRng ' sans documentation
 
-- **line :** 241
+- **line :** 263
 
 - **suggestion :** Ajoutez /// avant cette impl
 
@@ -471103,7 +471153,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
 
-- **line :** 244
+- **line :** 266
 
 - **suggestion :** Ajoutez /// avant cette mod
 
@@ -471113,7 +471163,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_thread_rng' sans documentation
 
-- **line :** 246
+- **line :** 268
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -471123,7 +471173,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'test_debug_output' sans documentation
 
-- **line :** 254
+- **line :** 276
 
 - **suggestion :** Ajoutez /// avant cette function
 
@@ -1266823,25 +1266873,25 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** markdown
-- **Message :** Ligne 44 > 120 caractères.
+- **Message :** Ligne 39 > 120 caractères.
 
 - **module :** markdown
 
 ## ⚠️ Warning
 - **Module :** markdown
-- **Message :** Ligne 73 > 120 caractères.
+- **Message :** Ligne 63 > 120 caractères.
 
 - **module :** markdown
 
 ## ⚠️ Warning
 - **Module :** markdown
-- **Message :** Ligne 79 > 120 caractères.
+- **Message :** Ligne 67 > 120 caractères.
 
 - **module :** markdown
 
 ## ⚠️ Warning
 - **Module :** markdown
-- **Message :** Ligne 83 > 120 caractères.
+- **Message :** Ligne 69 > 120 caractères.
 
 - **module :** markdown
 
@@ -1276061,7 +1276111,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/flexi_logger/CHANGELOG.md:896 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:380).
+- **Message :** server_rust/vendor/flexi_logger/CHANGELOG.md:896 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:387).
 
 - **module :** titles
 
@@ -1277033,7 +1277083,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/flume/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/flume/CHANGELOG.md:98 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1281773,7 +1281823,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/iana-time-zone/CHANGELOG.md:18 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1284175,7 +1284225,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:161 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1284307,7 +1284357,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/CHANGELOG.md:358 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/mio/CHANGELOG.md:358 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1284549,7 +1284599,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/mio/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:556).
+- **Message :** server_rust/vendor/mio/README.md:124 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:563).
 
 - **module :** titles
 
@@ -1287177,25 +1287227,19 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:355 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:362 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:885 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:892 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:941 titre sans ligne vide avant.
-
-- **module :** titles
-
-## ⚠️ Warning
-- **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:947 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:948 titre sans ligne vide avant.
 
 - **module :** titles
 
@@ -1287207,163 +1287251,169 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:960 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:961 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:964 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:967 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:976 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:971 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:989 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:983 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:994 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:996 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:999 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1001 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1010 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1006 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1015 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1017 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1023 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1022 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1032 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1030 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1040 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1039 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1045 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1047 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1050 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1052 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1055 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1057 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1063 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1062 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1071 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1070 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1076 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1078 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1081 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1083 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1087 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1088 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1092 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1094 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1097 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1099 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1105 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1104 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1114 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1112 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1122 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1121 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1141 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1129 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1175 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1148 titre sans ligne vide avant.
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1184 titre sans ligne vide avant.
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1182 titre sans ligne vide avant.
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1191 titre sans ligne vide avant.
 
 - **module :** titles
 
@@ -1287375,367 +1287425,367 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:28 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:20 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:31 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:35 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:42 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:38 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:51 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:49 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:96 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:657).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:58 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:99 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:103 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:657).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:108 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:106 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:111 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:115 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:114 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:118 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:129 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:104).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:121 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:138 titre dupliqué (déjà présent dans server_rust/vendor/parking_lot/README.md:25).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:136 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:218 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:145 titre dupliqué (déjà présent dans server_rust/vendor/parking_lot/README.md:25).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:224 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:225 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:302 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:231 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:314 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:309 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:329 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:321 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:336 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:343 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:348 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:350 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:353 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:355 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:357 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:360 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:365 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:310).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:364 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:398 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:372 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:317).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:442 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:405 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:447 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:449 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:450 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:454 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:455 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:457 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:458 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:462 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:463 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:35).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:465 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:466 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:470 titre dupliqué (déjà présent dans server_rust/vendor/bitflags/CHANGELOG.md:35).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:471 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:473 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:477 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:478 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:505 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:387).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:484 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:514 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:374).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:512 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:394).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:565 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:521 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:381).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:571 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:572 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:577 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:65).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:578 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:582 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:584 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:72).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:603 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:556).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:589 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:13).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:609 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:310).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:610 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:563).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:631 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:588).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:616 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:317).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:636 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:374).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:638 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:595).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:645 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:643 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:381).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:715 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:652 titre dupliqué (déjà présent dans server_rust/vendor/flate2/CHANGELOG.md:19).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:720 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:722 titre dupliqué (déjà présent dans server_rust/vendor/utf8_iter/README.md:30).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:725 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:727 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:730 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:732 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:735 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:624).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:737 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/README.md:238).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:807 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:739).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:742 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:631).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:819 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:387).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:814 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:746).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:887 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:556).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:826 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:394).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:892 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:894 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:563).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:899 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:899 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:904 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:906 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:909 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:911 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:916 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:916 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:921 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:923 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:927 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:928 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:930 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:657).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:934 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:941 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:937 titre dupliqué (déjà présent dans server_rust/vendor/getrandom/CHANGELOG.md:657).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:947 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:948 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
@@ -1287747,259 +1287797,265 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:960 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:961 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:964 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:967 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:969 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:971 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:976 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:976 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:980 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:983 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:984 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:987 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:989 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:991 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:994 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:996 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:999 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1001 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1005 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1006 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1010 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1012 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1015 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1017 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1018 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1022 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1023 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1025 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1026 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1030 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1032 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1033 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1035 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1039 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1040 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1042 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1045 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1047 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1050 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1052 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1055 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1057 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1058 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1062 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1063 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1065 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1071 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1070 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1076 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1078 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1081 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1083 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1087 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1088 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1092 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1094 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1097 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1099 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1100 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1104 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1105 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1107 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1114 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1112 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1117 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1121 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1122 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1124 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1128 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1129 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1132 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1135 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1136 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1139 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1141 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1143 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1146 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1148 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1156 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1153 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1175 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1163 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:115).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1179 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1182 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:17).
 
 - **module :** titles
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand/CHANGELOG.md:1184 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1186 titre dupliqué (déjà présent dans server_rust/vendor/hashbrown-0.16.1/CHANGELOG.md:111).
+
+- **module :** titles
+
+## ⚠️ Warning
+- **Module :** titles
+- **Message :** server_rust/vendor/rand/CHANGELOG.md:1191 titre dupliqué (déjà présent dans CHANGELOG_ENG.md:9).
 
 - **module :** titles
 
@@ -1288201,7 +1288257,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:127).
+- **Message :** server_rust/vendor/rand_core/CHANGELOG.md:119 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:134).
 
 - **module :** titles
 
@@ -1290773,7 +1290829,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1925 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:1925 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1290785,7 +1290841,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2143 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/sqlx/CHANGELOG.md:2143 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1293697,7 +1293753,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1063 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1063 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1293745,7 +1293801,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1177 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1177 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1293781,7 +1293837,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1242 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:1242 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1294693,7 +1294749,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3307 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3307 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1294717,7 +1294773,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3347 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:3347 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1295059,7 +1295115,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4049 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4049 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1295089,7 +1295145,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4161 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4161 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1295143,7 +1295199,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4302 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4302 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
@@ -1295275,7 +1295331,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ## ⚠️ Warning
 - **Module :** titles
-- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4605 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:18).
+- **Message :** server_rust/vendor/tokio/CHANGELOG.md:4605 titre dupliqué (déjà présent dans server_rust/vendor/rand/CHANGELOG.md:25).
 
 - **module :** titles
 
