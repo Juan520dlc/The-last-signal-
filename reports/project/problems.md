@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-11-19 21:50:26
+Generated: 2026-11-20 03:34:00
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|469|
-|⚠️ Warnings|157955|
-|**Total**|**158430**|
+|⚠️ Warnings|157962|
+|**Total**|**158437**|
 
 ---
 
@@ -342003,98 +342003,98 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 609
+- **line :** 611
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1311
+- **line :** 1313
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1334
+- **line :** 1336
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__drop_inner' sans documentation
-- **line :** 1345
+- **line :** 1347
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function '__drop_inner' sans documentation
-- **line :** 1364
+- **line :** 1366
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Trait 'MustNotImplDrop' sans documentation
-- **line :** 1391
+- **line :** 1393
 - **suggestion :** Ajoutez /// avant cette trait
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod '__private' sans documentation
-- **line :** 1697
+- **line :** 1699
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Trait 'PinnedFieldsOfHelperTrait' sans documentation
-- **line :** 1715
+- **line :** 1717
 - **suggestion :** Ajoutez /// avant cette trait
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'PinnedFieldsOfHelperStruct' sans documentation
-- **line :** 1719
+- **line :** 1721
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'AlwaysUnpin' sans documentation
-- **line :** 1726
+- **line :** 1728
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'UnsafeDropInPlaceGuard' sans documentation
-- **line :** 1731
+- **line :** 1733
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1739
+- **line :** 1741
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'UnsafeOverwriteGuard' sans documentation
-- **line :** 1751
+- **line :** 1753
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 1762
+- **line :** 1764
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342281,7 +342281,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 166
+- **line :** 168
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342359,14 +342359,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 102
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 107
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342430,7 +342430,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 102
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342522,14 +342522,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 167
+- **line :** 169
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 174
+- **line :** 176
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342621,7 +342621,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 166
+- **line :** 168
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342685,7 +342685,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 76
+- **line :** 78
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342735,7 +342735,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 33
+- **line :** 35
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342799,7 +342799,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 76
+- **line :** 78
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342891,14 +342891,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 146
+- **line :** 148
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 151
+- **line :** 153
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -342976,14 +342976,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 102
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 107
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -343061,14 +343061,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 102
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 107
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -343146,14 +343146,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 102
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 107
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -343224,7 +343224,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 114
+- **line :** 116
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -343295,14 +343295,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 98
+- **line :** 100
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 103
+- **line :** 105
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -343585,7 +343585,7 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 118
+- **line :** 120
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -343663,14 +343663,14 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function '__assert_not_repr_packed' sans documentation
-- **line :** 102
+- **line :** 104
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
-- **line :** 107
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -344437,6 +344437,31 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 ---
 
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui-disabled/pin_project/packed.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'Packed' sans documentation
+- **line :** 7
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'PackedN' sans documentation
+- **line :** 15
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'main' sans documentation
+- **line :** 21
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
 # 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/not_unpin/conflict-unpin.rs
 
 ## ⚠️ Warning
@@ -344511,6 +344536,59 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
 - **line :** 20
+- **suggestion :** Ajoutez /// avant cette function
+
+---
+
+# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'TraitObject' sans documentation
+- **line :** 6
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Drop for TraitObject ' sans documentation
+- **line :** 12
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 13
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'Slice' sans documentation
+- **line :** 17
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Impl 'Drop for Slice ' sans documentation
+- **line :** 23
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop' sans documentation
+- **line :** 24
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'main' sans documentation
+- **line :** 27
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -344812,31 +344890,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 - **Module :** rust
 - **Message :** Function 'main' sans documentation
 - **line :** 20
-- **suggestion :** Ajoutez /// avant cette function
-
----
-
-# 📄 /home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/packed.rs
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'Packed' sans documentation
-- **line :** 7
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Struct 'PackedN' sans documentation
-- **line :** 15
-- **suggestion :** Ajoutez /// avant cette struct
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'main' sans documentation
-- **line :** 21
 - **suggestion :** Ajoutez /// avant cette function
 
 ---

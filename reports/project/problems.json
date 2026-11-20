@@ -495519,7 +495519,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 609,
+        "line": 611,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -495527,7 +495527,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1311,
+        "line": 1313,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -495535,7 +495535,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1334,
+        "line": 1336,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -495543,7 +495543,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1345,
+        "line": 1347,
         "severity": "warning",
         "message": "Function '__drop_inner' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -495551,7 +495551,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1364,
+        "line": 1366,
         "severity": "warning",
         "message": "Function '__drop_inner' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -495559,7 +495559,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1391,
+        "line": 1393,
         "severity": "warning",
         "message": "Trait 'MustNotImplDrop' sans documentation",
         "suggestion": "Ajoutez /// avant cette trait",
@@ -495567,7 +495567,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1697,
+        "line": 1699,
         "severity": "warning",
         "message": "Mod '__private' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -495575,7 +495575,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1715,
+        "line": 1717,
         "severity": "warning",
         "message": "Trait 'PinnedFieldsOfHelperTrait' sans documentation",
         "suggestion": "Ajoutez /// avant cette trait",
@@ -495583,7 +495583,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1719,
+        "line": 1721,
         "severity": "warning",
         "message": "Struct 'PinnedFieldsOfHelperStruct' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -495591,7 +495591,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1726,
+        "line": 1728,
         "severity": "warning",
         "message": "Struct 'AlwaysUnpin' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -495599,7 +495599,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1731,
+        "line": 1733,
         "severity": "warning",
         "message": "Struct 'UnsafeDropInPlaceGuard' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -495607,7 +495607,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1739,
+        "line": 1741,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -495615,7 +495615,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1751,
+        "line": 1753,
         "severity": "warning",
         "message": "Struct 'UnsafeOverwriteGuard' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -495623,7 +495623,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/src/lib.rs",
-        "line": 1762,
+        "line": 1764,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -496854,6 +496854,62 @@
         "module": "rust"
     },
     {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 6,
+        "severity": "warning",
+        "message": "Struct 'TraitObject' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 12,
+        "severity": "warning",
+        "message": "Impl 'Drop for TraitObject ' sans documentation",
+        "suggestion": "Ajoutez /// avant cette impl",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 13,
+        "severity": "warning",
+        "message": "Function 'drop' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 17,
+        "severity": "warning",
+        "message": "Struct 'Slice' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 23,
+        "severity": "warning",
+        "message": "Impl 'Drop for Slice ' sans documentation",
+        "suggestion": "Ajoutez /// avant cette impl",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 24,
+        "severity": "warning",
+        "message": "Function 'drop' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop-unsized.rs",
+        "line": 27,
+        "severity": "warning",
+        "message": "Function 'main' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/invalid.rs",
         "line": 6,
         "severity": "warning",
@@ -496944,30 +497000,6 @@
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-drop.rs",
         "line": 17,
-        "severity": "warning",
-        "message": "Function 'main' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/packed.rs",
-        "line": 7,
-        "severity": "warning",
-        "message": "Struct 'Packed' sans documentation",
-        "suggestion": "Ajoutez /// avant cette struct",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/packed.rs",
-        "line": 15,
-        "severity": "warning",
-        "message": "Struct 'PackedN' sans documentation",
-        "suggestion": "Ajoutez /// avant cette struct",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/packed.rs",
-        "line": 21,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497072,6 +497104,30 @@
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui/pin_project/conflict-unpin.rs",
         "line": 66,
+        "severity": "warning",
+        "message": "Function 'main' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui-disabled/pin_project/packed.rs",
+        "line": 7,
+        "severity": "warning",
+        "message": "Struct 'Packed' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui-disabled/pin_project/packed.rs",
+        "line": 15,
+        "severity": "warning",
+        "message": "Struct 'PackedN' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/ui-disabled/pin_project/packed.rs",
+        "line": 21,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497191,7 +497247,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/pub/struct.expanded.rs",
-        "line": 102,
+        "line": 104,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497199,7 +497255,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/pub/struct.expanded.rs",
-        "line": 107,
+        "line": 109,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497263,7 +497319,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/pub/enum.expanded.rs",
-        "line": 118,
+        "line": 120,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497423,7 +497479,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-all.expanded.rs",
-        "line": 146,
+        "line": 148,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497431,7 +497487,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-all.expanded.rs",
-        "line": 151,
+        "line": 153,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497495,7 +497551,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-none.expanded.rs",
-        "line": 102,
+        "line": 104,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497503,7 +497559,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-none.expanded.rs",
-        "line": 107,
+        "line": 109,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497535,7 +497591,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/enum-none.expanded.rs",
-        "line": 33,
+        "line": 35,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497599,7 +497655,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-mut.expanded.rs",
-        "line": 102,
+        "line": 104,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497607,7 +497663,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-mut.expanded.rs",
-        "line": 107,
+        "line": 109,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497703,7 +497759,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/enum-all.expanded.rs",
-        "line": 166,
+        "line": 168,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497751,7 +497807,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/enum-mut.expanded.rs",
-        "line": 76,
+        "line": 78,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497831,7 +497887,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-ref.expanded.rs",
-        "line": 102,
+        "line": 104,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497839,7 +497895,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/struct-ref.expanded.rs",
-        "line": 107,
+        "line": 109,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -497919,7 +497975,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/naming/enum-ref.expanded.rs",
-        "line": 76,
+        "line": 78,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498015,7 +498071,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/multifields/struct.expanded.rs",
-        "line": 167,
+        "line": 169,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498023,7 +498079,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/multifields/struct.expanded.rs",
-        "line": 174,
+        "line": 176,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498071,7 +498127,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/multifields/enum.expanded.rs",
-        "line": 102,
+        "line": 104,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498383,7 +498439,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/default/struct.expanded.rs",
-        "line": 102,
+        "line": 104,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498391,7 +498447,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/default/struct.expanded.rs",
-        "line": 107,
+        "line": 109,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498471,7 +498527,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/default/enum.expanded.rs",
-        "line": 166,
+        "line": 168,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498559,7 +498615,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/not_unpin/struct.expanded.rs",
-        "line": 98,
+        "line": 100,
         "severity": "warning",
         "message": "Function '__assert_not_repr_packed' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498567,7 +498623,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/not_unpin/struct.expanded.rs",
-        "line": 103,
+        "line": 105,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -498623,7 +498679,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/pin-project-lite/tests/expand/not_unpin/enum.expanded.rs",
-        "line": 114,
+        "line": 116,
         "severity": "warning",
         "message": "Function 'main' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
