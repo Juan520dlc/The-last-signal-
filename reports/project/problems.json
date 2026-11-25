@@ -1088,12 +1088,6 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 23 > 120 caractères.",
-        "module": "markdown"
-    },
-    {
-        "file": "lychee/out.md",
-        "severity": "warning",
         "message": "Ligne 44 > 120 caractères.",
         "module": "markdown"
     },

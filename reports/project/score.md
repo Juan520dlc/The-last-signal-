@@ -1,6 +1,6 @@
 Documentation Quality Report
 
-**Date :** 2026-11-25 02:44:12
+**Date :** 2026-11-25 22:47:57
 
 # 64/100
 
@@ -1539196,12 +1539196,6 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 - **Module :** markdown
 - **Message :** Ligne 19 > 120 caractères.
-
-- **module :** markdown
-
-## ⚠️ Warning
-- **Module :** markdown
-- **Message :** Ligne 23 > 120 caractères.
 
 - **module :** markdown
 
