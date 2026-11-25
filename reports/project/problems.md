@@ -1,14 +1,14 @@
 # 📚 Documentation Problems
 
-Generated: 2026-11-24 06:36:40
+Generated: 2026-11-25 02:44:28
 
 ## Summary
 
 |Type|Count|
 |---|---:|
 |❌ Errors|469|
-|⚠️ Warnings|157974|
-|**Total**|**158449**|
+|⚠️ Warnings|158000|
+|**Total**|**158475**|
 
 ---
 
@@ -54738,35 +54738,35 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'shift' sans documentation
-- **line :** 82
+- **line :** 86
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'combine' sans documentation
-- **line :** 89
+- **line :** 93
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fold_keys_match_the_x86_constants' sans documentation
-- **line :** 110
+- **line :** 114
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'shift_table_appends_zeros' sans documentation
-- **line :** 118
+- **line :** 122
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'golden' sans documentation
-- **line :** 135
+- **line :** 139
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55005,42 +55005,42 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'has_pmull' sans documentation
-- **line :** 52
+- **line :** 58
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'quad' sans documentation
-- **line :** 79
+- **line :** 85
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 301
+- **line :** 320
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'picks_the_expected_kernel' sans documentation
-- **line :** 319
+- **line :** 338
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
-- **line :** 334
+- **line :** 354
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
-- **line :** 352
+- **line :** 372
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -55103,78 +55103,99 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Struct 'State' sans documentation
+- **Message :** Impl 'Kind ' sans documentation
 - **line :** 40
+- **suggestion :** Ajoutez /// avant cette impl
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'encode' sans documentation
+- **line :** 43
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'decode' sans documentation
+- **line :** 56
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'State' sans documentation
+- **line :** 72
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'State ' sans documentation
-- **line :** 44
+- **line :** 76
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect' sans documentation
-- **line :** 47
+- **line :** 79
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'detect' sans documentation
-- **line :** 71
+- **line :** 106
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'detect_uncached' sans documentation
+- **line :** 124
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 94
+- **line :** 147
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'update' sans documentation
-- **line :** 100
+- **line :** 153
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'get' sans documentation
-- **line :** 444
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'partial_words' sans documentation
-- **line :** 475
+- **line :** 466
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 495
+- **line :** 494
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_against_baseline' sans documentation
-- **line :** 497
+- **line :** 496
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'check_large_inputs_against_baseline' sans documentation
-- **line :** 519
+- **line :** 518
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1081321,49 +1081342,49 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'adler32_neon' sans documentation
-- **line :** 25
+- **line :** 27
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'handle_tail' sans documentation
-- **line :** 87
+- **line :** 89
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 233
+- **line :** 235
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'adler32_neon_is_adler32_rust' sans documentation
-- **line :** 237
+- **line :** 239
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'start_alignment' sans documentation
-- **line :** 257
+- **line :** 259
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'large_input' sans documentation
-- **line :** 270
+- **line :** 272
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'carry_in_with_unaligned_before_no_overflow' sans documentation
-- **line :** 282
+- **line :** 284
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1082112,91 +1082133,91 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'crc32_braid' sans documentation
-- **line :** 86
+- **line :** 88
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'braid_core' sans documentation
-- **line :** 132
+- **line :** 134
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 140
+- **line :** 142
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'crc32_naive' sans documentation
-- **line :** 143
+- **line :** 145
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'crc32_words' sans documentation
-- **line :** 149
+- **line :** 151
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'empty_is_identity' sans documentation
-- **line :** 160
+- **line :** 162
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'words_endianness' sans documentation
-- **line :** 165
+- **line :** 167
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'crc32_naive_inner_endianness_and_alignment' sans documentation
-- **line :** 175
+- **line :** 177
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'naive_is_crc32fast' sans documentation
-- **line :** 190
+- **line :** 192
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'words_is_crc32fast' sans documentation
-- **line :** 196
+- **line :** 198
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'braid_4_is_crc32fast' sans documentation
-- **line :** 203
+- **line :** 205
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'braid_5_is_crc32fast' sans documentation
-- **line :** 210
+- **line :** 212
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'braid_6_is_crc32fast' sans documentation
-- **line :** 217
+- **line :** 219
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1083483,134 +1083504,141 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'compare256_quick_slice' sans documentation
+- **line :** 20
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'compare256' sans documentation
-- **line :** 11
+- **line :** 36
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compare256_rle_slice' sans documentation
-- **line :** 41
+- **line :** 66
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'rust' sans documentation
-- **line :** 56
+- **line :** 81
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compare256' sans documentation
-- **line :** 58
+- **line :** 83
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compare256_rle' sans documentation
-- **line :** 64
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'test_compare256' sans documentation
 - **line :** 89
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'test_compare256' sans documentation
+- **line :** 114
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'test_compare256_rle' sans documentation
-- **line :** 104
+- **line :** 130
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'neon' sans documentation
-- **line :** 119
+- **line :** 145
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_compare256' sans documentation
-- **line :** 207
+- **line :** 233
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'avx2' sans documentation
-- **line :** 225
+- **line :** 251
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_compare256' sans documentation
-- **line :** 267
+- **line :** 293
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'avx512' sans documentation
-- **line :** 286
+- **line :** 312
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_compare256' sans documentation
-- **line :** 354
+- **line :** 380
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'lsx' sans documentation
-- **line :** 372
+- **line :** 398
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compare256' sans documentation
-- **line :** 376
+- **line :** 402
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_compare256' sans documentation
-- **line :** 407
+- **line :** 433
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'wasm32' sans documentation
-- **line :** 425
+- **line :** 451
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'compare256' sans documentation
-- **line :** 429
+- **line :** 455
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_compare256' sans documentation
-- **line :** 455
+- **line :** 481
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1083750,22 +1083778,29 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'longest_match' sans documentation
+- **line :** 8
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'longest_match_slow' sans documentation
-- **line :** 11
+- **line :** 13
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'longest_match_help' sans documentation
-- **line :** 15
+- **line :** 18
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'break_matching' sans documentation
-- **line :** 348
+- **line :** 351
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1083790,21 +1083825,21 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'pending' sans documentation
-- **line :** 22
+- **line :** 23
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'rewind' sans documentation
-- **line :** 54
+- **line :** 55
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend' sans documentation
-- **line :** 66
+- **line :** 67
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1084205,161 +1084240,168 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'dispatch' sans documentation
-- **line :** 896
+- **line :** 897
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'bad' sans documentation
-- **line :** 1841
+- **line :** 1844
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'inflate_leave' sans documentation
-- **line :** 1850
+- **line :** 1853
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'prime' sans documentation
-- **line :** 2160
+- **line :** 2163
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'InflateAllocOffsets' sans documentation
-- **line :** 2174
+- **line :** 2177
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'InflateAllocOffsets ' sans documentation
-- **line :** 2180
+- **line :** 2183
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'new' sans documentation
-- **line :** 2181
+- **line :** 2184
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'InflateConfig' sans documentation
-- **line :** 2220
+- **line :** 2223
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Default for InflateConfig ' sans documentation
-- **line :** 2224
+- **line :** 2227
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'default' sans documentation
-- **line :** 2225
+- **line :** 2228
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'reset_with_config' sans documentation
-- **line :** 2298
+- **line :** 2303
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'reset' sans documentation
-- **line :** 2329
+- **line :** 2341
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'reset_keep' sans documentation
-- **line :** 2338
+- **line :** 2350
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'codes_used' sans documentation
-- **line :** 2372
+- **line :** 2384
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'syncsearch' sans documentation
-- **line :** 2459
+- **line :** 2471
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sync' sans documentation
-- **line :** 2477
+- **line :** 2489
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'sync_point' sans documentation
-- **line :** 2537
+- **line :** 2553
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'undermine' sans documentation
-- **line :** 2588
+- **line :** 2604
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'mark' sans documentation
-- **line :** 2605
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'set_dictionary' sans documentation
 - **line :** 2621
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'set_dictionary' sans documentation
+- **line :** 2637
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'end' sans documentation
-- **line :** 2648
+- **line :** 2664
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'tests' sans documentation
-- **line :** 2714
+- **line :** 2730
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'uncompress_buffer_overflow' sans documentation
-- **line :** 2718
+- **line :** 2734
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'check_total_wraps' sans documentation
+- **line :** 2752
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1084606,126 +1084648,133 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'into_raw_parts' sans documentation
-- **line :** 22
+- **line :** 23
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'is_empty' sans documentation
-- **line :** 34
+- **line :** 47
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'size' sans documentation
-- **line :** 45
+- **line :** 58
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_size' sans documentation
+- **line :** 62
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'empty' sans documentation
-- **line :** 65
+- **line :** 81
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'clear' sans documentation
-- **line :** 73
+- **line :** 90
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'as_slice' sans documentation
-- **line :** 78
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'as_ptr' sans documentation
-- **line :** 82
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'as_mut_ptr' sans documentation
-- **line :** 86
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extend_adler32' sans documentation
-- **line :** 91
-- **suggestion :** Ajoutez /// avant cette function
-
-## ⚠️ Warning
-
-- **Module :** rust
-- **Message :** Function 'extend' sans documentation
 - **line :** 95
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'as_ptr' sans documentation
+- **line :** 99
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'as_mut_ptr' sans documentation
+- **line :** 103
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'extend_adler32' sans documentation
+- **line :** 108
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'extend' sans documentation
+- **line :** 112
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'new_in' sans documentation
-- **line :** 171
+- **line :** 188
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'padding' sans documentation
-- **line :** 195
+- **line :** 214
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 201
+- **line :** 220
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'alloc_window' sans documentation
-- **line :** 204
+- **line :** 223
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'window_init' sans documentation
-- **line :** 212
+- **line :** 231
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend_in_bounds' sans documentation
-- **line :** 227
+- **line :** 246
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend_crosses_bounds' sans documentation
-- **line :** 257
+- **line :** 276
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend_out_of_bounds' sans documentation
-- **line :** 287
+- **line :** 306
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1084820,126 +1084869,126 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Function 'extend_from_window_runtime_dispatch' sans documentation
-- **line :** 122
+- **line :** 123
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend_from_window_help' sans documentation
-- **line :** 163
+- **line :** 164
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'extend_from_window_back' sans documentation
-- **line :** 197
+- **line :** 198
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match' sans documentation
-- **line :** 212
+- **line :** 213
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match_with_features' sans documentation
-- **line :** 217
+- **line :** 218
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match_runtime_dispatch' sans documentation
-- **line :** 229
+- **line :** 231
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match_help' sans documentation
-- **line :** 266
+- **line :** 268
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match_back' sans documentation
-- **line :** 303
+- **line :** 305
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_chunked_within' sans documentation
-- **line :** 331
+- **line :** 333
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'fmt' sans documentation
-- **line :** 415
+- **line :** 417
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'fmt' sans documentation
-- **line :** 416
+- **line :** 418
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'slice_to_uninit' sans documentation
-- **line :** 425
+- **line :** 427
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'test' sans documentation
-- **line :** 430
+- **line :** 432
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_array' sans documentation
-- **line :** 436
+- **line :** 438
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'test_copy_match' sans documentation
-- **line :** 440
+- **line :** 442
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_chunk_unchecked' sans documentation
-- **line :** 464
+- **line :** 466
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match' sans documentation
-- **line :** 515
+- **line :** 517
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'copy_match_insufficient_space_for_simd' sans documentation
-- **line :** 524
+- **line :** 526
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1084950,175 +1084999,175 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Mod 'adler32' sans documentation
-- **line :** 11
+- **line :** 7
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'crc32' sans documentation
+- **line :** 8
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'allocate' sans documentation
 - **line :** 12
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
-- **Message :** Mod 'allocate' sans documentation
-- **line :** 16
-- **suggestion :** Ajoutez /// avant cette mod
-
-## ⚠️ Warning
-
-- **Module :** rust
 - **Message :** Mod 'c_api' sans documentation
-- **line :** 17
+- **line :** 13
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'deflate' sans documentation
-- **line :** 18
+- **line :** 14
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'inflate' sans documentation
-- **line :** 19
+- **line :** 15
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'allocate' sans documentation
-- **line :** 25
+- **line :** 21
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'c_api' sans documentation
-- **line :** 26
+- **line :** 22
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'deflate' sans documentation
-- **line :** 27
+- **line :** 23
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'inflate' sans documentation
-- **line :** 28
+- **line :** 24
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'cpu_features' sans documentation
-- **line :** 35
+- **line :** 31
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'stable' sans documentation
-- **line :** 36
+- **line :** 32
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Mod 'weak_slice' sans documentation
-- **line :** 37
+- **line :** 33
 - **suggestion :** Ajoutez /// avant cette mod
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'DeflateFlush' sans documentation
-- **line :** 113
+- **line :** 109
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'TryFrom<i32> for DeflateFlush ' sans documentation
-- **line :** 173
+- **line :** 169
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 176
+- **line :** 172
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'InflateFlush' sans documentation
-- **line :** 190
+- **line :** 186
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'TryFrom<i32> for InflateFlush ' sans documentation
-- **line :** 199
+- **line :** 195
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'try_from' sans documentation
-- **line :** 202
+- **line :** 198
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Struct 'Code' sans documentation
-- **line :** 215
+- **line :** 211
 - **suggestion :** Ajoutez /// avant cette struct
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'ReturnCode' sans documentation
-- **line :** 226
+- **line :** 222
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<i32> for ReturnCode ' sans documentation
-- **line :** 238
+- **line :** 234
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 239
+- **line :** 235
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'ReturnCode ' sans documentation
-- **line :** 247
+- **line :** 243
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'error_message_str' sans documentation
-- **line :** 248
+- **line :** 244
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1085171,98 +1085220,224 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 
 - **Module :** rust
 - **Message :** Impl 'Inflate ' sans documentation
-- **line :** 76
+- **line :** 86
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'stream' sans documentation
+- **line :** 87
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Function 'set_dictionary' sans documentation
-- **line :** 207
+- **line :** 226
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Drop for Inflate ' sans documentation
-- **line :** 217
+- **line :** 236
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 218
+- **line :** 237
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Enum 'DeflateError' sans documentation
-- **line :** 225
+- **line :** 244
 - **suggestion :** Ajoutez /// avant cette enum
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<DeflateError> for ReturnCode ' sans documentation
-- **line :** 235
+- **line :** 254
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 236
+- **line :** 255
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'DeflateError ' sans documentation
-- **line :** 245
+- **line :** 264
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'as_str' sans documentation
-- **line :** 246
+- **line :** 265
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'From<ReturnCode> for Result<Status, DeflateError> ' sans documentation
-- **line :** 251
+- **line :** 270
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'from' sans documentation
-- **line :** 252
+- **line :** 271
 - **suggestion :** Ajoutez /// avant cette function
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Impl 'Deflate ' sans documentation
-- **line :** 274
+- **line :** 301
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
+- **Message :** Function 'stream' sans documentation
+- **line :** 302
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
 - **Message :** Impl 'Drop for Deflate ' sans documentation
-- **line :** 422
+- **line :** 470
 - **suggestion :** Ajoutez /// avant cette impl
 
 ## ⚠️ Warning
 
 - **Module :** rust
 - **Message :** Function 'drop' sans documentation
-- **line :** 423
+- **line :** 471
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Mod 'test' sans documentation
+- **line :** 477
+- **suggestion :** Ajoutez /// avant cette mod
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'send_sync' sans documentation
+- **line :** 481
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'assert_send_sync' sans documentation
+- **line :** 482
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'compress' sans documentation
+- **line :** 490
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'decompress' sans documentation
+- **line :** 504
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'round_trip' sans documentation
+- **line :** 519
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'reuse_after_reset' sans documentation
+- **line :** 524
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'reuse_after_error' sans documentation
+- **line :** 543
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'usable_after_being_moved' sans documentation
+- **line :** 568
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop_by_value' sans documentation
+- **line :** 587
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop_nested_by_value' sans documentation
+- **line :** 594
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Struct 'Wrapper' sans documentation
+- **line :** 595
+- **suggestion :** Ajoutez /// avant cette struct
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop_by_value_after_use' sans documentation
+- **line :** 608
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'drop_without_being_passed_by_value' sans documentation
+- **line :** 621
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_level_after_sync_flush_changes_deflate_function' sans documentation
+- **line :** 632
+- **suggestion :** Ajoutez /// avant cette function
+
+## ⚠️ Warning
+
+- **Module :** rust
+- **Message :** Function 'set_level_without_flush_reports_buf_error' sans documentation
+- **line :** 643
 - **suggestion :** Ajoutez /// avant cette function
 
 ---
@@ -1096781,22 +1096956,27 @@ UnboundLocalError: cannot access local variable 'score' where it is not associat
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 39 > 120 caractères.
+- **Message :** Ligne 23 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 63 > 120 caractères.
+- **Message :** Ligne 44 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 67 > 120 caractères.
+- **Message :** Ligne 73 > 120 caractères.
 
 ## ⚠️ Warning
 
 - **Module :** markdown
-- **Message :** Ligne 69 > 120 caractères.
+- **Message :** Ligne 79 > 120 caractères.
+
+## ⚠️ Warning
+
+- **Module :** markdown
+- **Message :** Ligne 83 > 120 caractères.
 
 ---
 

@@ -1088,25 +1088,31 @@
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 39 > 120 caractères.",
+        "message": "Ligne 23 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 63 > 120 caractères.",
+        "message": "Ligne 44 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 67 > 120 caractères.",
+        "message": "Ligne 73 > 120 caractères.",
         "module": "markdown"
     },
     {
         "file": "lychee/out.md",
         "severity": "warning",
-        "message": "Ligne 69 > 120 caractères.",
+        "message": "Ligne 79 > 120 caractères.",
+        "module": "markdown"
+    },
+    {
+        "file": "lychee/out.md",
+        "severity": "warning",
+        "message": "Ligne 83 > 120 caractères.",
         "module": "markdown"
     },
     {
@@ -972723,7 +972729,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 76,
+        "line": 86,
         "severity": "warning",
         "message": "Impl 'Inflate ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972731,7 +972737,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 207,
+        "line": 87,
+        "severity": "warning",
+        "message": "Function 'stream' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 226,
         "severity": "warning",
         "message": "Function 'set_dictionary' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -972739,7 +972753,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 217,
+        "line": 236,
         "severity": "warning",
         "message": "Impl 'Drop for Inflate ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972747,7 +972761,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 218,
+        "line": 237,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -972755,7 +972769,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 225,
+        "line": 244,
         "severity": "warning",
         "message": "Enum 'DeflateError' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -972763,7 +972777,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 235,
+        "line": 254,
         "severity": "warning",
         "message": "Impl 'From<DeflateError> for ReturnCode ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972771,7 +972785,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 236,
+        "line": 255,
         "severity": "warning",
         "message": "Function 'from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -972779,7 +972793,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 245,
+        "line": 264,
         "severity": "warning",
         "message": "Impl 'DeflateError ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972787,7 +972801,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 246,
+        "line": 265,
         "severity": "warning",
         "message": "Function 'as_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -972795,7 +972809,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 251,
+        "line": 270,
         "severity": "warning",
         "message": "Impl 'From<ReturnCode> for Result<Status, DeflateError> ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972803,7 +972817,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 252,
+        "line": 271,
         "severity": "warning",
         "message": "Function 'from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -972811,7 +972825,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 274,
+        "line": 301,
         "severity": "warning",
         "message": "Impl 'Deflate ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972819,7 +972833,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 422,
+        "line": 302,
+        "severity": "warning",
+        "message": "Function 'stream' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 470,
         "severity": "warning",
         "message": "Impl 'Drop for Deflate ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -972827,9 +972849,137 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
-        "line": 423,
+        "line": 471,
         "severity": "warning",
         "message": "Function 'drop' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 477,
+        "severity": "warning",
+        "message": "Mod 'test' sans documentation",
+        "suggestion": "Ajoutez /// avant cette mod",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 481,
+        "severity": "warning",
+        "message": "Function 'send_sync' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 482,
+        "severity": "warning",
+        "message": "Function 'assert_send_sync' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 490,
+        "severity": "warning",
+        "message": "Function 'compress' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 504,
+        "severity": "warning",
+        "message": "Function 'decompress' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 519,
+        "severity": "warning",
+        "message": "Function 'round_trip' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 524,
+        "severity": "warning",
+        "message": "Function 'reuse_after_reset' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 543,
+        "severity": "warning",
+        "message": "Function 'reuse_after_error' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 568,
+        "severity": "warning",
+        "message": "Function 'usable_after_being_moved' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 587,
+        "severity": "warning",
+        "message": "Function 'drop_by_value' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 594,
+        "severity": "warning",
+        "message": "Function 'drop_nested_by_value' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 595,
+        "severity": "warning",
+        "message": "Struct 'Wrapper' sans documentation",
+        "suggestion": "Ajoutez /// avant cette struct",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 608,
+        "severity": "warning",
+        "message": "Function 'drop_by_value_after_use' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 621,
+        "severity": "warning",
+        "message": "Function 'drop_without_being_passed_by_value' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 632,
+        "severity": "warning",
+        "message": "Function 'set_level_after_sync_flush_changes_deflate_function' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/stable.rs",
+        "line": 643,
+        "severity": "warning",
+        "message": "Function 'set_level_without_flush_reports_buf_error' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -974739,7 +974889,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 896,
+        "line": 897,
         "severity": "warning",
         "message": "Function 'dispatch' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974747,7 +974897,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 1841,
+        "line": 1844,
         "severity": "warning",
         "message": "Function 'bad' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974755,7 +974905,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 1850,
+        "line": 1853,
         "severity": "warning",
         "message": "Function 'inflate_leave' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974763,7 +974913,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2160,
+        "line": 2163,
         "severity": "warning",
         "message": "Function 'prime' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974771,7 +974921,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2174,
+        "line": 2177,
         "severity": "warning",
         "message": "Struct 'InflateAllocOffsets' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -974779,7 +974929,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2180,
+        "line": 2183,
         "severity": "warning",
         "message": "Impl 'InflateAllocOffsets ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -974787,7 +974937,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2181,
+        "line": 2184,
         "severity": "warning",
         "message": "Function 'new' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974795,7 +974945,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2220,
+        "line": 2223,
         "severity": "warning",
         "message": "Struct 'InflateConfig' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -974803,7 +974953,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2224,
+        "line": 2227,
         "severity": "warning",
         "message": "Impl 'Default for InflateConfig ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -974811,7 +974961,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2225,
+        "line": 2228,
         "severity": "warning",
         "message": "Function 'default' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974819,7 +974969,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2298,
+        "line": 2303,
         "severity": "warning",
         "message": "Function 'reset_with_config' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974827,7 +974977,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2329,
+        "line": 2341,
         "severity": "warning",
         "message": "Function 'reset' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974835,7 +974985,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2338,
+        "line": 2350,
         "severity": "warning",
         "message": "Function 'reset_keep' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974843,7 +974993,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2372,
+        "line": 2384,
         "severity": "warning",
         "message": "Function 'codes_used' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974851,7 +975001,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2459,
+        "line": 2471,
         "severity": "warning",
         "message": "Function 'syncsearch' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974859,7 +975009,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2477,
+        "line": 2489,
         "severity": "warning",
         "message": "Function 'sync' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974867,7 +975017,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2537,
+        "line": 2553,
         "severity": "warning",
         "message": "Function 'sync_point' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974875,7 +975025,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2588,
+        "line": 2604,
         "severity": "warning",
         "message": "Function 'undermine' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974883,7 +975033,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2605,
+        "line": 2621,
         "severity": "warning",
         "message": "Function 'mark' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974891,7 +975041,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2621,
+        "line": 2637,
         "severity": "warning",
         "message": "Function 'set_dictionary' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974899,7 +975049,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2648,
+        "line": 2664,
         "severity": "warning",
         "message": "Function 'end' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -974907,7 +975057,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2714,
+        "line": 2730,
         "severity": "warning",
         "message": "Mod 'tests' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974915,15 +975065,23 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
-        "line": 2718,
+        "line": 2734,
         "severity": "warning",
         "message": "Function 'uncompress_buffer_overflow' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
     {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate.rs",
+        "line": 2752,
+        "severity": "warning",
+        "message": "Function 'check_total_wraps' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 11,
+        "line": 7,
         "severity": "warning",
         "message": "Mod 'adler32' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974931,7 +975089,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 12,
+        "line": 8,
         "severity": "warning",
         "message": "Mod 'crc32' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974939,7 +975097,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 16,
+        "line": 12,
         "severity": "warning",
         "message": "Mod 'allocate' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974947,7 +975105,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 17,
+        "line": 13,
         "severity": "warning",
         "message": "Mod 'c_api' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974955,7 +975113,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 18,
+        "line": 14,
         "severity": "warning",
         "message": "Mod 'deflate' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974963,7 +975121,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 19,
+        "line": 15,
         "severity": "warning",
         "message": "Mod 'inflate' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974971,7 +975129,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 25,
+        "line": 21,
         "severity": "warning",
         "message": "Mod 'allocate' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974979,7 +975137,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 26,
+        "line": 22,
         "severity": "warning",
         "message": "Mod 'c_api' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974987,7 +975145,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 27,
+        "line": 23,
         "severity": "warning",
         "message": "Mod 'deflate' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -974995,7 +975153,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 28,
+        "line": 24,
         "severity": "warning",
         "message": "Mod 'inflate' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975003,7 +975161,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 35,
+        "line": 31,
         "severity": "warning",
         "message": "Mod 'cpu_features' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975011,7 +975169,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 36,
+        "line": 32,
         "severity": "warning",
         "message": "Mod 'stable' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975019,7 +975177,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 37,
+        "line": 33,
         "severity": "warning",
         "message": "Mod 'weak_slice' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975027,7 +975185,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 113,
+        "line": 109,
         "severity": "warning",
         "message": "Enum 'DeflateFlush' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -975035,7 +975193,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 173,
+        "line": 169,
         "severity": "warning",
         "message": "Impl 'TryFrom<i32> for DeflateFlush ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -975043,7 +975201,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 176,
+        "line": 172,
         "severity": "warning",
         "message": "Function 'try_from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975051,7 +975209,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 190,
+        "line": 186,
         "severity": "warning",
         "message": "Enum 'InflateFlush' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -975059,7 +975217,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 199,
+        "line": 195,
         "severity": "warning",
         "message": "Impl 'TryFrom<i32> for InflateFlush ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -975067,7 +975225,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 202,
+        "line": 198,
         "severity": "warning",
         "message": "Function 'try_from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975075,7 +975233,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 215,
+        "line": 211,
         "severity": "warning",
         "message": "Struct 'Code' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
@@ -975083,7 +975241,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 226,
+        "line": 222,
         "severity": "warning",
         "message": "Enum 'ReturnCode' sans documentation",
         "suggestion": "Ajoutez /// avant cette enum",
@@ -975091,7 +975249,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 238,
+        "line": 234,
         "severity": "warning",
         "message": "Impl 'From<i32> for ReturnCode ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -975099,7 +975257,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 239,
+        "line": 235,
         "severity": "warning",
         "message": "Function 'from' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975107,7 +975265,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 247,
+        "line": 243,
         "severity": "warning",
         "message": "Impl 'ReturnCode ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -975115,7 +975273,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/lib.rs",
-        "line": 248,
+        "line": 244,
         "severity": "warning",
         "message": "Function 'error_message_str' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975419,7 +975577,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 11,
+        "line": 20,
+        "severity": "warning",
+        "message": "Function 'compare256_quick_slice' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
+        "line": 36,
         "severity": "warning",
         "message": "Function 'compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975427,7 +975593,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 41,
+        "line": 66,
         "severity": "warning",
         "message": "Function 'compare256_rle_slice' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975435,7 +975601,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 56,
+        "line": 81,
         "severity": "warning",
         "message": "Mod 'rust' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975443,17 +975609,9 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 58,
+        "line": 83,
         "severity": "warning",
         "message": "Function 'compare256' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 64,
-        "severity": "warning",
-        "message": "Function 'compare256_rle' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
@@ -975461,13 +975619,21 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
         "line": 89,
         "severity": "warning",
+        "message": "Function 'compare256_rle' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
+        "line": 114,
+        "severity": "warning",
         "message": "Function 'test_compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 104,
+        "line": 130,
         "severity": "warning",
         "message": "Function 'test_compare256_rle' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975475,7 +975641,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 119,
+        "line": 145,
         "severity": "warning",
         "message": "Mod 'neon' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975483,7 +975649,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 207,
+        "line": 233,
         "severity": "warning",
         "message": "Function 'test_compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975491,7 +975657,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 225,
+        "line": 251,
         "severity": "warning",
         "message": "Mod 'avx2' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975499,7 +975665,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 267,
+        "line": 293,
         "severity": "warning",
         "message": "Function 'test_compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975507,7 +975673,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 286,
+        "line": 312,
         "severity": "warning",
         "message": "Mod 'avx512' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975515,7 +975681,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 354,
+        "line": 380,
         "severity": "warning",
         "message": "Function 'test_compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975523,7 +975689,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 372,
+        "line": 398,
         "severity": "warning",
         "message": "Mod 'lsx' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975531,7 +975697,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 376,
+        "line": 402,
         "severity": "warning",
         "message": "Function 'compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975539,7 +975705,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 407,
+        "line": 433,
         "severity": "warning",
         "message": "Function 'test_compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975547,7 +975713,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 425,
+        "line": 451,
         "severity": "warning",
         "message": "Mod 'wasm32' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -975555,7 +975721,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 429,
+        "line": 455,
         "severity": "warning",
         "message": "Function 'compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975563,7 +975729,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/compare256.rs",
-        "line": 455,
+        "line": 481,
         "severity": "warning",
         "message": "Function 'test_compare256' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975771,7 +975937,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/longest_match.rs",
-        "line": 11,
+        "line": 8,
+        "severity": "warning",
+        "message": "Function 'longest_match' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/longest_match.rs",
+        "line": 13,
         "severity": "warning",
         "message": "Function 'longest_match_slow' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975779,7 +975953,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/longest_match.rs",
-        "line": 15,
+        "line": 18,
         "severity": "warning",
         "message": "Function 'longest_match_help' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975787,7 +975961,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/longest_match.rs",
-        "line": 348,
+        "line": 351,
         "severity": "warning",
         "message": "Function 'break_matching' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975811,7 +975985,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/pending.rs",
-        "line": 22,
+        "line": 23,
         "severity": "warning",
         "message": "Function 'pending' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975819,7 +975993,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/pending.rs",
-        "line": 54,
+        "line": 55,
         "severity": "warning",
         "message": "Function 'rewind' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -975827,7 +976001,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/deflate/pending.rs",
-        "line": 66,
+        "line": 67,
         "severity": "warning",
         "message": "Function 'extend' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976019,7 +976193,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 22,
+        "line": 23,
         "severity": "warning",
         "message": "Function 'into_raw_parts' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976027,7 +976201,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 34,
+        "line": 47,
         "severity": "warning",
         "message": "Function 'is_empty' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976035,7 +976209,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 45,
+        "line": 58,
         "severity": "warning",
         "message": "Function 'size' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976043,7 +976217,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 65,
+        "line": 62,
+        "severity": "warning",
+        "message": "Function 'set_size' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
+        "line": 81,
         "severity": "warning",
         "message": "Function 'empty' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976051,7 +976233,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 73,
+        "line": 90,
         "severity": "warning",
         "message": "Function 'clear' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976059,7 +976241,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 78,
+        "line": 95,
         "severity": "warning",
         "message": "Function 'as_slice' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976067,7 +976249,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 82,
+        "line": 99,
         "severity": "warning",
         "message": "Function 'as_ptr' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976075,7 +976257,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 86,
+        "line": 103,
         "severity": "warning",
         "message": "Function 'as_mut_ptr' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976083,7 +976265,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 91,
+        "line": 108,
         "severity": "warning",
         "message": "Function 'extend_adler32' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976091,7 +976273,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 95,
+        "line": 112,
         "severity": "warning",
         "message": "Function 'extend' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976099,7 +976281,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 171,
+        "line": 188,
         "severity": "warning",
         "message": "Function 'new_in' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976107,7 +976289,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 195,
+        "line": 214,
         "severity": "warning",
         "message": "Function 'padding' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976115,7 +976297,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 201,
+        "line": 220,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -976123,7 +976305,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 204,
+        "line": 223,
         "severity": "warning",
         "message": "Function 'alloc_window' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976131,7 +976313,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 212,
+        "line": 231,
         "severity": "warning",
         "message": "Function 'window_init' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976139,7 +976321,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 227,
+        "line": 246,
         "severity": "warning",
         "message": "Function 'extend_in_bounds' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976147,7 +976329,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 257,
+        "line": 276,
         "severity": "warning",
         "message": "Function 'extend_crosses_bounds' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976155,7 +976337,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/window.rs",
-        "line": 287,
+        "line": 306,
         "severity": "warning",
         "message": "Function 'extend_out_of_bounds' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976507,7 +976689,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 122,
+        "line": 123,
         "severity": "warning",
         "message": "Function 'extend_from_window_runtime_dispatch' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976515,7 +976697,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 163,
+        "line": 164,
         "severity": "warning",
         "message": "Function 'extend_from_window_help' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976523,7 +976705,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 197,
+        "line": 198,
         "severity": "warning",
         "message": "Function 'extend_from_window_back' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976531,7 +976713,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 212,
+        "line": 213,
         "severity": "warning",
         "message": "Function 'copy_match' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976539,7 +976721,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 217,
+        "line": 218,
         "severity": "warning",
         "message": "Function 'copy_match_with_features' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976547,7 +976729,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 229,
+        "line": 231,
         "severity": "warning",
         "message": "Function 'copy_match_runtime_dispatch' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976555,7 +976737,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 266,
+        "line": 268,
         "severity": "warning",
         "message": "Function 'copy_match_help' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976563,7 +976745,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 303,
+        "line": 305,
         "severity": "warning",
         "message": "Function 'copy_match_back' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976571,7 +976753,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 331,
+        "line": 333,
         "severity": "warning",
         "message": "Function 'copy_chunked_within' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976579,7 +976761,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 415,
+        "line": 417,
         "severity": "warning",
         "message": "Impl 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -976587,7 +976769,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 416,
+        "line": 418,
         "severity": "warning",
         "message": "Function 'fmt' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976595,7 +976777,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 425,
+        "line": 427,
         "severity": "warning",
         "message": "Function 'slice_to_uninit' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976603,7 +976785,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 430,
+        "line": 432,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -976611,7 +976793,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 436,
+        "line": 438,
         "severity": "warning",
         "message": "Function 'test_array' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976619,7 +976801,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 440,
+        "line": 442,
         "severity": "warning",
         "message": "Function 'test_copy_match' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976627,7 +976809,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 464,
+        "line": 466,
         "severity": "warning",
         "message": "Function 'copy_chunk_unchecked' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976635,7 +976817,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 515,
+        "line": 517,
         "severity": "warning",
         "message": "Function 'copy_match' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -976643,7 +976825,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/inflate/writer.rs",
-        "line": 524,
+        "line": 526,
         "severity": "warning",
         "message": "Function 'copy_match_insufficient_space_for_simd' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977019,7 +977201,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 25,
+        "line": 27,
         "severity": "warning",
         "message": "Function 'adler32_neon' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977027,7 +977209,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 87,
+        "line": 89,
         "severity": "warning",
         "message": "Function 'handle_tail' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977035,7 +977217,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 233,
+        "line": 235,
         "severity": "warning",
         "message": "Mod 'tests' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -977043,7 +977225,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 237,
+        "line": 239,
         "severity": "warning",
         "message": "Function 'adler32_neon_is_adler32_rust' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977051,7 +977233,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 257,
+        "line": 259,
         "severity": "warning",
         "message": "Function 'start_alignment' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977059,7 +977241,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 270,
+        "line": 272,
         "severity": "warning",
         "message": "Function 'large_input' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977067,7 +977249,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/adler32/neon.rs",
-        "line": 282,
+        "line": 284,
         "severity": "warning",
         "message": "Function 'carry_in_with_unaligned_before_no_overflow' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977123,7 +977305,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 86,
+        "line": 88,
         "severity": "warning",
         "message": "Function 'crc32_braid' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977131,7 +977313,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 132,
+        "line": 134,
         "severity": "warning",
         "message": "Function 'braid_core' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977139,7 +977321,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 140,
+        "line": 142,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -977147,7 +977329,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 143,
+        "line": 145,
         "severity": "warning",
         "message": "Function 'crc32_naive' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977155,7 +977337,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 149,
+        "line": 151,
         "severity": "warning",
         "message": "Function 'crc32_words' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977163,7 +977345,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 160,
+        "line": 162,
         "severity": "warning",
         "message": "Function 'empty_is_identity' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977171,7 +977353,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 165,
+        "line": 167,
         "severity": "warning",
         "message": "Function 'words_endianness' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977179,7 +977361,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 175,
+        "line": 177,
         "severity": "warning",
         "message": "Function 'crc32_naive_inner_endianness_and_alignment' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977187,7 +977369,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 190,
+        "line": 192,
         "severity": "warning",
         "message": "Function 'naive_is_crc32fast' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977195,7 +977377,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 196,
+        "line": 198,
         "severity": "warning",
         "message": "Function 'words_is_crc32fast' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977203,7 +977385,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 203,
+        "line": 205,
         "severity": "warning",
         "message": "Function 'braid_4_is_crc32fast' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977211,7 +977393,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 210,
+        "line": 212,
         "severity": "warning",
         "message": "Function 'braid_5_is_crc32fast' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -977219,7 +977401,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/zlib-rs/src/crc32/braid.rs",
-        "line": 217,
+        "line": 219,
         "severity": "warning",
         "message": "Function 'braid_6_is_crc32fast' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1249835,7 +1250017,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 82,
+        "line": 86,
         "severity": "warning",
         "message": "Function 'shift' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1249843,7 +1250025,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 89,
+        "line": 93,
         "severity": "warning",
         "message": "Function 'combine' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1249851,7 +1250033,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 110,
+        "line": 114,
         "severity": "warning",
         "message": "Function 'fold_keys_match_the_x86_constants' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1249859,7 +1250041,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 118,
+        "line": 122,
         "severity": "warning",
         "message": "Function 'shift_table_appends_zeros' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1249867,7 +1250049,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/combine.rs",
-        "line": 135,
+        "line": 139,
         "severity": "warning",
         "message": "Function 'golden' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250131,7 +1250313,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 52,
+        "line": 58,
         "severity": "warning",
         "message": "Function 'has_pmull' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250139,7 +1250321,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 79,
+        "line": 85,
         "severity": "warning",
         "message": "Function 'quad' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250147,7 +1250329,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 301,
+        "line": 320,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -1250155,7 +1250337,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 319,
+        "line": 338,
         "severity": "warning",
         "message": "Function 'picks_the_expected_kernel' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250163,7 +1250345,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 334,
+        "line": 354,
         "severity": "warning",
         "message": "Function 'check_against_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250171,7 +1250353,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/aarch64.rs",
-        "line": 352,
+        "line": 372,
         "severity": "warning",
         "message": "Function 'check_large_inputs_against_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250237,13 +1250419,37 @@
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
         "line": 40,
         "severity": "warning",
+        "message": "Impl 'Kind ' sans documentation",
+        "suggestion": "Ajoutez /// avant cette impl",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
+        "line": 43,
+        "severity": "warning",
+        "message": "Function 'encode' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
+        "line": 56,
+        "severity": "warning",
+        "message": "Function 'decode' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
+        "line": 72,
+        "severity": "warning",
         "message": "Struct 'State' sans documentation",
         "suggestion": "Ajoutez /// avant cette struct",
         "module": "rust"
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 44,
+        "line": 76,
         "severity": "warning",
         "message": "Impl 'State ' sans documentation",
         "suggestion": "Ajoutez /// avant cette impl",
@@ -1250251,7 +1250457,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 47,
+        "line": 79,
         "severity": "warning",
         "message": "Function 'detect' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250259,7 +1250465,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 71,
+        "line": 106,
         "severity": "warning",
         "message": "Function 'detect' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250267,7 +1250473,15 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 94,
+        "line": 124,
+        "severity": "warning",
+        "message": "Function 'detect_uncached' sans documentation",
+        "suggestion": "Ajoutez /// avant cette function",
+        "module": "rust"
+    },
+    {
+        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
+        "line": 147,
         "severity": "warning",
         "message": "Function 'new' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250275,7 +1250489,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 100,
+        "line": 153,
         "severity": "warning",
         "message": "Function 'update' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250283,7 +1250497,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 444,
+        "line": 466,
         "severity": "warning",
         "message": "Function 'get' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250291,15 +1250505,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 475,
-        "severity": "warning",
-        "message": "Function 'partial_words' sans documentation",
-        "suggestion": "Ajoutez /// avant cette function",
-        "module": "rust"
-    },
-    {
-        "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 495,
+        "line": 494,
         "severity": "warning",
         "message": "Mod 'test' sans documentation",
         "suggestion": "Ajoutez /// avant cette mod",
@@ -1250307,7 +1250513,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 497,
+        "line": 496,
         "severity": "warning",
         "message": "Function 'check_against_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
@@ -1250315,7 +1250521,7 @@
     },
     {
         "file": "/home/runner/work/The-last-signal-/The-last-signal-/server_rust/vendor/crc32fast/src/specialized/pclmulqdq.rs",
-        "line": 519,
+        "line": 518,
         "severity": "warning",
         "message": "Function 'check_large_inputs_against_baseline' sans documentation",
         "suggestion": "Ajoutez /// avant cette function",
